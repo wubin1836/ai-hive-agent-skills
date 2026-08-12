@@ -1,6 +1,6 @@
 # AI Hive Agent Skills
 
-[![skills.sh](https://skills.sh/b/wubin1836/ai-hive-agent-skills)](https://skills.sh/wubin1836/ai-hive-agent-skills)
+[![skills.sh](https://skills.sh/b/wubin1836/ai-hive-agent-skills)](https://skills.sh/wubin1836/ai-hive-agent-skills/seedance-video-edit)
 
 233 production-oriented Agent Skills for AI image and video generation through the AI Hive OpenAPI. The collection exposes both model-level skills and focused model × capability × commercial-use-case skills so agents can select a precise workflow.
 
