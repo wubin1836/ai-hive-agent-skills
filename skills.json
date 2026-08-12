@@ -1,0 +1,2003 @@
+[
+  {
+    "name": "seedance",
+    "kind": "video",
+    "layer": "model",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "seedance-2-5",
+    "kind": "video",
+    "layer": "model",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "seedance-2-0",
+    "kind": "video",
+    "layer": "model",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3",
+    "kind": "video",
+    "layer": "model",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse",
+    "kind": "video",
+    "layer": "model",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_video_edit"
+    ]
+  },
+  {
+    "name": "seedance-text-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "seedance-image-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "seedance-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "seedance-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-image-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-video-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-audio-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-video-edit",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_video_edit"
+    ]
+  },
+  {
+    "name": "seedance-video-extend",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "seedance-2-5-text-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-image-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-image-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-video-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-audio-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-video-edit",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_video_edit"
+    ]
+  },
+  {
+    "name": "seedance-2-5-video-extend",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "seedance-2-0-text-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-image-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_i2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_i2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-image-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-video-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-audio-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-text-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-image-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_minimax_h3_i2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_minimax_h3_i2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-image-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-video-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-audio-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-text-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "happy-horse-image-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_happyhorse_i2v"
+    ]
+  },
+  {
+    "name": "happy-horse-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_happyhorse_i2v"
+    ]
+  },
+  {
+    "name": "happy-horse-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-image-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-video-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-audio-reference-to-video",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-video-edit",
+    "kind": "video",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_happyhorse_video_edit"
+    ]
+  },
+  {
+    "name": "seedance-ai-ad-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-tvc-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-product-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-ecommerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-social-commerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-seeding-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-short-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-comic-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-dynamic-comic-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-storyboard-to-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-ai-ad-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-tvc-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-product-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-ecommerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-social-commerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-seeding-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-short-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-comic-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-dynamic-comic-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-5-storyboard-to-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-ai-ad-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-tvc-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-product-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-ecommerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-social-commerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-seeding-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-short-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-comic-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-dynamic-comic-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "seedance-2-0-storyboard-to-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_seedance_t2v",
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-ai-ad-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-tvc-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-product-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-ecommerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-social-commerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-seeding-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-short-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-comic-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-dynamic-comic-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "minimax-h3-storyboard-to-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_minimax_h3_t2v",
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-ai-ad-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-tvc-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-product-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-ecommerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-social-commerce-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-seeding-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-short-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-comic-drama-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-dynamic-comic-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "happy-horse-storyboard-to-video",
+    "kind": "video",
+    "layer": "scene",
+    "model_ids": [
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "text-to-video",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "image-to-video",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "first-last-frame-to-video",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "reference-to-video",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "image-reference-to-video",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "video-reference-to-video",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "audio-reference-to-video",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "video-edit",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_video_edit"
+    ]
+  },
+  {
+    "name": "video-extend",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "video-generation",
+    "kind": "video",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-ad-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "tvc-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "product-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ecommerce-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "social-commerce-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "seeding-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "short-drama-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "comic-drama-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "dynamic-comic-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "storyboard-to-video",
+    "kind": "video",
+    "layer": "generic-scene",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "gpt-image-2",
+    "kind": "image",
+    "layer": "model",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2",
+    "kind": "image",
+    "layer": "model",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "nano-banana",
+    "kind": "image",
+    "layer": "model",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2",
+    "kind": "image",
+    "layer": "model",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-pro",
+    "kind": "image",
+    "layer": "model",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "seedream-5-lite",
+    "kind": "image",
+    "layer": "model",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "gpt-image-2-text-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-image-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-image-edit",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-multi-reference-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-product-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-ecommerce-main-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-product-detail-page",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-poster",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-ad-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-marketing-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-livestream-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-seeding-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-product-retouch",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-background-replace",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-exact-text-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "gpt-image-2-character-consistency",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-text-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-image-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-image-edit",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-multi-reference-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-product-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-ecommerce-main-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-product-detail-page",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-poster",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-ad-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-marketing-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-livestream-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-seeding-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-product-retouch",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-background-replace",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-exact-text-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "image-2-character-consistency",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "nano-banana-text-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-image-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-image-edit",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-multi-reference-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-product-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-ecommerce-main-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-product-detail-page",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-poster",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-ad-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-marketing-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-livestream-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-seeding-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-product-retouch",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-background-replace",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-exact-text-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-character-consistency",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-text-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-image-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-image-edit",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-multi-reference-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-product-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-ecommerce-main-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-product-detail-page",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-poster",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-ad-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-marketing-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-livestream-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-seeding-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-product-retouch",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-background-replace",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-exact-text-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-2-character-consistency",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-text-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-image-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-image-edit",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-multi-reference-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-product-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-ecommerce-main-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-product-detail-page",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-poster",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-ad-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-marketing-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-livestream-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-seeding-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-product-retouch",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-background-replace",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-exact-text-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "nano-banana-pro-character-consistency",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-text-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-image-to-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-image-edit",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-multi-reference-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-product-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-ecommerce-main-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-product-detail-page",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-poster",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-ad-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-marketing-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-livestream-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-seeding-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-product-retouch",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-background-replace",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-exact-text-image",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "seedream-5-lite-character-consistency",
+    "kind": "image",
+    "layer": "capability",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "text-to-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "image-to-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "image-edit",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "multi-reference-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "product-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ecommerce-main-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "product-detail-page",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "poster",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ad-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "marketing-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "livestream-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "seeding-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "product-retouch",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "background-replace",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "exact-text-image",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "character-consistency",
+    "kind": "image",
+    "layer": "generic-capability",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  }
+]
