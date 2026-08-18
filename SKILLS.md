@@ -1,239 +1,354 @@
-# Skill Directory
+# AI Hive 完整 Skill 目录
 
-This repository contains **233** independent Agent Skills.
+仓库当前包含 340 个可独立安装的 Agent Skill：233 个原有英文 Skill，以及本次新增的 107 个中文 Skill。
 
-| Skill | Type | Layer |
-|---|---|---|
-| [`seedance`](skills/seedance/SKILL.md) | video | model |
-| [`seedance-2-5`](skills/seedance-2-5/SKILL.md) | video | model |
-| [`seedance-2-0`](skills/seedance-2-0/SKILL.md) | video | model |
-| [`minimax-h3`](skills/minimax-h3/SKILL.md) | video | model |
-| [`happy-horse`](skills/happy-horse/SKILL.md) | video | model |
-| [`seedance-text-to-video`](skills/seedance-text-to-video/SKILL.md) | video | capability |
-| [`seedance-image-to-video`](skills/seedance-image-to-video/SKILL.md) | video | capability |
-| [`seedance-first-last-frame-to-video`](skills/seedance-first-last-frame-to-video/SKILL.md) | video | capability |
-| [`seedance-reference-to-video`](skills/seedance-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-image-reference-to-video`](skills/seedance-image-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-video-reference-to-video`](skills/seedance-video-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-audio-reference-to-video`](skills/seedance-audio-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-video-edit`](skills/seedance-video-edit/SKILL.md) | video | capability |
-| [`seedance-video-extend`](skills/seedance-video-extend/SKILL.md) | video | capability |
-| [`seedance-2-5-text-to-video`](skills/seedance-2-5-text-to-video/SKILL.md) | video | capability |
-| [`seedance-2-5-image-to-video`](skills/seedance-2-5-image-to-video/SKILL.md) | video | capability |
-| [`seedance-2-5-first-last-frame-to-video`](skills/seedance-2-5-first-last-frame-to-video/SKILL.md) | video | capability |
-| [`seedance-2-5-reference-to-video`](skills/seedance-2-5-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-2-5-image-reference-to-video`](skills/seedance-2-5-image-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-2-5-video-reference-to-video`](skills/seedance-2-5-video-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-2-5-audio-reference-to-video`](skills/seedance-2-5-audio-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-2-5-video-edit`](skills/seedance-2-5-video-edit/SKILL.md) | video | capability |
-| [`seedance-2-5-video-extend`](skills/seedance-2-5-video-extend/SKILL.md) | video | capability |
-| [`seedance-2-0-text-to-video`](skills/seedance-2-0-text-to-video/SKILL.md) | video | capability |
-| [`seedance-2-0-image-to-video`](skills/seedance-2-0-image-to-video/SKILL.md) | video | capability |
-| [`seedance-2-0-first-last-frame-to-video`](skills/seedance-2-0-first-last-frame-to-video/SKILL.md) | video | capability |
-| [`seedance-2-0-reference-to-video`](skills/seedance-2-0-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-2-0-image-reference-to-video`](skills/seedance-2-0-image-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-2-0-video-reference-to-video`](skills/seedance-2-0-video-reference-to-video/SKILL.md) | video | capability |
-| [`seedance-2-0-audio-reference-to-video`](skills/seedance-2-0-audio-reference-to-video/SKILL.md) | video | capability |
-| [`minimax-h3-text-to-video`](skills/minimax-h3-text-to-video/SKILL.md) | video | capability |
-| [`minimax-h3-image-to-video`](skills/minimax-h3-image-to-video/SKILL.md) | video | capability |
-| [`minimax-h3-first-last-frame-to-video`](skills/minimax-h3-first-last-frame-to-video/SKILL.md) | video | capability |
-| [`minimax-h3-reference-to-video`](skills/minimax-h3-reference-to-video/SKILL.md) | video | capability |
-| [`minimax-h3-image-reference-to-video`](skills/minimax-h3-image-reference-to-video/SKILL.md) | video | capability |
-| [`minimax-h3-video-reference-to-video`](skills/minimax-h3-video-reference-to-video/SKILL.md) | video | capability |
-| [`minimax-h3-audio-reference-to-video`](skills/minimax-h3-audio-reference-to-video/SKILL.md) | video | capability |
-| [`happy-horse-text-to-video`](skills/happy-horse-text-to-video/SKILL.md) | video | capability |
-| [`happy-horse-image-to-video`](skills/happy-horse-image-to-video/SKILL.md) | video | capability |
-| [`happy-horse-first-last-frame-to-video`](skills/happy-horse-first-last-frame-to-video/SKILL.md) | video | capability |
-| [`happy-horse-reference-to-video`](skills/happy-horse-reference-to-video/SKILL.md) | video | capability |
-| [`happy-horse-image-reference-to-video`](skills/happy-horse-image-reference-to-video/SKILL.md) | video | capability |
-| [`happy-horse-video-reference-to-video`](skills/happy-horse-video-reference-to-video/SKILL.md) | video | capability |
-| [`happy-horse-audio-reference-to-video`](skills/happy-horse-audio-reference-to-video/SKILL.md) | video | capability |
-| [`happy-horse-video-edit`](skills/happy-horse-video-edit/SKILL.md) | video | capability |
-| [`seedance-ai-ad-video`](skills/seedance-ai-ad-video/SKILL.md) | video | scene |
-| [`seedance-tvc-video`](skills/seedance-tvc-video/SKILL.md) | video | scene |
-| [`seedance-product-video`](skills/seedance-product-video/SKILL.md) | video | scene |
-| [`seedance-ecommerce-video`](skills/seedance-ecommerce-video/SKILL.md) | video | scene |
-| [`seedance-social-commerce-video`](skills/seedance-social-commerce-video/SKILL.md) | video | scene |
-| [`seedance-seeding-video`](skills/seedance-seeding-video/SKILL.md) | video | scene |
-| [`seedance-short-drama-video`](skills/seedance-short-drama-video/SKILL.md) | video | scene |
-| [`seedance-comic-drama-video`](skills/seedance-comic-drama-video/SKILL.md) | video | scene |
-| [`seedance-dynamic-comic-video`](skills/seedance-dynamic-comic-video/SKILL.md) | video | scene |
-| [`seedance-storyboard-to-video`](skills/seedance-storyboard-to-video/SKILL.md) | video | scene |
-| [`seedance-2-5-ai-ad-video`](skills/seedance-2-5-ai-ad-video/SKILL.md) | video | scene |
-| [`seedance-2-5-tvc-video`](skills/seedance-2-5-tvc-video/SKILL.md) | video | scene |
-| [`seedance-2-5-product-video`](skills/seedance-2-5-product-video/SKILL.md) | video | scene |
-| [`seedance-2-5-ecommerce-video`](skills/seedance-2-5-ecommerce-video/SKILL.md) | video | scene |
-| [`seedance-2-5-social-commerce-video`](skills/seedance-2-5-social-commerce-video/SKILL.md) | video | scene |
-| [`seedance-2-5-seeding-video`](skills/seedance-2-5-seeding-video/SKILL.md) | video | scene |
-| [`seedance-2-5-short-drama-video`](skills/seedance-2-5-short-drama-video/SKILL.md) | video | scene |
-| [`seedance-2-5-comic-drama-video`](skills/seedance-2-5-comic-drama-video/SKILL.md) | video | scene |
-| [`seedance-2-5-dynamic-comic-video`](skills/seedance-2-5-dynamic-comic-video/SKILL.md) | video | scene |
-| [`seedance-2-5-storyboard-to-video`](skills/seedance-2-5-storyboard-to-video/SKILL.md) | video | scene |
-| [`seedance-2-0-ai-ad-video`](skills/seedance-2-0-ai-ad-video/SKILL.md) | video | scene |
-| [`seedance-2-0-tvc-video`](skills/seedance-2-0-tvc-video/SKILL.md) | video | scene |
-| [`seedance-2-0-product-video`](skills/seedance-2-0-product-video/SKILL.md) | video | scene |
-| [`seedance-2-0-ecommerce-video`](skills/seedance-2-0-ecommerce-video/SKILL.md) | video | scene |
-| [`seedance-2-0-social-commerce-video`](skills/seedance-2-0-social-commerce-video/SKILL.md) | video | scene |
-| [`seedance-2-0-seeding-video`](skills/seedance-2-0-seeding-video/SKILL.md) | video | scene |
-| [`seedance-2-0-short-drama-video`](skills/seedance-2-0-short-drama-video/SKILL.md) | video | scene |
-| [`seedance-2-0-comic-drama-video`](skills/seedance-2-0-comic-drama-video/SKILL.md) | video | scene |
-| [`seedance-2-0-dynamic-comic-video`](skills/seedance-2-0-dynamic-comic-video/SKILL.md) | video | scene |
-| [`seedance-2-0-storyboard-to-video`](skills/seedance-2-0-storyboard-to-video/SKILL.md) | video | scene |
-| [`minimax-h3-ai-ad-video`](skills/minimax-h3-ai-ad-video/SKILL.md) | video | scene |
-| [`minimax-h3-tvc-video`](skills/minimax-h3-tvc-video/SKILL.md) | video | scene |
-| [`minimax-h3-product-video`](skills/minimax-h3-product-video/SKILL.md) | video | scene |
-| [`minimax-h3-ecommerce-video`](skills/minimax-h3-ecommerce-video/SKILL.md) | video | scene |
-| [`minimax-h3-social-commerce-video`](skills/minimax-h3-social-commerce-video/SKILL.md) | video | scene |
-| [`minimax-h3-seeding-video`](skills/minimax-h3-seeding-video/SKILL.md) | video | scene |
-| [`minimax-h3-short-drama-video`](skills/minimax-h3-short-drama-video/SKILL.md) | video | scene |
-| [`minimax-h3-comic-drama-video`](skills/minimax-h3-comic-drama-video/SKILL.md) | video | scene |
-| [`minimax-h3-dynamic-comic-video`](skills/minimax-h3-dynamic-comic-video/SKILL.md) | video | scene |
-| [`minimax-h3-storyboard-to-video`](skills/minimax-h3-storyboard-to-video/SKILL.md) | video | scene |
-| [`happy-horse-ai-ad-video`](skills/happy-horse-ai-ad-video/SKILL.md) | video | scene |
-| [`happy-horse-tvc-video`](skills/happy-horse-tvc-video/SKILL.md) | video | scene |
-| [`happy-horse-product-video`](skills/happy-horse-product-video/SKILL.md) | video | scene |
-| [`happy-horse-ecommerce-video`](skills/happy-horse-ecommerce-video/SKILL.md) | video | scene |
-| [`happy-horse-social-commerce-video`](skills/happy-horse-social-commerce-video/SKILL.md) | video | scene |
-| [`happy-horse-seeding-video`](skills/happy-horse-seeding-video/SKILL.md) | video | scene |
-| [`happy-horse-short-drama-video`](skills/happy-horse-short-drama-video/SKILL.md) | video | scene |
-| [`happy-horse-comic-drama-video`](skills/happy-horse-comic-drama-video/SKILL.md) | video | scene |
-| [`happy-horse-dynamic-comic-video`](skills/happy-horse-dynamic-comic-video/SKILL.md) | video | scene |
-| [`happy-horse-storyboard-to-video`](skills/happy-horse-storyboard-to-video/SKILL.md) | video | scene |
-| [`text-to-video`](skills/text-to-video/SKILL.md) | video | generic-capability |
-| [`image-to-video`](skills/image-to-video/SKILL.md) | video | generic-capability |
-| [`first-last-frame-to-video`](skills/first-last-frame-to-video/SKILL.md) | video | generic-capability |
-| [`reference-to-video`](skills/reference-to-video/SKILL.md) | video | generic-capability |
-| [`image-reference-to-video`](skills/image-reference-to-video/SKILL.md) | video | generic-capability |
-| [`video-reference-to-video`](skills/video-reference-to-video/SKILL.md) | video | generic-capability |
-| [`audio-reference-to-video`](skills/audio-reference-to-video/SKILL.md) | video | generic-capability |
-| [`video-edit`](skills/video-edit/SKILL.md) | video | generic-capability |
-| [`video-extend`](skills/video-extend/SKILL.md) | video | generic-capability |
-| [`video-generation`](skills/video-generation/SKILL.md) | video | generic-capability |
-| [`ai-ad-video`](skills/ai-ad-video/SKILL.md) | video | generic-scene |
-| [`tvc-video`](skills/tvc-video/SKILL.md) | video | generic-scene |
-| [`product-video`](skills/product-video/SKILL.md) | video | generic-scene |
-| [`ecommerce-video`](skills/ecommerce-video/SKILL.md) | video | generic-scene |
-| [`social-commerce-video`](skills/social-commerce-video/SKILL.md) | video | generic-scene |
-| [`seeding-video`](skills/seeding-video/SKILL.md) | video | generic-scene |
-| [`short-drama-video`](skills/short-drama-video/SKILL.md) | video | generic-scene |
-| [`comic-drama-video`](skills/comic-drama-video/SKILL.md) | video | generic-scene |
-| [`dynamic-comic-video`](skills/dynamic-comic-video/SKILL.md) | video | generic-scene |
-| [`storyboard-to-video`](skills/storyboard-to-video/SKILL.md) | video | generic-scene |
-| [`gpt-image-2`](skills/gpt-image-2/SKILL.md) | image | model |
-| [`image-2`](skills/image-2/SKILL.md) | image | model |
-| [`nano-banana`](skills/nano-banana/SKILL.md) | image | model |
-| [`nano-banana-2`](skills/nano-banana-2/SKILL.md) | image | model |
-| [`nano-banana-pro`](skills/nano-banana-pro/SKILL.md) | image | model |
-| [`seedream-5-lite`](skills/seedream-5-lite/SKILL.md) | image | model |
-| [`gpt-image-2-text-to-image`](skills/gpt-image-2-text-to-image/SKILL.md) | image | capability |
-| [`gpt-image-2-image-to-image`](skills/gpt-image-2-image-to-image/SKILL.md) | image | capability |
-| [`gpt-image-2-image-edit`](skills/gpt-image-2-image-edit/SKILL.md) | image | capability |
-| [`gpt-image-2-multi-reference-image`](skills/gpt-image-2-multi-reference-image/SKILL.md) | image | capability |
-| [`gpt-image-2-product-image`](skills/gpt-image-2-product-image/SKILL.md) | image | capability |
-| [`gpt-image-2-ecommerce-main-image`](skills/gpt-image-2-ecommerce-main-image/SKILL.md) | image | capability |
-| [`gpt-image-2-product-detail-page`](skills/gpt-image-2-product-detail-page/SKILL.md) | image | capability |
-| [`gpt-image-2-poster`](skills/gpt-image-2-poster/SKILL.md) | image | capability |
-| [`gpt-image-2-ad-image`](skills/gpt-image-2-ad-image/SKILL.md) | image | capability |
-| [`gpt-image-2-marketing-image`](skills/gpt-image-2-marketing-image/SKILL.md) | image | capability |
-| [`gpt-image-2-livestream-image`](skills/gpt-image-2-livestream-image/SKILL.md) | image | capability |
-| [`gpt-image-2-seeding-image`](skills/gpt-image-2-seeding-image/SKILL.md) | image | capability |
-| [`gpt-image-2-product-retouch`](skills/gpt-image-2-product-retouch/SKILL.md) | image | capability |
-| [`gpt-image-2-background-replace`](skills/gpt-image-2-background-replace/SKILL.md) | image | capability |
-| [`gpt-image-2-exact-text-image`](skills/gpt-image-2-exact-text-image/SKILL.md) | image | capability |
-| [`gpt-image-2-character-consistency`](skills/gpt-image-2-character-consistency/SKILL.md) | image | capability |
-| [`image-2-text-to-image`](skills/image-2-text-to-image/SKILL.md) | image | capability |
-| [`image-2-image-to-image`](skills/image-2-image-to-image/SKILL.md) | image | capability |
-| [`image-2-image-edit`](skills/image-2-image-edit/SKILL.md) | image | capability |
-| [`image-2-multi-reference-image`](skills/image-2-multi-reference-image/SKILL.md) | image | capability |
-| [`image-2-product-image`](skills/image-2-product-image/SKILL.md) | image | capability |
-| [`image-2-ecommerce-main-image`](skills/image-2-ecommerce-main-image/SKILL.md) | image | capability |
-| [`image-2-product-detail-page`](skills/image-2-product-detail-page/SKILL.md) | image | capability |
-| [`image-2-poster`](skills/image-2-poster/SKILL.md) | image | capability |
-| [`image-2-ad-image`](skills/image-2-ad-image/SKILL.md) | image | capability |
-| [`image-2-marketing-image`](skills/image-2-marketing-image/SKILL.md) | image | capability |
-| [`image-2-livestream-image`](skills/image-2-livestream-image/SKILL.md) | image | capability |
-| [`image-2-seeding-image`](skills/image-2-seeding-image/SKILL.md) | image | capability |
-| [`image-2-product-retouch`](skills/image-2-product-retouch/SKILL.md) | image | capability |
-| [`image-2-background-replace`](skills/image-2-background-replace/SKILL.md) | image | capability |
-| [`image-2-exact-text-image`](skills/image-2-exact-text-image/SKILL.md) | image | capability |
-| [`image-2-character-consistency`](skills/image-2-character-consistency/SKILL.md) | image | capability |
-| [`nano-banana-text-to-image`](skills/nano-banana-text-to-image/SKILL.md) | image | capability |
-| [`nano-banana-image-to-image`](skills/nano-banana-image-to-image/SKILL.md) | image | capability |
-| [`nano-banana-image-edit`](skills/nano-banana-image-edit/SKILL.md) | image | capability |
-| [`nano-banana-multi-reference-image`](skills/nano-banana-multi-reference-image/SKILL.md) | image | capability |
-| [`nano-banana-product-image`](skills/nano-banana-product-image/SKILL.md) | image | capability |
-| [`nano-banana-ecommerce-main-image`](skills/nano-banana-ecommerce-main-image/SKILL.md) | image | capability |
-| [`nano-banana-product-detail-page`](skills/nano-banana-product-detail-page/SKILL.md) | image | capability |
-| [`nano-banana-poster`](skills/nano-banana-poster/SKILL.md) | image | capability |
-| [`nano-banana-ad-image`](skills/nano-banana-ad-image/SKILL.md) | image | capability |
-| [`nano-banana-marketing-image`](skills/nano-banana-marketing-image/SKILL.md) | image | capability |
-| [`nano-banana-livestream-image`](skills/nano-banana-livestream-image/SKILL.md) | image | capability |
-| [`nano-banana-seeding-image`](skills/nano-banana-seeding-image/SKILL.md) | image | capability |
-| [`nano-banana-product-retouch`](skills/nano-banana-product-retouch/SKILL.md) | image | capability |
-| [`nano-banana-background-replace`](skills/nano-banana-background-replace/SKILL.md) | image | capability |
-| [`nano-banana-exact-text-image`](skills/nano-banana-exact-text-image/SKILL.md) | image | capability |
-| [`nano-banana-character-consistency`](skills/nano-banana-character-consistency/SKILL.md) | image | capability |
-| [`nano-banana-2-text-to-image`](skills/nano-banana-2-text-to-image/SKILL.md) | image | capability |
-| [`nano-banana-2-image-to-image`](skills/nano-banana-2-image-to-image/SKILL.md) | image | capability |
-| [`nano-banana-2-image-edit`](skills/nano-banana-2-image-edit/SKILL.md) | image | capability |
-| [`nano-banana-2-multi-reference-image`](skills/nano-banana-2-multi-reference-image/SKILL.md) | image | capability |
-| [`nano-banana-2-product-image`](skills/nano-banana-2-product-image/SKILL.md) | image | capability |
-| [`nano-banana-2-ecommerce-main-image`](skills/nano-banana-2-ecommerce-main-image/SKILL.md) | image | capability |
-| [`nano-banana-2-product-detail-page`](skills/nano-banana-2-product-detail-page/SKILL.md) | image | capability |
-| [`nano-banana-2-poster`](skills/nano-banana-2-poster/SKILL.md) | image | capability |
-| [`nano-banana-2-ad-image`](skills/nano-banana-2-ad-image/SKILL.md) | image | capability |
-| [`nano-banana-2-marketing-image`](skills/nano-banana-2-marketing-image/SKILL.md) | image | capability |
-| [`nano-banana-2-livestream-image`](skills/nano-banana-2-livestream-image/SKILL.md) | image | capability |
-| [`nano-banana-2-seeding-image`](skills/nano-banana-2-seeding-image/SKILL.md) | image | capability |
-| [`nano-banana-2-product-retouch`](skills/nano-banana-2-product-retouch/SKILL.md) | image | capability |
-| [`nano-banana-2-background-replace`](skills/nano-banana-2-background-replace/SKILL.md) | image | capability |
-| [`nano-banana-2-exact-text-image`](skills/nano-banana-2-exact-text-image/SKILL.md) | image | capability |
-| [`nano-banana-2-character-consistency`](skills/nano-banana-2-character-consistency/SKILL.md) | image | capability |
-| [`nano-banana-pro-text-to-image`](skills/nano-banana-pro-text-to-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-image-to-image`](skills/nano-banana-pro-image-to-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-image-edit`](skills/nano-banana-pro-image-edit/SKILL.md) | image | capability |
-| [`nano-banana-pro-multi-reference-image`](skills/nano-banana-pro-multi-reference-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-product-image`](skills/nano-banana-pro-product-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-ecommerce-main-image`](skills/nano-banana-pro-ecommerce-main-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-product-detail-page`](skills/nano-banana-pro-product-detail-page/SKILL.md) | image | capability |
-| [`nano-banana-pro-poster`](skills/nano-banana-pro-poster/SKILL.md) | image | capability |
-| [`nano-banana-pro-ad-image`](skills/nano-banana-pro-ad-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-marketing-image`](skills/nano-banana-pro-marketing-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-livestream-image`](skills/nano-banana-pro-livestream-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-seeding-image`](skills/nano-banana-pro-seeding-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-product-retouch`](skills/nano-banana-pro-product-retouch/SKILL.md) | image | capability |
-| [`nano-banana-pro-background-replace`](skills/nano-banana-pro-background-replace/SKILL.md) | image | capability |
-| [`nano-banana-pro-exact-text-image`](skills/nano-banana-pro-exact-text-image/SKILL.md) | image | capability |
-| [`nano-banana-pro-character-consistency`](skills/nano-banana-pro-character-consistency/SKILL.md) | image | capability |
-| [`seedream-5-lite-text-to-image`](skills/seedream-5-lite-text-to-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-image-to-image`](skills/seedream-5-lite-image-to-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-image-edit`](skills/seedream-5-lite-image-edit/SKILL.md) | image | capability |
-| [`seedream-5-lite-multi-reference-image`](skills/seedream-5-lite-multi-reference-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-product-image`](skills/seedream-5-lite-product-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-ecommerce-main-image`](skills/seedream-5-lite-ecommerce-main-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-product-detail-page`](skills/seedream-5-lite-product-detail-page/SKILL.md) | image | capability |
-| [`seedream-5-lite-poster`](skills/seedream-5-lite-poster/SKILL.md) | image | capability |
-| [`seedream-5-lite-ad-image`](skills/seedream-5-lite-ad-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-marketing-image`](skills/seedream-5-lite-marketing-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-livestream-image`](skills/seedream-5-lite-livestream-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-seeding-image`](skills/seedream-5-lite-seeding-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-product-retouch`](skills/seedream-5-lite-product-retouch/SKILL.md) | image | capability |
-| [`seedream-5-lite-background-replace`](skills/seedream-5-lite-background-replace/SKILL.md) | image | capability |
-| [`seedream-5-lite-exact-text-image`](skills/seedream-5-lite-exact-text-image/SKILL.md) | image | capability |
-| [`seedream-5-lite-character-consistency`](skills/seedream-5-lite-character-consistency/SKILL.md) | image | capability |
-| [`text-to-image`](skills/text-to-image/SKILL.md) | image | generic-capability |
-| [`image-to-image`](skills/image-to-image/SKILL.md) | image | generic-capability |
-| [`image-edit`](skills/image-edit/SKILL.md) | image | generic-capability |
-| [`multi-reference-image`](skills/multi-reference-image/SKILL.md) | image | generic-capability |
-| [`product-image`](skills/product-image/SKILL.md) | image | generic-capability |
-| [`ecommerce-main-image`](skills/ecommerce-main-image/SKILL.md) | image | generic-capability |
-| [`product-detail-page`](skills/product-detail-page/SKILL.md) | image | generic-capability |
-| [`poster`](skills/poster/SKILL.md) | image | generic-capability |
-| [`ad-image`](skills/ad-image/SKILL.md) | image | generic-capability |
-| [`marketing-image`](skills/marketing-image/SKILL.md) | image | generic-capability |
-| [`livestream-image`](skills/livestream-image/SKILL.md) | image | generic-capability |
-| [`seeding-image`](skills/seeding-image/SKILL.md) | image | generic-capability |
-| [`product-retouch`](skills/product-retouch/SKILL.md) | image | generic-capability |
-| [`background-replace`](skills/background-replace/SKILL.md) | image | generic-capability |
-| [`exact-text-image`](skills/exact-text-image/SKILL.md) | image | generic-capability |
-| [`character-consistency`](skills/character-consistency/SKILL.md) | image | generic-capability |
+| Skill | 类型 | 层级 | 语言 |
+|---|---|---|---|
+| [`1688-ecommerce-image-generation-editing`](skills/1688-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`1688-ecommerce-video-generation-editing`](skills/1688-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`ad-image`](skills/ad-image/SKILL.md) | 图片 | generic-capability | English |
+| [`adobe-firefly-image-generation-editing-alternative`](skills/adobe-firefly-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`ai-ad-video`](skills/ai-ad-video/SKILL.md) | 视频 | generic-scene | English |
+| [`ai-digital-human-talking-video-generation`](skills/ai-digital-human-talking-video-generation/SKILL.md) | 视频 | scenario | 中文 |
+| [`ai-poster-generation-editing`](skills/ai-poster-generation-editing/SKILL.md) | 图片 | scenario | 中文 |
+| [`ai-short-drama-generation-editing-studio`](skills/ai-short-drama-generation-editing-studio/SKILL.md) | 视频 | scenario | 中文 |
+| [`aliexpress-ecommerce-image-generation-editing`](skills/aliexpress-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`aliexpress-ecommerce-video-generation-editing`](skills/aliexpress-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`amazon-ecommerce-image-generation-editing`](skills/amazon-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`amazon-ecommerce-video-generation-editing`](skills/amazon-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`amazon-listing-image-generation-editing`](skills/amazon-listing-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`audio-reference-to-video`](skills/audio-reference-to-video/SKILL.md) | 视频 | generic-capability | English |
+| [`background-replace`](skills/background-replace/SKILL.md) | 图片 | generic-capability | English |
+| [`canva-image-generation-editing-alternative`](skills/canva-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`capcut-video-generation-alternative`](skills/capcut-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`cart-sales-short-video-generation-editing`](skills/cart-sales-short-video-generation-editing/SKILL.md) | 视频 | scenario | 中文 |
+| [`character-consistency`](skills/character-consistency/SKILL.md) | 图片 | generic-capability | English |
+| [`chinese-text-commercial-poster-generation`](skills/chinese-text-commercial-poster-generation/SKILL.md) | 图片 | scenario | 中文 |
+| [`comic-drama-video`](skills/comic-drama-video/SKILL.md) | 视频 | generic-scene | English |
+| [`douyin-ecommerce-ecommerce-image-generation-editing`](skills/douyin-ecommerce-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`douyin-ecommerce-ecommerce-video-generation-editing`](skills/douyin-ecommerce-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`douyin-viral-cover-image-generation`](skills/douyin-viral-cover-image-generation/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`douyin-viral-video-generation-editing`](skills/douyin-viral-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`dreamina-image-generation-editing-alternative`](skills/dreamina-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`dreamina-video-generation-alternative`](skills/dreamina-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`dynamic-comic-video`](skills/dynamic-comic-video/SKILL.md) | 视频 | generic-scene | English |
+| [`ebay-ecommerce-image-generation-editing`](skills/ebay-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`ebay-ecommerce-video-generation-editing`](skills/ebay-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`ecommerce-bestseller-main-image-generation-editing`](skills/ecommerce-bestseller-main-image-generation-editing/SKILL.md) | 图片 | scenario | 中文 |
+| [`ecommerce-main-image`](skills/ecommerce-main-image/SKILL.md) | 图片 | generic-capability | English |
+| [`ecommerce-video`](skills/ecommerce-video/SKILL.md) | 视频 | generic-scene | English |
+| [`ecommerce-viral-sales-video-generation-editing`](skills/ecommerce-viral-sales-video-generation-editing/SKILL.md) | 视频 | scenario | 中文 |
+| [`etsy-ecommerce-image-generation-editing`](skills/etsy-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`etsy-ecommerce-video-generation-editing`](skills/etsy-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`exact-text-image`](skills/exact-text-image/SKILL.md) | 图片 | generic-capability | English |
+| [`first-last-frame-to-video`](skills/first-last-frame-to-video/SKILL.md) | 视频 | generic-capability | English |
+| [`flux-image-generation-editing-alternative`](skills/flux-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`gpt-image-2`](skills/gpt-image-2/SKILL.md) | 图片 | model | English |
+| [`gpt-image-2-ad-image`](skills/gpt-image-2-ad-image/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-background-replace`](skills/gpt-image-2-background-replace/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-character-consistency`](skills/gpt-image-2-character-consistency/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-ecommerce-main-image`](skills/gpt-image-2-ecommerce-main-image/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-exact-text-image`](skills/gpt-image-2-exact-text-image/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-image-edit`](skills/gpt-image-2-image-edit/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-image-to-image`](skills/gpt-image-2-image-to-image/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-livestream-image`](skills/gpt-image-2-livestream-image/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-marketing-image`](skills/gpt-image-2-marketing-image/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-multi-reference-image`](skills/gpt-image-2-multi-reference-image/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-poster`](skills/gpt-image-2-poster/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-product-detail-page`](skills/gpt-image-2-product-detail-page/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-product-image`](skills/gpt-image-2-product-image/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-product-retouch`](skills/gpt-image-2-product-retouch/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-seeding-image`](skills/gpt-image-2-seeding-image/SKILL.md) | 图片 | capability | English |
+| [`gpt-image-2-text-to-image`](skills/gpt-image-2-text-to-image/SKILL.md) | 图片 | capability | English |
+| [`hailuo-video-generation-alternative`](skills/hailuo-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`happy-horse`](skills/happy-horse/SKILL.md) | 视频 | model | English |
+| [`happy-horse-ai-ad-video`](skills/happy-horse-ai-ad-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-audio-reference-to-video`](skills/happy-horse-audio-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`happy-horse-comic-drama-video`](skills/happy-horse-comic-drama-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-dynamic-comic-video`](skills/happy-horse-dynamic-comic-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-ecommerce-video`](skills/happy-horse-ecommerce-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-first-last-frame-to-video`](skills/happy-horse-first-last-frame-to-video/SKILL.md) | 视频 | capability | English |
+| [`happy-horse-image-reference-to-video`](skills/happy-horse-image-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`happy-horse-image-to-video`](skills/happy-horse-image-to-video/SKILL.md) | 视频 | capability | English |
+| [`happy-horse-product-video`](skills/happy-horse-product-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-reference-to-video`](skills/happy-horse-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`happy-horse-seeding-video`](skills/happy-horse-seeding-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-short-drama-video`](skills/happy-horse-short-drama-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-social-commerce-video`](skills/happy-horse-social-commerce-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-storyboard-to-video`](skills/happy-horse-storyboard-to-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-text-to-video`](skills/happy-horse-text-to-video/SKILL.md) | 视频 | capability | English |
+| [`happy-horse-tvc-video`](skills/happy-horse-tvc-video/SKILL.md) | 视频 | scene | English |
+| [`happy-horse-video-edit`](skills/happy-horse-video-edit/SKILL.md) | 视频 | capability | English |
+| [`happy-horse-video-generation-and-editing`](skills/happy-horse-video-generation-and-editing/SKILL.md) | 视频 | model-suite | 中文 |
+| [`happy-horse-video-reference-to-video`](skills/happy-horse-video-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`heygen-video-generation-alternative`](skills/heygen-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`high-conversion-ad-image-generation-editing`](skills/high-conversion-ad-image-generation-editing/SKILL.md) | 图片 | scenario | 中文 |
+| [`image-2`](skills/image-2/SKILL.md) | 图片 | model | English |
+| [`image-2-ad-image`](skills/image-2-ad-image/SKILL.md) | 图片 | capability | English |
+| [`image-2-background-replace`](skills/image-2-background-replace/SKILL.md) | 图片 | capability | English |
+| [`image-2-character-consistency`](skills/image-2-character-consistency/SKILL.md) | 图片 | capability | English |
+| [`image-2-ecommerce-main-image`](skills/image-2-ecommerce-main-image/SKILL.md) | 图片 | capability | English |
+| [`image-2-exact-text-image`](skills/image-2-exact-text-image/SKILL.md) | 图片 | capability | English |
+| [`image-2-image-edit`](skills/image-2-image-edit/SKILL.md) | 图片 | capability | English |
+| [`image-2-image-to-image`](skills/image-2-image-to-image/SKILL.md) | 图片 | capability | English |
+| [`image-2-livestream-image`](skills/image-2-livestream-image/SKILL.md) | 图片 | capability | English |
+| [`image-2-marketing-image`](skills/image-2-marketing-image/SKILL.md) | 图片 | capability | English |
+| [`image-2-multi-reference-image`](skills/image-2-multi-reference-image/SKILL.md) | 图片 | capability | English |
+| [`image-2-poster`](skills/image-2-poster/SKILL.md) | 图片 | capability | English |
+| [`image-2-product-detail-page`](skills/image-2-product-detail-page/SKILL.md) | 图片 | capability | English |
+| [`image-2-product-image`](skills/image-2-product-image/SKILL.md) | 图片 | capability | English |
+| [`image-2-product-retouch`](skills/image-2-product-retouch/SKILL.md) | 图片 | capability | English |
+| [`image-2-seeding-image`](skills/image-2-seeding-image/SKILL.md) | 图片 | capability | English |
+| [`image-2-text-to-image`](skills/image-2-text-to-image/SKILL.md) | 图片 | capability | English |
+| [`image-edit`](skills/image-edit/SKILL.md) | 图片 | generic-capability | English |
+| [`image-prompt-commercial-visual-generation`](skills/image-prompt-commercial-visual-generation/SKILL.md) | 图片 | scenario | 中文 |
+| [`image-reference-to-video`](skills/image-reference-to-video/SKILL.md) | 视频 | generic-capability | English |
+| [`image-to-image`](skills/image-to-image/SKILL.md) | 图片 | generic-capability | English |
+| [`image-to-video`](skills/image-to-video/SKILL.md) | 视频 | generic-capability | English |
+| [`instagram-ins-ecommerce-image-generation-editing`](skills/instagram-ins-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`instagram-ins-ecommerce-video-generation-editing`](skills/instagram-ins-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`jd-ecommerce-image-generation-editing`](skills/jd-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`jd-ecommerce-video-generation-editing`](skills/jd-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`kling-video-generation-alternative`](skills/kling-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`kuaishou-ecommerce-ecommerce-image-generation-editing`](skills/kuaishou-ecommerce-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`kuaishou-ecommerce-ecommerce-video-generation-editing`](skills/kuaishou-ecommerce-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`lazada-ecommerce-image-generation-editing`](skills/lazada-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`lazada-ecommerce-video-generation-editing`](skills/lazada-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`liblibai-image-generation-editing-alternative`](skills/liblibai-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`livestream-image`](skills/livestream-image/SKILL.md) | 图片 | generic-capability | English |
+| [`marketing-image`](skills/marketing-image/SKILL.md) | 图片 | generic-capability | English |
+| [`meitu-image-generation-editing-alternative`](skills/meitu-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`meitu-moki-video-generation-alternative`](skills/meitu-moki-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`midjourney-image-generation-editing-alternative`](skills/midjourney-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`minimax-h3`](skills/minimax-h3/SKILL.md) | 视频 | model | English |
+| [`minimax-h3-ai-ad-video`](skills/minimax-h3-ai-ad-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-audio-reference-to-video`](skills/minimax-h3-audio-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`minimax-h3-comic-drama-video`](skills/minimax-h3-comic-drama-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-dynamic-comic-video`](skills/minimax-h3-dynamic-comic-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-ecommerce-video`](skills/minimax-h3-ecommerce-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-first-last-frame-to-video`](skills/minimax-h3-first-last-frame-to-video/SKILL.md) | 视频 | capability | English |
+| [`minimax-h3-image-reference-to-video`](skills/minimax-h3-image-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`minimax-h3-image-to-video`](skills/minimax-h3-image-to-video/SKILL.md) | 视频 | capability | English |
+| [`minimax-h3-product-video`](skills/minimax-h3-product-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-reference-to-video`](skills/minimax-h3-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`minimax-h3-seeding-video`](skills/minimax-h3-seeding-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-short-drama-video`](skills/minimax-h3-short-drama-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-social-commerce-video`](skills/minimax-h3-social-commerce-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-storyboard-to-video`](skills/minimax-h3-storyboard-to-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-text-to-video`](skills/minimax-h3-text-to-video/SKILL.md) | 视频 | capability | English |
+| [`minimax-h3-tvc-video`](skills/minimax-h3-tvc-video/SKILL.md) | 视频 | scene | English |
+| [`minimax-h3-video-generation-and-editing`](skills/minimax-h3-video-generation-and-editing/SKILL.md) | 视频 | model-suite | 中文 |
+| [`minimax-h3-video-reference-to-video`](skills/minimax-h3-video-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`multi-reference-image`](skills/multi-reference-image/SKILL.md) | 图片 | generic-capability | English |
+| [`nano-banana`](skills/nano-banana/SKILL.md) | 图片 | model | English |
+| [`nano-banana-2`](skills/nano-banana-2/SKILL.md) | 图片 | model | English |
+| [`nano-banana-2-ad-image`](skills/nano-banana-2-ad-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-background-replace`](skills/nano-banana-2-background-replace/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-character-consistency`](skills/nano-banana-2-character-consistency/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-ecommerce-main-image`](skills/nano-banana-2-ecommerce-main-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-exact-text-image`](skills/nano-banana-2-exact-text-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-image-edit`](skills/nano-banana-2-image-edit/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-image-to-image`](skills/nano-banana-2-image-to-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-livestream-image`](skills/nano-banana-2-livestream-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-marketing-image`](skills/nano-banana-2-marketing-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-multi-reference-image`](skills/nano-banana-2-multi-reference-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-poster`](skills/nano-banana-2-poster/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-product-detail-page`](skills/nano-banana-2-product-detail-page/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-product-image`](skills/nano-banana-2-product-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-product-retouch`](skills/nano-banana-2-product-retouch/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-seeding-image`](skills/nano-banana-2-seeding-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-2-text-to-image`](skills/nano-banana-2-text-to-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-ad-image`](skills/nano-banana-ad-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-background-replace`](skills/nano-banana-background-replace/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-character-consistency`](skills/nano-banana-character-consistency/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-ecommerce-main-image`](skills/nano-banana-ecommerce-main-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-exact-text-image`](skills/nano-banana-exact-text-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-image-edit`](skills/nano-banana-image-edit/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-image-to-image`](skills/nano-banana-image-to-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-livestream-image`](skills/nano-banana-livestream-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-marketing-image`](skills/nano-banana-marketing-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-multi-reference-image`](skills/nano-banana-multi-reference-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-poster`](skills/nano-banana-poster/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro`](skills/nano-banana-pro/SKILL.md) | 图片 | model | English |
+| [`nano-banana-pro-ad-image`](skills/nano-banana-pro-ad-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-background-replace`](skills/nano-banana-pro-background-replace/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-character-consistency`](skills/nano-banana-pro-character-consistency/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-ecommerce-main-image`](skills/nano-banana-pro-ecommerce-main-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-exact-text-image`](skills/nano-banana-pro-exact-text-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-image-edit`](skills/nano-banana-pro-image-edit/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-image-to-image`](skills/nano-banana-pro-image-to-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-livestream-image`](skills/nano-banana-pro-livestream-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-marketing-image`](skills/nano-banana-pro-marketing-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-multi-reference-image`](skills/nano-banana-pro-multi-reference-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-poster`](skills/nano-banana-pro-poster/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-product-detail-page`](skills/nano-banana-pro-product-detail-page/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-product-image`](skills/nano-banana-pro-product-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-product-retouch`](skills/nano-banana-pro-product-retouch/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-seeding-image`](skills/nano-banana-pro-seeding-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-pro-text-to-image`](skills/nano-banana-pro-text-to-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-product-detail-page`](skills/nano-banana-product-detail-page/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-product-image`](skills/nano-banana-product-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-product-retouch`](skills/nano-banana-product-retouch/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-seeding-image`](skills/nano-banana-seeding-image/SKILL.md) | 图片 | capability | English |
+| [`nano-banana-text-to-image`](skills/nano-banana-text-to-image/SKILL.md) | 图片 | capability | English |
+| [`photoroom-image-generation-editing-alternative`](skills/photoroom-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`pika-video-generation-alternative`](skills/pika-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`pinduoduo-ecommerce-image-generation-editing`](skills/pinduoduo-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`pinduoduo-ecommerce-video-generation-editing`](skills/pinduoduo-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`pixverse-video-generation-alternative`](skills/pixverse-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`poster`](skills/poster/SKILL.md) | 图片 | generic-capability | English |
+| [`product-background-replacement-commercial`](skills/product-background-replacement-commercial/SKILL.md) | 图片 | scenario | 中文 |
+| [`product-detail-page`](skills/product-detail-page/SKILL.md) | 图片 | generic-capability | English |
+| [`product-detail-page-image-set-generation`](skills/product-detail-page-image-set-generation/SKILL.md) | 图片 | scenario | 中文 |
+| [`product-explainer-video-generation`](skills/product-explainer-video-generation/SKILL.md) | 视频 | scenario | 中文 |
+| [`product-image`](skills/product-image/SKILL.md) | 图片 | generic-capability | English |
+| [`product-image-suite-generation-editing`](skills/product-image-suite-generation-editing/SKILL.md) | 图片 | scenario | 中文 |
+| [`product-retouch`](skills/product-retouch/SKILL.md) | 图片 | generic-capability | English |
+| [`product-video`](skills/product-video/SKILL.md) | 视频 | generic-scene | English |
+| [`reference-to-video`](skills/reference-to-video/SKILL.md) | 视频 | generic-capability | English |
+| [`runway-video-generation-alternative`](skills/runway-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`seedance`](skills/seedance/SKILL.md) | 视频 | model | English |
+| [`seedance-1-5-video-generation-and-editing`](skills/seedance-1-5-video-generation-and-editing/SKILL.md) | 视频 | model-suite | 中文 |
+| [`seedance-2-0`](skills/seedance-2-0/SKILL.md) | 视频 | model | English |
+| [`seedance-2-0-ai-ad-video`](skills/seedance-2-0-ai-ad-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-audio-reference-to-video`](skills/seedance-2-0-audio-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-0-comic-drama-video`](skills/seedance-2-0-comic-drama-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-dynamic-comic-video`](skills/seedance-2-0-dynamic-comic-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-ecommerce-video`](skills/seedance-2-0-ecommerce-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-first-last-frame-to-video`](skills/seedance-2-0-first-last-frame-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-0-image-reference-to-video`](skills/seedance-2-0-image-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-0-image-to-video`](skills/seedance-2-0-image-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-0-lowest-20-percent-off-channel`](skills/seedance-2-0-lowest-20-percent-off-channel/SKILL.md) | 视频 | offer | 中文 |
+| [`seedance-2-0-product-video`](skills/seedance-2-0-product-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-reference-to-video`](skills/seedance-2-0-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-0-seeding-video`](skills/seedance-2-0-seeding-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-short-drama-video`](skills/seedance-2-0-short-drama-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-social-commerce-video`](skills/seedance-2-0-social-commerce-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-storyboard-to-video`](skills/seedance-2-0-storyboard-to-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-text-to-video`](skills/seedance-2-0-text-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-0-tvc-video`](skills/seedance-2-0-tvc-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-0-video-generation-and-editing`](skills/seedance-2-0-video-generation-and-editing/SKILL.md) | 视频 | model-suite | 中文 |
+| [`seedance-2-0-video-reference-to-video`](skills/seedance-2-0-video-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-5`](skills/seedance-2-5/SKILL.md) | 视频 | model | English |
+| [`seedance-2-5-ai-ad-video`](skills/seedance-2-5-ai-ad-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-audio-reference-to-video`](skills/seedance-2-5-audio-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-5-comic-drama-video`](skills/seedance-2-5-comic-drama-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-dynamic-comic-video`](skills/seedance-2-5-dynamic-comic-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-ecommerce-video`](skills/seedance-2-5-ecommerce-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-first-last-frame-to-video`](skills/seedance-2-5-first-last-frame-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-5-image-reference-to-video`](skills/seedance-2-5-image-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-5-image-to-video`](skills/seedance-2-5-image-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-5-lowest-20-percent-off-channel`](skills/seedance-2-5-lowest-20-percent-off-channel/SKILL.md) | 视频 | offer | 中文 |
+| [`seedance-2-5-product-video`](skills/seedance-2-5-product-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-reference-to-video`](skills/seedance-2-5-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-5-seeding-video`](skills/seedance-2-5-seeding-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-short-drama-video`](skills/seedance-2-5-short-drama-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-social-commerce-video`](skills/seedance-2-5-social-commerce-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-storyboard-to-video`](skills/seedance-2-5-storyboard-to-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-text-to-video`](skills/seedance-2-5-text-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-5-tvc-video`](skills/seedance-2-5-tvc-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-2-5-video-edit`](skills/seedance-2-5-video-edit/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-5-video-extend`](skills/seedance-2-5-video-extend/SKILL.md) | 视频 | capability | English |
+| [`seedance-2-5-video-generation-and-editing`](skills/seedance-2-5-video-generation-and-editing/SKILL.md) | 视频 | model-suite | 中文 |
+| [`seedance-2-5-video-reference-to-video`](skills/seedance-2-5-video-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-ai-ad-video`](skills/seedance-ai-ad-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-audio-reference-to-video`](skills/seedance-audio-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-comic-drama-video`](skills/seedance-comic-drama-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-director-prompt-video-generation`](skills/seedance-director-prompt-video-generation/SKILL.md) | 视频 | scenario | 中文 |
+| [`seedance-dynamic-comic-video`](skills/seedance-dynamic-comic-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-ecommerce-video`](skills/seedance-ecommerce-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-first-last-frame-to-video`](skills/seedance-first-last-frame-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-image-reference-to-video`](skills/seedance-image-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-image-to-video`](skills/seedance-image-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-lowest-20-percent-off-channel`](skills/seedance-lowest-20-percent-off-channel/SKILL.md) | 视频 | offer | 中文 |
+| [`seedance-product-video`](skills/seedance-product-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-reference-to-video`](skills/seedance-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-seeding-video`](skills/seedance-seeding-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-short-drama-video`](skills/seedance-short-drama-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-social-commerce-video`](skills/seedance-social-commerce-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-storyboard-to-video`](skills/seedance-storyboard-to-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-text-to-video`](skills/seedance-text-to-video/SKILL.md) | 视频 | capability | English |
+| [`seedance-tvc-video`](skills/seedance-tvc-video/SKILL.md) | 视频 | scene | English |
+| [`seedance-video-edit`](skills/seedance-video-edit/SKILL.md) | 视频 | capability | English |
+| [`seedance-video-extend`](skills/seedance-video-extend/SKILL.md) | 视频 | capability | English |
+| [`seedance-video-generation-and-editing`](skills/seedance-video-generation-and-editing/SKILL.md) | 视频 | model-suite | 中文 |
+| [`seedance-video-reference-to-video`](skills/seedance-video-reference-to-video/SKILL.md) | 视频 | capability | English |
+| [`seeding-image`](skills/seeding-image/SKILL.md) | 图片 | generic-capability | English |
+| [`seeding-video`](skills/seeding-video/SKILL.md) | 视频 | generic-scene | English |
+| [`seedream-5-lite`](skills/seedream-5-lite/SKILL.md) | 图片 | model | English |
+| [`seedream-5-lite-ad-image`](skills/seedream-5-lite-ad-image/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-background-replace`](skills/seedream-5-lite-background-replace/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-character-consistency`](skills/seedream-5-lite-character-consistency/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-ecommerce-main-image`](skills/seedream-5-lite-ecommerce-main-image/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-exact-text-image`](skills/seedream-5-lite-exact-text-image/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-image-edit`](skills/seedream-5-lite-image-edit/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-image-to-image`](skills/seedream-5-lite-image-to-image/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-livestream-image`](skills/seedream-5-lite-livestream-image/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-marketing-image`](skills/seedream-5-lite-marketing-image/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-multi-reference-image`](skills/seedream-5-lite-multi-reference-image/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-poster`](skills/seedream-5-lite-poster/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-product-detail-page`](skills/seedream-5-lite-product-detail-page/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-product-image`](skills/seedream-5-lite-product-image/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-product-retouch`](skills/seedream-5-lite-product-retouch/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-seeding-image`](skills/seedream-5-lite-seeding-image/SKILL.md) | 图片 | capability | English |
+| [`seedream-5-lite-text-to-image`](skills/seedream-5-lite-text-to-image/SKILL.md) | 图片 | capability | English |
+| [`shein-ecommerce-image-generation-editing`](skills/shein-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`shein-ecommerce-video-generation-editing`](skills/shein-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`shopee-ecommerce-image-generation-editing`](skills/shopee-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`shopee-ecommerce-video-generation-editing`](skills/shopee-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`shopify-ecommerce-image-generation-editing`](skills/shopify-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`shopify-ecommerce-video-generation-editing`](skills/shopify-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`short-drama-video`](skills/short-drama-video/SKILL.md) | 视频 | generic-scene | English |
+| [`short-video-script-to-finished-video`](skills/short-video-script-to-finished-video/SKILL.md) | 视频 | scenario | 中文 |
+| [`social-commerce-video`](skills/social-commerce-video/SKILL.md) | 视频 | generic-scene | English |
+| [`social-media-marketing-image-set-generation`](skills/social-media-marketing-image-set-generation/SKILL.md) | 图片 | scenario | 中文 |
+| [`social-media-marketing-video-generation-editing`](skills/social-media-marketing-video-generation-editing/SKILL.md) | 视频 | scenario | 中文 |
+| [`sora-video-generation-alternative`](skills/sora-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`stable-diffusion-image-generation-editing-alternative`](skills/stable-diffusion-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`storyboard-to-video`](skills/storyboard-to-video/SKILL.md) | 视频 | generic-scene | English |
+| [`taobao-ecommerce-image-generation-editing`](skills/taobao-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`taobao-ecommerce-video-generation-editing`](skills/taobao-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`temu-ecommerce-image-generation-editing`](skills/temu-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`temu-ecommerce-video-generation-editing`](skills/temu-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`text-to-image`](skills/text-to-image/SKILL.md) | 图片 | generic-capability | English |
+| [`text-to-video`](skills/text-to-video/SKILL.md) | 视频 | generic-capability | English |
+| [`tiktok-shop-ecommerce-image-generation-editing`](skills/tiktok-shop-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`tiktok-shop-ecommerce-video-generation-editing`](skills/tiktok-shop-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`tiktok-shop-viral-sales-video-generation`](skills/tiktok-shop-viral-sales-video-generation/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`tmall-ecommerce-image-generation-editing`](skills/tmall-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`tmall-ecommerce-video-generation-editing`](skills/tmall-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`tvc-video`](skills/tvc-video/SKILL.md) | 视频 | generic-scene | English |
+| [`ugc-ad-video-generation-editing`](skills/ugc-ad-video-generation-editing/SKILL.md) | 视频 | scenario | 中文 |
+| [`veo-video-generation-alternative`](skills/veo-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`video-edit`](skills/video-edit/SKILL.md) | 视频 | generic-capability | English |
+| [`video-extend`](skills/video-extend/SKILL.md) | 视频 | generic-capability | English |
+| [`video-generation`](skills/video-generation/SKILL.md) | 视频 | generic-capability | English |
+| [`video-generation-and-editing`](skills/video-generation-and-editing/SKILL.md) | 视频 | scenario | 中文 |
+| [`video-reference-to-video`](skills/video-reference-to-video/SKILL.md) | 视频 | generic-capability | English |
+| [`vidu-video-generation-alternative`](skills/vidu-video-generation-alternative/SKILL.md) | 视频 | alternative | 中文 |
+| [`viral-ad-video-generation-editing`](skills/viral-ad-video-generation-editing/SKILL.md) | 视频 | scenario | 中文 |
+| [`viral-cover-image-generation-editing`](skills/viral-cover-image-generation-editing/SKILL.md) | 图片 | scenario | 中文 |
+| [`viral-reference-video-remake`](skills/viral-reference-video-remake/SKILL.md) | 视频 | scenario | 中文 |
+| [`viral-short-video-generation-editing`](skills/viral-short-video-generation-editing/SKILL.md) | 视频 | scenario | 中文 |
+| [`virtual-try-on-product-image-generation`](skills/virtual-try-on-product-image-generation/SKILL.md) | 图片 | scenario | 中文 |
+| [`walmart-ecommerce-image-generation-editing`](skills/walmart-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`walmart-ecommerce-video-generation-editing`](skills/walmart-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`wan-2-5-video-generation-and-editing`](skills/wan-2-5-video-generation-and-editing/SKILL.md) | 视频 | model-suite | 中文 |
+| [`wan-3-0-video-generation-and-editing`](skills/wan-3-0-video-generation-and-editing/SKILL.md) | 视频 | model-suite | 中文 |
+| [`wanxiang-image-generation-editing-alternative`](skills/wanxiang-image-generation-editing-alternative/SKILL.md) | 图片 | alternative | 中文 |
+| [`wechat-channels-viral-video-generation-editing`](skills/wechat-channels-viral-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`wechat-official-account-viral-cover-generation`](skills/wechat-official-account-viral-cover-generation/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`wechat-shop-ecommerce-image-generation-editing`](skills/wechat-shop-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`wechat-shop-ecommerce-video-generation-editing`](skills/wechat-shop-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`xiaohongshu-ecommerce-image-generation-editing`](skills/xiaohongshu-ecommerce-image-generation-editing/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`xiaohongshu-ecommerce-video-generation-editing`](skills/xiaohongshu-ecommerce-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+| [`xiaohongshu-viral-cover-image-generation`](skills/xiaohongshu-viral-cover-image-generation/SKILL.md) | 图片 | ecommerce-platform | 中文 |
+| [`xiaohongshu-viral-seeding-video-generation-editing`](skills/xiaohongshu-viral-seeding-video-generation-editing/SKILL.md) | 视频 | ecommerce-platform | 中文 |
+
+## 安装
+
+```bash
+npx skills add wubin1836/ai-hive-agent-skills --list
+npx skills add wubin1836/ai-hive-agent-skills --skill taobao-ecommerce-image-generation-editing
+npx skills add wubin1836/ai-hive-agent-skills --all
+```
