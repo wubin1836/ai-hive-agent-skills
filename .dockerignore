@@ -1,0 +1,8 @@
+.git
+.DS_Store
+skills
+bundles
+dist
+integrations/dify-ai-hive-aigc
+integrations/mcp-ai-hive-aigc/node_modules
+integrations/mcp-ai-hive-aigc/test

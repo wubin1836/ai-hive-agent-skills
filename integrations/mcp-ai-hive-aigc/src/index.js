@@ -23,6 +23,10 @@ app.get("/health", (_request, response) => {
   response.json({ ok: true, service: "ai-hive-aigc-mcp", version: "0.1.0" });
 });
 
+app.get("/ping", (_request, response) => {
+  response.json({ ok: true });
+});
+
 app.get("/.well-known/mcp/server-card.json", (_request, response) => {
   response.sendFile("server-card.json", { root: new URL("../.well-known", import.meta.url).pathname });
 });
