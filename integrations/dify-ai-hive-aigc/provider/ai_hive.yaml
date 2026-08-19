@@ -26,15 +26,6 @@ credentials_for_provider:
     help:
       en_US: Create an API key in AI Hive and paste it here.
       zh_Hans: 在 AI Hive 的“API 接入”中创建密钥后粘贴到这里。
-  base_url:
-    type: text-input
-    required: true
-    default: https://ai-hive.iclip.cn/api
-    label:
-      en_US: API Base URL
-      zh_Hans: API 地址
-    placeholder:
-      en_US: https://ai-hive.iclip.cn/api
 extra:
   python:
     source: provider/ai_hive.py

@@ -30,7 +30,7 @@ AI Hive AIGC 模型插件让 Dify 用户通过一个 API Key 调用多种图片�
 1. Install the plugin in Dify.
 2. Open the AI Hive provider authorization panel.
 3. Paste an AI Hive API Key beginning with `sk-api-`.
-4. Keep the default API URL unless your AI Hive administrator provides another endpoint.
+4. Save the provider authorization and add one of the three tools to a Dify Agent or Workflow.
 
 在 AI Hive 聊天页左下角进入“API 接入”，新建 API Key 后粘贴到 Dify 插件授权面板即可。
 
@@ -42,6 +42,8 @@ dify plugin package ./ai-hive-dify-plugin
 ```
 
 The plugin reads live model metadata and pricing snapshots before every submission. It never stores the user's AI Hive API Key in source code.
+
+Source repository: <https://github.com/wubin1836/ai-hive-agent-skills/tree/main/integrations/dify-ai-hive-aigc>
 
 ## Trademark notice
 

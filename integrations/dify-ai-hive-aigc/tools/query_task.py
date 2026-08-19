@@ -15,7 +15,6 @@ class QueryTaskTool(Tool):
                 raise AiHiveApiError("请填写 taskId。")
             client = AiHiveClient(
                 api_key=str(self.runtime.credentials["api_key"]),
-                base_url=str(self.runtime.credentials.get("base_url") or "https://ai-hive.iclip.cn/api"),
             )
             summary = summarize_task(client.get_task(task_id))
             summary["task_id"] = task_id

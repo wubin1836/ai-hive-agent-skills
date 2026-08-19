@@ -4,7 +4,7 @@ Effective date: 2026-08-19
 
 ## English
 
-AI Hive AIGC Models sends only the information required to execute a requested image or video task to the AI Hive API endpoint configured by the user. This can include prompts, selected model IDs, generation parameters, reference images, videos or audio, and task identifiers.
+AI Hive AIGC Models sends only the information required to execute a requested image or video task to the fixed AI Hive HTTPS API endpoint at `https://ai-hive.iclip.cn/api`. This can include prompts, selected model IDs, generation parameters, reference images, videos or audio, and task identifiers.
 
 The plugin does not embed, publish, log or independently retain the user's AI Hive API Key. Dify stores provider credentials according to the user's Dify deployment and passes them to the plugin at runtime. Uploaded media and generation outputs are handled by AI Hive and its configured infrastructure according to the AI Hive service terms and privacy policy.
 
@@ -12,7 +12,7 @@ The plugin does not sell personal information, run advertising trackers, or send
 
 ## 中文
 
-AI Hive 图片与视频生成插件只会把执行用户所请求任务所必需的信息发送到用户配置的 AI Hive API，包括提示词、模型 ID、生成参数、参考图片、参考视频、参考音频和任务 ID。
+AI Hive 图片与视频生成插件只会把执行用户所请求任务所必需的信息发送到固定的 AI Hive HTTPS API 地址 `https://ai-hive.iclip.cn/api`，包括提示词、模型 ID、生成参数、参考图片、参考视频、参考音频和任务 ID。
 
 插件不会在源代码中内置、公开、记录或自行保存用户的 AI Hive API Key。Dify 根据用户所使用的 Dify 环境保存服务商凭证，并在运行时将其传递给插件。上传素材和生成结果由 AI Hive 及其配置的基础设施依据 AI Hive 服务条款与隐私政策处理。
 

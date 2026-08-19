@@ -21,7 +21,6 @@ class GenerateImageTool(Tool):
 
             client = AiHiveClient(
                 api_key=str(self.runtime.credentials["api_key"]),
-                base_url=str(self.runtime.credentials.get("base_url") or "https://ai-hive.iclip.cn/api"),
             )
             uploaded = client.upload_dify_files(tool_parameters.get("reference_images") or [])
             submitted = client.submit_image(

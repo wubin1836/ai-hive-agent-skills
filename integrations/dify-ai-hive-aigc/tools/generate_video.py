@@ -69,7 +69,6 @@ class GenerateVideoTool(Tool):
                 raise AiHiveApiError("请填写视频生成或编辑要求。")
             client = AiHiveClient(
                 api_key=str(self.runtime.credentials["api_key"]),
-                base_url=str(self.runtime.credentials.get("base_url") or "https://ai-hive.iclip.cn/api"),
             )
 
             references = client.upload_dify_files(tool_parameters.get("reference_files") or [])
