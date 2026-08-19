@@ -1,0 +1,62 @@
+{
+  "serverInfo": {
+    "name": "AI Hive AIGC",
+    "version": "0.1.0"
+  },
+  "authentication": {
+    "required": false,
+    "schemes": ["apiKey"]
+  },
+  "tools": [
+    {
+      "name": "ai_hive_list_models",
+      "description": "查询 Nano Banana Pro、GPT Image 2、Seedream、Seedance、MiniMax H3、Wan、HappyHorse 等 AI Hive 图片与视频模型。",
+      "inputSchema": { "type": "object", "properties": { "model_type": { "enum": ["TEXT", "IMAGE", "VIDEO"] } } }
+    },
+    {
+      "name": "ai_hive_upload_media",
+      "description": "上传图片、视频或音频素材并取得 mediaId，供图生图、图生视频、参考生视频、视频编辑和首尾帧生成使用。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filename": { "type": "string" },
+          "mime_type": { "type": "string" },
+          "base64_data": { "type": "string" }
+        },
+        "required": ["filename", "mime_type", "base64_data"]
+      }
+    },
+    {
+      "name": "ai_hive_generate_image",
+      "description": "AI 图片生成与编辑：Nano Banana Pro、GPT Image 2、Seedream，适合电商图、广告图、海报、详情页、带货和种草。",
+      "inputSchema": { "type": "object", "properties": { "prompt": { "type": "string" } }, "required": ["prompt"] }
+    },
+    {
+      "name": "ai_hive_generate_ecommerce_image",
+      "description": "生成淘宝、京东、抖音、小红书、Amazon、TikTok Shop、Shopify、Temu、SHEIN 商品主图、详情页、Listing 与 PDP。",
+      "inputSchema": { "type": "object", "properties": { "prompt": { "type": "string" } }, "required": ["prompt"] }
+    },
+    {
+      "name": "ai_hive_generate_video",
+      "description": "Seedance、MiniMax H3、HappyHorse 文生视频、图生视频、参考生视频、视频编辑与延长。",
+      "inputSchema": { "type": "object", "properties": { "prompt": { "type": "string" } }, "required": ["prompt"] }
+    },
+    {
+      "name": "ai_hive_generate_ecommerce_video",
+      "description": "生成电商商品视频、带货视频、种草视频、详情页视频、直播素材和社交电商广告。",
+      "inputSchema": { "type": "object", "properties": { "prompt": { "type": "string" } }, "required": ["prompt"] }
+    },
+    {
+      "name": "ai_hive_generate_advertising_video",
+      "description": "生成广告、TVC、UGC 广告、营销 Campaign、短剧、漫剧与信息流视频。",
+      "inputSchema": { "type": "object", "properties": { "prompt": { "type": "string" } }, "required": ["prompt"] }
+    },
+    {
+      "name": "ai_hive_get_task",
+      "description": "查询已有图片或视频生成任务的进度和结果链接，避免重复提交与重复计费。",
+      "inputSchema": { "type": "object", "properties": { "task_id": { "type": "string" } }, "required": ["task_id"] }
+    }
+  ],
+  "resources": [],
+  "prompts": []
+}

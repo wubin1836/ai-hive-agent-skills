@@ -1,0 +1,143 @@
+identity:
+  author: wubin1836
+  name: generate_video
+  label:
+    en_US: Generate or Edit Video
+    zh_Hans: 视频生成与编辑
+  description:
+    en_US: Generate video with Seedance 2.5, MiniMax H3 or HappyHorse from text, images, video or audio references.
+    zh_Hans: 使用 Seedance 2.5、MiniMax H3 或 HappyHorse 完成文生视频、图生视频、参考生视频和视频编辑。
+description:
+  human:
+    en_US: Create advertising, e-commerce, product, social commerce, short drama and comic drama videos.
+    zh_Hans: 生成广告、TVC、电商、产品展示、带货、种草、短剧和漫剧视频。
+  llm: Generate or edit a video through AI Hive using text and optional reference media.
+parameters:
+  - name: prompt
+    type: string
+    required: true
+    form: llm
+    label:
+      en_US: Prompt
+      zh_Hans: 视频要求
+    human_description:
+      en_US: Describe the scene, action, camera, lighting, pacing, audio and constraints.
+      zh_Hans: 描述场景、动作、运镜、光线、节奏、声音和限制条件。
+    llm_description: A detailed video generation or editing instruction.
+  - name: reference_files
+    type: files
+    required: false
+    form: llm
+    label:
+      en_US: Reference images, videos or audio
+      zh_Hans: 参考图片、视频或音频
+  - name: first_frame
+    type: files
+    required: false
+    form: form
+    label:
+      en_US: First frame
+      zh_Hans: 首帧图片
+  - name: last_frame
+    type: files
+    required: false
+    form: form
+    label:
+      en_US: Last frame
+      zh_Hans: 尾帧图片
+  - name: model_family
+    type: select
+    required: true
+    form: form
+    default: seedance_2_5
+    label:
+      en_US: Model family
+      zh_Hans: 模型系列
+    options:
+      - value: seedance_2_5
+        label: { en_US: Seedance 2.5, zh_Hans: Seedance 2.5 }
+      - value: minimax_h3
+        label: { en_US: MiniMax H3, zh_Hans: MiniMax H3 }
+      - value: happyhorse
+        label: { en_US: HappyHorse, zh_Hans: HappyHorse }
+  - name: generation_mode
+    type: select
+    required: true
+    form: form
+    default: t2v
+    label:
+      en_US: Generation mode
+      zh_Hans: 生成模式
+    options:
+      - value: t2v
+        label: { en_US: Text to video, zh_Hans: 文生视频 }
+      - value: i2v
+        label: { en_US: Image to video, zh_Hans: 图生视频 }
+      - value: r2v
+        label: { en_US: Reference to video, zh_Hans: 参考生视频 }
+      - value: edit
+        label: { en_US: Video editing, zh_Hans: 视频编辑 }
+      - value: extend
+        label: { en_US: Video extension, zh_Hans: 视频延长 }
+  - name: custom_public_model_id
+    type: string
+    required: false
+    form: form
+    label:
+      en_US: Custom publicModelId
+      zh_Hans: 自定义 publicModelId
+    human_description:
+      en_US: Optional. Overrides the model family and mode mapping for newly added AI Hive video models.
+      zh_Hans: 可选。用于调用 AI Hive 新增的视频模型，填写后覆盖上面的系列与模式映射。
+  - name: routing_mode
+    type: select
+    required: true
+    form: form
+    default: COST_FIRST
+    label:
+      en_US: Routing
+      zh_Hans: 路由方式
+    options:
+      - value: COST_FIRST
+        label: { en_US: Cost first, zh_Hans: 价格优先 }
+      - value: SPEED_FIRST
+        label: { en_US: Speed first, zh_Hans: 速度优先 }
+      - value: SUCCESS_FIRST
+        label: { en_US: Success first, zh_Hans: 成功率优先 }
+  - name: model_params
+    type: string
+    required: false
+    form: form
+    default: "{}"
+    label:
+      en_US: Advanced parameters (JSON)
+      zh_Hans: 高级参数（JSON）
+  - name: wait_for_result
+    type: boolean
+    required: true
+    form: form
+    default: true
+    label:
+      en_US: Wait for result
+      zh_Hans: 等待生成结果
+  - name: timeout_seconds
+    type: number
+    required: false
+    form: form
+    default: 600
+    min: 30
+    max: 1200
+    label:
+      en_US: Wait timeout
+      zh_Hans: 等待超时秒数
+output_schema:
+  type: object
+  properties:
+    task_id: { type: string }
+    status: { type: string }
+    result_urls:
+      type: array
+      items: { type: string }
+extra:
+  python:
+    source: tools/generate_video.py

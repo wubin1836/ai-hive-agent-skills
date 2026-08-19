@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="AI Hive">
+  <defs>
+    <linearGradient id="g" x1="24" y1="20" x2="232" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB020"/>
+      <stop offset="1" stop-color="#FF5A36"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="#111827"/>
+  <path d="M128 35 202 78v86l-74 43-74-43V78l74-43Z" fill="none" stroke="url(#g)" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M82 102h92M82 154h92M104 89v78M152 89v78" stroke="#FFF7E6" stroke-width="14" stroke-linecap="round"/>
+</svg>

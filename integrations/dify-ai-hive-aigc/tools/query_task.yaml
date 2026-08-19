@@ -1,0 +1,37 @@
+identity:
+  author: wubin1836
+  name: query_task
+  label:
+    en_US: Query Generation Task
+    zh_Hans: 查询生成任务
+  description:
+    en_US: Query an existing AI Hive image or video task without submitting it again.
+    zh_Hans: 查询已有的 AI Hive 图片或视频任务，避免重复提交和重复计费。
+description:
+  human:
+    en_US: Check task status and retrieve generated image or video URLs.
+    zh_Hans: 查询任务状态并取得生成的图片或视频链接。
+  llm: Query an AI Hive generation task by task ID.
+parameters:
+  - name: task_id
+    type: string
+    required: true
+    form: llm
+    label:
+      en_US: Task ID
+      zh_Hans: 任务 ID
+    human_description:
+      en_US: The taskId returned by an image or video generation tool.
+      zh_Hans: 图片或视频生成工具返回的 taskId。
+    llm_description: Exact AI Hive task ID to query.
+output_schema:
+  type: object
+  properties:
+    task_id: { type: string }
+    status: { type: string }
+    result_urls:
+      type: array
+      items: { type: string }
+extra:
+  python:
+    source: tools/query_task.py

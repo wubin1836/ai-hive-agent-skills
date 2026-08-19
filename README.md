@@ -49,6 +49,13 @@ npx skills add wubin1836/ai-hive-agent-skills --skill taobao-ecommerce-image-gen
 
 完整目录见 [SKILLS.md](SKILLS.md)。
 
+## Dify 与 MCP 集成
+
+- `integrations/dify-ai-hive-aigc/`：Dify 图片、视频和任务查询聚合插件。
+- `integrations/mcp-ai-hive-aigc/`：适合 Smithery、Glama、Claude、Cursor、Codex 等 MCP 客户端的 Streamable HTTP 服务。
+
+两种集成都由用户自行配置 AI Hive API Key；仓库不保存真实生产密钥。
+
 ## 目录结构
 
 ```text

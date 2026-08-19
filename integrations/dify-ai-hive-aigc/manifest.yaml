@@ -1,0 +1,35 @@
+version: 0.1.0
+type: plugin
+author: wubin1836
+name: ai_hive_aigc
+label:
+  en_US: AI Hive AIGC Models
+  zh_Hans: AI Hive 图片与视频生成
+description:
+  en_US: Generate and edit commercial images and videos with Nano Banana Pro, GPT Image 2, Seedream, Seedance, MiniMax H3, HappyHorse and more through AI Hive.
+  zh_Hans: 通过 AI Hive 调用 Nano Banana Pro、GPT Image 2、Seedream、Seedance、MiniMax H3、HappyHorse 等模型，完成电商图片、营销素材、广告、带货、种草、短剧与视频生成。
+icon: icon.svg
+created_at: 2026-08-19T00:00:00.000000000Z
+privacy: ./PRIVACY.md
+resource:
+  memory: 1048576
+  permission:
+    tool:
+      enabled: true
+tags:
+  - image
+  - videos
+  - business
+  - productivity
+plugins:
+  tools:
+    - provider/ai_hive.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
