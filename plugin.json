@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-hive-aigc",
+  "version": "1.0.0",
+  "description": "340 AI image, video, ecommerce, advertising and marketing skills plus the AI-HIVE MCP server, covering Nano Banana Pro, GPT Image 2, Seedream, Seedance, MiniMax H3, Wan and HappyHorse workflows.",
+  "author": {
+    "name": "Bain Wu",
+    "email": "wubin1836@gmail.com",
+    "url": "https://github.com/wubin1836"
+  },
+  "homepage": "https://ai-hive.iclip.cn",
+  "repository": "https://github.com/wubin1836/ai-hive-agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "aigc",
+    "ai-image",
+    "ai-video",
+    "ecommerce",
+    "advertising",
+    "marketing",
+    "nano-banana-pro",
+    "gpt-image-2",
+    "seedream",
+    "seedance",
+    "minimax-h3",
+    "happyhorse"
+  ]
+}
