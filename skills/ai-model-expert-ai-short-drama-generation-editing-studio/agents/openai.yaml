@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜AI 短剧生成与编辑工作台"
+  short_description: "用 AI-HIVE 完成AI 短剧生成与编辑工作台，自动提交、轮询并下载结果"
+  default_prompt: "使用 $ai-model-expert-ai-short-drama-generation-editing-studio 通过 AI-HIVE 完成一次AI 短剧生成与编辑工作台任务，并保存 taskId 与结果。"
+policy:
+  allow_implicit_invocation: true

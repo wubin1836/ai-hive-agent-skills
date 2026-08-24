@@ -3,13 +3,23 @@
     "name": "1688-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "1688 电商图片生成与编辑"
   },
   {
     "name": "1688-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "1688 电商视频生成与编辑"
   },
   {
     "name": "ad-image",
@@ -17,71 +27,3532 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Ad Creative Image"
   },
   {
     "name": "adobe-firefly-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Adobe Firefly 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "ai-ad-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI Ad Video"
   },
   {
     "name": "ai-digital-human-talking-video-generation",
     "kind": "video",
     "layer": "scenario",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "AI 数字人口播视频生成"
+  },
+  {
+    "name": "ai-model-expert-1688-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜1688 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-1688-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜1688 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ad-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜广告图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-adobe-firefly-image-gen-edit-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Adobe Firefly 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ai-ad-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜AI 广告视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ai-digital-human-talking-video-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜AI 数字人口播视频生成",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ai-poster-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜AI 海报生成与编辑｜中文文字与商业设计",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ai-short-drama-generation-editing-studio",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜AI 短剧生成与编辑工作台",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-aliexpress-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜AliExpress 速卖通 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-aliexpress-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜AliExpress 速卖通 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-amazon-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Amazon 亚马逊 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-amazon-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Amazon 亚马逊 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-amazon-listing-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Amazon Listing 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-audio-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜参考音频生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-background-replace",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜图片换背景",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-canva-image-generation-editing-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Canva 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-capcut-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜剪映 CapCut 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-cart-sales-short-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜挂车爆单短视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-character-consistency",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜角色一致性图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-chinese-text-commercial-poster-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜精准中文文字商业图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-comic-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜漫剧视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-douyin-ecommerce-ecom-video-gen-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜抖音电商 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-douyin-ecommerce-image-gen-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜抖音电商 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-douyin-viral-cover-image-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜抖音爆款封面生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-douyin-viral-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜抖音爆款短视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-dreamina-image-generation-editing-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜即梦 Dreamina 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-dreamina-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜即梦 Dreamina 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-dynamic-comic-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜动态漫画",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ebay-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜eBay 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ebay-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜eBay 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ecommerce-bestseller-main-image-gen-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜电商爆款主图生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ecommerce-main-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜电商主图",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ecommerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜电商视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ecommerce-viral-sales-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜电商爆款带货视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-etsy-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Etsy 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-etsy-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Etsy 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-exact-text-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜精准文字图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜首尾帧生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-flux-image-generation-editing-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜FLUX 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-ad-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 广告图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-background-replace",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 图片换背景",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-character-consistency",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 角色一致性图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-ecommerce-main-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 电商主图",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-exact-text-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 精准文字图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-image-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 图片编辑",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 图片生成与编辑",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-image-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 图生图",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-livestream-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 直播带货图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-marketing-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 营销图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-multi-reference-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 多参考图生成",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-poster",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 海报生成",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-product-detail-page",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 商品详情页",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-product-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 产品图生成",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-product-retouch",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 商品精修",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-seeding-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 种草图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-gpt-image-2-text-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜GPT Image 2 文生图",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-hailuo-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜海螺 Hailuo 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 视频生成",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_video_edit"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-ai-ad-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse AI 广告视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-audio-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 参考音频生视频",
+    "model_ids": [
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-comic-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 漫剧视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-dynamic-comic-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 动态漫画",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-ecommerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 电商视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 首尾帧生视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-image-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 参考图生视频",
+    "model_ids": [
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-image-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 图生视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-product-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 产品宣传视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 参考生视频",
+    "model_ids": [
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-seeding-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 种草视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-short-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 短剧视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-social-commerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 带货视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-storyboard-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 分镜转视频",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-text-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 文生视频",
+    "model_ids": [
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-tvc-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse TVC 广告片",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-video-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 视频编辑",
+    "model_ids": [
+      "public_model_happyhorse_video_edit"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-video-generation-and-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜HappyHorse 视频生成与编辑",
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_video_edit"
+    ]
+  },
+  {
+    "name": "ai-model-expert-happy-horse-video-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Happy Horse 参考视频生视频",
+    "model_ids": [
+      "public_model_happyhorse_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-heygen-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜HeyGen 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-high-conversion-ad-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜高转化广告图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 图片生成与编辑",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-ad-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 广告图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-background-replace",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 图片换背景",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-character-consistency",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 角色一致性图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-ecommerce-main-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 电商主图",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-exact-text-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 精准文字图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-image-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 图片编辑",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-image-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 图生图",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-livestream-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 直播带货图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-marketing-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 营销图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-multi-reference-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 多参考图生成",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-poster",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 海报生成",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-product-detail-page",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 商品详情页",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-product-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 产品图生成",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-product-retouch",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 商品精修",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-seeding-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 种草图片",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-2-text-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Image2 文生图",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜图片编辑",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-prompt-commercial-visual-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜AI 图片提示词与商业视觉生成",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜参考图生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜图生图",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-image-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜图生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-instagram-ins-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Instagram INS 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-instagram-ins-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Instagram INS 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-jd-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜京东 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-jd-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜京东 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-kling-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜可灵 Kling 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-kuaishou-ecommerce-ecom-video-gen-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜快手电商 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-kuaishou-ecommerce-image-gen-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜快手电商 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-lazada-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Lazada 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-lazada-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Lazada 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-liblibai-image-generation-editing-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜LiblibAI 哩布哩布 libtv 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-livestream-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜直播带货图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-marketing-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜营销图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-meitu-image-generation-editing-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜美图 Meitu 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-meitu-moki-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜美图 MOKI 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-midjourney-image-generation-editing-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Midjourney 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-ai-ad-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 AI 广告视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-audio-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 参考音频生视频",
+    "model_ids": [
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-comic-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 漫剧视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-dynamic-comic-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 动态漫画",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-ecommerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 电商视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 首尾帧生视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-image-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 参考图生视频",
+    "model_ids": [
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-image-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 图生视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-product-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 产品宣传视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 参考生视频",
+    "model_ids": [
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-seeding-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 种草视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-short-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 短剧视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-social-commerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 带货视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-storyboard-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 分镜转视频",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-text-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 文生视频",
+    "model_ids": [
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-tvc-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 TVC 广告片",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-video-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 视频生成",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-video-generation-and-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Minimax H3 视频生成与编辑",
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-minimax-h3-video-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜MiniMax H3 参考视频生视频",
+    "model_ids": [
+      "public_model_minimax_h3_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-multi-reference-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜多参考图生成",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-ad-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 广告图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-background-replace",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 图片换背景",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-character-consistency",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 角色一致性图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-ecommerce-main-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 电商主图",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-exact-text-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 精准文字图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-image-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 图片编辑",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-image-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 图生图",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-livestream-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 直播带货图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-marketing-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 营销图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-multi-reference-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 多参考图生成",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-poster",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 海报生成",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-product-detail-page",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 商品详情页",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-product-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 产品图生成",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-product-retouch",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 商品精修",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-seeding-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 种草图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-2-text-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 2 文生图",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-ad-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 广告图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-background-replace",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 图片换背景",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-character-consistency",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 角色一致性图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-ecommerce-main-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 电商主图",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-exact-text-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 精准文字图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-image-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 图片编辑",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-image-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 图生图",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-livestream-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 直播带货图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-marketing-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 营销图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-multi-reference-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 多参考图生成",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-poster",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 海报生成",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-ad-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 广告图片",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-background-replace",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 图片换背景",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-character-consistency",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 角色一致性图片",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-ecommerce-main-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 电商主图",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-exact-text-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 精准文字图片",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-image-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 图片编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-image-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 图生图",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-livestream-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 直播带货图片",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-marketing-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 营销图片",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-multi-reference-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 多参考图生成",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-poster",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 海报生成",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-product-detail-page",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 商品详情页",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-product-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 产品图生成",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-product-retouch",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 商品精修",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-seeding-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 种草图片",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-pro-text-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana Pro 文生图",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-product-detail-page",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 商品详情页",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-product-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 产品图生成",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-product-retouch",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 商品精修",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-seeding-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 种草图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-nano-banana-text-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Nano Banana 文生图",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-photoroom-image-generation-editing-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜PhotoRoom 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-pika-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Pika 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-pinduoduo-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜拼多多 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-pinduoduo-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜拼多多 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-pixverse-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜PixVerse 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-poster",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜海报生成",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-product-background-replacement-commercial",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜商品换背景与商业场景图生成",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-product-detail-page",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜商品详情页",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-product-detail-page-image-set-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜商品详情页套图一键生成",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-product-explainer-video-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜商品讲解视频一键生成",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-product-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜产品图生成",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-product-image-suite-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜商品套图生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-product-retouch",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜商品精修",
+    "model_ids": [
+      "public_model_gpt_image_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-product-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜产品宣传视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜参考生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-runway-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Runway 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 视频生成",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-1-5-video-generation-and-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance1.5 视频生成与编辑",
     "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-ai-ad-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 AI 广告视频",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-audio-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 参考音频生视频",
+    "model_ids": [
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-comic-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 漫剧视频",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-dynamic-comic-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 动态漫画",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-ecommerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 电商视频",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 首尾帧生视频",
+    "model_ids": [
+      "public_model_seedance_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-image-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 参考图生视频",
+    "model_ids": [
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-image-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 图生视频",
+    "model_ids": [
+      "public_model_seedance_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-lowest-20-percent-off-channel",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance2.0 最低 8 折｜比官方更便宜的视频生成渠道",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-product-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 产品宣传视频",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 参考生视频",
+    "model_ids": [
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-seeding-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 种草视频",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-short-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 短剧视频",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-social-commerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 带货视频",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-storyboard-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 分镜转视频",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-text-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 文生视频",
+    "model_ids": [
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-tvc-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 TVC 广告片",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-video-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 视频生成",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-video-generation-and-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance2.0 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-0-video-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.0 参考视频生视频",
+    "model_ids": [
+      "public_model_seedance_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-ai-ad-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 AI 广告视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-audio-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 参考音频生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-comic-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 漫剧视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-dynamic-comic-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 动态漫画",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-ecommerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 电商视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 首尾帧生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-image-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 参考图生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-image-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 图生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-lowest-20-percent-off-channel",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance2.5 最低 8 折｜比官方更便宜的视频生成渠道",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-product-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 产品宣传视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 参考生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-seeding-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 种草视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-short-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 短剧视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-social-commerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 带货视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-storyboard-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 分镜转视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-text-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 文生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-tvc-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 TVC 广告片",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-video-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 视频编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_video_edit"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-video-extend",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 视频延长",
+    "model_ids": [
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-video-generation-and-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance2.5 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-2-5-video-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 2.5 参考视频生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-ai-ad-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance AI 广告视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-audio-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 参考音频生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-comic-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 漫剧视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-director-prompt-video-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 导演提示词与视频生成",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-dynamic-comic-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 动态漫画",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-ecommerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 电商视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-first-last-frame-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 首尾帧生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-image-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 参考图生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-image-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 图生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-lowest-20-percent-off-channel",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 最低 8 折｜比官方更便宜的视频生成渠道",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-product-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 产品宣传视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 参考生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-seeding-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 种草视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-short-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 短剧视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-social-commerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 带货视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-storyboard-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 分镜转视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-text-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 文生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-tvc-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance TVC 广告片",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-video-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 视频编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_video_edit"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-video-extend",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 视频延长",
+    "model_ids": [
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-video-generation-and-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedance-video-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedance 参考视频生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seeding-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜种草图片",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seeding-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜种草视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 图片生成与编辑",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-ad-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 广告图片",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-background-replace",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 图片换背景",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-character-consistency",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 角色一致性图片",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-ecommerce-main-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 电商主图",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-exact-text-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 精准文字图片",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-image-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 图片编辑",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-image-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 图生图",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-livestream-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 直播带货图片",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-marketing-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 营销图片",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-multi-reference-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 多参考图生成",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-poster",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 海报生成",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-product-detail-page",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 商品详情页",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-product-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 产品图生成",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-product-retouch",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 商品精修",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-seeding-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 种草图片",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-seedream-5-lite-text-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Seedream 5.0 Lite 文生图",
+    "model_ids": [
+      "public_model_seedream_5_0_lite"
+    ]
+  },
+  {
+    "name": "ai-model-expert-shein-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜SHEIN 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-shein-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜SHEIN 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-shopee-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Shopee 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-shopee-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Shopee 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-shopify-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Shopify 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-shopify-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Shopify 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-short-drama-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜短剧视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-short-video-script-to-finished-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜短视频脚本一键生成成片",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-social-commerce-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜带货视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-social-media-marketing-image-set-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜社媒营销图片套图生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-social-media-marketing-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜社媒营销视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-sora-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Sora 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-stable-diffusion-image-gen-edit-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Stable Diffusion 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-storyboard-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜分镜转视频",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-taobao-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜淘宝 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-taobao-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜淘宝 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-temu-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Temu 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-temu-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Temu 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-text-to-image",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜文生图",
+    "model_ids": [
+      "public_model_nano_banana_2"
+    ]
+  },
+  {
+    "name": "ai-model-expert-text-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜文生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-tiktok-shop-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜TikTok Shop 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-tiktok-shop-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜TikTok Shop 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-tiktok-shop-viral-sales-video-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜TikTok Shop 爆款带货视频生成",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-tmall-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜天猫 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-tmall-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜天猫 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-tvc-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜TVC 广告片",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-ugc-ad-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜UGC 广告视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-veo-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Veo 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-video-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜视频编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_video_edit"
+    ]
+  },
+  {
+    "name": "ai-model-expert-video-extend",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜视频延长",
+    "model_ids": [
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-video-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜AI 视频生成",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-video-generation-and-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-video-reference-to-video",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜参考视频生视频",
+    "model_ids": [
+      "public_model_seedance_2_5_r2v"
+    ]
+  },
+  {
+    "name": "ai-model-expert-vidu-video-generation-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Vidu 视频生成替代｜AI 视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-viral-ad-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜爆款广告视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-viral-cover-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜爆款封面图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-viral-reference-video-remake",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜爆款参考视频仿拍与二创",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-viral-short-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜爆款短视频生成与编辑｜一键出片",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-virtual-try-on-product-image-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜AI 试衣商品图生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-walmart-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Walmart 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-walmart-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Walmart 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-wan-2-5-video-generation-and-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Wan2.5 视频生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-wan-3-0-video-generation-and-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜Wan3.0 视频生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-wanxiang-image-generation-editing-alternative",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜通义万相 图片生成替代｜AI 图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-wechat-channels-viral-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜视频号爆款短视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-wechat-official-account-viral-cover-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜公众号爆款封面生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-wechat-shop-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜微信小店 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-wechat-shop-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜微信小店 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-xiaohongshu-ecommerce-image-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜小红书 电商图片生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-xiaohongshu-ecommerce-video-generation-editing",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜小红书 电商视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
+  },
+  {
+    "name": "ai-model-expert-xiaohongshu-viral-cover-image-generation",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜小红书爆款笔记封面生成与编辑",
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ]
+  },
+  {
+    "name": "ai-model-expert-xiaohongshu-viral-seeding-video-gen-edit",
+    "kind": "video",
+    "layer": "ai-model-expert",
+    "display_name": "AI大模型专家｜小红书爆款种草视频生成与编辑",
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ]
   },
   {
     "name": "ai-poster-generation-editing",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI 海报生成与编辑｜中文文字与商业设计"
   },
   {
     "name": "ai-short-drama-generation-editing-studio",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "AI 短剧生成与编辑工作台"
   },
   {
     "name": "aliexpress-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AliExpress 速卖通 电商图片生成与编辑"
   },
   {
     "name": "aliexpress-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "AliExpress 速卖通 电商视频生成与编辑"
   },
   {
     "name": "amazon-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Amazon 亚马逊 电商图片生成与编辑"
   },
   {
     "name": "amazon-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Amazon 亚马逊 电商视频生成与编辑"
   },
   {
     "name": "amazon-listing-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Amazon Listing 图片生成与编辑"
   },
   {
     "name": "audio-reference-to-video",
@@ -89,7 +3560,8 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Audio Reference to Video"
   },
   {
     "name": "background-replace",
@@ -97,25 +3569,43 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Background Replacement"
   },
   {
     "name": "canva-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Canva 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "capcut-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "剪映 CapCut 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "cart-sales-short-video-generation-editing",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "挂车爆单短视频生成与编辑"
   },
   {
     "name": "character-consistency",
@@ -123,87 +3613,136 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Character-Consistent Images"
   },
   {
     "name": "chinese-text-commercial-poster-generation",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "精准中文文字商业图片生成与编辑"
   },
   {
     "name": "comic-drama-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Comic Drama Video"
   },
   {
     "name": "douyin-ecommerce-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "抖音电商 电商图片生成与编辑"
   },
   {
     "name": "douyin-ecommerce-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "抖音电商 电商视频生成与编辑"
   },
   {
     "name": "douyin-viral-cover-image-generation",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "抖音爆款封面生成与编辑"
   },
   {
     "name": "douyin-viral-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "抖音爆款短视频生成与编辑"
   },
   {
     "name": "dreamina-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "即梦 Dreamina 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "dreamina-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "即梦 Dreamina 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "dynamic-comic-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Motion Comic"
   },
   {
     "name": "ebay-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "eBay 电商图片生成与编辑"
   },
   {
     "name": "ebay-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "eBay 电商视频生成与编辑"
   },
   {
     "name": "ecommerce-bestseller-main-image-generation-editing",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "电商爆款主图生成与编辑"
   },
   {
     "name": "ecommerce-main-image",
@@ -211,35 +3750,54 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "E-commerce Main Image"
   },
   {
     "name": "ecommerce-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "E-commerce Video"
   },
   {
     "name": "ecommerce-viral-sales-video-generation-editing",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "电商爆款带货视频生成与编辑"
   },
   {
     "name": "etsy-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Etsy 电商图片生成与编辑"
   },
   {
     "name": "etsy-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Etsy 电商视频生成与编辑"
   },
   {
     "name": "exact-text-image",
@@ -247,7 +3805,8 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Text-Accurate Image"
   },
   {
     "name": "first-last-frame-to-video",
@@ -255,13 +3814,17 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_seedance_2_5_i2v"
-    ]
+    ],
+    "display_name": "First and Last Frame Video"
   },
   {
     "name": "flux-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "FLUX 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "gpt-image-2",
@@ -269,7 +3832,8 @@
     "layer": "model",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Image Generation and Editing"
   },
   {
     "name": "gpt-image-2-ad-image",
@@ -277,7 +3841,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Ad Creative Image"
   },
   {
     "name": "gpt-image-2-background-replace",
@@ -285,7 +3850,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Background Replacement"
   },
   {
     "name": "gpt-image-2-character-consistency",
@@ -293,7 +3859,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Character-Consistent Images"
   },
   {
     "name": "gpt-image-2-ecommerce-main-image",
@@ -301,7 +3868,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 E-commerce Main Image"
   },
   {
     "name": "gpt-image-2-exact-text-image",
@@ -309,7 +3877,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Text-Accurate Image"
   },
   {
     "name": "gpt-image-2-image-edit",
@@ -317,7 +3886,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Image Editing"
   },
   {
     "name": "gpt-image-2-image-to-image",
@@ -325,7 +3895,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Image to Image"
   },
   {
     "name": "gpt-image-2-livestream-image",
@@ -333,7 +3904,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Livestream Commerce Image"
   },
   {
     "name": "gpt-image-2-marketing-image",
@@ -341,7 +3913,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Marketing Image"
   },
   {
     "name": "gpt-image-2-multi-reference-image",
@@ -349,7 +3922,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Multi-Reference Image Generation"
   },
   {
     "name": "gpt-image-2-poster",
@@ -357,7 +3931,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Poster Generation"
   },
   {
     "name": "gpt-image-2-product-detail-page",
@@ -365,7 +3940,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Product Detail Page Images"
   },
   {
     "name": "gpt-image-2-product-image",
@@ -373,7 +3949,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Product Image Generation"
   },
   {
     "name": "gpt-image-2-product-retouch",
@@ -381,7 +3958,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Product Retouching"
   },
   {
     "name": "gpt-image-2-seeding-image",
@@ -389,7 +3967,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Social Seeding Image"
   },
   {
     "name": "gpt-image-2-text-to-image",
@@ -397,34 +3976,44 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "GPT Image 2 Text to Image"
   },
   {
     "name": "hailuo-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "海螺 Hailuo 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "happy-horse",
     "kind": "video",
     "layer": "model",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
       "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v",
       "public_model_happyhorse_video_edit"
-    ]
+    ],
+    "display_name": "Happy Horse Video Generation"
   },
   {
     "name": "happy-horse-ai-ad-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse AI Ad Video"
   },
   {
     "name": "happy-horse-audio-reference-to-video",
@@ -432,37 +4021,41 @@
     "layer": "capability",
     "model_ids": [
       "public_model_happyhorse_r2v"
-    ]
+    ],
+    "display_name": "Happy Horse Audio Reference to Video"
   },
   {
     "name": "happy-horse-comic-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse Comic Drama Video"
   },
   {
     "name": "happy-horse-dynamic-comic-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse Motion Comic"
   },
   {
     "name": "happy-horse-ecommerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse E-commerce Video"
   },
   {
     "name": "happy-horse-first-last-frame-to-video",
@@ -470,7 +4063,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_happyhorse_i2v"
-    ]
+    ],
+    "display_name": "Happy Horse First and Last Frame Video"
   },
   {
     "name": "happy-horse-image-reference-to-video",
@@ -478,7 +4072,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_happyhorse_r2v"
-    ]
+    ],
+    "display_name": "Happy Horse Image Reference to Video"
   },
   {
     "name": "happy-horse-image-to-video",
@@ -486,17 +4081,19 @@
     "layer": "capability",
     "model_ids": [
       "public_model_happyhorse_i2v"
-    ]
+    ],
+    "display_name": "Happy Horse Image to Video"
   },
   {
     "name": "happy-horse-product-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse Product Video"
   },
   {
     "name": "happy-horse-reference-to-video",
@@ -504,47 +4101,52 @@
     "layer": "capability",
     "model_ids": [
       "public_model_happyhorse_r2v"
-    ]
+    ],
+    "display_name": "Happy Horse Reference to Video"
   },
   {
     "name": "happy-horse-seeding-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse Social Seeding Video"
   },
   {
     "name": "happy-horse-short-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse Short Drama Video"
   },
   {
     "name": "happy-horse-social-commerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse Social Commerce Video"
   },
   {
     "name": "happy-horse-storyboard-to-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse Storyboard to Video"
   },
   {
     "name": "happy-horse-text-to-video",
@@ -552,17 +4154,19 @@
     "layer": "capability",
     "model_ids": [
       "public_model_happyhorse_t2v"
-    ]
+    ],
+    "display_name": "Happy Horse Text to Video"
   },
   {
     "name": "happy-horse-tvc-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_happyhorse_t2v",
       "public_model_happyhorse_i2v",
-      "public_model_happyhorse_r2v"
-    ]
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v"
+    ],
+    "display_name": "Happy Horse TVC Commercial"
   },
   {
     "name": "happy-horse-video-edit",
@@ -570,13 +4174,20 @@
     "layer": "capability",
     "model_ids": [
       "public_model_happyhorse_video_edit"
-    ]
+    ],
+    "display_name": "Happy Horse Video Editing"
   },
   {
     "name": "happy-horse-video-generation-and-editing",
     "kind": "video",
     "layer": "model-suite",
-    "model_ids": []
+    "model_ids": [
+      "public_model_happyhorse_i2v",
+      "public_model_happyhorse_r2v",
+      "public_model_happyhorse_t2v",
+      "public_model_happyhorse_video_edit"
+    ],
+    "display_name": "HappyHorse 视频生成与编辑"
   },
   {
     "name": "happy-horse-video-reference-to-video",
@@ -584,19 +4195,30 @@
     "layer": "capability",
     "model_ids": [
       "public_model_happyhorse_r2v"
-    ]
+    ],
+    "display_name": "Happy Horse Video Reference to Video"
   },
   {
     "name": "heygen-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "HeyGen 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "high-conversion-ad-image-generation-editing",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "高转化广告图片生成与编辑"
   },
   {
     "name": "image-2",
@@ -604,7 +4226,8 @@
     "layer": "model",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Image Generation and Editing"
   },
   {
     "name": "image-2-ad-image",
@@ -612,7 +4235,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Ad Creative Image"
   },
   {
     "name": "image-2-background-replace",
@@ -620,7 +4244,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Background Replacement"
   },
   {
     "name": "image-2-character-consistency",
@@ -628,7 +4253,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Character-Consistent Images"
   },
   {
     "name": "image-2-ecommerce-main-image",
@@ -636,7 +4262,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 E-commerce Main Image"
   },
   {
     "name": "image-2-exact-text-image",
@@ -644,7 +4271,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Text-Accurate Image"
   },
   {
     "name": "image-2-image-edit",
@@ -652,7 +4280,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Image Editing"
   },
   {
     "name": "image-2-image-to-image",
@@ -660,7 +4289,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Image to Image"
   },
   {
     "name": "image-2-livestream-image",
@@ -668,7 +4298,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Livestream Commerce Image"
   },
   {
     "name": "image-2-marketing-image",
@@ -676,7 +4307,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Marketing Image"
   },
   {
     "name": "image-2-multi-reference-image",
@@ -684,7 +4316,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Multi-Reference Image Generation"
   },
   {
     "name": "image-2-poster",
@@ -692,7 +4325,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Poster Generation"
   },
   {
     "name": "image-2-product-detail-page",
@@ -700,7 +4334,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Product Detail Page Images"
   },
   {
     "name": "image-2-product-image",
@@ -708,7 +4343,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Product Image Generation"
   },
   {
     "name": "image-2-product-retouch",
@@ -716,7 +4352,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Product Retouching"
   },
   {
     "name": "image-2-seeding-image",
@@ -724,7 +4361,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Social Seeding Image"
   },
   {
     "name": "image-2-text-to-image",
@@ -732,7 +4370,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image2 Text to Image"
   },
   {
     "name": "image-edit",
@@ -740,13 +4379,17 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Image Editing"
   },
   {
     "name": "image-prompt-commercial-visual-generation",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI 图片提示词与商业视觉生成"
   },
   {
     "name": "image-reference-to-video",
@@ -754,7 +4397,8 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Image Reference to Video"
   },
   {
     "name": "image-to-image",
@@ -762,7 +4406,8 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Image to Image"
   },
   {
     "name": "image-to-video",
@@ -770,67 +4415,118 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_seedance_2_5_i2v"
-    ]
+    ],
+    "display_name": "Image to Video"
   },
   {
     "name": "instagram-ins-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Instagram INS 电商图片生成与编辑"
   },
   {
     "name": "instagram-ins-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Instagram INS 电商视频生成与编辑"
   },
   {
     "name": "jd-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "京东 电商图片生成与编辑"
   },
   {
     "name": "jd-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "京东 电商视频生成与编辑"
   },
   {
     "name": "kling-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "可灵 Kling 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "kuaishou-ecommerce-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "快手电商 电商图片生成与编辑"
   },
   {
     "name": "kuaishou-ecommerce-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "快手电商 电商视频生成与编辑"
   },
   {
     "name": "lazada-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Lazada 电商图片生成与编辑"
   },
   {
     "name": "lazada-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Lazada 电商视频生成与编辑"
   },
   {
     "name": "liblibai-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "LiblibAI 哩布哩布 libtv 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "livestream-image",
@@ -838,7 +4534,8 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Livestream Commerce Image"
   },
   {
     "name": "marketing-image",
@@ -846,45 +4543,61 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Marketing Image"
   },
   {
     "name": "meitu-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "美图 Meitu 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "meitu-moki-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "美图 MOKI 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "midjourney-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Midjourney 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "minimax-h3",
     "kind": "video",
     "layer": "model",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 Video Generation"
   },
   {
     "name": "minimax-h3-ai-ad-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 AI Ad Video"
   },
   {
     "name": "minimax-h3-audio-reference-to-video",
@@ -892,37 +4605,41 @@
     "layer": "capability",
     "model_ids": [
       "public_model_minimax_h3_r2v"
-    ]
+    ],
+    "display_name": "MiniMax H3 Audio Reference to Video"
   },
   {
     "name": "minimax-h3-comic-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 Comic Drama Video"
   },
   {
     "name": "minimax-h3-dynamic-comic-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 Motion Comic"
   },
   {
     "name": "minimax-h3-ecommerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 E-commerce Video"
   },
   {
     "name": "minimax-h3-first-last-frame-to-video",
@@ -930,7 +4647,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_minimax_h3_i2v"
-    ]
+    ],
+    "display_name": "MiniMax H3 First and Last Frame Video"
   },
   {
     "name": "minimax-h3-image-reference-to-video",
@@ -938,7 +4656,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_minimax_h3_r2v"
-    ]
+    ],
+    "display_name": "MiniMax H3 Image Reference to Video"
   },
   {
     "name": "minimax-h3-image-to-video",
@@ -946,17 +4665,19 @@
     "layer": "capability",
     "model_ids": [
       "public_model_minimax_h3_i2v"
-    ]
+    ],
+    "display_name": "MiniMax H3 Image to Video"
   },
   {
     "name": "minimax-h3-product-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 Product Video"
   },
   {
     "name": "minimax-h3-reference-to-video",
@@ -964,47 +4685,52 @@
     "layer": "capability",
     "model_ids": [
       "public_model_minimax_h3_r2v"
-    ]
+    ],
+    "display_name": "MiniMax H3 Reference to Video"
   },
   {
     "name": "minimax-h3-seeding-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 Social Seeding Video"
   },
   {
     "name": "minimax-h3-short-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 Short Drama Video"
   },
   {
     "name": "minimax-h3-social-commerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 Social Commerce Video"
   },
   {
     "name": "minimax-h3-storyboard-to-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 Storyboard to Video"
   },
   {
     "name": "minimax-h3-text-to-video",
@@ -1012,23 +4738,30 @@
     "layer": "capability",
     "model_ids": [
       "public_model_minimax_h3_t2v"
-    ]
+    ],
+    "display_name": "MiniMax H3 Text to Video"
   },
   {
     "name": "minimax-h3-tvc-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_minimax_h3_t2v",
       "public_model_minimax_h3_i2v",
-      "public_model_minimax_h3_r2v"
-    ]
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "MiniMax H3 TVC Commercial"
   },
   {
     "name": "minimax-h3-video-generation-and-editing",
     "kind": "video",
     "layer": "model-suite",
-    "model_ids": []
+    "model_ids": [
+      "public_model_minimax_h3_i2v",
+      "public_model_minimax_h3_r2v",
+      "public_model_minimax_h3_t2v"
+    ],
+    "display_name": "Minimax H3 视频生成与编辑"
   },
   {
     "name": "minimax-h3-video-reference-to-video",
@@ -1036,7 +4769,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_minimax_h3_r2v"
-    ]
+    ],
+    "display_name": "MiniMax H3 Video Reference to Video"
   },
   {
     "name": "multi-reference-image",
@@ -1044,7 +4778,8 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Multi-Reference Image Generation"
   },
   {
     "name": "nano-banana",
@@ -1052,7 +4787,8 @@
     "layer": "model",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Image Generation and Editing"
   },
   {
     "name": "nano-banana-2",
@@ -1060,7 +4796,8 @@
     "layer": "model",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Image Generation and Editing"
   },
   {
     "name": "nano-banana-2-ad-image",
@@ -1068,7 +4805,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Ad Creative Image"
   },
   {
     "name": "nano-banana-2-background-replace",
@@ -1076,7 +4814,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Background Replacement"
   },
   {
     "name": "nano-banana-2-character-consistency",
@@ -1084,7 +4823,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Character-Consistent Images"
   },
   {
     "name": "nano-banana-2-ecommerce-main-image",
@@ -1092,7 +4832,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 E-commerce Main Image"
   },
   {
     "name": "nano-banana-2-exact-text-image",
@@ -1100,7 +4841,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Text-Accurate Image"
   },
   {
     "name": "nano-banana-2-image-edit",
@@ -1108,7 +4850,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Image Editing"
   },
   {
     "name": "nano-banana-2-image-to-image",
@@ -1116,7 +4859,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Image to Image"
   },
   {
     "name": "nano-banana-2-livestream-image",
@@ -1124,7 +4868,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Livestream Commerce Image"
   },
   {
     "name": "nano-banana-2-marketing-image",
@@ -1132,7 +4877,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Marketing Image"
   },
   {
     "name": "nano-banana-2-multi-reference-image",
@@ -1140,7 +4886,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Multi-Reference Image Generation"
   },
   {
     "name": "nano-banana-2-poster",
@@ -1148,7 +4895,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Poster Generation"
   },
   {
     "name": "nano-banana-2-product-detail-page",
@@ -1156,7 +4904,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Product Detail Page Images"
   },
   {
     "name": "nano-banana-2-product-image",
@@ -1164,7 +4913,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Product Image Generation"
   },
   {
     "name": "nano-banana-2-product-retouch",
@@ -1172,7 +4922,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Product Retouching"
   },
   {
     "name": "nano-banana-2-seeding-image",
@@ -1180,7 +4931,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Social Seeding Image"
   },
   {
     "name": "nano-banana-2-text-to-image",
@@ -1188,7 +4940,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana 2 Text to Image"
   },
   {
     "name": "nano-banana-ad-image",
@@ -1196,7 +4949,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Ad Creative Image"
   },
   {
     "name": "nano-banana-background-replace",
@@ -1204,7 +4958,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Background Replacement"
   },
   {
     "name": "nano-banana-character-consistency",
@@ -1212,7 +4967,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Character-Consistent Images"
   },
   {
     "name": "nano-banana-ecommerce-main-image",
@@ -1220,7 +4976,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana E-commerce Main Image"
   },
   {
     "name": "nano-banana-exact-text-image",
@@ -1228,7 +4985,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Text-Accurate Image"
   },
   {
     "name": "nano-banana-image-edit",
@@ -1236,7 +4994,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Image Editing"
   },
   {
     "name": "nano-banana-image-to-image",
@@ -1244,7 +5003,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Image to Image"
   },
   {
     "name": "nano-banana-livestream-image",
@@ -1252,7 +5012,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Livestream Commerce Image"
   },
   {
     "name": "nano-banana-marketing-image",
@@ -1260,7 +5021,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Marketing Image"
   },
   {
     "name": "nano-banana-multi-reference-image",
@@ -1268,7 +5030,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Multi-Reference Image Generation"
   },
   {
     "name": "nano-banana-poster",
@@ -1276,7 +5039,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Poster Generation"
   },
   {
     "name": "nano-banana-pro",
@@ -1284,7 +5048,8 @@
     "layer": "model",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Image Generation and Editing"
   },
   {
     "name": "nano-banana-pro-ad-image",
@@ -1292,7 +5057,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Ad Creative Image"
   },
   {
     "name": "nano-banana-pro-background-replace",
@@ -1300,7 +5066,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Background Replacement"
   },
   {
     "name": "nano-banana-pro-character-consistency",
@@ -1308,7 +5075,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Character-Consistent Images"
   },
   {
     "name": "nano-banana-pro-ecommerce-main-image",
@@ -1316,7 +5084,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro E-commerce Main Image"
   },
   {
     "name": "nano-banana-pro-exact-text-image",
@@ -1324,7 +5093,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Text-Accurate Image"
   },
   {
     "name": "nano-banana-pro-image-edit",
@@ -1332,7 +5102,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Image Editing"
   },
   {
     "name": "nano-banana-pro-image-to-image",
@@ -1340,7 +5111,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Image to Image"
   },
   {
     "name": "nano-banana-pro-livestream-image",
@@ -1348,7 +5120,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Livestream Commerce Image"
   },
   {
     "name": "nano-banana-pro-marketing-image",
@@ -1356,7 +5129,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Marketing Image"
   },
   {
     "name": "nano-banana-pro-multi-reference-image",
@@ -1364,7 +5138,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Multi-Reference Image Generation"
   },
   {
     "name": "nano-banana-pro-poster",
@@ -1372,7 +5147,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Poster Generation"
   },
   {
     "name": "nano-banana-pro-product-detail-page",
@@ -1380,7 +5156,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Product Detail Page Images"
   },
   {
     "name": "nano-banana-pro-product-image",
@@ -1388,7 +5165,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Product Image Generation"
   },
   {
     "name": "nano-banana-pro-product-retouch",
@@ -1396,7 +5174,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Product Retouching"
   },
   {
     "name": "nano-banana-pro-seeding-image",
@@ -1404,7 +5183,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Social Seeding Image"
   },
   {
     "name": "nano-banana-pro-text-to-image",
@@ -1412,7 +5192,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_pro"
-    ]
+    ],
+    "display_name": "Nano Banana Pro Text to Image"
   },
   {
     "name": "nano-banana-product-detail-page",
@@ -1420,7 +5201,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Product Detail Page Images"
   },
   {
     "name": "nano-banana-product-image",
@@ -1428,7 +5210,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Product Image Generation"
   },
   {
     "name": "nano-banana-product-retouch",
@@ -1436,7 +5219,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Product Retouching"
   },
   {
     "name": "nano-banana-seeding-image",
@@ -1444,7 +5228,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Social Seeding Image"
   },
   {
     "name": "nano-banana-text-to-image",
@@ -1452,37 +5237,65 @@
     "layer": "capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Nano Banana Text to Image"
   },
   {
     "name": "photoroom-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "PhotoRoom 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "pika-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Pika 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "pinduoduo-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "拼多多 电商图片生成与编辑"
   },
   {
     "name": "pinduoduo-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "拼多多 电商视频生成与编辑"
   },
   {
     "name": "pixverse-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "PixVerse 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "poster",
@@ -1490,13 +5303,17 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Poster Generation"
   },
   {
     "name": "product-background-replacement-commercial",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "商品换背景与商业场景图生成"
   },
   {
     "name": "product-detail-page",
@@ -1504,19 +5321,30 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Product Detail Page Images"
   },
   {
     "name": "product-detail-page-image-set-generation",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "商品详情页套图一键生成"
   },
   {
     "name": "product-explainer-video-generation",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "商品讲解视频一键生成"
   },
   {
     "name": "product-image",
@@ -1524,13 +5352,17 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Product Image Generation"
   },
   {
     "name": "product-image-suite-generation-editing",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "商品套图生成与编辑"
   },
   {
     "name": "product-retouch",
@@ -1538,17 +5370,19 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_gpt_image_2"
-    ]
+    ],
+    "display_name": "Product Retouching"
   },
   {
     "name": "product-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Product Video"
   },
   {
     "name": "reference-to-video",
@@ -1556,51 +5390,63 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Reference to Video"
   },
   {
     "name": "runway-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Runway 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "seedance",
     "kind": "video",
     "layer": "model",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
       "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_video_edit",
       "public_model_seedance_2_5_video_extend"
-    ]
+    ],
+    "display_name": "Seedance Video Generation"
   },
   {
     "name": "seedance-1-5-video-generation-and-editing",
     "kind": "video",
     "layer": "model-suite",
-    "model_ids": []
+    "model_ids": [],
+    "display_name": "Seedance1.5 视频生成与编辑"
   },
   {
     "name": "seedance-2-0",
     "kind": "video",
     "layer": "model",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 Video Generation"
   },
   {
     "name": "seedance-2-0-ai-ad-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 AI Ad Video"
   },
   {
     "name": "seedance-2-0-audio-reference-to-video",
@@ -1608,37 +5454,41 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_r2v"
-    ]
+    ],
+    "display_name": "Seedance 2.0 Audio Reference to Video"
   },
   {
     "name": "seedance-2-0-comic-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 Comic Drama Video"
   },
   {
     "name": "seedance-2-0-dynamic-comic-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 Motion Comic"
   },
   {
     "name": "seedance-2-0-ecommerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 E-commerce Video"
   },
   {
     "name": "seedance-2-0-first-last-frame-to-video",
@@ -1646,7 +5496,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_i2v"
-    ]
+    ],
+    "display_name": "Seedance 2.0 First and Last Frame Video"
   },
   {
     "name": "seedance-2-0-image-reference-to-video",
@@ -1654,7 +5505,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_r2v"
-    ]
+    ],
+    "display_name": "Seedance 2.0 Image Reference to Video"
   },
   {
     "name": "seedance-2-0-image-to-video",
@@ -1662,23 +5514,30 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_i2v"
-    ]
+    ],
+    "display_name": "Seedance 2.0 Image to Video"
   },
   {
     "name": "seedance-2-0-lowest-20-percent-off-channel",
     "kind": "video",
     "layer": "offer",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance2.0 最低 8 折｜比官方更便宜的视频生成渠道"
   },
   {
     "name": "seedance-2-0-product-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 Product Video"
   },
   {
     "name": "seedance-2-0-reference-to-video",
@@ -1686,47 +5545,52 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_r2v"
-    ]
+    ],
+    "display_name": "Seedance 2.0 Reference to Video"
   },
   {
     "name": "seedance-2-0-seeding-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 Social Seeding Video"
   },
   {
     "name": "seedance-2-0-short-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 Short Drama Video"
   },
   {
     "name": "seedance-2-0-social-commerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 Social Commerce Video"
   },
   {
     "name": "seedance-2-0-storyboard-to-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 Storyboard to Video"
   },
   {
     "name": "seedance-2-0-text-to-video",
@@ -1734,23 +5598,30 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_t2v"
-    ]
+    ],
+    "display_name": "Seedance 2.0 Text to Video"
   },
   {
     "name": "seedance-2-0-tvc-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_t2v",
       "public_model_seedance_i2v",
-      "public_model_seedance_r2v"
-    ]
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance 2.0 TVC Commercial"
   },
   {
     "name": "seedance-2-0-video-generation-and-editing",
     "kind": "video",
     "layer": "model-suite",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_i2v",
+      "public_model_seedance_r2v",
+      "public_model_seedance_t2v"
+    ],
+    "display_name": "Seedance2.0 视频生成与编辑"
   },
   {
     "name": "seedance-2-0-video-reference-to-video",
@@ -1758,29 +5629,32 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_r2v"
-    ]
+    ],
+    "display_name": "Seedance 2.0 Video Reference to Video"
   },
   {
     "name": "seedance-2-5",
     "kind": "video",
     "layer": "model",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
       "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_video_edit",
       "public_model_seedance_2_5_video_extend"
-    ]
+    ],
+    "display_name": "Seedance 2.5 Video Generation"
   },
   {
     "name": "seedance-2-5-ai-ad-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 AI Ad Video"
   },
   {
     "name": "seedance-2-5-audio-reference-to-video",
@@ -1788,37 +5662,41 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Seedance 2.5 Audio Reference to Video"
   },
   {
     "name": "seedance-2-5-comic-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 Comic Drama Video"
   },
   {
     "name": "seedance-2-5-dynamic-comic-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 Motion Comic"
   },
   {
     "name": "seedance-2-5-ecommerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 E-commerce Video"
   },
   {
     "name": "seedance-2-5-first-last-frame-to-video",
@@ -1826,7 +5704,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_i2v"
-    ]
+    ],
+    "display_name": "Seedance 2.5 First and Last Frame Video"
   },
   {
     "name": "seedance-2-5-image-reference-to-video",
@@ -1834,7 +5713,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Seedance 2.5 Image Reference to Video"
   },
   {
     "name": "seedance-2-5-image-to-video",
@@ -1842,23 +5722,32 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_i2v"
-    ]
+    ],
+    "display_name": "Seedance 2.5 Image to Video"
   },
   {
     "name": "seedance-2-5-lowest-20-percent-off-channel",
     "kind": "video",
     "layer": "offer",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Seedance2.5 最低 8 折｜比官方更便宜的视频生成渠道"
   },
   {
     "name": "seedance-2-5-product-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 Product Video"
   },
   {
     "name": "seedance-2-5-reference-to-video",
@@ -1866,47 +5755,52 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Seedance 2.5 Reference to Video"
   },
   {
     "name": "seedance-2-5-seeding-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 Social Seeding Video"
   },
   {
     "name": "seedance-2-5-short-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 Short Drama Video"
   },
   {
     "name": "seedance-2-5-social-commerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 Social Commerce Video"
   },
   {
     "name": "seedance-2-5-storyboard-to-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 Storyboard to Video"
   },
   {
     "name": "seedance-2-5-text-to-video",
@@ -1914,17 +5808,19 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_t2v"
-    ]
+    ],
+    "display_name": "Seedance 2.5 Text to Video"
   },
   {
     "name": "seedance-2-5-tvc-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance 2.5 TVC Commercial"
   },
   {
     "name": "seedance-2-5-video-edit",
@@ -1932,7 +5828,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_video_edit"
-    ]
+    ],
+    "display_name": "Seedance 2.5 Video Editing"
   },
   {
     "name": "seedance-2-5-video-extend",
@@ -1940,13 +5837,21 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_video_extend"
-    ]
+    ],
+    "display_name": "Seedance 2.5 Video Extension"
   },
   {
     "name": "seedance-2-5-video-generation-and-editing",
     "kind": "video",
     "layer": "model-suite",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Seedance2.5 视频生成与编辑"
   },
   {
     "name": "seedance-2-5-video-reference-to-video",
@@ -1954,17 +5859,19 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Seedance 2.5 Video Reference to Video"
   },
   {
     "name": "seedance-ai-ad-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance AI Ad Video"
   },
   {
     "name": "seedance-audio-reference-to-video",
@@ -1972,43 +5879,54 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Seedance Audio Reference to Video"
   },
   {
     "name": "seedance-comic-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance Comic Drama Video"
   },
   {
     "name": "seedance-director-prompt-video-generation",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Seedance 导演提示词与视频生成"
   },
   {
     "name": "seedance-dynamic-comic-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance Motion Comic"
   },
   {
     "name": "seedance-ecommerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance E-commerce Video"
   },
   {
     "name": "seedance-first-last-frame-to-video",
@@ -2016,7 +5934,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_i2v"
-    ]
+    ],
+    "display_name": "Seedance First and Last Frame Video"
   },
   {
     "name": "seedance-image-reference-to-video",
@@ -2024,7 +5943,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Seedance Image Reference to Video"
   },
   {
     "name": "seedance-image-to-video",
@@ -2032,23 +5952,32 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_i2v"
-    ]
+    ],
+    "display_name": "Seedance Image to Video"
   },
   {
     "name": "seedance-lowest-20-percent-off-channel",
     "kind": "video",
     "layer": "offer",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Seedance 最低 8 折｜比官方更便宜的视频生成渠道"
   },
   {
     "name": "seedance-product-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance Product Video"
   },
   {
     "name": "seedance-reference-to-video",
@@ -2056,47 +5985,52 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Seedance Reference to Video"
   },
   {
     "name": "seedance-seeding-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance Social Seeding Video"
   },
   {
     "name": "seedance-short-drama-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance Short Drama Video"
   },
   {
     "name": "seedance-social-commerce-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance Social Commerce Video"
   },
   {
     "name": "seedance-storyboard-to-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance Storyboard to Video"
   },
   {
     "name": "seedance-text-to-video",
@@ -2104,17 +6038,19 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_t2v"
-    ]
+    ],
+    "display_name": "Seedance Text to Video"
   },
   {
     "name": "seedance-tvc-video",
     "kind": "video",
     "layer": "scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Seedance TVC Commercial"
   },
   {
     "name": "seedance-video-edit",
@@ -2122,7 +6058,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_video_edit"
-    ]
+    ],
+    "display_name": "Seedance Video Editing"
   },
   {
     "name": "seedance-video-extend",
@@ -2130,13 +6067,21 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_video_extend"
-    ]
+    ],
+    "display_name": "Seedance Video Extension"
   },
   {
     "name": "seedance-video-generation-and-editing",
     "kind": "video",
     "layer": "model-suite",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Seedance 视频生成与编辑"
   },
   {
     "name": "seedance-video-reference-to-video",
@@ -2144,7 +6089,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Seedance Video Reference to Video"
   },
   {
     "name": "seeding-image",
@@ -2152,17 +6098,19 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Social Seeding Image"
   },
   {
     "name": "seeding-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Social Seeding Video"
   },
   {
     "name": "seedream-5-lite",
@@ -2170,7 +6118,8 @@
     "layer": "model",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Image Generation and Editing"
   },
   {
     "name": "seedream-5-lite-ad-image",
@@ -2178,7 +6127,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Ad Creative Image"
   },
   {
     "name": "seedream-5-lite-background-replace",
@@ -2186,7 +6136,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Background Replacement"
   },
   {
     "name": "seedream-5-lite-character-consistency",
@@ -2194,7 +6145,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Character-Consistent Images"
   },
   {
     "name": "seedream-5-lite-ecommerce-main-image",
@@ -2202,7 +6154,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite E-commerce Main Image"
   },
   {
     "name": "seedream-5-lite-exact-text-image",
@@ -2210,7 +6163,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Text-Accurate Image"
   },
   {
     "name": "seedream-5-lite-image-edit",
@@ -2218,7 +6172,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Image Editing"
   },
   {
     "name": "seedream-5-lite-image-to-image",
@@ -2226,7 +6181,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Image to Image"
   },
   {
     "name": "seedream-5-lite-livestream-image",
@@ -2234,7 +6190,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Livestream Commerce Image"
   },
   {
     "name": "seedream-5-lite-marketing-image",
@@ -2242,7 +6199,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Marketing Image"
   },
   {
     "name": "seedream-5-lite-multi-reference-image",
@@ -2250,7 +6208,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Multi-Reference Image Generation"
   },
   {
     "name": "seedream-5-lite-poster",
@@ -2258,7 +6217,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Poster Generation"
   },
   {
     "name": "seedream-5-lite-product-detail-page",
@@ -2266,7 +6226,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Product Detail Page Images"
   },
   {
     "name": "seedream-5-lite-product-image",
@@ -2274,7 +6235,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Product Image Generation"
   },
   {
     "name": "seedream-5-lite-product-retouch",
@@ -2282,7 +6244,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Product Retouching"
   },
   {
     "name": "seedream-5-lite-seeding-image",
@@ -2290,7 +6253,8 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Social Seeding Image"
   },
   {
     "name": "seedream-5-lite-text-to-image",
@@ -2298,127 +6262,208 @@
     "layer": "capability",
     "model_ids": [
       "public_model_seedream_5_0_lite"
-    ]
+    ],
+    "display_name": "Seedream 5.0 Lite Text to Image"
   },
   {
     "name": "shein-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "SHEIN 电商图片生成与编辑"
   },
   {
     "name": "shein-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "SHEIN 电商视频生成与编辑"
   },
   {
     "name": "shopee-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Shopee 电商图片生成与编辑"
   },
   {
     "name": "shopee-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Shopee 电商视频生成与编辑"
   },
   {
     "name": "shopify-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Shopify 电商图片生成与编辑"
   },
   {
     "name": "shopify-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Shopify 电商视频生成与编辑"
   },
   {
     "name": "short-drama-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Short Drama Video"
   },
   {
     "name": "short-video-script-to-finished-video",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "短视频脚本一键生成成片"
   },
   {
     "name": "social-commerce-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Social Commerce Video"
   },
   {
     "name": "social-media-marketing-image-set-generation",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "社媒营销图片套图生成与编辑"
   },
   {
     "name": "social-media-marketing-video-generation-editing",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "社媒营销视频生成与编辑"
   },
   {
     "name": "sora-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Sora 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "stable-diffusion-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Stable Diffusion 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "storyboard-to-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "Storyboard to Video"
   },
   {
     "name": "taobao-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "淘宝 电商图片生成与编辑"
   },
   {
     "name": "taobao-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "淘宝 电商视频生成与编辑"
   },
   {
     "name": "temu-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Temu 电商图片生成与编辑"
   },
   {
     "name": "temu-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Temu 电商视频生成与编辑"
   },
   {
     "name": "text-to-image",
@@ -2426,7 +6471,8 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_nano_banana_2"
-    ]
+    ],
+    "display_name": "Text to Image"
   },
   {
     "name": "text-to-video",
@@ -2434,59 +6480,102 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_seedance_2_5_t2v"
-    ]
+    ],
+    "display_name": "Text to Video"
   },
   {
     "name": "tiktok-shop-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "TikTok Shop 电商图片生成与编辑"
   },
   {
     "name": "tiktok-shop-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "TikTok Shop 电商视频生成与编辑"
   },
   {
     "name": "tiktok-shop-viral-sales-video-generation",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "TikTok Shop 爆款带货视频生成"
   },
   {
     "name": "tmall-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "天猫 电商图片生成与编辑"
   },
   {
     "name": "tmall-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "天猫 电商视频生成与编辑"
   },
   {
     "name": "tvc-video",
     "kind": "video",
     "layer": "generic-scene",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "TVC Commercial"
   },
   {
     "name": "ugc-ad-video-generation-editing",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "UGC 广告视频生成与编辑"
   },
   {
     "name": "veo-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Veo 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "video-edit",
@@ -2494,7 +6583,8 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_seedance_2_5_video_edit"
-    ]
+    ],
+    "display_name": "Video Editing"
   },
   {
     "name": "video-extend",
@@ -2502,23 +6592,32 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_seedance_2_5_video_extend"
-    ]
+    ],
+    "display_name": "Video Extension"
   },
   {
     "name": "video-generation",
     "kind": "video",
     "layer": "generic-capability",
     "model_ids": [
-      "public_model_seedance_2_5_t2v",
       "public_model_seedance_2_5_i2v",
-      "public_model_seedance_2_5_r2v"
-    ]
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI Video Generation"
   },
   {
     "name": "video-generation-and-editing",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "视频生成与编辑"
   },
   {
     "name": "video-reference-to-video",
@@ -2526,120 +6625,210 @@
     "layer": "generic-capability",
     "model_ids": [
       "public_model_seedance_2_5_r2v"
-    ]
+    ],
+    "display_name": "Video Reference to Video"
   },
   {
     "name": "vidu-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Vidu 视频生成替代｜AI 视频生成与编辑"
   },
   {
     "name": "viral-ad-video-generation-editing",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "爆款广告视频生成与编辑"
   },
   {
     "name": "viral-cover-image-generation-editing",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "爆款封面图片生成与编辑"
   },
   {
     "name": "viral-reference-video-remake",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "爆款参考视频仿拍与二创"
   },
   {
     "name": "viral-short-video-generation-editing",
     "kind": "video",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "爆款短视频生成与编辑｜一键出片"
   },
   {
     "name": "virtual-try-on-product-image-generation",
     "kind": "image",
     "layer": "scenario",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI 试衣商品图生成与编辑"
   },
   {
     "name": "walmart-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "Walmart 电商图片生成与编辑"
   },
   {
     "name": "walmart-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "Walmart 电商视频生成与编辑"
   },
   {
     "name": "wan-2-5-video-generation-and-editing",
     "kind": "video",
     "layer": "model-suite",
-    "model_ids": []
+    "model_ids": [],
+    "display_name": "Wan2.5 视频生成与编辑"
   },
   {
     "name": "wan-3-0-video-generation-and-editing",
     "kind": "video",
     "layer": "model-suite",
-    "model_ids": []
+    "model_ids": [],
+    "display_name": "Wan3.0 视频生成与编辑"
   },
   {
     "name": "wanxiang-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "通义万相 图片生成替代｜AI 图片生成与编辑"
   },
   {
     "name": "wechat-channels-viral-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "视频号爆款短视频生成与编辑"
   },
   {
     "name": "wechat-official-account-viral-cover-generation",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "公众号爆款封面生成与编辑"
   },
   {
     "name": "wechat-shop-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "微信小店 电商图片生成与编辑"
   },
   {
     "name": "wechat-shop-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "微信小店 电商视频生成与编辑"
   },
   {
     "name": "xiaohongshu-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "小红书 电商图片生成与编辑"
   },
   {
     "name": "xiaohongshu-ecommerce-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "小红书 电商视频生成与编辑"
   },
   {
     "name": "xiaohongshu-viral-cover-image-generation",
     "kind": "image",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "小红书爆款笔记封面生成与编辑"
   },
   {
     "name": "xiaohongshu-viral-seeding-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
-    "model_ids": []
+    "model_ids": [
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v",
+      "public_model_seedance_2_5_video_edit",
+      "public_model_seedance_2_5_video_extend"
+    ],
+    "display_name": "小红书爆款种草视频生成与编辑"
   }
 ]

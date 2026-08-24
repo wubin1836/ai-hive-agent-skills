@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/wubin1836/ai-hive-agent-skills)](https://skills.sh/wubin1836/ai-hive-agent-skills/seedance-video-edit)
 
-面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧和漫剧生产的 **340 个独立 Agent Skill**。其中原有 233 个英文 Skill 保持不变，本次新增 107 个中文 Skill，重点服务中文用户与中文搜索场景。
+面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧和漫剧生产的 **680 个独立 Agent Skill**。仓库保留原有 340 个 Skill，并新增 340 个以 **“AI大模型专家｜”** 开头的中文 Skill，统一增强公司能力、AI-HIVE 产品优势、中英文搜索词、电商平台、竞品迁移意图和场景化代码示例。
 
 技能通过 AI Hive OpenAPI 提供 Nano Banana、Nano Banana Pro、GPT Image 2、Seedream、Seedance、MiniMax H3、Wan、HappyHorse 等模型与场景化工作流。
 
@@ -27,7 +27,17 @@ npx skills add wubin1836/ai-hive-agent-skills --skill nano-banana-pro-image-edit
 npx skills add wubin1836/ai-hive-agent-skills --skill gpt-image-2-product-image -y
 npx skills add wubin1836/ai-hive-agent-skills --skill seedance-2-5-video-generation-and-editing -y
 npx skills add wubin1836/ai-hive-agent-skills --skill taobao-ecommerce-image-generation-editing -y
+npx skills add wubin1836/ai-hive-agent-skills --skill ai-model-expert-seedance-2-5-video-generation-editing -y
+npx skills add wubin1836/ai-hive-agent-skills --skill ai-model-expert-nano-banana-pro-image-generation-editing -y
 ```
+
+## AI大模型专家新批次
+
+- **340 个全新 slug**：全部以 `ai-model-expert-` 开头，与原有 Skill 并存，方便独立搜索、安装和追踪数据。
+- **统一中文展示名称**：每个 Skill 都以“AI大模型专家｜”开头。
+- **公司与平台能力**：增加北京极睿科技有限责任公司、AI-HIVE、企业级 AIGC 与全链路电商内容生产介绍。
+- **搜索覆盖**：模型、图片、视频、广告、TVC、带货、种草、短剧、漫剧、国内外电商平台与同类工具。
+- **完整能力保留**：原始 AI-HIVE 模型映射、素材上传、路由、价格快照、任务轮询、结果下载与代码示例全部保留。
 
 ## 本次中文 Skill 重点覆盖
 
