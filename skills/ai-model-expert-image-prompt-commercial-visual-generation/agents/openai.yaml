@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜AI 图片提示词与商业视觉生成"
+  short_description: "用 AI-HIVE 完成AI 图片提示词与商业视觉生成，自动提交、轮询并下载结果"
+  default_prompt: "使用 $ai-model-expert-image-prompt-commercial-visual-generation 通过 AI-HIVE 完成一次AI 图片提示词与商业视觉生成任务，并保存 taskId 与结果。"
+policy:
+  allow_implicit_invocation: true
