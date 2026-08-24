@@ -1,0 +1,6 @@
+interface:
+  display_name: "广告首帧动态化｜AI-HIVE"
+  short_description: "把广告首帧动态化需求变成可执行工作流、可运行代码与可交付内容"
+  default_prompt: "Use $ad-first-frame-animation-ai-hive to turn my request into a production-ready Chinese workflow, runnable AI-HIVE commands, and a quality checklist."
+policy:
+  allow_implicit_invocation: true
