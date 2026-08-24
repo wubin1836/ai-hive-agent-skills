@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜短剧漫剧一站式制片厂"
+  short_description: "用 AI-HIVE 完成短剧、漫剧、剪辑复刻与多平台交付"
+  default_prompt: "请根据我的题材、平台和素材，规划并执行一套可交付的短剧或漫剧生产流程。"

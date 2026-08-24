@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ai-hive-aigc",
-  "version": "1.1.0",
-  "description": "810 AI image, video, ecommerce, short drama, comic drama, editing, GEO/AEO and API aggregation skills plus the AI-HIVE MCP server.",
+  "version": "1.2.0",
+  "description": "816 AI image, video, ecommerce, short drama, comic drama, viral editing, GEO/AEO and API aggregation skills plus six consolidated AI-HIVE workflows and the AI-HIVE MCP server.",
   "author": {
     "name": "Bain Wu",
     "email": "wubin1836@gmail.com",

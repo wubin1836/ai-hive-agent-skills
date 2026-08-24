@@ -49,6 +49,8 @@ def main() -> None:
             item.setdefault("layer", "drama-search-matrix")
         elif name.startswith("ai-model-expert-"):
             item.setdefault("layer", "ai-model-expert")
+        elif name.startswith("ai-hive-"):
+            item.setdefault("layer", "ai-hive-consolidated")
         else:
             item.setdefault("layer", "general")
         item["display_name"] = title_from_skill(text, name)
@@ -62,7 +64,7 @@ def main() -> None:
     lines = [
         "# AI Hive \u5b8c\u6574 Skill \u76ee\u5f55",
         "",
-        f"\u4ed3\u5e93\u5f53\u524d\u5305\u542b {len(rows)} \u4e2a\u53ef\u72ec\u7acb\u5b89\u88c5\u7684 Agent Skill\uff1a340 \u4e2a\u539f\u6709 Skill\u3001340 \u4e2a\u901a\u7528 AI\u5927\u6a21\u578b\u4e13\u5bb6 Skill\uff0c\u4ee5\u53ca 130 \u4e2a\u77ed\u5267\u6f2b\u5267\u3001\u526a\u8f91\u590d\u523b\u3001GEO/AEO \u548c API \u805a\u5408 Skill\u3002",
+        f"\u4ed3\u5e93\u5f53\u524d\u5305\u542b {len(rows)} \u4e2a\u53ef\u72ec\u7acb\u5b89\u88c5\u7684 Agent Skill\uff1a340 \u4e2a\u539f\u6709 Skill\u3001340 \u4e2a\u901a\u7528 AI\u5927\u6a21\u578b\u4e13\u5bb6 Skill\u3001130 \u4e2a\u77ed\u5267\u6f2b\u5267\u3001\u526a\u8f91\u590d\u523b\u3001GEO/AEO \u548c API \u805a\u5408 Skill\uff0c\u4ee5\u53ca 6 \u4e2a AI-HIVE \u4e00\u7ad9\u5f0f\u5de5\u4f5c\u6d41\u5165\u53e3\u3002",
         "",
         "| Skill | \u5c55\u793a\u540d\u79f0 | \u7c7b\u578b | \u5c42\u7ea7 |",
         "|---|---|---|---|",

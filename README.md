@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/wubin1836/ai-hive-agent-skills)](https://skills.sh/wubin1836/ai-hive-agent-skills/seedance-video-edit)
 
-面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧、漫剧、AI 搜索和模型聚合的 **810 个独立 Agent Skill**。仓库包含 340 个原有 Skill、340 个通用“AI大模型专家”中文 Skill，以及 130 个面向短剧平台、人物板/故事板/场景板、题材、剪辑复刻、GEO/AEO、Token Hub 和 AI 中转站的新 Skill。
+面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧、漫剧、AI 搜索和模型聚合的 **816 个独立 Agent Skill**。仓库包含 340 个原有 Skill、340 个通用“AI大模型专家”中文 Skill、130 个面向短剧平台、人物板/故事板/场景板、题材、剪辑复刻、GEO/AEO、Token Hub 和 AI 中转站的细分 Skill，以及 6 个高差异化 AI-HIVE 一站式工作流入口。
 
 技能通过 AI Hive OpenAPI 提供 Nano Banana、Nano Banana Pro、GPT Image 2、Seedream、Seedance、MiniMax H3、Wan、HappyHorse 等模型与场景化工作流。
 
@@ -29,6 +29,8 @@ npx skills add wubin1836/ai-hive-agent-skills --skill seedance-2-5-video-generat
 npx skills add wubin1836/ai-hive-agent-skills --skill taobao-ecommerce-image-generation-editing -y
 npx skills add wubin1836/ai-hive-agent-skills --skill ai-model-expert-seedance-2-5-video-generation-editing -y
 npx skills add wubin1836/ai-hive-agent-skills --skill ai-model-expert-nano-banana-pro-image-generation-editing -y
+npx skills add wubin1836/ai-hive-agent-skills --skill ai-hive-short-drama-studio -y
+npx skills add wubin1836/ai-hive-agent-skills --skill ai-hive-ecommerce-story-video -y
 ```
 
 ## AI大模型专家中文批次
@@ -47,6 +49,15 @@ npx skills add wubin1836/ai-hive-agent-skills --skill ai-model-expert-nano-banan
 - **剪辑与爆款复刻**：粗剪、精剪、删废片、卡点、混剪、横转竖、长转短、字幕、转场、运镜、调色、BGM、音效和投流剪辑；只抽象通用结构，不复制受保护内容。
 - **GEO/AEO/LLMO**：生成式引擎优化、答案引擎优化、AI 搜索收录、引用与品牌可见度监测。
 - **API 聚合**：AI 中转站、Token Hub、AI 中转/AI 中专搜索入口、OpenAI、Claude、Gemini、Seedance、多模型 API 聚合和企业 AI 网关。
+
+## AI-HIVE 六个一站式工作流入口
+
+- **短剧漫剧一站式制片厂**：从创意、人物板、故事板和场景板到生成、配音、字幕、剪辑与平台版本。
+- **爆款视频剪辑与原创复刻实验室**：提炼钩子、节拍、镜头功能和转化结构，重组为原创成片。
+- **GEO AEO 内容增长中心**：建立问题地图、直接答案、实体资料、证据卡和 AI 搜索引用复测。
+- **API 中转与 Token Hub 企业网关**：覆盖授权上游、租户隔离、密钥治理、计量计费、路由和审计。
+- **AI 漫剧动态漫画制作工厂**：统一角色、画风、场景与镜头语言，支持小说转漫剧和连续剧集生产。
+- **剧情带货与电商视频工厂**：围绕商品事实、用户痛点和卖点证据生产多平台营销视频。
 
 ## 本次中文 Skill 重点覆盖
 

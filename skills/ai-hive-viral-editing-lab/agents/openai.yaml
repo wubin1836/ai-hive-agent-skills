@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜爆款视频剪辑与原创复刻实验室"
+  short_description: "拆解钩子节奏与镜头语言，完成原创剪辑、投流和多平台改版"
+  default_prompt: "请分析我的参考视频和原始素材，输出可执行的原创剪辑、爆款结构重写和多平台改版方案。"

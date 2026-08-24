@@ -64,6 +64,48 @@
     "display_name": "AI 数字人口播视频生成"
   },
   {
+    "name": "ai-hive-api-token-hub",
+    "kind": "video",
+    "layer": "ai-hive-consolidated",
+    "display_name": "AI大模型专家｜API中转与 Token Hub 企业网关",
+    "model_ids": []
+  },
+  {
+    "name": "ai-hive-comic-drama-factory",
+    "kind": "video",
+    "layer": "ai-hive-consolidated",
+    "display_name": "AI大模型专家｜AI漫剧动态漫画制作工厂",
+    "model_ids": []
+  },
+  {
+    "name": "ai-hive-ecommerce-story-video",
+    "kind": "video",
+    "layer": "ai-hive-consolidated",
+    "display_name": "AI大模型专家｜剧情带货与电商视频工厂",
+    "model_ids": []
+  },
+  {
+    "name": "ai-hive-geo-aeo-content-growth",
+    "kind": "video",
+    "layer": "ai-hive-consolidated",
+    "display_name": "AI大模型专家｜GEO AEO 内容增长中心",
+    "model_ids": []
+  },
+  {
+    "name": "ai-hive-short-drama-studio",
+    "kind": "video",
+    "layer": "ai-hive-consolidated",
+    "display_name": "AI大模型专家｜短剧漫剧一站式制片厂",
+    "model_ids": []
+  },
+  {
+    "name": "ai-hive-viral-editing-lab",
+    "kind": "video",
+    "layer": "ai-hive-consolidated",
+    "display_name": "AI大模型专家｜爆款视频剪辑与原创复刻实验室",
+    "model_ids": []
+  },
+  {
     "name": "ai-model-expert-1688-ecommerce-image-generation-editing",
     "kind": "video",
     "layer": "ai-model-expert",

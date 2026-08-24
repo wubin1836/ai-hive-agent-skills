@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜GEO AEO 内容增长中心"
+  short_description: "建立可核验的AI搜索答案、实体、证据结构和解释型多媒体内容"
+  default_prompt: "请根据我的品牌、产品和来源资料，建立GEO/AEO问题地图、证据卡及配套图片视频内容。"

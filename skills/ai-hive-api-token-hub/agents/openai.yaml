@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜API中转与Token Hub企业网关"
+  short_description: "规划多模型API接入、密钥治理、额度计费、成本路由和审计"
+  default_prompt: "请为我的AI平台设计安全的多模型API中转、Token管理、路由、计费和审计方案。"

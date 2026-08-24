@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜AI漫剧动态漫画制作工厂"
+  short_description: "锁定角色画风与分镜，完成漫剧、动态漫画、配音字幕和连载交付"
+  default_prompt: "请把我的小说、剧本或创意转换成角色稳定、画风统一、可以连载交付的AI漫剧制作方案。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜剧情带货与电商视频工厂"
+  short_description: "把商品事实和卖点转成剧情带货、种草广告、商品短视频和投流版本"
+  default_prompt: "请根据我的商品资料、目标用户和平台，设计可核验卖点的剧情带货与电商短视频生产方案。"

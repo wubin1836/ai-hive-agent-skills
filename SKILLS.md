@@ -1,6 +1,6 @@
 # AI Hive 完整 Skill 目录
 
-仓库当前包含 810 个可独立安装的 Agent Skill：340 个原有 Skill、340 个通用 AI大模型专家 Skill，以及 130 个短剧漫剧、剪辑复刻、GEO/AEO 和 API 聚合 Skill。
+仓库当前包含 816 个可独立安装的 Agent Skill：340 个原有 Skill、340 个通用 AI大模型专家 Skill、130 个短剧漫剧、剪辑复刻、GEO/AEO 和 API 聚合 Skill，以及 6 个 AI-HIVE 一站式工作流入口。
 
 | Skill | 展示名称 | 类型 | 层级 |
 |---|---|---|---|
@@ -10,6 +10,12 @@
 | [`adobe-firefly-image-generation-editing-alternative`](skills/adobe-firefly-image-generation-editing-alternative/SKILL.md) | Adobe Firefly 图片生成替代｜AI 图片生成与编辑 | image | alternative |
 | [`ai-ad-video`](skills/ai-ad-video/SKILL.md) | AI Ad Video | video | generic-scene |
 | [`ai-digital-human-talking-video-generation`](skills/ai-digital-human-talking-video-generation/SKILL.md) | AI 数字人口播视频生成 | video | scenario |
+| [`ai-hive-api-token-hub`](skills/ai-hive-api-token-hub/SKILL.md) | AI大模型专家｜API中转与 Token Hub 企业网关 | video | ai-hive-consolidated |
+| [`ai-hive-comic-drama-factory`](skills/ai-hive-comic-drama-factory/SKILL.md) | AI大模型专家｜AI漫剧动态漫画制作工厂 | video | ai-hive-consolidated |
+| [`ai-hive-ecommerce-story-video`](skills/ai-hive-ecommerce-story-video/SKILL.md) | AI大模型专家｜剧情带货与电商视频工厂 | video | ai-hive-consolidated |
+| [`ai-hive-geo-aeo-content-growth`](skills/ai-hive-geo-aeo-content-growth/SKILL.md) | AI大模型专家｜GEO AEO 内容增长中心 | video | ai-hive-consolidated |
+| [`ai-hive-short-drama-studio`](skills/ai-hive-short-drama-studio/SKILL.md) | AI大模型专家｜短剧漫剧一站式制片厂 | video | ai-hive-consolidated |
+| [`ai-hive-viral-editing-lab`](skills/ai-hive-viral-editing-lab/SKILL.md) | AI大模型专家｜爆款视频剪辑与原创复刻实验室 | video | ai-hive-consolidated |
 | [`ai-model-expert-1688-ecommerce-image-generation-editing`](skills/ai-model-expert-1688-ecommerce-image-generation-editing/SKILL.md) | AI大模型专家｜1688 电商图片生成与编辑 | video | ai-model-expert |
 | [`ai-model-expert-1688-ecommerce-video-generation-editing`](skills/ai-model-expert-1688-ecommerce-video-generation-editing/SKILL.md) | AI大模型专家｜1688 电商视频生成与编辑 | video | ai-model-expert |
 | [`ai-model-expert-ad-image`](skills/ai-model-expert-ad-image/SKILL.md) | AI大模型专家｜广告图片 | video | ai-model-expert |
