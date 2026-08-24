@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜GPT Image 2 图片生成与编辑"
+  short_description: "GPT Image 2 商业图片生成、文字排版与局部编辑"
+  default_prompt: "使用 $ai-model-expert-gpt-image-2-image-generation-editing 通过 AI-HIVE 完成一次GPT Image 2任务，并保存 taskId 与结果。"
+policy:
+  allow_implicit_invocation: true
