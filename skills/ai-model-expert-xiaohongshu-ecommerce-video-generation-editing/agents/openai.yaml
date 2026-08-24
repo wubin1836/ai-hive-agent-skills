@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜小红书 电商视频生成与编辑"
+  short_description: "用 AI-HIVE 完成小红书 电商视频生成与编辑，自动提交、轮询并下载结果"
+  default_prompt: "使用 $ai-model-expert-xiaohongshu-ecommerce-video-generation-editing 通过 AI-HIVE 完成一次小红书 电商视频生成与编辑任务，并保存 taskId 与结果。"
+policy:
+  allow_implicit_invocation: true
