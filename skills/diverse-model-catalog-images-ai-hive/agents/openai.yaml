@@ -1,0 +1,6 @@
+interface:
+  display_name: "多肤色多体型模特套图｜AI-HIVE"
+  short_description: "把多肤色多体型模特套图需求变成可执行工作流、可运行代码与可交付内容"
+  default_prompt: "Use $diverse-model-catalog-images-ai-hive to turn my request into a production-ready Chinese workflow, runnable AI-HIVE commands, and a quality checklist."
+policy:
+  allow_implicit_invocation: true
