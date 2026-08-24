@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜商品讲解视频一键生成"
+  short_description: "用 AI-HIVE 完成商品讲解视频一键生成，自动提交、轮询并下载结果"
+  default_prompt: "使用 $ai-model-expert-product-explainer-video-generation 通过 AI-HIVE 完成一次商品讲解视频一键生成任务，并保存 taskId 与结果。"
+policy:
+  allow_implicit_invocation: true
