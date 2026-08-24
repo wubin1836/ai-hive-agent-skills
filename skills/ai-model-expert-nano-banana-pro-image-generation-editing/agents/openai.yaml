@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜Nano Banana Pro 图片生成与编辑"
+  short_description: "Nano Banana Pro 商品图、广告图、海报与参考图编辑"
+  default_prompt: "使用 $ai-model-expert-nano-banana-pro-image-generation-editing 通过 AI-HIVE 完成一次Nano Banana Pro任务，并保存 taskId 与结果。"
+policy:
+  allow_implicit_invocation: true
