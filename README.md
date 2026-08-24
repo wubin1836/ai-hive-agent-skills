@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/wubin1836/ai-hive-agent-skills)](https://skills.sh/wubin1836/ai-hive-agent-skills/seedance-video-edit)
 
-面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧和漫剧生产的 **680 个独立 Agent Skill**。仓库保留原有 340 个 Skill，并新增 340 个以 **“AI大模型专家｜”** 开头的中文 Skill，统一增强公司能力、AI-HIVE 产品优势、中英文搜索词、电商平台、竞品迁移意图和场景化代码示例。
+面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧、漫剧、AI 搜索和模型聚合的 **810 个独立 Agent Skill**。仓库包含 340 个原有 Skill、340 个通用“AI大模型专家”中文 Skill，以及 130 个面向短剧平台、人物板/故事板/场景板、题材、剪辑复刻、GEO/AEO、Token Hub 和 AI 中转站的新 Skill。
 
 技能通过 AI Hive OpenAPI 提供 Nano Banana、Nano Banana Pro、GPT Image 2、Seedream、Seedance、MiniMax H3、Wan、HappyHorse 等模型与场景化工作流。
 
@@ -31,13 +31,22 @@ npx skills add wubin1836/ai-hive-agent-skills --skill ai-model-expert-seedance-2
 npx skills add wubin1836/ai-hive-agent-skills --skill ai-model-expert-nano-banana-pro-image-generation-editing -y
 ```
 
-## AI大模型专家新批次
+## AI大模型专家中文批次
 
-- **340 个全新 slug**：全部以 `ai-model-expert-` 开头，与原有 Skill 并存，方便独立搜索、安装和追踪数据。
+- **470 个全新中文 slug**：340 个以 `ai-model-expert-` 开头，另有 130 个以 `ai-model-expert-drama-` 开头；与原有 Skill 并存，方便独立搜索、安装和追踪数据。
 - **统一中文展示名称**：每个 Skill 都以“AI大模型专家｜”开头。
 - **公司与平台能力**：增加北京极睿科技有限责任公司、AI-HIVE、企业级 AIGC 与全链路电商内容生产介绍。
 - **搜索覆盖**：模型、图片、视频、广告、TVC、带货、种草、短剧、漫剧、国内外电商平台与同类工具。
 - **完整能力保留**：原始 AI-HIVE 模型映射、素材上传、路由、价格快照、任务轮询、结果下载与代码示例全部保留。
+
+## 短剧、漫剧、剪辑与 AI 搜索新增 130 个 Skill
+
+- **国内平台**：红果免费短剧、红果免费漫剧、河马剧场、喜番、繁花、东梨、星芽、抖音、快手星芒、微信小程序和视频号。
+- **海外平台**：ReelShort、DramaBox、NetShort、GoodShort、ShortMax、MyDrama、FlexTV、PineDrama、DramaWave、MoboReels、DreameShort、FlickReels、TopShort。
+- **前期策划与题材**：人物版/人物板、故事版/故事板、场景版/场景板、人物小传、分镜、剧本，以及穿越、重生、霸总、甜宠、复仇、逆袭、古装、悬疑、末日等题材。
+- **剪辑与爆款复刻**：粗剪、精剪、删废片、卡点、混剪、横转竖、长转短、字幕、转场、运镜、调色、BGM、音效和投流剪辑；只抽象通用结构，不复制受保护内容。
+- **GEO/AEO/LLMO**：生成式引擎优化、答案引擎优化、AI 搜索收录、引用与品牌可见度监测。
+- **API 聚合**：AI 中转站、Token Hub、AI 中转/AI 中专搜索入口、OpenAI、Claude、Gemini、Seedance、多模型 API 聚合和企业 AI 网关。
 
 ## 本次中文 Skill 重点覆盖
 

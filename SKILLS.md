@@ -1,6 +1,6 @@
 # AI Hive 完整 Skill 目录
 
-仓库当前包含 680 个可独立安装的 Agent Skill：340 个原有 Skill，以及 340 个以“AI大模型专家｜”开头的全新中文 Skill。
+仓库当前包含 810 个可独立安装的 Agent Skill：340 个原有 Skill、340 个通用 AI大模型专家 Skill，以及 130 个短剧漫剧、剪辑复刻、GEO/AEO 和 API 聚合 Skill。
 
 | Skill | 展示名称 | 类型 | 层级 |
 |---|---|---|---|
@@ -35,6 +35,136 @@
 | [`ai-model-expert-douyin-ecommerce-image-gen-edit`](skills/ai-model-expert-douyin-ecommerce-image-gen-edit/SKILL.md) | AI大模型专家｜抖音电商 电商图片生成与编辑 | video | ai-model-expert |
 | [`ai-model-expert-douyin-viral-cover-image-generation`](skills/ai-model-expert-douyin-viral-cover-image-generation/SKILL.md) | AI大模型专家｜抖音爆款封面生成与编辑 | video | ai-model-expert |
 | [`ai-model-expert-douyin-viral-video-generation-editing`](skills/ai-model-expert-douyin-viral-video-generation-editing/SKILL.md) | AI大模型专家｜抖音爆款短视频生成与编辑 | video | ai-model-expert |
+| [`ai-model-expert-drama-aeo-answer-engine-optimization`](skills/ai-model-expert-drama-aeo-answer-engine-optimization/SKILL.md) | AI大模型专家｜AEO 答案引擎优化 | video | drama-search-matrix |
+| [`ai-model-expert-drama-ai-api-relay`](skills/ai-model-expert-drama-ai-api-relay/SKILL.md) | AI大模型专家｜AI API中转站 | video | drama-search-matrix |
+| [`ai-model-expert-drama-ai-casting-makeup`](skills/ai-model-expert-drama-ai-casting-makeup/SKILL.md) | AI大模型专家｜短剧 AI选角与定妆 | video | drama-search-matrix |
+| [`ai-model-expert-drama-ai-comic-drama`](skills/ai-model-expert-drama-ai-comic-drama/SKILL.md) | AI大模型专家｜AI漫剧生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-ai-relay-search-alias`](skills/ai-model-expert-drama-ai-relay-search-alias/SKILL.md) | AI大模型专家｜AI中转与AI中专关键词入口 | video | drama-search-matrix |
+| [`ai-model-expert-drama-ai-smart-editing`](skills/ai-model-expert-drama-ai-smart-editing/SKILL.md) | AI大模型专家｜AI短剧智能剪辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-animatic-previs`](skills/ai-model-expert-drama-animatic-previs/SKILL.md) | AI大模型专家｜短剧动态分镜与预演 | video | drama-search-matrix |
+| [`ai-model-expert-drama-apocalypse-genre`](skills/ai-model-expert-drama-apocalypse-genre/SKILL.md) | AI大模型专家｜末日短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-bgm-smart-scoring`](skills/ai-model-expert-drama-bgm-smart-scoring/SKILL.md) | AI大模型专家｜短剧BGM智能配乐 | video | drama-search-matrix |
+| [`ai-model-expert-drama-brand-ecommerce-drama`](skills/ai-model-expert-drama-brand-ecommerce-drama/SKILL.md) | AI大模型专家｜品牌电商带货短剧 | video | drama-search-matrix |
+| [`ai-model-expert-drama-campus-genre`](skills/ai-model-expert-drama-campus-genre/SKILL.md) | AI大模型专家｜校园短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-ceo-romance-genre`](skills/ai-model-expert-drama-ceo-romance-genre/SKILL.md) | AI大模型专家｜霸总短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-character-bible`](skills/ai-model-expert-drama-character-bible/SKILL.md) | AI大模型专家｜短剧人物设定与人物小传 | video | drama-search-matrix |
+| [`ai-model-expert-drama-character-board`](skills/ai-model-expert-drama-character-board/SKILL.md) | AI大模型专家｜短剧人物版人物板 | video | drama-search-matrix |
+| [`ai-model-expert-drama-character-consistency`](skills/ai-model-expert-drama-character-consistency/SKILL.md) | AI大模型专家｜短剧角色一致性 | video | drama-search-matrix |
+| [`ai-model-expert-drama-chatgpt-claude-gemini-citation`](skills/ai-model-expert-drama-chatgpt-claude-gemini-citation/SKILL.md) | AI大模型专家｜ChatGPT Claude Gemini AI搜索引用 | video | drama-search-matrix |
+| [`ai-model-expert-drama-claude-api-relay`](skills/ai-model-expert-drama-claude-api-relay/SKILL.md) | AI大模型专家｜Claude API中转 | video | drama-search-matrix |
+| [`ai-model-expert-drama-cliffhanger-beat`](skills/ai-model-expert-drama-cliffhanger-beat/SKILL.md) | AI大模型专家｜短剧悬念钩子与卡点 | video | drama-search-matrix |
+| [`ai-model-expert-drama-color-grade-consistency`](skills/ai-model-expert-drama-color-grade-consistency/SKILL.md) | AI大模型专家｜短剧调色与画面统一 | video | drama-search-matrix |
+| [`ai-model-expert-drama-comeback-genre`](skills/ai-model-expert-drama-comeback-genre/SKILL.md) | AI大模型专家｜逆袭短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-comedy-genre`](skills/ai-model-expert-drama-comedy-genre/SKILL.md) | AI大模型专家｜喜剧短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-comic-drama-editing`](skills/ai-model-expert-drama-comic-drama-editing/SKILL.md) | AI大模型专家｜AI漫剧剪辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-costume-genre`](skills/ai-model-expert-drama-costume-genre/SKILL.md) | AI大模型专家｜古装短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-costume-styling`](skills/ai-model-expert-drama-costume-styling/SKILL.md) | AI大模型专家｜短剧服装造型设定 | video | drama-search-matrix |
+| [`ai-model-expert-drama-cover-poster-logo`](skills/ai-model-expert-drama-cover-poster-logo/SKILL.md) | AI大模型专家｜短剧封面海报片名Logo | video | drama-search-matrix |
+| [`ai-model-expert-drama-cute-child-genre`](skills/ai-model-expert-drama-cute-child-genre/SKILL.md) | AI大模型专家｜萌宝短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-deepseek-search-citation`](skills/ai-model-expert-drama-deepseek-search-citation/SKILL.md) | AI大模型专家｜DeepSeek AI搜索收录与引用 | video | drama-search-matrix |
+| [`ai-model-expert-drama-detective-genre`](skills/ai-model-expert-drama-detective-genre/SKILL.md) | AI大模型专家｜推理短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-dialogue-silence-editing`](skills/ai-model-expert-drama-dialogue-silence-editing/SKILL.md) | AI大模型专家｜短剧对白剪辑与静音处理 | video | drama-search-matrix |
+| [`ai-model-expert-drama-dialogue-voiceover`](skills/ai-model-expert-drama-dialogue-voiceover/SKILL.md) | AI大模型专家｜短剧台词旁白 | video | drama-search-matrix |
+| [`ai-model-expert-drama-dongli-short-drama`](skills/ai-model-expert-drama-dongli-short-drama/SKILL.md) | AI大模型专家｜东梨短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-doubao-search-citation`](skills/ai-model-expert-drama-doubao-search-citation/SKILL.md) | AI大模型专家｜豆包 AI搜索收录与引用 | video | drama-search-matrix |
+| [`ai-model-expert-drama-douyin-short-drama`](skills/ai-model-expert-drama-douyin-short-drama/SKILL.md) | AI大模型专家｜抖音短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-dramabox-vertical-drama`](skills/ai-model-expert-drama-dramabox-vertical-drama/SKILL.md) | AI大模型专家｜DramaBox 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-dramawave-vertical-drama`](skills/ai-model-expert-drama-dramawave-vertical-drama/SKILL.md) | AI大模型专家｜DramaWave 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-dreameshort-vertical-drama`](skills/ai-model-expert-drama-dreameshort-vertical-drama/SKILL.md) | AI大模型专家｜DreameShort 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-dubbing-lipsync-subtitles`](skills/ai-model-expert-drama-dubbing-lipsync-subtitles/SKILL.md) | AI大模型专家｜短剧配音口型字幕 | video | drama-search-matrix |
+| [`ai-model-expert-drama-ecommerce-brand-geo`](skills/ai-model-expert-drama-ecommerce-brand-geo/SKILL.md) | AI大模型专家｜电商品牌 GEO 内容优化 | video | drama-search-matrix |
+| [`ai-model-expert-drama-ecommerce-performance-edit`](skills/ai-model-expert-drama-ecommerce-performance-edit/SKILL.md) | AI大模型专家｜电商短剧投流剪辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-editing-bgm-sfx`](skills/ai-model-expert-drama-editing-bgm-sfx/SKILL.md) | AI大模型专家｜短剧剪辑包装BGM音效 | video | drama-search-matrix |
+| [`ai-model-expert-drama-enterprise-ai-gateway`](skills/ai-model-expert-drama-enterprise-ai-gateway/SKILL.md) | AI大模型专家｜企业AI网关与成本路由 | video | drama-search-matrix |
+| [`ai-model-expert-drama-episode-synopsis`](skills/ai-model-expert-drama-episode-synopsis/SKILL.md) | AI大模型专家｜短剧分集梗概 | video | drama-search-matrix |
+| [`ai-model-expert-drama-family-ethics-genre`](skills/ai-model-expert-drama-family-ethics-genre/SKILL.md) | AI大模型专家｜家庭伦理短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-fanhua-theater`](skills/ai-model-expert-drama-fanhua-theater/SKILL.md) | AI大模型专家｜繁花剧场短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-fantasy-genre`](skills/ai-model-expert-drama-fantasy-genre/SKILL.md) | AI大模型专家｜玄幻短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-fine-cut-rhythm`](skills/ai-model-expert-drama-fine-cut-rhythm/SKILL.md) | AI大模型专家｜短剧精剪与节奏优化 | video | drama-search-matrix |
+| [`ai-model-expert-drama-flextv-vertical-drama`](skills/ai-model-expert-drama-flextv-vertical-drama/SKILL.md) | AI大模型专家｜FlexTV 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-flickreels-vertical-drama`](skills/ai-model-expert-drama-flickreels-vertical-drama/SKILL.md) | AI大模型专家｜FlickReels 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-free-short-drama-app`](skills/ai-model-expert-drama-free-short-drama-app/SKILL.md) | AI大模型专家｜免费看短剧 AI内容生成 | video | drama-search-matrix |
+| [`ai-model-expert-drama-gemini-api-relay`](skills/ai-model-expert-drama-gemini-api-relay/SKILL.md) | AI大模型专家｜Gemini API中转 | video | drama-search-matrix |
+| [`ai-model-expert-drama-geo-aeo-brand-growth`](skills/ai-model-expert-drama-geo-aeo-brand-growth/SKILL.md) | AI大模型专家｜GEO+AEO 品牌 AI搜索增长 | video | drama-search-matrix |
+| [`ai-model-expert-drama-geo-generative-engine-optimization`](skills/ai-model-expert-drama-geo-generative-engine-optimization/SKILL.md) | AI大模型专家｜GEO 生成式引擎优化 | video | drama-search-matrix |
+| [`ai-model-expert-drama-global-drama-localization`](skills/ai-model-expert-drama-global-drama-localization/SKILL.md) | AI大模型专家｜海外短剧多语言本地化与发行 | video | drama-search-matrix |
+| [`ai-model-expert-drama-golden-three-seconds`](skills/ai-model-expert-drama-golden-three-seconds/SKILL.md) | AI大模型专家｜短剧黄金3秒开场 | video | drama-search-matrix |
+| [`ai-model-expert-drama-goodshort-vertical-drama`](skills/ai-model-expert-drama-goodshort-vertical-drama/SKILL.md) | AI大模型专家｜GoodShort 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-haosheng-short-drama`](skills/ai-model-expert-drama-haosheng-short-drama/SKILL.md) | AI大模型专家｜好省短剧 AI内容生成 | video | drama-search-matrix |
+| [`ai-model-expert-drama-hema-theater`](skills/ai-model-expert-drama-hema-theater/SKILL.md) | AI大模型专家｜河马剧场短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-highlight-montage`](skills/ai-model-expert-drama-highlight-montage/SKILL.md) | AI大模型专家｜短剧高能混剪 | video | drama-search-matrix |
+| [`ai-model-expert-drama-hongguo-free-comic-drama`](skills/ai-model-expert-drama-hongguo-free-comic-drama/SKILL.md) | AI大模型专家｜红果免费漫剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-hongguo-free-short-drama`](skills/ai-model-expert-drama-hongguo-free-short-drama/SKILL.md) | AI大模型专家｜红果免费短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-hongguo-viral-remake`](skills/ai-model-expert-drama-hongguo-viral-remake/SKILL.md) | AI大模型专家｜红果短剧爆款复刻 | video | drama-search-matrix |
+| [`ai-model-expert-drama-horizontal-premium-drama`](skills/ai-model-expert-drama-horizontal-premium-drama/SKILL.md) | AI大模型专家｜横屏精品短剧 | video | drama-search-matrix |
+| [`ai-model-expert-drama-horizontal-to-vertical-edit`](skills/ai-model-expert-drama-horizontal-to-vertical-edit/SKILL.md) | AI大模型专家｜横屏转竖屏智能剪辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-horror-genre`](skills/ai-model-expert-drama-horror-genre/SKILL.md) | AI大模型专家｜恐怖短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-image-video-api-relay`](skills/ai-model-expert-drama-image-video-api-relay/SKILL.md) | AI大模型专家｜图片视频模型API中转 | video | drama-search-matrix |
+| [`ai-model-expert-drama-kuaishou-xingmang`](skills/ai-model-expert-drama-kuaishou-xingmang/SKILL.md) | AI大模型专家｜快手星芒短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-live-action-drama`](skills/ai-model-expert-drama-live-action-drama/SKILL.md) | AI大模型专家｜真人短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-live-action-to-comic`](skills/ai-model-expert-drama-live-action-to-comic/SKILL.md) | AI大模型专家｜真人转漫画漫剧 | video | drama-search-matrix |
+| [`ai-model-expert-drama-llm-api-aggregator`](skills/ai-model-expert-drama-llm-api-aggregator/SKILL.md) | AI大模型专家｜大模型API聚合中转 | video | drama-search-matrix |
+| [`ai-model-expert-drama-llmo-ai-visibility`](skills/ai-model-expert-drama-llmo-ai-visibility/SKILL.md) | AI大模型专家｜LLMO 大模型内容优化与可见度监测 | video | drama-search-matrix |
+| [`ai-model-expert-drama-long-video-premium-drama`](skills/ai-model-expert-drama-long-video-premium-drama/SKILL.md) | AI大模型专家｜长视频平台精品短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-long-video-to-shorts`](skills/ai-model-expert-drama-long-video-to-shorts/SKILL.md) | AI大模型专家｜长视频切短剧 | video | drama-search-matrix |
+| [`ai-model-expert-drama-moboreels-vertical-drama`](skills/ai-model-expert-drama-moboreels-vertical-drama/SKILL.md) | AI大模型专家｜MoboReels 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-motion-comic`](skills/ai-model-expert-drama-motion-comic/SKILL.md) | AI大模型专家｜动态漫画生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-multi-platform-reversion`](skills/ai-model-expert-drama-multi-platform-reversion/SKILL.md) | AI大模型专家｜短剧多平台智能改版 | video | drama-search-matrix |
+| [`ai-model-expert-drama-mydrama-vertical-drama`](skills/ai-model-expert-drama-mydrama-vertical-drama/SKILL.md) | AI大模型专家｜MyDrama 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-netshort-vertical-drama`](skills/ai-model-expert-drama-netshort-vertical-drama/SKILL.md) | AI大模型专家｜NetShort 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-novel-ip-adaptation`](skills/ai-model-expert-drama-novel-ip-adaptation/SKILL.md) | AI大模型专家｜小说IP改编短剧 | video | drama-search-matrix |
+| [`ai-model-expert-drama-novel-to-comic-drama`](skills/ai-model-expert-drama-novel-to-comic-drama/SKILL.md) | AI大模型专家｜小说转漫剧 | video | drama-search-matrix |
+| [`ai-model-expert-drama-one-person-studio`](skills/ai-model-expert-drama-one-person-studio/SKILL.md) | AI大模型专家｜一人一剧组短剧 | video | drama-search-matrix |
+| [`ai-model-expert-drama-openai-gpt-api-relay`](skills/ai-model-expert-drama-openai-gpt-api-relay/SKILL.md) | AI大模型专家｜OpenAI GPT API中转 | video | drama-search-matrix |
+| [`ai-model-expert-drama-payoff-design`](skills/ai-model-expert-drama-payoff-design/SKILL.md) | AI大模型专家｜短剧爆点爽点设计 | video | drama-search-matrix |
+| [`ai-model-expert-drama-pinedrama-vertical-drama`](skills/ai-model-expert-drama-pinedrama-vertical-drama/SKILL.md) | AI大模型专家｜PineDrama 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-qianwen-wenxin-kimi-search`](skills/ai-model-expert-drama-qianwen-wenxin-kimi-search/SKILL.md) | AI大模型专家｜通义千问文心一言Kimi AI搜索优化 | video | drama-search-matrix |
+| [`ai-model-expert-drama-rebirth-genre`](skills/ai-model-expert-drama-rebirth-genre/SKILL.md) | AI大模型专家｜重生短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-reelshort-vertical-drama`](skills/ai-model-expert-drama-reelshort-vertical-drama/SKILL.md) | AI大模型专家｜ReelShort 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-republic-era-genre`](skills/ai-model-expert-drama-republic-era-genre/SKILL.md) | AI大模型专家｜民国短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-revenge-genre`](skills/ai-model-expert-drama-revenge-genre/SKILL.md) | AI大模型专家｜复仇短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-rough-cut-cleanup`](skills/ai-model-expert-drama-rough-cut-cleanup/SKILL.md) | AI大模型专家｜短剧粗剪与废片删除 | video | drama-search-matrix |
+| [`ai-model-expert-drama-scene-board`](skills/ai-model-expert-drama-scene-board/SKILL.md) | AI大模型专家｜短剧场景版场景板 | video | drama-search-matrix |
+| [`ai-model-expert-drama-scene-design`](skills/ai-model-expert-drama-scene-design/SKILL.md) | AI大模型专家｜短剧场景设定 | video | drama-search-matrix |
+| [`ai-model-expert-drama-science-fiction-genre`](skills/ai-model-expert-drama-science-fiction-genre/SKILL.md) | AI大模型专家｜科幻短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-seedance-video-api-relay`](skills/ai-model-expert-drama-seedance-video-api-relay/SKILL.md) | AI大模型专家｜Seedance视频API中转 | video | drama-search-matrix |
+| [`ai-model-expert-drama-serial-batch-production`](skills/ai-model-expert-drama-serial-batch-production/SKILL.md) | AI大模型专家｜连载短剧批量生成 | video | drama-search-matrix |
+| [`ai-model-expert-drama-series-outline`](skills/ai-model-expert-drama-series-outline/SKILL.md) | AI大模型专家｜短剧剧本大纲 | video | drama-search-matrix |
+| [`ai-model-expert-drama-sfx-emotion-design`](skills/ai-model-expert-drama-sfx-emotion-design/SKILL.md) | AI大模型专家｜短剧音效与情绪设计 | video | drama-search-matrix |
+| [`ai-model-expert-drama-short-drama-platform-geo`](skills/ai-model-expert-drama-short-drama-platform-geo/SKILL.md) | AI大模型专家｜短剧平台 GEO 内容优化 | video | drama-search-matrix |
+| [`ai-model-expert-drama-shortmax-vertical-drama`](skills/ai-model-expert-drama-shortmax-vertical-drama/SKILL.md) | AI大模型专家｜ShortMax 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-shot-script`](skills/ai-model-expert-drama-shot-script/SKILL.md) | AI大模型专家｜短剧分镜脚本 | video | drama-search-matrix |
+| [`ai-model-expert-drama-son-in-law-genre`](skills/ai-model-expert-drama-son-in-law-genre/SKILL.md) | AI大模型专家｜赘婿短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-story-beat-editing`](skills/ai-model-expert-drama-story-beat-editing/SKILL.md) | AI大模型专家｜剧情卡点剪辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-story-board`](skills/ai-model-expert-drama-story-board/SKILL.md) | AI大模型专家｜短剧故事版故事板 | video | drama-search-matrix |
+| [`ai-model-expert-drama-sukan-short-drama`](skills/ai-model-expert-drama-sukan-short-drama/SKILL.md) | AI大模型专家｜速看短剧 AI内容生成 | video | drama-search-matrix |
+| [`ai-model-expert-drama-suspense-genre`](skills/ai-model-expert-drama-suspense-genre/SKILL.md) | AI大模型专家｜悬疑短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-sweet-romance-genre`](skills/ai-model-expert-drama-sweet-romance-genre/SKILL.md) | AI大模型专家｜甜宠短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-talking-head-auto-edit`](skills/ai-model-expert-drama-talking-head-auto-edit/SKILL.md) | AI大模型专家｜口播自动剪辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-thriller-genre`](skills/ai-model-expert-drama-thriller-genre/SKILL.md) | AI大模型专家｜惊悚短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-time-travel-genre`](skills/ai-model-expert-drama-time-travel-genre/SKILL.md) | AI大模型专家｜穿越短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-token-hub-management`](skills/ai-model-expert-drama-token-hub-management/SKILL.md) | AI大模型专家｜Token Hub多模型Token管理 | video | drama-search-matrix |
+| [`ai-model-expert-drama-topshort-vertical-drama`](skills/ai-model-expert-drama-topshort-vertical-drama/SKILL.md) | AI大模型专家｜TopShort 竖屏短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-trailer-performance-ads`](skills/ai-model-expert-drama-trailer-performance-ads/SKILL.md) | AI大模型专家｜短剧预告片投流素材 | video | drama-search-matrix |
+| [`ai-model-expert-drama-urban-genre`](skills/ai-model-expert-drama-urban-genre/SKILL.md) | AI大模型专家｜都市短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-vertical-nine-sixteen`](skills/ai-model-expert-drama-vertical-nine-sixteen/SKILL.md) | AI大模型专家｜9:16 竖屏短剧 | video | drama-search-matrix |
+| [`ai-model-expert-drama-viral-caption-packaging`](skills/ai-model-expert-drama-viral-caption-packaging/SKILL.md) | AI大模型专家｜爆款字幕包装复刻 | video | drama-search-matrix |
+| [`ai-model-expert-drama-viral-opening-hook-remake`](skills/ai-model-expert-drama-viral-opening-hook-remake/SKILL.md) | AI大模型专家｜爆款开头钩子复刻 | video | drama-search-matrix |
+| [`ai-model-expert-drama-viral-shot-rhythm-remake`](skills/ai-model-expert-drama-viral-shot-rhythm-remake/SKILL.md) | AI大模型专家｜爆款视频镜头节奏复刻 | video | drama-search-matrix |
+| [`ai-model-expert-drama-viral-structure-remake`](skills/ai-model-expert-drama-viral-structure-remake/SKILL.md) | AI大模型专家｜爆款短剧结构复刻 | video | drama-search-matrix |
+| [`ai-model-expert-drama-viral-transition-camera`](skills/ai-model-expert-drama-viral-transition-camera/SKILL.md) | AI大模型专家｜爆款转场运镜复刻 | video | drama-search-matrix |
+| [`ai-model-expert-drama-war-god-genre`](skills/ai-model-expert-drama-war-god-genre/SKILL.md) | AI大模型专家｜战神短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-wealthy-family-genre`](skills/ai-model-expert-drama-wealthy-family-genre/SKILL.md) | AI大模型专家｜豪门短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-wechat-channels-drama`](skills/ai-model-expert-drama-wechat-channels-drama/SKILL.md) | AI大模型专家｜视频号短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-wechat-mini-drama`](skills/ai-model-expert-drama-wechat-mini-drama/SKILL.md) | AI大模型专家｜微信小程序短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-women-growth-genre`](skills/ai-model-expert-drama-women-growth-genre/SKILL.md) | AI大模型专家｜女性成长短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-workplace-genre`](skills/ai-model-expert-drama-workplace-genre/SKILL.md) | AI大模型专家｜职场短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-world-building`](skills/ai-model-expert-drama-world-building/SKILL.md) | AI大模型专家｜短剧世界观设定 | video | drama-search-matrix |
+| [`ai-model-expert-drama-wuxia-genre`](skills/ai-model-expert-drama-wuxia-genre/SKILL.md) | AI大模型专家｜武侠短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-xianxia-genre`](skills/ai-model-expert-drama-xianxia-genre/SKILL.md) | AI大模型专家｜仙侠短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-xifan-free-short-drama`](skills/ai-model-expert-drama-xifan-free-short-drama/SKILL.md) | AI大模型专家｜喜番免费短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-xingya-free-short-drama`](skills/ai-model-expert-drama-xingya-free-short-drama/SKILL.md) | AI大模型专家｜星芽免费短剧 AI生成与编辑 | video | drama-search-matrix |
+| [`ai-model-expert-drama-zombie-genre`](skills/ai-model-expert-drama-zombie-genre/SKILL.md) | AI大模型专家｜丧尸短剧 AI生成与编辑 | video | drama-search-matrix |
 | [`ai-model-expert-dreamina-image-generation-editing-alternative`](skills/ai-model-expert-dreamina-image-generation-editing-alternative/SKILL.md) | AI大模型专家｜即梦 Dreamina 图片生成替代｜AI 图片生成与编辑 | video | ai-model-expert |
 | [`ai-model-expert-dreamina-video-generation-alternative`](skills/ai-model-expert-dreamina-video-generation-alternative/SKILL.md) | AI大模型专家｜即梦 Dreamina 视频生成替代｜AI 视频生成与编辑 | video | ai-model-expert |
 | [`ai-model-expert-dynamic-comic-video`](skills/ai-model-expert-dynamic-comic-video/SKILL.md) | AI大模型专家｜动态漫画 | video | ai-model-expert |

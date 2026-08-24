@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜企业AI网关与成本路由"
+  short_description: "为企业与AI平台完成企业AI网关与成本路由的安全接入、路由和审计工作流"
+  default_prompt: "使用 $ai-model-expert-drama-enterprise-ai-gateway 为我的项目完成企业AI网关与成本路由，先确认平台、受众和已有素材，再输出蓝图与可执行生成命令。"
+policy:
+  allow_implicit_invocation: true

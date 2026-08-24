@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜GEO 生成式引擎优化"
+  short_description: "为短剧与漫剧团队完成GEO 生成式引擎优化的策划、生成与交付完整工作流"
+  default_prompt: "使用 $ai-model-expert-drama-geo-generative-engine-optimization 为我的项目完成GEO 生成式引擎优化，先确认平台、受众和已有素材，再输出蓝图与可执行生成命令。"
+policy:
+  allow_implicit_invocation: true

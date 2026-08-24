@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜AI中转与AI中专关键词入口"
+  short_description: "为企业与AI平台完成AI中转与AI中专关键词入口的安全接入、路由和审计工作流"
+  default_prompt: "使用 $ai-model-expert-drama-ai-relay-search-alias 为我的项目完成AI中转与AI中专关键词入口，先确认平台、受众和已有素材，再输出蓝图与可执行生成命令。"
+policy:
+  allow_implicit_invocation: true

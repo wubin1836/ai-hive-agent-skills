@@ -329,6 +329,916 @@
     ]
   },
   {
+    "name": "ai-model-expert-drama-aeo-answer-engine-optimization",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜AEO 答案引擎优化",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-ai-api-relay",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜AI API中转站",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-ai-casting-makeup",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧 AI选角与定妆",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-ai-comic-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜AI漫剧生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-ai-relay-search-alias",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜AI中转与AI中专关键词入口",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-ai-smart-editing",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜AI短剧智能剪辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-animatic-previs",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧动态分镜与预演",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-apocalypse-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜末日短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-bgm-smart-scoring",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧BGM智能配乐",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-brand-ecommerce-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜品牌电商带货短剧",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-campus-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜校园短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-ceo-romance-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜霸总短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-character-bible",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧人物设定与人物小传",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-character-board",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧人物版人物板",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-character-consistency",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧角色一致性",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-chatgpt-claude-gemini-citation",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜ChatGPT Claude Gemini AI搜索引用",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-claude-api-relay",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜Claude API中转",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-cliffhanger-beat",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧悬念钩子与卡点",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-color-grade-consistency",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧调色与画面统一",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-comeback-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜逆袭短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-comedy-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜喜剧短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-comic-drama-editing",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜AI漫剧剪辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-costume-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜古装短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-costume-styling",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧服装造型设定",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-cover-poster-logo",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧封面海报片名Logo",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-cute-child-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜萌宝短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-deepseek-search-citation",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜DeepSeek AI搜索收录与引用",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-detective-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜推理短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-dialogue-silence-editing",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧对白剪辑与静音处理",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-dialogue-voiceover",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧台词旁白",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-dongli-short-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜东梨短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-doubao-search-citation",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜豆包 AI搜索收录与引用",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-douyin-short-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜抖音短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-dramabox-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜DramaBox 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-dramawave-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜DramaWave 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-dreameshort-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜DreameShort 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-dubbing-lipsync-subtitles",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧配音口型字幕",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-ecommerce-brand-geo",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜电商品牌 GEO 内容优化",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-ecommerce-performance-edit",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜电商短剧投流剪辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-editing-bgm-sfx",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧剪辑包装BGM音效",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-enterprise-ai-gateway",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜企业AI网关与成本路由",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-episode-synopsis",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧分集梗概",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-family-ethics-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜家庭伦理短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-fanhua-theater",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜繁花剧场短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-fantasy-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜玄幻短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-fine-cut-rhythm",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧精剪与节奏优化",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-flextv-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜FlexTV 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-flickreels-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜FlickReels 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-free-short-drama-app",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜免费看短剧 AI内容生成",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-gemini-api-relay",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜Gemini API中转",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-geo-aeo-brand-growth",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜GEO+AEO 品牌 AI搜索增长",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-geo-generative-engine-optimization",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜GEO 生成式引擎优化",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-global-drama-localization",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜海外短剧多语言本地化与发行",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-golden-three-seconds",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧黄金3秒开场",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-goodshort-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜GoodShort 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-haosheng-short-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜好省短剧 AI内容生成",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-hema-theater",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜河马剧场短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-highlight-montage",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧高能混剪",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-hongguo-free-comic-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜红果免费漫剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-hongguo-free-short-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜红果免费短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-hongguo-viral-remake",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜红果短剧爆款复刻",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-horizontal-premium-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜横屏精品短剧",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-horizontal-to-vertical-edit",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜横屏转竖屏智能剪辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-horror-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜恐怖短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-image-video-api-relay",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜图片视频模型API中转",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-kuaishou-xingmang",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜快手星芒短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-live-action-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜真人短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-live-action-to-comic",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜真人转漫画漫剧",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-llm-api-aggregator",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜大模型API聚合中转",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-llmo-ai-visibility",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜LLMO 大模型内容优化与可见度监测",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-long-video-premium-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜长视频平台精品短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-long-video-to-shorts",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜长视频切短剧",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-moboreels-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜MoboReels 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-motion-comic",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜动态漫画生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-multi-platform-reversion",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧多平台智能改版",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-mydrama-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜MyDrama 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-netshort-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜NetShort 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-novel-ip-adaptation",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜小说IP改编短剧",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-novel-to-comic-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜小说转漫剧",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-one-person-studio",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜一人一剧组短剧",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-openai-gpt-api-relay",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜OpenAI GPT API中转",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-payoff-design",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧爆点爽点设计",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-pinedrama-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜PineDrama 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-qianwen-wenxin-kimi-search",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜通义千问文心一言Kimi AI搜索优化",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-rebirth-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜重生短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-reelshort-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜ReelShort 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-republic-era-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜民国短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-revenge-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜复仇短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-rough-cut-cleanup",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧粗剪与废片删除",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-scene-board",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧场景版场景板",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-scene-design",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧场景设定",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-science-fiction-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜科幻短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-seedance-video-api-relay",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜Seedance视频API中转",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-serial-batch-production",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜连载短剧批量生成",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-series-outline",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧剧本大纲",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-sfx-emotion-design",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧音效与情绪设计",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-short-drama-platform-geo",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧平台 GEO 内容优化",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-shortmax-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜ShortMax 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-shot-script",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧分镜脚本",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-son-in-law-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜赘婿短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-story-beat-editing",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜剧情卡点剪辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-story-board",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧故事版故事板",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-sukan-short-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜速看短剧 AI内容生成",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-suspense-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜悬疑短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-sweet-romance-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜甜宠短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-talking-head-auto-edit",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜口播自动剪辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-thriller-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜惊悚短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-time-travel-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜穿越短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-token-hub-management",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜Token Hub多模型Token管理",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-topshort-vertical-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜TopShort 竖屏短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-trailer-performance-ads",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧预告片投流素材",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-urban-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜都市短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-vertical-nine-sixteen",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜9:16 竖屏短剧",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-viral-caption-packaging",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜爆款字幕包装复刻",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-viral-opening-hook-remake",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜爆款开头钩子复刻",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-viral-shot-rhythm-remake",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜爆款视频镜头节奏复刻",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-viral-structure-remake",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜爆款短剧结构复刻",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-viral-transition-camera",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜爆款转场运镜复刻",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-war-god-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜战神短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-wealthy-family-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜豪门短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-wechat-channels-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜视频号短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-wechat-mini-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜微信小程序短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-women-growth-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜女性成长短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-workplace-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜职场短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-world-building",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜短剧世界观设定",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-wuxia-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜武侠短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-xianxia-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜仙侠短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-xifan-free-short-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜喜番免费短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-xingya-free-short-drama",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜星芽免费短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
+    "name": "ai-model-expert-drama-zombie-genre",
+    "kind": "video",
+    "layer": "drama-search-matrix",
+    "display_name": "AI大模型专家｜丧尸短剧 AI生成与编辑",
+    "model_ids": []
+  },
+  {
     "name": "ai-model-expert-dreamina-image-generation-editing-alternative",
     "kind": "video",
     "layer": "ai-model-expert",
