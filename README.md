@@ -2,7 +2,13 @@
 
 [![skills.sh](https://skills.sh/b/wubin1836/ai-hive-agent-skills)](https://skills.sh/wubin1836/ai-hive-agent-skills/seedance-video-edit)
 
-面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧、漫剧、AI 搜索和模型聚合的 **816 个独立 Agent Skill**。仓库包含 340 个原有 Skill、340 个通用“AI大模型专家”中文 Skill、130 个面向短剧平台、人物板/故事板/场景板、题材、剪辑复刻、GEO/AEO、Token Hub 和 AI 中转站的细分 Skill，以及 6 个高差异化 AI-HIVE 一站式工作流入口。
+面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧、漫剧、AI 搜索和模型聚合的 **954 个独立 Agent Skill**。本次在既有技能库上新增 60 个搜索词优先的爆款结构工作流，以及 78 个 AI UGC、数字人展示、虚拟试穿、素材焕新、内容拆条、质检与垂直行业潜力 Skill。
+
+## 本次新增 138 个中文 Skill
+
+- 60 个：爆款视频拆解、主流图片视频模型、电商内容、短剧漫剧、GEO/AEO 和多模型路由。
+- 78 个：AI UGC、商品链接转视频、数字人持物/试穿、广告疲劳焕新、虚拟试戴、长内容拆条、AI ASMR、内容质检、虚拟IP与垂直行业。
+- 每个 Skill 都有独立输入输出、工作流、AI-HIVE 调用脚本、真实性边界、验收和失败修复。
 
 技能通过 AI Hive OpenAPI 提供 Nano Banana、Nano Banana Pro、GPT Image 2、Seedream、Seedance、MiniMax H3、Wan、HappyHorse 等模型与场景化工作流。
 
