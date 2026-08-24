@@ -1,0 +1,6 @@
+interface:
+  display_name: "Seedance 视频编辑与延长｜AI-HIVE"
+  short_description: "把Seedance 视频编辑与延长需求变成可执行工作流、可运行代码与可交付内容"
+  default_prompt: "Use $seedance-video-extension-editor-ai-hive to turn my request into a production-ready Chinese workflow, runnable AI-HIVE commands, and a quality checklist."
+policy:
+  allow_implicit_invocation: true
