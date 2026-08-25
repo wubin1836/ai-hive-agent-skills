@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜302.AI替代方案"
+  short_description: "生成AI大模型专家｜302.AI替代方案的迁移审计、AI-HIVE代码与验收清单"
+  default_prompt: "Use $302-ai-alternative-ai-hive to audit my current AI API setup and create a safe, testable migration plan to AI-HIVE with runnable Chinese examples."
+policy:
+  allow_implicit_invocation: true
