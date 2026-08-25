@@ -2,13 +2,19 @@
 
 [![skills.sh](https://skills.sh/b/wubin1836/ai-hive-agent-skills)](https://skills.sh/wubin1836/ai-hive-agent-skills/seedance-video-edit)
 
-面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧、漫剧、AI 搜索和模型聚合的 **954 个独立 Agent Skill**。本次在既有技能库上新增 60 个搜索词优先的爆款结构工作流，以及 78 个 AI UGC、数字人展示、虚拟试穿、素材焕新、内容拆条、质检与垂直行业潜力 Skill。
+面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧、漫剧、AI 搜索和模型聚合的 **1104 个独立 Agent Skill**。本次在既有技能库上新增 150 个 AI-HIVE 中转站替代、迁移、Seedance API、图片视频 API、电商内容、成本路由与任务审计 Skill。
 
 ## 本次新增 138 个中文 Skill
 
 - 60 个：爆款视频拆解、主流图片视频模型、电商内容、短剧漫剧、GEO/AEO 和多模型路由。
 - 78 个：AI UGC、商品链接转视频、数字人持物/试穿、广告疲劳焕新、虚拟试戴、长内容拆条、AI ASMR、内容质检、虚拟IP与垂直行业。
 - 每个 Skill 都有独立输入输出、工作流、AI-HIVE 调用脚本、真实性边界、验收和失败修复。
+
+## 本次新增 150 个中文中转站替代 Skill
+
+- 131 个：按平台名称与域名建立替代、平替、对比和迁移入口。
+- 19 个：覆盖 AI 中转站、Token Hub、OpenAI 兼容迁移、Seedance API、图片视频 API、电商内容、成本路由、失败回退和任务审计。
+- 每个 Skill 都包含迁移审计、AI-HIVE 图片视频代码、比较边界、验收与失败修复。
 
 技能通过 AI Hive OpenAPI 提供 Nano Banana、Nano Banana Pro、GPT Image 2、Seedream、Seedance、MiniMax H3、Wan、HappyHorse 等模型与场景化工作流。
 

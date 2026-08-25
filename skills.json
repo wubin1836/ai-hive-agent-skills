@@ -22,6 +22,19 @@
     "display_name": "1688 电商视频生成与编辑"
   },
   {
+    "name": "302-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜302.AI 替代方案｜AI-HIVE"
+  },
+  {
     "name": "ad-ab-creative-matrix-ai-hive",
     "kind": "multimodal",
     "layer": "emerging-scenario",
@@ -124,6 +137,97 @@
     "display_name": "AI Ad Video"
   },
   {
+    "name": "ai-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜便携AI聚合API 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "ai-api-api-bltcy-top-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜柏拉图AI_API中转站 (api.bltcy.top) 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "ai-api-failover-routing-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI API 高可用回退路由｜AI-HIVE"
+  },
+  {
+    "name": "ai-api-gateway-migration-guide-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI API Gateway 迁移方案｜AI-HIVE"
+  },
+  {
+    "name": "ai-api-live-price-snapshot-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI 模型价格快照与预算控制｜AI-HIVE"
+  },
+  {
+    "name": "ai-api-relay-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI API 中转站替代方案｜AI-HIVE"
+  },
+  {
+    "name": "ai-api-task-ledger-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI 生成任务台账与审计｜AI-HIVE"
+  },
+  {
     "name": "ai-asmr-product-video-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -188,6 +292,19 @@
     "display_name": "AI电商运营总控｜AI-HIVE"
   },
   {
+    "name": "ai-gaochao-cn-migration-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜数标标API 替代方案｜AI-HIVE"
+  },
+  {
     "name": "ai-hive-api-token-hub",
     "kind": "video",
     "layer": "ai-hive-consolidated",
@@ -243,6 +360,19 @@
     "model_ids": []
   },
   {
+    "name": "ai-image-api-relay-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI 图片 API 中转站替代方案｜AI-HIVE"
+  },
+  {
     "name": "ai-image-prompt-master-ai-hive",
     "kind": "image",
     "layer": "viral-workflow",
@@ -251,6 +381,19 @@
       "public_model_id"
     ],
     "display_name": "AI图片提示词大师｜AI-HIVE"
+  },
+  {
+    "name": "ai-ml-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI/ML API 替代方案｜AI-HIVE"
   },
   {
     "name": "ai-model-api-gateway-ai-hive",
@@ -4652,6 +4795,19 @@
     "display_name": "AI开箱视频生成器｜AI-HIVE"
   },
   {
+    "name": "ai-video-api-relay-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI 视频 API 中转站替代方案｜AI-HIVE"
+  },
+  {
     "name": "ai-video-batch-production-ai-hive",
     "kind": "video",
     "layer": "viral-workflow",
@@ -4675,6 +4831,19 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "AI视频穿帮检测｜AI-HIVE"
+  },
+  {
+    "name": "ai-video-image-one-stop-api-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI 图片视频一站式 API 替代平台｜AI-HIVE"
   },
   {
     "name": "ai-virtual-influencer-incubator-ai-hive",
@@ -4701,6 +4870,58 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "AI虚拟买手穿搭内容｜AI-HIVE"
+  },
+  {
+    "name": "aiberm-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AIBerm 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "aigcbest-top-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜aigcbest.top 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "aihubmix-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜推理时代 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "aiproxy-io-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜aiproxy-io 替代方案｜AI-HIVE"
   },
   {
     "name": "aliexpress-ecommerce-image-generation-editing",
@@ -4766,6 +4987,461 @@
     "display_name": "Amazon Listing 图片工作室｜AI-HIVE"
   },
   {
+    "name": "amux-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Amux AI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "anyrouter-top-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜anyrouter-top 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-996444-cn-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api-996444-cn 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-aabao-top-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.aabao.top 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-aabao-vip-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.aabao.vip 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-access-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜API Access 文档中心 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-aikeji-vip-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.aikeji.vip 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-aipaibox-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.aipaibox.com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜毫秒 API 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-chatfire-cn-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api-chatfire-cn 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-cursorai-art-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.cursorai.art 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-dzzi-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.dzzi.ai 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-ekan8-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.ekan8.com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-gemai-cc-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.gemai.cc 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-gptgod-work-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api-gptgod-work 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-gptsapi-net-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api-gptsapi-net 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-ifopen-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.ifopen.ai 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-kissapi-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.kissapi.ai 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-management-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜API Management 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-market-api-302ai-cn-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜API Market (api.302ai.cn) 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-market-api-302ai-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜API Market (api.302ai.com) 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-mnapi-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api-mnapi-com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-nekoapi-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.nekoapi.com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-openai-ch-top-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.openai-ch.top 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-soruxgpt-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.soruxgpt.com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-timebackward-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.timebackward.com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-v3-cm-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.v3.cm 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-v36-cm-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.v36.cm 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "api-vveai-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜api.vveai.com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "apiframe-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜APIFRAME 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "apimart-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜APIMart 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "apipass-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜ApiPass 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "apipro-maynor1024-live-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜apipro.maynor1024.live 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "apirouter-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜apirouter.ai 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "apiyi-com-migration-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜API 易 替代方案｜AI-HIVE"
+  },
+  {
     "name": "app-ui-demo-ad-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -4796,6 +5472,19 @@
       "public_model_id"
     ],
     "display_name": "AI服装虚拟试穿效果图｜AI-HIVE"
+  },
+  {
+    "name": "atlascloud-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AtlasCloud 替代方案｜AI-HIVE"
   },
   {
     "name": "audio-reference-to-video",
@@ -4855,6 +5544,19 @@
     "display_name": "数字人试穿展示视频｜AI-HIVE"
   },
   {
+    "name": "avian-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Avian 替代方案｜AI-HIVE"
+  },
+  {
     "name": "background-replace",
     "kind": "image",
     "layer": "generic-capability",
@@ -4899,6 +5601,19 @@
     "display_name": "美妆步骤教程短视频｜AI-HIVE"
   },
   {
+    "name": "bltcy-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜柏拉图AI 替代方案｜AI-HIVE"
+  },
+  {
     "name": "brand-avatar-content-calendar-ai-hive",
     "kind": "multimodal",
     "layer": "emerging-scenario",
@@ -4923,6 +5638,19 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "品牌视觉一致性审核｜AI-HIVE"
+  },
+  {
+    "name": "buzz-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜BUZZ 替代方案｜AI-HIVE"
   },
   {
     "name": "canva-image-generation-editing-alternative",
@@ -4969,6 +5697,58 @@
     "display_name": "Character-Consistent Images"
   },
   {
+    "name": "chatanywhere-api-chatanywhere-org-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜ChatAnywhere (api.chatanywhere.org) 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "chatanywhere-api-chatanywhere-tech-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜ChatAnywhere (api.chatanywhere.tech) 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "chatapi-onechats-top-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜chatapi.onechats.top 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "china-ai-relay-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜国内 AI 中转站替代方案｜AI-HIVE"
+  },
+  {
     "name": "chinese-text-commercial-poster-generation",
     "kind": "image",
     "layer": "scenario",
@@ -4976,6 +5756,71 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "精准中文文字商业图片生成与编辑"
+  },
+  {
+    "name": "chintao-cn-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜chintao-cn 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "claudecn-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜ClaudeCN 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "closeai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜CloseAI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "cometapi-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜CometAPI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "comfly-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜comfly 替代方案｜AI-HIVE"
   },
   {
     "name": "comic-drama-video",
@@ -5077,6 +5922,58 @@
     "display_name": "用户晒单视频自动混剪｜AI-HIVE"
   },
   {
+    "name": "dawclaudecode-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜dawclaudecode.com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "ddshub-cc-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜呆呆兽中转站 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "deerapi-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜DeerAPI (小鹿API) 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "derouter-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜DeRouter 替代方案｜AI-HIVE"
+  },
+  {
     "name": "digital-human-talking-video-studio-ai-hive",
     "kind": "video",
     "layer": "viral-workflow",
@@ -5097,6 +5994,19 @@
       "public_model_id"
     ],
     "display_name": "多肤色多体型模特套图｜AI-HIVE"
+  },
+  {
+    "name": "doro-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Doro AI 替代方案｜AI-HIVE"
   },
   {
     "name": "douyin-ecommerce-ecommerce-image-generation-editing",
@@ -5187,6 +6097,19 @@
     "display_name": "即梦 Dreamina 视频生成替代｜AI 视频生成与编辑"
   },
   {
+    "name": "duckcoding-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜duckcoding.ai 替代方案｜AI-HIVE"
+  },
+  {
     "name": "dynamic-comic-video",
     "kind": "video",
     "layer": "generic-scene",
@@ -5196,6 +6119,19 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "Motion Comic"
+  },
+  {
+    "name": "eachlabs-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Eachlabs 替代方案｜AI-HIVE"
   },
   {
     "name": "ebay-ecommerce-image-generation-editing",
@@ -5266,6 +6202,19 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "电商爆款主图生成与编辑"
+  },
+  {
+    "name": "ecommerce-content-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜电商内容 API 平台替代方案｜AI-HIVE"
   },
   {
     "name": "ecommerce-content-router-ai-hive",
@@ -5375,6 +6324,19 @@
     "display_name": "电商爆款带货视频生成与编辑"
   },
   {
+    "name": "eden-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Eden AI 替代方案｜AI-HIVE"
+  },
+  {
     "name": "electronics-feature-explainer-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -5385,6 +6347,19 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "3C产品结构与功能演示｜AI-HIVE"
+  },
+  {
+    "name": "ephone-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜ePhone AI 替代方案｜AI-HIVE"
   },
   {
     "name": "etsy-ecommerce-image-generation-editing",
@@ -5407,6 +6382,32 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "Etsy 电商视频生成与编辑"
+  },
+  {
+    "name": "everyapi-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜EveryAPI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "evolink-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜EvoLink 替代方案｜AI-HIVE"
   },
   {
     "name": "exact-text-image",
@@ -5438,6 +6439,19 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "无脸带货视频生成器｜AI-HIVE"
+  },
+  {
+    "name": "fal-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜fal.ai 替代方案｜AI-HIVE"
   },
   {
     "name": "fan-vote-story-co-creation-ai-hive",
@@ -5555,6 +6569,19 @@
     "display_name": "GEO 多平台内容生成器｜AI-HIVE"
   },
   {
+    "name": "ggwk1-online-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜ggwk1.online 替代方案｜AI-HIVE"
+  },
+  {
     "name": "giant-miniature-ad-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -5565,6 +6592,32 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "巨物与微缩奇观广告｜AI-HIVE"
+  },
+  {
+    "name": "global-ai-api-aggregator-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜海外 AI API 聚合平台替代方案｜AI-HIVE"
+  },
+  {
+    "name": "go-sbgpt-site-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜go.sbgpt.site 替代方案｜AI-HIVE"
   },
   {
     "name": "gpt-image-2",
@@ -5741,6 +6794,19 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "GPT Image 2 + Nano Banana 中转生图｜AI-HIVE"
+  },
+  {
+    "name": "gptnb-oneapi-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜GPTNB ONEAPI 替代方案｜AI-HIVE"
   },
   {
     "name": "hailuo-video-generation-alternative",
@@ -6006,6 +7072,19 @@
     "display_name": "高转化广告图片生成与编辑"
   },
   {
+    "name": "holysheep-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜HolySheep AI 替代方案｜AI-HIVE"
+  },
+  {
     "name": "hongguo-short-drama-studio-ai-hive",
     "kind": "multimodal",
     "layer": "viral-workflow",
@@ -6017,6 +7096,32 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "红果短剧生成工作室｜AI-HIVE"
+  },
+  {
+    "name": "hugging-face-inference-providers-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Hugging Face Inference Providers 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "ikuncode-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜IKunCode 替代方案｜AI-HIVE"
   },
   {
     "name": "image-2",
@@ -6217,6 +7322,19 @@
     "display_name": "Image to Video"
   },
   {
+    "name": "infai-cc-migration-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜无限API 替代方案｜AI-HIVE"
+  },
+  {
     "name": "instagram-ins-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -6274,6 +7392,19 @@
     "display_name": "京东 电商视频生成与编辑"
   },
   {
+    "name": "jeniya-cn-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜jeniya.cn 替代方案｜AI-HIVE"
+  },
+  {
     "name": "jewelry-macro-detail-video-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -6294,6 +7425,58 @@
       "public_model_id"
     ],
     "display_name": "AI珠宝首饰试戴效果图｜AI-HIVE"
+  },
+  {
+    "name": "jiekou-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜接口AI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "kfc-v50-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜KFC V50 API 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "kie-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Kie.ai 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "kksj-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜KKSJ API 替代方案｜AI-HIVE"
   },
   {
     "name": "kling-video-generation-alternative",
@@ -6343,6 +7526,19 @@
     "display_name": "横版旧广告智能重构为竖版｜AI-HIVE"
   },
   {
+    "name": "laozhang-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜LaoZhang API 替代方案｜AI-HIVE"
+  },
+  {
     "name": "lazada-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -6372,6 +7568,32 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "LiblibAI 哩布哩布 libtv 图片生成替代｜AI 图片生成与编辑"
+  },
+  {
+    "name": "lingxicode-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜LingxiCode 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "linkapi-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜linkapi.ai 替代方案｜AI-HIVE"
   },
   {
     "name": "live-commerce-script-studio-ai-hive",
@@ -6427,6 +7649,45 @@
       "public_model_nano_banana_2"
     ],
     "display_name": "Marketing Image"
+  },
+  {
+    "name": "marting-pro-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜marting.pro 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "media-api-unified-workflow-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜图片视频 API 一站式工作流｜AI-HIVE"
+  },
+  {
+    "name": "megallm-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜MegaLLM 替代方案｜AI-HIVE"
   },
   {
     "name": "meitu-image-generation-editing-alternative",
@@ -6679,6 +7940,45 @@
     "display_name": "MiniMax H3 视频工具箱｜AI-HIVE"
   },
   {
+    "name": "mixrai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜MixrAI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "modelslab-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜ModelsLab 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "multi-model-cost-routing-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜多模型成本路由中心｜AI-HIVE"
+  },
+  {
     "name": "multi-reference-image",
     "kind": "image",
     "layer": "generic-capability",
@@ -6893,6 +8193,19 @@
       "public_model_nano_banana_2"
     ],
     "display_name": "Nano Banana Text-Accurate Image"
+  },
+  {
+    "name": "nano-banana-gpt-image-api-hub-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Nano Banana 与 GPT Image 图片 API 中心｜AI-HIVE"
   },
   {
     "name": "nano-banana-image-edit",
@@ -7157,6 +8470,45 @@
     "display_name": "Nano Banana Text to Image"
   },
   {
+    "name": "new-xjai-cc-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜new.xjai.cc 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "new-yunai-link-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜new.yunai.link 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "nio-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Nio API 替代方案｜AI-HIVE"
+  },
+  {
     "name": "novel-to-short-drama-ai-hive",
     "kind": "multimodal",
     "layer": "viral-workflow",
@@ -7170,6 +8522,32 @@
     "display_name": "小说转短剧工作台｜AI-HIVE"
   },
   {
+    "name": "novita-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Novita AI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "ofoxai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜OfoxAI 替代方案｜AI-HIVE"
+  },
+  {
     "name": "old-ad-creative-refresh-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -7180,6 +8558,32 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "旧广告智能改版｜AI-HIVE"
+  },
+  {
+    "name": "ominigate-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜OminiGate 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "omnirouters-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜OmniRouters 替代方案｜AI-HIVE"
   },
   {
     "name": "one-product-image-ten-ads-ai-hive",
@@ -7195,6 +8599,84 @@
     "display_name": "一张商品图生成10条广告｜AI-HIVE"
   },
   {
+    "name": "onetoken-one-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜onetoken.one 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "open-xiaojingai-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜open.xiaojingai.com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "openai-compatible-relay-migration-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜OpenAI 兼容中转接口迁移｜AI-HIVE"
+  },
+  {
+    "name": "openai-labs-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Ai实验室 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "openkumo-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜OpenKumo 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "openrouter-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜OpenRouter 替代方案｜AI-HIVE"
+  },
+  {
     "name": "packaging-logo-text-check-ai-hive",
     "kind": "multimodal",
     "layer": "emerging-scenario",
@@ -7208,6 +8690,19 @@
     "display_name": "包装Logo与文字准确性检查｜AI-HIVE"
   },
   {
+    "name": "packyapi-packycode-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜PackyAPI (PackyCode) 替代方案｜AI-HIVE"
+  },
+  {
     "name": "photoroom-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
@@ -7215,6 +8710,19 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "PhotoRoom 图片生成替代｜AI 图片生成与编辑"
+  },
+  {
+    "name": "piapi-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜PiAPI 替代方案｜AI-HIVE"
   },
   {
     "name": "pika-video-generation-alternative",
@@ -7252,6 +8760,19 @@
     "display_name": "拼多多 电商视频生成与编辑"
   },
   {
+    "name": "pixazo-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Pixazo 替代方案｜AI-HIVE"
+  },
+  {
     "name": "pixverse-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
@@ -7275,6 +8796,32 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "播客访谈转短视频｜AI-HIVE"
+  },
+  {
+    "name": "poixe-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Poixe AI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "poloapi-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜PoloAPI-直连官转中转API 替代方案｜AI-HIVE"
   },
   {
     "name": "poster",
@@ -7521,6 +9068,19 @@
     "display_name": "商品短视频脚本生成器｜AI-HIVE"
   },
   {
+    "name": "quickrouter-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜QuickRouter 替代方案｜AI-HIVE"
+  },
+  {
     "name": "real-estate-walkthrough-video-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -7565,6 +9125,71 @@
       "public_model_seedance_2_5_r2v"
     ],
     "display_name": "Reference to Video"
+  },
+  {
+    "name": "relay-to-ai-hive-migration-checklist",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜中转站迁移 AI-HIVE 检查清单｜AI-HIVE"
+  },
+  {
+    "name": "replicate-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Replicate 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "requesty-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Requesty 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "right-code-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Right Code 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "runware-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Runware 替代方案｜AI-HIVE"
   },
   {
     "name": "runway-video-generation-alternative",
@@ -8095,6 +9720,19 @@
     "display_name": "Seedance AI Ad Video"
   },
   {
+    "name": "seedance-api-relay-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Seedance API 中转渠道替代方案｜AI-HIVE"
+  },
+  {
     "name": "seedance-audio-reference-to-video",
     "kind": "video",
     "layer": "capability",
@@ -8290,6 +9928,19 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "Seedance Social Commerce Video"
+  },
+  {
+    "name": "seedance-source-api-channel-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Seedance 源头 API 渠道｜AI-HIVE"
   },
   {
     "name": "seedance-storyboard-to-video",
@@ -8570,6 +10221,32 @@
     "display_name": "Seedream 5.0 Lite Text to Image"
   },
   {
+    "name": "seegen-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜SeeGen AI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "segmind-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Segmind 替代方案｜AI-HIVE"
+  },
+  {
     "name": "serialized-character-consistency-ai-hive",
     "kind": "multimodal",
     "layer": "emerging-scenario",
@@ -8603,6 +10280,32 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "SHEIN 电商视频生成与编辑"
+  },
+  {
+    "name": "shell-api-api-pumpkinaigc-online-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Shell API (api.pumpkinaigc.online) 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "shell-api-gptgod-cloud-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Shell API (gptgod.cloud) 替代方案｜AI-HIVE"
   },
   {
     "name": "shipinhao-viral-video-decomposer-ai-hive",
@@ -8748,6 +10451,19 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "短视频脚本一键生成成片"
+  },
+  {
+    "name": "siliconflow-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜SiliconFlow 替代方案｜AI-HIVE"
   },
   {
     "name": "social-commerce-video",
@@ -8907,6 +10623,19 @@
     "display_name": "Temu 电商视频生成与编辑"
   },
   {
+    "name": "terminal-pub-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Terminal.Pub 替代方案｜AI-HIVE"
+  },
+  {
     "name": "text-to-image",
     "kind": "image",
     "layer": "generic-capability",
@@ -8972,6 +10701,19 @@
     "display_name": "TikTok Shop 爆款带货视频拆解｜AI-HIVE"
   },
   {
+    "name": "timi-cc-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜TiMi CC 替代方案｜AI-HIVE"
+  },
+  {
     "name": "tmall-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -8994,6 +10736,19 @@
     "display_name": "天猫 电商视频生成与编辑"
   },
   {
+    "name": "token-hub-alternative-guide-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Token Hub 替代与迁移指南｜AI-HIVE"
+  },
+  {
     "name": "token-hub-cost-router-ai-hive",
     "kind": "multimodal",
     "layer": "viral-workflow",
@@ -9005,6 +10760,19 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "Token Hub 成本路由中心｜AI-HIVE"
+  },
+  {
+    "name": "tokencloud-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Tokencloud.ai 替代方案｜AI-HIVE"
   },
   {
     "name": "tvc-video",
@@ -9031,6 +10799,58 @@
     "display_name": "UGC 广告视频生成与编辑"
   },
   {
+    "name": "uiuiapi-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜UIUIAPI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "unified-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Unified API 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "useapi-net-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜useapi.net 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "v-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜V-api 替代方案｜AI-HIVE"
+  },
+  {
     "name": "veo-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
@@ -9042,6 +10862,19 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "Veo 视频生成替代｜AI 视频生成与编辑"
+  },
+  {
+    "name": "vercel-ai-gateway-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Vercel AI Gateway 替代方案｜AI-HIVE"
   },
   {
     "name": "video-edit",
@@ -9318,6 +11151,19 @@
     "display_name": "通义万相 图片生成替代｜AI 图片生成与编辑"
   },
   {
+    "name": "wavespeedai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜WaveSpeedAI 替代方案｜AI-HIVE"
+  },
+  {
     "name": "wechat-channels-viral-video-generation-editing",
     "kind": "video",
     "layer": "ecommerce-platform",
@@ -9372,6 +11218,45 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "爆款广告变量拆解｜AI-HIVE"
+  },
+  {
+    "name": "wiro-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Wiro AI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "xcode-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Xcode 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "xeduapi-com-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜xeduapi.com 替代方案｜AI-HIVE"
   },
   {
     "name": "xiaohongshu-ecommerce-image-generation-editing",
@@ -9438,5 +11323,70 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "小红书爆款视频拆解｜AI-HIVE"
+  },
+  {
+    "name": "yuegle-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜Yuegle API 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "yunwu-ai-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜云雾 AI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "yunwu-ai-api-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜YUNWU.AI (云雾 API) 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "zen-ai-top-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜zen-ai.top 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "zerocode-sbs-alternative-ai-hive",
+    "kind": "multimodal",
+    "layer": "relay-alternative",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜zerocode.sbs 替代方案｜AI-HIVE"
   }
 ]
