@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜快手本地生活达人探店脚本"
+  short_description: "为本地商家制作快手本地生活达人探店脚本方案、AI素材与验收"
+  default_prompt: "Use $local-kuaishou-life-influencer-visit-ai-hive to create a Chinese 快手本地生活 达人探店脚本 plan with AI-HIVE code and truth checks."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜快手本地生活30天同城运营"
+  short_description: "为本地商家制作快手本地生活30天同城运营方案、AI素材与验收"
+  default_prompt: "Use $local-kuaishou-life-operation-ai-hive to create a Chinese 快手本地生活 30天同城运营 plan with AI-HIVE code and truth checks."
+policy:
+  allow_implicit_invocation: true
