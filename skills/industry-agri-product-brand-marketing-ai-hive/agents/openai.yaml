@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜农产品品牌AI图片视频营销"
+  short_description: "一个Skill完成农产品品牌图片、短视频、内容营销与AI-HIVE代码"
+  default_prompt: "Use $industry-agri-product-brand-marketing-ai-hive to create a Chinese 农产品品牌 image, video and content marketing plan with AI-HIVE code."
+policy:
+  allow_implicit_invocation: true
