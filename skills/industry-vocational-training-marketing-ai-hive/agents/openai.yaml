@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜职业培训AI图片视频营销"
+  short_description: "一个Skill完成职业培训图片、短视频、内容营销与AI-HIVE代码"
+  default_prompt: "Use $industry-vocational-training-marketing-ai-hive to create a Chinese 职业培训 image, video and content marketing plan with AI-HIVE code."
+policy:
+  allow_implicit_invocation: true
