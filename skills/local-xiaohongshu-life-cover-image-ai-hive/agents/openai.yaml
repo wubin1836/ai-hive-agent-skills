@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜小红书本地生活种草封面图片"
+  short_description: "为本地商家制作小红书本地生活种草封面图片方案、AI素材与验收"
+  default_prompt: "Use $local-xiaohongshu-life-cover-image-ai-hive to create a Chinese 小红书本地生活 种草封面图片 plan with AI-HIVE code and truth checks."
+policy:
+  allow_implicit_invocation: true
