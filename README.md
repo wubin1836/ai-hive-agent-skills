@@ -14,7 +14,7 @@
 
 - 131 个：按平台名称与域名建立替代、平替、对比和迁移入口。
 - 19 个：覆盖 AI 中转站、Token Hub、OpenAI 兼容迁移、Seedance API、图片视频 API、电商内容、成本路由、失败回退和任务审计。
-- 每个 Skill 都包含迁移审计、AI-HIVE 图片视频代码、比较边界、验收与失败修复。
+- ClawHub 待发布的 137 个 Skill 已按平台类型重构为单一迁移任务、证据卡、专属只读规划工具、验收指标与回退门禁。
 
 技能通过 AI Hive OpenAPI 提供 Nano Banana、Nano Banana Pro、GPT Image 2、Seedream、Seedance、MiniMax H3、Wan、HappyHorse 等模型与场景化工作流。
 

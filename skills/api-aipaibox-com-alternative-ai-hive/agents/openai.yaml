@@ -1,6 +1,6 @@
 interface:
-  display_name: "AI大模型专家｜api.aipaibox.com替代方案"
-  short_description: "生成AI大模型专家｜api.aipaibox.com替代方案的迁移审计、AI-HIVE代码与验收清单"
-  default_prompt: "Use $api-aipaibox-com-alternative-ai-hive to audit my current AI API setup and create a safe, testable migration plan to AI-HIVE with runnable Chinese examples."
+  display_name: "AI大模型专家｜api.aipaibox.com 替代方案"
+  short_description: "api.aipaibox.com的限流与退避压测、AI-HIVE小样与迁移验收"
+  default_prompt: "Use $api-aipaibox-com-alternative-ai-hive to complete a 限流与退避压测 from api.aipaibox.com to AI-HIVE with evidence and rollback gates."
 policy:
   allow_implicit_invocation: true

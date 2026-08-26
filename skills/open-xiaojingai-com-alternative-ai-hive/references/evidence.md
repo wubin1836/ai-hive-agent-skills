@@ -1,0 +1,23 @@
+# open.xiaojingai.com 的视觉输入载荷迁移证据单
+
+- 序号：101
+- 平台名称：open.xiaojingai.com
+- 主域名：xiaojingai.com
+- 业务形态：OpenAI-compatible API 中转
+- 证据类型：接口验证
+- 工作簿说明：已确认 /v1/models（0 models）；公开网关目录判定 likely_relay
+- 官网/证据页：https://open.xiaojingai.com
+
+来源工作簿：明确中转平台_名称域名精选.xlsx；本批重构日期：2026-08-26。
+
+## 执行当天重新核验
+
+- [ ] 远程 URL 可访问性：当前值 / AI-HIVE 值 / 证据位置 / 负责人
+- [ ] data URL/base64：当前值 / AI-HIVE 值 / 证据位置 / 负责人
+- [ ] MIME 类型：当前值 / AI-HIVE 值 / 证据位置 / 负责人
+- [ ] 多图顺序：当前值 / AI-HIVE 值 / 证据位置 / 负责人
+- [ ] 尺寸与文件上限：当前值 / AI-HIVE 值 / 证据位置 / 负责人
+
+## 比较原则
+
+使用相同输入、时间窗、重试上限和验收人。标价不等于实际账单；成功一次不等于稳定；附件归类不等于第三方背书或负面结论。未获得素材和数据授权时不运行生成测试。

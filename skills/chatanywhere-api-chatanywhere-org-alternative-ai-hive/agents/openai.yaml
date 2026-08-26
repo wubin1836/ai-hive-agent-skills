@@ -1,6 +1,6 @@
 interface:
-  display_name: "AI大模型专家｜ChatAnywhere (api.chatanywhere.org)替代方案"
-  short_description: "生成AI大模型专家｜ChatAnywhere (api.chatanywhere.org)替代方案的迁移审计、AI-HIVE代码"
-  default_prompt: "Use $chatanywhere-api-chatanywhere-org-alternative-ai-hive to audit my current AI API setup and create a safe, testable migration plan to AI-HIVE with runnable Chinese examples."
+  display_name: "AI大模型专家｜ChatAnywhere (api.chatanywhere.org) 替代方案"
+  short_description: "ChatAnywhere (api.chatanywhere.org)的SSE 流式响应切换、AI-HIVE小样与迁移验收"
+  default_prompt: "Use $chatanywhere-api-chatanywhere-org-alternative-ai-hive to complete a SSE 流式响应切换 from ChatAnywhere (api.chatanywhere.org) to AI-HIVE with evidence and rollback gates."
 policy:
   allow_implicit_invocation: true
