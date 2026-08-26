@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜高德地图地图搜索词优化"
+  short_description: "为本地商家制作高德地图地图搜索词优化方案、AI素材与验收"
+  default_prompt: "Use $local-amap-search-keyword-ai-hive to create a Chinese 高德地图 地图搜索词优化 plan with AI-HIVE code and truth checks."
+policy:
+  allow_implicit_invocation: true

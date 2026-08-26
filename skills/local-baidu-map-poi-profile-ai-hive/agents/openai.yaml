@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜百度地图门店POI优化"
+  short_description: "为本地商家制作百度地图门店POI优化方案、AI素材与验收"
+  default_prompt: "Use $local-baidu-map-poi-profile-ai-hive to create a Chinese 百度地图 门店POI优化 plan with AI-HIVE code and truth checks."
+policy:
+  allow_implicit_invocation: true
