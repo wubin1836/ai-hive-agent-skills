@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜商超AI图片视频营销"
+  short_description: "一个Skill完成商超图片、短视频、内容营销与AI-HIVE代码"
+  default_prompt: "Use $industry-supermarket-marketing-ai-hive to create a Chinese 商超 image, video and content marketing plan with AI-HIVE code."
+policy:
+  allow_implicit_invocation: true
