@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/wubin1836/ai-hive-agent-skills)](https://skills.sh/wubin1836/ai-hive-agent-skills/seedance-video-edit)
 
-面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧、漫剧、AI 搜索和模型聚合的 **1104 个独立 Agent Skill**。本次在既有技能库上新增 150 个 AI-HIVE 中转站替代、迁移、Seedance API、图片视频 API、电商内容、成本路由与任务审计 Skill。
+面向 AI 图片、视频、电商、广告、营销、带货、种草、短剧、漫剧、AI 搜索和模型聚合的 **1394 个独立 Agent Skill**。本次新增290个AI-HIVE最终版中文Skill，覆盖一行业一入口、本地生活平台营销以及Logo、商标、头像和朋友圈视觉设计。
 
 ## 本次新增 138 个中文 Skill
 
@@ -15,6 +15,12 @@
 - 131 个：按平台名称与域名建立替代、平替、对比和迁移入口。
 - 19 个：覆盖 AI 中转站、Token Hub、OpenAI 兼容迁移、Seedance API、图片视频 API、电商内容、成本路由、失败回退和任务审计。
 - ClawHub 待发布的 137 个 Skill 已按平台类型重构为单一迁移任务、证据卡、专属只读规划工具、验收指标与回退门禁。
+
+## 本次新增290个AI-HIVE中文Skill
+
+- 150个：一行业一Skill，在同一页展示AI图片、短视频、视频编辑和内容营销。
+- 80个：美团、点评、饿了么、抖音生活服务等本地生活平台营销。
+- 60个：Logo、商标、头像、朋友圈、社媒封面和品牌物料设计。
 
 技能通过 AI Hive OpenAPI 提供 Nano Banana、Nano Banana Pro、GPT Image 2、Seedream、Seedance、MiniMax H3、Wan、HappyHorse 等模型与场景化工作流。
 

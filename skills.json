@@ -6848,6 +6848,1956 @@
     "display_name": "Image to Video"
   },
   {
+    "name": "industry-accounting-firm-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜会计事务所AI图片视频营销"
+  },
+  {
+    "name": "industry-advertising-agency-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜广告公司AI图片视频营销"
+  },
+  {
+    "name": "industry-agri-product-brand-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜农产品品牌AI图片视频营销"
+  },
+  {
+    "name": "industry-agriculture-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜农业企业AI图片视频营销"
+  },
+  {
+    "name": "industry-ai-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜AI公司AI图片视频营销"
+  },
+  {
+    "name": "industry-amusement-park-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜游乐园AI图片视频营销"
+  },
+  {
+    "name": "industry-animation-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜动漫公司AI图片视频营销"
+  },
+  {
+    "name": "industry-appliance-repair-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜家电维修AI图片视频营销"
+  },
+  {
+    "name": "industry-appliance-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜家电门店AI图片视频营销"
+  },
+  {
+    "name": "industry-aquaculture-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜水产养殖AI图片视频营销"
+  },
+  {
+    "name": "industry-art-training-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜艺术培训AI图片视频营销"
+  },
+  {
+    "name": "industry-auto-parts-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜汽车零部件AI图片视频营销"
+  },
+  {
+    "name": "industry-bag-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜箱包店AI图片视频营销"
+  },
+  {
+    "name": "industry-bakery-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜烘焙店AI图片视频营销"
+  },
+  {
+    "name": "industry-bank-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜银行AI图片视频营销"
+  },
+  {
+    "name": "industry-bar-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜酒吧AI图片视频营销"
+  },
+  {
+    "name": "industry-barbecue-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜烧烤店AI图片视频营销"
+  },
+  {
+    "name": "industry-beauty-retail-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜美妆店AI图片视频营销"
+  },
+  {
+    "name": "industry-beauty-salon-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜美容院AI图片视频营销"
+  },
+  {
+    "name": "industry-beverage-brand-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜饮料品牌AI图片视频营销"
+  },
+  {
+    "name": "industry-building-material-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜建材门店AI图片视频营销"
+  },
+  {
+    "name": "industry-business-consulting-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜企业咨询AI图片视频营销"
+  },
+  {
+    "name": "industry-cake-shop-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜蛋糕店AI图片视频营销"
+  },
+  {
+    "name": "industry-campground-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜露营地AI图片视频营销"
+  },
+  {
+    "name": "industry-car-dealership-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜汽车4S店AI图片视频营销"
+  },
+  {
+    "name": "industry-car-detailing-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜汽车美容AI图片视频营销"
+  },
+  {
+    "name": "industry-car-repair-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜汽车维修AI图片视频营销"
+  },
+  {
+    "name": "industry-chemical-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜化工企业AI图片视频营销"
+  },
+  {
+    "name": "industry-childcare-center-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜托育机构AI图片视频营销"
+  },
+  {
+    "name": "industry-chinese-restaurant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜中餐厅AI图片视频营销"
+  },
+  {
+    "name": "industry-cleaning-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜保洁公司AI图片视频营销"
+  },
+  {
+    "name": "industry-clinic-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜诊所AI图片视频营销"
+  },
+  {
+    "name": "industry-clothing-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜服装店AI图片视频营销"
+  },
+  {
+    "name": "industry-cloud-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜云计算公司AI图片视频营销"
+  },
+  {
+    "name": "industry-coffee-shop-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜咖啡店AI图片视频营销"
+  },
+  {
+    "name": "industry-construction-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜建筑公司AI图片视频营销"
+  },
+  {
+    "name": "industry-convenience-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜便利店AI图片视频营销"
+  },
+  {
+    "name": "industry-cosmetics-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜化妆品店AI图片视频营销"
+  },
+  {
+    "name": "industry-cross-border-logistics-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜跨境物流AI图片视频营销"
+  },
+  {
+    "name": "industry-cybersecurity-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜网络安全公司AI图片视频营销"
+  },
+  {
+    "name": "industry-dance-studio-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜舞蹈室AI图片视频营销"
+  },
+  {
+    "name": "industry-data-service-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜数据服务公司AI图片视频营销"
+  },
+  {
+    "name": "industry-delivery-merchant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜外卖商家AI图片视频营销"
+  },
+  {
+    "name": "industry-dental-clinic-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜口腔诊所AI图片视频营销"
+  },
+  {
+    "name": "industry-dessert-shop-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜甜品店AI图片视频营销"
+  },
+  {
+    "name": "industry-digital-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜数码店AI图片视频营销"
+  },
+  {
+    "name": "industry-driving-school-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜驾校AI图片视频营销"
+  },
+  {
+    "name": "industry-dumpling-restaurant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜饺子馆AI图片视频营销"
+  },
+  {
+    "name": "industry-education-training-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜教育培训AI图片视频营销"
+  },
+  {
+    "name": "industry-elderly-care-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜养老机构AI图片视频营销"
+  },
+  {
+    "name": "industry-electronics-manufacturing-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜电子制造AI图片视频营销"
+  },
+  {
+    "name": "industry-energy-storage-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜储能企业AI图片视频营销"
+  },
+  {
+    "name": "industry-engineering-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜工程公司AI图片视频营销"
+  },
+  {
+    "name": "industry-ev-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜新能源汽车门店AI图片视频营销"
+  },
+  {
+    "name": "industry-express-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜快递公司AI图片视频营销"
+  },
+  {
+    "name": "industry-fast-food-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜快餐店AI图片视频营销"
+  },
+  {
+    "name": "industry-flower-shop-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜鲜花店AI图片视频营销"
+  },
+  {
+    "name": "industry-food-factory-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜食品加工厂AI图片视频营销"
+  },
+  {
+    "name": "industry-fresh-supermarket-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜生鲜超市AI图片视频营销"
+  },
+  {
+    "name": "industry-fruit-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜水果店AI图片视频营销"
+  },
+  {
+    "name": "industry-fund-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜基金公司AI图片视频营销"
+  },
+  {
+    "name": "industry-furniture-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜家具店AI图片视频营销"
+  },
+  {
+    "name": "industry-game-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜游戏公司AI图片视频营销"
+  },
+  {
+    "name": "industry-gift-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜礼品店AI图片视频营销"
+  },
+  {
+    "name": "industry-gym-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜健身房AI图片视频营销"
+  },
+  {
+    "name": "industry-hair-salon-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜美发店AI图片视频营销"
+  },
+  {
+    "name": "industry-health-check-center-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜体检中心AI图片视频营销"
+  },
+  {
+    "name": "industry-home-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜家居店AI图片视频营销"
+  },
+  {
+    "name": "industry-homestay-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜民宿AI图片视频营销"
+  },
+  {
+    "name": "industry-hospital-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜医院AI图片视频营销"
+  },
+  {
+    "name": "industry-hotel-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜酒店AI图片视频营销"
+  },
+  {
+    "name": "industry-hotpot-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜火锅店AI图片视频营销"
+  },
+  {
+    "name": "industry-housekeeping-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜家政公司AI图片视频营销"
+  },
+  {
+    "name": "industry-hr-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜人力资源公司AI图片视频营销"
+  },
+  {
+    "name": "industry-industrial-manufacturing-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜工业制造AI图片视频营销"
+  },
+  {
+    "name": "industry-insurance-agent-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜保险代理人AI图片视频营销"
+  },
+  {
+    "name": "industry-insurance-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜保险公司AI图片视频营销"
+  },
+  {
+    "name": "industry-interior-design-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜家装设计AI图片视频营销"
+  },
+  {
+    "name": "industry-ip-service-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜知识产权服务AI图片视频营销"
+  },
+  {
+    "name": "industry-it-service-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜IT服务公司AI图片视频营销"
+  },
+  {
+    "name": "industry-japanese-restaurant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜日料店AI图片视频营销"
+  },
+  {
+    "name": "industry-jewelry-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜珠宝店AI图片视频营销"
+  },
+  {
+    "name": "industry-korean-restaurant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜韩餐店AI图片视频营销"
+  },
+  {
+    "name": "industry-ktv-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜KTVAI图片视频营销"
+  },
+  {
+    "name": "industry-language-training-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜语言培训AI图片视频营销"
+  },
+  {
+    "name": "industry-laundry-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜洗衣店AI图片视频营销"
+  },
+  {
+    "name": "industry-law-firm-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜律师事务所AI图片视频营销"
+  },
+  {
+    "name": "industry-live-stream-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜直播公司AI图片视频营销"
+  },
+  {
+    "name": "industry-logistics-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜物流公司AI图片视频营销"
+  },
+  {
+    "name": "industry-long-rental-apartment-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜长租公寓AI图片视频营销"
+  },
+  {
+    "name": "industry-lounge-bar-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜清吧AI图片视频营销"
+  },
+  {
+    "name": "industry-machinery-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜机械设备AI图片视频营销"
+  },
+  {
+    "name": "industry-maternity-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜母婴店AI图片视频营销"
+  },
+  {
+    "name": "industry-mcn-agency-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜MCN机构AI图片视频营销"
+  },
+  {
+    "name": "industry-medical-device-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜医疗器械AI图片视频营销"
+  },
+  {
+    "name": "industry-milk-tea-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜奶茶店AI图片视频营销"
+  },
+  {
+    "name": "industry-moving-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜搬家公司AI图片视频营销"
+  },
+  {
+    "name": "industry-museum-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜博物馆AI图片视频营销"
+  },
+  {
+    "name": "industry-nail-salon-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜美甲店AI图片视频营销"
+  },
+  {
+    "name": "industry-new-energy-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜新能源企业AI图片视频营销"
+  },
+  {
+    "name": "industry-new-material-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜新材料企业AI图片视频营销"
+  },
+  {
+    "name": "industry-night-market-stall-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜夜市摊位AI图片视频营销"
+  },
+  {
+    "name": "industry-noodle-shop-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜面馆AI图片视频营销"
+  },
+  {
+    "name": "industry-optical-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜眼镜店AI图片视频营销"
+  },
+  {
+    "name": "industry-pet-hospital-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜宠物医院AI图片视频营销"
+  },
+  {
+    "name": "industry-pet-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜宠物店AI图片视频营销"
+  },
+  {
+    "name": "industry-pharmacy-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜药店AI图片视频营销"
+  },
+  {
+    "name": "industry-phone-repair-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜手机维修AI图片视频营销"
+  },
+  {
+    "name": "industry-phone-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜手机店AI图片视频营销"
+  },
+  {
+    "name": "industry-photo-studio-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜摄影工作室AI图片视频营销"
+  },
+  {
+    "name": "industry-postpartum-center-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜月子中心AI图片视频营销"
+  },
+  {
+    "name": "industry-pr-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜公关公司AI图片视频营销"
+  },
+  {
+    "name": "industry-prepared-food-brand-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜预制菜品牌AI图片视频营销"
+  },
+  {
+    "name": "industry-property-management-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜物业公司AI图片视频营销"
+  },
+  {
+    "name": "industry-psychological-counseling-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜心理咨询AI图片视频营销"
+  },
+  {
+    "name": "industry-real-estate-agency-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜房产中介AI图片视频营销"
+  },
+  {
+    "name": "industry-recruitment-platform-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜招聘平台AI图片视频营销"
+  },
+  {
+    "name": "industry-rehabilitation-center-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜康复中心AI图片视频营销"
+  },
+  {
+    "name": "industry-renovation-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜装修公司AI图片视频营销"
+  },
+  {
+    "name": "industry-restaurant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜餐馆AI图片视频营销"
+  },
+  {
+    "name": "industry-rice-noodle-shop-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜粉店AI图片视频营销"
+  },
+  {
+    "name": "industry-saas-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜SaaS公司AI图片视频营销"
+  },
+  {
+    "name": "industry-seafood-restaurant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜海鲜餐厅AI图片视频营销"
+  },
+  {
+    "name": "industry-securities-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜证券公司AI图片视频营销"
+  },
+  {
+    "name": "industry-shoe-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜鞋店AI图片视频营销"
+  },
+  {
+    "name": "industry-short-drama-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜短剧公司AI图片视频营销"
+  },
+  {
+    "name": "industry-snack-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜小吃店AI图片视频营销"
+  },
+  {
+    "name": "industry-software-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜软件公司AI图片视频营销"
+  },
+  {
+    "name": "industry-solar-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜光伏企业AI图片视频营销"
+  },
+  {
+    "name": "industry-southeast-asian-restaurant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜东南亚餐厅AI图片视频营销"
+  },
+  {
+    "name": "industry-spa-center-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜SPA馆AI图片视频营销"
+  },
+  {
+    "name": "industry-stationery-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜文具店AI图片视频营销"
+  },
+  {
+    "name": "industry-store-business-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜门店商家AI图片视频营销"
+  },
+  {
+    "name": "industry-study-abroad-service-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜留学服务AI图片视频营销"
+  },
+  {
+    "name": "industry-supermarket-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜商超AI图片视频营销"
+  },
+  {
+    "name": "industry-tax-service-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜税务服务AI图片视频营销"
+  },
+  {
+    "name": "industry-tcm-clinic-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜中医馆AI图片视频营销"
+  },
+  {
+    "name": "industry-tea-brand-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜茶叶品牌AI图片视频营销"
+  },
+  {
+    "name": "industry-tourist-attraction-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜文旅景区AI图片视频营销"
+  },
+  {
+    "name": "industry-toy-store-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜玩具店AI图片视频营销"
+  },
+  {
+    "name": "industry-travel-agency-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜旅行社AI图片视频营销"
+  },
+  {
+    "name": "industry-used-car-dealer-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜二手车行AI图片视频营销"
+  },
+  {
+    "name": "industry-vegetarian-restaurant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜素食餐厅AI图片视频营销"
+  },
+  {
+    "name": "industry-vocational-training-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜职业培训AI图片视频营销"
+  },
+  {
+    "name": "industry-warehouse-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜仓储公司AI图片视频营销"
+  },
+  {
+    "name": "industry-wealth-management-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜财富管理AI图片视频营销"
+  },
+  {
+    "name": "industry-wedding-company-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜婚庆公司AI图片视频营销"
+  },
+  {
+    "name": "industry-western-restaurant-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜西餐厅AI图片视频营销"
+  },
+  {
+    "name": "industry-wine-brand-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜酒类品牌AI图片视频营销"
+  },
+  {
+    "name": "industry-yoga-studio-marketing-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜瑜伽馆AI图片视频营销"
+  },
+  {
     "name": "infai-cc-migration-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -7106,6 +9056,956 @@
       "public_model_nano_banana_2"
     ],
     "display_name": "Livestream Commerce Image"
+  },
+  {
+    "name": "local-alipay-local-coupon-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜支付宝本地生活优惠券活动营销"
+  },
+  {
+    "name": "local-alipay-local-life-account-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜支付宝本地生活生活号内容营销"
+  },
+  {
+    "name": "local-alipay-local-membership-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜支付宝本地生活门店会员营销"
+  },
+  {
+    "name": "local-alipay-local-mini-program-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜支付宝本地生活小程序门店页营销"
+  },
+  {
+    "name": "local-alipay-local-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜支付宝本地生活30天会员运营"
+  },
+  {
+    "name": "local-alipay-local-promotion-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜支付宝本地生活节日门店活动营销"
+  },
+  {
+    "name": "local-alipay-local-short-video-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜支付宝本地生活生活号短视频营销"
+  },
+  {
+    "name": "local-alipay-local-store-card-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜支付宝本地生活门店卡片图片营销"
+  },
+  {
+    "name": "local-amap-gallery-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜高德地图门店图册营销"
+  },
+  {
+    "name": "local-amap-multi-store-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜高德地图连锁门店地图营销"
+  },
+  {
+    "name": "local-amap-nearby-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜高德地图附近客群营销"
+  },
+  {
+    "name": "local-amap-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜高德地图30天地图运营"
+  },
+  {
+    "name": "local-amap-poi-profile-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜高德地图门店POI优化"
+  },
+  {
+    "name": "local-amap-promotion-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜高德地图门店活动营销"
+  },
+  {
+    "name": "local-amap-route-guide-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜高德地图到店路线图片"
+  },
+  {
+    "name": "local-amap-search-keyword-ai-hive",
+    "kind": "workflow",
+    "layer": "industry-local-visual",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜高德地图地图搜索词优化"
+  },
+  {
+    "name": "local-baidu-map-gallery-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜百度地图门店图册营销"
+  },
+  {
+    "name": "local-baidu-map-multi-store-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜百度地图连锁门店地图营销"
+  },
+  {
+    "name": "local-baidu-map-nearby-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜百度地图附近服务营销"
+  },
+  {
+    "name": "local-baidu-map-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜百度地图30天地图运营"
+  },
+  {
+    "name": "local-baidu-map-poi-profile-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜百度地图门店POI优化"
+  },
+  {
+    "name": "local-baidu-map-promotion-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜百度地图本地活动营销"
+  },
+  {
+    "name": "local-baidu-map-route-guide-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜百度地图到店路线图片"
+  },
+  {
+    "name": "local-baidu-map-search-keyword-ai-hive",
+    "kind": "workflow",
+    "layer": "industry-local-visual",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜百度地图地图搜索词优化"
+  },
+  {
+    "name": "local-dianping-gallery-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜大众点评门店图库营销"
+  },
+  {
+    "name": "local-dianping-group-buy-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜大众点评团购套餐营销"
+  },
+  {
+    "name": "local-dianping-local-search-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜大众点评本地搜索曝光内容"
+  },
+  {
+    "name": "local-dianping-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜大众点评30天口碑运营"
+  },
+  {
+    "name": "local-dianping-promotion-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜大众点评节日到店活动营销"
+  },
+  {
+    "name": "local-dianping-review-reply-ai-hive",
+    "kind": "workflow",
+    "layer": "industry-local-visual",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜大众点评评价回复与口碑管理"
+  },
+  {
+    "name": "local-dianping-store-page-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜大众点评门店主页优化"
+  },
+  {
+    "name": "local-dianping-visit-content-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜大众点评探店种草内容"
+  },
+  {
+    "name": "local-douyin-life-account-matrix-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜抖音生活服务门店账号矩阵营销"
+  },
+  {
+    "name": "local-douyin-life-coupon-campaign-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜抖音生活服务到店券活动营销"
+  },
+  {
+    "name": "local-douyin-life-cover-image-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜抖音生活服务团购封面图片"
+  },
+  {
+    "name": "local-douyin-life-groupbuy-video-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜抖音生活服务团购短视频营销"
+  },
+  {
+    "name": "local-douyin-life-influencer-visit-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜抖音生活服务达人探店脚本"
+  },
+  {
+    "name": "local-douyin-life-local-live-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜抖音生活服务本地生活直播"
+  },
+  {
+    "name": "local-douyin-life-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜抖音生活服务30天团购运营"
+  },
+  {
+    "name": "local-douyin-life-poi-groupbuy-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜抖音生活服务POI团购页营销"
+  },
+  {
+    "name": "local-eleme-activity-poster-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜饿了么外卖活动海报"
+  },
+  {
+    "name": "local-eleme-brand-video-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜饿了么外卖品牌短视频"
+  },
+  {
+    "name": "local-eleme-hero-combo-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜饿了么爆品套餐营销"
+  },
+  {
+    "name": "local-eleme-menu-image-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜饿了么外卖菜单图片"
+  },
+  {
+    "name": "local-eleme-new-product-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜饿了么外卖新品营销"
+  },
+  {
+    "name": "local-eleme-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜饿了么30天外卖运营"
+  },
+  {
+    "name": "local-eleme-review-reply-ai-hive",
+    "kind": "workflow",
+    "layer": "industry-local-visual",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜饿了么订单评价回复"
+  },
+  {
+    "name": "local-eleme-store-page-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜饿了么外卖店铺装修"
+  },
+  {
+    "name": "local-kuaishou-life-account-matrix-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜快手本地生活门店账号矩阵营销"
+  },
+  {
+    "name": "local-kuaishou-life-cover-image-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜快手本地生活门店封面图片"
+  },
+  {
+    "name": "local-kuaishou-life-groupbuy-video-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜快手本地生活团购短视频营销"
+  },
+  {
+    "name": "local-kuaishou-life-influencer-visit-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜快手本地生活达人探店脚本"
+  },
+  {
+    "name": "local-kuaishou-life-local-live-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜快手本地生活本地团购直播"
+  },
+  {
+    "name": "local-kuaishou-life-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜快手本地生活30天同城运营"
+  },
+  {
+    "name": "local-kuaishou-life-promotion-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜快手本地生活同城活动营销"
+  },
+  {
+    "name": "local-kuaishou-life-store-groupbuy-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜快手本地生活门店团购页营销"
+  },
+  {
+    "name": "local-meituan-delivery-menu-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜美团外卖菜单图片"
+  },
+  {
+    "name": "local-meituan-group-buy-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜美团团购套餐营销"
+  },
+  {
+    "name": "local-meituan-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜美团30天门店运营"
+  },
+  {
+    "name": "local-meituan-promotion-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜美团开业节日活动营销"
+  },
+  {
+    "name": "local-meituan-review-reply-ai-hive",
+    "kind": "workflow",
+    "layer": "industry-local-visual",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜美团评价回复与口碑管理"
+  },
+  {
+    "name": "local-meituan-short-video-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜美团本地短视频营销"
+  },
+  {
+    "name": "local-meituan-store-image-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜美团门店图片营销"
+  },
+  {
+    "name": "local-meituan-store-page-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜美团门店主页装修"
+  },
+  {
+    "name": "local-wechat-local-channels-video-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜微信本地生活视频号短视频营销"
+  },
+  {
+    "name": "local-wechat-local-community-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜微信本地生活本地社群活动营销"
+  },
+  {
+    "name": "local-wechat-local-local-live-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜微信本地生活视频号本地直播"
+  },
+  {
+    "name": "local-wechat-local-mini-program-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜微信本地生活小程序门店页营销"
+  },
+  {
+    "name": "local-wechat-local-moments-poster-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜微信本地生活朋友圈海报营销"
+  },
+  {
+    "name": "local-wechat-local-official-account-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜微信本地生活公众号图文营销"
+  },
+  {
+    "name": "local-wechat-local-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜微信本地生活30天私域运营"
+  },
+  {
+    "name": "local-wechat-local-wechat-search-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜微信本地生活微信搜一搜内容营销"
+  },
+  {
+    "name": "local-xiaohongshu-life-cover-image-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜小红书本地生活种草封面图片"
+  },
+  {
+    "name": "local-xiaohongshu-life-groupbuy-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜小红书本地生活门店团购营销"
+  },
+  {
+    "name": "local-xiaohongshu-life-influencer-brief-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜小红书本地生活达人合作Brief"
+  },
+  {
+    "name": "local-xiaohongshu-life-operation-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜小红书本地生活30天种草运营"
+  },
+  {
+    "name": "local-xiaohongshu-life-search-seeding-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜小红书本地生活本地搜索种草"
+  },
+  {
+    "name": "local-xiaohongshu-life-store-poi-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜小红书本地生活门店POI营销"
+  },
+  {
+    "name": "local-xiaohongshu-life-visit-note-ai-hive",
+    "kind": "multimodal",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜小红书本地生活探店种草笔记"
+  },
+  {
+    "name": "local-xiaohongshu-life-visit-video-ai-hive",
+    "kind": "video",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_seedance_2_5_i2v",
+      "public_model_seedance_2_5_r2v",
+      "public_model_seedance_2_5_t2v"
+    ],
+    "display_name": "AI大模型专家｜小红书本地生活探店短视频营销"
   },
   {
     "name": "long-video-to-thirty-shorts-ai-hive",
@@ -10330,6 +13230,606 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "AI 试衣商品图生成与编辑"
+  },
+  {
+    "name": "visual-badge-trademark-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜徽章商标设计"
+  },
+  {
+    "name": "visual-basic-vi-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌VI基础设计"
+  },
+  {
+    "name": "visual-brand-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌头像设计"
+  },
+  {
+    "name": "visual-brand-color-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌配色设计"
+  },
+  {
+    "name": "visual-brand-logo-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌Logo设计"
+  },
+  {
+    "name": "visual-brand-trademark-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌商标创意设计"
+  },
+  {
+    "name": "visual-brand-typography-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌字体搭配设计"
+  },
+  {
+    "name": "visual-business-card-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌名片设计"
+  },
+  {
+    "name": "visual-cartoon-pet-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜卡通宠物头像设计"
+  },
+  {
+    "name": "visual-chinese-trademark-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜中文商标设计"
+  },
+  {
+    "name": "visual-chinese-type-logo-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜中文字体Logo设计"
+  },
+  {
+    "name": "visual-combination-trademark-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜组合商标设计"
+  },
+  {
+    "name": "visual-community-poster-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜社群海报设计"
+  },
+  {
+    "name": "visual-company-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜企业头像设计"
+  },
+  {
+    "name": "visual-company-logo-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜企业Logo设计"
+  },
+  {
+    "name": "visual-douyin-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜抖音头像设计"
+  },
+  {
+    "name": "visual-douyin-cover-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜抖音封面设计"
+  },
+  {
+    "name": "visual-english-trademark-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜英文商标设计"
+  },
+  {
+    "name": "visual-event-kv-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜活动KV设计"
+  },
+  {
+    "name": "visual-graphic-trademark-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜图形商标设计"
+  },
+  {
+    "name": "visual-hotpot-logo-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜火锅店Logo设计"
+  },
+  {
+    "name": "visual-letter-trademark-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜字母商标设计"
+  },
+  {
+    "name": "visual-live-cover-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜直播封面设计"
+  },
+  {
+    "name": "visual-local-visit-cover-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜同城探店封面设计"
+  },
+  {
+    "name": "visual-logo-refresh-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜Logo改版升级"
+  },
+  {
+    "name": "visual-marketing-kit-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌营销物料套装设计"
+  },
+  {
+    "name": "visual-mascot-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌吉祥物设计"
+  },
+  {
+    "name": "visual-menu-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜餐饮菜单设计"
+  },
+  {
+    "name": "visual-milk-tea-logo-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜奶茶店Logo设计"
+  },
+  {
+    "name": "visual-minimal-logo-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜极简Logo设计"
+  },
+  {
+    "name": "visual-moments-cover-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈封面设计"
+  },
+  {
+    "name": "visual-moments-daily-brand-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈品牌日常视觉"
+  },
+  {
+    "name": "visual-moments-festival-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈节日海报"
+  },
+  {
+    "name": "visual-moments-grid-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈九宫格设计"
+  },
+  {
+    "name": "visual-moments-long-image-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈长图设计"
+  },
+  {
+    "name": "visual-moments-poster-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈海报设计"
+  },
+  {
+    "name": "visual-moments-private-sales-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈私域带货设计"
+  },
+  {
+    "name": "visual-moments-promotion-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈促销海报"
+  },
+  {
+    "name": "visual-moments-recruitment-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈招聘海报"
+  },
+  {
+    "name": "visual-moments-store-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜朋友圈门店营销"
+  },
+  {
+    "name": "visual-packaging-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜产品包装设计"
+  },
+  {
+    "name": "visual-personal-ip-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜个人IP头像设计"
+  },
+  {
+    "name": "visual-product-trademark-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜产品商标设计"
+  },
+  {
+    "name": "visual-restaurant-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜餐饮店头像设计"
+  },
+  {
+    "name": "visual-restaurant-logo-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜餐饮Logo设计"
+  },
+  {
+    "name": "visual-short-video-title-card-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜短视频标题封面设计"
+  },
+  {
+    "name": "visual-social-template-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌社媒模板设计"
+  },
+  {
+    "name": "visual-sticker-merch-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜品牌贴纸周边设计"
+  },
+  {
+    "name": "visual-store-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜门店头像设计"
+  },
+  {
+    "name": "visual-store-logo-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜门店Logo设计"
+  },
+  {
+    "name": "visual-store-signage-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜门头招牌设计"
+  },
+  {
+    "name": "visual-tech-logo-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜科技公司Logo设计"
+  },
+  {
+    "name": "visual-trademark-refresh-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜商标视觉改版"
+  },
+  {
+    "name": "visual-video-account-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜视频号头像设计"
+  },
+  {
+    "name": "visual-video-account-cover-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜视频号封面设计"
+  },
+  {
+    "name": "visual-wechat-article-header-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜公众号首图设计"
+  },
+  {
+    "name": "visual-wechat-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜微信头像设计"
+  },
+  {
+    "name": "visual-wordmark-trademark-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜文字商标设计"
+  },
+  {
+    "name": "visual-xiaohongshu-avatar-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜小红书头像设计"
+  },
+  {
+    "name": "visual-xiaohongshu-cover-ai-hive",
+    "kind": "image",
+    "layer": "industry-local-visual",
+    "model_ids": [
+      "public_model_id",
+      "public_model_nano_banana_pro"
+    ],
+    "display_name": "AI大模型专家｜小红书封面设计"
   },
   {
     "name": "walmart-ecommerce-image-generation-editing",
