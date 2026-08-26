@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI大模型专家｜美团本地短视频营销"
+  short_description: "为本地商家制作美团本地短视频营销方案、AI素材与验收"
+  default_prompt: "Use $local-meituan-short-video-ai-hive to create a Chinese 美团 本地短视频营销 plan with AI-HIVE code and truth checks."
+policy:
+  allow_implicit_invocation: true
