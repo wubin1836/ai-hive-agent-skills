@@ -1,6 +1,6 @@
 # AI Hive 完整 Skill 目录
 
-仓库当前包含 1394 个可独立安装的 Agent Skill。本次新增290个最终版中文Skill：150个一行业一入口、80个本地生活平台营销、60个视觉设计。
+仓库当前包含 1490 个可独立安装的 Agent Skill。本次新增 96 个近期 AI 热点 Skill，覆盖 Codex、Claude、桌面智能体、Agent Harness、牛来/GLM 与最新模型路由。
 
 | Skill | 展示名称 | 类型 | 层级 |
 |---|---|---|---|
@@ -249,6 +249,102 @@
 | [`ai-model-expert-happy-horse-video-reference-to-video`](skills/ai-model-expert-happy-horse-video-reference-to-video/SKILL.md) | AI大模型专家｜Happy Horse 参考视频生视频 | video | ai-model-expert |
 | [`ai-model-expert-heygen-video-generation-alternative`](skills/ai-model-expert-heygen-video-generation-alternative/SKILL.md) | AI大模型专家｜HeyGen 视频生成替代｜AI 视频生成与编辑 | video | ai-model-expert |
 | [`ai-model-expert-high-conversion-ad-image-generation-editing`](skills/ai-model-expert-high-conversion-ad-image-generation-editing/SKILL.md) | AI大模型专家｜高转化广告图片生成与编辑 | video | ai-model-expert |
+| [`ai-model-expert-hot-agent-approval`](skills/ai-model-expert-hot-agent-approval/SKILL.md) | AI大模型专家｜Agent Approval Workflow｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-context`](skills/ai-model-expert-hot-agent-context/SKILL.md) | AI大模型专家｜Agent Context Engineering｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-cost-governance`](skills/ai-model-expert-hot-agent-cost-governance/SKILL.md) | AI大模型专家｜Agent Cost Governance｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-evaluation-harness`](skills/ai-model-expert-hot-agent-evaluation-harness/SKILL.md) | AI大模型专家｜Agent Evaluation Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-guardrails`](skills/ai-model-expert-hot-agent-guardrails/SKILL.md) | AI大模型专家｜Agent Guardrails Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-harness-engineering`](skills/ai-model-expert-hot-agent-harness-engineering/SKILL.md) | AI大模型专家｜Agent Harness 工程｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-memory-harness`](skills/ai-model-expert-hot-agent-memory-harness/SKILL.md) | AI大模型专家｜Agent Memory Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-model-routing`](skills/ai-model-expert-hot-agent-model-routing/SKILL.md) | AI大模型专家｜Agent Model Routing｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-observability`](skills/ai-model-expert-hot-agent-observability/SKILL.md) | AI大模型专家｜Agent Observability Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-retry-idempotency`](skills/ai-model-expert-hot-agent-retry-idempotency/SKILL.md) | AI大模型专家｜Agent Retry and Idempotency｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-agent-sandbox`](skills/ai-model-expert-hot-agent-sandbox/SKILL.md) | AI大模型专家｜Agent Permission Sandbox｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-chatgpt-work-chinese`](skills/ai-model-expert-hot-chatgpt-work-chinese/SKILL.md) | AI大模型专家｜ChatGPT Work 中文工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-chatgpt-work-office`](skills/ai-model-expert-hot-chatgpt-work-office/SKILL.md) | AI大模型专家｜ChatGPT Work 办公智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-china-model-router`](skills/ai-model-expert-hot-china-model-router/SKILL.md) | AI大模型专家｜国产大模型智能路由｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-china-open-model-hub`](skills/ai-model-expert-hot-china-open-model-hub/SKILL.md) | AI大模型专家｜国产开源模型一站式工作台｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-ai-sdlc`](skills/ai-model-expert-hot-claude-ai-sdlc/SKILL.md) | AI大模型专家｜Claude AI 原生 SDLC｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-chatgpt-choice`](skills/ai-model-expert-hot-claude-chatgpt-choice/SKILL.md) | AI大模型专家｜Claude Cowork 与 ChatGPT Work 选型｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-chrome-agent`](skills/ai-model-expert-hot-claude-chrome-agent/SKILL.md) | AI大模型专家｜Claude in Chrome 浏览器智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-code-long-task`](skills/ai-model-expert-hot-claude-code-long-task/SKILL.md) | AI大模型专家｜Claude Code 长任务工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-code-mcp-ai-hive`](skills/ai-model-expert-hot-claude-code-mcp-ai-hive/SKILL.md) | AI大模型专家｜Claude Code MCP 接入 AI-HIVE｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-code-skills`](skills/ai-model-expert-hot-claude-code-skills/SKILL.md) | AI大模型专家｜Claude Code Agent Skills 开发｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-code-subagents`](skills/ai-model-expert-hot-claude-code-subagents/SKILL.md) | AI大模型专家｜Claude Code 子智能体协作｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-cowork-desktop`](skills/ai-model-expert-hot-claude-cowork-desktop/SKILL.md) | AI大模型专家｜Claude Cowork 桌面智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-cowork-files`](skills/ai-model-expert-hot-claude-cowork-files/SKILL.md) | AI大模型专家｜Claude Cowork 本地文件批处理｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-cowork-mcp`](skills/ai-model-expert-hot-claude-cowork-mcp/SKILL.md) | AI大模型专家｜Claude Cowork 插件与 MCP｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-cowork-schedule`](skills/ai-model-expert-hot-claude-cowork-schedule/SKILL.md) | AI大模型专家｜Claude Cowork 定时任务与监控｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-ecommerce`](skills/ai-model-expert-hot-claude-ecommerce/SKILL.md) | AI大模型专家｜Claude 电商营销智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-media-generation`](skills/ai-model-expert-hot-claude-media-generation/SKILL.md) | AI大模型专家｜Claude 图片视频生成｜AI-HIVE | multimodal | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-memory`](skills/ai-model-expert-hot-claude-memory/SKILL.md) | AI大模型专家｜Claude 记忆管理｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-office-docs`](skills/ai-model-expert-hot-claude-office-docs/SKILL.md) | AI大模型专家｜Claude 文档表格PPT智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-opus48`](skills/ai-model-expert-hot-claude-opus48/SKILL.md) | AI大模型专家｜Claude Opus 4.8 工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-prompt-injection`](skills/ai-model-expert-hot-claude-prompt-injection/SKILL.md) | AI大模型专家｜Claude 浏览器提示注入防护｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-research`](skills/ai-model-expert-hot-claude-research/SKILL.md) | AI大模型专家｜Claude 研究报告智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-claude-self-improve`](skills/ai-model-expert-hot-claude-self-improve/SKILL.md) | AI大模型专家｜Claude 自我改进智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-agent-prompts`](skills/ai-model-expert-hot-codex-agent-prompts/SKILL.md) | AI大模型专家｜Codex Agent 提示词模板｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-automation`](skills/ai-model-expert-hot-codex-automation/SKILL.md) | AI大模型专家｜Codex 自动化与定时任务｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-browser-desktop`](skills/ai-model-expert-hot-codex-browser-desktop/SKILL.md) | AI大模型专家｜Codex 浏览器与桌面操作｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-claude-choice`](skills/ai-model-expert-hot-codex-claude-choice/SKILL.md) | AI大模型专家｜Codex 与 Claude Cowork 选型｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-desktop-agent`](skills/ai-model-expert-hot-codex-desktop-agent/SKILL.md) | AI大模型专家｜Codex 桌面智能体全能工作台｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-ecommerce-agent`](skills/ai-model-expert-hot-codex-ecommerce-agent/SKILL.md) | AI大模型专家｜Codex 电商内容智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-image-workflow`](skills/ai-model-expert-hot-codex-image-workflow/SKILL.md) | AI大模型专家｜Codex 图片生成工作流｜AI-HIVE | multimodal | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-local-files`](skills/ai-model-expert-hot-codex-local-files/SKILL.md) | AI大模型专家｜Codex 本地文件批处理｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-long-running`](skills/ai-model-expert-hot-codex-long-running/SKILL.md) | AI大模型专家｜Codex 长任务断点续跑｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-marketing-agent`](skills/ai-model-expert-hot-codex-marketing-agent/SKILL.md) | AI大模型专家｜Codex 营销素材智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-mcp-ai-hive`](skills/ai-model-expert-hot-codex-mcp-ai-hive/SKILL.md) | AI大模型专家｜Codex MCP 接入 AI-HIVE｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-multi-agent`](skills/ai-model-expert-hot-codex-multi-agent/SKILL.md) | AI大模型专家｜Codex 多智能体协作｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-multithread`](skills/ai-model-expert-hot-codex-multithread/SKILL.md) | AI大模型专家｜Codex 多线程并行工作｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-review-test`](skills/ai-model-expert-hot-codex-review-test/SKILL.md) | AI大模型专家｜Codex 代码审查与测试｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-skills-dev`](skills/ai-model-expert-hot-codex-skills-dev/SKILL.md) | AI大模型专家｜Codex Skills 开发与安装｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-video-workflow`](skills/ai-model-expert-hot-codex-video-workflow/SKILL.md) | AI大模型专家｜Codex 视频生成工作流｜AI-HIVE | multimodal | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-codex-viral-remake`](skills/ai-model-expert-hot-codex-viral-remake/SKILL.md) | AI大模型专家｜Codex 爆款视频复刻｜AI-HIVE | multimodal | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-coding-agent-harness`](skills/ai-model-expert-hot-coding-agent-harness/SKILL.md) | AI大模型专家｜Coding Agent Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-cowork-chinese`](skills/ai-model-expert-hot-cowork-chinese/SKILL.md) | AI大模型专家｜Claude Cowork 中文工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-agent-harness`](skills/ai-model-expert-hot-desktop-agent-harness/SKILL.md) | AI大模型专家｜Desktop Agent Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-agent-hub`](skills/ai-model-expert-hot-desktop-agent-hub/SKILL.md) | AI大模型专家｜桌面智能体一站式工作台｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-browser-tasks`](skills/ai-model-expert-hot-desktop-browser-tasks/SKILL.md) | AI大模型专家｜桌面智能体浏览器任务｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-ecommerce`](skills/ai-model-expert-hot-desktop-ecommerce/SKILL.md) | AI大模型专家｜桌面智能体电商运营｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-enterprise-governance`](skills/ai-model-expert-hot-desktop-enterprise-governance/SKILL.md) | AI大模型专家｜企业桌面智能体权限治理｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-file-organizer`](skills/ai-model-expert-hot-desktop-file-organizer/SKILL.md) | AI大模型专家｜桌面智能体文件整理｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-mail-calendar`](skills/ai-model-expert-hot-desktop-mail-calendar/SKILL.md) | AI大模型专家｜桌面智能体邮件日历｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-mcp`](skills/ai-model-expert-hot-desktop-mcp/SKILL.md) | AI大模型专家｜桌面智能体 MCP 接入｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-media-studio`](skills/ai-model-expert-hot-desktop-media-studio/SKILL.md) | AI大模型专家｜桌面智能体图片视频生产｜AI-HIVE | multimodal | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-office-suite`](skills/ai-model-expert-hot-desktop-office-suite/SKILL.md) | AI大模型专家｜桌面智能体文档表格PPT｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-remote-control`](skills/ai-model-expert-hot-desktop-remote-control/SKILL.md) | AI大模型专家｜桌面智能体远程电脑控制｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-scheduled-monitor`](skills/ai-model-expert-hot-desktop-scheduled-monitor/SKILL.md) | AI大模型专家｜桌面智能体定时监控｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-desktop-social`](skills/ai-model-expert-hot-desktop-social/SKILL.md) | AI大模型专家｜桌面智能体社媒营销｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-doubao-work-ai-hive`](skills/ai-model-expert-hot-doubao-work-ai-hive/SKILL.md) | AI大模型专家｜豆包工作接入 AI-HIVE｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-feishu-doubao-agent`](skills/ai-model-expert-hot-feishu-doubao-agent/SKILL.md) | AI大模型专家｜飞书豆包智能体工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-gemini35-transcribe`](skills/ai-model-expert-hot-gemini35-transcribe/SKILL.md) | AI大模型专家｜Gemini 3.5 Transcribe 语音转写｜AI-HIVE | multimodal | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-glm53-api`](skills/ai-model-expert-hot-glm53-api/SKILL.md) | AI大模型专家｜GLM-5.3-Flash API 工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-glm53-claude-compare`](skills/ai-model-expert-hot-glm53-claude-compare/SKILL.md) | AI大模型专家｜GLM-5.3 与 Claude 对比｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-glm53-cost-routing`](skills/ai-model-expert-hot-glm53-cost-routing/SKILL.md) | AI大模型专家｜GLM-5.3 成本路由｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-glm53-qwen-compare`](skills/ai-model-expert-hot-glm53-qwen-compare/SKILL.md) | AI大模型专家｜GLM-5.3 与 Qwen 对比｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-gpt56-luna`](skills/ai-model-expert-hot-gpt56-luna/SKILL.md) | AI大模型专家｜GPT-5.6 Luna 工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-gpt56-sol`](skills/ai-model-expert-hot-gpt56-sol/SKILL.md) | AI大模型专家｜GPT-5.6 Sol 工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-gpt56-terra`](skills/ai-model-expert-hot-gpt56-terra/SKILL.md) | AI大模型专家｜GPT-5.6 Terra 工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-harness-worker-market`](skills/ai-model-expert-hot-harness-worker-market/SKILL.md) | AI大模型专家｜Harness Worker Agent Marketplace｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-long-agent-harness`](skills/ai-model-expert-hot-long-agent-harness/SKILL.md) | AI大模型专家｜Long-running Agent Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-mcp-agent-harness`](skills/ai-model-expert-hot-mcp-agent-harness/SKILL.md) | AI大模型专家｜MCP Agent Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-multi-agent-harness`](skills/ai-model-expert-hot-multi-agent-harness/SKILL.md) | AI大模型专家｜Multi-Agent Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-multi-model-failover`](skills/ai-model-expert-hot-multi-model-failover/SKILL.md) | AI大模型专家｜多模型故障转移｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-niulai-ai-hive-api`](skills/ai-model-expert-hot-niulai-ai-hive-api/SKILL.md) | AI大模型专家｜牛来 API 接入 AI-HIVE｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-niulai-coding-agent`](skills/ai-model-expert-hot-niulai-coding-agent/SKILL.md) | AI大模型专家｜牛来编程智能体｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-niulai-desktop-agent`](skills/ai-model-expert-hot-niulai-desktop-agent/SKILL.md) | AI大模型专家｜牛来桌面智能体接入｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-niulai-long-agent`](skills/ai-model-expert-hot-niulai-long-agent/SKILL.md) | AI大模型专家｜牛来长任务 Agent｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-niulai-multimodal`](skills/ai-model-expert-hot-niulai-multimodal/SKILL.md) | AI大模型专家｜牛来多模态内容生成｜AI-HIVE | multimodal | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-niulai-workbench`](skills/ai-model-expert-hot-niulai-workbench/SKILL.md) | AI大模型专家｜牛来大模型全能工作台｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-openworker-security`](skills/ai-model-expert-hot-openworker-security/SKILL.md) | AI大模型专家｜OpenWorker 网络安全智能体｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-ox-alpha-guide`](skills/ai-model-expert-hot-ox-alpha-guide/SKILL.md) | AI大模型专家｜Ox Alpha 接入指南｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-price-snapshot-routing`](skills/ai-model-expert-hot-price-snapshot-routing/SKILL.md) | AI大模型专家｜价格快照与成本路由｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-qwen-office-ai-hive`](skills/ai-model-expert-hot-qwen-office-ai-hive/SKILL.md) | AI大模型专家｜千问办公接入 AI-HIVE｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-qwen38-flash`](skills/ai-model-expert-hot-qwen38-flash/SKILL.md) | AI大模型专家｜Qwen3.8-Flash 工作流｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-qwen4-preview`](skills/ai-model-expert-hot-qwen4-preview/SKILL.md) | AI大模型专家｜Qwen4 架构预览与迁移｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-realtime-model-choice`](skills/ai-model-expert-hot-realtime-model-choice/SKILL.md) | AI大模型专家｜实时模型选型助手｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-self-improving-harness`](skills/ai-model-expert-hot-self-improving-harness/SKILL.md) | AI大模型专家｜Self-improving Agent Harness｜AI-HIVE | agent-infrastructure | ai-hotspot-agent-workflow |
+| [`ai-model-expert-hot-workbuddy-ai-hive`](skills/ai-model-expert-hot-workbuddy-ai-hive/SKILL.md) | AI大模型专家｜WorkBuddy 接入 AI-HIVE｜AI-HIVE | workflow | ai-hotspot-agent-workflow |
 | [`ai-model-expert-image-2`](skills/ai-model-expert-image-2/SKILL.md) | AI大模型专家｜Image2 图片生成与编辑 | video | ai-model-expert |
 | [`ai-model-expert-image-2-ad-image`](skills/ai-model-expert-image-2-ad-image/SKILL.md) | AI大模型专家｜Image2 广告图片 | video | ai-model-expert |
 | [`ai-model-expert-image-2-background-replace`](skills/ai-model-expert-image-2-background-replace/SKILL.md) | AI大模型专家｜Image2 图片换背景 | video | ai-model-expert |
@@ -1398,23 +1494,3 @@
 | [`yunwu-ai-api-alternative-ai-hive`](skills/yunwu-ai-api-alternative-ai-hive/SKILL.md) | AI大模型专家｜YUNWU.AI (云雾 API) 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`zen-ai-top-alternative-ai-hive`](skills/zen-ai-top-alternative-ai-hive/SKILL.md) | AI大模型专家｜zen-ai.top 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`zerocode-sbs-alternative-ai-hive`](skills/zerocode-sbs-alternative-ai-hive/SKILL.md) | AI大模型专家｜zerocode.sbs 替代方案｜AI-HIVE | workflow | relay-alternative |
-
-## 层级统计
-
-- `ai-hive-consolidated`：6
-- `ai-model-expert`：340
-- `alternative`：22
-- `capability`：136
-- `drama-search-matrix`：130
-- `ecommerce-platform`：50
-- `emerging-scenario`：78
-- `generic-capability`：26
-- `generic-scene`：10
-- `industry-local-visual`：290
-- `model`：11
-- `model-suite`：8
-- `offer`：3
-- `relay-alternative`：150
-- `scenario`：24
-- `scene`：50
-- `viral-workflow`：60
