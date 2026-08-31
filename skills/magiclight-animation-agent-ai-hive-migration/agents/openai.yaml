@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜MagicLight Animation Agent替代迁移"
+  short_description: "评估MagicLight Animation Agent到AI-HIVE MCP的内容层部分迁移"
+  default_prompt: "请使用 $magiclight-animation-agent-ai-hive-migration，先核验 MagicLight Animation Agent 官方能力，再设计一条可回退的 AI-HIVE MCP 样片与迁移方案。"
