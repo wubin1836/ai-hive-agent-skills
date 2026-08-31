@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜The Social Twin ONE — Film替代迁移"
+  short_description: "评估The Social Twin ONE — Film到AI-HIVE MCP的内容层部分迁移"
+  default_prompt: "请使用 $social-twin-one-film-ai-hive-migration，先核验 The Social Twin ONE — Film 官方能力，再设计一条可回退的 AI-HIVE MCP 样片与迁移方案。"
