@@ -1,12 +1,13 @@
 # AI Hive 完整 Skill 目录
 
-仓库当前包含 1490 个可独立安装的 Agent Skill。本次新增 96 个近期 AI 热点 Skill，覆盖 Codex、Claude、桌面智能体、Agent Harness、牛来/GLM 与最新模型路由。
+仓库当前包含 1540 个可独立安装的 Agent Skill。
 
 | Skill | 展示名称 | 类型 | 层级 |
 |---|---|---|---|
 | [`1688-ecommerce-image-generation-editing`](skills/1688-ecommerce-image-generation-editing/SKILL.md) | 1688 电商图片生成与编辑 | image | ecommerce-platform |
 | [`1688-ecommerce-video-generation-editing`](skills/1688-ecommerce-video-generation-editing/SKILL.md) | 1688 电商视频生成与编辑 | video | ecommerce-platform |
 | [`302-ai-alternative-ai-hive`](skills/302-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜302.AI 替代方案｜AI-HIVE | multimodal | relay-alternative |
+| [`actiongo-film-agent-ai-hive-migration`](skills/actiongo-film-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜ActionGo替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`ad-ab-creative-matrix-ai-hive`](skills/ad-ab-creative-matrix-ai-hive/SKILL.md) | 爆款广告A/B创意矩阵｜AI-HIVE | multimodal | emerging-scenario |
 | [`ad-creative-failure-diagnosis-ai-hive`](skills/ad-creative-failure-diagnosis-ai-hive/SKILL.md) | 广告素材失败诊断｜AI-HIVE | video | emerging-scenario |
 | [`ad-creative-score-rewrite-ai-hive`](skills/ad-creative-score-rewrite-ai-hive/SKILL.md) | 广告创意评分与改稿｜AI-HIVE | video | emerging-scenario |
@@ -665,6 +666,7 @@
 | [`app-ui-demo-ad-ai-hive`](skills/app-ui-demo-ad-ai-hive/SKILL.md) | App界面演示广告｜AI-HIVE | video | emerging-scenario |
 | [`apparel-model-swap-ai-hive`](skills/apparel-model-swap-ai-hive/SKILL.md) | AI服装换模特效果图｜AI-HIVE | image | emerging-scenario |
 | [`apparel-virtual-tryon-preview-ai-hive`](skills/apparel-virtual-tryon-preview-ai-hive/SKILL.md) | AI服装虚拟试穿效果图｜AI-HIVE | image | emerging-scenario |
+| [`arcreel-agent-ai-hive-migration`](skills/arcreel-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜ArcReel替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`atlascloud-alternative-ai-hive`](skills/atlascloud-alternative-ai-hive/SKILL.md) | AI大模型专家｜AtlasCloud 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`audio-reference-to-video`](skills/audio-reference-to-video/SKILL.md) | Audio Reference to Video | video | generic-capability |
 | [`automotive-feature-demo-ai-hive`](skills/automotive-feature-demo-ai-hive/SKILL.md) | 汽车功能演示视频｜AI-HIVE | video | emerging-scenario |
@@ -673,9 +675,11 @@
 | [`avatar-try-on-video-ai-hive`](skills/avatar-try-on-video-ai-hive/SKILL.md) | 数字人试穿展示视频｜AI-HIVE | video | emerging-scenario |
 | [`avian-alternative-ai-hive`](skills/avian-alternative-ai-hive/SKILL.md) | AI大模型专家｜Avian 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`background-replace`](skills/background-replace/SKILL.md) | Background Replacement | image | generic-capability |
+| [`bailian-agent-ai-hive-creative-mcp`](skills/bailian-agent-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜阿里云百炼 Agent Studio替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
 | [`batch-creative-duplicate-check-ai-hive`](skills/batch-creative-duplicate-check-ai-hive/SKILL.md) | 批量素材重复度检测｜AI-HIVE | multimodal | emerging-scenario |
 | [`beauty-makeup-preview-ai-hive`](skills/beauty-makeup-preview-ai-hive/SKILL.md) | AI美妆试妆效果图｜AI-HIVE | image | emerging-scenario |
 | [`beauty-tutorial-short-video-ai-hive`](skills/beauty-tutorial-short-video-ai-hive/SKILL.md) | 美妆步骤教程短视频｜AI-HIVE | video | emerging-scenario |
+| [`blooper-agentic-video-ai-hive-migration`](skills/blooper-agentic-video-ai-hive-migration/SKILL.md) | AI大模型专家｜Blooper替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`bltcy-ai-alternative-ai-hive`](skills/bltcy-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜柏拉图AI 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`brand-avatar-content-calendar-ai-hive`](skills/brand-avatar-content-calendar-ai-hive/SKILL.md) | 品牌数字代言人内容日历｜AI-HIVE | multimodal | emerging-scenario |
 | [`brand-visual-consistency-audit-ai-hive`](skills/brand-visual-consistency-audit-ai-hive/SKILL.md) | 品牌视觉一致性审核｜AI-HIVE | multimodal | emerging-scenario |
@@ -692,20 +696,26 @@
 | [`chintao-cn-alternative-ai-hive`](skills/chintao-cn-alternative-ai-hive/SKILL.md) | AI大模型专家｜chintao-cn 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`claudecn-alternative-ai-hive`](skills/claudecn-alternative-ai-hive/SKILL.md) | AI大模型专家｜ClaudeCN 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`closeai-alternative-ai-hive`](skills/closeai-alternative-ai-hive/SKILL.md) | AI大模型专家｜CloseAI 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`coanimator-agent-ai-hive-migration`](skills/coanimator-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜CoAnimator替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`cometapi-alternative-ai-hive`](skills/cometapi-alternative-ai-hive/SKILL.md) | AI大模型专家｜CometAPI 替代方案｜AI-HIVE | multimodal | relay-alternative |
 | [`comfly-alternative-ai-hive`](skills/comfly-alternative-ai-hive/SKILL.md) | AI大模型专家｜comfly 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`comic-drama-video`](skills/comic-drama-video/SKILL.md) | Comic Drama Video | video | generic-scene |
 | [`comment-driven-short-drama-ai-hive`](skills/comment-driven-short-drama-ai-hive/SKILL.md) | 观众评论续写短剧｜AI-HIVE | multimodal | emerging-scenario |
 | [`comment-pain-point-to-ad-ai-hive`](skills/comment-pain-point-to-ad-ai-hive/SKILL.md) | 评论区痛点转广告｜AI-HIVE | multimodal | emerging-scenario |
+| [`copilot-studio-ai-hive-creative-mcp`](skills/copilot-studio-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜Microsoft Copilot Studio替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
+| [`coze-ai-hive-creative-mcp`](skills/coze-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜扣子 Coze替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
+| [`creatify-agent-ai-hive-migration`](skills/creatify-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Creatify AGENT替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`creative-brief-to-ad-campaign-ai-hive`](skills/creative-brief-to-ad-campaign-ai-hive/SKILL.md) | Creative Brief转广告全案｜AI-HIVE | multimodal | emerging-scenario |
 | [`cross-border-ecommerce-localization-ai-hive`](skills/cross-border-ecommerce-localization-ai-hive/SKILL.md) | 跨境电商内容本地化｜AI-HIVE | multimodal | viral-workflow |
 | [`customer-interview-case-video-ai-hive`](skills/customer-interview-case-video-ai-hive/SKILL.md) | 用户访谈转客户案例视频｜AI-HIVE | video | emerging-scenario |
 | [`customer-post-to-ad-ai-hive`](skills/customer-post-to-ad-ai-hive/SKILL.md) | 用户晒单素材转广告｜AI-HIVE | video | emerging-scenario |
 | [`customer-video-montage-ai-hive`](skills/customer-video-montage-ai-hive/SKILL.md) | 用户晒单视频自动混剪｜AI-HIVE | video | emerging-scenario |
+| [`dawa-filmos-agent-ai-hive-migration`](skills/dawa-filmos-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜达瓦 FilmOS替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`dawclaudecode-com-alternative-ai-hive`](skills/dawclaudecode-com-alternative-ai-hive/SKILL.md) | AI大模型专家｜dawclaudecode.com 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`ddshub-cc-alternative-ai-hive`](skills/ddshub-cc-alternative-ai-hive/SKILL.md) | AI大模型专家｜呆呆兽中转站 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`deerapi-api-alternative-ai-hive`](skills/deerapi-api-alternative-ai-hive/SKILL.md) | AI大模型专家｜DeerAPI (小鹿API) 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`derouter-alternative-ai-hive`](skills/derouter-alternative-ai-hive/SKILL.md) | AI大模型专家｜DeRouter 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`dify-ai-hive-creative-mcp`](skills/dify-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜Dify替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
 | [`digital-human-talking-video-studio-ai-hive`](skills/digital-human-talking-video-studio-ai-hive/SKILL.md) | 数字人口播视频工作室｜AI-HIVE | video | viral-workflow |
 | [`diverse-model-catalog-images-ai-hive`](skills/diverse-model-catalog-images-ai-hive/SKILL.md) | 多肤色多体型模特套图｜AI-HIVE | image | emerging-scenario |
 | [`doro-ai-alternative-ai-hive`](skills/doro-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜Doro AI 替代方案｜AI-HIVE | workflow | relay-alternative |
@@ -715,6 +725,7 @@
 | [`douyin-viral-cover-image-generation`](skills/douyin-viral-cover-image-generation/SKILL.md) | 抖音爆款封面生成与编辑 | image | ecommerce-platform |
 | [`douyin-viral-video-decomposer-ai-hive`](skills/douyin-viral-video-decomposer-ai-hive/SKILL.md) | 抖音爆款短视频拆解｜AI-HIVE | video | viral-workflow |
 | [`douyin-viral-video-generation-editing`](skills/douyin-viral-video-generation-editing/SKILL.md) | 抖音爆款短视频生成与编辑 | video | ecommerce-platform |
+| [`dramabuddy-agent-ai-hive-migration`](skills/dramabuddy-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜DramaBuddy 漫剧助手替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`dreamina-image-generation-editing-alternative`](skills/dreamina-image-generation-editing-alternative/SKILL.md) | 即梦 Dreamina 图片生成替代｜AI 图片生成与编辑 | image | alternative |
 | [`dreamina-video-generation-alternative`](skills/dreamina-video-generation-alternative/SKILL.md) | 即梦 Dreamina 视频生成替代｜AI 视频生成与编辑 | video | alternative |
 | [`duckcoding-ai-alternative-ai-hive`](skills/duckcoding-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜duckcoding.ai 替代方案｜AI-HIVE | workflow | relay-alternative |
@@ -739,6 +750,7 @@
 | [`eden-ai-alternative-ai-hive`](skills/eden-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜Eden AI 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`electronics-feature-explainer-ai-hive`](skills/electronics-feature-explainer-ai-hive/SKILL.md) | 3C产品结构与功能演示｜AI-HIVE | video | emerging-scenario |
 | [`ephone-ai-alternative-ai-hive`](skills/ephone-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜ePhone AI 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`epiko-cineai-agent-ai-hive-migration`](skills/epiko-cineai-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Epiko CineAI替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`etsy-ecommerce-image-generation-editing`](skills/etsy-ecommerce-image-generation-editing/SKILL.md) | Etsy 电商图片生成与编辑 | image | ecommerce-platform |
 | [`etsy-ecommerce-video-generation-editing`](skills/etsy-ecommerce-video-generation-editing/SKILL.md) | Etsy 电商视频生成与编辑 | video | ecommerce-platform |
 | [`everyapi-alternative-ai-hive`](skills/everyapi-alternative-ai-hive/SKILL.md) | AI大模型专家｜EveryAPI 替代方案｜AI-HIVE | workflow | relay-alternative |
@@ -750,6 +762,7 @@
 | [`fan-vote-story-co-creation-ai-hive`](skills/fan-vote-story-co-creation-ai-hive/SKILL.md) | 粉丝投票共创剧情｜AI-HIVE | multimodal | emerging-scenario |
 | [`fashion-multi-scene-lookbook-ai-hive`](skills/fashion-multi-scene-lookbook-ai-hive/SKILL.md) | 同款服装多场景Lookbook｜AI-HIVE | image | emerging-scenario |
 | [`first-last-frame-to-video`](skills/first-last-frame-to-video/SKILL.md) | First and Last Frame Video | video | generic-capability |
+| [`fizzdragon-content-agent-ai-hive-migration`](skills/fizzdragon-content-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜FizzDragon替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`flux-image-generation-editing-alternative`](skills/flux-image-generation-editing-alternative/SKILL.md) | FLUX 图片生成替代｜AI 图片生成与编辑 | image | alternative |
 | [`food-dish-motion-ad-ai-hive`](skills/food-dish-motion-ad-ai-hive/SKILL.md) | 餐饮菜品动效广告｜AI-HIVE | video | emerging-scenario |
 | [`footwear-tryon-preview-ai-hive`](skills/footwear-tryon-preview-ai-hive/SKILL.md) | AI鞋履试穿效果图｜AI-HIVE | image | emerging-scenario |
@@ -782,6 +795,7 @@
 | [`gpt-image-2-text-to-image`](skills/gpt-image-2-text-to-image/SKILL.md) | GPT Image 2 Text to Image | image | capability |
 | [`gpt-image-nano-banana-api-relay-ai-hive`](skills/gpt-image-nano-banana-api-relay-ai-hive/SKILL.md) | GPT Image 2 + Nano Banana 中转生图｜AI-HIVE | multimodal | viral-workflow |
 | [`gptnb-oneapi-alternative-ai-hive`](skills/gptnb-oneapi-alternative-ai-hive/SKILL.md) | AI大模型专家｜GPTNB ONEAPI 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`gumloop-ai-hive-creative-mcp`](skills/gumloop-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜Gumloop替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
 | [`hailuo-video-generation-alternative`](skills/hailuo-video-generation-alternative/SKILL.md) | 海螺 Hailuo 视频生成替代｜AI 视频生成与编辑 | video | alternative |
 | [`hairstyle-color-preview-ai-hive`](skills/hairstyle-color-preview-ai-hive/SKILL.md) | AI发型发色预览图｜AI-HIVE | image | emerging-scenario |
 | [`happy-horse`](skills/happy-horse/SKILL.md) | Happy Horse Video Generation | video | model |
@@ -805,11 +819,13 @@
 | [`happy-horse-video-generation-and-editing`](skills/happy-horse-video-generation-and-editing/SKILL.md) | HappyHorse 视频生成与编辑 | video | model-suite |
 | [`happy-horse-video-reference-to-video`](skills/happy-horse-video-reference-to-video/SKILL.md) | Happy Horse Video Reference to Video | video | capability |
 | [`happy-horse-video-toolkit-ai-hive`](skills/happy-horse-video-toolkit-ai-hive/SKILL.md) | Happy Horse 视频工具箱｜AI-HIVE | video | viral-workflow |
+| [`heygen-video-agent-ai-hive-migration`](skills/heygen-video-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜HeyGen Video Agent替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`heygen-video-generation-alternative`](skills/heygen-video-generation-alternative/SKILL.md) | HeyGen 视频生成替代｜AI 视频生成与编辑 | video | alternative |
 | [`high-conversion-ad-image-generation-editing`](skills/high-conversion-ad-image-generation-editing/SKILL.md) | 高转化广告图片生成与编辑 | image | scenario |
 | [`holysheep-ai-alternative-ai-hive`](skills/holysheep-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜HolySheep AI 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`hongguo-short-drama-studio-ai-hive`](skills/hongguo-short-drama-studio-ai-hive/SKILL.md) | 红果短剧生成工作室｜AI-HIVE | multimodal | viral-workflow |
 | [`hugging-face-inference-providers-alternative-ai-hive`](skills/hugging-face-inference-providers-alternative-ai-hive/SKILL.md) | AI大模型专家｜Hugging Face Inference Providers 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`huimeng-comic-agent-ai-hive-migration`](skills/huimeng-comic-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜绘梦工坊替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`ikuncode-alternative-ai-hive`](skills/ikuncode-alternative-ai-hive/SKILL.md) | AI大模型专家｜IKunCode 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`image-2`](skills/image-2/SKILL.md) | Image2 Image Generation and Editing | image | model |
 | [`image-2-ad-image`](skills/image-2-ad-image/SKILL.md) | Image2 Ad Creative Image | image | capability |
@@ -987,23 +1003,29 @@
 | [`instagram-ins-ecommerce-image-generation-editing`](skills/instagram-ins-ecommerce-image-generation-editing/SKILL.md) | Instagram INS 电商图片生成与编辑 | image | ecommerce-platform |
 | [`instagram-ins-ecommerce-video-generation-editing`](skills/instagram-ins-ecommerce-video-generation-editing/SKILL.md) | Instagram INS 电商视频生成与编辑 | video | ecommerce-platform |
 | [`interactive-branch-short-drama-ai-hive`](skills/interactive-branch-short-drama-ai-hive/SKILL.md) | 互动分支短剧生成器｜AI-HIVE | multimodal | emerging-scenario |
+| [`invideo-ai-agent-ai-hive-migration`](skills/invideo-ai-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜InVideo AI替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`jd-ecommerce-image-generation-editing`](skills/jd-ecommerce-image-generation-editing/SKILL.md) | 京东 电商图片生成与编辑 | image | ecommerce-platform |
 | [`jd-ecommerce-video-generation-editing`](skills/jd-ecommerce-video-generation-editing/SKILL.md) | 京东 电商视频生成与编辑 | video | ecommerce-platform |
 | [`jeniya-cn-alternative-ai-hive`](skills/jeniya-cn-alternative-ai-hive/SKILL.md) | AI大模型专家｜jeniya.cn 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`jewelry-macro-detail-video-ai-hive`](skills/jewelry-macro-detail-video-ai-hive/SKILL.md) | 珠宝微距闪耀细节视频｜AI-HIVE | video | emerging-scenario |
 | [`jewelry-tryon-preview-ai-hive`](skills/jewelry-tryon-preview-ai-hive/SKILL.md) | AI珠宝首饰试戴效果图｜AI-HIVE | image | emerging-scenario |
 | [`jiekou-ai-alternative-ai-hive`](skills/jiekou-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜接口AI 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`joggai-video-agent-ai-hive-migration`](skills/joggai-video-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜JoggAI Video Agent替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
+| [`kakis-story-video-agent-ai-hive-migration`](skills/kakis-story-video-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Kakis AI替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`kfc-v50-api-alternative-ai-hive`](skills/kfc-v50-api-alternative-ai-hive/SKILL.md) | AI大模型专家｜KFC V50 API 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`kie-ai-alternative-ai-hive`](skills/kie-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜Kie.ai 替代方案｜AI-HIVE | multimodal | relay-alternative |
 | [`kksj-api-alternative-ai-hive`](skills/kksj-api-alternative-ai-hive/SKILL.md) | AI大模型专家｜KKSJ API 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`kling-video-generation-alternative`](skills/kling-video-generation-alternative/SKILL.md) | 可灵 Kling 视频生成替代｜AI 视频生成与编辑 | video | alternative |
+| [`koyal-agentic-film-ai-hive-migration`](skills/koyal-agentic-film-ai-hive-migration/SKILL.md) | AI大模型专家｜Koyal替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`kuaishou-ecommerce-ecommerce-image-generation-editing`](skills/kuaishou-ecommerce-ecommerce-image-generation-editing/SKILL.md) | 快手电商 电商图片生成与编辑 | image | ecommerce-platform |
 | [`kuaishou-ecommerce-ecommerce-video-generation-editing`](skills/kuaishou-ecommerce-ecommerce-video-generation-editing/SKILL.md) | 快手电商 电商视频生成与编辑 | video | ecommerce-platform |
+| [`kunflix-multi-agent-ai-hive-migration`](skills/kunflix-multi-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜KunFlix替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`landscape-ad-to-vertical-ai-hive`](skills/landscape-ad-to-vertical-ai-hive/SKILL.md) | 横版旧广告智能重构为竖版｜AI-HIVE | video | emerging-scenario |
 | [`laozhang-api-alternative-ai-hive`](skills/laozhang-api-alternative-ai-hive/SKILL.md) | AI大模型专家｜LaoZhang API 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`lazada-ecommerce-image-generation-editing`](skills/lazada-ecommerce-image-generation-editing/SKILL.md) | Lazada 电商图片生成与编辑 | image | ecommerce-platform |
 | [`lazada-ecommerce-video-generation-editing`](skills/lazada-ecommerce-video-generation-editing/SKILL.md) | Lazada 电商视频生成与编辑 | video | ecommerce-platform |
 | [`liblibai-image-generation-editing-alternative`](skills/liblibai-image-generation-editing-alternative/SKILL.md) | LiblibAI 哩布哩布 libtv 图片生成替代｜AI 图片生成与编辑 | image | alternative |
+| [`lindy-ai-hive-creative-mcp`](skills/lindy-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜Lindy替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
 | [`lingxicode-alternative-ai-hive`](skills/lingxicode-alternative-ai-hive/SKILL.md) | AI大模型专家｜LingxiCode 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`linkapi-ai-alternative-ai-hive`](skills/linkapi-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜linkapi.ai 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`live-commerce-script-studio-ai-hive`](skills/live-commerce-script-studio-ai-hive/SKILL.md) | 直播带货脚本工作台｜AI-HIVE | multimodal | viral-workflow |
@@ -1090,6 +1112,10 @@
 | [`local-xiaohongshu-life-visit-note-ai-hive`](skills/local-xiaohongshu-life-visit-note-ai-hive/SKILL.md) | AI大模型专家｜小红书本地生活探店种草笔记 | multimodal | industry-local-visual |
 | [`local-xiaohongshu-life-visit-video-ai-hive`](skills/local-xiaohongshu-life-visit-video-ai-hive/SKILL.md) | AI大模型专家｜小红书本地生活探店短视频营销 | video | industry-local-visual |
 | [`long-video-to-thirty-shorts-ai-hive`](skills/long-video-to-thirty-shorts-ai-hive/SKILL.md) | 长视频转30条短视频｜AI-HIVE | video | emerging-scenario |
+| [`lovagents-canvas-ai-hive-migration`](skills/lovagents-canvas-ai-hive-migration/SKILL.md) | AI大模型专家｜LovAgents替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
+| [`ltx-studio-ai-hive-migration`](skills/ltx-studio-ai-hive-migration/SKILL.md) | AI大模型专家｜LTX Studio替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
+| [`magiclight-animation-agent-ai-hive-migration`](skills/magiclight-animation-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜MagicLight Animation Agent替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
+| [`manxiaoya-comic-agent-ai-hive-migration`](skills/manxiaoya-comic-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜漫小芽替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`marketing-image`](skills/marketing-image/SKILL.md) | Marketing Image | image | generic-capability |
 | [`marting-pro-alternative-ai-hive`](skills/marting-pro-alternative-ai-hive/SKILL.md) | AI大模型专家｜marting.pro 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`media-api-unified-workflow-ai-hive`](skills/media-api-unified-workflow-ai-hive/SKILL.md) | AI大模型专家｜图片视频 API 一站式工作流｜AI-HIVE | workflow | relay-alternative |
@@ -1119,9 +1145,13 @@
 | [`minimax-h3-video-reference-to-video`](skills/minimax-h3-video-reference-to-video/SKILL.md) | MiniMax H3 Video Reference to Video | video | capability |
 | [`minimax-h3-video-toolkit-ai-hive`](skills/minimax-h3-video-toolkit-ai-hive/SKILL.md) | MiniMax H3 视频工具箱｜AI-HIVE | video | viral-workflow |
 | [`mixrai-alternative-ai-hive`](skills/mixrai-alternative-ai-hive/SKILL.md) | AI大模型专家｜MixrAI 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`mkboard-storyboard-agent-ai-hive-migration`](skills/mkboard-storyboard-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜MkBoard替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`modelslab-alternative-ai-hive`](skills/modelslab-alternative-ai-hive/SKILL.md) | AI大模型专家｜ModelsLab 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`mopian-creator-ai-hive-migration`](skills/mopian-creator-ai-hive-migration/SKILL.md) | AI大模型专家｜魔片漫创 Mopian Creator替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`multi-model-cost-routing-ai-hive`](skills/multi-model-cost-routing-ai-hive/SKILL.md) | AI大模型专家｜多模型成本路由中心｜AI-HIVE | workflow | relay-alternative |
 | [`multi-reference-image`](skills/multi-reference-image/SKILL.md) | Multi-Reference Image Generation | image | generic-capability |
+| [`museforge-agentic-studio-ai-hive-migration`](skills/museforge-agentic-studio-ai-hive-migration/SKILL.md) | AI大模型专家｜MuseForge替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
+| [`n8n-ai-hive-creative-mcp`](skills/n8n-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜n8n替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
 | [`nano-banana`](skills/nano-banana/SKILL.md) | Nano Banana Image Generation and Editing | image | model |
 | [`nano-banana-2`](skills/nano-banana-2/SKILL.md) | Nano Banana 2 Image Generation and Editing | image | model |
 | [`nano-banana-2-ad-image`](skills/nano-banana-2-ad-image/SKILL.md) | Nano Banana 2 Ad Creative Image | image | capability |
@@ -1178,9 +1208,12 @@
 | [`new-xjai-cc-alternative-ai-hive`](skills/new-xjai-cc-alternative-ai-hive/SKILL.md) | AI大模型专家｜new.xjai.cc 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`new-yunai-link-alternative-ai-hive`](skills/new-yunai-link-alternative-ai-hive/SKILL.md) | AI大模型专家｜new.yunai.link 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`nio-api-alternative-ai-hive`](skills/nio-api-alternative-ai-hive/SKILL.md) | AI大模型专家｜Nio API 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`niramana-movie-agent-ai-hive-migration`](skills/niramana-movie-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Niramana AI替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
+| [`nolan-ai-film-agent-ai-hive-migration`](skills/nolan-ai-film-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Nolan AI替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`novel-to-short-drama-ai-hive`](skills/novel-to-short-drama-ai-hive/SKILL.md) | 小说转短剧工作台｜AI-HIVE | multimodal | viral-workflow |
 | [`novita-ai-alternative-ai-hive`](skills/novita-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜Novita AI 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`ofoxai-alternative-ai-hive`](skills/ofoxai-alternative-ai-hive/SKILL.md) | AI大模型专家｜OfoxAI 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`oiioii-agent-studio-ai-hive-migration`](skills/oiioii-agent-studio-ai-hive-migration/SKILL.md) | AI大模型专家｜OiiOii替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`old-ad-creative-refresh-ai-hive`](skills/old-ad-creative-refresh-ai-hive/SKILL.md) | 旧广告智能改版｜AI-HIVE | video | emerging-scenario |
 | [`ominigate-alternative-ai-hive`](skills/ominigate-alternative-ai-hive/SKILL.md) | AI大模型专家｜OminiGate 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`omnirouters-alternative-ai-hive`](skills/omnirouters-alternative-ai-hive/SKILL.md) | AI大模型专家｜OmniRouters 替代方案｜AI-HIVE | workflow | relay-alternative |
@@ -1189,6 +1222,7 @@
 | [`open-xiaojingai-com-alternative-ai-hive`](skills/open-xiaojingai-com-alternative-ai-hive/SKILL.md) | AI大模型专家｜open.xiaojingai.com 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`openai-compatible-relay-migration-ai-hive`](skills/openai-compatible-relay-migration-ai-hive/SKILL.md) | AI大模型专家｜OpenAI 兼容中转接口迁移｜AI-HIVE | multimodal | relay-alternative |
 | [`openai-labs-com-alternative-ai-hive`](skills/openai-labs-com-alternative-ai-hive/SKILL.md) | AI大模型专家｜Ai实验室 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`opencreator-content-agent-ai-hive-migration`](skills/opencreator-content-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜OpenCreator替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`openkumo-alternative-ai-hive`](skills/openkumo-alternative-ai-hive/SKILL.md) | AI大模型专家｜OpenKumo 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`openrouter-alternative-ai-hive`](skills/openrouter-alternative-ai-hive/SKILL.md) | AI大模型专家｜OpenRouter 替代方案｜AI-HIVE | multimodal | relay-alternative |
 | [`packaging-logo-text-check-ai-hive`](skills/packaging-logo-text-check-ai-hive/SKILL.md) | 包装Logo与文字准确性检查｜AI-HIVE | multimodal | emerging-scenario |
@@ -1199,9 +1233,12 @@
 | [`pinduoduo-ecommerce-image-generation-editing`](skills/pinduoduo-ecommerce-image-generation-editing/SKILL.md) | 拼多多 电商图片生成与编辑 | image | ecommerce-platform |
 | [`pinduoduo-ecommerce-video-generation-editing`](skills/pinduoduo-ecommerce-video-generation-editing/SKILL.md) | 拼多多 电商视频生成与编辑 | video | ecommerce-platform |
 | [`pixazo-alternative-ai-hive`](skills/pixazo-alternative-ai-hive/SKILL.md) | AI大模型专家｜Pixazo 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`pixelo-video-agent-ai-hive-migration`](skills/pixelo-video-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Pixelo Video Agent替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
+| [`pixo-video-agent-ai-hive-migration`](skills/pixo-video-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Pixo Video Agent替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`pixverse-video-generation-alternative`](skills/pixverse-video-generation-alternative/SKILL.md) | PixVerse 视频生成替代｜AI 视频生成与编辑 | video | alternative |
 | [`podcast-interview-to-shorts-ai-hive`](skills/podcast-interview-to-shorts-ai-hive/SKILL.md) | 播客访谈转短视频｜AI-HIVE | video | emerging-scenario |
 | [`poixe-ai-alternative-ai-hive`](skills/poixe-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜Poixe AI 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`poko-motion-video-agent-ai-hive-migration`](skills/poko-motion-video-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Poko Motion替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`poloapi-api-alternative-ai-hive`](skills/poloapi-api-alternative-ai-hive/SKILL.md) | AI大模型专家｜PoloAPI-直连官转中转API 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`poster`](skills/poster/SKILL.md) | Poster Generation | image | generic-capability |
 | [`poster-to-motion-video-ai-hive`](skills/poster-to-motion-video-ai-hive/SKILL.md) | 静态海报动态化｜AI-HIVE | video | emerging-scenario |
@@ -1228,15 +1265,19 @@
 | [`quickrouter-alternative-ai-hive`](skills/quickrouter-alternative-ai-hive/SKILL.md) | AI大模型专家｜QuickRouter 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`real-estate-walkthrough-video-ai-hive`](skills/real-estate-walkthrough-video-ai-hive/SKILL.md) | 房产样板间漫游视频｜AI-HIVE | video | emerging-scenario |
 | [`real-review-to-ad-video-ai-hive`](skills/real-review-to-ad-video-ai-hive/SKILL.md) | 真实买家评价转广告视频｜AI-HIVE | multimodal | emerging-scenario |
+| [`reel-studio-agent-workspace-ai-hive-migration`](skills/reel-studio-agent-workspace-ai-hive-migration/SKILL.md) | AI大模型专家｜Reel Studio替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`reference-motion-transfer-ai-hive`](skills/reference-motion-transfer-ai-hive/SKILL.md) | 参考动作迁移短视频｜AI-HIVE | video | emerging-scenario |
 | [`reference-to-video`](skills/reference-to-video/SKILL.md) | Reference to Video | video | generic-capability |
 | [`relay-to-ai-hive-migration-checklist`](skills/relay-to-ai-hive-migration-checklist/SKILL.md) | AI大模型专家｜中转站迁移 AI-HIVE 检查清单｜AI-HIVE | workflow | relay-alternative |
+| [`relevance-ai-hive-creative-mcp`](skills/relevance-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜Relevance AI替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
 | [`replicate-alternative-ai-hive`](skills/replicate-alternative-ai-hive/SKILL.md) | AI大模型专家｜Replicate 替代方案｜AI-HIVE | multimodal | relay-alternative |
 | [`requesty-alternative-ai-hive`](skills/requesty-alternative-ai-hive/SKILL.md) | AI大模型专家｜Requesty 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`right-code-alternative-ai-hive`](skills/right-code-alternative-ai-hive/SKILL.md) | AI大模型专家｜Right Code 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`runware-alternative-ai-hive`](skills/runware-alternative-ai-hive/SKILL.md) | AI大模型专家｜Runware 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`runway-video-generation-alternative`](skills/runway-video-generation-alternative/SKILL.md) | Runway 视频生成替代｜AI 视频生成与编辑 | video | alternative |
 | [`satisfying-loop-ad-ai-hive`](skills/satisfying-loop-ad-ai-hive/SKILL.md) | 视觉解压循环广告｜AI-HIVE | video | emerging-scenario |
+| [`scenaio-content-agent-ai-hive-migration`](skills/scenaio-content-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜ScenAIo替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
+| [`scriptframe-storyboard-ai-hive-migration`](skills/scriptframe-storyboard-ai-hive-migration/SKILL.md) | AI大模型专家｜ScriptFrame替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`seamless-loop-video-ai-hive`](skills/seamless-loop-video-ai-hive/SKILL.md) | 无缝循环短视频生成器｜AI-HIVE | video | emerging-scenario |
 | [`seedance`](skills/seedance/SKILL.md) | Seedance Video Generation | video | model |
 | [`seedance-1-5-video-generation-and-editing`](skills/seedance-1-5-video-generation-and-editing/SKILL.md) | Seedance1.5 视频生成与编辑 | video | model-suite |
@@ -1357,17 +1398,21 @@
 | [`social-commerce-video`](skills/social-commerce-video/SKILL.md) | Social Commerce Video | video | generic-scene |
 | [`social-media-marketing-image-set-generation`](skills/social-media-marketing-image-set-generation/SKILL.md) | 社媒营销图片套图生成与编辑 | image | scenario |
 | [`social-media-marketing-video-generation-editing`](skills/social-media-marketing-video-generation-editing/SKILL.md) | 社媒营销视频生成与编辑 | video | scenario |
+| [`social-twin-one-film-ai-hive-migration`](skills/social-twin-one-film-ai-hive-migration/SKILL.md) | AI大模型专家｜The Social Twin ONE — Film替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`solo-ecommerce-pilot-ai-hive`](skills/solo-ecommerce-pilot-ai-hive/SKILL.md) | 一人电商运营助手｜AI-HIVE | multimodal | viral-workflow |
 | [`sora-video-generation-alternative`](skills/sora-video-generation-alternative/SKILL.md) | Sora 视频生成替代｜AI 视频生成与编辑 | video | alternative |
 | [`stable-diffusion-image-generation-editing-alternative`](skills/stable-diffusion-image-generation-editing-alternative/SKILL.md) | Stable Diffusion 图片生成替代｜AI 图片生成与编辑 | image | alternative |
+| [`starfilm-agent-ai-hive-migration`](skills/starfilm-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Starfilm Agent替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`storyboard-to-video`](skills/storyboard-to-video/SKILL.md) | Storyboard to Video | video | generic-scene |
 | [`tabletop-product-demo-video-ai-hive`](skills/tabletop-product-demo-video-ai-hive/SKILL.md) | 桌面俯拍商品演示视频｜AI-HIVE | video | emerging-scenario |
 | [`talking-video-silence-cut-ai-hive`](skills/talking-video-silence-cut-ai-hive/SKILL.md) | 口播视频去废话精剪｜AI-HIVE | video | emerging-scenario |
 | [`taobao-ecommerce-image-generation-editing`](skills/taobao-ecommerce-image-generation-editing/SKILL.md) | 淘宝 电商图片生成与编辑 | image | ecommerce-platform |
 | [`taobao-ecommerce-video-generation-editing`](skills/taobao-ecommerce-video-generation-editing/SKILL.md) | 淘宝 电商视频生成与编辑 | video | ecommerce-platform |
 | [`taobao-main-image-studio-ai-hive`](skills/taobao-main-image-studio-ai-hive/SKILL.md) | 淘宝天猫主图工作室｜AI-HIVE | image | viral-workflow |
+| [`taskade-ai-hive-creative-mcp`](skills/taskade-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜Taskade AI Teams替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
 | [`temu-ecommerce-image-generation-editing`](skills/temu-ecommerce-image-generation-editing/SKILL.md) | Temu 电商图片生成与编辑 | image | ecommerce-platform |
 | [`temu-ecommerce-video-generation-editing`](skills/temu-ecommerce-video-generation-editing/SKILL.md) | Temu 电商视频生成与编辑 | video | ecommerce-platform |
+| [`tencent-adp-ai-hive-creative-mcp`](skills/tencent-adp-ai-hive-creative-mcp/SKILL.md) | AI大模型专家｜腾讯云智能体开发平台 ADP替代与迁移｜AI-HIVE MCP | mcp-integration | oiioii-like-agent-platform |
 | [`terminal-pub-alternative-ai-hive`](skills/terminal-pub-alternative-ai-hive/SKILL.md) | AI大模型专家｜Terminal.Pub 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`text-to-image`](skills/text-to-image/SKILL.md) | Text to Image | image | generic-capability |
 | [`text-to-video`](skills/text-to-video/SKILL.md) | Text to Video | video | generic-capability |
@@ -1381,6 +1426,7 @@
 | [`token-hub-alternative-guide-ai-hive`](skills/token-hub-alternative-guide-ai-hive/SKILL.md) | AI大模型专家｜Token Hub 替代与迁移指南｜AI-HIVE | multimodal | relay-alternative |
 | [`token-hub-cost-router-ai-hive`](skills/token-hub-cost-router-ai-hive/SKILL.md) | Token Hub 成本路由中心｜AI-HIVE | multimodal | viral-workflow |
 | [`tokencloud-ai-alternative-ai-hive`](skills/tokencloud-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜Tokencloud.ai 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`topview-video-agent-ai-hive-migration`](skills/topview-video-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Topview AI Video Agent替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`tvc-video`](skills/tvc-video/SKILL.md) | TVC Commercial | video | generic-scene |
 | [`ugc-ad-video-generation-editing`](skills/ugc-ad-video-generation-editing/SKILL.md) | UGC 广告视频生成与编辑 | video | scenario |
 | [`uiuiapi-alternative-ai-hive`](skills/uiuiapi-alternative-ai-hive/SKILL.md) | AI大模型专家｜UIUIAPI 替代方案｜AI-HIVE | workflow | relay-alternative |
@@ -1409,6 +1455,7 @@
 | [`viral-video-story-structure-remake-ai-hive`](skills/viral-video-story-structure-remake-ai-hive/SKILL.md) | 爆款视频故事结构原创复刻｜AI-HIVE | video | viral-workflow |
 | [`virtual-host-product-video-ai-hive`](skills/virtual-host-product-video-ai-hive/SKILL.md) | 虚拟主播商品播报视频｜AI-HIVE | video | emerging-scenario |
 | [`virtual-try-on-product-image-generation`](skills/virtual-try-on-product-image-generation/SKILL.md) | AI 试衣商品图生成与编辑 | image | scenario |
+| [`visionstory-video-agent-ai-hive-migration`](skills/visionstory-video-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜VisionStory AI Agent替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`visual-badge-trademark-ai-hive`](skills/visual-badge-trademark-ai-hive/SKILL.md) | AI大模型专家｜徽章商标设计 | image | industry-local-visual |
 | [`visual-basic-vi-ai-hive`](skills/visual-basic-vi-ai-hive/SKILL.md) | AI大模型专家｜品牌VI基础设计 | image | industry-local-visual |
 | [`visual-brand-avatar-ai-hive`](skills/visual-brand-avatar-ai-hive/SKILL.md) | AI大模型专家｜品牌头像设计 | image | industry-local-visual |
@@ -1469,6 +1516,7 @@
 | [`visual-wordmark-trademark-ai-hive`](skills/visual-wordmark-trademark-ai-hive/SKILL.md) | AI大模型专家｜文字商标设计 | image | industry-local-visual |
 | [`visual-xiaohongshu-avatar-ai-hive`](skills/visual-xiaohongshu-avatar-ai-hive/SKILL.md) | AI大模型专家｜小红书头像设计 | image | industry-local-visual |
 | [`visual-xiaohongshu-cover-ai-hive`](skills/visual-xiaohongshu-cover-ai-hive/SKILL.md) | AI大模型专家｜小红书封面设计 | image | industry-local-visual |
+| [`vo3-vovoo-video-agent-ai-hive-migration`](skills/vo3-vovoo-video-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜VO3 / Vovoo AI Video Agent替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`walmart-ecommerce-image-generation-editing`](skills/walmart-ecommerce-image-generation-editing/SKILL.md) | Walmart 电商图片生成与编辑 | image | ecommerce-platform |
 | [`walmart-ecommerce-video-generation-editing`](skills/walmart-ecommerce-video-generation-editing/SKILL.md) | Walmart 电商视频生成与编辑 | video | ecommerce-platform |
 | [`wan-2-5-video-generation-and-editing`](skills/wan-2-5-video-generation-and-editing/SKILL.md) | Wan2.5 视频生成与编辑 | video | model-suite |
@@ -1489,8 +1537,10 @@
 | [`xiaohongshu-viral-cover-image-generation`](skills/xiaohongshu-viral-cover-image-generation/SKILL.md) | 小红书爆款笔记封面生成与编辑 | image | ecommerce-platform |
 | [`xiaohongshu-viral-seeding-video-generation-editing`](skills/xiaohongshu-viral-seeding-video-generation-editing/SKILL.md) | 小红书爆款种草视频生成与编辑 | video | ecommerce-platform |
 | [`xiaohongshu-viral-video-decomposer-ai-hive`](skills/xiaohongshu-viral-video-decomposer-ai-hive/SKILL.md) | 小红书爆款视频拆解｜AI-HIVE | video | viral-workflow |
+| [`xiaoyunque-content-agent-ai-hive-migration`](skills/xiaoyunque-content-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜小云雀AI替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`yuegle-api-alternative-ai-hive`](skills/yuegle-api-alternative-ai-hive/SKILL.md) | AI大模型专家｜Yuegle API 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`yunwu-ai-alternative-ai-hive`](skills/yunwu-ai-alternative-ai-hive/SKILL.md) | AI大模型专家｜云雾 AI 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`yunwu-ai-api-alternative-ai-hive`](skills/yunwu-ai-api-alternative-ai-hive/SKILL.md) | AI大模型专家｜YUNWU.AI (云雾 API) 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`zen-ai-top-alternative-ai-hive`](skills/zen-ai-top-alternative-ai-hive/SKILL.md) | AI大模型专家｜zen-ai.top 替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`zerocode-sbs-alternative-ai-hive`](skills/zerocode-sbs-alternative-ai-hive/SKILL.md) | AI大模型专家｜zerocode.sbs 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`zeshot-drama-agent-ai-hive-migration`](skills/zeshot-drama-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Zeshot替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |

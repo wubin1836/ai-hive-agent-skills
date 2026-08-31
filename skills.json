@@ -35,6 +35,13 @@
     "display_name": "AI大模型专家｜302.AI 替代方案｜AI-HIVE"
   },
   {
+    "name": "actiongo-film-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜ActionGo替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "ad-ab-creative-matrix-ai-hive",
     "kind": "multimodal",
     "layer": "emerging-scenario",
@@ -5846,6 +5853,13 @@
     "display_name": "AI服装虚拟试穿效果图｜AI-HIVE"
   },
   {
+    "name": "arcreel-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜ArcReel替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "atlascloud-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -5926,6 +5940,13 @@
     "display_name": "Background Replacement"
   },
   {
+    "name": "bailian-agent-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜阿里云百炼 Agent Studio替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "batch-creative-duplicate-check-ai-hive",
     "kind": "multimodal",
     "layer": "emerging-scenario",
@@ -5959,6 +5980,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "美妆步骤教程短视频｜AI-HIVE"
+  },
+  {
+    "name": "blooper-agentic-video-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Blooper替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "bltcy-ai-alternative-ai-hive",
@@ -6109,6 +6137,13 @@
     "display_name": "AI大模型专家｜CloseAI 替代方案｜AI-HIVE"
   },
   {
+    "name": "coanimator-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜CoAnimator替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "cometapi-alternative-ai-hive",
     "kind": "multimodal",
     "layer": "relay-alternative",
@@ -6164,6 +6199,27 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "评论区痛点转广告｜AI-HIVE"
+  },
+  {
+    "name": "copilot-studio-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Microsoft Copilot Studio替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "coze-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜扣子 Coze替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "creatify-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Creatify AGENT替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "creative-brief-to-ad-campaign-ai-hive",
@@ -6228,6 +6284,13 @@
     "display_name": "用户晒单视频自动混剪｜AI-HIVE"
   },
   {
+    "name": "dawa-filmos-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜达瓦 FilmOS替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "dawclaudecode-com-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -6254,6 +6317,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜DeRouter 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "dify-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Dify替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "digital-human-talking-video-studio-ai-hive",
@@ -6349,6 +6419,13 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "抖音爆款短视频生成与编辑"
+  },
+  {
+    "name": "dramabuddy-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜DramaBuddy 漫剧助手替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "dreamina-image-generation-editing-alternative",
@@ -6608,6 +6685,13 @@
     "display_name": "AI大模型专家｜ePhone AI 替代方案｜AI-HIVE"
   },
   {
+    "name": "epiko-cineai-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Epiko CineAI替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "etsy-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -6718,6 +6802,13 @@
       "public_model_seedance_2_5_i2v"
     ],
     "display_name": "First and Last Frame Video"
+  },
+  {
+    "name": "fizzdragon-content-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜FizzDragon替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "flux-image-generation-editing-alternative",
@@ -7025,6 +7116,13 @@
     "display_name": "AI大模型专家｜GPTNB ONEAPI 替代方案｜AI-HIVE"
   },
   {
+    "name": "gumloop-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Gumloop替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "hailuo-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
@@ -7266,6 +7364,13 @@
     "display_name": "Happy Horse 视频工具箱｜AI-HIVE"
   },
   {
+    "name": "heygen-video-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜HeyGen Video Agent替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "heygen-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
@@ -7313,6 +7418,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜Hugging Face Inference Providers 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "huimeng-comic-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜绘梦工坊替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "ikuncode-alternative-ai-hive",
@@ -9512,6 +9624,13 @@
     "display_name": "互动分支短剧生成器｜AI-HIVE"
   },
   {
+    "name": "invideo-ai-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜InVideo AI替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "jd-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -9570,6 +9689,20 @@
     "display_name": "AI大模型专家｜接口AI 替代方案｜AI-HIVE"
   },
   {
+    "name": "joggai-video-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜JoggAI Video Agent替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "kakis-story-video-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Kakis AI替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "kfc-v50-api-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -9610,6 +9743,13 @@
     "display_name": "可灵 Kling 视频生成替代｜AI 视频生成与编辑"
   },
   {
+    "name": "koyal-agentic-film-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Koyal替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "kuaishou-ecommerce-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -9630,6 +9770,13 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "快手电商 电商视频生成与编辑"
+  },
+  {
+    "name": "kunflix-multi-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜KunFlix替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "landscape-ad-to-vertical-ai-hive",
@@ -9680,6 +9827,13 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "LiblibAI 哩布哩布 libtv 图片生成替代｜AI 图片生成与编辑"
+  },
+  {
+    "name": "lindy-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Lindy替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "lingxicode-alternative-ai-hive",
@@ -10692,6 +10846,34 @@
     "display_name": "长视频转30条短视频｜AI-HIVE"
   },
   {
+    "name": "lovagents-canvas-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜LovAgents替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "ltx-studio-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜LTX Studio替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "magiclight-animation-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜MagicLight Animation Agent替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "manxiaoya-comic-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜漫小芽替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "marketing-image",
     "kind": "image",
     "layer": "generic-capability",
@@ -10979,11 +11161,25 @@
     "display_name": "AI大模型专家｜MixrAI 替代方案｜AI-HIVE"
   },
   {
+    "name": "mkboard-storyboard-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜MkBoard替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "modelslab-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜ModelsLab 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "mopian-creator-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜魔片漫创 Mopian Creator替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "multi-model-cost-routing-ai-hive",
@@ -11000,6 +11196,20 @@
       "public_model_nano_banana_2"
     ],
     "display_name": "Multi-Reference Image Generation"
+  },
+  {
+    "name": "museforge-agentic-studio-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜MuseForge替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "n8n-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜n8n替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "nano-banana",
@@ -11499,6 +11709,20 @@
     "display_name": "AI大模型专家｜Nio API 替代方案｜AI-HIVE"
   },
   {
+    "name": "niramana-movie-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Niramana AI替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "nolan-ai-film-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Nolan AI替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "novel-to-short-drama-ai-hive",
     "kind": "multimodal",
     "layer": "viral-workflow",
@@ -11524,6 +11748,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜OfoxAI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "oiioii-agent-studio-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜OiiOii替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "old-ad-creative-refresh-ai-hive",
@@ -11597,6 +11828,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜Ai实验室 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "opencreator-content-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜OpenCreator替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "openkumo-alternative-ai-hive",
@@ -11697,6 +11935,20 @@
     "display_name": "AI大模型专家｜Pixazo 替代方案｜AI-HIVE"
   },
   {
+    "name": "pixelo-video-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Pixelo Video Agent替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "pixo-video-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Pixo Video Agent替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "pixverse-video-generation-alternative",
     "kind": "video",
     "layer": "alternative",
@@ -11727,6 +11979,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜Poixe AI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "poko-motion-video-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Poko Motion替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "poloapi-api-alternative-ai-hive",
@@ -12012,6 +12271,13 @@
     "display_name": "真实买家评价转广告视频｜AI-HIVE"
   },
   {
+    "name": "reel-studio-agent-workspace-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Reel Studio替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "reference-motion-transfer-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -12038,6 +12304,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜中转站迁移 AI-HIVE 检查清单｜AI-HIVE"
+  },
+  {
+    "name": "relevance-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Relevance AI替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "replicate-alternative-ai-hive",
@@ -12097,6 +12370,20 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "视觉解压循环广告｜AI-HIVE"
+  },
+  {
+    "name": "scenaio-content-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜ScenAIo替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "scriptframe-storyboard-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜ScriptFrame替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "seamless-loop-video-ai-hive",
@@ -13345,6 +13632,13 @@
     "display_name": "社媒营销视频生成与编辑"
   },
   {
+    "name": "social-twin-one-film-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜The Social Twin ONE — Film替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "solo-ecommerce-pilot-ai-hive",
     "kind": "multimodal",
     "layer": "viral-workflow",
@@ -13378,6 +13672,13 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "Stable Diffusion 图片生成替代｜AI 图片生成与编辑"
+  },
+  {
+    "name": "starfilm-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Starfilm Agent替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "storyboard-to-video",
@@ -13447,6 +13748,13 @@
     "display_name": "淘宝天猫主图工作室｜AI-HIVE"
   },
   {
+    "name": "taskade-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Taskade AI Teams替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "temu-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -13467,6 +13775,13 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "Temu 电商视频生成与编辑"
+  },
+  {
+    "name": "tencent-adp-ai-hive-creative-mcp",
+    "kind": "mcp-integration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜腾讯云智能体开发平台 ADP替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "terminal-pub-alternative-ai-hive",
@@ -13601,6 +13916,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜Tokencloud.ai 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "topview-video-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Topview AI Video Agent替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "tvc-video",
@@ -13902,6 +14224,13 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "AI 试衣商品图生成与编辑"
+  },
+  {
+    "name": "visionstory-video-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜VisionStory AI Agent替代与迁移｜AI-HIVE MCP"
   },
   {
     "name": "visual-badge-trademark-ai-hive",
@@ -14504,6 +14833,13 @@
     "display_name": "AI大模型专家｜小红书封面设计"
   },
   {
+    "name": "vo3-vovoo-video-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜VO3 / Vovoo AI Video Agent替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "walmart-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -14705,6 +15041,13 @@
     "display_name": "小红书爆款视频拆解｜AI-HIVE"
   },
   {
+    "name": "xiaoyunque-content-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜小云雀AI替代与迁移｜AI-HIVE MCP"
+  },
+  {
     "name": "yuegle-api-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -14738,5 +15081,12 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜zerocode.sbs 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "zeshot-drama-agent-ai-hive-migration",
+    "kind": "agent-platform-migration",
+    "layer": "oiioii-like-agent-platform",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Zeshot替代与迁移｜AI-HIVE MCP"
   }
 ]
