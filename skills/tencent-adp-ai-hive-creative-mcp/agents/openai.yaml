@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜腾讯云智能体开发平台 ADP替代迁移"
+  short_description: "评估腾讯云智能体开发平台 ADP到AI-HIVE MCP的MCP 组合接入"
+  default_prompt: "请使用 $tencent-adp-ai-hive-creative-mcp，先核验 腾讯云智能体开发平台 ADP 官方能力，再设计一条可回退的 AI-HIVE MCP 样片与迁移方案。"

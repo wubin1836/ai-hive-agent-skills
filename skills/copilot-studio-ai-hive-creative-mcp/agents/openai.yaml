@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜Microsoft Copilot Studio替代迁移"
+  short_description: "评估Microsoft Copilot Studio到AI-HIVE MCP的MCP 组合接入"
+  default_prompt: "请使用 $copilot-studio-ai-hive-creative-mcp，先核验 Microsoft Copilot Studio 官方能力，再设计一条可回退的 AI-HIVE MCP 样片与迁移方案。"
