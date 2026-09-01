@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜AI售前问答 Agent"
+  short_description: "用AI-HIVE完成AI售前问答 Agent并生成可验收小样"
+  default_prompt: "请使用 $ai-presales-qa-agent，基于授权商品素材生成一条AI售前问答 Agent小样和验收清单。"

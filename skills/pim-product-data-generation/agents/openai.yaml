@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜PIM商品资料生成"
+  short_description: "用AI-HIVE完成PIM商品资料生成并生成可验收小样"
+  default_prompt: "请使用 $pim-product-data-generation，基于授权商品素材生成一条PIM商品资料生成小样和验收清单。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜自建AI电商智能客服"
+  short_description: "用AI-HIVE完成自建AI电商智能客服并生成可验收小样"
+  default_prompt: "请使用 $self-hosted-ai-ecommerce-customer-service，基于授权商品素材生成一条自建AI电商智能客服小样和验收清单。"

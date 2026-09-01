@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜ERP商品内容助手"
+  short_description: "用AI-HIVE完成ERP商品内容助手并生成可验收小样"
+  default_prompt: "请使用 $erp-product-content-copilot，基于授权商品素材生成一条ERP商品内容助手小样和验收清单。"
