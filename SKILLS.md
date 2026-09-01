@@ -1,6 +1,6 @@
 # AI Hive 完整 Skill 目录
 
-仓库当前包含 1740 个可独立安装的 Agent Skill。
+仓库当前包含 1940 个可独立安装的 Agent Skill。
 
 | Skill | 展示名称 | 类型 | 层级 |
 |---|---|---|---|
@@ -907,6 +907,206 @@
 | [`image-reference-to-video`](skills/image-reference-to-video/SKILL.md) | Image Reference to Video | video | generic-capability |
 | [`image-to-image`](skills/image-to-image/SKILL.md) | Image to Image | image | generic-capability |
 | [`image-to-video`](skills/image-to-video/SKILL.md) | Image to Video | video | generic-capability |
+| [`imiva-618-campaign`](skills/imiva-618-campaign/SKILL.md) | 618 大促图片视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-adobe-firefly-migration`](skills/imiva-adobe-firefly-migration/SKILL.md) | Adobe Firefly 电商视觉迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-agency-client-delivery`](skills/imiva-agency-client-delivery/SKILL.md) | 广告代理商客户交付 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-agri-product-content`](skills/imiva-agri-product-content/SKILL.md) | 农产品品牌商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-ai-live-photo-commerce`](skills/imiva-ai-live-photo-commerce/SKILL.md) | AI Live Photo 商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-arcads-content-migration`](skills/imiva-arcads-content-migration/SKILL.md) | Arcads UGC 广告迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-art-print-content`](skills/imiva-art-print-content/SKILL.md) | 艺术品与装饰画内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-assembly-installation-video`](skills/imiva-assembly-installation-video/SKILL.md) | 安装组装教程视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-asset-version-naming`](skills/imiva-asset-version-naming/SKILL.md) | 电商素材命名与版本管理 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-auto-accessories-content`](skills/imiva-auto-accessories-content/SKILL.md) | 汽车用品商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-avatar-holding-product`](skills/imiva-avatar-holding-product/SKILL.md) | 虚拟人物持物商品图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-back-to-school-campaign`](skills/imiva-back-to-school-campaign/SKILL.md) | 开学季商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-bathroom-content`](skills/imiva-bathroom-content/SKILL.md) | 卫浴商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-bedding-content`](skills/imiva-bedding-content/SKILL.md) | 家纺床品商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-before-after-comparison`](skills/imiva-before-after-comparison/SKILL.md) | 前后对比营销图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-black-friday-campaign`](skills/imiva-black-friday-campaign/SKILL.md) | Black Friday 黑五内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-book-content`](skills/imiva-book-content/SKILL.md) | 图书出版物营销内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-booth-ai-content-migration`](skills/imiva-booth-ai-content-migration/SKILL.md) | Booth AI 产品摄影迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-botika-content-migration`](skills/imiva-botika-content-migration/SKILL.md) | Botika 时尚模特图迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-boutique-store-content`](skills/imiva-boutique-store-content/SKILL.md) | 精品买手店内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-brand-consistency-qa`](skills/imiva-brand-consistency-qa/SKILL.md) | 品牌视觉一致性 QA | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-brand-marketing-manager`](skills/imiva-brand-marketing-manager/SKILL.md) | 品牌市场经理内容工作台 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-bundle-cross-sell-image`](skills/imiva-bundle-cross-sell-image/SKILL.md) | 组合装与关联销售图片 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-camping-gear-content`](skills/imiva-camping-gear-content/SKILL.md) | 露营装备商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-canva-magic-studio-migration`](skills/imiva-canva-magic-studio-migration/SKILL.md) | Canva Magic Studio 电商内容迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-capcut-commerce-migration`](skills/imiva-capcut-commerce-migration/SKILL.md) | CapCut Commerce Pro 内容迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-carousel-story-sequence`](skills/imiva-carousel-story-sequence/SKILL.md) | 轮播图故事序列 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-catalog-lookbook`](skills/imiva-catalog-lookbook/SKILL.md) | 商品目录与 Lookbook | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-chain-retail-content`](skills/imiva-chain-retail-content/SKILL.md) | 连锁零售内容中心 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-chinese-new-year`](skills/imiva-chinese-new-year/SKILL.md) | 春节年货节内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-christmas-campaign`](skills/imiva-christmas-campaign/SKILL.md) | 圣诞节商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-claid-content-migration`](skills/imiva-claid-content-migration/SKILL.md) | Claid.ai 商品图迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-cleaning-product-content`](skills/imiva-cleaning-product-content/SKILL.md) | 清洁用品商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-coffee-content`](skills/imiva-coffee-content/SKILL.md) | 咖啡商品图片视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-comment-to-creative`](skills/imiva-comment-to-creative/SKILL.md) | 评论区问题转内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-commerce-compliance-check`](skills/imiva-commerce-compliance-check/SKILL.md) | 电商内容合规检查 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-community-group-buying`](skills/imiva-community-group-buying/SKILL.md) | 社群团购商品海报 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-competitor-gap-content`](skills/imiva-competitor-gap-content/SKILL.md) | 竞品内容缺口补齐 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-content-review-approval`](skills/imiva-content-review-approval/SKILL.md) | 内容审核与审批工作流 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-content-studio-workflow`](skills/imiva-content-studio-workflow/SKILL.md) | 内容工作室批量生产 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-coupang-content`](skills/imiva-coupang-content/SKILL.md) | Coupang 韩国电商内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-craft-supplies-content`](skills/imiva-craft-supplies-content/SKILL.md) | 手工材料商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-creatify-content-migration`](skills/imiva-creatify-content-migration/SKILL.md) | Creatify 商品广告迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-creator-brief-visual-board`](skills/imiva-creator-brief-visual-board/SKILL.md) | 达人拍摄 Brief 视觉板 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-credit-budget-control`](skills/imiva-credit-budget-control/SKILL.md) | 大模型积分预算控制 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-crossborder-seller-workflow`](skills/imiva-crossborder-seller-workflow/SKILL.md) | 跨境卖家内容工作流 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-cultural-creative-content`](skills/imiva-cultural-creative-content/SKILL.md) | 文创礼品商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-customer-service-video-reply`](skills/imiva-customer-service-video-reply/SKILL.md) | 客服视频回复素材 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-customer-story-creative`](skills/imiva-customer-story-creative/SKILL.md) | 用户故事营销图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-cyber-monday-campaign`](skills/imiva-cyber-monday-campaign/SKILL.md) | Cyber Monday 网一内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-design-outsourcing-delivery`](skills/imiva-design-outsourcing-delivery/SKILL.md) | 电商设计外包交付 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-digital-human-product-demo`](skills/imiva-digital-human-product-demo/SKILL.md) | 数字人商品讲解视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-distributor-content-kit`](skills/imiva-distributor-content-kit/SKILL.md) | 经销商商品内容包 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-double11-campaign`](skills/imiva-double11-campaign/SKILL.md) | 双11大促内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-double12-campaign`](skills/imiva-double12-campaign/SKILL.md) | 双12年终促销内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-dreamina-commerce-migration`](skills/imiva-dreamina-commerce-migration/SKILL.md) | 即梦 Dreamina 电商内容迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-dtc-brand-content`](skills/imiva-dtc-brand-content/SKILL.md) | DTC 品牌内容系统 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-ebay-listing-content`](skills/imiva-ebay-listing-content/SKILL.md) | eBay Listing 图片视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-ecommerce-gif-ad`](skills/imiva-ecommerce-gif-ad/SKILL.md) | 电商 GIF 动图广告 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-ecommerce-operator-workbench`](skills/imiva-ecommerce-operator-workbench/SKILL.md) | 电商运营内容工作台 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-eid-campaign`](skills/imiva-eid-campaign/SKILL.md) | Eid 开斋节商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-facebook-shops-content`](skills/imiva-facebook-shops-content/SKILL.md) | Facebook Shops 商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-faceless-product-video`](skills/imiva-faceless-product-video/SKILL.md) | 无露脸商品短视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-faire-wholesale-content`](skills/imiva-faire-wholesale-content/SKILL.md) | Faire 批发商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-faq-short-video`](skills/imiva-faq-short-video/SKILL.md) | FAQ 问答短视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-faq-to-detail-page`](skills/imiva-faq-to-detail-page/SKILL.md) | 商品 FAQ 转详情页 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-fathers-day-campaign`](skills/imiva-fathers-day-campaign/SKILL.md) | 父亲节商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-fitness-equipment-content`](skills/imiva-fitness-equipment-content/SKILL.md) | 健身器材商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-flair-ai-content-migration`](skills/imiva-flair-ai-content-migration/SKILL.md) | Flair AI 品牌视觉迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-flipkart-content`](skills/imiva-flipkart-content/SKILL.md) | Flipkart 印度电商内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-flower-content`](skills/imiva-flower-content/SKILL.md) | 鲜花花艺商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-fragrance-content`](skills/imiva-fragrance-content/SKILL.md) | 香水香氛商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-franchise-content-kit`](skills/imiva-franchise-content-kit/SKILL.md) | 加盟门店商品内容包 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-fresh-food-content`](skills/imiva-fresh-food-content/SKILL.md) | 生鲜商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-fresh-supermarket-content`](skills/imiva-fresh-supermarket-content/SKILL.md) | 生鲜商超商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-frozen-food-content`](skills/imiva-frozen-food-content/SKILL.md) | 冷冻食品商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-gardening-content`](skills/imiva-gardening-content/SKILL.md) | 园艺用品商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-google-shopping-content`](skills/imiva-google-shopping-content/SKILL.md) | Google Shopping 商品图片 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-halloween-campaign`](skills/imiva-halloween-campaign/SKILL.md) | 万圣节营销内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-hardware-tools-content`](skills/imiva-hardware-tools-content/SKILL.md) | 五金工具商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-hero-sku-content-system`](skills/imiva-hero-sku-content-system/SKILL.md) | 核心爆品内容系统 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-heygen-commerce-migration`](skills/imiva-heygen-commerce-migration/SKILL.md) | HeyGen 电商内容组合接入 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-home-appliance-content`](skills/imiva-home-appliance-content/SKILL.md) | 家电商品图片视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-idempotent-batch-generation`](skills/imiva-idempotent-batch-generation/SKILL.md) | 幂等批量生成防重复 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-industrial-equipment-content`](skills/imiva-industrial-equipment-content/SKILL.md) | 工业设备商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-insmind-content-migration`](skills/imiva-insmind-content-migration/SKILL.md) | insMind 商品图工作流迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-jewelry-content`](skills/imiva-jewelry-content/SKILL.md) | 珠宝首饰图片视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-kakao-shopping-content`](skills/imiva-kakao-shopping-content/SKILL.md) | Kakao Shopping 商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-kitchenware-content`](skills/imiva-kitchenware-content/SKILL.md) | 厨具餐具商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-kling-commerce-migration`](skills/imiva-kling-commerce-migration/SKILL.md) | 可灵 Kling 电商视频迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-koc-seeding-matrix`](skills/imiva-koc-seeding-matrix/SKILL.md) | KOC 种草内容矩阵 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-kol-pitch-visual`](skills/imiva-kol-pitch-visual/SKILL.md) | KOL 合作提案视觉包 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-launch-day-content-kit`](skills/imiva-launch-day-content-kit/SKILL.md) | 新品首发日内容套装 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-legacy-sku-refresh`](skills/imiva-legacy-sku-refresh/SKILL.md) | 老品翻新内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-liblibai-commerce-migration`](skills/imiva-liblibai-commerce-migration/SKILL.md) | LiblibAI 电商工作流迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-lighting-content`](skills/imiva-lighting-content/SKILL.md) | 灯具照明商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-line-shopping-content`](skills/imiva-line-shopping-content/SKILL.md) | LINE Shopping 商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-livestream-agency-content`](skills/imiva-livestream-agency-content/SKILL.md) | 直播代播机构内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-livestream-product-card`](skills/imiva-livestream-product-card/SKILL.md) | 直播商品讲解卡 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-livestream-promo-poster`](skills/imiva-livestream-promo-poster/SKILL.md) | 直播预告与福利海报 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-livestream-replay-highlight`](skills/imiva-livestream-replay-highlight/SKILL.md) | 直播回放高光短视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-livestream-room-background`](skills/imiva-livestream-room-background/SKILL.md) | 直播间背景与场景图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-livestream-script-visual`](skills/imiva-livestream-script-visual/SKILL.md) | 直播脚本视觉辅助 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-local-store-product-content`](skills/imiva-local-store-product-content/SKILL.md) | 本地门店商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-long-tail-sku-content`](skills/imiva-long-tail-sku-content/SKILL.md) | 长尾 SKU 低成本内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-low-stock-urgency-creative`](skills/imiva-low-stock-urgency-creative/SKILL.md) | 库存紧迫感营销图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-macro-detail-video`](skills/imiva-macro-detail-video/SKILL.md) | 微距细节商品视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-main-image-ctr-ab-test`](skills/imiva-main-image-ctr-ab-test/SKILL.md) | 主图点击率 A/B 测试素材 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-market-localization-kit`](skills/imiva-market-localization-kit/SKILL.md) | 新市场本地化内容套装 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-material-explainer`](skills/imiva-material-explainer/SKILL.md) | 材质成分解释图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-mcn-commerce-content`](skills/imiva-mcn-commerce-content/SKILL.md) | MCN 电商内容生产 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-meesho-content`](skills/imiva-meesho-content/SKILL.md) | Meesho 社交电商内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-meitu-commerce-migration`](skills/imiva-meitu-commerce-migration/SKILL.md) | 美图电商商品图迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-mercadolibre-content`](skills/imiva-mercadolibre-content/SKILL.md) | Mercado Libre 拉美电商内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-mid-autumn-campaign`](skills/imiva-mid-autumn-campaign/SKILL.md) | 中秋礼盒营销内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-midjourney-commerce-migration`](skills/imiva-midjourney-commerce-migration/SKILL.md) | Midjourney 电商视觉迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-mokker-content-migration`](skills/imiva-mokker-content-migration/SKILL.md) | Mokker AI 商品背景迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-moodboard-to-product-set`](skills/imiva-moodboard-to-product-set/SKILL.md) | 情绪板转商品视觉套装 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-mothers-day-campaign`](skills/imiva-mothers-day-campaign/SKILL.md) | 母亲节商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-multi-model-selection`](skills/imiva-multi-model-selection/SKILL.md) | 多模型电商内容选型 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-multi-store-content-sync`](skills/imiva-multi-store-content-sync/SKILL.md) | 多店铺内容同步适配 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-multilingual-text-layout`](skills/imiva-multilingual-text-layout/SKILL.md) | 多语言电商图片排版 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-musical-instrument-content`](skills/imiva-musical-instrument-content/SKILL.md) | 乐器商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-national-day-campaign`](skills/imiva-national-day-campaign/SKILL.md) | 国庆黄金周营销内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-new-year-campaign`](skills/imiva-new-year-campaign/SKILL.md) | 元旦新年营销内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-noon-content`](skills/imiva-noon-content/SKILL.md) | Noon 中东电商内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-oem-factory-content`](skills/imiva-oem-factory-content/SKILL.md) | OEM 工厂商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-onmodel-content-migration`](skills/imiva-onmodel-content-migration/SKILL.md) | OnModel 服装模特图迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-ozon-content`](skills/imiva-ozon-content/SKILL.md) | Ozon 俄罗斯电商内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-packaging-mockup`](skills/imiva-packaging-mockup/SKILL.md) | 包装效果图与陈列预览 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-pdp-conversion-optimization`](skills/imiva-pdp-conversion-optimization/SKILL.md) | 商品页转化率优化 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-pdp-thumbnail-sequence`](skills/imiva-pdp-thumbnail-sequence/SKILL.md) | PDP 缩略图顺序设计 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-pebblely-content-migration`](skills/imiva-pebblely-content-migration/SKILL.md) | Pebblely 商品场景图迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-photoroom-content-migration`](skills/imiva-photoroom-content-migration/SKILL.md) | PhotoRoom 电商内容迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-pic-copilot-migration`](skills/imiva-pic-copilot-migration/SKILL.md) | Pic Copilot 电商内容迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-pika-commerce-migration`](skills/imiva-pika-commerce-migration/SKILL.md) | Pika 电商视频迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-pinterest-shopping`](skills/imiva-pinterest-shopping/SKILL.md) | Pinterest Shopping 商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-pippit-content-migration`](skills/imiva-pippit-content-migration/SKILL.md) | Pippit 电商视频内容迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-pixelcut-content-migration`](skills/imiva-pixelcut-content-migration/SKILL.md) | Pixelcut 商品图工作流迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-presale-deposit-campaign`](skills/imiva-presale-deposit-campaign/SKILL.md) | 预售定金营销素材 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-price-band-creative`](skills/imiva-price-band-creative/SKILL.md) | 价格带分层创意 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-prime-day-campaign`](skills/imiva-prime-day-campaign/SKILL.md) | Amazon Prime Day 内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-product-360-spin`](skills/imiva-product-360-spin/SKILL.md) | 商品 360 度旋转展示 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-product-library-to-content`](skills/imiva-product-library-to-content/SKILL.md) | 商品库一键转内容计划 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-product-photography-studio`](skills/imiva-product-photography-studio/SKILL.md) | 商品摄影棚 AI 工作流 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-product-use-tutorial`](skills/imiva-product-use-tutorial/SKILL.md) | 商品使用教程内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-rakuten-content`](skills/imiva-rakuten-content/SKILL.md) | Rakuten 乐天商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-ramadan-campaign`](skills/imiva-ramadan-campaign/SKILL.md) | Ramadan 斋月营销内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-restaurant-takeout-content`](skills/imiva-restaurant-takeout-content/SKILL.md) | 餐饮外卖商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-return-reason-content-fix`](skills/imiva-return-reason-content-fix/SKILL.md) | 退货原因反向优化内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-review-to-creative`](skills/imiva-review-to-creative/SKILL.md) | 用户评价转营销素材 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-runway-commerce-migration`](skills/imiva-runway-commerce-migration/SKILL.md) | Runway 电商视频迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-seasonal-packaging-refresh`](skills/imiva-seasonal-packaging-refresh/SKILL.md) | 季节包装视觉焕新 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-shelf-display-image`](skills/imiva-shelf-display-image/SKILL.md) | 货架陈列商品图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-shoppable-video-scenes`](skills/imiva-shoppable-video-scenes/SKILL.md) | 可购物视频镜头清单 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-size-chart-infographic`](skills/imiva-size-chart-infographic/SKILL.md) | 尺码表与规格信息图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-small-business-content`](skills/imiva-small-business-content/SKILL.md) | 小微商家低门槛内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-social-proof-collage`](skills/imiva-social-proof-collage/SKILL.md) | 社交证明拼图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-sports-outdoor-content`](skills/imiva-sports-outdoor-content/SKILL.md) | 运动户外商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-stationery-content`](skills/imiva-stationery-content/SKILL.md) | 文具商品图片视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-stop-motion-product-video`](skills/imiva-stop-motion-product-video/SKILL.md) | 定格动画商品视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-store-owner-daily-content`](skills/imiva-store-owner-daily-content/SKILL.md) | 店主每日内容日历 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-summer-sale-campaign`](skills/imiva-summer-sale-campaign/SKILL.md) | 夏日促销内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-synthesia-commerce-migration`](skills/imiva-synthesia-commerce-migration/SKILL.md) | Synthesia 电商内容组合接入 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-task-dashboard-operations`](skills/imiva-task-dashboard-operations/SKILL.md) | 内容任务看板与进度管理 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-tea-content`](skills/imiva-tea-content/SKILL.md) | 茶叶茶饮商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-team-handoff-package`](skills/imiva-team-handoff-package/SKILL.md) | 团队交付与复用包 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-toy-content`](skills/imiva-toy-content/SKILL.md) | 玩具商品图片视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-tp-agency-content`](skills/imiva-tp-agency-content/SKILL.md) | 电商代运营 TP 内容生产 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-ugc-testimonial-storyboard`](skills/imiva-ugc-testimonial-storyboard/SKILL.md) | UGC 口碑视频分镜 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-unboxing-step-card`](skills/imiva-unboxing-step-card/SKILL.md) | 开箱步骤图卡 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-upsell-detail-page`](skills/imiva-upsell-detail-page/SKILL.md) | 高客单升级购详情页 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-valentines-campaign`](skills/imiva-valentines-campaign/SKILL.md) | 情人节商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-video-result-download`](skills/imiva-video-result-download/SKILL.md) | 视频结果下载与交付 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-vidu-commerce-migration`](skills/imiva-vidu-commerce-migration/SKILL.md) | Vidu 电商视频迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-viral-action-migration`](skills/imiva-viral-action-migration/SKILL.md) | 高还原动作迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-viral-confirm-budget-guard`](skills/imiva-viral-confirm-budget-guard/SKILL.md) | 爆款生成确认与预算保护 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-viral-formula-editor`](skills/imiva-viral-formula-editor/SKILL.md) | 爆款公式编辑器 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-viral-hook-rewrite`](skills/imiva-viral-hook-rewrite/SKILL.md) | 爆款视频开场 Hook 改写 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-viral-plan-review`](skills/imiva-viral-plan-review/SKILL.md) | 爆款复刻策划审核 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-viral-plan-version-control`](skills/imiva-viral-plan-version-control/SKILL.md) | 爆款策划版本控制 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-viral-product-adaptive`](skills/imiva-viral-product-adaptive/SKILL.md) | 商品适配优先爆款复刻 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-viral-selling-point-script`](skills/imiva-viral-selling-point-script/SKILL.md) | 爆款卖点话术重写 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-viral-shot-rhythm`](skills/imiva-viral-shot-rhythm/SKILL.md) | 爆款镜头节奏迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-vmake-content-migration`](skills/imiva-vmake-content-migration/SKILL.md) | Vmake 商品视频图片迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-vue-ai-content-migration`](skills/imiva-vue-ai-content-migration/SKILL.md) | Vue.ai 商品内容层迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-walmart-marketplace-content`](skills/imiva-walmart-marketplace-content/SKILL.md) | Walmart Marketplace 商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-watch-content`](skills/imiva-watch-content/SKILL.md) | 腕表商品图片视频 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-wayfair-content`](skills/imiva-wayfair-content/SKILL.md) | Wayfair 家居商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-wechat-moments-poster`](skills/imiva-wechat-moments-poster/SKILL.md) | 朋友圈商品营销图 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-wecom-followup-image`](skills/imiva-wecom-followup-image/SKILL.md) | 企业微信跟进图片 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-wellness-product-content`](skills/imiva-wellness-product-content/SKILL.md) | 健康生活商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-whatsapp-commerce-content`](skills/imiva-whatsapp-commerce-content/SKILL.md) | WhatsApp Commerce 私域内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-wholesale-buyer-catalog`](skills/imiva-wholesale-buyer-catalog/SKILL.md) | 批发采购商商品目录 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-wholesaler-content-workflow`](skills/imiva-wholesaler-content-workflow/SKILL.md) | 批发商商品内容工作流 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-wildberries-content`](skills/imiva-wildberries-content/SKILL.md) | Wildberries 商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-womens-day-campaign`](skills/imiva-womens-day-campaign/SKILL.md) | 女神节商品营销 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-youtube-shopping-content`](skills/imiva-youtube-shopping-content/SKILL.md) | YouTube Shopping 视频内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-zalando-content`](skills/imiva-zalando-content/SKILL.md) | Zalando 时尚商品内容 | imiva-ecommerce-workflow | imiva-ecommerce-content |
+| [`imiva-zmo-ai-content-migration`](skills/imiva-zmo-ai-content-migration/SKILL.md) | ZMO.AI 电商视觉迁移 | imiva-ecommerce-workflow | imiva-ecommerce-content |
 | [`industry-accounting-firm-marketing-ai-hive`](skills/industry-accounting-firm-marketing-ai-hive/SKILL.md) | AI大模型专家｜会计事务所AI图片视频营销 | multimodal | industry-local-visual |
 | [`industry-advertising-agency-marketing-ai-hive`](skills/industry-advertising-agency-marketing-ai-hive/SKILL.md) | AI大模型专家｜广告公司AI图片视频营销 | multimodal | industry-local-visual |
 | [`industry-agri-product-brand-marketing-ai-hive`](skills/industry-agri-product-brand-marketing-ai-hive/SKILL.md) | AI大模型专家｜农产品品牌AI图片视频营销 | multimodal | industry-local-visual |

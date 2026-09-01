@@ -8038,6 +8038,1406 @@
     "display_name": "Image to Video"
   },
   {
+    "name": "imiva-618-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "618 大促图片视频"
+  },
+  {
+    "name": "imiva-adobe-firefly-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Adobe Firefly 电商视觉迁移"
+  },
+  {
+    "name": "imiva-agency-client-delivery",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "广告代理商客户交付"
+  },
+  {
+    "name": "imiva-agri-product-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "农产品品牌商品内容"
+  },
+  {
+    "name": "imiva-ai-live-photo-commerce",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "AI Live Photo 商品内容"
+  },
+  {
+    "name": "imiva-arcads-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Arcads UGC 广告迁移"
+  },
+  {
+    "name": "imiva-art-print-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "艺术品与装饰画内容"
+  },
+  {
+    "name": "imiva-assembly-installation-video",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "安装组装教程视频"
+  },
+  {
+    "name": "imiva-asset-version-naming",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "电商素材命名与版本管理"
+  },
+  {
+    "name": "imiva-auto-accessories-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "汽车用品商品内容"
+  },
+  {
+    "name": "imiva-avatar-holding-product",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "虚拟人物持物商品图"
+  },
+  {
+    "name": "imiva-back-to-school-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "开学季商品内容"
+  },
+  {
+    "name": "imiva-bathroom-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "卫浴商品内容"
+  },
+  {
+    "name": "imiva-bedding-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "家纺床品商品内容"
+  },
+  {
+    "name": "imiva-before-after-comparison",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "前后对比营销图"
+  },
+  {
+    "name": "imiva-black-friday-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Black Friday 黑五内容"
+  },
+  {
+    "name": "imiva-book-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "图书出版物营销内容"
+  },
+  {
+    "name": "imiva-booth-ai-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Booth AI 产品摄影迁移"
+  },
+  {
+    "name": "imiva-botika-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Botika 时尚模特图迁移"
+  },
+  {
+    "name": "imiva-boutique-store-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "精品买手店内容"
+  },
+  {
+    "name": "imiva-brand-consistency-qa",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "品牌视觉一致性 QA"
+  },
+  {
+    "name": "imiva-brand-marketing-manager",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "品牌市场经理内容工作台"
+  },
+  {
+    "name": "imiva-bundle-cross-sell-image",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "组合装与关联销售图片"
+  },
+  {
+    "name": "imiva-camping-gear-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "露营装备商品内容"
+  },
+  {
+    "name": "imiva-canva-magic-studio-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Canva Magic Studio 电商内容迁移"
+  },
+  {
+    "name": "imiva-capcut-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "CapCut Commerce Pro 内容迁移"
+  },
+  {
+    "name": "imiva-carousel-story-sequence",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "轮播图故事序列"
+  },
+  {
+    "name": "imiva-catalog-lookbook",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "商品目录与 Lookbook"
+  },
+  {
+    "name": "imiva-chain-retail-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "连锁零售内容中心"
+  },
+  {
+    "name": "imiva-chinese-new-year",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "春节年货节内容"
+  },
+  {
+    "name": "imiva-christmas-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "圣诞节商品内容"
+  },
+  {
+    "name": "imiva-claid-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Claid.ai 商品图迁移"
+  },
+  {
+    "name": "imiva-cleaning-product-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "清洁用品商品内容"
+  },
+  {
+    "name": "imiva-coffee-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "咖啡商品图片视频"
+  },
+  {
+    "name": "imiva-comment-to-creative",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "评论区问题转内容"
+  },
+  {
+    "name": "imiva-commerce-compliance-check",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "电商内容合规检查"
+  },
+  {
+    "name": "imiva-community-group-buying",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "社群团购商品海报"
+  },
+  {
+    "name": "imiva-competitor-gap-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "竞品内容缺口补齐"
+  },
+  {
+    "name": "imiva-content-review-approval",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "内容审核与审批工作流"
+  },
+  {
+    "name": "imiva-content-studio-workflow",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "内容工作室批量生产"
+  },
+  {
+    "name": "imiva-coupang-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Coupang 韩国电商内容"
+  },
+  {
+    "name": "imiva-craft-supplies-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "手工材料商品内容"
+  },
+  {
+    "name": "imiva-creatify-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Creatify 商品广告迁移"
+  },
+  {
+    "name": "imiva-creator-brief-visual-board",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "达人拍摄 Brief 视觉板"
+  },
+  {
+    "name": "imiva-credit-budget-control",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "大模型积分预算控制"
+  },
+  {
+    "name": "imiva-crossborder-seller-workflow",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "跨境卖家内容工作流"
+  },
+  {
+    "name": "imiva-cultural-creative-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "文创礼品商品内容"
+  },
+  {
+    "name": "imiva-customer-service-video-reply",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "客服视频回复素材"
+  },
+  {
+    "name": "imiva-customer-story-creative",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "用户故事营销图"
+  },
+  {
+    "name": "imiva-cyber-monday-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Cyber Monday 网一内容"
+  },
+  {
+    "name": "imiva-design-outsourcing-delivery",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "电商设计外包交付"
+  },
+  {
+    "name": "imiva-digital-human-product-demo",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "数字人商品讲解视频"
+  },
+  {
+    "name": "imiva-distributor-content-kit",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "经销商商品内容包"
+  },
+  {
+    "name": "imiva-double11-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "双11大促内容"
+  },
+  {
+    "name": "imiva-double12-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "双12年终促销内容"
+  },
+  {
+    "name": "imiva-dreamina-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "即梦 Dreamina 电商内容迁移"
+  },
+  {
+    "name": "imiva-dtc-brand-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "DTC 品牌内容系统"
+  },
+  {
+    "name": "imiva-ebay-listing-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "eBay Listing 图片视频"
+  },
+  {
+    "name": "imiva-ecommerce-gif-ad",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "电商 GIF 动图广告"
+  },
+  {
+    "name": "imiva-ecommerce-operator-workbench",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "电商运营内容工作台"
+  },
+  {
+    "name": "imiva-eid-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Eid 开斋节商品内容"
+  },
+  {
+    "name": "imiva-facebook-shops-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Facebook Shops 商品内容"
+  },
+  {
+    "name": "imiva-faceless-product-video",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "无露脸商品短视频"
+  },
+  {
+    "name": "imiva-faire-wholesale-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Faire 批发商品内容"
+  },
+  {
+    "name": "imiva-faq-short-video",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "FAQ 问答短视频"
+  },
+  {
+    "name": "imiva-faq-to-detail-page",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "商品 FAQ 转详情页"
+  },
+  {
+    "name": "imiva-fathers-day-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "父亲节商品内容"
+  },
+  {
+    "name": "imiva-fitness-equipment-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "健身器材商品内容"
+  },
+  {
+    "name": "imiva-flair-ai-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Flair AI 品牌视觉迁移"
+  },
+  {
+    "name": "imiva-flipkart-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Flipkart 印度电商内容"
+  },
+  {
+    "name": "imiva-flower-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "鲜花花艺商品内容"
+  },
+  {
+    "name": "imiva-fragrance-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "香水香氛商品内容"
+  },
+  {
+    "name": "imiva-franchise-content-kit",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "加盟门店商品内容包"
+  },
+  {
+    "name": "imiva-fresh-food-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "生鲜商品内容"
+  },
+  {
+    "name": "imiva-fresh-supermarket-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "生鲜商超商品内容"
+  },
+  {
+    "name": "imiva-frozen-food-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "冷冻食品商品内容"
+  },
+  {
+    "name": "imiva-gardening-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "园艺用品商品内容"
+  },
+  {
+    "name": "imiva-google-shopping-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Google Shopping 商品图片"
+  },
+  {
+    "name": "imiva-halloween-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "万圣节营销内容"
+  },
+  {
+    "name": "imiva-hardware-tools-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "五金工具商品内容"
+  },
+  {
+    "name": "imiva-hero-sku-content-system",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "核心爆品内容系统"
+  },
+  {
+    "name": "imiva-heygen-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "HeyGen 电商内容组合接入"
+  },
+  {
+    "name": "imiva-home-appliance-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "家电商品图片视频"
+  },
+  {
+    "name": "imiva-idempotent-batch-generation",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "幂等批量生成防重复"
+  },
+  {
+    "name": "imiva-industrial-equipment-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "工业设备商品内容"
+  },
+  {
+    "name": "imiva-insmind-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "insMind 商品图工作流迁移"
+  },
+  {
+    "name": "imiva-jewelry-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "珠宝首饰图片视频"
+  },
+  {
+    "name": "imiva-kakao-shopping-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Kakao Shopping 商品内容"
+  },
+  {
+    "name": "imiva-kitchenware-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "厨具餐具商品内容"
+  },
+  {
+    "name": "imiva-kling-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "可灵 Kling 电商视频迁移"
+  },
+  {
+    "name": "imiva-koc-seeding-matrix",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "KOC 种草内容矩阵"
+  },
+  {
+    "name": "imiva-kol-pitch-visual",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "KOL 合作提案视觉包"
+  },
+  {
+    "name": "imiva-launch-day-content-kit",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "新品首发日内容套装"
+  },
+  {
+    "name": "imiva-legacy-sku-refresh",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "老品翻新内容"
+  },
+  {
+    "name": "imiva-liblibai-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "LiblibAI 电商工作流迁移"
+  },
+  {
+    "name": "imiva-lighting-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "灯具照明商品内容"
+  },
+  {
+    "name": "imiva-line-shopping-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "LINE Shopping 商品内容"
+  },
+  {
+    "name": "imiva-livestream-agency-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "直播代播机构内容"
+  },
+  {
+    "name": "imiva-livestream-product-card",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "直播商品讲解卡"
+  },
+  {
+    "name": "imiva-livestream-promo-poster",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "直播预告与福利海报"
+  },
+  {
+    "name": "imiva-livestream-replay-highlight",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "直播回放高光短视频"
+  },
+  {
+    "name": "imiva-livestream-room-background",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "直播间背景与场景图"
+  },
+  {
+    "name": "imiva-livestream-script-visual",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "直播脚本视觉辅助"
+  },
+  {
+    "name": "imiva-local-store-product-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "本地门店商品内容"
+  },
+  {
+    "name": "imiva-long-tail-sku-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "长尾 SKU 低成本内容"
+  },
+  {
+    "name": "imiva-low-stock-urgency-creative",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "库存紧迫感营销图"
+  },
+  {
+    "name": "imiva-macro-detail-video",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "微距细节商品视频"
+  },
+  {
+    "name": "imiva-main-image-ctr-ab-test",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "主图点击率 A/B 测试素材"
+  },
+  {
+    "name": "imiva-market-localization-kit",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "新市场本地化内容套装"
+  },
+  {
+    "name": "imiva-material-explainer",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "材质成分解释图"
+  },
+  {
+    "name": "imiva-mcn-commerce-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "MCN 电商内容生产"
+  },
+  {
+    "name": "imiva-meesho-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Meesho 社交电商内容"
+  },
+  {
+    "name": "imiva-meitu-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "美图电商商品图迁移"
+  },
+  {
+    "name": "imiva-mercadolibre-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Mercado Libre 拉美电商内容"
+  },
+  {
+    "name": "imiva-mid-autumn-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "中秋礼盒营销内容"
+  },
+  {
+    "name": "imiva-midjourney-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Midjourney 电商视觉迁移"
+  },
+  {
+    "name": "imiva-mokker-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Mokker AI 商品背景迁移"
+  },
+  {
+    "name": "imiva-moodboard-to-product-set",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "情绪板转商品视觉套装"
+  },
+  {
+    "name": "imiva-mothers-day-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "母亲节商品内容"
+  },
+  {
+    "name": "imiva-multi-model-selection",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "多模型电商内容选型"
+  },
+  {
+    "name": "imiva-multi-store-content-sync",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "多店铺内容同步适配"
+  },
+  {
+    "name": "imiva-multilingual-text-layout",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "多语言电商图片排版"
+  },
+  {
+    "name": "imiva-musical-instrument-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "乐器商品内容"
+  },
+  {
+    "name": "imiva-national-day-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "国庆黄金周营销内容"
+  },
+  {
+    "name": "imiva-new-year-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "元旦新年营销内容"
+  },
+  {
+    "name": "imiva-noon-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Noon 中东电商内容"
+  },
+  {
+    "name": "imiva-oem-factory-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "OEM 工厂商品内容"
+  },
+  {
+    "name": "imiva-onmodel-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "OnModel 服装模特图迁移"
+  },
+  {
+    "name": "imiva-ozon-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Ozon 俄罗斯电商内容"
+  },
+  {
+    "name": "imiva-packaging-mockup",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "包装效果图与陈列预览"
+  },
+  {
+    "name": "imiva-pdp-conversion-optimization",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "商品页转化率优化"
+  },
+  {
+    "name": "imiva-pdp-thumbnail-sequence",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "PDP 缩略图顺序设计"
+  },
+  {
+    "name": "imiva-pebblely-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Pebblely 商品场景图迁移"
+  },
+  {
+    "name": "imiva-photoroom-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "PhotoRoom 电商内容迁移"
+  },
+  {
+    "name": "imiva-pic-copilot-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Pic Copilot 电商内容迁移"
+  },
+  {
+    "name": "imiva-pika-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Pika 电商视频迁移"
+  },
+  {
+    "name": "imiva-pinterest-shopping",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Pinterest Shopping 商品内容"
+  },
+  {
+    "name": "imiva-pippit-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Pippit 电商视频内容迁移"
+  },
+  {
+    "name": "imiva-pixelcut-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Pixelcut 商品图工作流迁移"
+  },
+  {
+    "name": "imiva-presale-deposit-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "预售定金营销素材"
+  },
+  {
+    "name": "imiva-price-band-creative",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "价格带分层创意"
+  },
+  {
+    "name": "imiva-prime-day-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Amazon Prime Day 内容"
+  },
+  {
+    "name": "imiva-product-360-spin",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "商品 360 度旋转展示"
+  },
+  {
+    "name": "imiva-product-library-to-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "商品库一键转内容计划"
+  },
+  {
+    "name": "imiva-product-photography-studio",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "商品摄影棚 AI 工作流"
+  },
+  {
+    "name": "imiva-product-use-tutorial",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "商品使用教程内容"
+  },
+  {
+    "name": "imiva-rakuten-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Rakuten 乐天商品内容"
+  },
+  {
+    "name": "imiva-ramadan-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Ramadan 斋月营销内容"
+  },
+  {
+    "name": "imiva-restaurant-takeout-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "餐饮外卖商品内容"
+  },
+  {
+    "name": "imiva-return-reason-content-fix",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "退货原因反向优化内容"
+  },
+  {
+    "name": "imiva-review-to-creative",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "用户评价转营销素材"
+  },
+  {
+    "name": "imiva-runway-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Runway 电商视频迁移"
+  },
+  {
+    "name": "imiva-seasonal-packaging-refresh",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "季节包装视觉焕新"
+  },
+  {
+    "name": "imiva-shelf-display-image",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "货架陈列商品图"
+  },
+  {
+    "name": "imiva-shoppable-video-scenes",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "可购物视频镜头清单"
+  },
+  {
+    "name": "imiva-size-chart-infographic",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "尺码表与规格信息图"
+  },
+  {
+    "name": "imiva-small-business-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "小微商家低门槛内容"
+  },
+  {
+    "name": "imiva-social-proof-collage",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "社交证明拼图"
+  },
+  {
+    "name": "imiva-sports-outdoor-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "运动户外商品内容"
+  },
+  {
+    "name": "imiva-stationery-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "文具商品图片视频"
+  },
+  {
+    "name": "imiva-stop-motion-product-video",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "定格动画商品视频"
+  },
+  {
+    "name": "imiva-store-owner-daily-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "店主每日内容日历"
+  },
+  {
+    "name": "imiva-summer-sale-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "夏日促销内容"
+  },
+  {
+    "name": "imiva-synthesia-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Synthesia 电商内容组合接入"
+  },
+  {
+    "name": "imiva-task-dashboard-operations",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "内容任务看板与进度管理"
+  },
+  {
+    "name": "imiva-tea-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "茶叶茶饮商品内容"
+  },
+  {
+    "name": "imiva-team-handoff-package",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "团队交付与复用包"
+  },
+  {
+    "name": "imiva-toy-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "玩具商品图片视频"
+  },
+  {
+    "name": "imiva-tp-agency-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "电商代运营 TP 内容生产"
+  },
+  {
+    "name": "imiva-ugc-testimonial-storyboard",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "UGC 口碑视频分镜"
+  },
+  {
+    "name": "imiva-unboxing-step-card",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "开箱步骤图卡"
+  },
+  {
+    "name": "imiva-upsell-detail-page",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "高客单升级购详情页"
+  },
+  {
+    "name": "imiva-valentines-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "情人节商品内容"
+  },
+  {
+    "name": "imiva-video-result-download",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "视频结果下载与交付"
+  },
+  {
+    "name": "imiva-vidu-commerce-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Vidu 电商视频迁移"
+  },
+  {
+    "name": "imiva-viral-action-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "高还原动作迁移"
+  },
+  {
+    "name": "imiva-viral-confirm-budget-guard",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "爆款生成确认与预算保护"
+  },
+  {
+    "name": "imiva-viral-formula-editor",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "爆款公式编辑器"
+  },
+  {
+    "name": "imiva-viral-hook-rewrite",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "爆款视频开场 Hook 改写"
+  },
+  {
+    "name": "imiva-viral-plan-review",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "爆款复刻策划审核"
+  },
+  {
+    "name": "imiva-viral-plan-version-control",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "爆款策划版本控制"
+  },
+  {
+    "name": "imiva-viral-product-adaptive",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "商品适配优先爆款复刻"
+  },
+  {
+    "name": "imiva-viral-selling-point-script",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "爆款卖点话术重写"
+  },
+  {
+    "name": "imiva-viral-shot-rhythm",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "爆款镜头节奏迁移"
+  },
+  {
+    "name": "imiva-vmake-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Vmake 商品视频图片迁移"
+  },
+  {
+    "name": "imiva-vue-ai-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Vue.ai 商品内容层迁移"
+  },
+  {
+    "name": "imiva-walmart-marketplace-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Walmart Marketplace 商品内容"
+  },
+  {
+    "name": "imiva-watch-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "腕表商品图片视频"
+  },
+  {
+    "name": "imiva-wayfair-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Wayfair 家居商品内容"
+  },
+  {
+    "name": "imiva-wechat-moments-poster",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "朋友圈商品营销图"
+  },
+  {
+    "name": "imiva-wecom-followup-image",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "企业微信跟进图片"
+  },
+  {
+    "name": "imiva-wellness-product-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "健康生活商品内容"
+  },
+  {
+    "name": "imiva-whatsapp-commerce-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "WhatsApp Commerce 私域内容"
+  },
+  {
+    "name": "imiva-wholesale-buyer-catalog",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "批发采购商商品目录"
+  },
+  {
+    "name": "imiva-wholesaler-content-workflow",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "批发商商品内容工作流"
+  },
+  {
+    "name": "imiva-wildberries-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Wildberries 商品内容"
+  },
+  {
+    "name": "imiva-womens-day-campaign",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "女神节商品营销"
+  },
+  {
+    "name": "imiva-youtube-shopping-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "YouTube Shopping 视频内容"
+  },
+  {
+    "name": "imiva-zalando-content",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "Zalando 时尚商品内容"
+  },
+  {
+    "name": "imiva-zmo-ai-content-migration",
+    "kind": "imiva-ecommerce-workflow",
+    "layer": "imiva-ecommerce-content",
+    "model_ids": [],
+    "display_name": "ZMO.AI 电商视觉迁移"
+  },
+  {
     "name": "industry-accounting-firm-marketing-ai-hive",
     "kind": "multimodal",
     "layer": "industry-local-visual",
