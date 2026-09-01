@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜AI美妆试色动图"
+  short_description: "用AI-HIVE完成AI美妆试色动图并生成可验收小样"
+  default_prompt: "请使用 $ai-beauty-swatch-motion，基于授权商品素材生成一条AI美妆试色动图小样和验收清单。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜电商轮播动图广告"
+  short_description: "用AI-HIVE完成电商轮播动图广告并生成可验收小样"
+  default_prompt: "请使用 $ecommerce-carousel-motion-ad，基于授权商品素材生成一条电商轮播动图广告小样和验收清单。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜AI鞋包旋转动图"
+  short_description: "用AI-HIVE完成AI鞋包旋转动图并生成可验收小样"
+  default_prompt: "请使用 $ai-shoe-bag-spin-motion，基于授权商品素材生成一条AI鞋包旋转动图小样和验收清单。"
