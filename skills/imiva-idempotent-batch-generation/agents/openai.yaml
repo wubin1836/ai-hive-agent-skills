@@ -1,0 +1,7 @@
+interface:
+  display_name: "幂等批量生成防重复"
+  short_description: "用 IMIVA 完成幂等批量生成防重复与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-idempotent-batch-generation 根据我的商品素材完成幂等批量生成防重复，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true

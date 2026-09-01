@@ -1,0 +1,7 @@
+interface:
+  display_name: "商品适配优先爆款复刻"
+  short_description: "用 IMIVA 完成商品适配优先爆款复刻与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-viral-product-adaptive 根据我的商品素材完成商品适配优先爆款复刻，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true

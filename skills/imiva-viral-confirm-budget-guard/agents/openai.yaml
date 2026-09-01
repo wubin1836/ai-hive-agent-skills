@@ -1,0 +1,7 @@
+interface:
+  display_name: "爆款生成确认与预算保护"
+  short_description: "用 IMIVA 完成爆款生成确认与预算保护与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-viral-confirm-budget-guard 根据我的商品素材完成爆款生成确认与预算保护，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true
