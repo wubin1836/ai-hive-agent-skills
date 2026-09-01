@@ -1,0 +1,7 @@
+interface:
+  display_name: "Booth AI 产品摄影迁移"
+  short_description: "用 IMIVA 完成Booth AI 产品摄影迁移与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-booth-ai-content-migration 根据我的商品素材完成Booth AI 产品摄影迁移，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true
