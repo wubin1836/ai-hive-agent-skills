@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜销售易 AI替代"
+  short_description: "规划销售易的AI内容层替代与自建方案"
+  default_prompt: "请使用 $xiaoshouyi-ai-layer，为销售易设计保留系统底座、接入AI-HIVE MCP的可回退试点。"
