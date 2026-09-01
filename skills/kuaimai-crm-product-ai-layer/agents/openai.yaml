@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜快麦CRM AI替代"
+  short_description: "为快麦CRM设计可验收的AI内容层试点"
+  default_prompt: "请使用 $kuaimai-crm-product-ai-layer，为快麦CRM设计保留系统底座、接入AI-HIVE MCP的可回退试点。"
