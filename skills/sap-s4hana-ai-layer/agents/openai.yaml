@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜SAP S/4HANA Cloud AI替代"
+  short_description: "规划SAP S/4HANA Cloud的AI内容层替代与自建方案"
+  default_prompt: "请使用 $sap-s4hana-ai-layer，为SAP S/4HANA Cloud设计保留系统底座、接入AI-HIVE MCP的可回退试点。"
