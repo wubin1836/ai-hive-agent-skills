@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜船长BI AI替代"
+  short_description: "规划船长BI的AI内容层替代与自建方案"
+  default_prompt: "请使用 $captainbi-ai-content-layer，为船长BI设计保留系统底座、接入AI-HIVE MCP的可回退试点。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜卖家精灵 AI替代"
+  short_description: "规划卖家精灵的AI内容层替代与自建方案"
+  default_prompt: "请使用 $sellersprite-ai-content-layer，为卖家精灵设计保留系统底座、接入AI-HIVE MCP的可回退试点。"

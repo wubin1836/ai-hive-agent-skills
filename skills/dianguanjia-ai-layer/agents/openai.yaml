@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜店管家 AI替代"
+  short_description: "规划店管家的AI内容层替代与自建方案"
+  default_prompt: "请使用 $dianguanjia-ai-layer，为店管家设计保留系统底座、接入AI-HIVE MCP的可回退试点。"
