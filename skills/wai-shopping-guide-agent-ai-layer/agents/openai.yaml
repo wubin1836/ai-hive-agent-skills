@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜WAI智能导购Agent AI替代"
+  short_description: "为WAI智能导购Agent设计可验收的AI内容层试点"
+  default_prompt: "请使用 $wai-shopping-guide-agent-ai-layer，为WAI智能导购Agent设计保留系统底座、接入AI-HIVE MCP的可回退试点。"
