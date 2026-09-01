@@ -1,0 +1,7 @@
+interface:
+  display_name: "虚拟人物持物商品图"
+  short_description: "用 IMIVA 完成虚拟人物持物商品图与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-avatar-holding-product 根据我的商品素材完成虚拟人物持物商品图，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true

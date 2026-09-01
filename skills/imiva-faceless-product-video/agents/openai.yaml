@@ -1,0 +1,7 @@
+interface:
+  display_name: "无露脸商品短视频"
+  short_description: "用 IMIVA 完成无露脸商品短视频与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-faceless-product-video 根据我的商品素材完成无露脸商品短视频，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true
