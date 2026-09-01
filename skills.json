@@ -42,6 +42,20 @@
     "display_name": "AI大模型专家｜ActionGo替代与迁移｜AI-HIVE MCP"
   },
   {
+    "name": "activecampaign-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜ActiveCampaign AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "acumatica-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Acumatica AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "ad-ab-creative-matrix-ai-hive",
     "kind": "multimodal",
     "layer": "emerging-scenario",
@@ -124,6 +138,20 @@
     "display_name": "Ad Creative Image"
   },
   {
+    "name": "ada-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Ada AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "adobe-commerce-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Adobe Commerce AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "adobe-firefly-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
@@ -131,6 +159,20 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "Adobe Firefly 图片生成替代｜AI 图片生成与编辑"
+  },
+  {
+    "name": "aftership-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AfterShip AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "ai-360-product-spin",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI 360 商品旋转｜AI-HIVE MCP"
   },
   {
     "name": "ai-ad-video",
@@ -142,6 +184,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "AI Ad Video"
+  },
+  {
+    "name": "ai-aftersales-ticket-agent",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI售后工单 Agent｜AI-HIVE MCP"
   },
   {
     "name": "ai-api-alternative-ai-hive",
@@ -211,6 +260,13 @@
     "display_name": "AI ASMR商品视频｜AI-HIVE"
   },
   {
+    "name": "ai-beauty-swatch-motion",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI美妆试色动图｜AI-HIVE MCP"
+  },
+  {
     "name": "ai-comic-drama-full-workflow-ai-hive",
     "kind": "multimodal",
     "layer": "viral-workflow",
@@ -261,6 +317,41 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "AI电商运营总控｜AI-HIVE"
+  },
+  {
+    "name": "ai-ecommerce-live-photo",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI电商 Live 图生成｜AI-HIVE MCP"
+  },
+  {
+    "name": "ai-ecommerce-motion-image",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI电商动图生成｜AI-HIVE MCP"
+  },
+  {
+    "name": "ai-electronics-exploded-motion",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI 3C拆解动图｜AI-HIVE MCP"
+  },
+  {
+    "name": "ai-fashion-tryon-motion",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI服装试穿动图｜AI-HIVE MCP"
+  },
+  {
+    "name": "ai-food-fluid-motion",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI食品流体动效｜AI-HIVE MCP"
   },
   {
     "name": "ai-gaochao-cn-migration-ai-hive",
@@ -325,6 +416,13 @@
     "model_ids": []
   },
   {
+    "name": "ai-home-scene-motion",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI家居场景动图｜AI-HIVE MCP"
+  },
+  {
     "name": "ai-image-api-relay-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -340,6 +438,13 @@
       "public_model_id"
     ],
     "display_name": "AI图片提示词大师｜AI-HIVE"
+  },
+  {
+    "name": "ai-jewelry-sparkle-motion",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI珠宝闪耀动图｜AI-HIVE MCP"
   },
   {
     "name": "ai-ml-api-alternative-ai-hive",
@@ -5373,6 +5478,13 @@
     "display_name": "AI模型任务失败修复｜AI-HIVE"
   },
   {
+    "name": "ai-packaging-open-motion",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI包装开合动图｜AI-HIVE MCP"
+  },
+  {
     "name": "ai-poster-generation-editing",
     "kind": "image",
     "layer": "scenario",
@@ -5380,6 +5492,27 @@
       "public_model_nano_banana_pro"
     ],
     "display_name": "AI 海报生成与编辑｜中文文字与商业设计"
+  },
+  {
+    "name": "ai-presales-qa-agent",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI售前问答 Agent｜AI-HIVE MCP"
+  },
+  {
+    "name": "ai-product-recommendation-agent",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI商品推荐 Agent｜AI-HIVE MCP"
+  },
+  {
+    "name": "ai-shoe-bag-spin-motion",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AI鞋包旋转动图｜AI-HIVE MCP"
   },
   {
     "name": "ai-short-drama-generation-editing-studio",
@@ -5513,6 +5646,13 @@
     "display_name": "AI大模型专家｜aiproxy-io 替代方案｜AI-HIVE"
   },
   {
+    "name": "akeneo-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Akeneo AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "aliexpress-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -5533,6 +5673,13 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "AliExpress 速卖通 电商视频生成与编辑"
+  },
+  {
+    "name": "allvalue-link-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜AllValue Link AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "amazon-ecommerce-image-generation-editing",
@@ -5982,6 +6129,20 @@
     "display_name": "美妆步骤教程短视频｜AI-HIVE"
   },
   {
+    "name": "bigcommerce-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜BigCommerce AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "bigseller-product-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜BigSeller AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "blooper-agentic-video-ai-hive-migration",
     "kind": "agent-platform-migration",
     "layer": "oiioii-like-agent-platform",
@@ -6022,6 +6183,27 @@
     "display_name": "品牌视觉一致性审核｜AI-HIVE"
   },
   {
+    "name": "braze-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Braze AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "brightpearl-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Brightpearl AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "bulk-ecommerce-motion-factory",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜电商动图批量生产｜AI-HIVE MCP"
+  },
+  {
     "name": "buzz-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -6051,6 +6233,13 @@
     "display_name": "剪映 CapCut 视频生成替代｜AI 视频生成与编辑"
   },
   {
+    "name": "captainbi-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜船长BI AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "cart-sales-short-video-generation-editing",
     "kind": "video",
     "layer": "scenario",
@@ -6062,6 +6251,13 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "挂车爆单短视频生成与编辑"
+  },
+  {
+    "name": "chanjet-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜用友畅捷通 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "character-consistency",
@@ -6121,6 +6317,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜chintao-cn 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "cin7-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Cin7 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "claudecn-alternative-ai-hive",
@@ -6201,6 +6404,13 @@
     "display_name": "评论区痛点转广告｜AI-HIVE"
   },
   {
+    "name": "commercetools-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜commercetools AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "copilot-studio-ai-hive-creative-mcp",
     "kind": "mcp-integration",
     "layer": "oiioii-like-agent-platform",
@@ -6233,6 +6443,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "Creative Brief转广告全案｜AI-HIVE"
+  },
+  {
+    "name": "crm-followup-content-copilot",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜CRM跟进内容助手｜AI-HIVE MCP"
   },
   {
     "name": "cross-border-ecommerce-localization-ai-hive",
@@ -6272,6 +6489,13 @@
     "display_name": "用户晒单素材转广告｜AI-HIVE"
   },
   {
+    "name": "customer-service-product-demo-gif",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜客服商品讲解动图｜AI-HIVE MCP"
+  },
+  {
     "name": "customer-video-montage-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -6282,6 +6506,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "用户晒单视频自动混剪｜AI-HIVE"
+  },
+  {
+    "name": "customerio-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Customer.io AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "dawa-filmos-agent-ai-hive-migration",
@@ -6317,6 +6548,27 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜DeRouter 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "dianguanjia-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜店管家 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "dianxiaomi-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜店小秘 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "dianxiaomi-erp-product-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜店小秘ERP AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "dify-ai-hive-creative-mcp",
@@ -6468,11 +6720,25 @@
     "display_name": "Motion Comic"
   },
   {
+    "name": "dynamics-business-central-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Microsoft Dynamics 365 Business Central AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "eachlabs-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜Eachlabs 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "easemob-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜环信 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "ebay-ecommerce-image-generation-editing",
@@ -6495,6 +6761,13 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "eBay 电商视频生成与编辑"
+  },
+  {
+    "name": "eccang-erp-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜易仓ERP AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "ecommerce-ad-compliance-precheck-ai-hive",
@@ -6545,6 +6818,13 @@
     "display_name": "电商爆款主图生成与编辑"
   },
   {
+    "name": "ecommerce-carousel-motion-ad",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜电商轮播动图广告｜AI-HIVE MCP"
+  },
+  {
     "name": "ecommerce-content-api-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -6563,6 +6843,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "电商内容智能路由｜AI-HIVE"
+  },
+  {
+    "name": "ecommerce-detail-page-gif",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜电商详情页动图｜AI-HIVE MCP"
   },
   {
     "name": "ecommerce-detail-page-studio-ai-hive",
@@ -6595,6 +6882,13 @@
       "public_model_nano_banana_2"
     ],
     "display_name": "E-commerce Main Image"
+  },
+  {
+    "name": "ecommerce-main-image-motion",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜电商主图动效｜AI-HIVE MCP"
   },
   {
     "name": "ecommerce-product-selector-ai-hive",
@@ -6678,6 +6972,13 @@
     "display_name": "3C产品结构与功能演示｜AI-HIVE"
   },
   {
+    "name": "email-marketing-product-gif",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜邮件营销商品 GIF｜AI-HIVE MCP"
+  },
+  {
     "name": "ephone-ai-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -6690,6 +6991,20 @@
     "layer": "oiioii-like-agent-platform",
     "model_ids": [],
     "display_name": "AI大模型专家｜Epiko CineAI替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "erp-product-content-copilot",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜ERP商品内容助手｜AI-HIVE MCP"
+  },
+  {
+    "name": "eshop-manager-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜网店管家 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "etsy-ecommerce-image-generation-editing",
@@ -6735,6 +7050,13 @@
       "public_model_gpt_image_2"
     ],
     "display_name": "Text-Accurate Image"
+  },
+  {
+    "name": "extensiv-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Extensiv AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "eyewear-tryon-preview-ai-hive",
@@ -6795,6 +7117,13 @@
     "display_name": "同款服装多场景Lookbook｜AI-HIVE"
   },
   {
+    "name": "feisuo-rpa-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜飞梭RPA AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "first-last-frame-to-video",
     "kind": "video",
     "layer": "generic-capability",
@@ -6842,6 +7171,13 @@
     "display_name": "AI鞋履试穿效果图｜AI-HIVE"
   },
   {
+    "name": "freshdesk-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Freshdesk AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "furniture-room-placement-image-ai-hive",
     "kind": "image",
     "layer": "emerging-scenario",
@@ -6850,6 +7186,13 @@
       "public_model_id"
     ],
     "display_name": "家居商品空间植入效果图｜AI-HIVE"
+  },
+  {
+    "name": "fxiaoke-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜纷享销客 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "game-user-acquisition-ad-ai-hive",
@@ -6862,6 +7205,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "游戏买量广告创意｜AI-HIVE"
+  },
+  {
+    "name": "gendanbao-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜跟单宝 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "geo-aeo-content-growth-ai-hive",
@@ -6913,6 +7263,13 @@
     "display_name": "巨物与微缩奇观广告｜AI-HIVE"
   },
   {
+    "name": "gif-compression-platform-spec",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜GIF压缩与平台适配｜AI-HIVE MCP"
+  },
+  {
     "name": "global-ai-api-aggregator-alternative-ai-hive",
     "kind": "multimodal",
     "layer": "relay-alternative",
@@ -6926,11 +7283,25 @@
     "display_name": "AI大模型专家｜海外 AI API 聚合平台替代方案｜AI-HIVE"
   },
   {
+    "name": "global-trade-helper-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜全球交易助手 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "go-sbgpt-site-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜go.sbgpt.site 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "gorgias-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Gorgias AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "gpt-image-2",
@@ -7114,6 +7485,27 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜GPTNB ONEAPI 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "grasp-erp-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜管家婆 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "growingio-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜GrowingIO AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "guanyi-cloud-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜管易云 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "gumloop-ai-hive-creative-mcp",
@@ -7393,6 +7785,13 @@
     "display_name": "高转化广告图片生成与编辑"
   },
   {
+    "name": "hollycrm-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜合力亿捷 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "holysheep-ai-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -7411,6 +7810,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "红果短剧生成工作室｜AI-HIVE"
+  },
+  {
+    "name": "hubspot-crm-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜HubSpot CRM AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "hugging-face-inference-providers-alternative-ai-hive",
@@ -9624,11 +10030,25 @@
     "display_name": "互动分支短剧生成器｜AI-HIVE"
   },
   {
+    "name": "intercom-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Intercom AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "invideo-ai-agent-ai-hive-migration",
     "kind": "agent-platform-migration",
     "layer": "oiioii-like-agent-platform",
     "model_ids": [],
     "display_name": "AI大模型专家｜InVideo AI替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "jackyun-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜吉客云 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "jd-ecommerce-image-generation-editing",
@@ -9689,11 +10109,53 @@
     "display_name": "AI大模型专家｜接口AI 替代方案｜AI-HIVE"
   },
   {
+    "name": "jifeng-wms-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜极风WMS AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "jiongxin-lexiaoke-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜炯信乐销客 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "joggai-video-agent-ai-hive-migration",
     "kind": "agent-platform-migration",
     "layer": "oiioii-like-agent-platform",
     "model_ids": [],
     "display_name": "AI大模型专家｜JoggAI Video Agent替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "jushuitan-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜聚水潭 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "jushuitan-erp-product-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜聚水潭ERP AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "jushuitan-wms-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜聚水潭WMS AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "juwo-wms-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜巨沃WMS AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "kakis-story-video-agent-ai-hive-migration",
@@ -9723,11 +10185,25 @@
     "display_name": "AI大模型专家｜Kie.ai 替代方案｜AI-HIVE"
   },
   {
+    "name": "kingdee-xingchen-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜金蝶云星辰 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "kksj-api-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜KKSJ API 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "klaviyo-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Klaviyo AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "kling-video-generation-alternative",
@@ -9748,6 +10224,48 @@
     "layer": "oiioii-like-agent-platform",
     "model_ids": [],
     "display_name": "AI大模型专家｜Koyal替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "kuaidi-assistant-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜快递助手 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "kuaimai-crm-product-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜快麦CRM AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "kuaimai-erp-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜快麦ERP AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "kuaimai-knowledge-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜快麦智库 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "kuaimai-xiaozhi-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜快麦小智 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "kuaishang-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜快商通 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "kuaishou-ecommerce-ecommerce-image-generation-editing",
@@ -9777,6 +10295,13 @@
     "layer": "oiioii-like-agent-platform",
     "model_ids": [],
     "display_name": "AI大模型专家｜KunFlix替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "kustomer-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Kustomer AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "landscape-ad-to-vertical-ai-hive",
@@ -9820,6 +10345,34 @@
     "display_name": "Lazada 电商视频生成与编辑"
   },
   {
+    "name": "leyan-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜乐言 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "leyan-ecommerce-agent-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜乐言电商客服智能体 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "leyan-smart-outbound-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜乐言智能外呼 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "leyu-zhuren-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜乐语助人 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "liblibai-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
@@ -9843,11 +10396,46 @@
     "display_name": "AI大模型专家｜LingxiCode 替代方案｜AI-HIVE"
   },
   {
+    "name": "lingxing-bi-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜领星BI AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "lingxing-erp-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜领星ERP AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "lingxing-wms-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜领星WMS AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "lingyun-saas-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜绫云 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "linkapi-ai-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜linkapi.ai 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "linnworks-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Linnworks AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "live-commerce-script-studio-ai-hive",
@@ -9861,6 +10449,20 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "直播带货脚本工作台｜AI-HIVE"
+  },
+  {
+    "name": "live-photo-multiplatform-adapter",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Live图多平台适配｜AI-HIVE MCP"
+  },
+  {
+    "name": "live800-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Live800 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "livestream-highlight-clips-ai-hive",
@@ -10860,11 +11462,88 @@
     "display_name": "AI大模型专家｜LTX Studio替代与迁移｜AI-HIVE MCP"
   },
   {
+    "name": "mabang-amazon-pro-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜马帮亚马逊专业版 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "mabang-cloud-warehouse-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜马帮云仓 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "mabang-data-platform-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜马帮数据中台 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "mabang-distribution-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜马帮跨境分销 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "mabang-erp-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜马帮ERP AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "mabang-scm-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜马帮SCM AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "mabang-southeast-asia-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜马帮东南亚海外版 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "mabang-tms-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜马帮TMS AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "mabang-wms-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜马帮WMS AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "magiclight-animation-agent-ai-hive-migration",
     "kind": "agent-platform-migration",
     "layer": "oiioii-like-agent-platform",
     "model_ids": [],
     "display_name": "AI大模型专家｜MagicLight Animation Agent替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "mailchimp-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Mailchimp AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "mangoerp-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜芒果店长 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "manxiaoya-comic-agent-ai-hive-migration",
@@ -10904,6 +11583,13 @@
     "display_name": "AI大模型专家｜MegaLLM 替代方案｜AI-HIVE"
   },
   {
+    "name": "meiqia-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜美洽 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "meitu-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
@@ -10936,6 +11622,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "Meme梗图短视频生成器｜AI-HIVE"
+  },
+  {
+    "name": "miaoshou-erp-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜妙手ERP AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "midjourney-image-generation-editing-alternative",
@@ -11196,6 +11889,13 @@
       "public_model_nano_banana_2"
     ],
     "display_name": "Multi-Reference Image Generation"
+  },
+  {
+    "name": "multilingual-crossborder-support-agent",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜多语种跨境客服 Agent｜AI-HIVE MCP"
   },
   {
     "name": "museforge-agentic-studio-ai-hive-migration",
@@ -11688,6 +12388,13 @@
     "display_name": "Nano Banana Text to Image"
   },
   {
+    "name": "netsuite-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Oracle NetSuite AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "new-xjai-cc-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -11743,6 +12450,20 @@
     "display_name": "AI大模型专家｜Novita AI 替代方案｜AI-HIVE"
   },
   {
+    "name": "oalur-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜鸥鹭 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "odoo-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Odoo AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "ofoxai-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -11781,6 +12502,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜OmniRouters 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "omnisend-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Omnisend AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "one-product-image-ten-ads-ai-hive",
@@ -11904,6 +12632,13 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "Pika 视频生成替代｜AI 视频生成与编辑"
+  },
+  {
+    "name": "pim-product-data-generation",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜PIM商品资料生成｜AI-HIVE MCP"
   },
   {
     "name": "pinduoduo-ecommerce-image-generation-editing",
@@ -12133,6 +12868,20 @@
     "display_name": "商品套图生成与编辑"
   },
   {
+    "name": "product-image-to-gif",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜商品图转 GIF｜AI-HIVE MCP"
+  },
+  {
+    "name": "product-image-to-live-photo",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜商品图转 Live Photo｜AI-HIVE MCP"
+  },
+  {
     "name": "product-image-to-ugc-video-ai-hive",
     "kind": "multimodal",
     "layer": "emerging-scenario",
@@ -12239,11 +12988,39 @@
     "display_name": "商品短视频脚本生成器｜AI-HIVE"
   },
   {
+    "name": "qingsuo-ads-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜轻索 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "qiyu-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜网易七鱼 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "quickrouter-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜QuickRouter 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "quntuantuan-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜群团团 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "raycloud-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜光云科技 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "real-estate-walkthrough-video-ai-hive",
@@ -12333,6 +13110,13 @@
     "display_name": "AI大模型专家｜Requesty 替代方案｜AI-HIVE"
   },
   {
+    "name": "review-sentiment-reply-agent",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜评论舆情回复 Agent｜AI-HIVE MCP"
+  },
+  {
     "name": "right-code-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -12358,6 +13142,48 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "Runway 视频生成替代｜AI 视频生成与编辑"
+  },
+  {
+    "name": "saihe-erp-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜赛盒ERP AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "salesforce-commerce-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Salesforce Commerce Cloud AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "salesforce-crm-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Salesforce CRM AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "salsify-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Salsify AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "sap-commerce-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜SAP Commerce Cloud AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "sap-s4hana-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜SAP S/4HANA Cloud AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "satisfying-loop-ad-ai-hive",
@@ -13385,11 +14211,53 @@
     "display_name": "AI大模型专家｜SeeGen AI 替代方案｜AI-HIVE"
   },
   {
+    "name": "segment-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Twilio Segment AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "segmind-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜Segmind 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "self-hosted-ai-ecommerce-customer-service",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜自建AI电商智能客服｜AI-HIVE MCP"
+  },
+  {
+    "name": "sellersprite-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜卖家精灵 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "sellfox-ai-product-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜赛狐AI AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "sellfox-erp-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜赛狐ERP AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "sensorsdata-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜神策数据 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "serialized-character-consistency-ai-hive",
@@ -13403,6 +14271,20 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "连载角色一致性守护｜AI-HIVE"
+  },
+  {
+    "name": "sevenmoor-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜容联七陌 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "seventeen-track-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜17TRACK AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "shein-ecommerce-image-generation-editing",
@@ -13441,6 +14323,34 @@
     "display_name": "AI大模型专家｜Shell API (gptgod.cloud) 替代方案｜AI-HIVE"
   },
   {
+    "name": "shenhui-art-robot-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜深绘美工机器人 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "shenhui-intelligence-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜深绘智能 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "shenhui-pim-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜深绘PIM AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "shipbob-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜ShipBob AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "shipinhao-viral-video-decomposer-ai-hive",
     "kind": "video",
     "layer": "viral-workflow",
@@ -13451,6 +14361,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "视频号爆款短视频拆解｜AI-HIVE"
+  },
+  {
+    "name": "shipstation-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜ShipStation AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "shopee-ecommerce-image-generation-editing",
@@ -13475,6 +14392,13 @@
     "display_name": "Shopee 电商视频生成与编辑"
   },
   {
+    "name": "shopify-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Shopify AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "shopify-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -13495,6 +14419,20 @@
       "public_model_seedance_2_5_video_extend"
     ],
     "display_name": "Shopify 电商视频生成与编辑"
+  },
+  {
+    "name": "shoplazza-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜SHOPLAZZA店匠 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "shopline-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜SHOPLINE AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "short-drama-batch-production-ai-hive",
@@ -13586,6 +14524,13 @@
     "display_name": "短视频脚本一键生成成片"
   },
   {
+    "name": "siena-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Siena AI AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "siliconflow-alternative-ai-hive",
     "kind": "multimodal",
     "layer": "relay-alternative",
@@ -13597,6 +14542,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "AI大模型专家｜SiliconFlow 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "sobot-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜智齿科技 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "social-commerce-video",
@@ -13665,6 +14617,13 @@
     "display_name": "Sora 视频生成替代｜AI 视频生成与编辑"
   },
   {
+    "name": "squarespace-commerce-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Squarespace Commerce AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "stable-diffusion-image-generation-editing-alternative",
     "kind": "image",
     "layer": "alternative",
@@ -13690,6 +14649,20 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "Storyboard to Video"
+  },
+  {
+    "name": "super-express-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜超级快车 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "super-shop-manager-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜超级店长 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "tabletop-product-demo-video-ai-hive",
@@ -13784,6 +14757,13 @@
     "display_name": "AI大模型专家｜腾讯云智能体开发平台 ADP替代与迁移｜AI-HIVE MCP"
   },
   {
+    "name": "tencent-qidian-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜腾讯企点 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "terminal-pub-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -13807,6 +14787,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "Text to Video"
+  },
+  {
+    "name": "tidio-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Tidio AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "tiktok-shop-ecommerce-image-generation-editing",
@@ -13861,6 +14848,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜TiMi CC 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "tinet-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜天润融通 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "tmall-ecommerce-image-generation-editing",
@@ -13918,11 +14912,39 @@
     "display_name": "AI大模型专家｜Tokencloud.ai 替代方案｜AI-HIVE"
   },
   {
+    "name": "tomato-form-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜番茄表单 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "tongtool-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜通途ERP AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "topview-video-agent-ai-hive-migration",
     "kind": "agent-platform-migration",
     "layer": "oiioii-like-agent-platform",
     "model_ids": [],
     "display_name": "AI大模型专家｜Topview AI Video Agent替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "track123-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Track123 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "tuiguangbao-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜推广宝 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "tvc-video",
@@ -13934,6 +14956,13 @@
       "public_model_seedance_2_5_t2v"
     ],
     "display_name": "TVC Commercial"
+  },
+  {
+    "name": "udesk-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Udesk AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "ugc-ad-video-generation-editing",
@@ -13963,6 +14992,13 @@
     "display_name": "AI大模型专家｜Unified API 替代方案｜AI-HIVE"
   },
   {
+    "name": "upseller-product-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜UpSeller AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "useapi-net-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -13975,6 +15011,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜V-api 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "veeqo-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Veeqo AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "veo-video-generation-alternative",
@@ -14840,6 +15883,62 @@
     "display_name": "AI大模型专家｜VO3 / Vovoo AI Video Agent替代与迁移｜AI-HIVE MCP"
   },
   {
+    "name": "vtex-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜VTEX AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wai-ai-tryon-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜WAI AI试衣 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wai-creative-agent-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜WAI智能创作Agent AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wai-data-advisor-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜WAI数据顾问 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wai-merchant-assistant-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜WAI商家助理 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wai-product-selector-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜WAI选品师 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wai-shopping-guide-agent-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜WAI智能导购Agent AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wai-store-builder-agent-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜WAI智能搭建Agent AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "walmart-ecommerce-image-generation-editing",
     "kind": "image",
     "layer": "ecommerce-platform",
@@ -14874,6 +15973,34 @@
     "layer": "model-suite",
     "model_ids": [],
     "display_name": "Wan3.0 视频生成与编辑"
+  },
+  {
+    "name": "wangdian-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜旺店通 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wangdian-product-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜旺店商品 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wangdian-transaction-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜旺店交易 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "wanliniu-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜万里牛 AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "wanxiang-image-generation-editing-alternative",
@@ -14942,6 +16069,55 @@
     "display_name": "微信小店 电商视频生成与编辑"
   },
   {
+    "name": "weimob-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜微盟 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "weimob-micro-mall-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜微盟微商城 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "weimob-onecrm-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜微盟OneCRM AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "weimob-smart-retail-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜微盟智慧零售 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "weimob-wai-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜微盟WAI AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "weimob-wecom-assistant-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜微盟企微助手 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "weimob-wos-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜微盟WOS AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "winning-ad-variable-decomposer-ai-hive",
     "kind": "video",
     "layer": "emerging-scenario",
@@ -14961,6 +16137,20 @@
     "display_name": "AI大模型专家｜Wiro AI 替代方案｜AI-HIVE"
   },
   {
+    "name": "wix-ecommerce-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Wix eCommerce AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "woocommerce-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜WooCommerce AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "xcode-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -14973,6 +16163,13 @@
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜xeduapi.com 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "xiaoduo-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜晓多AI AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "xiaohongshu-ecommerce-image-generation-editing",
@@ -15041,6 +16238,20 @@
     "display_name": "小红书爆款视频拆解｜AI-HIVE"
   },
   {
+    "name": "xiaomi-cloud-warehouse-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜小秘云仓 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "xiaoshouyi-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜销售易 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "xiaoyunque-content-agent-ai-hive-migration",
     "kind": "agent-platform-migration",
     "layer": "oiioii-like-agent-platform",
@@ -15048,11 +16259,179 @@
     "display_name": "AI大模型专家｜小云雀AI替代与迁移｜AI-HIVE MCP"
   },
   {
+    "name": "xingtu-ads-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜星拓广告 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "yanshen-quality-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜言审 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "yitao-saas-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜逸淘 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youcheng-crm-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有成CRM AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youcheng-event-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有成会务 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youcheng-expense-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有成报销 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youcheng-finance-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有成财务 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youcheng-meeting-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有成会议 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-agent-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞智能体 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-ai-content-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-ai-hosting-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞AI托管 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-allvalue-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞AllValue AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-beauty-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞美业 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-brand-flagship-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞品牌旗舰 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-chain-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞连锁 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-crm-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞CRM AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-distribution-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞分销 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-education-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞教育 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-local-life-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞本地生活 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-micro-mall-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞微商城 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-retail-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞零售 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-smart-shopping-guide-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞智能导购 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "youzan-wecom-assistant-ai-layer",
+    "kind": "ecommerce-product-migration",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜有赞企业微信助手 AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "yuegle-api-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
     "model_ids": [],
     "display_name": "AI大模型专家｜Yuegle API 替代方案｜AI-HIVE"
+  },
+  {
+    "name": "yuma-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Yuma AI AI能力替代与自建｜AI-HIVE MCP"
   },
   {
     "name": "yunwu-ai-alternative-ai-hive",
@@ -15076,6 +16455,13 @@
     "display_name": "AI大模型专家｜zen-ai.top 替代方案｜AI-HIVE"
   },
   {
+    "name": "zendesk-ai-service-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Zendesk AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
     "name": "zerocode-sbs-alternative-ai-hive",
     "kind": "workflow",
     "layer": "relay-alternative",
@@ -15088,5 +16474,19 @@
     "layer": "oiioii-like-agent-platform",
     "model_ids": [],
     "display_name": "AI大模型专家｜Zeshot替代与迁移｜AI-HIVE MCP"
+  },
+  {
+    "name": "zoho-crm-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Zoho CRM AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "zoho-inventory-ai-layer",
+    "kind": "ecommerce-ai-workflow",
+    "layer": "ecommerce-ai-hive",
+    "model_ids": [],
+    "display_name": "AI大模型专家｜Zoho Inventory AI能力替代与自建｜AI-HIVE MCP"
   }
 ]
