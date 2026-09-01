@@ -1,0 +1,7 @@
+interface:
+  display_name: "MCN 电商内容生产"
+  short_description: "用 IMIVA 完成MCN 电商内容生产与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-mcn-commerce-content 根据我的商品素材完成MCN 电商内容生产，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true

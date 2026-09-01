@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "imiva-ecommerce": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@infimind/ecom-content-cli@latest"
+      ],
+      "env": {
+        "MCP_TOKEN": "your-token-here",
+        "API_URL": "https://imiva.ecpro.com"
+      }
+    }
+  }
+}

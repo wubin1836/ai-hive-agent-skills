@@ -1,0 +1,7 @@
+interface:
+  display_name: "电商设计外包交付"
+  short_description: "用 IMIVA 完成电商设计外包交付与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-design-outsourcing-delivery 根据我的商品素材完成电商设计外包交付，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true
