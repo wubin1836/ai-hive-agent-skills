@@ -1,0 +1,7 @@
+interface:
+  display_name: "包装效果图与陈列预览"
+  short_description: "用 IMIVA 完成包装效果图与陈列预览与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-packaging-mockup 根据我的商品素材完成包装效果图与陈列预览，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true

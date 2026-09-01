@@ -1,0 +1,7 @@
+interface:
+  display_name: "可购物视频镜头清单"
+  short_description: "用 IMIVA 完成可购物视频镜头清单与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-shoppable-video-scenes 根据我的商品素材完成可购物视频镜头清单，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true

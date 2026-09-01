@@ -1,0 +1,7 @@
+interface:
+  display_name: "商品目录与 Lookbook"
+  short_description: "用 IMIVA 完成商品目录与 Lookbook与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-catalog-lookbook 根据我的商品素材完成商品目录与 Lookbook，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true

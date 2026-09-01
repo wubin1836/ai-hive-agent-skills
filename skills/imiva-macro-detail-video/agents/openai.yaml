@@ -1,0 +1,7 @@
+interface:
+  display_name: "微距细节商品视频"
+  short_description: "用 IMIVA 完成微距细节商品视频与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-macro-detail-video 根据我的商品素材完成微距细节商品视频，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true

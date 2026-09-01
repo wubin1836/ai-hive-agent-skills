@@ -1,0 +1,7 @@
+interface:
+  display_name: "材质成分解释图"
+  short_description: "用 IMIVA 完成材质成分解释图与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-material-explainer 根据我的商品素材完成材质成分解释图，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true
