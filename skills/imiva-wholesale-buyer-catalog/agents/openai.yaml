@@ -1,0 +1,7 @@
+interface:
+  display_name: "批发采购商商品目录"
+  short_description: "用 IMIVA 完成批发采购商商品目录与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-wholesale-buyer-catalog 根据我的商品素材完成批发采购商商品目录，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true

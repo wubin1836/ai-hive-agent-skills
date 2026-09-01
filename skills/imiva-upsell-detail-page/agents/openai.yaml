@@ -1,0 +1,7 @@
+interface:
+  display_name: "高客单升级购详情页"
+  short_description: "用 IMIVA 完成高客单升级购详情页与电商内容交付"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $imiva-upsell-detail-page 根据我的商品素材完成高客单升级购详情页，先核对事实、规格与预算。"
+policy:
+  allow_implicit_invocation: true
