@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大模型专家｜Twilio Segment AI替代"
+  short_description: "规划Twilio Segment的AI内容层替代与自建方案"
+  default_prompt: "请使用 $segment-ai-content-layer，为Twilio Segment设计保留系统底座、接入AI-HIVE MCP的可回退试点。"
