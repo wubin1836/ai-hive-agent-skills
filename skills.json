@@ -409,6 +409,3606 @@
     "model_ids": []
   },
   {
+    "name": "ai-hive-simulate-36kr",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟36氪｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-agi-hunt",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AGI Hunt｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ai-dance",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AI Dance｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ai-evolution-huasheng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AI进化论花生｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ai-lab-fange",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AI研究室帆哥｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ai-lengkezhang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AI冷科长｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ai-nao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AI闹｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ai-product-huangshu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AI产品黄叔｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ai-red-witch",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AI红发魔女｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ai-tech-review",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AI科技评论｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ai-trainer-dayu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AI训练师大宇｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-aidan-gomez",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Aidan Gomez｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-aiera",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟新智元｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-aigc-study-room",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟AIGC自修室｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-alex-hormozi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Alex Hormozi｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-alexandr-wang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Alexandr Wang｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ali-abdaal",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Ali Abdaal｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-aliang-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟跟着阿亮学AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-andrej-karpathy",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Andrej Karpathy｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-andrew-ng-cn",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟吴恩达｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-aravind-srinivas",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Aravind Srinivas｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-axton-liu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Axton Liu｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-baai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟北京智源｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-banfo",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟半佛仙人｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-baoyu-xp",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟宝玉xp｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ben-horowitz",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Ben Horowitz｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-berryxia-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Berryxia AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-bidiao-thu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟毕导THU｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-bill-gates",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Bill Gates｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-brian-armstrong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Brian Armstrong｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-brian-chesky",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Brian Chesky｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-business-note",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟商业小纸条｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-cai-tong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟采铜｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-caiyu-business",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟蔡钰商业参考｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-can-ge",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟参哥｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-canghe",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟苍何｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-cao-jiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟曹将｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-cao-zheng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟曹政｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-captain-wang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王队长｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-carl-ai-watts",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟卡尔的AI沃茨｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-chai-zhidao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟柴知道｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-chaping",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟差评君｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-chen-haixian",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟陈海贤｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-chengqian-circle",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟程前朋友圈｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-chensheng-20",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟陈生2.0｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-chi-jianqiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟池建强｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-chu-yin",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟储殷｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-chunyin-v",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟纯银V｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-cui-lei-thinking",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟崔磊为思考点赞｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-cyber-qi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟赛博奇｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-cyber-zen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟赛博禅心｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dai-jianye",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟戴建业｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-daojie-doris",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刀姐doris｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dario-amodei",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Dario Amodei｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-datawhale",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Datawhale｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-david-holz",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟David Holz｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-david-sacks",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟David Sacks｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-daxing-ge",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟大兴哥｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-deep-thought-circle",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟深思圈｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-demis-hassabis",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Demis Hassabis｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-digital-life-khazix",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟数字生命卡兹克｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ding-junjie",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟丁俊杰｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dn-samuel",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟DN-Samuel｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-donbesilent",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Donbesilent｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dong-shiyi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟董十一｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dong-yuhui",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟董宇辉｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dongdong-xuezhang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟东东学长｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dou-wentao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟窦文涛｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dr-lau-cloud-lab",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Lau博士的云组会｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dr-xiaohui",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟晓辉博士｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-duan-yongping",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟段永平｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-dwarkesh-patel",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Dwarkesh Patel｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-elliot-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟艾略特｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-elon-musk",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Elon Musk｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ethan-mollick",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Ethan Mollick｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-fan-deng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟樊登｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-fang-qi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟房琪｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-fangsitafu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟芳斯塔芙｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-fei-fei-li",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Fei-Fei Li｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-feng-dahui",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟冯大辉｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-feng-lun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟冯仑｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-feng-tang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟冯唐｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-fool-toolbox",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟傻瓜工具箱｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-fourth-chimpanzee",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟第四种黑猩猩｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-francois-chollet",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟François Chollet｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-fu-peng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟付鹏｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-fu-sheng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟傅盛｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-future-designer-kik",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟未来设计师KiK｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-fview-tech",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟爱否科技｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-g-ge",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟G哥｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-gao-gailun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟高盖伦｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-gary-vaynerchuk",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Gary Vaynerchuk｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-geekerwan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟极客湾｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-geekpark",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟极客公园｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-genji-teaches-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟GenJi是真想教会你｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-geoffrey-hinton",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Geoffrey Hinton｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-gong-wenxiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟龚文祥｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-goocarlos",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟goocarlos｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-gorden-sun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Gorden Sun｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-greg-brockman",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Greg Brockman｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-gu-dian",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟古典｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-guan-jianming",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟关健明｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-guan-qingyou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟管清友｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-guixingren-pro",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟硅星人Pro｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-guizang-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟歸藏的AI工具箱｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-guo-zhen-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟郭震AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-haixin-hyacinth",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟海辛Hyacinth｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-hanqing-ai-talk",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟汗青AITalk｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-harrison-chase",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Harrison Chase｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-he-caitou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟和菜头｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-he-jiayan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟何加盐｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-he-tongxue",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟老师好我叫何同学｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-he-xiaopeng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟何小鹏｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-heka-teacher",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟贺卡老师｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-hesenbao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟河森堡｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-houchangcun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟后厂村｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-hu-xinshu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟胡辛束｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-hua-shan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟华杉｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-huang-zheng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟黄峥｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-huangbai-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟黄白｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-hunzhi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟混知｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-huxiu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟虎嗅｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ilya-sutskever",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Ilya Sutskever｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jack-dorsey",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Jack Dorsey｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jack-ma",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟马云｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jeff-bezos",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Jeff Bezos｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jeff-dean",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Jeff Dean｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jensen-huang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Jensen Huang｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ji-yichao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟季逸超｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jiang-chacha",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟姜茶茶｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jiang-fangzhou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟蒋方舟｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jin-canrong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟金灿荣｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jin-yinan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟金一南｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-jinqiang-uncle",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟金枪大叔｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-john-carmack",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟John Carmack｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-k-sister-lab",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟K姐研究社｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-kai-fu-lee-cn",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李开复｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-kangaroo-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟袋鼠帝AI客栈｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-koji-yang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Koji杨远骋｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-kongshou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟空手｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-laocheng-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟讲AI的老程｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-laojiang-business",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟老蒋巨靠谱｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-laomai-toolbox",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟老麦的工具库｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-laoshi-chips",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟老石谈芯｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-larry-ellison",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Larry Ellison｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-larry-page",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Larry Page｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-lei-jun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟雷军｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-leikeji",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟雷科技｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-lex-fridman",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Lex Fridman｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-auto-xiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李想｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-bo",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟郦波｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-guoqing",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李国庆｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-hung-yi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李宏毅｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-jiaoshou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李叫兽｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-jigang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李继刚｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-meijin",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李玫瑾｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-mu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李沐｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-qian-brand",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李倩说品牌｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-shanglong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李尚龙｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-shanyou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李善友｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-songwei",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李松蔚｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-xiang-yao-lixiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李想要理想｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-xiaolai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李笑来｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-xiaoyi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李筱懿｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-yizhou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李一舟｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-zhizhong-bolu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李治中菠萝｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-ziqi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李子柒｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-li-ziran-shuo",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李自然说｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liang-dong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟梁冬｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liang-ning",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟梁宁｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liang-wendao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟梁文道｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liang-wenfeng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟梁文锋｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liaodao-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟料到AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-lihe-finance",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟梨核财经｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-lin-chao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟所长林超｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-linus-torvalds",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Linus Torvalds｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-linyi-lyi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟林亦LYi｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-lisa-su",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Lisa Su｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-cong-nlp",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘聪NLP｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-fei-product",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘飞｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-jia",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘嘉｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-qing",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘擎｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-run",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘润｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-siyi-qunxiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟群响刘思毅｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-tong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘同｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-weipeng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘未鹏｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-xiaopai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘小排｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-yi-private-traffic",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟私域流量池刘翌｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-liu-yuanyuan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘媛媛｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-luo-xiang-law",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟罗翔说刑法｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-luo-yonghao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟罗永浩｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-luo-zhenyu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟罗振宇｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ma-jiahui",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟马家辉｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ma-weidu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟马未都｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-machine-villain-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟机器坏人AI版｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-manshi-notes",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟漫士沉思录｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-marc-andreessen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Marc Andreessen｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-mark-zuckerberg",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Mark Zuckerberg｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-masayoshi-son",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Masayoshi Son｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-matt-wolfe",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Matt Wolfe｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-max-for-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Max For AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-media-storm",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟影视飓风｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-meng-man",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟蒙曼｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-meng-yan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟孟岩｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-miles-ma",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Miles Ma｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ming-zheng-yan-shun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟名郑言顺｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-mira-murati",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Mira Murati｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-modelscope-cn",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟ModelScope魔搭｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-mofan-python",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟莫烦Python｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-momo-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟momo子讲AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-mona-uncle",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟末那大叔｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-mr-an",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟安先生｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-mr-l-talk",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟L先生说｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-mumu-laozei",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟木木老贼｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-mustafa-suleyman",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Mustafa Suleyman｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-nan-kai-kou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟楠开口｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-nat-friedman",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Nat Friedman｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-naval-ravikant",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Naval Ravikant｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-nenly",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Nenly同学｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ni-shuang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟倪爽｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-orange-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Orange AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-paperclip-cn",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟回形针PaperClip｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-paperweekly",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟PaperWeekly｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-papi-jiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟papi酱｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-patrick-collison",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Patrick Collison｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-paul-graham",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Paul Graham｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-peng-kaiping",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟彭凯平｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-peng-xiaoliu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟彭小六｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-peng-zhihui",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟稚晖君｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-peter-thiel",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Peter Thiel｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-piaohan-cat",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟剽悍一只猫｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-planet-institute",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟星球研究所｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-pony-ma",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟马化腾｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-product-jun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟产品君｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-promptcat",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟PromptCat菩提猫｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-punk-zhou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟朋克周｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-qbitai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟量子位｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-qi-lu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟陆奇｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-qin-shuo",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟秦朔｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-qinglong-laozei",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟青龙老贼｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-qiu-xipeng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟邱锡鹏｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-qiuy-aaaki",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟秋葉aaaki｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-qiuyedashu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟秋叶大叔｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-qiuzhi-2046",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟秋芝2046｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ray-kurzweil",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Ray Kurzweil｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-rebecca-li",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟黎贝卡｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-reid-hoffman",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Reid Hoffman｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ren-zhengfei",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟任正非｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-richard-liu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟刘强东｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-richard-yu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟余承东｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-rick-laozhang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟瑞克老张有话说｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-rico-three-cats",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Rico有三猫｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-robin-li",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李彦宏｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-rowan-cheung",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Rowan Cheung｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ruan-yifeng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟阮一峰｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-ruigena",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟瑞哥那｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-sam-altman",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Sam Altman｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-sanbadao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟三把刀｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-satya-nadella",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Satya Nadella｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-scalers",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Scalers｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-sergey-brin",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Sergey Brin｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-seven-joy",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟赛文乔伊｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-shao-meng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟shao_meng｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-shao-nan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟少楠｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-shen-chen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟申晨｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-shen-xiangyang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟沈向洋｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-shi-zhan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟施展｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-shougong-chuan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟手工川｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-shuishan-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟水山AI漫谈｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-silicon-valley-101",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟硅谷101｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-simon-awen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Simon阿文｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-simon-sinek",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Simon Sinek｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-siyu-xiao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟私域肖厂长｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-steve-wozniak",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Steve Wozniak｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-stormzhang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟stormzhang｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-sundar-pichai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Sundar Pichai｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-super-brain",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟超级头脑｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-super-winnie",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Super Winnie｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-synced-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟机器之心｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tailfin-vicky",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟尾鳍Vicky｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-talking-ceo",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟自说自话的总裁｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tang-jie-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟唐杰｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tangshan-laowang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟汤山老王｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-teacher-du-aigc",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟杜老师AIGC｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-teacher-li-yongle",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李永乐老师｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-teacher-wang-xun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟汪勋老师｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-teacher-xu-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟徐老师AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tech-aesthetics",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟科技美学｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tech-catcher",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟科技捕手｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tech-papaxia",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟技术爬爬虾｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tim-berners-lee",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Tim Berners-Lee｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tim-cook",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Tim Cook｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tim-ferriss",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Tim Ferriss｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tmtpost",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟钛媒体｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tongji-zihao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟同济子豪兄｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-toutoutang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟透透堂｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tsinghua-jiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟清华姜学长｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-tudou-man",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟土豆人Tudou Man｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-turing-cat",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟图灵的猫｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-vitalik-buterin",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Vitalik Buterin｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wan-weigang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟万维钢｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-cen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王岑｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-chuanfu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王传福｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-haifeng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王海峰｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-huiwen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王慧文｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-jian",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王坚｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-mutou-science",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王木头学科学｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-tao-dji",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟汪滔｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-xiao",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王骁｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-xiaochuan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王小川｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-xing",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王兴｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-xingxing",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王兴兴｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-yangming-business-ip",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王阳明商业IP｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-yuchen-ai-day",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王宇辰我和AI的一天｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-yuquan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王煜全｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-zhongyuan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王仲远｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wang-ziru-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟王自如AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-warfalcon",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟warfalcon｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wawa-teacher",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟娃娃老师｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wen-tiejun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟温铁军｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wen-yifei-finance",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟温义飞的急救财经｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wild-bodhisattva",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟野菩萨｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-william-li",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟李斌｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wizard-finance",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟巫师财经｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-woyin-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟沃垠AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wu-bofan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟吴伯凡｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wu-jun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟吴军｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wu-xiaobo",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟吴晓波｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wu-zhihong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟武志红｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-wukong-xiaoliang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟无穷小亮｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xiang-shuai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟香帅｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xiangyang-qiaomu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟向阳乔木｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xiao-yiqun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟肖逸群｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xiaobai-review",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟小白测评｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xiaohu-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟小互｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xiaolin-coding",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟小林coding｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xiaolin-says",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟小Lin说｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xiaomasong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟小马宋｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xiaoyuehan-khan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟小约翰可汗｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xixiaoyao-tech",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟夕小瑶科技说｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xu-cen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟许岑｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xu-jilin",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟许纪霖｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xu-zhibin",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟徐志斌｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xu-zhiyuan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟许知远｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xuan-jiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Xuan酱｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xue-hui",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟薛辉｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xue-zhaofeng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟薛兆丰｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xunkong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟寻空｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-xuyan-late-night",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟深夜发媸徐妍｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yan-junjie",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟闫俊杰｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yang-buhuai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟杨不坏｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yang-shitou",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟杨石头｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yang-tianzhen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟杨天真｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yang-zhilin",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟杨植麟｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yang-zhiping",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟阳志平｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yang-zhuyun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟杨竹筠｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yann-lecun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Yann LeCun｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yejianghu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟也江湖说｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yi-gongzi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟意公子｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yi-ren",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟亦仁｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yi-zhongtian",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟易中天｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yichen-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟逸尘AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yige-caixiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟衣戈猜想｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yin-ye",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟尹烨｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yongge-catering",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟勇哥餐饮创业说｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yoshua-bengio",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟Yoshua Bengio｜AI-HIVE",
+    "region": "海外",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yu-bo",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟玉伯｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yu-minhong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟俞敏洪｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yuan-lanfeng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟袁岚峰｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yunshu-ai-notes",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟云舒的AI笔记｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-yunzhong-jiangshu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟云中江树｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zang-ai",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟葬AI｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zeng-shiqiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟曾仕强｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhan-yilong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟粘一龙｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-chaoyang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张朝阳｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-defen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张德芬｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-junlin",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张俊林｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-meng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张萌｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-peng-zhipu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张鹏（智谱）｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-qi-business",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张琦商业认知｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-xiaolong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张小龙｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-xiaoyu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张潇雨｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-xuefeng",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张雪峰｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-yaqin",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张亚勤｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-yiming",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张一鸣｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-yiwu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟章义伍｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-zala",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张咋啦｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhang-zhaozhong",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟张召忠｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhao-yuanyuan",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟赵圆圆｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zheng-qiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟郑强｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhou-bowen",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟周伯文｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhou-hongyi",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟周鸿祎｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhou-jingren",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟周靖人｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhou-wenqiang",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟周文强｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhou-zhihua",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟周志华｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhou-zuoluo",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟粥左罗｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhoudao-business",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟周导商业｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhu-xiaohu",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟朱啸虎｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhuang-jun",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟庄俊｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
+    "name": "ai-hive-simulate-zhuo-ke",
+    "kind": "methodology-advisor",
+    "layer": "public-method-research",
+    "model_ids": [],
+    "display_name": "用AI模拟卓克｜AI-HIVE",
+    "region": "中国",
+    "mcp_url": "https://ai-hive.iclip.cn/api/mcp"
+  },
+  {
     "name": "ai-hive-viral-editing-lab",
     "kind": "video",
     "layer": "ai-hive-consolidated",

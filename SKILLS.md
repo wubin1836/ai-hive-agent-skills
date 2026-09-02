@@ -1,6 +1,6 @@
 # AI Hive 完整 Skill 目录
 
-仓库当前包含 1940 个可独立安装的 Agent Skill。
+仓库当前包含 2340 个可独立安装的 Agent Skill。
 
 | Skill | 展示名称 | 类型 | 层级 |
 |---|---|---|---|
@@ -49,6 +49,406 @@
 | [`ai-hive-geo-aeo-content-growth`](skills/ai-hive-geo-aeo-content-growth/SKILL.md) | AI大模型专家｜GEO AEO 内容增长中心 | video | ai-hive-consolidated |
 | [`ai-hive-multimodal-creative-toolkit`](skills/ai-hive-multimodal-creative-toolkit/SKILL.md) | AI-HIVE 多模态创意工具箱 | multimodal | viral-workflow |
 | [`ai-hive-short-drama-studio`](skills/ai-hive-short-drama-studio/SKILL.md) | AI大模型专家｜短剧漫剧一站式制片厂 | video | ai-hive-consolidated |
+| [`ai-hive-simulate-36kr`](skills/ai-hive-simulate-36kr/SKILL.md) | 用AI模拟36氪｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-agi-hunt`](skills/ai-hive-simulate-agi-hunt/SKILL.md) | 用AI模拟AGI Hunt｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ai-dance`](skills/ai-hive-simulate-ai-dance/SKILL.md) | 用AI模拟AI Dance｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ai-evolution-huasheng`](skills/ai-hive-simulate-ai-evolution-huasheng/SKILL.md) | 用AI模拟AI进化论花生｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ai-lab-fange`](skills/ai-hive-simulate-ai-lab-fange/SKILL.md) | 用AI模拟AI研究室帆哥｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ai-lengkezhang`](skills/ai-hive-simulate-ai-lengkezhang/SKILL.md) | 用AI模拟AI冷科长｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ai-nao`](skills/ai-hive-simulate-ai-nao/SKILL.md) | 用AI模拟AI闹｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ai-product-huangshu`](skills/ai-hive-simulate-ai-product-huangshu/SKILL.md) | 用AI模拟AI产品黄叔｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ai-red-witch`](skills/ai-hive-simulate-ai-red-witch/SKILL.md) | 用AI模拟AI红发魔女｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ai-tech-review`](skills/ai-hive-simulate-ai-tech-review/SKILL.md) | 用AI模拟AI科技评论｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ai-trainer-dayu`](skills/ai-hive-simulate-ai-trainer-dayu/SKILL.md) | 用AI模拟AI训练师大宇｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-aidan-gomez`](skills/ai-hive-simulate-aidan-gomez/SKILL.md) | 用AI模拟Aidan Gomez｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-aiera`](skills/ai-hive-simulate-aiera/SKILL.md) | 用AI模拟新智元｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-aigc-study-room`](skills/ai-hive-simulate-aigc-study-room/SKILL.md) | 用AI模拟AIGC自修室｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-alex-hormozi`](skills/ai-hive-simulate-alex-hormozi/SKILL.md) | 用AI模拟Alex Hormozi｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-alexandr-wang`](skills/ai-hive-simulate-alexandr-wang/SKILL.md) | 用AI模拟Alexandr Wang｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ali-abdaal`](skills/ai-hive-simulate-ali-abdaal/SKILL.md) | 用AI模拟Ali Abdaal｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-aliang-ai`](skills/ai-hive-simulate-aliang-ai/SKILL.md) | 用AI模拟跟着阿亮学AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-andrej-karpathy`](skills/ai-hive-simulate-andrej-karpathy/SKILL.md) | 用AI模拟Andrej Karpathy｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-andrew-ng-cn`](skills/ai-hive-simulate-andrew-ng-cn/SKILL.md) | 用AI模拟吴恩达｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-aravind-srinivas`](skills/ai-hive-simulate-aravind-srinivas/SKILL.md) | 用AI模拟Aravind Srinivas｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-axton-liu`](skills/ai-hive-simulate-axton-liu/SKILL.md) | 用AI模拟Axton Liu｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-baai`](skills/ai-hive-simulate-baai/SKILL.md) | 用AI模拟北京智源｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-banfo`](skills/ai-hive-simulate-banfo/SKILL.md) | 用AI模拟半佛仙人｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-baoyu-xp`](skills/ai-hive-simulate-baoyu-xp/SKILL.md) | 用AI模拟宝玉xp｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ben-horowitz`](skills/ai-hive-simulate-ben-horowitz/SKILL.md) | 用AI模拟Ben Horowitz｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-berryxia-ai`](skills/ai-hive-simulate-berryxia-ai/SKILL.md) | 用AI模拟Berryxia AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-bidiao-thu`](skills/ai-hive-simulate-bidiao-thu/SKILL.md) | 用AI模拟毕导THU｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-bill-gates`](skills/ai-hive-simulate-bill-gates/SKILL.md) | 用AI模拟Bill Gates｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-brian-armstrong`](skills/ai-hive-simulate-brian-armstrong/SKILL.md) | 用AI模拟Brian Armstrong｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-brian-chesky`](skills/ai-hive-simulate-brian-chesky/SKILL.md) | 用AI模拟Brian Chesky｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-business-note`](skills/ai-hive-simulate-business-note/SKILL.md) | 用AI模拟商业小纸条｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-cai-tong`](skills/ai-hive-simulate-cai-tong/SKILL.md) | 用AI模拟采铜｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-caiyu-business`](skills/ai-hive-simulate-caiyu-business/SKILL.md) | 用AI模拟蔡钰商业参考｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-can-ge`](skills/ai-hive-simulate-can-ge/SKILL.md) | 用AI模拟参哥｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-canghe`](skills/ai-hive-simulate-canghe/SKILL.md) | 用AI模拟苍何｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-cao-jiang`](skills/ai-hive-simulate-cao-jiang/SKILL.md) | 用AI模拟曹将｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-cao-zheng`](skills/ai-hive-simulate-cao-zheng/SKILL.md) | 用AI模拟曹政｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-captain-wang`](skills/ai-hive-simulate-captain-wang/SKILL.md) | 用AI模拟王队长｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-carl-ai-watts`](skills/ai-hive-simulate-carl-ai-watts/SKILL.md) | 用AI模拟卡尔的AI沃茨｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-chai-zhidao`](skills/ai-hive-simulate-chai-zhidao/SKILL.md) | 用AI模拟柴知道｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-chaping`](skills/ai-hive-simulate-chaping/SKILL.md) | 用AI模拟差评君｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-chen-haixian`](skills/ai-hive-simulate-chen-haixian/SKILL.md) | 用AI模拟陈海贤｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-chengqian-circle`](skills/ai-hive-simulate-chengqian-circle/SKILL.md) | 用AI模拟程前朋友圈｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-chensheng-20`](skills/ai-hive-simulate-chensheng-20/SKILL.md) | 用AI模拟陈生2.0｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-chi-jianqiang`](skills/ai-hive-simulate-chi-jianqiang/SKILL.md) | 用AI模拟池建强｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-chu-yin`](skills/ai-hive-simulate-chu-yin/SKILL.md) | 用AI模拟储殷｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-chunyin-v`](skills/ai-hive-simulate-chunyin-v/SKILL.md) | 用AI模拟纯银V｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-cui-lei-thinking`](skills/ai-hive-simulate-cui-lei-thinking/SKILL.md) | 用AI模拟崔磊为思考点赞｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-cyber-qi`](skills/ai-hive-simulate-cyber-qi/SKILL.md) | 用AI模拟赛博奇｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-cyber-zen`](skills/ai-hive-simulate-cyber-zen/SKILL.md) | 用AI模拟赛博禅心｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dai-jianye`](skills/ai-hive-simulate-dai-jianye/SKILL.md) | 用AI模拟戴建业｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-daojie-doris`](skills/ai-hive-simulate-daojie-doris/SKILL.md) | 用AI模拟刀姐doris｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dario-amodei`](skills/ai-hive-simulate-dario-amodei/SKILL.md) | 用AI模拟Dario Amodei｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-datawhale`](skills/ai-hive-simulate-datawhale/SKILL.md) | 用AI模拟Datawhale｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-david-holz`](skills/ai-hive-simulate-david-holz/SKILL.md) | 用AI模拟David Holz｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-david-sacks`](skills/ai-hive-simulate-david-sacks/SKILL.md) | 用AI模拟David Sacks｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-daxing-ge`](skills/ai-hive-simulate-daxing-ge/SKILL.md) | 用AI模拟大兴哥｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-deep-thought-circle`](skills/ai-hive-simulate-deep-thought-circle/SKILL.md) | 用AI模拟深思圈｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-demis-hassabis`](skills/ai-hive-simulate-demis-hassabis/SKILL.md) | 用AI模拟Demis Hassabis｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-digital-life-khazix`](skills/ai-hive-simulate-digital-life-khazix/SKILL.md) | 用AI模拟数字生命卡兹克｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ding-junjie`](skills/ai-hive-simulate-ding-junjie/SKILL.md) | 用AI模拟丁俊杰｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dn-samuel`](skills/ai-hive-simulate-dn-samuel/SKILL.md) | 用AI模拟DN-Samuel｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-donbesilent`](skills/ai-hive-simulate-donbesilent/SKILL.md) | 用AI模拟Donbesilent｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dong-shiyi`](skills/ai-hive-simulate-dong-shiyi/SKILL.md) | 用AI模拟董十一｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dong-yuhui`](skills/ai-hive-simulate-dong-yuhui/SKILL.md) | 用AI模拟董宇辉｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dongdong-xuezhang`](skills/ai-hive-simulate-dongdong-xuezhang/SKILL.md) | 用AI模拟东东学长｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dou-wentao`](skills/ai-hive-simulate-dou-wentao/SKILL.md) | 用AI模拟窦文涛｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dr-lau-cloud-lab`](skills/ai-hive-simulate-dr-lau-cloud-lab/SKILL.md) | 用AI模拟Lau博士的云组会｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dr-xiaohui`](skills/ai-hive-simulate-dr-xiaohui/SKILL.md) | 用AI模拟晓辉博士｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-duan-yongping`](skills/ai-hive-simulate-duan-yongping/SKILL.md) | 用AI模拟段永平｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-dwarkesh-patel`](skills/ai-hive-simulate-dwarkesh-patel/SKILL.md) | 用AI模拟Dwarkesh Patel｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-elliot-ai`](skills/ai-hive-simulate-elliot-ai/SKILL.md) | 用AI模拟艾略特｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-elon-musk`](skills/ai-hive-simulate-elon-musk/SKILL.md) | 用AI模拟Elon Musk｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ethan-mollick`](skills/ai-hive-simulate-ethan-mollick/SKILL.md) | 用AI模拟Ethan Mollick｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-fan-deng`](skills/ai-hive-simulate-fan-deng/SKILL.md) | 用AI模拟樊登｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-fang-qi`](skills/ai-hive-simulate-fang-qi/SKILL.md) | 用AI模拟房琪｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-fangsitafu`](skills/ai-hive-simulate-fangsitafu/SKILL.md) | 用AI模拟芳斯塔芙｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-fei-fei-li`](skills/ai-hive-simulate-fei-fei-li/SKILL.md) | 用AI模拟Fei-Fei Li｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-feng-dahui`](skills/ai-hive-simulate-feng-dahui/SKILL.md) | 用AI模拟冯大辉｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-feng-lun`](skills/ai-hive-simulate-feng-lun/SKILL.md) | 用AI模拟冯仑｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-feng-tang`](skills/ai-hive-simulate-feng-tang/SKILL.md) | 用AI模拟冯唐｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-fool-toolbox`](skills/ai-hive-simulate-fool-toolbox/SKILL.md) | 用AI模拟傻瓜工具箱｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-fourth-chimpanzee`](skills/ai-hive-simulate-fourth-chimpanzee/SKILL.md) | 用AI模拟第四种黑猩猩｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-francois-chollet`](skills/ai-hive-simulate-francois-chollet/SKILL.md) | 用AI模拟François Chollet｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-fu-peng`](skills/ai-hive-simulate-fu-peng/SKILL.md) | 用AI模拟付鹏｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-fu-sheng`](skills/ai-hive-simulate-fu-sheng/SKILL.md) | 用AI模拟傅盛｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-future-designer-kik`](skills/ai-hive-simulate-future-designer-kik/SKILL.md) | 用AI模拟未来设计师KiK｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-fview-tech`](skills/ai-hive-simulate-fview-tech/SKILL.md) | 用AI模拟爱否科技｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-g-ge`](skills/ai-hive-simulate-g-ge/SKILL.md) | 用AI模拟G哥｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-gao-gailun`](skills/ai-hive-simulate-gao-gailun/SKILL.md) | 用AI模拟高盖伦｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-gary-vaynerchuk`](skills/ai-hive-simulate-gary-vaynerchuk/SKILL.md) | 用AI模拟Gary Vaynerchuk｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-geekerwan`](skills/ai-hive-simulate-geekerwan/SKILL.md) | 用AI模拟极客湾｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-geekpark`](skills/ai-hive-simulate-geekpark/SKILL.md) | 用AI模拟极客公园｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-genji-teaches-ai`](skills/ai-hive-simulate-genji-teaches-ai/SKILL.md) | 用AI模拟GenJi是真想教会你｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-geoffrey-hinton`](skills/ai-hive-simulate-geoffrey-hinton/SKILL.md) | 用AI模拟Geoffrey Hinton｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-gong-wenxiang`](skills/ai-hive-simulate-gong-wenxiang/SKILL.md) | 用AI模拟龚文祥｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-goocarlos`](skills/ai-hive-simulate-goocarlos/SKILL.md) | 用AI模拟goocarlos｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-gorden-sun`](skills/ai-hive-simulate-gorden-sun/SKILL.md) | 用AI模拟Gorden Sun｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-greg-brockman`](skills/ai-hive-simulate-greg-brockman/SKILL.md) | 用AI模拟Greg Brockman｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-gu-dian`](skills/ai-hive-simulate-gu-dian/SKILL.md) | 用AI模拟古典｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-guan-jianming`](skills/ai-hive-simulate-guan-jianming/SKILL.md) | 用AI模拟关健明｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-guan-qingyou`](skills/ai-hive-simulate-guan-qingyou/SKILL.md) | 用AI模拟管清友｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-guixingren-pro`](skills/ai-hive-simulate-guixingren-pro/SKILL.md) | 用AI模拟硅星人Pro｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-guizang-ai`](skills/ai-hive-simulate-guizang-ai/SKILL.md) | 用AI模拟歸藏的AI工具箱｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-guo-zhen-ai`](skills/ai-hive-simulate-guo-zhen-ai/SKILL.md) | 用AI模拟郭震AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-haixin-hyacinth`](skills/ai-hive-simulate-haixin-hyacinth/SKILL.md) | 用AI模拟海辛Hyacinth｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-hanqing-ai-talk`](skills/ai-hive-simulate-hanqing-ai-talk/SKILL.md) | 用AI模拟汗青AITalk｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-harrison-chase`](skills/ai-hive-simulate-harrison-chase/SKILL.md) | 用AI模拟Harrison Chase｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-he-caitou`](skills/ai-hive-simulate-he-caitou/SKILL.md) | 用AI模拟和菜头｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-he-jiayan`](skills/ai-hive-simulate-he-jiayan/SKILL.md) | 用AI模拟何加盐｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-he-tongxue`](skills/ai-hive-simulate-he-tongxue/SKILL.md) | 用AI模拟老师好我叫何同学｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-he-xiaopeng`](skills/ai-hive-simulate-he-xiaopeng/SKILL.md) | 用AI模拟何小鹏｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-heka-teacher`](skills/ai-hive-simulate-heka-teacher/SKILL.md) | 用AI模拟贺卡老师｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-hesenbao`](skills/ai-hive-simulate-hesenbao/SKILL.md) | 用AI模拟河森堡｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-houchangcun`](skills/ai-hive-simulate-houchangcun/SKILL.md) | 用AI模拟后厂村｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-hu-xinshu`](skills/ai-hive-simulate-hu-xinshu/SKILL.md) | 用AI模拟胡辛束｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-hua-shan`](skills/ai-hive-simulate-hua-shan/SKILL.md) | 用AI模拟华杉｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-huang-zheng`](skills/ai-hive-simulate-huang-zheng/SKILL.md) | 用AI模拟黄峥｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-huangbai-ai`](skills/ai-hive-simulate-huangbai-ai/SKILL.md) | 用AI模拟黄白｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-hunzhi`](skills/ai-hive-simulate-hunzhi/SKILL.md) | 用AI模拟混知｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-huxiu`](skills/ai-hive-simulate-huxiu/SKILL.md) | 用AI模拟虎嗅｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ilya-sutskever`](skills/ai-hive-simulate-ilya-sutskever/SKILL.md) | 用AI模拟Ilya Sutskever｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jack-dorsey`](skills/ai-hive-simulate-jack-dorsey/SKILL.md) | 用AI模拟Jack Dorsey｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jack-ma`](skills/ai-hive-simulate-jack-ma/SKILL.md) | 用AI模拟马云｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jeff-bezos`](skills/ai-hive-simulate-jeff-bezos/SKILL.md) | 用AI模拟Jeff Bezos｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jeff-dean`](skills/ai-hive-simulate-jeff-dean/SKILL.md) | 用AI模拟Jeff Dean｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jensen-huang`](skills/ai-hive-simulate-jensen-huang/SKILL.md) | 用AI模拟Jensen Huang｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ji-yichao`](skills/ai-hive-simulate-ji-yichao/SKILL.md) | 用AI模拟季逸超｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jiang-chacha`](skills/ai-hive-simulate-jiang-chacha/SKILL.md) | 用AI模拟姜茶茶｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jiang-fangzhou`](skills/ai-hive-simulate-jiang-fangzhou/SKILL.md) | 用AI模拟蒋方舟｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jin-canrong`](skills/ai-hive-simulate-jin-canrong/SKILL.md) | 用AI模拟金灿荣｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jin-yinan`](skills/ai-hive-simulate-jin-yinan/SKILL.md) | 用AI模拟金一南｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-jinqiang-uncle`](skills/ai-hive-simulate-jinqiang-uncle/SKILL.md) | 用AI模拟金枪大叔｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-john-carmack`](skills/ai-hive-simulate-john-carmack/SKILL.md) | 用AI模拟John Carmack｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-k-sister-lab`](skills/ai-hive-simulate-k-sister-lab/SKILL.md) | 用AI模拟K姐研究社｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-kai-fu-lee-cn`](skills/ai-hive-simulate-kai-fu-lee-cn/SKILL.md) | 用AI模拟李开复｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-kangaroo-ai`](skills/ai-hive-simulate-kangaroo-ai/SKILL.md) | 用AI模拟袋鼠帝AI客栈｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-koji-yang`](skills/ai-hive-simulate-koji-yang/SKILL.md) | 用AI模拟Koji杨远骋｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-kongshou`](skills/ai-hive-simulate-kongshou/SKILL.md) | 用AI模拟空手｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-laocheng-ai`](skills/ai-hive-simulate-laocheng-ai/SKILL.md) | 用AI模拟讲AI的老程｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-laojiang-business`](skills/ai-hive-simulate-laojiang-business/SKILL.md) | 用AI模拟老蒋巨靠谱｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-laomai-toolbox`](skills/ai-hive-simulate-laomai-toolbox/SKILL.md) | 用AI模拟老麦的工具库｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-laoshi-chips`](skills/ai-hive-simulate-laoshi-chips/SKILL.md) | 用AI模拟老石谈芯｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-larry-ellison`](skills/ai-hive-simulate-larry-ellison/SKILL.md) | 用AI模拟Larry Ellison｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-larry-page`](skills/ai-hive-simulate-larry-page/SKILL.md) | 用AI模拟Larry Page｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-lei-jun`](skills/ai-hive-simulate-lei-jun/SKILL.md) | 用AI模拟雷军｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-leikeji`](skills/ai-hive-simulate-leikeji/SKILL.md) | 用AI模拟雷科技｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-lex-fridman`](skills/ai-hive-simulate-lex-fridman/SKILL.md) | 用AI模拟Lex Fridman｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-auto-xiang`](skills/ai-hive-simulate-li-auto-xiang/SKILL.md) | 用AI模拟李想｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-bo`](skills/ai-hive-simulate-li-bo/SKILL.md) | 用AI模拟郦波｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-guoqing`](skills/ai-hive-simulate-li-guoqing/SKILL.md) | 用AI模拟李国庆｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-hung-yi`](skills/ai-hive-simulate-li-hung-yi/SKILL.md) | 用AI模拟李宏毅｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-jiaoshou`](skills/ai-hive-simulate-li-jiaoshou/SKILL.md) | 用AI模拟李叫兽｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-jigang`](skills/ai-hive-simulate-li-jigang/SKILL.md) | 用AI模拟李继刚｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-meijin`](skills/ai-hive-simulate-li-meijin/SKILL.md) | 用AI模拟李玫瑾｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-mu`](skills/ai-hive-simulate-li-mu/SKILL.md) | 用AI模拟李沐｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-qian-brand`](skills/ai-hive-simulate-li-qian-brand/SKILL.md) | 用AI模拟李倩说品牌｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-shanglong`](skills/ai-hive-simulate-li-shanglong/SKILL.md) | 用AI模拟李尚龙｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-shanyou`](skills/ai-hive-simulate-li-shanyou/SKILL.md) | 用AI模拟李善友｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-songwei`](skills/ai-hive-simulate-li-songwei/SKILL.md) | 用AI模拟李松蔚｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-xiang-yao-lixiang`](skills/ai-hive-simulate-li-xiang-yao-lixiang/SKILL.md) | 用AI模拟李想要理想｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-xiaolai`](skills/ai-hive-simulate-li-xiaolai/SKILL.md) | 用AI模拟李笑来｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-xiaoyi`](skills/ai-hive-simulate-li-xiaoyi/SKILL.md) | 用AI模拟李筱懿｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-yizhou`](skills/ai-hive-simulate-li-yizhou/SKILL.md) | 用AI模拟李一舟｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-zhizhong-bolu`](skills/ai-hive-simulate-li-zhizhong-bolu/SKILL.md) | 用AI模拟李治中菠萝｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-ziqi`](skills/ai-hive-simulate-li-ziqi/SKILL.md) | 用AI模拟李子柒｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-li-ziran-shuo`](skills/ai-hive-simulate-li-ziran-shuo/SKILL.md) | 用AI模拟李自然说｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liang-dong`](skills/ai-hive-simulate-liang-dong/SKILL.md) | 用AI模拟梁冬｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liang-ning`](skills/ai-hive-simulate-liang-ning/SKILL.md) | 用AI模拟梁宁｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liang-wendao`](skills/ai-hive-simulate-liang-wendao/SKILL.md) | 用AI模拟梁文道｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liang-wenfeng`](skills/ai-hive-simulate-liang-wenfeng/SKILL.md) | 用AI模拟梁文锋｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liaodao-ai`](skills/ai-hive-simulate-liaodao-ai/SKILL.md) | 用AI模拟料到AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-lihe-finance`](skills/ai-hive-simulate-lihe-finance/SKILL.md) | 用AI模拟梨核财经｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-lin-chao`](skills/ai-hive-simulate-lin-chao/SKILL.md) | 用AI模拟所长林超｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-linus-torvalds`](skills/ai-hive-simulate-linus-torvalds/SKILL.md) | 用AI模拟Linus Torvalds｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-linyi-lyi`](skills/ai-hive-simulate-linyi-lyi/SKILL.md) | 用AI模拟林亦LYi｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-lisa-su`](skills/ai-hive-simulate-lisa-su/SKILL.md) | 用AI模拟Lisa Su｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-cong-nlp`](skills/ai-hive-simulate-liu-cong-nlp/SKILL.md) | 用AI模拟刘聪NLP｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-fei-product`](skills/ai-hive-simulate-liu-fei-product/SKILL.md) | 用AI模拟刘飞｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-jia`](skills/ai-hive-simulate-liu-jia/SKILL.md) | 用AI模拟刘嘉｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-qing`](skills/ai-hive-simulate-liu-qing/SKILL.md) | 用AI模拟刘擎｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-run`](skills/ai-hive-simulate-liu-run/SKILL.md) | 用AI模拟刘润｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-siyi-qunxiang`](skills/ai-hive-simulate-liu-siyi-qunxiang/SKILL.md) | 用AI模拟群响刘思毅｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-tong`](skills/ai-hive-simulate-liu-tong/SKILL.md) | 用AI模拟刘同｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-weipeng`](skills/ai-hive-simulate-liu-weipeng/SKILL.md) | 用AI模拟刘未鹏｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-xiaopai`](skills/ai-hive-simulate-liu-xiaopai/SKILL.md) | 用AI模拟刘小排｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-yi-private-traffic`](skills/ai-hive-simulate-liu-yi-private-traffic/SKILL.md) | 用AI模拟私域流量池刘翌｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-liu-yuanyuan`](skills/ai-hive-simulate-liu-yuanyuan/SKILL.md) | 用AI模拟刘媛媛｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-luo-xiang-law`](skills/ai-hive-simulate-luo-xiang-law/SKILL.md) | 用AI模拟罗翔说刑法｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-luo-yonghao`](skills/ai-hive-simulate-luo-yonghao/SKILL.md) | 用AI模拟罗永浩｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-luo-zhenyu`](skills/ai-hive-simulate-luo-zhenyu/SKILL.md) | 用AI模拟罗振宇｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ma-jiahui`](skills/ai-hive-simulate-ma-jiahui/SKILL.md) | 用AI模拟马家辉｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ma-weidu`](skills/ai-hive-simulate-ma-weidu/SKILL.md) | 用AI模拟马未都｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-machine-villain-ai`](skills/ai-hive-simulate-machine-villain-ai/SKILL.md) | 用AI模拟机器坏人AI版｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-manshi-notes`](skills/ai-hive-simulate-manshi-notes/SKILL.md) | 用AI模拟漫士沉思录｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-marc-andreessen`](skills/ai-hive-simulate-marc-andreessen/SKILL.md) | 用AI模拟Marc Andreessen｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-mark-zuckerberg`](skills/ai-hive-simulate-mark-zuckerberg/SKILL.md) | 用AI模拟Mark Zuckerberg｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-masayoshi-son`](skills/ai-hive-simulate-masayoshi-son/SKILL.md) | 用AI模拟Masayoshi Son｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-matt-wolfe`](skills/ai-hive-simulate-matt-wolfe/SKILL.md) | 用AI模拟Matt Wolfe｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-max-for-ai`](skills/ai-hive-simulate-max-for-ai/SKILL.md) | 用AI模拟Max For AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-media-storm`](skills/ai-hive-simulate-media-storm/SKILL.md) | 用AI模拟影视飓风｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-meng-man`](skills/ai-hive-simulate-meng-man/SKILL.md) | 用AI模拟蒙曼｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-meng-yan`](skills/ai-hive-simulate-meng-yan/SKILL.md) | 用AI模拟孟岩｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-miles-ma`](skills/ai-hive-simulate-miles-ma/SKILL.md) | 用AI模拟Miles Ma｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ming-zheng-yan-shun`](skills/ai-hive-simulate-ming-zheng-yan-shun/SKILL.md) | 用AI模拟名郑言顺｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-mira-murati`](skills/ai-hive-simulate-mira-murati/SKILL.md) | 用AI模拟Mira Murati｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-modelscope-cn`](skills/ai-hive-simulate-modelscope-cn/SKILL.md) | 用AI模拟ModelScope魔搭｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-mofan-python`](skills/ai-hive-simulate-mofan-python/SKILL.md) | 用AI模拟莫烦Python｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-momo-ai`](skills/ai-hive-simulate-momo-ai/SKILL.md) | 用AI模拟momo子讲AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-mona-uncle`](skills/ai-hive-simulate-mona-uncle/SKILL.md) | 用AI模拟末那大叔｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-mr-an`](skills/ai-hive-simulate-mr-an/SKILL.md) | 用AI模拟安先生｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-mr-l-talk`](skills/ai-hive-simulate-mr-l-talk/SKILL.md) | 用AI模拟L先生说｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-mumu-laozei`](skills/ai-hive-simulate-mumu-laozei/SKILL.md) | 用AI模拟木木老贼｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-mustafa-suleyman`](skills/ai-hive-simulate-mustafa-suleyman/SKILL.md) | 用AI模拟Mustafa Suleyman｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-nan-kai-kou`](skills/ai-hive-simulate-nan-kai-kou/SKILL.md) | 用AI模拟楠开口｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-nat-friedman`](skills/ai-hive-simulate-nat-friedman/SKILL.md) | 用AI模拟Nat Friedman｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-naval-ravikant`](skills/ai-hive-simulate-naval-ravikant/SKILL.md) | 用AI模拟Naval Ravikant｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-nenly`](skills/ai-hive-simulate-nenly/SKILL.md) | 用AI模拟Nenly同学｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ni-shuang`](skills/ai-hive-simulate-ni-shuang/SKILL.md) | 用AI模拟倪爽｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-orange-ai`](skills/ai-hive-simulate-orange-ai/SKILL.md) | 用AI模拟Orange AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-paperclip-cn`](skills/ai-hive-simulate-paperclip-cn/SKILL.md) | 用AI模拟回形针PaperClip｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-paperweekly`](skills/ai-hive-simulate-paperweekly/SKILL.md) | 用AI模拟PaperWeekly｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-papi-jiang`](skills/ai-hive-simulate-papi-jiang/SKILL.md) | 用AI模拟papi酱｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-patrick-collison`](skills/ai-hive-simulate-patrick-collison/SKILL.md) | 用AI模拟Patrick Collison｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-paul-graham`](skills/ai-hive-simulate-paul-graham/SKILL.md) | 用AI模拟Paul Graham｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-peng-kaiping`](skills/ai-hive-simulate-peng-kaiping/SKILL.md) | 用AI模拟彭凯平｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-peng-xiaoliu`](skills/ai-hive-simulate-peng-xiaoliu/SKILL.md) | 用AI模拟彭小六｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-peng-zhihui`](skills/ai-hive-simulate-peng-zhihui/SKILL.md) | 用AI模拟稚晖君｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-peter-thiel`](skills/ai-hive-simulate-peter-thiel/SKILL.md) | 用AI模拟Peter Thiel｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-piaohan-cat`](skills/ai-hive-simulate-piaohan-cat/SKILL.md) | 用AI模拟剽悍一只猫｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-planet-institute`](skills/ai-hive-simulate-planet-institute/SKILL.md) | 用AI模拟星球研究所｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-pony-ma`](skills/ai-hive-simulate-pony-ma/SKILL.md) | 用AI模拟马化腾｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-product-jun`](skills/ai-hive-simulate-product-jun/SKILL.md) | 用AI模拟产品君｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-promptcat`](skills/ai-hive-simulate-promptcat/SKILL.md) | 用AI模拟PromptCat菩提猫｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-punk-zhou`](skills/ai-hive-simulate-punk-zhou/SKILL.md) | 用AI模拟朋克周｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-qbitai`](skills/ai-hive-simulate-qbitai/SKILL.md) | 用AI模拟量子位｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-qi-lu`](skills/ai-hive-simulate-qi-lu/SKILL.md) | 用AI模拟陆奇｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-qin-shuo`](skills/ai-hive-simulate-qin-shuo/SKILL.md) | 用AI模拟秦朔｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-qinglong-laozei`](skills/ai-hive-simulate-qinglong-laozei/SKILL.md) | 用AI模拟青龙老贼｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-qiu-xipeng`](skills/ai-hive-simulate-qiu-xipeng/SKILL.md) | 用AI模拟邱锡鹏｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-qiuy-aaaki`](skills/ai-hive-simulate-qiuy-aaaki/SKILL.md) | 用AI模拟秋葉aaaki｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-qiuyedashu`](skills/ai-hive-simulate-qiuyedashu/SKILL.md) | 用AI模拟秋叶大叔｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-qiuzhi-2046`](skills/ai-hive-simulate-qiuzhi-2046/SKILL.md) | 用AI模拟秋芝2046｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ray-kurzweil`](skills/ai-hive-simulate-ray-kurzweil/SKILL.md) | 用AI模拟Ray Kurzweil｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-rebecca-li`](skills/ai-hive-simulate-rebecca-li/SKILL.md) | 用AI模拟黎贝卡｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-reid-hoffman`](skills/ai-hive-simulate-reid-hoffman/SKILL.md) | 用AI模拟Reid Hoffman｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ren-zhengfei`](skills/ai-hive-simulate-ren-zhengfei/SKILL.md) | 用AI模拟任正非｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-richard-liu`](skills/ai-hive-simulate-richard-liu/SKILL.md) | 用AI模拟刘强东｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-richard-yu`](skills/ai-hive-simulate-richard-yu/SKILL.md) | 用AI模拟余承东｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-rick-laozhang`](skills/ai-hive-simulate-rick-laozhang/SKILL.md) | 用AI模拟瑞克老张有话说｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-rico-three-cats`](skills/ai-hive-simulate-rico-three-cats/SKILL.md) | 用AI模拟Rico有三猫｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-robin-li`](skills/ai-hive-simulate-robin-li/SKILL.md) | 用AI模拟李彦宏｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-rowan-cheung`](skills/ai-hive-simulate-rowan-cheung/SKILL.md) | 用AI模拟Rowan Cheung｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ruan-yifeng`](skills/ai-hive-simulate-ruan-yifeng/SKILL.md) | 用AI模拟阮一峰｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-ruigena`](skills/ai-hive-simulate-ruigena/SKILL.md) | 用AI模拟瑞哥那｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-sam-altman`](skills/ai-hive-simulate-sam-altman/SKILL.md) | 用AI模拟Sam Altman｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-sanbadao`](skills/ai-hive-simulate-sanbadao/SKILL.md) | 用AI模拟三把刀｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-satya-nadella`](skills/ai-hive-simulate-satya-nadella/SKILL.md) | 用AI模拟Satya Nadella｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-scalers`](skills/ai-hive-simulate-scalers/SKILL.md) | 用AI模拟Scalers｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-sergey-brin`](skills/ai-hive-simulate-sergey-brin/SKILL.md) | 用AI模拟Sergey Brin｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-seven-joy`](skills/ai-hive-simulate-seven-joy/SKILL.md) | 用AI模拟赛文乔伊｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-shao-meng`](skills/ai-hive-simulate-shao-meng/SKILL.md) | 用AI模拟shao_meng｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-shao-nan`](skills/ai-hive-simulate-shao-nan/SKILL.md) | 用AI模拟少楠｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-shen-chen`](skills/ai-hive-simulate-shen-chen/SKILL.md) | 用AI模拟申晨｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-shen-xiangyang`](skills/ai-hive-simulate-shen-xiangyang/SKILL.md) | 用AI模拟沈向洋｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-shi-zhan`](skills/ai-hive-simulate-shi-zhan/SKILL.md) | 用AI模拟施展｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-shougong-chuan`](skills/ai-hive-simulate-shougong-chuan/SKILL.md) | 用AI模拟手工川｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-shuishan-ai`](skills/ai-hive-simulate-shuishan-ai/SKILL.md) | 用AI模拟水山AI漫谈｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-silicon-valley-101`](skills/ai-hive-simulate-silicon-valley-101/SKILL.md) | 用AI模拟硅谷101｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-simon-awen`](skills/ai-hive-simulate-simon-awen/SKILL.md) | 用AI模拟Simon阿文｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-simon-sinek`](skills/ai-hive-simulate-simon-sinek/SKILL.md) | 用AI模拟Simon Sinek｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-siyu-xiao`](skills/ai-hive-simulate-siyu-xiao/SKILL.md) | 用AI模拟私域肖厂长｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-steve-wozniak`](skills/ai-hive-simulate-steve-wozniak/SKILL.md) | 用AI模拟Steve Wozniak｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-stormzhang`](skills/ai-hive-simulate-stormzhang/SKILL.md) | 用AI模拟stormzhang｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-sundar-pichai`](skills/ai-hive-simulate-sundar-pichai/SKILL.md) | 用AI模拟Sundar Pichai｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-super-brain`](skills/ai-hive-simulate-super-brain/SKILL.md) | 用AI模拟超级头脑｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-super-winnie`](skills/ai-hive-simulate-super-winnie/SKILL.md) | 用AI模拟Super Winnie｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-synced-ai`](skills/ai-hive-simulate-synced-ai/SKILL.md) | 用AI模拟机器之心｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tailfin-vicky`](skills/ai-hive-simulate-tailfin-vicky/SKILL.md) | 用AI模拟尾鳍Vicky｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-talking-ceo`](skills/ai-hive-simulate-talking-ceo/SKILL.md) | 用AI模拟自说自话的总裁｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tang-jie-ai`](skills/ai-hive-simulate-tang-jie-ai/SKILL.md) | 用AI模拟唐杰｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tangshan-laowang`](skills/ai-hive-simulate-tangshan-laowang/SKILL.md) | 用AI模拟汤山老王｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-teacher-du-aigc`](skills/ai-hive-simulate-teacher-du-aigc/SKILL.md) | 用AI模拟杜老师AIGC｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-teacher-li-yongle`](skills/ai-hive-simulate-teacher-li-yongle/SKILL.md) | 用AI模拟李永乐老师｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-teacher-wang-xun`](skills/ai-hive-simulate-teacher-wang-xun/SKILL.md) | 用AI模拟汪勋老师｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-teacher-xu-ai`](skills/ai-hive-simulate-teacher-xu-ai/SKILL.md) | 用AI模拟徐老师AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tech-aesthetics`](skills/ai-hive-simulate-tech-aesthetics/SKILL.md) | 用AI模拟科技美学｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tech-catcher`](skills/ai-hive-simulate-tech-catcher/SKILL.md) | 用AI模拟科技捕手｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tech-papaxia`](skills/ai-hive-simulate-tech-papaxia/SKILL.md) | 用AI模拟技术爬爬虾｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tim-berners-lee`](skills/ai-hive-simulate-tim-berners-lee/SKILL.md) | 用AI模拟Tim Berners-Lee｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tim-cook`](skills/ai-hive-simulate-tim-cook/SKILL.md) | 用AI模拟Tim Cook｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tim-ferriss`](skills/ai-hive-simulate-tim-ferriss/SKILL.md) | 用AI模拟Tim Ferriss｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tmtpost`](skills/ai-hive-simulate-tmtpost/SKILL.md) | 用AI模拟钛媒体｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tongji-zihao`](skills/ai-hive-simulate-tongji-zihao/SKILL.md) | 用AI模拟同济子豪兄｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-toutoutang`](skills/ai-hive-simulate-toutoutang/SKILL.md) | 用AI模拟透透堂｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tsinghua-jiang`](skills/ai-hive-simulate-tsinghua-jiang/SKILL.md) | 用AI模拟清华姜学长｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-tudou-man`](skills/ai-hive-simulate-tudou-man/SKILL.md) | 用AI模拟土豆人Tudou Man｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-turing-cat`](skills/ai-hive-simulate-turing-cat/SKILL.md) | 用AI模拟图灵的猫｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-vitalik-buterin`](skills/ai-hive-simulate-vitalik-buterin/SKILL.md) | 用AI模拟Vitalik Buterin｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wan-weigang`](skills/ai-hive-simulate-wan-weigang/SKILL.md) | 用AI模拟万维钢｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-cen`](skills/ai-hive-simulate-wang-cen/SKILL.md) | 用AI模拟王岑｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-chuanfu`](skills/ai-hive-simulate-wang-chuanfu/SKILL.md) | 用AI模拟王传福｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-haifeng`](skills/ai-hive-simulate-wang-haifeng/SKILL.md) | 用AI模拟王海峰｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-huiwen`](skills/ai-hive-simulate-wang-huiwen/SKILL.md) | 用AI模拟王慧文｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-jian`](skills/ai-hive-simulate-wang-jian/SKILL.md) | 用AI模拟王坚｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-mutou-science`](skills/ai-hive-simulate-wang-mutou-science/SKILL.md) | 用AI模拟王木头学科学｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-tao-dji`](skills/ai-hive-simulate-wang-tao-dji/SKILL.md) | 用AI模拟汪滔｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-xiao`](skills/ai-hive-simulate-wang-xiao/SKILL.md) | 用AI模拟王骁｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-xiaochuan`](skills/ai-hive-simulate-wang-xiaochuan/SKILL.md) | 用AI模拟王小川｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-xing`](skills/ai-hive-simulate-wang-xing/SKILL.md) | 用AI模拟王兴｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-xingxing`](skills/ai-hive-simulate-wang-xingxing/SKILL.md) | 用AI模拟王兴兴｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-yangming-business-ip`](skills/ai-hive-simulate-wang-yangming-business-ip/SKILL.md) | 用AI模拟王阳明商业IP｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-yuchen-ai-day`](skills/ai-hive-simulate-wang-yuchen-ai-day/SKILL.md) | 用AI模拟王宇辰我和AI的一天｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-yuquan`](skills/ai-hive-simulate-wang-yuquan/SKILL.md) | 用AI模拟王煜全｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-zhongyuan`](skills/ai-hive-simulate-wang-zhongyuan/SKILL.md) | 用AI模拟王仲远｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wang-ziru-ai`](skills/ai-hive-simulate-wang-ziru-ai/SKILL.md) | 用AI模拟王自如AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-warfalcon`](skills/ai-hive-simulate-warfalcon/SKILL.md) | 用AI模拟warfalcon｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wawa-teacher`](skills/ai-hive-simulate-wawa-teacher/SKILL.md) | 用AI模拟娃娃老师｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wen-tiejun`](skills/ai-hive-simulate-wen-tiejun/SKILL.md) | 用AI模拟温铁军｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wen-yifei-finance`](skills/ai-hive-simulate-wen-yifei-finance/SKILL.md) | 用AI模拟温义飞的急救财经｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wild-bodhisattva`](skills/ai-hive-simulate-wild-bodhisattva/SKILL.md) | 用AI模拟野菩萨｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-william-li`](skills/ai-hive-simulate-william-li/SKILL.md) | 用AI模拟李斌｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wizard-finance`](skills/ai-hive-simulate-wizard-finance/SKILL.md) | 用AI模拟巫师财经｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-woyin-ai`](skills/ai-hive-simulate-woyin-ai/SKILL.md) | 用AI模拟沃垠AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wu-bofan`](skills/ai-hive-simulate-wu-bofan/SKILL.md) | 用AI模拟吴伯凡｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wu-jun`](skills/ai-hive-simulate-wu-jun/SKILL.md) | 用AI模拟吴军｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wu-xiaobo`](skills/ai-hive-simulate-wu-xiaobo/SKILL.md) | 用AI模拟吴晓波｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wu-zhihong`](skills/ai-hive-simulate-wu-zhihong/SKILL.md) | 用AI模拟武志红｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-wukong-xiaoliang`](skills/ai-hive-simulate-wukong-xiaoliang/SKILL.md) | 用AI模拟无穷小亮｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xiang-shuai`](skills/ai-hive-simulate-xiang-shuai/SKILL.md) | 用AI模拟香帅｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xiangyang-qiaomu`](skills/ai-hive-simulate-xiangyang-qiaomu/SKILL.md) | 用AI模拟向阳乔木｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xiao-yiqun`](skills/ai-hive-simulate-xiao-yiqun/SKILL.md) | 用AI模拟肖逸群｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xiaobai-review`](skills/ai-hive-simulate-xiaobai-review/SKILL.md) | 用AI模拟小白测评｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xiaohu-ai`](skills/ai-hive-simulate-xiaohu-ai/SKILL.md) | 用AI模拟小互｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xiaolin-coding`](skills/ai-hive-simulate-xiaolin-coding/SKILL.md) | 用AI模拟小林coding｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xiaolin-says`](skills/ai-hive-simulate-xiaolin-says/SKILL.md) | 用AI模拟小Lin说｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xiaomasong`](skills/ai-hive-simulate-xiaomasong/SKILL.md) | 用AI模拟小马宋｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xiaoyuehan-khan`](skills/ai-hive-simulate-xiaoyuehan-khan/SKILL.md) | 用AI模拟小约翰可汗｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xixiaoyao-tech`](skills/ai-hive-simulate-xixiaoyao-tech/SKILL.md) | 用AI模拟夕小瑶科技说｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xu-cen`](skills/ai-hive-simulate-xu-cen/SKILL.md) | 用AI模拟许岑｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xu-jilin`](skills/ai-hive-simulate-xu-jilin/SKILL.md) | 用AI模拟许纪霖｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xu-zhibin`](skills/ai-hive-simulate-xu-zhibin/SKILL.md) | 用AI模拟徐志斌｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xu-zhiyuan`](skills/ai-hive-simulate-xu-zhiyuan/SKILL.md) | 用AI模拟许知远｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xuan-jiang`](skills/ai-hive-simulate-xuan-jiang/SKILL.md) | 用AI模拟Xuan酱｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xue-hui`](skills/ai-hive-simulate-xue-hui/SKILL.md) | 用AI模拟薛辉｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xue-zhaofeng`](skills/ai-hive-simulate-xue-zhaofeng/SKILL.md) | 用AI模拟薛兆丰｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xunkong`](skills/ai-hive-simulate-xunkong/SKILL.md) | 用AI模拟寻空｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-xuyan-late-night`](skills/ai-hive-simulate-xuyan-late-night/SKILL.md) | 用AI模拟深夜发媸徐妍｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yan-junjie`](skills/ai-hive-simulate-yan-junjie/SKILL.md) | 用AI模拟闫俊杰｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yang-buhuai`](skills/ai-hive-simulate-yang-buhuai/SKILL.md) | 用AI模拟杨不坏｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yang-shitou`](skills/ai-hive-simulate-yang-shitou/SKILL.md) | 用AI模拟杨石头｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yang-tianzhen`](skills/ai-hive-simulate-yang-tianzhen/SKILL.md) | 用AI模拟杨天真｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yang-zhilin`](skills/ai-hive-simulate-yang-zhilin/SKILL.md) | 用AI模拟杨植麟｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yang-zhiping`](skills/ai-hive-simulate-yang-zhiping/SKILL.md) | 用AI模拟阳志平｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yang-zhuyun`](skills/ai-hive-simulate-yang-zhuyun/SKILL.md) | 用AI模拟杨竹筠｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yann-lecun`](skills/ai-hive-simulate-yann-lecun/SKILL.md) | 用AI模拟Yann LeCun｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yejianghu`](skills/ai-hive-simulate-yejianghu/SKILL.md) | 用AI模拟也江湖说｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yi-gongzi`](skills/ai-hive-simulate-yi-gongzi/SKILL.md) | 用AI模拟意公子｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yi-ren`](skills/ai-hive-simulate-yi-ren/SKILL.md) | 用AI模拟亦仁｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yi-zhongtian`](skills/ai-hive-simulate-yi-zhongtian/SKILL.md) | 用AI模拟易中天｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yichen-ai`](skills/ai-hive-simulate-yichen-ai/SKILL.md) | 用AI模拟逸尘AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yige-caixiang`](skills/ai-hive-simulate-yige-caixiang/SKILL.md) | 用AI模拟衣戈猜想｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yin-ye`](skills/ai-hive-simulate-yin-ye/SKILL.md) | 用AI模拟尹烨｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yongge-catering`](skills/ai-hive-simulate-yongge-catering/SKILL.md) | 用AI模拟勇哥餐饮创业说｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yoshua-bengio`](skills/ai-hive-simulate-yoshua-bengio/SKILL.md) | 用AI模拟Yoshua Bengio｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yu-bo`](skills/ai-hive-simulate-yu-bo/SKILL.md) | 用AI模拟玉伯｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yu-minhong`](skills/ai-hive-simulate-yu-minhong/SKILL.md) | 用AI模拟俞敏洪｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yuan-lanfeng`](skills/ai-hive-simulate-yuan-lanfeng/SKILL.md) | 用AI模拟袁岚峰｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yunshu-ai-notes`](skills/ai-hive-simulate-yunshu-ai-notes/SKILL.md) | 用AI模拟云舒的AI笔记｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-yunzhong-jiangshu`](skills/ai-hive-simulate-yunzhong-jiangshu/SKILL.md) | 用AI模拟云中江树｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zang-ai`](skills/ai-hive-simulate-zang-ai/SKILL.md) | 用AI模拟葬AI｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zeng-shiqiang`](skills/ai-hive-simulate-zeng-shiqiang/SKILL.md) | 用AI模拟曾仕强｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhan-yilong`](skills/ai-hive-simulate-zhan-yilong/SKILL.md) | 用AI模拟粘一龙｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-chaoyang`](skills/ai-hive-simulate-zhang-chaoyang/SKILL.md) | 用AI模拟张朝阳｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-defen`](skills/ai-hive-simulate-zhang-defen/SKILL.md) | 用AI模拟张德芬｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-junlin`](skills/ai-hive-simulate-zhang-junlin/SKILL.md) | 用AI模拟张俊林｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-meng`](skills/ai-hive-simulate-zhang-meng/SKILL.md) | 用AI模拟张萌｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-peng-zhipu`](skills/ai-hive-simulate-zhang-peng-zhipu/SKILL.md) | 用AI模拟张鹏（智谱）｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-qi-business`](skills/ai-hive-simulate-zhang-qi-business/SKILL.md) | 用AI模拟张琦商业认知｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-xiaolong`](skills/ai-hive-simulate-zhang-xiaolong/SKILL.md) | 用AI模拟张小龙｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-xiaoyu`](skills/ai-hive-simulate-zhang-xiaoyu/SKILL.md) | 用AI模拟张潇雨｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-xuefeng`](skills/ai-hive-simulate-zhang-xuefeng/SKILL.md) | 用AI模拟张雪峰｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-yaqin`](skills/ai-hive-simulate-zhang-yaqin/SKILL.md) | 用AI模拟张亚勤｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-yiming`](skills/ai-hive-simulate-zhang-yiming/SKILL.md) | 用AI模拟张一鸣｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-yiwu`](skills/ai-hive-simulate-zhang-yiwu/SKILL.md) | 用AI模拟章义伍｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-zala`](skills/ai-hive-simulate-zhang-zala/SKILL.md) | 用AI模拟张咋啦｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhang-zhaozhong`](skills/ai-hive-simulate-zhang-zhaozhong/SKILL.md) | 用AI模拟张召忠｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhao-yuanyuan`](skills/ai-hive-simulate-zhao-yuanyuan/SKILL.md) | 用AI模拟赵圆圆｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zheng-qiang`](skills/ai-hive-simulate-zheng-qiang/SKILL.md) | 用AI模拟郑强｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhou-bowen`](skills/ai-hive-simulate-zhou-bowen/SKILL.md) | 用AI模拟周伯文｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhou-hongyi`](skills/ai-hive-simulate-zhou-hongyi/SKILL.md) | 用AI模拟周鸿祎｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhou-jingren`](skills/ai-hive-simulate-zhou-jingren/SKILL.md) | 用AI模拟周靖人｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhou-wenqiang`](skills/ai-hive-simulate-zhou-wenqiang/SKILL.md) | 用AI模拟周文强｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhou-zhihua`](skills/ai-hive-simulate-zhou-zhihua/SKILL.md) | 用AI模拟周志华｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhou-zuoluo`](skills/ai-hive-simulate-zhou-zuoluo/SKILL.md) | 用AI模拟粥左罗｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhoudao-business`](skills/ai-hive-simulate-zhoudao-business/SKILL.md) | 用AI模拟周导商业｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhu-xiaohu`](skills/ai-hive-simulate-zhu-xiaohu/SKILL.md) | 用AI模拟朱啸虎｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhuang-jun`](skills/ai-hive-simulate-zhuang-jun/SKILL.md) | 用AI模拟庄俊｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-simulate-zhuo-ke`](skills/ai-hive-simulate-zhuo-ke/SKILL.md) | 用AI模拟卓克｜AI-HIVE | methodology-advisor | public-method-research |
 | [`ai-hive-viral-editing-lab`](skills/ai-hive-viral-editing-lab/SKILL.md) | AI大模型专家｜爆款视频剪辑与原创复刻实验室 | video | ai-hive-consolidated |
 | [`ai-home-scene-motion`](skills/ai-home-scene-motion/SKILL.md) | AI大模型专家｜AI家居场景动图｜AI-HIVE MCP | ecommerce-ai-workflow | ecommerce-ai-hive |
 | [`ai-image-api-relay-alternative-ai-hive`](skills/ai-image-api-relay-alternative-ai-hive/SKILL.md) | AI大模型专家｜AI 图片 API 中转站替代方案｜AI-HIVE | workflow | relay-alternative |
