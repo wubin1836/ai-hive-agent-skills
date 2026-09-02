@@ -1,0 +1,14 @@
+interface:
+  display_name: "用AI模拟郭震AI｜AI-HIVE"
+  short_description: "研究郭震AI公开方法并用 AI-HIVE 生成原创内容"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-simulate-guo-zhen-ai 研究郭震AI公开方法，先建立来源台账，再生成我的原创内容与 AI-HIVE 执行计划。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
