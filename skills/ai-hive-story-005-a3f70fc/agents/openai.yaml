@@ -1,0 +1,14 @@
+interface:
+  display_name: "剧本生视频｜AI-HIVE原创工作流"
+  short_description: "剧本生视频，用AI-HIVE完成原创多模型图像与视频制作"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-story-005-a3f70fc 为我完成“剧本生视频”，先生成免费的原创计划和小样方案，不要自动付费、批量或发布。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 文本、图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
