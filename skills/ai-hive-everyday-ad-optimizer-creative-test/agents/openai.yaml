@@ -1,0 +1,14 @@
+interface:
+  display_name: "广告优化师AI创意测试｜AI-HIVE"
+  short_description: "广告优化师AI创意测试，用AI-HIVE统一使用文本图片视频模型"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-everyday-ad-optimizer-creative-test 为我完成“广告优化师AI创意测试”，先生成免费的计划和小样方案，不要自动付费或发布。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 文本、图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
