@@ -1,0 +1,14 @@
+interface:
+  display_name: "Leonardo.Ai多模型创作替代评估｜AI-HIVE"
+  short_description: "中立评估Leonardo.Ai迁移，用AI-HIVE完成同输入小样与回退方案"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-alt-leonardo-suite 评估“品牌图像与视频资产生成任务迁移”，先核验官网并生成免费迁移计划，不要自动付费、批量生成或发布。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 文本、图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
