@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ai-hive": {
+      "httpUrl": "https://ai-hive.iclip.cn/api/mcp",
+      "headers": {
+        "x-ai-hive-api-key": "${AI_HIVE_API_KEY}"
+      },
+      "timeout": 1200000
+    }
+  }
+}
