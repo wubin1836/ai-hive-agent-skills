@@ -1,6 +1,6 @@
 # AI Hive 完整 Skill 目录
 
-仓库当前包含 2340 个可独立安装的 Agent Skill。
+仓库当前包含 2802 个可独立安装的 Agent Skill。
 
 | Skill | 展示名称 | 类型 | 层级 |
 |---|---|---|---|
@@ -43,11 +43,401 @@
 | [`ai-fashion-tryon-motion`](skills/ai-fashion-tryon-motion/SKILL.md) | AI大模型专家｜AI服装试穿动图｜AI-HIVE MCP | ecommerce-ai-workflow | ecommerce-ai-hive |
 | [`ai-food-fluid-motion`](skills/ai-food-fluid-motion/SKILL.md) | AI大模型专家｜AI食品流体动效｜AI-HIVE MCP | ecommerce-ai-workflow | ecommerce-ai-hive |
 | [`ai-gaochao-cn-migration-ai-hive`](skills/ai-gaochao-cn-migration-ai-hive/SKILL.md) | AI大模型专家｜数标标API 替代方案｜AI-HIVE | workflow | relay-alternative |
+| [`ai-hive-advertising-002-c8910ba`](skills/ai-hive-advertising-002-c8910ba/SKILL.md) | 商品宣传短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-003-23a6911`](skills/ai-hive-advertising-003-23a6911/SKILL.md) | 宣言式概念短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-012-986329b`](skills/ai-hive-advertising-012-986329b/SKILL.md) | 主题变身特效短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-060-c891850`](skills/ai-hive-advertising-060-c891850/SKILL.md) | 多宫格生视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-085-9ff2f74`](skills/ai-hive-advertising-085-9ff2f74/SKILL.md) | 【一镜到底】广告短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-086-b4c7674`](skills/ai-hive-advertising-086-b4c7674/SKILL.md) | 原创IP全案设计（潮玩视觉语言）｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-090-77ba653`](skills/ai-hive-advertising-090-77ba653/SKILL.md) | 开箱测评种草广告视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-101-d286c12`](skills/ai-hive-advertising-101-d286c12/SKILL.md) | 电商产品视觉全案生成｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-102-178514a`](skills/ai-hive-advertising-102-178514a/SKILL.md) | 品牌 Logo 创意应用｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-103-7e9d246`](skills/ai-hive-advertising-103-7e9d246/SKILL.md) | 高级丝巾纹样与马术图形平面设计｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-104-359c71d`](skills/ai-hive-advertising-104-359c71d/SKILL.md) | 汽车/赛车宣传短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-105-e3375ff`](skills/ai-hive-advertising-105-e3375ff/SKILL.md) | 新品视觉TVC广告宣传｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-advertising-138-6a5a4a8`](skills/ai-hive-advertising-138-6a5a4a8/SKILL.md) | 字体动效广告｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-alt-adobe-firefly-workflow`](skills/ai-hive-alt-adobe-firefly-workflow/SKILL.md) | Adobe Firefly多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-akool-avatar-assets`](skills/ai-hive-alt-akool-avatar-assets/SKILL.md) | AKOOL数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-autoshorts-channel`](skills/ai-hive-alt-autoshorts-channel/SKILL.md) | AutoShorts.ai视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-bridgereel-agent`](skills/ai-hive-alt-bridgereel-agent/SKILL.md) | BridgeReel视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-canva-magic-studio`](skills/ai-hive-alt-canva-magic-studio/SKILL.md) | Canva Magic Studio多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-captions-workflow`](skills/ai-hive-alt-captions-workflow/SKILL.md) | Captions视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-chanjing-avatar-assets`](skills/ai-hive-alt-chanjing-avatar-assets/SKILL.md) | 蝉镜AI数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-colossyan-assets`](skills/ai-hive-alt-colossyan-assets/SKILL.md) | Colossyan数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-crayo-short-form`](skills/ai-hive-alt-crayo-short-form/SKILL.md) | Crayo视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-deepbrain-aistudios`](skills/ai-hive-alt-deepbrain-aistudios/SKILL.md) | AI Studios数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-descript-workflow`](skills/ai-hive-alt-descript-workflow/SKILL.md) | Descript视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-did-visual-assets`](skills/ai-hive-alt-did-visual-assets/SKILL.md) | D-ID数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-duiyou-design`](skills/ai-hive-alt-duiyou-design/SKILL.md) | 堆友多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-dzine-visual-suite`](skills/ai-hive-alt-dzine-visual-suite/SKILL.md) | Dzine多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-fengshenai-ip-video`](skills/ai-hive-alt-fengshenai-ip-video/SKILL.md) | 封神AI视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-filmora-workflow`](skills/ai-hive-alt-filmora-workflow/SKILL.md) | Filmora视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-flora-creative-canvas`](skills/ai-hive-alt-flora-creative-canvas/SKILL.md) | FLORA创意画布替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-flovaai-agent`](skills/ai-hive-alt-flovaai-agent/SKILL.md) | FlovaAI视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-freepik-ai-suite`](skills/ai-hive-alt-freepik-ai-suite/SKILL.md) | Freepik AI Suite多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-hailuo-video`](skills/ai-hive-alt-hailuo-video/SKILL.md) | Hailuo AI多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-hedra-character-assets`](skills/ai-hive-alt-hedra-character-assets/SKILL.md) | Hedra数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-heygen-ad-assets`](skills/ai-hive-alt-heygen-ad-assets/SKILL.md) | HeyGen数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-higgsfield-ads`](skills/ai-hive-alt-higgsfield-ads/SKILL.md) | Higgsfield视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-hueling-film-agent`](skills/ai-hive-alt-hueling-film-agent/SKILL.md) | HuelingAI视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-imagineart-suite`](skills/ai-hive-alt-imagineart-suite/SKILL.md) | ImagineArt多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-jimeng-suite`](skills/ai-hive-alt-jimeng-suite/SKILL.md) | 即梦AI多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-kaiber-canvas`](skills/ai-hive-alt-kaiber-canvas/SKILL.md) | Kaiber Canvas创意画布替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-katalist-storyboard`](skills/ai-hive-alt-katalist-storyboard/SKILL.md) | Katalist视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-klap-repurpose`](skills/ai-hive-alt-klap-repurpose/SKILL.md) | Klap视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-kling-video`](skills/ai-hive-alt-kling-video/SKILL.md) | Kling AI多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-krea-suite`](skills/ai-hive-alt-krea-suite/SKILL.md) | Krea多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-leonardo-suite`](skills/ai-hive-alt-leonardo-suite/SKILL.md) | Leonardo.Ai多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-libtv-agent`](skills/ai-hive-alt-libtv-agent/SKILL.md) | LibTV视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-lovart-design-agent`](skills/ai-hive-alt-lovart-design-agent/SKILL.md) | Lovart视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-luma-dream-machine`](skills/ai-hive-alt-luma-dream-machine/SKILL.md) | Luma Dream Machine多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-masous-drama-agent`](skills/ai-hive-alt-masous-drama-agent/SKILL.md) | Masous视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-meitu-kaipai`](skills/ai-hive-alt-meitu-kaipai/SKILL.md) | 美图开拍数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-meitu-whee`](skills/ai-hive-alt-meitu-whee/SKILL.md) | 美图WHEE多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-miaochuang-video`](skills/ai-hive-alt-miaochuang-video/SKILL.md) | 秒创视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-moki-video`](skills/ai-hive-alt-moki-video/SKILL.md) | MOKI视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-mootion-story-agent`](skills/ai-hive-alt-mootion-story-agent/SKILL.md) | Mootion视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-mosaic-motion-agent`](skills/ai-hive-alt-mosaic-motion-agent/SKILL.md) | Mosaic Motion创意画布替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-nuyun-model-suite`](skills/ai-hive-alt-nuyun-model-suite/SKILL.md) | 怒云AI多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-oiioii-agent-canvas`](skills/ai-hive-alt-oiioii-agent-canvas/SKILL.md) | OiiOii创意画布替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-openart-story`](skills/ai-hive-alt-openart-story/SKILL.md) | OpenArt Story视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-opusclip-repurpose`](skills/ai-hive-alt-opusclip-repurpose/SKILL.md) | OpusClip视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-photoroom-commerce`](skills/ai-hive-alt-photoroom-commerce/SKILL.md) | Photoroom多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-pika-video`](skills/ai-hive-alt-pika-video/SKILL.md) | Pika多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-pippit-ecommerce-agent`](skills/ai-hive-alt-pippit-ecommerce-agent/SKILL.md) | Pippit视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-pixmax-workflow`](skills/ai-hive-alt-pixmax-workflow/SKILL.md) | Pixmax视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-pixverse-video`](skills/ai-hive-alt-pixverse-video/SKILL.md) | PixVerse多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-pollo-model-suite`](skills/ai-hive-alt-pollo-model-suite/SKILL.md) | Pollo AI多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-quso-repurpose`](skills/ai-hive-alt-quso-repurpose/SKILL.md) | Quso.ai视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-recraft-brand-assets`](skills/ai-hive-alt-recraft-brand-assets/SKILL.md) | Recraft多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-revid-short-video`](skills/ai-hive-alt-revid-short-video/SKILL.md) | Revid.ai视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-runway-agent`](skills/ai-hive-alt-runway-agent/SKILL.md) | Runway Agent视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-scriptmotion-agency`](skills/ai-hive-alt-scriptmotion-agency/SKILL.md) | ScriptMotion视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-seaart-suite`](skills/ai-hive-alt-seaart-suite/SKILL.md) | SeaArt AI多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-shanjian-video`](skills/ai-hive-alt-shanjian-video/SKILL.md) | 闪剪智能数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-shortai-channel`](skills/ai-hive-alt-shortai-channel/SKILL.md) | Short AI视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-skyreels-video-suite`](skills/ai-hive-alt-skyreels-video-suite/SKILL.md) | SkyReels多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-storyboardcanvas-workflow`](skills/ai-hive-alt-storyboardcanvas-workflow/SKILL.md) | StoryboardCanvas创意画布替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-submagic-repurpose`](skills/ai-hive-alt-submagic-repurpose/SKILL.md) | Submagic视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-synthesia-assets`](skills/ai-hive-alt-synthesia-assets/SKILL.md) | Synthesia数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-tapnow-canvas`](skills/ai-hive-alt-tapnow-canvas/SKILL.md) | TapNow创意画布替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-tavus-assets`](skills/ai-hive-alt-tavus-assets/SKILL.md) | Tavus数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-tencent-zenvideo`](skills/ai-hive-alt-tencent-zenvideo/SKILL.md) | 腾讯智影视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-tensorart-suite`](skills/ai-hive-alt-tensorart-suite/SKILL.md) | Tensor.Art多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-tongyi-wanxiang`](skills/ai-hive-alt-tongyi-wanxiang/SKILL.md) | 通义万相多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-veed-workflow`](skills/ai-hive-alt-veed-workflow/SKILL.md) | VEED AI视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-vidu-video`](skills/ai-hive-alt-vidu-video/SKILL.md) | Vidu AI多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-virbo-avatar-assets`](skills/ai-hive-alt-virbo-avatar-assets/SKILL.md) | Virbo数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-vizard-repurpose`](skills/ai-hive-alt-vizard-repurpose/SKILL.md) | Vizard视频工作流组合替代｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-weavy-workflow`](skills/ai-hive-alt-weavy-workflow/SKILL.md) | Weavy创意画布替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-wondershare-tianmu`](skills/ai-hive-alt-wondershare-tianmu/SKILL.md) | 万兴天幕多模型创作替代评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-wondershare-virbo-cn`](skills/ai-hive-alt-wondershare-virbo-cn/SKILL.md) | 万兴播爆数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-yanyu-tech-verify`](skills/ai-hive-alt-yanyu-tech-verify/SKILL.md) | 演雨科技产品核验与迁移评估｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-yingliuai-agent`](skills/ai-hive-alt-yingliuai-agent/SKILL.md) | 影流AI视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-yingma-short-drama`](skills/ai-hive-alt-yingma-short-drama/SKILL.md) | 小影马视频Agent替代与迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-alt-youyan3d-assets`](skills/ai-hive-alt-youyan3d-assets/SKILL.md) | 魔珐有言数字人生成层迁移｜AI-HIVE | workflow | 视频Agent与创作平台替代80 |
+| [`ai-hive-animation-069-bee9ae8`](skills/ai-hive-animation-069-bee9ae8/SKILL.md) | 次元破壁互动玩法｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-077-c53e637`](skills/ai-hive-animation-077-c53e637/SKILL.md) | 开放世界都市任务感游戏预告｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-084-a1fa37b`](skills/ai-hive-animation-084-a1fa37b/SKILL.md) | 极简赛博动画视觉语言｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-091-13cd32b`](skills/ai-hive-animation-091-13cd32b/SKILL.md) | 90s魔法少女动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-095-af8d8e5`](skills/ai-hive-animation-095-af8d8e5/SKILL.md) | 万物皆战场｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-109-572089f`](skills/ai-hive-animation-109-572089f/SKILL.md) | 火柴人破字闯关｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-110-7382dc5`](skills/ai-hive-animation-110-7382dc5/SKILL.md) | 温暖农场生活像素游戏短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-117-4215102`](skills/ai-hive-animation-117-4215102/SKILL.md) | 强透视姿态与高反差漫画动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-142-aa975f0`](skills/ai-hive-animation-142-aa975f0/SKILL.md) | 游戏Demo视频设计师｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-160-ea8eda1`](skills/ai-hive-animation-160-ea8eda1/SKILL.md) | 群像出场动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-164-c38996b`](skills/ai-hive-animation-164-c38996b/SKILL.md) | 百万主角登场动效｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-animation-167-e6ff654`](skills/ai-hive-animation-167-e6ff654/SKILL.md) | 8bit 像素复古街机导演｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
 | [`ai-hive-api-token-hub`](skills/ai-hive-api-token-hub/SKILL.md) | AI大模型专家｜API中转与 Token Hub 企业网关 | video | ai-hive-consolidated |
+| [`ai-hive-cinema-024-bd33891`](skills/ai-hive-cinema-024-bd33891/SKILL.md) | 新派武侠与民俗奇幻动作短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-025-8a89911`](skills/ai-hive-cinema-025-8a89911/SKILL.md) | 低机位冷蓝与橙色火光科幻影像｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-027-557880f`](skills/ai-hive-cinema-027-557880f/SKILL.md) | 凝视式长镜头与时空流动电影短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-028-15f7f5f`](skills/ai-hive-cinema-028-15f7f5f/SKILL.md) | 非线性梦境与心理悬疑影像｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-029-b0e7b44`](skills/ai-hive-cinema-029-b0e7b44/SKILL.md) | 冷峻精密与秩序感悬疑短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-030-88eedf6`](skills/ai-hive-cinema-030-88eedf6/SKILL.md) | 原创史前巨兽冒险世界短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-032-0b23a68`](skills/ai-hive-cinema-032-0b23a68/SKILL.md) | 水墨视觉语言武侠短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-034-26069cd`](skills/ai-hive-cinema-034-26069cd/SKILL.md) | 宏大留白与极简暗黑科幻影像｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-035-349601d`](skills/ai-hive-cinema-035-349601d/SKILL.md) | 积木材质与模块化定格感短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-039-8193503`](skills/ai-hive-cinema-039-8193503/SKILL.md) | 东方空间调度与留白武侠短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-040-e69d435`](skills/ai-hive-cinema-040-e69d435/SKILL.md) | 诗意长镜头与自然意象哲思短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-041-17f61eb`](skills/ai-hive-cinema-041-17f61eb/SKILL.md) | 高密度线条与动态张力原创动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-043-0315df8`](skills/ai-hive-cinema-043-0315df8/SKILL.md) | 心理蒙太奇与现实错位原创动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-044-6a4a43a`](skills/ai-hive-cinema-044-6a4a43a/SKILL.md) | 霓虹慢快门与抽帧都市情绪短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-045-92557a1`](skills/ai-hive-cinema-045-92557a1/SKILL.md) | 克制硬朗与成长主题西部叙事｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-046-dd26981`](skills/ai-hive-cinema-046-dd26981/SKILL.md) | 原创群像奇幻史诗短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-050-f0796a7`](skills/ai-hive-cinema-050-f0796a7/SKILL.md) | 原创心理科幻与巨构机甲动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-051-058fe22`](skills/ai-hive-cinema-051-058fe22/SKILL.md) | 高速追逐与荒漠机械废土短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-052-34317ec`](skills/ai-hive-cinema-052-34317ec/SKILL.md) | 手绘自然幻想与温情治愈动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-056-8724220`](skills/ai-hive-cinema-056-8724220/SKILL.md) | 冷峻留白与突发冲突类型短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-057-5e9a3fe`](skills/ai-hive-cinema-057-5e9a3fe/SKILL.md) | 复古奢华与忧郁流行视觉MV｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-058-8a97413`](skills/ai-hive-cinema-058-8a97413/SKILL.md) | 章节式非线性冲突与复古类型短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-059-09ca70c`](skills/ai-hive-cinema-059-09ca70c/SKILL.md) | 克制情绪与家庭关系电影短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-062-0c4041c`](skills/ai-hive-cinema-062-0c4041c/SKILL.md) | 历史象征与宏大仪式感剧情短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-063-46c5d24`](skills/ai-hive-cinema-063-46c5d24/SKILL.md) | 复古棚拍与夸张节奏功夫喜剧｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-064-b1adadc`](skills/ai-hive-cinema-064-b1adadc/SKILL.md) | 原创暗黑东方神话动作短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-065-8e872f0`](skills/ai-hive-cinema-065-8e872f0/SKILL.md) | 港式民俗恐怖喜剧｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-066-45a3fb9`](skills/ai-hive-cinema-066-45a3fb9/SKILL.md) | 传统装饰语言与手绘国风动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-067-5ee6a98`](skills/ai-hive-cinema-067-5ee6a98/SKILL.md) | 暗调家族权力与命运叙事短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-078-e4df97f`](skills/ai-hive-cinema-078-e4df97f/SKILL.md) | 华丽中性造型与剧场歌舞舞台｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-082-0447696`](skills/ai-hive-cinema-082-0447696/SKILL.md) | 经典3D日式怪谈风｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-083-af28994`](skills/ai-hive-cinema-083-af28994/SKILL.md) | 原创末日生存与机械文明动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-094-8a72b7c`](skills/ai-hive-cinema-094-8a72b7c/SKILL.md) | 自由形变线条与高能节奏原创动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-114-a8fbe05`](skills/ai-hive-cinema-114-a8fbe05/SKILL.md) | 经典百老汇美学视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-118-a808221`](skills/ai-hive-cinema-118-a808221/SKILL.md) | 未来科幻真人电影｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-119-d046509`](skills/ai-hive-cinema-119-d046509/SKILL.md) | 高饱和天空与青春光影原创动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-141-af72fa0`](skills/ai-hive-cinema-141-af72fa0/SKILL.md) | 风雨环境与群像调度武士叙事｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-143-f250f76`](skills/ai-hive-cinema-143-f250f76/SKILL.md) | 纪念碑谷式大景别西部叙事｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-145-26ee4f1`](skills/ai-hive-cinema-145-26ee4f1/SKILL.md) | 黑白默片与肢体喜剧短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-146-d50031d`](skills/ai-hive-cinema-146-d50031d/SKILL.md) | 现实主义县城与时代观察短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-147-38576ec`](skills/ai-hive-cinema-147-38576ec/SKILL.md) | 对称构图与粉彩色块叙事短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-153-9734a0c`](skills/ai-hive-cinema-153-9734a0c/SKILL.md) | 大色块东方仪式感电影短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-154-123dc35`](skills/ai-hive-cinema-154-123dc35/SKILL.md) | 主观视角与信息差心理悬疑短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-cinema-155-80c1eb0`](skills/ai-hive-cinema-155-80c1eb0/SKILL.md) | 非线性时间与实拍感科幻悬疑短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
 | [`ai-hive-comic-drama-factory`](skills/ai-hive-comic-drama-factory/SKILL.md) | AI大模型专家｜AI漫剧动态漫画制作工厂 | video | ai-hive-consolidated |
+| [`ai-hive-design-011-c71185b`](skills/ai-hive-design-011-c71185b/SKILL.md) | 超现实摄影拼贴｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-design-048-e44065f`](skills/ai-hive-design-048-e44065f/SKILL.md) | 视觉美学视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-design-073-c5cc463`](skills/ai-hive-design-073-c5cc463/SKILL.md) | 一图成片：顶级执行导演 Skill｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-design-128-5bb6f7b`](skills/ai-hive-design-128-5bb6f7b/SKILL.md) | 拼贴动画（逐字稿驱动）｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-design-136-dbc7a57`](skills/ai-hive-design-136-dbc7a57/SKILL.md) | 海报觉醒｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-design-139-ebd1edd`](skills/ai-hive-design-139-ebd1edd/SKILL.md) | 超现实波普美学概念影像生成｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-design-172-127bd2e`](skills/ai-hive-design-172-127bd2e/SKILL.md) | 国风纯意境短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
 | [`ai-hive-ecommerce-story-video`](skills/ai-hive-ecommerce-story-video/SKILL.md) | AI大模型专家｜剧情带货与电商视频工厂 | video | ai-hive-consolidated |
+| [`ai-hive-everyday-ad-optimizer-creative-test`](skills/ai-hive-everyday-ad-optimizer-creative-test/SKILL.md) | 广告优化师AI创意测试｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-administration-role-copilot`](skills/ai-hive-everyday-administration-role-copilot/SKILL.md) | 行政人员AI办公助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-after-sales-assistant`](skills/ai-hive-everyday-after-sales-assistant/SKILL.md) | 售后服务AI助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-agency-client-content`](skills/ai-hive-everyday-agency-client-content/SKILL.md) | 代理商多客户AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-ai-api-usage-billing`](skills/ai-hive-everyday-ai-api-usage-billing/SKILL.md) | AI API产品用量计费｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-ai-price-snapshot`](skills/ai-hive-everyday-ai-price-snapshot/SKILL.md) | 个人AI模型实时价格快照｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-ai-result-quality-check`](skills/ai-hive-everyday-ai-result-quality-check/SKILL.md) | 小白AI结果质量检查｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-ai-saas-mvp-validation`](skills/ai-hive-everyday-ai-saas-mvp-validation/SKILL.md) | AI SaaS MVP快速验证｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-ai-task-history-ledger`](skills/ai-hive-everyday-ai-task-history-ledger/SKILL.md) | 个人AI任务历史台账｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-ai-tool-site-backend`](skills/ai-hive-everyday-ai-tool-site-backend/SKILL.md) | AI工具站API后端｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-aliexpress-solo-seller`](skills/ai-hive-everyday-aliexpress-solo-seller/SKILL.md) | AliExpress个人卖家AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-amazon-solo-seller`](skills/ai-hive-everyday-amazon-solo-seller/SKILL.md) | 亚马逊个人卖家AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-appointment-booking-copy`](skills/ai-hive-everyday-appointment-booking-copy/SKILL.md) | 预约成交AI文案｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-avoid-duplicate-ai-charges`](skills/ai-hive-everyday-avoid-duplicate-ai-charges/SKILL.md) | 个人AI任务防重复扣费｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-b2b-company-lead-content`](skills/ai-hive-everyday-b2b-company-lead-content/SKILL.md) | B2B企业AI获客内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-batch-task-pause-resume`](skills/ai-hive-everyday-batch-task-pause-resume/SKILL.md) | 批量AI任务可暂停续跑｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-beauty-practitioner-marketing`](skills/ai-hive-everyday-beauty-practitioner-marketing/SKILL.md) | 美业从业者AI营销｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-bilibili-up-creator`](skills/ai-hive-everyday-bilibili-up-creator/SKILL.md) | 哔哩哔UP主AI创作｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-bootstrapped-saas-cost-control`](skills/ai-hive-everyday-bootstrapped-saas-cost-control/SKILL.md) | 自筹SaaS AI成本控制｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-brand-role-copilot`](skills/ai-hive-everyday-brand-role-copilot/SKILL.md) | 品牌经理AI工作台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-browser-extension-api`](skills/ai-hive-everyday-browser-extension-api/SKILL.md) | 浏览器扩展多模型API｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-chat-client-mcp-use`](skills/ai-hive-everyday-chat-client-mcp-use/SKILL.md) | 聊天客户端使用AI-HIVE｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-cheap-vs-good-model`](skills/ai-hive-everyday-cheap-vs-good-model/SKILL.md) | 便宜AI模型和好用模型怎么选｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-chrome-extension-ai`](skills/ai-hive-everyday-chrome-extension-ai/SKILL.md) | Chrome插件AI模型接入｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-cloud-drive-media-workflow`](skills/ai-hive-everyday-cloud-drive-media-workflow/SKILL.md) | 网盘素材AI生产流程｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-community-operator-calendar`](skills/ai-hive-everyday-community-operator-calendar/SKILL.md) | 社群运营师AI内容排期｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-community-qna-assistant`](skills/ai-hive-everyday-community-qna-assistant/SKILL.md) | 社群问答AI助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-company-ai-first-project`](skills/ai-hive-everyday-company-ai-first-project/SKILL.md) | 普通企业第一个AI项目｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-company-brochure-content`](skills/ai-hive-everyday-company-brochure-content/SKILL.md) | 企业宣传册AI生成｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-company-model-spend-ledger`](skills/ai-hive-everyday-company-model-spend-ledger/SKILL.md) | 小公司AI成本台账｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-company-promo-video`](skills/ai-hive-everyday-company-promo-video/SKILL.md) | 小企业AI宣传片｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-company-weekly-report`](skills/ai-hive-everyday-company-weekly-report/SKILL.md) | 小微企业AI周报复盘｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-consultant-research-proposal`](skills/ai-hive-everyday-consultant-research-proposal/SKILL.md) | 咨询顾问AI研究与提案｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-copywriter-proposal-tool`](skills/ai-hive-everyday-copywriter-proposal-tool/SKILL.md) | 文案策划AI提案工具｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-creator-comment-insights`](skills/ai-hive-everyday-creator-comment-insights/SKILL.md) | 创作者评论区AI选题｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-creator-commerce-workflow`](skills/ai-hive-everyday-creator-commerce-workflow/SKILL.md) | 达人带货多模型工作流｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-creator-model-budget`](skills/ai-hive-everyday-creator-model-budget/SKILL.md) | 自媒体AI模型预算｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-creator-sponsorship-kit`](skills/ai-hive-everyday-creator-sponsorship-kit/SKILL.md) | 博主商单AI提案包｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-cross-department-handoff`](skills/ai-hive-everyday-cross-department-handoff/SKILL.md) | 跨部门AI任务交接｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-crossborder-ad-variants`](skills/ai-hive-everyday-crossborder-ad-variants/SKILL.md) | 跨境广告AI多市场变体｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-crossborder-brand-story`](skills/ai-hive-everyday-crossborder-brand-story/SKILL.md) | 跨境个人卖家AI品牌故事｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-crossborder-launch-calendar`](skills/ai-hive-everyday-crossborder-launch-calendar/SKILL.md) | 跨境新品AI上市日历｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-crossborder-solo-seller`](skills/ai-hive-everyday-crossborder-solo-seller/SKILL.md) | 跨境个人卖家AI工作台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-crossborder-ugc-brief`](skills/ai-hive-everyday-crossborder-ugc-brief/SKILL.md) | 跨境UGC达人AI简报｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-customer-faq-builder`](skills/ai-hive-everyday-customer-faq-builder/SKILL.md) | 客户FAQ AI知识库｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-customer-feedback-insights`](skills/ai-hive-everyday-customer-feedback-insights/SKILL.md) | 客户反馈AI洞察｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-customer-objection-library`](skills/ai-hive-everyday-customer-objection-library/SKILL.md) | 客户异议AI话术库｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-customer-success-review`](skills/ai-hive-everyday-customer-success-review/SKILL.md) | 客户成功AI周期复盘｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-dealer-marketing-kit`](skills/ai-hive-everyday-dealer-marketing-kit/SKILL.md) | 经销商AI营销素材｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-developer-role-copilot`](skills/ai-hive-everyday-developer-role-copilot/SKILL.md) | 企业开发AI编程助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-digital-product-delivery`](skills/ai-hive-everyday-digital-product-delivery/SKILL.md) | 数字产品AI自动交付｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-dingtalk-bot-models`](skills/ai-hive-everyday-dingtalk-bot-models/SKILL.md) | 钉钉机器人AI接口｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-discord-bot-models`](skills/ai-hive-everyday-discord-bot-models/SKILL.md) | Discord Bot AI接口｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-document-to-social-assets`](skills/ai-hive-everyday-document-to-social-assets/SKILL.md) | 文档AI生成社媒素材｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-douyin-creator-hub`](skills/ai-hive-everyday-douyin-creator-hub/SKILL.md) | 抖音博主AI内容中台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-email-draft-assistant`](skills/ai-hive-everyday-email-draft-assistant/SKILL.md) | 商务邮件AI草稿｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-employee-ai-training`](skills/ai-hive-everyday-employee-ai-training/SKILL.md) | 普通员工AI入门培训｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-etsy-creator-seller`](skills/ai-hive-everyday-etsy-creator-seller/SKILL.md) | Etsy创意卖家AI店铺内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-excel-analysis-draft`](skills/ai-hive-everyday-excel-analysis-draft/SKILL.md) | 表格数据AI分析草稿｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-executive-briefing`](skills/ai-hive-everyday-executive-briefing/SKILL.md) | 管理层AI经营简报｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-faceless-content-creator`](skills/ai-hive-everyday-faceless-content-creator/SKILL.md) | 无真人出镜AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-factory-product-content`](skills/ai-hive-everyday-factory-product-content/SKILL.md) | 工厂AI产品内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-feishu-app-models`](skills/ai-hive-everyday-feishu-app-models/SKILL.md) | 飞书应用AI模型接入｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-finance-role-copilot`](skills/ai-hive-everyday-finance-role-copilot/SKILL.md) | 财务人员AI资料助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-first-ai-api-buying-guide`](skills/ai-hive-everyday-first-ai-api-buying-guide/SKILL.md) | 个人第一次购买AI API｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-first-time-budget-gate`](skills/ai-hive-everyday-first-time-budget-gate/SKILL.md) | 第一次用AI预算门禁｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-fitness-coach-acquisition`](skills/ai-hive-everyday-fitness-coach-acquisition/SKILL.md) | 健身教练AI获客素材｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-follow-up-message-drafts`](skills/ai-hive-everyday-follow-up-message-drafts/SKILL.md) | 客户跟进AI话术｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-form-to-ai-deliverable`](skills/ai-hive-everyday-form-to-ai-deliverable/SKILL.md) | 问卷表单AI自动交付｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-franchise-content-control`](skills/ai-hive-everyday-franchise-content-control/SKILL.md) | 连锁加盟AI内容管理｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-freelance-client-onboarding`](skills/ai-hive-everyday-freelance-client-onboarding/SKILL.md) | 自由职业客户AI入驻｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-freelance-portfolio-builder`](skills/ai-hive-everyday-freelance-portfolio-builder/SKILL.md) | 自由职业作品集AI制作｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-freelancer-ai-workbench`](skills/ai-hive-everyday-freelancer-ai-workbench/SKILL.md) | 自由职业者AI工作台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-freelancer-model-budget`](skills/ai-hive-everyday-freelancer-model-budget/SKILL.md) | 自由职业者AI成本核算｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-general-manager-analysis`](skills/ai-hive-everyday-general-manager-analysis/SKILL.md) | 总经理AI经营分析｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-global-social-content`](skills/ai-hive-everyday-global-social-content/SKILL.md) | 出海个人IP AI社媒内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-global-solo-business-kit`](skills/ai-hive-everyday-global-solo-business-kit/SKILL.md) | 一人出海生意AI工具包｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-graphic-commerce-factory`](skills/ai-hive-everyday-graphic-commerce-factory/SKILL.md) | 图文带货AI内容工厂｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-hackathon-prototype`](skills/ai-hive-everyday-hackathon-prototype/SKILL.md) | Hackathon AI原型加速｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-headhunter-communication`](skills/ai-hive-everyday-headhunter-communication/SKILL.md) | 猎头顾问AI候选人沟通｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-home-service-leads`](skills/ai-hive-everyday-home-service-leads/SKILL.md) | 家政创业者AI获客｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-host-script-assets`](skills/ai-hive-everyday-host-script-assets/SKILL.md) | 主播AI脚本与素材｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-hr-role-copilot`](skills/ai-hive-everyday-hr-role-copilot/SKILL.md) | 人力资源AI工作助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-image-model-choice`](skills/ai-hive-everyday-image-model-choice/SKILL.md) | 个人AI图片模型怎么选｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-independent-designer-hub`](skills/ai-hive-everyday-independent-designer-hub/SKILL.md) | 独立设计师多模型工作台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-independent-store-ads`](skills/ai-hive-everyday-independent-store-ads/SKILL.md) | 跨境独立站AI广告素材｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-indie-developer-multi-model-api`](skills/ai-hive-everyday-indie-developer-multi-model-api/SKILL.md) | 独立开发者多模型API｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-indie-hacker-gateway`](skills/ai-hive-everyday-indie-hacker-gateway/SKILL.md) | Indie Hacker模型网关｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-instagram-solo-brand`](skills/ai-hive-everyday-instagram-solo-brand/SKILL.md) | Instagram个人品牌AI视觉｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-insurance-agent-marketing`](skills/ai-hive-everyday-insurance-agent-marketing/SKILL.md) | 保险经纪人AI营销助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-intelligent-customer-service`](skills/ai-hive-everyday-intelligent-customer-service/SKILL.md) | 个体商家AI智能客服｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-internal-announcement-draft`](skills/ai-hive-everyday-internal-announcement-draft/SKILL.md) | 企业内部通知AI草稿｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-job-sop-builder`](skills/ai-hive-everyday-job-sop-builder/SKILL.md) | 岗位SOP AI生成｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-knowledge-product-production`](skills/ai-hive-everyday-knowledge-product-production/SKILL.md) | 知识付费产品AI生产｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-lawyer-personal-brand`](skills/ai-hive-everyday-lawyer-personal-brand/SKILL.md) | 律师个人品牌AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-lazada-solo-seller`](skills/ai-hive-everyday-lazada-solo-seller/SKILL.md) | Lazada个人卖家AI素材｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-lead-qualification`](skills/ai-hive-everyday-lead-qualification/SKILL.md) | 销售线索AI资格判断｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-linkedin-solo-founder`](skills/ai-hive-everyday-linkedin-solo-founder/SKILL.md) | LinkedIn独立创业者AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-live-commerce-content-hub`](skills/ai-hive-everyday-live-commerce-content-hub/SKILL.md) | 直播带货AI素材中台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-local-service-content`](skills/ai-hive-everyday-local-service-content/SKILL.md) | 本地服务商AI内容获客｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-low-cost-ai-startup`](skills/ai-hive-everyday-low-cost-ai-startup/SKILL.md) | 低成本AI创业模型库｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-marketing-role-copilot`](skills/ai-hive-everyday-marketing-role-copilot/SKILL.md) | 市场专员AI工作助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-meeting-summary-actions`](skills/ai-hive-everyday-meeting-summary-actions/SKILL.md) | 企业会议AI纪要与行动｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-micro-saas-relay`](skills/ai-hive-everyday-micro-saas-relay/SKILL.md) | Micro SaaS模型中转站｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-mobile-ai-workbench`](skills/ai-hive-everyday-mobile-ai-workbench/SKILL.md) | 手机上使用AI-HIVE多模型｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-model-switch-without-rework`](skills/ai-hive-everyday-model-switch-without-rework/SKILL.md) | 换AI模型不重做工作流｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-model-trial-scorecard`](skills/ai-hive-everyday-model-trial-scorecard/SKILL.md) | 个人AI模型试用评分卡｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-moments-private-content`](skills/ai-hive-everyday-moments-private-content/SKILL.md) | 私域朋友圈AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-monthly-ai-budget`](skills/ai-hive-everyday-monthly-ai-budget/SKILL.md) | 个人AI每月预算控制｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-multi-subscription-consolidation`](skills/ai-hive-everyday-multi-subscription-consolidation/SKILL.md) | 个人多个AI会员费整合｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-multilingual-customer-service`](skills/ai-hive-everyday-multilingual-customer-service/SKILL.md) | 跨境个体多语AI客服｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-multilingual-product-page`](skills/ai-hive-everyday-multilingual-product-page/SKILL.md) | 跨境商品页AI多语本地化｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-no-code-ai-hive-start`](skills/ai-hive-everyday-no-code-ai-hive-start/SKILL.md) | 不会编程也能用AI-HIVE｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-no-code-content-batch`](skills/ai-hive-everyday-no-code-content-batch/SKILL.md) | 零代码AI内容批量生成｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-no-self-hosted-model`](skills/ai-hive-everyday-no-self-hosted-model/SKILL.md) | 小公司无需自建模型｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-nontechnical-copy-image-video`](skills/ai-hive-everyday-nontechnical-copy-image-video/SKILL.md) | 小白图文视频一站式AI｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-nontechnical-image-generation`](skills/ai-hive-everyday-nontechnical-image-generation/SKILL.md) | 小白AI图片生成｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-nontechnical-video-generation`](skills/ai-hive-everyday-nontechnical-video-generation/SKILL.md) | 小白AI视频生成｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-notion-plugin-ai`](skills/ai-hive-everyday-notion-plugin-ai/SKILL.md) | Notion插件AI能力｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-oauth-mcp-login`](skills/ai-hive-everyday-oauth-mcp-login/SKILL.md) | 普通用户OAuth绑定AI-HIVE MCP｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-office-document-assistant`](skills/ai-hive-everyday-office-document-assistant/SKILL.md) | 普通员工AI文档助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-one-person-ai-team`](skills/ai-hive-everyday-one-person-ai-team/SKILL.md) | 一人公司AI员工团队｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-one-person-company-workflow`](skills/ai-hive-everyday-one-person-company-workflow/SKILL.md) | 一个人做公司的AI工作流｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-one-prompt-first-result`](skills/ai-hive-everyday-one-prompt-first-result/SKILL.md) | 一句话开始用多模型｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-one-source-multi-platform`](skills/ai-hive-everyday-one-source-multi-platform/SKILL.md) | 一稿多发AI素材改编｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-online-course-creator`](skills/ai-hive-everyday-online-course-creator/SKILL.md) | 在线课程AI内容生产｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-opc-multi-model-workbench`](skills/ai-hive-everyday-opc-multi-model-workbench/SKILL.md) | OPC一人公司多模型工作台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-open-source-cloud-models`](skills/ai-hive-everyday-open-source-cloud-models/SKILL.md) | 开源项目云模型接入｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-operations-role-copilot`](skills/ai-hive-everyday-operations-role-copilot/SKILL.md) | 运营专员AI日常助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-paid-community-operations`](skills/ai-hive-everyday-paid-community-operations/SKILL.md) | 付费社群AI内容运营｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-pay-as-you-go-ai`](skills/ai-hive-everyday-pay-as-you-go-ai/SKILL.md) | 个人按量使用多模型｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-personal-ai-usage-ledger`](skills/ai-hive-everyday-personal-ai-usage-ledger/SKILL.md) | 个人AI用量账本｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-personal-ai-value-review`](skills/ai-hive-everyday-personal-ai-value-review/SKILL.md) | 个人AI投入产出复盘｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-personal-api-key-safety`](skills/ai-hive-everyday-personal-api-key-safety/SKILL.md) | 个人AI API Key安全管理｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-personal-brand-zero-to-one`](skills/ai-hive-everyday-personal-brand-zero-to-one/SKILL.md) | 个人品牌从0到1｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-personal-coach-lead-content`](skills/ai-hive-everyday-personal-coach-lead-content/SKILL.md) | 个人教练AI获客内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-personal-model-fallback`](skills/ai-hive-everyday-personal-model-fallback/SKILL.md) | 个人AI模型备用方案｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-personal-model-selector`](skills/ai-hive-everyday-personal-model-selector/SKILL.md) | 个人AI模型选择器｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-personal-startup-toolkit`](skills/ai-hive-everyday-personal-startup-toolkit/SKILL.md) | 个人创业AI工具箱｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-personal-studio-infrastructure`](skills/ai-hive-everyday-personal-studio-infrastructure/SKILL.md) | 个人工作室AI基础设施｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-photographer-post-marketing`](skills/ai-hive-everyday-photographer-post-marketing/SKILL.md) | 摄影师AI后期与营销｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-pitch-deck-assets`](skills/ai-hive-everyday-pitch-deck-assets/SKILL.md) | 创业路演PPT与宣传素材｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-ppt-outline-visuals`](skills/ai-hive-everyday-ppt-outline-visuals/SKILL.md) | PPT大纲与配图AI助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-ppt-to-short-video`](skills/ai-hive-everyday-ppt-to-short-video/SKILL.md) | PPT一键转AI短视频｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-private-domain-content-calendar`](skills/ai-hive-everyday-private-domain-content-calendar/SKILL.md) | 私域AI内容日历｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-private-domain-operator`](skills/ai-hive-everyday-private-domain-operator/SKILL.md) | 私域运营AI工作台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-procurement-role-copilot`](skills/ai-hive-everyday-procurement-role-copilot/SKILL.md) | 采购人员AI比价助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-product-manager-copilot`](skills/ai-hive-everyday-product-manager-copilot/SKILL.md) | 产品经理AI需求助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-product-selection-testing`](skills/ai-hive-everyday-product-selection-testing/SKILL.md) | 选品测款AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-project-manager-copilot`](skills/ai-hive-everyday-project-manager-copilot/SKILL.md) | 项目经理AI交付助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-prompt-template-personal-library`](skills/ai-hive-everyday-prompt-template-personal-library/SKILL.md) | 个人AI提示词模板库｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-real-estate-agent-ip`](skills/ai-hive-everyday-real-estate-agent-ip/SKILL.md) | 房产经纪个人IP AI助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-sales-call-prep`](skills/ai-hive-everyday-sales-call-prep/SKILL.md) | 客户拜访AI准备｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-sales-content-repurpose`](skills/ai-hive-everyday-sales-content-repurpose/SKILL.md) | 销售案例AI多格式改编｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-sales-demo-assets`](skills/ai-hive-everyday-sales-demo-assets/SKILL.md) | 销售演示AI素材包｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-sales-proposal-personalization`](skills/ai-hive-everyday-sales-proposal-personalization/SKILL.md) | 销售提案AI个性化｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-sales-team-copilot`](skills/ai-hive-everyday-sales-team-copilot/SKILL.md) | 销售团队多模型副驾｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-service-company-delivery`](skills/ai-hive-everyday-service-company-delivery/SKILL.md) | 服务型公司AI交付助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-shopee-solo-seller`](skills/ai-hive-everyday-shopee-solo-seller/SKILL.md) | Shopee个人卖家AI上新｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-shopify-app-ai`](skills/ai-hive-everyday-shopify-app-ai/SKILL.md) | Shopify App AI能力｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-shopify-solo-store`](skills/ai-hive-everyday-shopify-solo-store/SKILL.md) | Shopify独立站个人运营｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-short-video-commerce-batch`](skills/ai-hive-everyday-short-video-commerce-batch/SKILL.md) | 短视频带货批量生产｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-side-hustle-ai-assistant`](skills/ai-hive-everyday-side-hustle-ai-assistant/SKILL.md) | 副业创业多模型助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-small-boss-business-assistant`](skills/ai-hive-everyday-small-boss-business-assistant/SKILL.md) | 小老板AI经营助理｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-small-business-shared-ai`](skills/ai-hive-everyday-small-business-shared-ai/SKILL.md) | 小微企业共享AI模型｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-small-company-knowledge-base`](skills/ai-hive-everyday-small-company-knowledge-base/SKILL.md) | 小公司AI知识库｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-small-mcn-model-hub`](skills/ai-hive-everyday-small-mcn-model-hub/SKILL.md) | 小型MCN多模型中台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-sme-ai-cost-reduction`](skills/ai-hive-everyday-sme-ai-cost-reduction/SKILL.md) | 中小企业AI降本方案｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-solo-content-line`](skills/ai-hive-everyday-solo-content-line/SKILL.md) | 单人团队内容生产线｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-solo-founder-api`](skills/ai-hive-everyday-solo-founder-api/SKILL.md) | 独立创业者AI API｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-solo-host-ai-team`](skills/ai-hive-everyday-solo-host-ai-team/SKILL.md) | 个人主播AI数字团队｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-solo-sales-assistant`](skills/ai-hive-everyday-solo-sales-assistant/SKILL.md) | 个人销售AI助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-spreadsheet-to-content`](skills/ai-hive-everyday-spreadsheet-to-content/SKILL.md) | 表格一键生成AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-startup-market-research`](skills/ai-hive-everyday-startup-market-research/SKILL.md) | 创业项目市场调研｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-startup-model-procurement`](skills/ai-hive-everyday-startup-model-procurement/SKILL.md) | 创业公司AI模型采购｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-startup-mvp-fast-build`](skills/ai-hive-everyday-startup-mvp-fast-build/SKILL.md) | 创业MVP快速生成｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-startup-shared-models`](skills/ai-hive-everyday-startup-shared-models/SKILL.md) | 初创团队共享AI模型｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-store-reception-script`](skills/ai-hive-everyday-store-reception-script/SKILL.md) | 门店接待AI话术｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-student-entrepreneur-models`](skills/ai-hive-everyday-student-entrepreneur-models/SKILL.md) | 学生创业AI模型方案｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-study-abroad-consultant`](skills/ai-hive-everyday-study-abroad-consultant/SKILL.md) | 留学顾问AI内容助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-super-individual-ai-desk`](skills/ai-hive-everyday-super-individual-ai-desk/SKILL.md) | 超级个体AI工作台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-talking-head-solo-production`](skills/ai-hive-everyday-talking-head-solo-production/SKILL.md) | 口播视频一人制作｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-tax-consultant-content`](skills/ai-hive-everyday-tax-consultant-content/SKILL.md) | 财税顾问AI内容营销｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-telegram-bot-models`](skills/ai-hive-everyday-telegram-bot-models/SKILL.md) | Telegram Bot多模型接入｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-template-repeatable-ai`](skills/ai-hive-everyday-template-repeatable-ai/SKILL.md) | 可复用AI任务模板｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-ten-person-company-ai`](skills/ai-hive-everyday-ten-person-company-ai/SKILL.md) | 10人公司AI工作台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-text-model-choice`](skills/ai-hive-everyday-text-model-choice/SKILL.md) | 个人文本大模型怎么选｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-tiktok-shop-solo`](skills/ai-hive-everyday-tiktok-shop-solo/SKILL.md) | TikTok Shop个人店AI带货｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-tiktok-solo-creator`](skills/ai-hive-everyday-tiktok-solo-creator/SKILL.md) | TikTok个人创作者AI助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-tiny-team-ai-hub`](skills/ai-hive-everyday-tiny-team-ai-hub/SKILL.md) | 两三人创业团队AI中台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-traditional-business-ai-upgrade`](skills/ai-hive-everyday-traditional-business-ai-upgrade/SKILL.md) | 传统企业AI内容升级｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-trainer-course-assistant`](skills/ai-hive-everyday-trainer-course-assistant/SKILL.md) | 企业培训师AI课程助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-twenty-person-company-hub`](skills/ai-hive-everyday-twenty-person-company-hub/SKILL.md) | 20人公司多模型中台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-url-to-content-draft`](skills/ai-hive-everyday-url-to-content-draft/SKILL.md) | 网页链接AI内容改编｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-video-editor-assistant`](skills/ai-hive-everyday-video-editor-assistant/SKILL.md) | 视频剪辑师AI素材助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-video-model-choice`](skills/ai-hive-everyday-video-model-choice/SKILL.md) | 个人AI视频模型怎么选｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-viral-remake-workflow`](skills/ai-hive-everyday-viral-remake-workflow/SKILL.md) | 爆款拆解复刻AI工作流｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-wechat-article-author`](skills/ai-hive-everyday-wechat-article-author/SKILL.md) | 公众号作者AI内容助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-wechat-bot-models`](skills/ai-hive-everyday-wechat-bot-models/SKILL.md) | 微信机器人多模型接口｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-wechat-channels-creator`](skills/ai-hive-everyday-wechat-channels-creator/SKILL.md) | 视频号创作者AI助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-wechat-miniapp-ai`](skills/ai-hive-everyday-wechat-miniapp-ai/SKILL.md) | 微信小程序AI能力接入｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-wecom-app-models`](skills/ai-hive-everyday-wecom-app-models/SKILL.md) | 企业微信应用AI能力｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-wecom-sales-content`](skills/ai-hive-everyday-wecom-sales-content/SKILL.md) | 企业微信销售AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-weekly-report-generator`](skills/ai-hive-everyday-weekly-report-generator/SKILL.md) | 员工AI周报生成｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-whatsapp-sales-assistant`](skills/ai-hive-everyday-whatsapp-sales-assistant/SKILL.md) | WhatsApp销售AI助手｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-wordpress-ai-content`](skills/ai-hive-everyday-wordpress-ai-content/SKILL.md) | WordPress AI内容接口｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-work-buddy-mcp-use`](skills/ai-hive-everyday-work-buddy-mcp-use/SKILL.md) | Work Buddy连接AI-HIVE｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-x-twitter-builder`](skills/ai-hive-everyday-x-twitter-builder/SKILL.md) | X/Twitter独立开发者AI内容｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-xiaohongshu-creator-desk`](skills/ai-hive-everyday-xiaohongshu-creator-desk/SKILL.md) | 小红书博主AI工作台｜AI-HIVE | workflow | 普通企业超级个体场景210 |
+| [`ai-hive-everyday-youtube-solo-channel`](skills/ai-hive-everyday-youtube-solo-channel/SKILL.md) | YouTube个人频道AI生产｜AI-HIVE | workflow | 普通企业超级个体场景210 |
 | [`ai-hive-geo-aeo-content-growth`](skills/ai-hive-geo-aeo-content-growth/SKILL.md) | AI大模型专家｜GEO AEO 内容增长中心 | video | ai-hive-consolidated |
 | [`ai-hive-multimodal-creative-toolkit`](skills/ai-hive-multimodal-creative-toolkit/SKILL.md) | AI-HIVE 多模态创意工具箱 | multimodal | viral-workflow |
+| [`ai-hive-music-video-080-d39ff57`](skills/ai-hive-music-video-080-d39ff57/SKILL.md) | 日系青春偶像MV｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-music-video-081-4afb33a`](skills/ai-hive-music-video-081-4afb33a/SKILL.md) | 多视觉语言MV混剪工厂｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-music-video-106-826c2a2`](skills/ai-hive-music-video-106-826c2a2/SKILL.md) | 韩流音乐节目式多机位舞台视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-music-video-107-3c19f7d`](skills/ai-hive-music-video-107-3c19f7d/SKILL.md) | Y2K 3D 卡通 MV｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-music-video-108-24336be`](skills/ai-hive-music-video-108-24336be/SKILL.md) | 音乐MV｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-music-video-112-0615ffa`](skills/ai-hive-music-video-112-0615ffa/SKILL.md) | 平面插画自动编舞跳舞MV｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-music-video-113-fa11f0a`](skills/ai-hive-music-video-113-fa11f0a/SKILL.md) | 史诗管弦结构与渐进节奏视觉MV｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-music-video-115-5ce2d4b`](skills/ai-hive-music-video-115-5ce2d4b/SKILL.md) | 经典日漫 OP/ED 制作｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-product-016-6425ca2`](skills/ai-hive-product-016-6425ca2/SKILL.md) | 万物拆解 · MR变形短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-product-087-b0ce3cf`](skills/ai-hive-product-087-b0ce3cf/SKILL.md) | 工业产品商业宣传片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-product-088-02edba1`](skills/ai-hive-product-088-02edba1/SKILL.md) | 时装展示短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-product-097-f81d0d1`](skills/ai-hive-product-097-f81d0d1/SKILL.md) | 十二镜首饰细节与佩戴场景广告｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-product-098-a8d7606`](skills/ai-hive-product-098-a8d7606/SKILL.md) | 数字人商品口播｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-product-099-dcc4f49`](skills/ai-hive-product-099-dcc4f49/SKILL.md) | 高能卡点运镜视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-004-33636fd`](skills/ai-hive-short-drama-004-33636fd/SKILL.md) | 3D国漫古装精品短剧｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-009-601b2b9`](skills/ai-hive-short-drama-009-601b2b9/SKILL.md) | 韩剧质感小剧场｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-021-b83d45c`](skills/ai-hive-short-drama-021-b83d45c/SKILL.md) | 暧昧氛围感短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-023-4ad496c`](skills/ai-hive-short-drama-023-4ad496c/SKILL.md) | 短剧前期视觉开发素材包｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-026-a6bc455`](skills/ai-hive-short-drama-026-a6bc455/SKILL.md) | 剧本杀故事视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-075-71181fc`](skills/ai-hive-short-drama-075-71181fc/SKILL.md) | 根据剧本制作多集短剧｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-076-a050bc0`](skills/ai-hive-short-drama-076-a050bc0/SKILL.md) | 古风甜宠短剧｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-089-b519f8d`](skills/ai-hive-short-drama-089-b519f8d/SKILL.md) | 短剧全流程制作｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-116-2f38e41`](skills/ai-hive-short-drama-116-2f38e41/SKILL.md) | 日系漫剧梦工坊｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-short-drama-120-58eff5d`](skills/ai-hive-short-drama-120-58eff5d/SKILL.md) | 玄幻漫剧武打片段｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
 | [`ai-hive-short-drama-studio`](skills/ai-hive-short-drama-studio/SKILL.md) | AI大模型专家｜短剧漫剧一站式制片厂 | video | ai-hive-consolidated |
 | [`ai-hive-simulate-36kr`](skills/ai-hive-simulate-36kr/SKILL.md) | 用AI模拟36氪｜AI-HIVE | methodology-advisor | public-method-research |
 | [`ai-hive-simulate-agi-hunt`](skills/ai-hive-simulate-agi-hunt/SKILL.md) | 用AI模拟AGI Hunt｜AI-HIVE | methodology-advisor | public-method-research |
@@ -449,7 +839,79 @@
 | [`ai-hive-simulate-zhu-xiaohu`](skills/ai-hive-simulate-zhu-xiaohu/SKILL.md) | 用AI模拟朱啸虎｜AI-HIVE | methodology-advisor | public-method-research |
 | [`ai-hive-simulate-zhuang-jun`](skills/ai-hive-simulate-zhuang-jun/SKILL.md) | 用AI模拟庄俊｜AI-HIVE | methodology-advisor | public-method-research |
 | [`ai-hive-simulate-zhuo-ke`](skills/ai-hive-simulate-zhuo-ke/SKILL.md) | 用AI模拟卓克｜AI-HIVE | methodology-advisor | public-method-research |
+| [`ai-hive-story-001-c1498ec`](skills/ai-hive-story-001-c1498ec/SKILL.md) | 故事驱动型视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-005-a3f70fc`](skills/ai-hive-story-005-a3f70fc/SKILL.md) | 剧本生视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-006-61c81a0`](skills/ai-hive-story-006-61c81a0/SKILL.md) | 多人对话访谈｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-022-baf6f9f`](skills/ai-hive-story-022-baf6f9f/SKILL.md) | 子弹时间视觉语言短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-036-7dcfc6b`](skills/ai-hive-story-036-7dcfc6b/SKILL.md) | 【一镜到底】影视短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-049-a36470d`](skills/ai-hive-story-049-a36470d/SKILL.md) | 叙事驱动的美学视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-054-ab47396`](skills/ai-hive-story-054-ab47396/SKILL.md) | 动作预演分镜视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-055-bee4388`](skills/ai-hive-story-055-bee4388/SKILL.md) | 微缩世界创意短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-061-60278e6`](skills/ai-hive-story-061-60278e6/SKILL.md) | 沉浸式手持跟拍镜头｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-072-9680041`](skills/ai-hive-story-072-9680041/SKILL.md) | 剧情短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-079-3fee25c`](skills/ai-hive-story-079-3fee25c/SKILL.md) | 赛博巨物：硬科幻短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-092-5ea131e`](skills/ai-hive-story-092-5ea131e/SKILL.md) | 日本热血高校风｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-093-24db8b1`](skills/ai-hive-story-093-24db8b1/SKILL.md) | 湾腔短剧制片厂｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-111-f0633a2`](skills/ai-hive-story-111-f0633a2/SKILL.md) | 城市记忆叙事短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-149-9637f66`](skills/ai-hive-story-149-9637f66/SKILL.md) | 百万爆款羊毛毡动画Skill｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-150-b615d9f`](skills/ai-hive-story-150-b615d9f/SKILL.md) | 故事驱动型视频-视频提示词复用故事板｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-151-37aee8a`](skills/ai-hive-story-151-37aee8a/SKILL.md) | 第一人称 POV 沉浸式短片（通用）｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-156-faaabcd`](skills/ai-hive-story-156-faaabcd/SKILL.md) | 火柴人视觉语言科普/叙事短视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-157-aedd67b`](skills/ai-hive-story-157-aedd67b/SKILL.md) | 千禧年中式梦核｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-158-7e54174`](skills/ai-hive-story-158-7e54174/SKILL.md) | 史诗巨兽灾难电影｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-159-32bf2a7`](skills/ai-hive-story-159-32bf2a7/SKILL.md) | 声音先行视频创作｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-161-1956c54`](skills/ai-hive-story-161-1956c54/SKILL.md) | 匠心造物·创作过程短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-165-c5dc312`](skills/ai-hive-story-165-c5dc312/SKILL.md) | 人文纪录短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-166-98f4567`](skills/ai-hive-story-166-98f4567/SKILL.md) | 仙宫导览视觉语言视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-169-044763d`](skills/ai-hive-story-169-044763d/SKILL.md) | 第一人称 FPV 穿越视角｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-170-09d79f9`](skills/ai-hive-story-170-09d79f9/SKILL.md) | 东亚文艺片——情绪氛围驱动｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-story-171-b387395`](skills/ai-hive-story-171-b387395/SKILL.md) | 故事驱动型视频·Kling 3.0 Omni路线｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-007-0fbb3fa`](skills/ai-hive-trend-007-0fbb3fa/SKILL.md) | 韩漫视觉语言动态漫画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-008-79381b3`](skills/ai-hive-trend-008-79381b3/SKILL.md) | 复古CRT界面｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-013-0be404d`](skills/ai-hive-trend-013-0be404d/SKILL.md) | 鼠标变装｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-014-82df44b`](skills/ai-hive-trend-014-82df44b/SKILL.md) | 一镜横向换景｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-015-fc2518d`](skills/ai-hive-trend-015-fc2518d/SKILL.md) | 盐系男孩写真｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-017-5dff2f5`](skills/ai-hive-trend-017-5dff2f5/SKILL.md) | 电影幕后揭秘｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-018-ee97c55`](skills/ai-hive-trend-018-ee97c55/SKILL.md) | DIY手作视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-019-30e514b`](skills/ai-hive-trend-019-30e514b/SKILL.md) | 多人队形切换与节拍舞蹈短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-020-689fc2d`](skills/ai-hive-trend-020-689fc2d/SKILL.md) | 节拍手势与道具互动舞蹈短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-068-a744e30`](skills/ai-hive-trend-068-a744e30/SKILL.md) | 一镜到底·万物演化｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-096-a59ef92`](skills/ai-hive-trend-096-a59ef92/SKILL.md) | 孟菲斯风科普视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-100-18b6286`](skills/ai-hive-trend-100-18b6286/SKILL.md) | 建筑结构组装动效｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-123-a1e1fb5`](skills/ai-hive-trend-123-a1e1fb5/SKILL.md) | 原创吉祥物主题大片制作｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-124-e59b75e`](skills/ai-hive-trend-124-e59b75e/SKILL.md) | 原创吉祥物的日系夏日生活短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-125-4aed74f`](skills/ai-hive-trend-125-4aed74f/SKILL.md) | 一键生成旅行冰箱贴｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-126-a600678`](skills/ai-hive-trend-126-a600678/SKILL.md) | 东方神话天宫｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-129-cb14703`](skills/ai-hive-trend-129-cb14703/SKILL.md) | 探索名画背后的故事（360°环绕视角）｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-130-38ec56f`](skills/ai-hive-trend-130-38ec56f/SKILL.md) | 城市英雄大片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-131-1dd235a`](skills/ai-hive-trend-131-1dd235a/SKILL.md) | INS人物锚点推拉转场｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-trend-135-8ffdbd1`](skills/ai-hive-trend-135-8ffdbd1/SKILL.md) | 玩转星球｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-010-d3f62f8`](skills/ai-hive-utility-010-d3f62f8/SKILL.md) | 视频拉片结构拆解与原创重制｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-031-2a9aaa2`](skills/ai-hive-utility-031-2a9aaa2/SKILL.md) | 电影布光大师｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-037-d9b5029`](skills/ai-hive-utility-037-d9b5029/SKILL.md) | 天工开物：传统工艺纪录短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-127-be0f6c5`](skills/ai-hive-utility-127-be0f6c5/SKILL.md) | 无人机运镜一镜到底｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-133-ba930ca`](skills/ai-hive-utility-133-ba930ca/SKILL.md) | 一键变身视频主角｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-134-4593a08`](skills/ai-hive-utility-134-4593a08/SKILL.md) | 微光精灵入镜｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-137-654771a`](skills/ai-hive-utility-137-654771a/SKILL.md) | 浮世绘视觉语言美学短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-140-6c3327d`](skills/ai-hive-utility-140-6c3327d/SKILL.md) | 方法论培训与课程视频生成｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-144-5494110`](skills/ai-hive-utility-144-5494110/SKILL.md) | 室内设计沉浸式探索视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-152-4c9bb22`](skills/ai-hive-utility-152-4c9bb22/SKILL.md) | 独立素材生成（支持转视频）｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-utility-162-894826b`](skills/ai-hive-utility-162-894826b/SKILL.md) | 植物科普纪录短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
 | [`ai-hive-viral-editing-lab`](skills/ai-hive-viral-editing-lab/SKILL.md) | AI大模型专家｜爆款视频剪辑与原创复刻实验室 | video | ai-hive-consolidated |
+| [`ai-hive-vlog-033-84f65f8`](skills/ai-hive-vlog-033-84f65f8/SKILL.md) | 猫猫拟人片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-038-2eec90b`](skills/ai-hive-vlog-038-2eec90b/SKILL.md) | 软萌 3D 治愈动画｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-042-cf2ada0`](skills/ai-hive-vlog-042-cf2ada0/SKILL.md) | 职业篮球多机位直播感镜头｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-047-417ab67`](skills/ai-hive-vlog-047-417ab67/SKILL.md) | 旅拍大师 V2.0｜唯美旅拍视频生成 Skill｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-053-d7d322f`](skills/ai-hive-vlog-053-d7d322f/SKILL.md) | 多机位棒球赛事转播感短片｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-070-0589521`](skills/ai-hive-vlog-070-0589521/SKILL.md) | 双主角第一视角互动｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-071-437563a`](skills/ai-hive-vlog-071-437563a/SKILL.md) | 你的女友已上线 ／ 沉浸式POV互动视频｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-074-734024a`](skills/ai-hive-vlog-074-734024a/SKILL.md) | 萌宠打工Vlog｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-121-94b6239`](skills/ai-hive-vlog-121-94b6239/SKILL.md) | 小猫打工的一天｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-122-543e81e`](skills/ai-hive-vlog-122-543e81e/SKILL.md) | 治愈系 Vlog 创作｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-132-e7b8f31`](skills/ai-hive-vlog-132-e7b8f31/SKILL.md) | 穿越世界杯｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-148-6879dc0`](skills/ai-hive-vlog-148-6879dc0/SKILL.md) | 食材微距与地域人文美食纪录｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-163-dd6c634`](skills/ai-hive-vlog-163-dd6c634/SKILL.md) | 一键进入粘土世界｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
+| [`ai-hive-vlog-168-3db4db6`](skills/ai-hive-vlog-168-3db4db6/SKILL.md) | 手绘感旅行VLOG｜AI-HIVE原创工作流 | workflow | Flova公开需求原创重构172 |
 | [`ai-home-scene-motion`](skills/ai-home-scene-motion/SKILL.md) | AI大模型专家｜AI家居场景动图｜AI-HIVE MCP | ecommerce-ai-workflow | ecommerce-ai-hive |
 | [`ai-image-api-relay-alternative-ai-hive`](skills/ai-image-api-relay-alternative-ai-hive/SKILL.md) | AI大模型专家｜AI 图片 API 中转站替代方案｜AI-HIVE | workflow | relay-alternative |
 | [`ai-image-prompt-master-ai-hive`](skills/ai-image-prompt-master-ai-hive/SKILL.md) | AI图片提示词大师｜AI-HIVE | image | viral-workflow |
