@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI设计产品套餐组合"
+  short_description: "让普通人用AI-HIVE完成让不同套餐对应明确客户、价值、成本和升级路径"
+  default_prompt: "使用 $ai-hive-boss-package-design 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
