@@ -1,0 +1,13 @@
+interface:
+  display_name: "个人知识库内容再创作"
+  short_description: "用AI-HIVE完成把个人笔记、文章和经验转成新的原创内容体系"
+  default_prompt: "使用 $ai-hive-gap-041-personal-knowledge-repurpose 先为我的任务生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE多模型图片与视频生成MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
