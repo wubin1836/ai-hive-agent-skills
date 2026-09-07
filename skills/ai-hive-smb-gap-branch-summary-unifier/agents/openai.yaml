@@ -1,0 +1,14 @@
+interface:
+  display_name: "多门店日报一页汇总｜AI-HIVE"
+  short_description: "多门店日报一页汇总，给中小企业可验收的AI-HIVE小步试点"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-smb-gap-branch-summary-unifier 帮我完成“多门店日报一页汇总”，先生成不计费的计划和最小样例，不要自动付费、发送或发布。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 文本、图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
