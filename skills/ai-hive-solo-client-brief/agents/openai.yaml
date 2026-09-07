@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI把客户需求整理成工作单"
+  short_description: "让普通人用AI-HIVE完成从聊天和语音中区分目标、范围、素材、责任与未决问题"
+  default_prompt: "使用 $ai-hive-solo-client-brief 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

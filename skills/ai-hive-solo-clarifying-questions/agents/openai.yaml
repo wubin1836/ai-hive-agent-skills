@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI生成客户需求澄清问题"
+  short_description: "让普通人用AI-HIVE完成在报价前找出会影响成本、周期和质量的关键未知项"
+  default_prompt: "使用 $ai-hive-solo-clarifying-questions 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
