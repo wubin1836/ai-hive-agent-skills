@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI把直播回放拆成内容"
+  short_description: "让普通人用AI-HIVE完成从直播回放识别完整观点、案例和高能片段，生成多种后续内容"
+  default_prompt: "使用 $ai-hive-solo-live-replay-repurpose 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
