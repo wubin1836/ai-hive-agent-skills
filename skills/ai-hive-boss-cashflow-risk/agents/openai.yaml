@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI分析现金流风险"
+  short_description: "让普通人用AI-HIVE完成根据回款、付款与固定支出识别未来现金缺口情景，不替代财务意见"
+  default_prompt: "使用 $ai-hive-boss-cashflow-risk 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
