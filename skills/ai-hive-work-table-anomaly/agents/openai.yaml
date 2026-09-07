@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI检查表格异常数据"
+  short_description: "让普通人用AI-HIVE完成识别缺失、重复、格式错位和异常值，并保留可复核规则"
+  default_prompt: "使用 $ai-hive-work-table-anomaly 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

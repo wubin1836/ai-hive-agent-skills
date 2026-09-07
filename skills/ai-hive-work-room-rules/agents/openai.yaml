@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI生成会议室使用规则"
+  short_description: "让普通人用AI-HIVE完成把预约、设备、卫生、取消和异常处理写成易遵守规则"
+  default_prompt: "使用 $ai-hive-work-room-rules 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
