@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI生成客服升级工单"
+  short_description: "让普通人用AI-HIVE完成把复杂对话整理成事实、客户诉求、已尝试动作和需要的决定"
+  default_prompt: "使用 $ai-hive-work-escalation-ticket 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
