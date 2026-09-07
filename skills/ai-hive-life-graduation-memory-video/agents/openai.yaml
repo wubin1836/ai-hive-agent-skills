@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI制作毕业纪念视频"
+  short_description: "让普通人用AI-HIVE完成从班级照片和留言中制作有时间线、有同学参与感的毕业短片"
+  default_prompt: "使用 $ai-hive-life-graduation-memory-video 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
