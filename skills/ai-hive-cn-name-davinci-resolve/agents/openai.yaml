@@ -1,0 +1,13 @@
+interface:
+  display_name: "达芬奇DaVinci Resolve平替迁移：AI-HIVE多模型工作流"
+  short_description: "用真实样本评估达芬奇生成式环节的AI-HIVE迁移方案"
+  default_prompt: "使用 $ai-hive-cn-name-davinci-resolve 根据我的真实任务先生成不计费迁移工作单。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频、音频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
