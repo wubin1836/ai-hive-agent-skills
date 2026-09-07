@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI财务经营报告可视化"
+  short_description: "用AI-HIVE完成把用户提供的财务经营数据转成管理层可读的图表叙事"
+  default_prompt: "使用 $ai-hive-gap-024-ai-finance-report 先为我的任务生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE多模型图片与视频生成MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI售前解决方案与演示素材"
+  short_description: "用AI-HIVE完成把客户问题转成可演示的解决方案和多模态样例"
+  default_prompt: "使用 $ai-hive-gap-033-ai-presales 先为我的任务生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE多模型图片与视频生成MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

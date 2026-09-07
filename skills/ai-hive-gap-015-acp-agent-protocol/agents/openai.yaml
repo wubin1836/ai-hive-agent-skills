@@ -1,0 +1,13 @@
+interface:
+  display_name: "ACP智能体协作协议接入"
+  short_description: "用AI-HIVE完成梳理ACP类协作协议与AI-HIVE工具调用的映射方案"
+  default_prompt: "使用 $ai-hive-gap-015-acp-agent-protocol 先为我的任务生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE多模型图片与视频生成MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
