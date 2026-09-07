@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI拆解年度经营目标"
+  short_description: "让普通人用AI-HIVE完成把年度目标拆成指标、关键假设、季度里程碑与责任"
+  default_prompt: "使用 $ai-hive-boss-year-goals 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
