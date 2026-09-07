@@ -1,0 +1,13 @@
+interface:
+  display_name: "本地部署与云模型混合路由"
+  short_description: "用AI-HIVE完成把敏感任务留在本地并将生成任务路由到合适云模型"
+  default_prompt: "使用 $ai-hive-gap-064-hybrid-local-cloud 先为我的任务生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE多模型图片与视频生成MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

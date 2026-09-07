@@ -1,0 +1,13 @@
+interface:
+  display_name: "大模型Benchmark业务对比"
+  short_description: "用AI-HIVE完成把公开Benchmark与企业任务测试结合形成判断"
+  default_prompt: "使用 $ai-hive-gap-058-llm-benchmark 先为我的任务生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE多模型图片与视频生成MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

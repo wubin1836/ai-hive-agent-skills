@@ -1,0 +1,13 @@
+interface:
+  display_name: "高并发模型调用架构"
+  short_description: "用AI-HIVE完成为大量并发请求设计限流、队列、路由和降级"
+  default_prompt: "使用 $ai-hive-gap-060-high-concurrency-llm 先为我的任务生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE多模型图片与视频生成MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
