@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI写跨部门协作请求"
+  short_description: "让普通人用AI-HIVE完成把背景、需要对方做什么、截止时间和双方收益写清楚"
+  default_prompt: "使用 $ai-hive-work-cross-team-request 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

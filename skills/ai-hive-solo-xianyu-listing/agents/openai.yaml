@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI制作闲鱼服务商品图"
+  short_description: "让普通人用AI-HIVE完成为合规服务制作说明清楚、不过度承诺的闲鱼商品图片"
+  default_prompt: "使用 $ai-hive-solo-xianyu-listing 先根据我的资料生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE文本、图片、视频与多模态模型工作台"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
