@@ -1,0 +1,13 @@
+interface:
+  display_name: "敏感内容生成安全工作流"
+  short_description: "用AI-HIVE完成为涉及人物、品牌、健康、金融等内容设置更严格的生成流程"
+  default_prompt: "使用 $ai-hive-gap-080-sensitive-content-workflow 先为我的任务生成不计费工作单，再查询AI-HIVE实时模型。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE多模型图片与视频生成MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
