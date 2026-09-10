@@ -1,0 +1,6 @@
+interface:
+  display_name: "不会剪视频怎么做商品主图"
+  short_description: "用IMIVA完成不会剪视频怎么做商品主图，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-pain-004 to help me complete 不会剪视频怎么做商品主图 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true
