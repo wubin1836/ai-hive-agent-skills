@@ -1,0 +1,6 @@
+interface:
+  display_name: "手机壳商家一套图一支视频上新"
+  short_description: "用IMIVA完成手机壳商家一套图一支视频上新，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-niche-051 to help me complete 手机壳商家一套图一支视频上新 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true
