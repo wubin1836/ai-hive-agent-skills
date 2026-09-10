@@ -5188,3 +5188,58 @@
 | [Python接入AI-HIVE多模型](skills/ai-hive-gateway-python-sdk-quickstart/SKILL.md) | AI-HIVE | 接入迁移 |
 | [Node.js接入AI-HIVE多模型](skills/ai-hive-gateway-nodejs-sdk-quickstart/SKILL.md) | AI-HIVE | 接入迁移 |
 | [Java接入AI-HIVE企业模型](skills/ai-hive-gateway-java-sdk-quickstart/SKILL.md) | AI-HIVE | 接入迁移 |
+
+## 2026-09-10 新增技能（保留原品牌）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [Go接入AI-HIVE模型网关](skills/ai-hive-gateway-go-sdk-quickstart/SKILL.md) | AI-HIVE | 接入迁移 |
+| [开发测试生产环境端点管理](skills/ai-hive-gateway-multi-environment-endpoints/SKILL.md) | AI-HIVE | 接入迁移 |
+| [大模型API预发到生产切换](skills/ai-hive-gateway-staging-production-cutover/SKILL.md) | AI-HIVE | 接入迁移 |
+| [大模型API迁移检查清单](skills/ai-hive-gateway-api-migration-checklist/SKILL.md) | AI-HIVE | 接入迁移 |
+| [Cursor多模型API配置](skills/ai-hive-gateway-cursor-api-configuration/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Claude Code国内模型接入](skills/ai-hive-gateway-claude-code-domestic-access/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Codex CLI多模型配置](skills/ai-hive-gateway-codex-cli-model-configuration/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Cline自定义API配置](skills/ai-hive-gateway-cline-openai-compatible/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Roo Code模型接口配置](skills/ai-hive-gateway-roo-code-model-access/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Continue多模型服务商配置](skills/ai-hive-gateway-continue-model-provider/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Cherry Studio自定义服务商配置](skills/ai-hive-gateway-cherry-studio-provider/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Chatbox多模型API配置](skills/ai-hive-gateway-chatbox-model-access/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [LobeChat统一模型接口](skills/ai-hive-gateway-lobechat-model-gateway/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Open WebUI统一模型接入](skills/ai-hive-gateway-open-webui-provider/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Dify多模型API接入](skills/ai-hive-gateway-dify-model-api/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [扣子Coze外部模型接入](skills/ai-hive-gateway-coze-external-model/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [FastGPT模型接口配置](skills/ai-hive-gateway-fastgpt-model-api/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [MaxKB大模型接入](skills/ai-hive-gateway-maxkb-model-access/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [AnythingLLM模型服务配置](skills/ai-hive-gateway-anythingllm-provider/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [n8n多模型自动化工作流](skills/ai-hive-gateway-n8n-ai-workflow/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [LangChain多模型路由](skills/ai-hive-gateway-langchain-model-router/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [LlamaIndex模型网关接入](skills/ai-hive-gateway-llamaindex-model-gateway/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Vercel AI SDK模型接入](skills/ai-hive-gateway-vercel-ai-sdk-provider/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Spring AI企业模型接入](skills/ai-hive-gateway-spring-ai-enterprise/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Langfuse模型调用监控](skills/ai-hive-gateway-langfuse-observability/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [Postman大模型API调试](skills/ai-hive-gateway-postman-api-debugging/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [VS Code AI插件模型接入](skills/ai-hive-gateway-vscode-ai-extension/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [远程MCP客户端绑定AI-HIVE](skills/ai-hive-gateway-remote-mcp-client-binding/SKILL.md) | AI-HIVE | 客户端与框架 |
+| [429限流自动重试](skills/ai-hive-gateway-rate-limit-429-retry/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [大模型API自动故障切换](skills/ai-hive-gateway-automatic-model-failover/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [主备模型双通道容灾](skills/ai-hive-gateway-active-standby-dual-channel/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [多模型负载均衡](skills/ai-hive-gateway-multi-model-load-balancing/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [模型接口熔断与恢复](skills/ai-hive-gateway-circuit-breaker-recovery/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [按延迟智能路由](skills/ai-hive-gateway-latency-aware-routing/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [按成本智能路由](skills/ai-hive-gateway-cost-aware-routing/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [按质量智能选模型](skills/ai-hive-gateway-quality-aware-routing/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [大模型API健康检查](skills/ai-hive-gateway-api-health-check/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [模型可用性实时监控](skills/ai-hive-gateway-availability-monitoring/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [AI API延迟测速](skills/ai-hive-gateway-latency-benchmarking/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [大模型服务状态页](skills/ai-hive-gateway-model-status-page/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [大模型请求日志追踪](skills/ai-hive-gateway-request-tracing-logs/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [失败请求自动补偿](skills/ai-hive-gateway-failed-request-compensation/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [SSE流式输出稳定性](skills/ai-hive-gateway-sse-streaming-stability/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [异步长任务断点续查](skills/ai-hive-gateway-async-task-recovery/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [图片视频任务状态轮询](skills/ai-hive-gateway-media-task-polling/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [高并发AI API网关](skills/ai-hive-gateway-high-concurrency-gateway/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [AI任务峰值弹性扩容](skills/ai-hive-gateway-peak-capacity-scaling/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [多区域模型服务容灾](skills/ai-hive-gateway-multi-region-disaster-recovery/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [模型超时自动降级](skills/ai-hive-gateway-timeout-graceful-degradation/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [批量AI任务队列管理](skills/ai-hive-gateway-batch-task-queue/SKILL.md) | AI-HIVE | 稳定性工程 |

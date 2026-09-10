@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜开发测试生产环境端点管理｜AI-HIVE"
+  short_description: "开发测试生产环境端点管理：分离开发、测试和生产的凭据、预算、模型别名和发布门禁"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-multi-environment-endpoints 为我完成“开发测试生产环境端点管理”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

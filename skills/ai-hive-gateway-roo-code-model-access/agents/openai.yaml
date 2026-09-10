@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜Roo Code模型接口配置｜AI-HIVE"
+  short_description: "Roo Code模型接口配置：为不同编码模式整理模型、上下文、工具调用和预算配置"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-roo-code-model-access 为我完成“Roo Code模型接口配置”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

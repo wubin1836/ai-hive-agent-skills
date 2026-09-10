@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜AnythingLLM模型服务配置｜AI-HIVE"
+  short_description: "AnythingLLM模型服务配置：为文档工作区配置模型入口、权限和最小数据暴露范围"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-anythingllm-provider 为我完成“AnythingLLM模型服务配置”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

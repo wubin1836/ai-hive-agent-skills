@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜图片视频任务状态轮询｜AI-HIVE"
+  short_description: "图片视频任务状态轮询：为排队、运行、成功、失败和取消状态设置合理轮询与停止条件"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-media-task-polling 为我完成“图片视频任务状态轮询”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

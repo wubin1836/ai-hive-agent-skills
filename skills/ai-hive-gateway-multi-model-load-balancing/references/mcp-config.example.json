@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "ai-hive": {
+      "url": "https://ai-hive.iclip.cn/api/mcp"
+    }
+  }
+}

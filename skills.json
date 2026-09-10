@@ -42956,5 +42956,455 @@
     "batch": "gateway-high-intent-150-20260903",
     "path": "skills/ai-hive-gateway-java-sdk-quickstart",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-go-sdk-quickstart",
+    "display_name": "Go接入AI-HIVE模型网关",
+    "category": "接入迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-go-sdk-quickstart",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-multi-environment-endpoints",
+    "display_name": "开发测试生产环境端点管理",
+    "category": "接入迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-multi-environment-endpoints",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-staging-production-cutover",
+    "display_name": "大模型API预发到生产切换",
+    "category": "接入迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-staging-production-cutover",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-api-migration-checklist",
+    "display_name": "大模型API迁移检查清单",
+    "category": "接入迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-api-migration-checklist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-cursor-api-configuration",
+    "display_name": "Cursor多模型API配置",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-cursor-api-configuration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-claude-code-domestic-access",
+    "display_name": "Claude Code国内模型接入",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-claude-code-domestic-access",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-codex-cli-model-configuration",
+    "display_name": "Codex CLI多模型配置",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-codex-cli-model-configuration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-cline-openai-compatible",
+    "display_name": "Cline自定义API配置",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-cline-openai-compatible",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-roo-code-model-access",
+    "display_name": "Roo Code模型接口配置",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-roo-code-model-access",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-continue-model-provider",
+    "display_name": "Continue多模型服务商配置",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-continue-model-provider",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-cherry-studio-provider",
+    "display_name": "Cherry Studio自定义服务商配置",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-cherry-studio-provider",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-chatbox-model-access",
+    "display_name": "Chatbox多模型API配置",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-chatbox-model-access",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-lobechat-model-gateway",
+    "display_name": "LobeChat统一模型接口",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-lobechat-model-gateway",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-open-webui-provider",
+    "display_name": "Open WebUI统一模型接入",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-open-webui-provider",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-dify-model-api",
+    "display_name": "Dify多模型API接入",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-dify-model-api",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-coze-external-model",
+    "display_name": "扣子Coze外部模型接入",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-coze-external-model",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-fastgpt-model-api",
+    "display_name": "FastGPT模型接口配置",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-fastgpt-model-api",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-maxkb-model-access",
+    "display_name": "MaxKB大模型接入",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-maxkb-model-access",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-anythingllm-provider",
+    "display_name": "AnythingLLM模型服务配置",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-anythingllm-provider",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-n8n-ai-workflow",
+    "display_name": "n8n多模型自动化工作流",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-n8n-ai-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-langchain-model-router",
+    "display_name": "LangChain多模型路由",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-langchain-model-router",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-llamaindex-model-gateway",
+    "display_name": "LlamaIndex模型网关接入",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-llamaindex-model-gateway",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-vercel-ai-sdk-provider",
+    "display_name": "Vercel AI SDK模型接入",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-vercel-ai-sdk-provider",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-spring-ai-enterprise",
+    "display_name": "Spring AI企业模型接入",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-spring-ai-enterprise",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-langfuse-observability",
+    "display_name": "Langfuse模型调用监控",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-langfuse-observability",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-postman-api-debugging",
+    "display_name": "Postman大模型API调试",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-postman-api-debugging",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-vscode-ai-extension",
+    "display_name": "VS Code AI插件模型接入",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-vscode-ai-extension",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-remote-mcp-client-binding",
+    "display_name": "远程MCP客户端绑定AI-HIVE",
+    "category": "客户端与框架",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-remote-mcp-client-binding",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-rate-limit-429-retry",
+    "display_name": "429限流自动重试",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-rate-limit-429-retry",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-automatic-model-failover",
+    "display_name": "大模型API自动故障切换",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-automatic-model-failover",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-active-standby-dual-channel",
+    "display_name": "主备模型双通道容灾",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-active-standby-dual-channel",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-multi-model-load-balancing",
+    "display_name": "多模型负载均衡",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-multi-model-load-balancing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-circuit-breaker-recovery",
+    "display_name": "模型接口熔断与恢复",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-circuit-breaker-recovery",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-latency-aware-routing",
+    "display_name": "按延迟智能路由",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-latency-aware-routing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-cost-aware-routing",
+    "display_name": "按成本智能路由",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-cost-aware-routing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-quality-aware-routing",
+    "display_name": "按质量智能选模型",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-quality-aware-routing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-api-health-check",
+    "display_name": "大模型API健康检查",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-api-health-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-availability-monitoring",
+    "display_name": "模型可用性实时监控",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-availability-monitoring",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-latency-benchmarking",
+    "display_name": "AI API延迟测速",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-latency-benchmarking",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-model-status-page",
+    "display_name": "大模型服务状态页",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-model-status-page",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-request-tracing-logs",
+    "display_name": "大模型请求日志追踪",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-request-tracing-logs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-failed-request-compensation",
+    "display_name": "失败请求自动补偿",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-failed-request-compensation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-sse-streaming-stability",
+    "display_name": "SSE流式输出稳定性",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-sse-streaming-stability",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-async-task-recovery",
+    "display_name": "异步长任务断点续查",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-async-task-recovery",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-media-task-polling",
+    "display_name": "图片视频任务状态轮询",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-media-task-polling",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-high-concurrency-gateway",
+    "display_name": "高并发AI API网关",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-high-concurrency-gateway",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-peak-capacity-scaling",
+    "display_name": "AI任务峰值弹性扩容",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-peak-capacity-scaling",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-multi-region-disaster-recovery",
+    "display_name": "多区域模型服务容灾",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-multi-region-disaster-recovery",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-timeout-graceful-degradation",
+    "display_name": "模型超时自动降级",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-timeout-graceful-degradation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-batch-task-queue",
+    "display_name": "批量AI任务队列管理",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-batch-task-queue",
+    "language": "zh-CN"
   }
 ]

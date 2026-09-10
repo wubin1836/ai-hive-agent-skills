@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜Cherry Studio自定义服务商配置｜AI-HIVE"
+  short_description: "Cherry Studio自定义服务商配置：在桌面客户端中填写受支持的服务商或远程 MCP 信息并验证模型列表"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-cherry-studio-provider 为我完成“Cherry Studio自定义服务商配置”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

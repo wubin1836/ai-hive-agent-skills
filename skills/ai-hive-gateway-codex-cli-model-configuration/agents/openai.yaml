@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜Codex CLI多模型配置｜AI-HIVE"
+  short_description: "Codex CLI多模型配置：把 AI-HIVE 作为可见工具接入编码任务，先验证只读模型查询再执行媒体任务"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-codex-cli-model-configuration 为我完成“Codex CLI多模型配置”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

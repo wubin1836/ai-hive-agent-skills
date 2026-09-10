@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜大模型服务状态页｜AI-HIVE"
+  short_description: "大模型服务状态页：把模型、能力、区域、错误、维护和恢复信息形成可读状态页"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-model-status-page 为我完成“大模型服务状态页”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
