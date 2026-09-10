@@ -34856,5 +34856,455 @@
     "batch": "cn-competitors-tpdp-300-20260907",
     "path": "skills/ai-hive-cn-alt-tuoxiaoxi",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-fancytech",
+    "display_name": "FancyTech平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-fancytech",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-weshop",
+    "display_name": "WeShop唯象平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-weshop",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-visnova",
+    "display_name": "Visnova平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-visnova",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-youqianai",
+    "display_name": "由前AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-youqianai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-chidaoai",
+    "display_name": "象素AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-chidaoai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-fusionaix",
+    "display_name": "融艺AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-fusionaix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-pixpix",
+    "display_name": "PixPix平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-pixpix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-seeany",
+    "display_name": "SeeAny平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-seeany",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-isheji",
+    "display_name": "爱设计平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-isheji",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-55dd35e5ee",
+    "display_name": "凡科快图平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-55dd35e5ee",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-818ps",
+    "display_name": "图怪兽平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-818ps",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-bigesj",
+    "display_name": "比格设计平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-bigesj",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-818c42c4bd",
+    "display_name": "白日梦平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-818c42c4bd",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-typemovie",
+    "display_name": "讯飞绘镜平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-typemovie",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-68d3e52a52",
+    "display_name": "极光视频平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-68d3e52a52",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-f64f0ba5a3",
+    "display_name": "神笔马良平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-f64f0ba5a3",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-9cba93515f",
+    "display_name": "快推文平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-9cba93515f",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-laihuacn",
+    "display_name": "来画平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-laihuacn",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-efd3ac8cf1",
+    "display_name": "一帧秒创平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-efd3ac8cf1",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-6ca4875245",
+    "display_name": "飞影数字人平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-6ca4875245",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-07655c6f5a",
+    "display_name": "奇妙元平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-07655c6f5a",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-1d9ad01c44",
+    "display_name": "寻光平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-1d9ad01c44",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-96eddd2b98",
+    "display_name": "艺映AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-96eddd2b98",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-d411a27044",
+    "display_name": "场辞平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-d411a27044",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-saas",
+    "display_name": "快剪辑平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-saas",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-6b4cadeff6",
+    "display_name": "快转字幕平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-6b4cadeff6",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-reccloud",
+    "display_name": "录咖平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-reccloud",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-27b2b876c9",
+    "display_name": "团队快剪平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-27b2b876c9",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-d90994dd03",
+    "display_name": "一起剪平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-d90994dd03",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-a9bf8fc709",
+    "display_name": "绘影字幕平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-a9bf8fc709",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-animiz",
+    "display_name": "万彩微影平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-animiz",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-wancai",
+    "display_name": "万彩AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-wancai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-szguiji",
+    "display_name": "硅基智能平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-szguiji",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-shiyou",
+    "display_name": "世优科技平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-shiyou",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-faceunity",
+    "display_name": "相芯科技平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-faceunity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-fengpingai",
+    "display_name": "风平智能平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-fengpingai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-deepai",
+    "display_name": "中科深智平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-deepai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-moviebook",
+    "display_name": "影谱科技平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-moviebook",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-xiaoice",
+    "display_name": "小冰数字人平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-xiaoice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-moyin",
+    "display_name": "魔音工坊平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-moyin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-peiyin",
+    "display_name": "讯飞智作平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-peiyin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-yuedu",
+    "display_name": "标贝悦读平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-yuedu",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-haitunvoice",
+    "display_name": "海豚配音平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-haitunvoice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-miaojian",
+    "display_name": "秒剪平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-miaojian",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-ijianji",
+    "display_name": "爱剪辑平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-ijianji",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-klingai",
+    "display_name": "可灵AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-klingai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-yige",
+    "display_name": "文心一格平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-yige",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-sensemirage",
+    "display_name": "秒画平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-sensemirage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-miaoya",
+    "display_name": "妙鸭相机平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-miaoya",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-qiyuai",
+    "display_name": "奇域AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-qiyuai",
+    "language": "zh-CN"
   }
 ]
