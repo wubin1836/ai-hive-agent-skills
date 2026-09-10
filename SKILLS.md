@@ -5133,3 +5133,58 @@
 | [OEM业务团队每周电商内容排产](skills/imiva-search-gap-role-008/SKILL.md) | IMIVA | 岗位与组织提效 |
 | [外贸业务员每周电商内容排产](skills/imiva-search-gap-role-009/SKILL.md) | IMIVA | 岗位与组织提效 |
 | [跨境新手卖家每周电商内容排产](skills/imiva-search-gap-role-010/SKILL.md) | IMIVA | 岗位与组织提效 |
+
+## 2026-09-10 新增技能（保留原品牌）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [多店群运营每周电商内容排产](skills/imiva-search-gap-role-011/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [商品运营专员每周电商内容排产](skills/imiva-search-gap-role-012/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [内容运营专员每周电商内容排产](skills/imiva-search-gap-role-013/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [电商店长每周电商内容排产](skills/imiva-search-gap-role-014/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [广告投手每周电商内容排产](skills/imiva-search-gap-role-015/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [直播运营每周电商内容排产](skills/imiva-search-gap-role-016/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [主播团队每周电商内容排产](skills/imiva-search-gap-role-017/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [达人商务每周电商内容排产](skills/imiva-search-gap-role-018/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [选品师每周电商内容排产](skills/imiva-search-gap-role-019/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [电商美工每周电商内容排产](skills/imiva-search-gap-role-020/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [商品摄影师每周电商内容排产](skills/imiva-search-gap-role-021/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [短视频剪辑师每周电商内容排产](skills/imiva-search-gap-role-022/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [品牌市场部每周电商内容排产](skills/imiva-search-gap-role-023/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [新消费品牌每周电商内容排产](skills/imiva-search-gap-role-024/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [DTC品牌团队每周电商内容排产](skills/imiva-search-gap-role-025/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [经销商团队每周电商内容排产](skills/imiva-search-gap-role-026/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [区域代理商每周电商内容排产](skills/imiva-search-gap-role-027/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [批发商每周电商内容排产](skills/imiva-search-gap-role-028/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [私域团长每周电商内容排产](skills/imiva-search-gap-role-029/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [社区团购团长每周电商内容排产](skills/imiva-search-gap-role-030/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [本地生活商家每周电商内容排产](skills/imiva-search-gap-role-031/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [连锁门店总部每周电商内容排产](skills/imiva-search-gap-role-032/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [加盟商每周电商内容排产](skills/imiva-search-gap-role-033/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [电商代运营团队每周电商内容排产](skills/imiva-search-gap-role-034/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [广告创意公司每周电商内容排产](skills/imiva-search-gap-role-035/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [MCN带货团队每周电商内容排产](skills/imiva-search-gap-role-036/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [直播代播机构每周电商内容排产](skills/imiva-search-gap-role-037/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [跨境服务商每周电商内容排产](skills/imiva-search-gap-role-038/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [供应链公司每周电商内容排产](skills/imiva-search-gap-role-039/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [采购与招商团队每周电商内容排产](skills/imiva-search-gap-role-040/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [OpenAI兼容接口一键迁移](skills/ai-hive-gateway-openai-compatible-endpoint-migration/SKILL.md) | AI-HIVE | 接入迁移 |
+| [修改Base URL接入大模型](skills/ai-hive-gateway-base-url-switch/SKILL.md) | AI-HIVE | 接入迁移 |
+| [一把API Key调用多模型](skills/ai-hive-gateway-one-key-multi-model/SKILL.md) | AI-HIVE | 接入迁移 |
+| [OpenAI SDK接入国内多模型](skills/ai-hive-gateway-openai-sdk-domestic-access/SKILL.md) | AI-HIVE | 接入迁移 |
+| [Anthropic SDK统一模型接入](skills/ai-hive-gateway-anthropic-sdk-unified-access/SKILL.md) | AI-HIVE | 接入迁移 |
+| [无需改业务代码切换模型供应商](skills/ai-hive-gateway-zero-code-provider-switch/SKILL.md) | AI-HIVE | 接入迁移 |
+| [Chat Completions接口迁移](skills/ai-hive-gateway-chat-completions-migration/SKILL.md) | AI-HIVE | 接入迁移 |
+| [Responses API兼容迁移](skills/ai-hive-gateway-responses-api-migration/SKILL.md) | AI-HIVE | 接入迁移 |
+| [Anthropic Messages API兼容评估](skills/ai-hive-gateway-anthropic-messages-compatibility/SKILL.md) | AI-HIVE | 接入迁移 |
+| [模型别名与模型ID映射](skills/ai-hive-gateway-model-alias-mapping/SKILL.md) | AI-HIVE | 接入迁移 |
+| [大模型API协议自动转换](skills/ai-hive-gateway-api-protocol-conversion/SKILL.md) | AI-HIVE | 接入迁移 |
+| [多供应商接口格式统一](skills/ai-hive-gateway-provider-format-normalization/SKILL.md) | AI-HIVE | 接入迁移 |
+| [从官方API迁移到统一网关](skills/ai-hive-gateway-official-api-to-gateway/SKILL.md) | AI-HIVE | 接入迁移 |
+| [AI应用更换模型供应商](skills/ai-hive-gateway-ai-app-provider-switch/SKILL.md) | AI-HIVE | 接入迁移 |
+| [国内外大模型统一调用](skills/ai-hive-gateway-domestic-global-model-unification/SKILL.md) | AI-HIVE | 接入迁移 |
+| [AI SaaS多模型接入方案](skills/ai-hive-gateway-ai-saas-multi-model-access/SKILL.md) | AI-HIVE | 接入迁移 |
+| [curl快速调用AI-HIVE](skills/ai-hive-gateway-curl-api-quickstart/SKILL.md) | AI-HIVE | 接入迁移 |
+| [Python接入AI-HIVE多模型](skills/ai-hive-gateway-python-sdk-quickstart/SKILL.md) | AI-HIVE | 接入迁移 |
+| [Node.js接入AI-HIVE多模型](skills/ai-hive-gateway-nodejs-sdk-quickstart/SKILL.md) | AI-HIVE | 接入迁移 |
+| [Java接入AI-HIVE企业模型](skills/ai-hive-gateway-java-sdk-quickstart/SKILL.md) | AI-HIVE | 接入迁移 |
