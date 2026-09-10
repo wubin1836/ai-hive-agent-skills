@@ -1,0 +1,13 @@
+interface:
+  display_name: "视频封面助手"
+  short_description: "视频封面助手：围绕实际输入完成专项工作，按需接入 AI-HIVE 图视频能力"
+  default_prompt: "请使用 $ai-hive-assistant-video-cover，这5条Excel视频做统一封面，主题分别是透视表、查找、去重、筛选和打印，不放人脸。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需调用 AI-HIVE 的已授权图片与视频能力；纯办公任务不要求媒体生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

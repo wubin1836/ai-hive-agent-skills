@@ -34406,5 +34406,455 @@
     "batch": "assistants-150-20260909",
     "path": "skills/ai-hive-assistant-article-to-carousel",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-carousel-to-video",
+    "display_name": "图文转视频助手",
+    "category": "内容形式转换",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-carousel-to-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-video-to-carousel",
+    "display_name": "视频转图文助手",
+    "category": "内容形式转换",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-video-to-carousel",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-long-video-clips",
+    "display_name": "长视频切片助手",
+    "category": "视频后期",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-long-video-clips",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-video-subtitles",
+    "display_name": "视频字幕助手",
+    "category": "字幕与可读性",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-video-subtitles",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-video-cover",
+    "display_name": "视频封面助手",
+    "category": "内容视觉包装",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-video-cover",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-ai-illustrations",
+    "display_name": "AI配图助手",
+    "category": "AI媒体制作",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-ai-illustrations",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-poster-maker",
+    "display_name": "海报生成助手",
+    "category": "营销视觉制作",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-poster-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-moments-content",
+    "display_name": "朋友圈内容助手",
+    "category": "私域日常内容",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-moments-content",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-community-ops",
+    "display_name": "社群运营助手",
+    "category": "社群运营",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-community-ops",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-private-audience",
+    "display_name": "私域内容助手",
+    "category": "私域内容体系",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-private-audience",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-lead-magnet",
+    "display_name": "引流资料助手",
+    "category": "获客资料制作",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-lead-magnet",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-course-outline",
+    "display_name": "课程大纲助手",
+    "category": "课程设计",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-course-outline",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-course-handouts",
+    "display_name": "课程讲义助手",
+    "category": "教学资料制作",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-course-handouts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-teaching-slides",
+    "display_name": "教学课件助手",
+    "category": "教学演示制作",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-teaching-slides",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-course-promotion",
+    "display_name": "课程宣传助手",
+    "category": "课程营销",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-course-promotion",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-ebook-maker",
+    "display_name": "电子书制作助手",
+    "category": "长内容出版准备",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-ebook-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-paid-community",
+    "display_name": "付费社群助手",
+    "category": "知识服务运营",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-paid-community",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-live-script",
+    "display_name": "直播脚本助手",
+    "category": "单场直播执行",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-live-script",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-live-retrospective",
+    "display_name": "直播复盘助手",
+    "category": "直播效果分析",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-live-retrospective",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-commerce-copy",
+    "display_name": "带货文案助手",
+    "category": "商品营销文案",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-commerce-copy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-product-benefits",
+    "display_name": "商品卖点提炼助手",
+    "category": "商品信息策略",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-product-benefits",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-product-main-image",
+    "display_name": "商品主图助手",
+    "category": "电商商品视觉",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-product-main-image",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-product-detail-page",
+    "display_name": "商品详情页助手",
+    "category": "电商商品信息",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-product-detail-page",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-product-short-video",
+    "display_name": "商品短视频助手",
+    "category": "电商视频制作",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-product-short-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-brand-story",
+    "display_name": "品牌故事助手",
+    "category": "品牌叙事",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-brand-story",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-customer-cases",
+    "display_name": "用户案例整理助手",
+    "category": "客户证据内容",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-customer-cases",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-store-campaign",
+    "display_name": "门店活动助手",
+    "category": "本地门店营销",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-store-campaign",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-group-buy-promo",
+    "display_name": "团购推广助手",
+    "category": "本地团购营销",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-group-buy-promo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-seasonal-campaign",
+    "display_name": "节日营销助手",
+    "category": "节点营销内容",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-seasonal-campaign",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-content-review",
+    "display_name": "内容效果复盘助手",
+    "category": "内容效果分析",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-content-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-superdir",
+    "display_name": "超级编导平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-superdir",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-iqinghu",
+    "display_name": "青虎AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-iqinghu",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-linkfox",
+    "display_name": "LinkFox平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-linkfox",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-musegate",
+    "display_name": "MuseGate平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-musegate",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-psai",
+    "display_name": "虹软PSAI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-psai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-ding-ai",
+    "display_name": "叮当次元袋平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-ding-ai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-ihuiwa",
+    "display_name": "绘蛙平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-ihuiwa",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-55498f0a55",
+    "display_name": "鹿班平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-55498f0a55",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-direct-6c88129385",
+    "display_name": "顽兔平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-direct-6c88129385",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-gaoding",
+    "display_name": "稿定AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-gaoding",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-meitu",
+    "display_name": "美图云修平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-meitu",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-aitoshow",
+    "display_name": "爱起秀AItoShow平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-aitoshow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-meisuanai",
+    "display_name": "美算生图平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-meisuanai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-xiaohongque",
+    "display_name": "小红雀AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-xiaohongque",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-mishu",
+    "display_name": "米鼠AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-mishu",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-crossle",
+    "display_name": "Crossle跨售平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-crossle",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-daai",
+    "display_name": "DAAI电商平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-daai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-jfkjai",
+    "display_name": "即风平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-jfkjai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-autoagc",
+    "display_name": "AutoAGC平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-autoagc",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-tuoxiaoxi",
+    "display_name": "拓销蜥平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-tuoxiaoxi",
+    "language": "zh-CN"
   }
 ]
