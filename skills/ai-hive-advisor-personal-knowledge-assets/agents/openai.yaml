@@ -1,0 +1,13 @@
+interface:
+  display_name: "个人知识资产盘点顾问"
+  short_description: "个人知识资产盘点顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-personal-knowledge-assets，假设我有300篇笔记，只提供目录和20篇样本，每周可整理2小时。请按我常做的培训任务给首批维护建议，不声称读过全部内容。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

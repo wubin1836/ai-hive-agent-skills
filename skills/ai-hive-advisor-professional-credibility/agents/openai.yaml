@@ -1,0 +1,13 @@
+interface:
+  display_name: "个人专业信誉顾问"
+  short_description: "个人专业信誉顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-professional-credibility，假设我的简介写资深品牌顾问，实际只有2个项目和1年经验。请按附上的资料改成可信表达，保留真实优势但不要夸大。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

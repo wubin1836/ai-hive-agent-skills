@@ -1,0 +1,13 @@
+interface:
+  display_name: "工作室产能顾问"
+  short_description: "工作室产能顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-studio-capacity，假设3人工作室有8条视频在制，下周还想接6条，只有1人能调色。请用附上的实际工时判断能否接，周末不能加班。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

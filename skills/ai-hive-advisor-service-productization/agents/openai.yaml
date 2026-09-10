@@ -1,0 +1,13 @@
+interface:
+  display_name: "服务产品化顾问"
+  short_description: "服务产品化顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-service-productization，假设6人设计公司有12份旧项目记录。请把门店视觉服务拆成标准和定制模块，每个项目最多占用40小时。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

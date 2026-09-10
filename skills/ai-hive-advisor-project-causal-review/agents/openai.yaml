@@ -1,0 +1,13 @@
+interface:
+  display_name: "项目复盘归因顾问"
+  short_description: "项目复盘归因顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-project-causal-review，假设项目原定20天完成，实际晚了14天，附有7次需求变更和客户确认时间。请还原时间线，分开可证实原因与猜测。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI视频动作顾问"
+  short_description: "AI视频动作顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-motion-design，我想5秒内人物开门、走进房间、坐下再拿杯子，帮我拆成更稳妥的镜头，不生成。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

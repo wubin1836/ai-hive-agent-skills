@@ -1,0 +1,13 @@
+interface:
+  display_name: "视频生成失败排查顾问"
+  short_description: "视频生成失败排查顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-generation-debug，AI-HIVE提交后网页超时，已有任务ID，先查是不是仍在跑，不要再扣钱。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

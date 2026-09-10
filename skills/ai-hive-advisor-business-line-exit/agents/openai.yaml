@@ -1,0 +1,13 @@
+interface:
+  display_name: "业务退出评估顾问"
+  short_description: "业务退出评估顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-business-line-exit，假设公司培训业务月入3万元、直接成本4万元，仍有18名客户待交付。请比较缩减和停止，别把总部租金都算成能省下的钱。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

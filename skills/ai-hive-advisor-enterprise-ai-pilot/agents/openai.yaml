@@ -1,0 +1,13 @@
+interface:
+  display_name: "企业AI落地顾问"
+  short_description: "企业AI落地顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-enterprise-ai-pilot，假设12人公司想在会议整理、报价、报销、客服和人事筛选五项中先试一项，每月预算1000元。请根据我提供的样例评估，不购买工具。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

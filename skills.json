@@ -32606,5 +32606,455 @@
     "batch": "advisors-130-20260910",
     "path": "skills/ai-hive-advisor-event-recap",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-lead-capture",
+    "display_name": "短视频留资顾问",
+    "category": "咨询与线索承接",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-lead-capture",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-high-value-video",
+    "display_name": "高客单视频顾问",
+    "category": "咨询与线索承接",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-high-value-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-inquiry-diagnosis",
+    "display_name": "视频询盘诊断顾问",
+    "category": "咨询与线索承接",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-inquiry-diagnosis",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-local-video",
+    "display_name": "同城获客视频顾问",
+    "category": "咨询与线索承接",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-local-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-search-terms",
+    "display_name": "视频搜索词顾问",
+    "category": "咨询与线索承接",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-search-terms",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-content-consult-handoff",
+    "display_name": "内容到咨询承接顾问",
+    "category": "咨询与线索承接",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-content-consult-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-pinned-video-set",
+    "display_name": "视频置顶组合顾问",
+    "category": "咨询与线索承接",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-pinned-video-set",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-persona-evidence",
+    "display_name": "人设信任证据顾问",
+    "category": "人物与观点视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-persona-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-lead-quality-review",
+    "display_name": "线索质量复盘顾问",
+    "category": "咨询与线索承接",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-lead-quality-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-vendor-acceptance",
+    "display_name": "视频外包验收顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-vendor-acceptance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-model-selection",
+    "display_name": "AI视频模型选型顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-model-selection",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-reference-image-prep",
+    "display_name": "参考图准备顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-reference-image-prep",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-first-last-frames",
+    "display_name": "首尾帧设计顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-first-last-frames",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-shot-continuity",
+    "display_name": "分镜一致性顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-shot-continuity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-motion-design",
+    "display_name": "AI视频动作顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-motion-design",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-product-fidelity",
+    "display_name": "产品外观保真顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-product-fidelity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-generation-debug",
+    "display_name": "视频生成失败排查顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-generation-debug",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-cost",
+    "display_name": "AI视频成本顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-cost",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-batch-schedule",
+    "display_name": "视频批量生产排程顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-batch-schedule",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-human-ai-edit",
+    "display_name": "真人与AI混剪顾问",
+    "category": "制作质量与工具决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-human-ai-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-founder-decision-memo",
+    "display_name": "企业家决策备忘顾问",
+    "category": "企业经营决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-founder-decision-memo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-business-priorities",
+    "display_name": "经营优先级顾问",
+    "category": "企业经营决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-business-priorities",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-new-business-pilot",
+    "display_name": "新业务试点顾问",
+    "category": "企业经营决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-new-business-pilot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-founder-time-allocation",
+    "display_name": "创始人时间分配顾问",
+    "category": "企业经营决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-founder-time-allocation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-business-delegation",
+    "display_name": "业务委派顾问",
+    "category": "企业经营决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-business-delegation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-customer-tiering",
+    "display_name": "客户分层顾问",
+    "category": "客户与商业模式",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-customer-tiering",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-repeat-customer-strategy",
+    "display_name": "老客户复购顾问",
+    "category": "客户与商业模式",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-repeat-customer-strategy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-service-productization",
+    "display_name": "服务产品化顾问",
+    "category": "客户与商业模式",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-service-productization",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-package-architecture",
+    "display_name": "套餐组合顾问",
+    "category": "客户与商业模式",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-package-architecture",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-business-line-exit",
+    "display_name": "业务退出评估顾问",
+    "category": "企业经营决策",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-business-line-exit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-channel-collaboration",
+    "display_name": "渠道合作顾问",
+    "category": "商务合作",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-channel-collaboration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-proposal-diagnosis",
+    "display_name": "合作提案诊断顾问",
+    "category": "商务合作",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-proposal-diagnosis",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-negotiation-preparation",
+    "display_name": "商务谈判准备顾问",
+    "category": "商务合作",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-negotiation-preparation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-customer-exit-interviews",
+    "display_name": "客户流失访谈顾问",
+    "category": "客户与商业模式",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-customer-exit-interviews",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-brand-message-consistency",
+    "display_name": "品牌表达一致性顾问",
+    "category": "品牌表达",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-brand-message-consistency",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-enterprise-ai-pilot",
+    "display_name": "企业AI落地顾问",
+    "category": "企业AI应用",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-enterprise-ai-pilot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-team-ai-training",
+    "display_name": "团队AI培训规划顾问",
+    "category": "企业AI应用",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-team-ai-training",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-founder-resource-audit",
+    "display_name": "创业者资源盘点顾问",
+    "category": "创业资源与交付",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-founder-resource-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-studio-capacity",
+    "display_name": "工作室产能顾问",
+    "category": "创业资源与交付",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-studio-capacity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-project-causal-review",
+    "display_name": "项目复盘归因顾问",
+    "category": "创业资源与交付",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-project-causal-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-second-career-choice",
+    "display_name": "第二职业选择顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-second-career-choice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-personal-service-positioning",
+    "display_name": "个人服务包装顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-personal-service-positioning",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-freelance-order-screening",
+    "display_name": "接单避坑顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-freelance-order-screening",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-project-effort-estimation",
+    "display_name": "项目工时估算顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-project-effort-estimation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-revision-boundaries",
+    "display_name": "客户改稿边界顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-revision-boundaries",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-creative-work-pricing",
+    "display_name": "个人作品定价顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-creative-work-pricing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-professional-credibility",
+    "display_name": "个人专业信誉顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-professional-credibility",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-work-achievement-evidence",
+    "display_name": "职场成果举证顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-work-achievement-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-expert-consult-preparation",
+    "display_name": "专家咨询准备顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-expert-consult-preparation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-personal-knowledge-assets",
+    "display_name": "个人知识资产盘点顾问",
+    "category": "个人职业与服务",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-personal-knowledge-assets",
+    "language": "zh-CN"
   }
 ]

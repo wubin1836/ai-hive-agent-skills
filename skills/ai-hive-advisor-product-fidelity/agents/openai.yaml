@@ -1,0 +1,13 @@
+interface:
+  display_name: "产品外观保真顾问"
+  short_description: "产品外观保真顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-product-fidelity，台灯生成视频多了一个按钮，灯罩也变圆，参考图在这里，帮我判断要不要重做。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

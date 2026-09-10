@@ -1,0 +1,13 @@
+interface:
+  display_name: "团队AI培训规划顾问"
+  short_description: "团队AI培训规划顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-team-ai-training，假设销售6人、行政4人、运营5人参加3小时AI培训，基础差异很大。请按附上的岗位任务安排分层练习，不能用真实客户姓名。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

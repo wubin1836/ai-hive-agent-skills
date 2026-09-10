@@ -1,0 +1,13 @@
+interface:
+  display_name: "客户流失访谈顾问"
+  short_description: "客户流失访谈顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-customer-exit-interviews，假设最近有12位客户不续约，我只获准邀请其中4位。请设计20分钟访谈提纲，不把价格太高作为默认答案。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
