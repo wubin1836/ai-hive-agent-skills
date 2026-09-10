@@ -33506,5 +33506,455 @@
     "batch": "assistants-150-20260909",
     "path": "skills/ai-hive-assistant-digital-product",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-personal-ip",
+    "display_name": "个人IP助手",
+    "category": "内容与个人品牌",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-personal-ip",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-daily-100",
+    "display_name": "日更100条内容助手",
+    "category": "内容规模化生产",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-daily-100",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-short-video",
+    "display_name": "短视频创作助手",
+    "category": "视频内容创作",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-short-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-talking-head",
+    "display_name": "口播视频助手",
+    "category": "视频内容创作",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-talking-head",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-lifestyle-post",
+    "display_name": "图文种草助手",
+    "category": "图文与种草内容",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-lifestyle-post",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-content-repurpose",
+    "display_name": "一稿多发助手",
+    "category": "跨平台内容改编",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-content-repurpose",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-video-editing",
+    "display_name": "视频剪辑助手",
+    "category": "视频后期",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-video-editing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-viral-structure",
+    "display_name": "爆款复刻助手",
+    "category": "内容结构研究",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-viral-structure",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-knowledge-product",
+    "display_name": "知识付费助手",
+    "category": "知识产品",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-knowledge-product",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-live-content",
+    "display_name": "直播内容助手",
+    "category": "直播内容策划",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-live-content",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-job-search",
+    "display_name": "求职助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-job-search",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-resume-optimize",
+    "display_name": "简历优化助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-resume-optimize",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-interview-practice",
+    "display_name": "面试陪练助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-interview-practice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-career-transition",
+    "display_name": "转行助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-career-transition",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-career-restart",
+    "display_name": "职场重启助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-career-restart",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-job-portfolio",
+    "display_name": "求职作品集助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-job-portfolio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-career-plan",
+    "display_name": "职业规划助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-career-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-ai-learning",
+    "display_name": "AI技能学习助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-ai-learning",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-offer-compare",
+    "display_name": "Offer对比助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-offer-compare",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-job-tracker",
+    "display_name": "求职投递管理助手",
+    "category": "求职与职业发展",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-job-tracker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-office-worker",
+    "display_name": "白领助手",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-office-worker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-office-admin",
+    "display_name": "行政办公助手",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-office-admin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-sales-work",
+    "display_name": "销售助手",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-sales-work",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-operations-work",
+    "display_name": "运营助手",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-operations-work",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-hr-operations",
+    "display_name": "人事助手",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-hr-operations",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-finance-office",
+    "display_name": "财务办公助手",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-finance-office",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-procurement-work",
+    "display_name": "采购助手",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-procurement-work",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-project-management",
+    "display_name": "项目管理助手",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-project-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-executive-assistant",
+    "display_name": "老板助理",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-executive-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-meeting-minutes",
+    "display_name": "会议纪要助手",
+    "category": "岗位办公",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-meeting-minutes",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-word-edit",
+    "display_name": "Word修改助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-word-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-word-template",
+    "display_name": "Word模板助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-word-template",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-document-proofread",
+    "display_name": "文档校对助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-document-proofread",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-document-translate",
+    "display_name": "文档翻译助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-document-translate",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-long-document-summary",
+    "display_name": "长文档总结助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-long-document-summary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-pdf-read",
+    "display_name": "PDF阅读助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-pdf-read",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-pdf-extract",
+    "display_name": "PDF信息提取助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-pdf-extract",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-ppt-revise",
+    "display_name": "PPT改稿助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-ppt-revise",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-reporting-pack",
+    "display_name": "汇报材料助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-reporting-pack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-bid-drafting",
+    "display_name": "标书编制助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-bid-drafting",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-excel-formulas",
+    "display_name": "Excel公式助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-excel-formulas",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-excel-merge",
+    "display_name": "Excel表格合并助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-excel-merge",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-excel-clean",
+    "display_name": "Excel数据清洗助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-excel-clean",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-excel-charts",
+    "display_name": "Excel图表助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-excel-charts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-data-dashboard",
+    "display_name": "数据看板助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-data-dashboard",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-form-design",
+    "display_name": "表单设计助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-form-design",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-file-archive",
+    "display_name": "文件归档助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-file-archive",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-email-writing",
+    "display_name": "邮件写作助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-email-writing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-bilingual-email",
+    "display_name": "中英商务邮件助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-bilingual-email",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-assistant-periodic-report",
+    "display_name": "周报月报助手",
+    "category": "办公专项",
+    "brand": "AI-HIVE",
+    "batch": "assistants-150-20260909",
+    "path": "skills/ai-hive-assistant-periodic-report",
+    "language": "zh-CN"
   }
 ]

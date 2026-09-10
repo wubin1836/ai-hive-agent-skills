@@ -1,0 +1,13 @@
+interface:
+  display_name: "Offer对比助手"
+  short_description: "Offer对比助手：围绕实际输入完成专项工作，按需接入 AI-HIVE 图视频能力"
+  default_prompt: "请使用 $ai-hive-assistant-offer-compare，A月薪高但12薪，B月薪低说有年终奖，帮我按保证部分和可能部分分开算。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需调用 AI-HIVE 的已授权图片与视频能力；纯办公任务不要求媒体生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

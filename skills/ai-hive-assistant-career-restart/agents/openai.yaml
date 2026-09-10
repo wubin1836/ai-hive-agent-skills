@@ -1,0 +1,13 @@
+interface:
+  display_name: "职场重启助手"
+  short_description: "职场重启助手：围绕实际输入完成专项工作，按需接入 AI-HIVE 图视频能力"
+  default_prompt: "请使用 $ai-hive-assistant-career-restart，我照顾家人两年，现在每天有六小时可工作，想恢复以前的财务助理方向。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需调用 AI-HIVE 的已授权图片与视频能力；纯办公任务不要求媒体生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
