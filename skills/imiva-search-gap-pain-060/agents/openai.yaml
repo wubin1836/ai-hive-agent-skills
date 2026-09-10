@@ -1,0 +1,6 @@
+interface:
+  display_name: "详情页转化太低怎么做带货短视频"
+  short_description: "用IMIVA完成详情页转化太低怎么做带货短视频，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-pain-060 to help me complete 详情页转化太低怎么做带货短视频 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true

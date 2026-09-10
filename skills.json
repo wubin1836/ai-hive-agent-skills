@@ -37556,5 +37556,455 @@
     "batch": "imiva-merchant-gaps-600-20260907",
     "path": "skills/imiva-search-gap-pain-020",
     "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-021",
+    "display_name": "没有摄影师怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-021",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-022",
+    "display_name": "拍摄预算太少怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-022",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-023",
+    "display_name": "拍摄预算太少怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-023",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-024",
+    "display_name": "拍摄预算太少怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-024",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-025",
+    "display_name": "上新时间太赶怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-025",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-026",
+    "display_name": "上新时间太赶怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-026",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-027",
+    "display_name": "上新时间太赶怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-027",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-028",
+    "display_name": "一个人开店怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-028",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-029",
+    "display_name": "一个人开店怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-029",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-030",
+    "display_name": "一个人开店怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-030",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-031",
+    "display_name": "SKU太多做不完怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-031",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-032",
+    "display_name": "SKU太多做不完怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-032",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-033",
+    "display_name": "SKU太多做不完怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-033",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-034",
+    "display_name": "每天都要上新怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-034",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-035",
+    "display_name": "每天都要上新怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-035",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-036",
+    "display_name": "每天都要上新怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-036",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-037",
+    "display_name": "供应商只给白底图怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-037",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-038",
+    "display_name": "供应商只给白底图怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-038",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-039",
+    "display_name": "供应商只给白底图怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-039",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-040",
+    "display_name": "原图像素太低怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-040",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-041",
+    "display_name": "原图像素太低怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-041",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-042",
+    "display_name": "原图像素太低怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-042",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-043",
+    "display_name": "产品图背景太乱怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-043",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-044",
+    "display_name": "产品图背景太乱怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-044",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-045",
+    "display_name": "产品图背景太乱怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-045",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-046",
+    "display_name": "图片尺寸不统一怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-046",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-047",
+    "display_name": "图片尺寸不统一怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-047",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-048",
+    "display_name": "图片尺寸不统一怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-048",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-049",
+    "display_name": "多店铺重复做图怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-049",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-050",
+    "display_name": "多店铺重复做图怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-050",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-051",
+    "display_name": "多店铺重复做图怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-051",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-052",
+    "display_name": "同款商品差异不明显怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-052",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-053",
+    "display_name": "同款商品差异不明显怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-053",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-054",
+    "display_name": "同款商品差异不明显怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-054",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-055",
+    "display_name": "主图点击率太低怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-055",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-056",
+    "display_name": "主图点击率太低怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-056",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-057",
+    "display_name": "主图点击率太低怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-057",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-058",
+    "display_name": "详情页转化太低怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-058",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-059",
+    "display_name": "详情页转化太低怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-059",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-060",
+    "display_name": "详情页转化太低怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-060",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-061",
+    "display_name": "视频前三秒留不住人怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-061",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-062",
+    "display_name": "视频前三秒留不住人怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-062",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-063",
+    "display_name": "视频前三秒留不住人怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-063",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-064",
+    "display_name": "直播回放太长怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-064",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-065",
+    "display_name": "直播回放太长怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-065",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-066",
+    "display_name": "直播回放太长怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-066",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-067",
+    "display_name": "用户评价不会利用怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-067",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-068",
+    "display_name": "用户评价不会利用怎么做商品详情页",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-068",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-069",
+    "display_name": "用户评价不会利用怎么做带货短视频",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-069",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-pain-070",
+    "display_name": "商品卖点说不清怎么做商品主图",
+    "category": "商家自然问题词",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-pain-070",
+    "language": "zh-CN"
   }
 ]
