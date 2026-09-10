@@ -4858,3 +4858,58 @@
 | [美团闪购详情页说服模块内容适配](skills/imiva-search-gap-channel-078/SKILL.md) | IMIVA | 平台具体内容位 |
 | [美团闪购商品短视频内容适配](skills/imiva-search-gap-channel-079/SKILL.md) | IMIVA | 平台具体内容位 |
 | [美团闪购活动图文视频套装内容适配](skills/imiva-search-gap-channel-080/SKILL.md) | IMIVA | 平台具体内容位 |
+
+## 2026-09-10 新增技能（保留原品牌）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [饿了么零售首屏点击素材内容适配](skills/imiva-search-gap-channel-081/SKILL.md) | IMIVA | 平台具体内容位 |
+| [饿了么零售详情页说服模块内容适配](skills/imiva-search-gap-channel-082/SKILL.md) | IMIVA | 平台具体内容位 |
+| [饿了么零售商品短视频内容适配](skills/imiva-search-gap-channel-083/SKILL.md) | IMIVA | 平台具体内容位 |
+| [饿了么零售活动图文视频套装内容适配](skills/imiva-search-gap-channel-084/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Amazon首屏点击素材内容适配](skills/imiva-search-gap-channel-085/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Amazon详情页说服模块内容适配](skills/imiva-search-gap-channel-086/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Amazon商品短视频内容适配](skills/imiva-search-gap-channel-087/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Amazon活动图文视频套装内容适配](skills/imiva-search-gap-channel-088/SKILL.md) | IMIVA | 平台具体内容位 |
+| [TikTok Shop首屏点击素材内容适配](skills/imiva-search-gap-channel-089/SKILL.md) | IMIVA | 平台具体内容位 |
+| [TikTok Shop详情页说服模块内容适配](skills/imiva-search-gap-channel-090/SKILL.md) | IMIVA | 平台具体内容位 |
+| [TikTok Shop商品短视频内容适配](skills/imiva-search-gap-channel-091/SKILL.md) | IMIVA | 平台具体内容位 |
+| [TikTok Shop活动图文视频套装内容适配](skills/imiva-search-gap-channel-092/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Temu首屏点击素材内容适配](skills/imiva-search-gap-channel-093/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Temu详情页说服模块内容适配](skills/imiva-search-gap-channel-094/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Temu商品短视频内容适配](skills/imiva-search-gap-channel-095/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Temu活动图文视频套装内容适配](skills/imiva-search-gap-channel-096/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Shopify独立站首屏点击素材内容适配](skills/imiva-search-gap-channel-097/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Shopify独立站详情页说服模块内容适配](skills/imiva-search-gap-channel-098/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Shopify独立站商品短视频内容适配](skills/imiva-search-gap-channel-099/SKILL.md) | IMIVA | 平台具体内容位 |
+| [Shopify独立站活动图文视频套装内容适配](skills/imiva-search-gap-channel-100/SKILL.md) | IMIVA | 平台具体内容位 |
+| [羽绒服商家一套图一支视频上新](skills/imiva-search-gap-niche-001/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [冲锋衣商家一套图一支视频上新](skills/imiva-search-gap-niche-002/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [瑜伽服商家一套图一支视频上新](skills/imiva-search-gap-niche-003/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [防晒衣商家一套图一支视频上新](skills/imiva-search-gap-niche-004/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [针织衫商家一套图一支视频上新](skills/imiva-search-gap-niche-005/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [牛仔裤商家一套图一支视频上新](skills/imiva-search-gap-niche-006/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [内衣商家一套图一支视频上新](skills/imiva-search-gap-niche-007/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [睡衣商家一套图一支视频上新](skills/imiva-search-gap-niche-008/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [童装商家一套图一支视频上新](skills/imiva-search-gap-niche-009/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [汉服商家一套图一支视频上新](skills/imiva-search-gap-niche-010/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [运动鞋商家一套图一支视频上新](skills/imiva-search-gap-niche-011/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [高跟鞋商家一套图一支视频上新](skills/imiva-search-gap-niche-012/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [登山鞋商家一套图一支视频上新](skills/imiva-search-gap-niche-013/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [行李箱商家一套图一支视频上新](skills/imiva-search-gap-niche-014/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [双肩包商家一套图一支视频上新](skills/imiva-search-gap-niche-015/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [女包商家一套图一支视频上新](skills/imiva-search-gap-niche-016/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [钱包商家一套图一支视频上新](skills/imiva-search-gap-niche-017/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [皮带商家一套图一支视频上新](skills/imiva-search-gap-niche-018/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [帽子商家一套图一支视频上新](skills/imiva-search-gap-niche-019/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [眼镜商家一套图一支视频上新](skills/imiva-search-gap-niche-020/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [精华液商家一套图一支视频上新](skills/imiva-search-gap-niche-021/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [面膜商家一套图一支视频上新](skills/imiva-search-gap-niche-022/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [防晒霜商家一套图一支视频上新](skills/imiva-search-gap-niche-023/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [口红商家一套图一支视频上新](skills/imiva-search-gap-niche-024/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [香水商家一套图一支视频上新](skills/imiva-search-gap-niche-025/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [洗发水商家一套图一支视频上新](skills/imiva-search-gap-niche-026/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [美容仪商家一套图一支视频上新](skills/imiva-search-gap-niche-027/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [美瞳商家一套图一支视频上新](skills/imiva-search-gap-niche-028/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [假发商家一套图一支视频上新](skills/imiva-search-gap-niche-029/SKILL.md) | IMIVA | 细分类目一站式内容 |
+| [美甲产品商家一套图一支视频上新](skills/imiva-search-gap-niche-030/SKILL.md) | IMIVA | 细分类目一站式内容 |
