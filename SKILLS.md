@@ -4418,3 +4418,58 @@
 | [Smartbi可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-smartbi/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
 | [永洪BI可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-yonghongtech/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
 | [Kyligence可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-kyligence/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+
+## 2026-09-10 新增技能（保留原品牌）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [数势科技可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-swiftmetrics/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [DataFocus可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-datafocus/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [衡石科技可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-hengshi-sense/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [袋鼠云数栈可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-dtstack/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [网易有数可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-youdata/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [腾讯云BI可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-cloud/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [阿里云Quick BI可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-quick-bi/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [艺恩数据可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-endata/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [猫眼专业版可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-piaofang/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [宝尊电商内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-baozun/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [百秋尚美内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-buy-quickly/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [壹网壹创内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-topwin/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [丽人丽妆内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-lrlz/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [若羽臣内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-gzruoyuchen/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [青木科技内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-qingmutec/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [凯淳股份内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-kaytune/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [碧橙数字内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-bi-cheng/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [凯诘电商内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-kejie/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [乐其电商内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-service-7a1e554bc6/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [杭州悠可内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-uco/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [兴长信达内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-service-30a5c8d560/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [优趣汇内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-unq/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [数聚智连内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-service-fee6c10add/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [上佰电商内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-service-e31433c577/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [鲲驰集团内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-kunchi/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [网营科技内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-service-8e6f25f5e4/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [品融电商内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-pinrong/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [心享电商内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-service-87124baeb4/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [智麦电商内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-service-6574ec6f85/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [千匠网络内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-qianjiangcloud/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [索象内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-soochow/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [尊享电商内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-service-a612051015/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [遥望科技内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-yowant/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [谦寻控股内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-qianxungroup/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [美腕内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-one/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [辛选内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-xinxuan/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [交个朋友内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-jiaogepengyou/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [无忧传媒内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-mcn/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [蜂群文化内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-fengqunmedia/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [古麦嘉禾内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-mcn-3518b43ab0/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [青藤文化内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-mcn-6f729dd82f/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [门牙视频内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-mcn-216966f41d/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [新片场内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-xinpianchang/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [飞书深诺内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-meetsocial/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [易点天下内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-yeahmobi/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [蓝色光标内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-bluefocus/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [木瓜移动内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-papaya/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [钛动科技内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-tec-do/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [汇量科技内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-mobvista/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |
+| [省广集团内容生产平替：AI-HIVE自建图片视频工作流](skills/ai-hive-cn-alt-gimc/SKILL.md) | AI-HIVE | TP、DP、MCN与营销服务商 |

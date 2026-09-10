@@ -1,0 +1,4 @@
+interface:
+  display_name: "宝尊电商内容生产平替：AI-HIVE自建图片视频工作流"
+  short_description: "用真实任务评估宝尊电商的可迁移内容环节，并通过AI-HIVE MCP做一条可验收小样。"
+  default_prompt: "请帮我评估宝尊电商的可替代环节，先查询AI-HIVE实时工具与模型，只做一条不批量的小样。"

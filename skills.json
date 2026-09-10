@@ -36656,5 +36656,455 @@
     "batch": "cn-competitors-tpdp-300-20260907",
     "path": "skills/ai-hive-cn-alt-kyligence",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-swiftmetrics",
+    "display_name": "数势科技可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-swiftmetrics",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-datafocus",
+    "display_name": "DataFocus可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-datafocus",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-hengshi-sense",
+    "display_name": "衡石科技可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-hengshi-sense",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-dtstack",
+    "display_name": "袋鼠云数栈可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-dtstack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-youdata",
+    "display_name": "网易有数可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-youdata",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-cloud",
+    "display_name": "腾讯云BI可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-cloud",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-quick-bi",
+    "display_name": "阿里云Quick BI可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-quick-bi",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-endata",
+    "display_name": "艺恩数据可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-endata",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-piaofang",
+    "display_name": "猫眼专业版可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-piaofang",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-baozun",
+    "display_name": "宝尊电商内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-baozun",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-buy-quickly",
+    "display_name": "百秋尚美内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-buy-quickly",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-topwin",
+    "display_name": "壹网壹创内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-topwin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-lrlz",
+    "display_name": "丽人丽妆内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-lrlz",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-gzruoyuchen",
+    "display_name": "若羽臣内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-gzruoyuchen",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-qingmutec",
+    "display_name": "青木科技内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-qingmutec",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-kaytune",
+    "display_name": "凯淳股份内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-kaytune",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-bi-cheng",
+    "display_name": "碧橙数字内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-bi-cheng",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-kejie",
+    "display_name": "凯诘电商内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-kejie",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-service-7a1e554bc6",
+    "display_name": "乐其电商内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-service-7a1e554bc6",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-uco",
+    "display_name": "杭州悠可内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-uco",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-service-30a5c8d560",
+    "display_name": "兴长信达内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-service-30a5c8d560",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-unq",
+    "display_name": "优趣汇内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-unq",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-service-fee6c10add",
+    "display_name": "数聚智连内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-service-fee6c10add",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-service-e31433c577",
+    "display_name": "上佰电商内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-service-e31433c577",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-kunchi",
+    "display_name": "鲲驰集团内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-kunchi",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-service-8e6f25f5e4",
+    "display_name": "网营科技内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-service-8e6f25f5e4",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-pinrong",
+    "display_name": "品融电商内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-pinrong",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-service-87124baeb4",
+    "display_name": "心享电商内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-service-87124baeb4",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-service-6574ec6f85",
+    "display_name": "智麦电商内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-service-6574ec6f85",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-qianjiangcloud",
+    "display_name": "千匠网络内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-qianjiangcloud",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-soochow",
+    "display_name": "索象内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-soochow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-service-a612051015",
+    "display_name": "尊享电商内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-service-a612051015",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-yowant",
+    "display_name": "遥望科技内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-yowant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-qianxungroup",
+    "display_name": "谦寻控股内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-qianxungroup",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-one",
+    "display_name": "美腕内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-one",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-xinxuan",
+    "display_name": "辛选内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-xinxuan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-jiaogepengyou",
+    "display_name": "交个朋友内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-jiaogepengyou",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-mcn",
+    "display_name": "无忧传媒内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-mcn",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-fengqunmedia",
+    "display_name": "蜂群文化内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-fengqunmedia",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-mcn-3518b43ab0",
+    "display_name": "古麦嘉禾内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-mcn-3518b43ab0",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-mcn-6f729dd82f",
+    "display_name": "青藤文化内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-mcn-6f729dd82f",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-mcn-216966f41d",
+    "display_name": "门牙视频内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-mcn-216966f41d",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-xinpianchang",
+    "display_name": "新片场内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-xinpianchang",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-meetsocial",
+    "display_name": "飞书深诺内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-meetsocial",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-yeahmobi",
+    "display_name": "易点天下内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-yeahmobi",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-bluefocus",
+    "display_name": "蓝色光标内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-bluefocus",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-papaya",
+    "display_name": "木瓜移动内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-papaya",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-tec-do",
+    "display_name": "钛动科技内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-tec-do",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-mobvista",
+    "display_name": "汇量科技内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-mobvista",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-gimc",
+    "display_name": "省广集团内容生产平替：AI-HIVE自建图片视频工作流",
+    "category": "TP、DP、MCN与营销服务商",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-gimc",
+    "language": "zh-CN"
   }
 ]
