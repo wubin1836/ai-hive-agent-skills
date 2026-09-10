@@ -43856,5 +43856,275 @@
     "batch": "gateway-high-intent-150-20260903",
     "path": "skills/ai-hive-gateway-baidu-qianfan-migration",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-tencent-hunyuan-migration",
+    "display_name": "腾讯混元API统一接入",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-tencent-hunyuan-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-zhipu-platform-migration",
+    "display_name": "智谱开放平台备用通道",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-zhipu-platform-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-one-api-upstream",
+    "display_name": "One API上游模型接入",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-one-api-upstream",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-new-api-upstream",
+    "display_name": "New API模型供应商接入",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-new-api-upstream",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-litellm-integration",
+    "display_name": "LiteLLM接入AI-HIVE",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-litellm-integration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-apipark-integration",
+    "display_name": "APIPark上游模型配置",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-apipark-integration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-higress-integration",
+    "display_name": "Higress大模型网关接入",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-higress-integration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-portkey-migration",
+    "display_name": "Portkey AI Gateway迁移评估",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-portkey-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-cloudflare-ai-gateway-migration",
+    "display_name": "Cloudflare AI Gateway迁移评估",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-cloudflare-ai-gateway-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-vercel-ai-gateway-migration",
+    "display_name": "Vercel AI Gateway迁移评估",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-vercel-ai-gateway-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-upstream-api-supplier",
+    "display_name": "AI API源头供应商合作",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-upstream-api-supplier",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-api-wholesale",
+    "display_name": "大模型API批量采购",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-api-wholesale",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-channel-reseller",
+    "display_name": "AI接口渠道代理合作",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-channel-reseller",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-model-reseller-program",
+    "display_name": "模型API分销合作方案",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-model-reseller-program",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-white-label-platform",
+    "display_name": "多模型API白标平台",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-white-label-platform",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-oem-model-platform",
+    "display_name": "AI模型平台OEM方案",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-oem-model-platform",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-relay-upstream-access",
+    "display_name": "自建AI中转站上游接入",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-relay-upstream-access",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-ai-saas-cost-partnership",
+    "display_name": "AI SaaS模型成本合作",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-ai-saas-cost-partnership",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-media-api-procurement",
+    "display_name": "图片视频API批量采购",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-media-api-procurement",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-enterprise-private-gateway",
+    "display_name": "企业专属大模型网关",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-enterprise-private-gateway",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-function-calling-protocol",
+    "display_name": "Function Calling统一接口",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-function-calling-protocol",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-tool-calling-protocol",
+    "display_name": "Tool Calling多模型兼容",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-tool-calling-protocol",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-structured-json-output",
+    "display_name": "Structured Output与JSON Schema",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-structured-json-output",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-responses-messages-bridge",
+    "display_name": "Responses与Messages协议转换",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-responses-messages-bridge",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-sse-streaming-protocol",
+    "display_name": "SSE大模型流式接口",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-sse-streaming-protocol",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-websocket-realtime-api",
+    "display_name": "WebSocket实时AI接口",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-websocket-realtime-api",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-prompt-semantic-cache",
+    "display_name": "Prompt缓存与语义缓存",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-prompt-semantic-cache",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-batch-api-processing",
+    "display_name": "Batch API批量模型任务",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-batch-api-processing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-embedding-rerank-api",
+    "display_name": "Embedding与Rerank统一API",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-embedding-rerank-api",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-multimodal-api-hub",
+    "display_name": "图片视频语音多模态API",
+    "category": "渠道与协议",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-multimodal-api-hub",
+    "language": "zh-CN"
   }
 ]

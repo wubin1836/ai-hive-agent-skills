@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜Cloudflare AI Gateway迁移评估｜AI-HIVE"
+  short_description: "Cloudflare AI Gateway迁移评估：比较日志、缓存、限流、重试和模型回退与媒体任务需求"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-cloudflare-ai-gateway-migration 为我完成“Cloudflare AI Gateway迁移评估”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

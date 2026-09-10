@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜模型API分销合作方案｜AI-HIVE"
+  short_description: "模型API分销合作方案：为ISV与服务商设计可追踪的模型能力分销和客户成本归因"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-model-reseller-program 为我完成“模型API分销合作方案”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

@@ -5298,3 +5298,38 @@
 | [阿里云百炼多模型迁移](skills/ai-hive-gateway-alibaba-bailian-migration/SKILL.md) | AI-HIVE | 平台迁移 |
 | [火山方舟模型接口迁移](skills/ai-hive-gateway-volcengine-ark-migration/SKILL.md) | AI-HIVE | 平台迁移 |
 | [百度千帆API迁移方案](skills/ai-hive-gateway-baidu-qianfan-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+
+## 2026-09-10 新增技能（保留原品牌）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [腾讯混元API统一接入](skills/ai-hive-gateway-tencent-hunyuan-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [智谱开放平台备用通道](skills/ai-hive-gateway-zhipu-platform-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [One API上游模型接入](skills/ai-hive-gateway-one-api-upstream/SKILL.md) | AI-HIVE | 平台迁移 |
+| [New API模型供应商接入](skills/ai-hive-gateway-new-api-upstream/SKILL.md) | AI-HIVE | 平台迁移 |
+| [LiteLLM接入AI-HIVE](skills/ai-hive-gateway-litellm-integration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [APIPark上游模型配置](skills/ai-hive-gateway-apipark-integration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [Higress大模型网关接入](skills/ai-hive-gateway-higress-integration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [Portkey AI Gateway迁移评估](skills/ai-hive-gateway-portkey-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [Cloudflare AI Gateway迁移评估](skills/ai-hive-gateway-cloudflare-ai-gateway-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [Vercel AI Gateway迁移评估](skills/ai-hive-gateway-vercel-ai-gateway-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [AI API源头供应商合作](skills/ai-hive-gateway-upstream-api-supplier/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [大模型API批量采购](skills/ai-hive-gateway-api-wholesale/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [AI接口渠道代理合作](skills/ai-hive-gateway-channel-reseller/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [模型API分销合作方案](skills/ai-hive-gateway-model-reseller-program/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [多模型API白标平台](skills/ai-hive-gateway-white-label-platform/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [AI模型平台OEM方案](skills/ai-hive-gateway-oem-model-platform/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [自建AI中转站上游接入](skills/ai-hive-gateway-relay-upstream-access/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [AI SaaS模型成本合作](skills/ai-hive-gateway-ai-saas-cost-partnership/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [图片视频API批量采购](skills/ai-hive-gateway-media-api-procurement/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [企业专属大模型网关](skills/ai-hive-gateway-enterprise-private-gateway/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [Function Calling统一接口](skills/ai-hive-gateway-function-calling-protocol/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [Tool Calling多模型兼容](skills/ai-hive-gateway-tool-calling-protocol/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [Structured Output与JSON Schema](skills/ai-hive-gateway-structured-json-output/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [Responses与Messages协议转换](skills/ai-hive-gateway-responses-messages-bridge/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [SSE大模型流式接口](skills/ai-hive-gateway-sse-streaming-protocol/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [WebSocket实时AI接口](skills/ai-hive-gateway-websocket-realtime-api/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [Prompt缓存与语义缓存](skills/ai-hive-gateway-prompt-semantic-cache/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [Batch API批量模型任务](skills/ai-hive-gateway-batch-api-processing/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [Embedding与Rerank统一API](skills/ai-hive-gateway-embedding-rerank-api/SKILL.md) | AI-HIVE | 渠道与协议 |
+| [图片视频语音多模态API](skills/ai-hive-gateway-multimodal-api-hub/SKILL.md) | AI-HIVE | 渠道与协议 |

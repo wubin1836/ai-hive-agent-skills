@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜AI模型平台OEM方案｜AI-HIVE"
+  short_description: "AI模型平台OEM方案：定义产品界面、接口、模型目录、运维和交付责任的OEM需求"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-oem-model-platform 为我完成“AI模型平台OEM方案”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

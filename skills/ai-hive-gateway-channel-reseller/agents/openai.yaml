@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜AI接口渠道代理合作｜AI-HIVE"
+  short_description: "AI接口渠道代理合作：明确客户归属、技术支持、价格授权、品牌和售后责任"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-channel-reseller 为我完成“AI接口渠道代理合作”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

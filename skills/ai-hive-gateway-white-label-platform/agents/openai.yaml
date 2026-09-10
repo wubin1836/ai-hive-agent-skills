@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜多模型API白标平台｜AI-HIVE"
+  short_description: "多模型API白标平台：规划自有品牌、租户、域名、密钥、账单、支持和合规边界"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-white-label-platform 为我完成“多模型API白标平台”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
