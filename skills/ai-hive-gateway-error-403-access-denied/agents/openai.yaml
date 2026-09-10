@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜大模型API 403接入失败诊断｜AI-HIVE"
+  short_description: "大模型API 403接入失败诊断：区分权限、组织、区域、策略和路径错误，不提供绕过限制的方法"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-error-403-access-denied 为我完成“大模型API 403接入失败诊断”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

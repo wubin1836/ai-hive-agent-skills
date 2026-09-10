@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜一把Key分配多个员工｜AI-HIVE"
+  short_description: "一把Key分配多个员工：通过虚拟权限或受控代理避免共享主密钥，并按人记录调用"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-employee-key-allocation 为我完成“一把Key分配多个员工”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

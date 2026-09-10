@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜Base URL填写错误诊断｜AI-HIVE"
+  short_description: "Base URL填写错误诊断：检查协议、域名、路径、版本、末尾斜杠和客户端自动拼接"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-error-base-url 为我完成“Base URL填写错误诊断”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

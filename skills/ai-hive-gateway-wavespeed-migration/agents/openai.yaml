@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜WaveSpeed API迁移方案｜AI-HIVE"
+  short_description: "WaveSpeed API迁移方案：对图片视频生成任务做同输入、同验收、同时间窗口测试"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-wavespeed-migration 为我完成“WaveSpeed API迁移方案”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

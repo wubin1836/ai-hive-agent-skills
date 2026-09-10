@@ -43406,5 +43406,455 @@
     "batch": "gateway-high-intent-150-20260903",
     "path": "skills/ai-hive-gateway-batch-task-queue",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-idempotent-request-protection",
+    "display_name": "幂等请求防重复计费",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-idempotent-request-protection",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-model-sla-monitoring",
+    "display_name": "模型服务SLA监控",
+    "category": "稳定性工程",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-model-sla-monitoring",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-model-price-calculator",
+    "display_name": "大模型价格计算器",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-model-price-calculator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-token-cost-calculator",
+    "display_name": "Token成本计算器",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-token-cost-calculator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-image-generation-cost-compare",
+    "display_name": "AI图片生成成本比价",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-image-generation-cost-compare",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-video-generation-cost-compare",
+    "display_name": "AI视频生成成本比价",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-video-generation-cost-compare",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-realtime-model-price-compare",
+    "display_name": "多模型实时价格对比",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-realtime-model-price-compare",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-api-budget-alert",
+    "display_name": "AI API预算告警",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-api-budget-alert",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-department-budget-management",
+    "display_name": "部门大模型预算管理",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-department-budget-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-project-token-quota",
+    "display_name": "项目级Token配额",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-project-token-quota",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-enterprise-subaccounts",
+    "display_name": "企业大模型子账号管理",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-enterprise-subaccounts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-multi-tenant-api-keys",
+    "display_name": "多租户API Key管理",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-multi-tenant-api-keys",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-api-key-rotation",
+    "display_name": "大模型密钥轮换",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-api-key-rotation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-employee-key-allocation",
+    "display_name": "一把Key分配多个员工",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-employee-key-allocation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-customer-cost-attribution",
+    "display_name": "客户模型成本归因",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-customer-cost-attribution",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-project-billing-ledger",
+    "display_name": "按项目查看模型账单",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-project-billing-ledger",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-corporate-payment",
+    "display_name": "企业对公采购大模型API",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-corporate-payment",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-enterprise-invoice",
+    "display_name": "企业发票与模型费用管理",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-enterprise-invoice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-consolidated-model-billing",
+    "display_name": "多模型统一账单",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-consolidated-model-billing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-ai-finops-governance",
+    "display_name": "AI FinOps成本治理",
+    "category": "成本与企业治理",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-ai-finops-governance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-401-invalid-api-key",
+    "display_name": "OpenAI 401 Invalid API Key解决",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-401-invalid-api-key",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-403-access-denied",
+    "display_name": "大模型API 403接入失败诊断",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-403-access-denied",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-429-rate-limit",
+    "display_name": "OpenAI 429 Rate Limit解决",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-429-rate-limit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-model-not-found",
+    "display_name": "Model Not Found模型不存在",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-model-not-found",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-request-timeout",
+    "display_name": "大模型API请求超时解决",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-request-timeout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-sse-disconnect",
+    "display_name": "SSE流式输出中断修复",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-sse-disconnect",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-tool-calling",
+    "display_name": "Tool Calling调用失败",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-tool-calling",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-function-parameters",
+    "display_name": "Function Calling参数错误",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-function-parameters",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-json-schema",
+    "display_name": "JSON Schema输出失败",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-json-schema",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-structured-output",
+    "display_name": "Structured Output兼容问题",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-structured-output",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-image-queue",
+    "display_name": "AI图片任务一直排队",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-image-queue",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-video-polling",
+    "display_name": "AI视频任务轮询失败",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-video-polling",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-charged-task-failed",
+    "display_name": "API扣费但任务失败处理",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-charged-task-failed",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-base-url",
+    "display_name": "Base URL填写错误诊断",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-base-url",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-model-id",
+    "display_name": "模型ID配置错误诊断",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-model-id",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-sdk-version",
+    "display_name": "SDK版本不兼容解决",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-sdk-version",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-insufficient-balance",
+    "display_name": "Token余额不足诊断",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-insufficient-balance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-error-upstream-unavailable",
+    "display_name": "上游模型不可用自动切换",
+    "category": "错误诊断",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-error-upstream-unavailable",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-openrouter-migration",
+    "display_name": "OpenRouter迁移到AI-HIVE",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-openrouter-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-siliconflow-migration",
+    "display_name": "SiliconFlow硅基流动迁移方案",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-siliconflow-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-together-ai-migration",
+    "display_name": "Together AI模型接口迁移",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-together-ai-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-replicate-migration",
+    "display_name": "Replicate图片视频API迁移",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-replicate-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-fal-ai-migration",
+    "display_name": "fal.ai多媒体模型迁移",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-fal-ai-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-wavespeed-migration",
+    "display_name": "WaveSpeed API迁移方案",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-wavespeed-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-aws-bedrock-migration",
+    "display_name": "AWS Bedrock模型统一接入",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-aws-bedrock-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-azure-openai-migration",
+    "display_name": "Azure OpenAI迁移与备用通道",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-azure-openai-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-vertex-ai-migration",
+    "display_name": "Google Vertex AI接口迁移",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-vertex-ai-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-alibaba-bailian-migration",
+    "display_name": "阿里云百炼多模型迁移",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-alibaba-bailian-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-volcengine-ark-migration",
+    "display_name": "火山方舟模型接口迁移",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-volcengine-ark-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gateway-baidu-qianfan-migration",
+    "display_name": "百度千帆API迁移方案",
+    "category": "平台迁移",
+    "brand": "AI-HIVE",
+    "batch": "gateway-high-intent-150-20260903",
+    "path": "skills/ai-hive-gateway-baidu-qianfan-migration",
+    "language": "zh-CN"
   }
 ]

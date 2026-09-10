@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜企业对公采购大模型API｜AI-HIVE"
+  short_description: "企业对公采购大模型API：整理合同主体、计费口径、预算、结算、支持和验收需求"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-corporate-payment 为我完成“企业对公采购大模型API”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

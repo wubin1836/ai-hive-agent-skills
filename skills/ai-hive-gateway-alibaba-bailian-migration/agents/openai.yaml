@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜阿里云百炼多模型迁移｜AI-HIVE"
+  short_description: "阿里云百炼多模型迁移：比较当前模型、工作流、计费与数据要求，设计可回退路径"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-alibaba-bailian-migration 为我完成“阿里云百炼多模型迁移”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜Tool Calling调用失败｜AI-HIVE"
+  short_description: "Tool Calling调用失败：检查工具 schema、名称、参数、tool_call ID 与结果回填顺序"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-error-tool-calling 为我完成“Tool Calling调用失败”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

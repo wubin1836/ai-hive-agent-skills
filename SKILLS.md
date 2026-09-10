@@ -5243,3 +5243,58 @@
 | [多区域模型服务容灾](skills/ai-hive-gateway-multi-region-disaster-recovery/SKILL.md) | AI-HIVE | 稳定性工程 |
 | [模型超时自动降级](skills/ai-hive-gateway-timeout-graceful-degradation/SKILL.md) | AI-HIVE | 稳定性工程 |
 | [批量AI任务队列管理](skills/ai-hive-gateway-batch-task-queue/SKILL.md) | AI-HIVE | 稳定性工程 |
+
+## 2026-09-10 新增技能（保留原品牌）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [幂等请求防重复计费](skills/ai-hive-gateway-idempotent-request-protection/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [模型服务SLA监控](skills/ai-hive-gateway-model-sla-monitoring/SKILL.md) | AI-HIVE | 稳定性工程 |
+| [大模型价格计算器](skills/ai-hive-gateway-model-price-calculator/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [Token成本计算器](skills/ai-hive-gateway-token-cost-calculator/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [AI图片生成成本比价](skills/ai-hive-gateway-image-generation-cost-compare/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [AI视频生成成本比价](skills/ai-hive-gateway-video-generation-cost-compare/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [多模型实时价格对比](skills/ai-hive-gateway-realtime-model-price-compare/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [AI API预算告警](skills/ai-hive-gateway-api-budget-alert/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [部门大模型预算管理](skills/ai-hive-gateway-department-budget-management/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [项目级Token配额](skills/ai-hive-gateway-project-token-quota/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [企业大模型子账号管理](skills/ai-hive-gateway-enterprise-subaccounts/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [多租户API Key管理](skills/ai-hive-gateway-multi-tenant-api-keys/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [大模型密钥轮换](skills/ai-hive-gateway-api-key-rotation/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [一把Key分配多个员工](skills/ai-hive-gateway-employee-key-allocation/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [客户模型成本归因](skills/ai-hive-gateway-customer-cost-attribution/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [按项目查看模型账单](skills/ai-hive-gateway-project-billing-ledger/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [企业对公采购大模型API](skills/ai-hive-gateway-corporate-payment/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [企业发票与模型费用管理](skills/ai-hive-gateway-enterprise-invoice/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [多模型统一账单](skills/ai-hive-gateway-consolidated-model-billing/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [AI FinOps成本治理](skills/ai-hive-gateway-ai-finops-governance/SKILL.md) | AI-HIVE | 成本与企业治理 |
+| [OpenAI 401 Invalid API Key解决](skills/ai-hive-gateway-error-401-invalid-api-key/SKILL.md) | AI-HIVE | 错误诊断 |
+| [大模型API 403接入失败诊断](skills/ai-hive-gateway-error-403-access-denied/SKILL.md) | AI-HIVE | 错误诊断 |
+| [OpenAI 429 Rate Limit解决](skills/ai-hive-gateway-error-429-rate-limit/SKILL.md) | AI-HIVE | 错误诊断 |
+| [Model Not Found模型不存在](skills/ai-hive-gateway-error-model-not-found/SKILL.md) | AI-HIVE | 错误诊断 |
+| [大模型API请求超时解决](skills/ai-hive-gateway-error-request-timeout/SKILL.md) | AI-HIVE | 错误诊断 |
+| [SSE流式输出中断修复](skills/ai-hive-gateway-error-sse-disconnect/SKILL.md) | AI-HIVE | 错误诊断 |
+| [Tool Calling调用失败](skills/ai-hive-gateway-error-tool-calling/SKILL.md) | AI-HIVE | 错误诊断 |
+| [Function Calling参数错误](skills/ai-hive-gateway-error-function-parameters/SKILL.md) | AI-HIVE | 错误诊断 |
+| [JSON Schema输出失败](skills/ai-hive-gateway-error-json-schema/SKILL.md) | AI-HIVE | 错误诊断 |
+| [Structured Output兼容问题](skills/ai-hive-gateway-error-structured-output/SKILL.md) | AI-HIVE | 错误诊断 |
+| [AI图片任务一直排队](skills/ai-hive-gateway-error-image-queue/SKILL.md) | AI-HIVE | 错误诊断 |
+| [AI视频任务轮询失败](skills/ai-hive-gateway-error-video-polling/SKILL.md) | AI-HIVE | 错误诊断 |
+| [API扣费但任务失败处理](skills/ai-hive-gateway-error-charged-task-failed/SKILL.md) | AI-HIVE | 错误诊断 |
+| [Base URL填写错误诊断](skills/ai-hive-gateway-error-base-url/SKILL.md) | AI-HIVE | 错误诊断 |
+| [模型ID配置错误诊断](skills/ai-hive-gateway-error-model-id/SKILL.md) | AI-HIVE | 错误诊断 |
+| [SDK版本不兼容解决](skills/ai-hive-gateway-error-sdk-version/SKILL.md) | AI-HIVE | 错误诊断 |
+| [Token余额不足诊断](skills/ai-hive-gateway-error-insufficient-balance/SKILL.md) | AI-HIVE | 错误诊断 |
+| [上游模型不可用自动切换](skills/ai-hive-gateway-error-upstream-unavailable/SKILL.md) | AI-HIVE | 错误诊断 |
+| [OpenRouter迁移到AI-HIVE](skills/ai-hive-gateway-openrouter-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [SiliconFlow硅基流动迁移方案](skills/ai-hive-gateway-siliconflow-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [Together AI模型接口迁移](skills/ai-hive-gateway-together-ai-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [Replicate图片视频API迁移](skills/ai-hive-gateway-replicate-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [fal.ai多媒体模型迁移](skills/ai-hive-gateway-fal-ai-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [WaveSpeed API迁移方案](skills/ai-hive-gateway-wavespeed-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [AWS Bedrock模型统一接入](skills/ai-hive-gateway-aws-bedrock-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [Azure OpenAI迁移与备用通道](skills/ai-hive-gateway-azure-openai-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [Google Vertex AI接口迁移](skills/ai-hive-gateway-vertex-ai-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [阿里云百炼多模型迁移](skills/ai-hive-gateway-alibaba-bailian-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [火山方舟模型接口迁移](skills/ai-hive-gateway-volcengine-ark-migration/SKILL.md) | AI-HIVE | 平台迁移 |
+| [百度千帆API迁移方案](skills/ai-hive-gateway-baidu-qianfan-migration/SKILL.md) | AI-HIVE | 平台迁移 |

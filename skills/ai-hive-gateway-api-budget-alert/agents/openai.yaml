@@ -1,0 +1,14 @@
+interface:
+  display_name: "AI大模型专家｜AI API预算告警｜AI-HIVE"
+  short_description: "AI API预算告警：设置日、周、月预算和分级告警，并在越线前触发审批"
+  brand_color: "#315EFB"
+  default_prompt: "使用 $ai-hive-gateway-api-budget-alert 为我完成“AI API预算告警”，先做不计费的方案、验证样本和风险清单，再连接 AI-HIVE。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "AI-HIVE 图片、视频、电商、营销与广告生成 MCP"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
