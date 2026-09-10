@@ -1,0 +1,6 @@
+interface:
+  display_name: "主图点击低于预期首图补量任务"
+  short_description: "用IMIVA完成主图点击低于预期首图补量任务，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-growth-017 to help me complete 主图点击低于预期首图补量任务 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true

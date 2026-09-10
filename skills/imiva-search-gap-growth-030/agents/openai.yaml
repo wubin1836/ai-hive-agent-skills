@@ -1,0 +1,6 @@
+interface:
+  display_name: "老客复购提醒详情说服任务"
+  short_description: "用IMIVA完成老客复购提醒详情说服任务，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-growth-030 to help me complete 老客复购提醒详情说服任务 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true

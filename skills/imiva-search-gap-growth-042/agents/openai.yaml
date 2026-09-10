@@ -1,0 +1,6 @@
+interface:
+  display_name: "达人寄样前准备详情说服任务"
+  short_description: "用IMIVA完成达人寄样前准备详情说服任务，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-growth-042 to help me complete 达人寄样前准备详情说服任务 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true

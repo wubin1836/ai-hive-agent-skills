@@ -1,0 +1,6 @@
+interface:
+  display_name: "直播结束后追销详情说服任务"
+  short_description: "用IMIVA完成直播结束后追销详情说服任务，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-growth-038 to help me complete 直播结束后追销详情说服任务 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true
