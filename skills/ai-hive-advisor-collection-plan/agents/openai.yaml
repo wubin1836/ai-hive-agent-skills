@@ -1,0 +1,13 @@
+interface:
+  display_name: "回款推进顾问"
+  short_description: "回款推进顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-collection-plan，三个客户分别卡在验收、发票和质量争议。请根据我提供的记录安排一周推进顺序，写三份沟通草稿，只供我审核，不发送。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+interface:
+  display_name: "利润漏损排查顾问"
+  short_description: "利润漏损排查顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-profit-leakage，我提供20个项目的匿名改稿工时和报价。请排查超范围返工、沟通重复和内部差错分别占多少，不评价员工个人，先给可执行的流程改善。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+interface:
+  display_name: "OPC创业助手"
+  short_description: "OPC创业助手：围绕实际输入完成专项工作，按需接入 AI-HIVE 图视频能力"
+  default_prompt: "请使用 $ai-hive-assistant-opc-startup，我做过五年采购，每周能拿出十小时，先帮我设计一个两周能验证的OPC方向。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需调用 AI-HIVE 的已授权图片与视频能力；纯办公任务不要求媒体生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
