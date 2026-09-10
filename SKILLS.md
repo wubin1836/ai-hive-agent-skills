@@ -4308,3 +4308,58 @@
 | [数说故事可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-datastory/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
 | [识微科技可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-civiw/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
 | [秒针系统可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-miaozhen/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+
+## 2026-09-10 新增技能（保留原品牌）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [国双可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-gridsum/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [观远数据可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-guandata/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [帆软可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-finebi/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [数云可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-crm/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [驰骛科技可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-cdp/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [Linkflow可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-linkflow/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [巨量引擎可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-oceanengine/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [阿里妈妈可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-alimama/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [腾讯广告可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-data-cc6682d692/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [磁力引擎可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-data-47f9bdb38e/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [小红书聚光可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-data-bf672b3de5/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [抖音巨量云图可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-yuntu/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [京东商智可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-data-ccccaa2581/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [淘宝联盟可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-pub/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [京东联盟可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-jd-union/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [多多进宝可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-jinbao/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [飞瓜易投可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-feigua-80bcbf8cf0/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [热云数据可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-trackingio/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [七麦数据可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-qimai/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [量江湖可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-liangjianghu/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [巨掌数据可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-juzhang/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [熊猫新媒可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-pandamedia/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [有米有量可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-youliang/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [星谷云可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-starcloud/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [径硕科技可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-jingdigital/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [卧兔网络可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-wotu/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [映马传媒可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-inmobi-china/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [蝉管家可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-chanmama-53d4d43070/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [蝉选可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-chanmama-f27db5604a/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [飞瓜品策可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-feigua-560bf18d7e/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [新红可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-data-4a25d42677/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [集瓜数据可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-feigua-07805ebfc0/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [火烧云数据可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-hsydata/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [九数云可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-jiushuyun/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [九思AI可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-jiushuyun-ce9680577c/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [数跨境BI可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-jiushuyun-ee0bb370b6/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [E数通可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-jiushuyun-44a4081bac/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [神味BI可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-jiushuyun-ca81fd11e6/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [友盟+可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-umeng/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [诸葛io可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-zhugeio/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [易观方舟可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-analysys-ark/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [易观千帆可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-analysys-qianfan/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [TalkingData可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-talkingdata/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [QuestMobile可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-questmobile/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [艾瑞UserTracker可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-usertracker/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [百度统计可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-tongji/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [优麦云可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-sellersprite/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [达人精灵可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-sellersprite-3145901970/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [Shulex VOC可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-shulex-voc/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
+| [鸥鹭可替代环节：AI-HIVE内容与多模态工作流](skills/ai-hive-cn-alt-oalur/SKILL.md) | AI-HIVE | 电商数据、广告与运营软件 |
