@@ -1,0 +1,6 @@
+interface:
+  display_name: "跨境站点本地化图文视频整包任务"
+  short_description: "用IMIVA完成跨境站点本地化图文视频整包任务，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-growth-108 to help me complete 跨境站点本地化图文视频整包任务 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true
