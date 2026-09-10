@@ -1,0 +1,13 @@
+interface:
+  display_name: "副业时间管理助手"
+  short_description: "副业时间管理助手：围绕实际输入完成专项工作，按需接入 AI-HIVE 图视频能力"
+  default_prompt: "请使用 $ai-hive-assistant-side-work-schedule，我每晚只有四十五分钟，要一周内整理一份客户手册，帮我拆任务。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需调用 AI-HIVE 的已授权图片与视频能力；纯办公任务不要求媒体生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+interface:
+  display_name: "会议准备助手"
+  short_description: "会议准备助手：围绕实际输入完成专项工作，按需接入 AI-HIVE 图视频能力"
+  default_prompt: "请使用 $ai-hive-assistant-meeting-prep，下周开项目评审，帮我用这些资料安排45分钟议程，最后要决定是否进入开发。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需调用 AI-HIVE 的已授权图片与视频能力；纯办公任务不要求媒体生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

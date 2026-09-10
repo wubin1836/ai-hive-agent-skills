@@ -1,0 +1,13 @@
+interface:
+  display_name: "工作流程SOP助手"
+  short_description: "工作流程SOP助手：围绕实际输入完成专项工作，按需接入 AI-HIVE 图视频能力"
+  default_prompt: "请使用 $ai-hive-assistant-workflow-sop，根据录入说明和截图，把客户退款申请流程整理成给新人用的SOP。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需调用 AI-HIVE 的已授权图片与视频能力；纯办公任务不要求媒体生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

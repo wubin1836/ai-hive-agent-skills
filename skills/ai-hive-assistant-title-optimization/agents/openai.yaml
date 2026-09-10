@@ -1,0 +1,13 @@
+interface:
+  display_name: "标题优化助手"
+  short_description: "标题优化助手：围绕实际输入完成专项工作，按需接入 AI-HIVE 图视频能力"
+  default_prompt: "请使用 $ai-hive-assistant-title-optimization，这是讲Excel透视表的文章，原题《提高效率的方法》太空泛，给我8个标题。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需调用 AI-HIVE 的已授权图片与视频能力；纯办公任务不要求媒体生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true
