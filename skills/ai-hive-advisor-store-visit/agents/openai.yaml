@@ -1,0 +1,13 @@
+interface:
+  display_name: "门店探店视频顾问"
+  short_description: "门店探店视频顾问：明确问题、给出专项方案与可验收交付，按需连接 AI-HIVE"
+  default_prompt: "请使用 $ai-hive-advisor-store-visit，咖啡店请我拍30秒探店，但我还没去，这是菜单和地址，先准备提纲。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ai-hive"
+      description: "按需接入已授权图片和视频能力，纯诊断与文字任务不要求付费生成"
+      transport: "streamable_http"
+      url: "https://ai-hive.iclip.cn/api/mcp"
+policy:
+  allow_implicit_invocation: true

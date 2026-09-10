@@ -3868,3 +3868,58 @@
 | [`zeshot-drama-agent-ai-hive-migration`](skills/zeshot-drama-agent-ai-hive-migration/SKILL.md) | AI大模型专家｜Zeshot替代与迁移｜AI-HIVE MCP | agent-platform-migration | oiioii-like-agent-platform |
 | [`zoho-crm-ai-layer`](skills/zoho-crm-ai-layer/SKILL.md) | AI大模型专家｜Zoho CRM AI能力替代与自建｜AI-HIVE MCP | ecommerce-ai-workflow | ecommerce-ai-hive |
 | [`zoho-inventory-ai-layer`](skills/zoho-inventory-ai-layer/SKILL.md) | AI大模型专家｜Zoho Inventory AI能力替代与自建｜AI-HIVE MCP | ecommerce-ai-workflow | ecommerce-ai-hive |
+
+## 2026-09-10 新增技能（保留原品牌）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [老板出镜顾问](skills/ai-hive-advisor-founder-on-camera/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [镜头表现力顾问](skills/ai-hive-advisor-camera-presence/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [口播去稿味顾问](skills/ai-hive-advisor-natural-spoken-script/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [提词器断句顾问](skills/ai-hive-advisor-teleprompter-phrasing/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [口播重录诊断顾问](skills/ai-hive-advisor-retake-triage/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [拍摄背景布置顾问](skills/ai-hive-advisor-filming-background/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [手机拍摄顾问](skills/ai-hive-advisor-phone-shooting/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [竖屏构图顾问](skills/ai-hive-advisor-vertical-framing/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [口播收音顾问](skills/ai-hive-advisor-speech-recording/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [短视频补拍顾问](skills/ai-hive-advisor-pickup-shots/SKILL.md) | AI-HIVE | 出镜与拍摄 |
+| [视频开头顾问](skills/ai-hive-advisor-video-opening/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [视频钩子测试顾问](skills/ai-hive-advisor-hook-experiment/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [视频完播诊断顾问](skills/ai-hive-advisor-retention-diagnosis/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [视频信息密度顾问](skills/ai-hive-advisor-information-density/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [短视频结尾顾问](skills/ai-hive-advisor-video-ending/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [系列视频编排顾问](skills/ai-hive-advisor-series-sequence/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [内容断更修复顾问](skills/ai-hive-advisor-posting-restart/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [同质化内容诊断顾问](skills/ai-hive-advisor-content-differentiation/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [老视频翻新顾问](skills/ai-hive-advisor-video-refresh/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [用户问题视频化顾问](skills/ai-hive-advisor-question-to-video/SKILL.md) | AI-HIVE | 内容结构与诊断 |
+| [空镜素材顾问](skills/ai-hive-advisor-broll-planning/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [视频转场顾问](skills/ai-hive-advisor-transitions/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [剪辑节奏顾问](skills/ai-hive-advisor-editing-rhythm/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [口播跳剪顾问](skills/ai-hive-advisor-talking-head-jumpcuts/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [画音同步顾问](skills/ai-hive-advisor-av-sync/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [视频声音设计顾问](skills/ai-hive-advisor-video-sound/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [视频画质修复顾问](skills/ai-hive-advisor-video-quality-repair/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [多版本视频测试顾问](skills/ai-hive-advisor-video-variant-tests/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [素材复用顾问](skills/ai-hive-advisor-asset-reuse/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [成片验收顾问](skills/ai-hive-advisor-final-video-qa/SKILL.md) | AI-HIVE | 剪辑与成片 |
+| [不露脸视频顾问](skills/ai-hive-advisor-faceless-video/SKILL.md) | AI-HIVE | 视频应用场景 |
+| [产品演示视频顾问](skills/ai-hive-advisor-product-demo/SKILL.md) | AI-HIVE | 视频应用场景 |
+| [使用教程视频顾问](skills/ai-hive-advisor-howto-video/SKILL.md) | AI-HIVE | 视频应用场景 |
+| [对比评测视频顾问](skills/ai-hive-advisor-comparison-review/SKILL.md) | AI-HIVE | 视频应用场景 |
+| [客户见证视频顾问](skills/ai-hive-advisor-customer-testimonial/SKILL.md) | AI-HIVE | 视频应用场景 |
+| [工厂探访视频顾问](skills/ai-hive-advisor-factory-tour/SKILL.md) | AI-HIVE | 企业场景视频 |
+| [门店探店视频顾问](skills/ai-hive-advisor-store-visit/SKILL.md) | AI-HIVE | 企业场景视频 |
+| [服务过程视频顾问](skills/ai-hive-advisor-service-process/SKILL.md) | AI-HIVE | 企业场景视频 |
+| [招商视频顾问](skills/ai-hive-advisor-partner-recruitment/SKILL.md) | AI-HIVE | 企业场景视频 |
+| [招聘视频顾问](skills/ai-hive-advisor-hiring-video/SKILL.md) | AI-HIVE | 企业场景视频 |
+| [企业家访谈顾问](skills/ai-hive-advisor-entrepreneur-interview/SKILL.md) | AI-HIVE | 人物与观点视频 |
+| [创始人问答顾问](skills/ai-hive-advisor-founder-qa/SKILL.md) | AI-HIVE | 人物与观点视频 |
+| [商业观点视频顾问](skills/ai-hive-advisor-business-opinion/SKILL.md) | AI-HIVE | 人物与观点视频 |
+| [行业科普视频顾问](skills/ai-hive-advisor-industry-explainer/SKILL.md) | AI-HIVE | 人物与观点视频 |
+| [演讲转短视频顾问](skills/ai-hive-advisor-speech-adaptation/SKILL.md) | AI-HIVE | 已有内容再利用 |
+| [发布会切片顾问](skills/ai-hive-advisor-launch-clips/SKILL.md) | AI-HIVE | 已有内容再利用 |
+| [客户异议视频顾问](skills/ai-hive-advisor-objection-video/SKILL.md) | AI-HIVE | 咨询与线索承接 |
+| [新品预热视频顾问](skills/ai-hive-advisor-product-teaser/SKILL.md) | AI-HIVE | 企业场景视频 |
+| [案例拆解视频顾问](skills/ai-hive-advisor-case-breakdown/SKILL.md) | AI-HIVE | 人物与观点视频 |
+| [活动回顾视频顾问](skills/ai-hive-advisor-event-recap/SKILL.md) | AI-HIVE | 已有内容再利用 |

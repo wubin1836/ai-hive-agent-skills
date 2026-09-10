@@ -32156,5 +32156,455 @@
     "layer": "ecommerce-ai-hive",
     "model_ids": [],
     "display_name": "AI大模型专家｜Zoho Inventory AI能力替代与自建｜AI-HIVE MCP"
+  },
+  {
+    "name": "ai-hive-advisor-founder-on-camera",
+    "display_name": "老板出镜顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-founder-on-camera",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-camera-presence",
+    "display_name": "镜头表现力顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-camera-presence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-natural-spoken-script",
+    "display_name": "口播去稿味顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-natural-spoken-script",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-teleprompter-phrasing",
+    "display_name": "提词器断句顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-teleprompter-phrasing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-retake-triage",
+    "display_name": "口播重录诊断顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-retake-triage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-filming-background",
+    "display_name": "拍摄背景布置顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-filming-background",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-phone-shooting",
+    "display_name": "手机拍摄顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-phone-shooting",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-vertical-framing",
+    "display_name": "竖屏构图顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-vertical-framing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-speech-recording",
+    "display_name": "口播收音顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-speech-recording",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-pickup-shots",
+    "display_name": "短视频补拍顾问",
+    "category": "出镜与拍摄",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-pickup-shots",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-opening",
+    "display_name": "视频开头顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-opening",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-hook-experiment",
+    "display_name": "视频钩子测试顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-hook-experiment",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-retention-diagnosis",
+    "display_name": "视频完播诊断顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-retention-diagnosis",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-information-density",
+    "display_name": "视频信息密度顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-information-density",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-ending",
+    "display_name": "短视频结尾顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-ending",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-series-sequence",
+    "display_name": "系列视频编排顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-series-sequence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-posting-restart",
+    "display_name": "内容断更修复顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-posting-restart",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-content-differentiation",
+    "display_name": "同质化内容诊断顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-content-differentiation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-refresh",
+    "display_name": "老视频翻新顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-refresh",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-question-to-video",
+    "display_name": "用户问题视频化顾问",
+    "category": "内容结构与诊断",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-question-to-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-broll-planning",
+    "display_name": "空镜素材顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-broll-planning",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-transitions",
+    "display_name": "视频转场顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-transitions",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-editing-rhythm",
+    "display_name": "剪辑节奏顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-editing-rhythm",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-talking-head-jumpcuts",
+    "display_name": "口播跳剪顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-talking-head-jumpcuts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-av-sync",
+    "display_name": "画音同步顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-av-sync",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-sound",
+    "display_name": "视频声音设计顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-sound",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-quality-repair",
+    "display_name": "视频画质修复顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-quality-repair",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-video-variant-tests",
+    "display_name": "多版本视频测试顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-video-variant-tests",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-asset-reuse",
+    "display_name": "素材复用顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-asset-reuse",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-final-video-qa",
+    "display_name": "成片验收顾问",
+    "category": "剪辑与成片",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-final-video-qa",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-faceless-video",
+    "display_name": "不露脸视频顾问",
+    "category": "视频应用场景",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-faceless-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-product-demo",
+    "display_name": "产品演示视频顾问",
+    "category": "视频应用场景",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-product-demo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-howto-video",
+    "display_name": "使用教程视频顾问",
+    "category": "视频应用场景",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-howto-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-comparison-review",
+    "display_name": "对比评测视频顾问",
+    "category": "视频应用场景",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-comparison-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-customer-testimonial",
+    "display_name": "客户见证视频顾问",
+    "category": "视频应用场景",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-customer-testimonial",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-factory-tour",
+    "display_name": "工厂探访视频顾问",
+    "category": "企业场景视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-factory-tour",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-store-visit",
+    "display_name": "门店探店视频顾问",
+    "category": "企业场景视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-store-visit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-service-process",
+    "display_name": "服务过程视频顾问",
+    "category": "企业场景视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-service-process",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-partner-recruitment",
+    "display_name": "招商视频顾问",
+    "category": "企业场景视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-partner-recruitment",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-hiring-video",
+    "display_name": "招聘视频顾问",
+    "category": "企业场景视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-hiring-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-entrepreneur-interview",
+    "display_name": "企业家访谈顾问",
+    "category": "人物与观点视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-entrepreneur-interview",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-founder-qa",
+    "display_name": "创始人问答顾问",
+    "category": "人物与观点视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-founder-qa",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-business-opinion",
+    "display_name": "商业观点视频顾问",
+    "category": "人物与观点视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-business-opinion",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-industry-explainer",
+    "display_name": "行业科普视频顾问",
+    "category": "人物与观点视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-industry-explainer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-speech-adaptation",
+    "display_name": "演讲转短视频顾问",
+    "category": "已有内容再利用",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-speech-adaptation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-launch-clips",
+    "display_name": "发布会切片顾问",
+    "category": "已有内容再利用",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-launch-clips",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-objection-video",
+    "display_name": "客户异议视频顾问",
+    "category": "咨询与线索承接",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-objection-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-product-teaser",
+    "display_name": "新品预热视频顾问",
+    "category": "企业场景视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-product-teaser",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-case-breakdown",
+    "display_name": "案例拆解视频顾问",
+    "category": "人物与观点视频",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-case-breakdown",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-advisor-event-recap",
+    "display_name": "活动回顾视频顾问",
+    "category": "已有内容再利用",
+    "brand": "AI-HIVE",
+    "batch": "advisors-130-20260910",
+    "path": "skills/ai-hive-advisor-event-recap",
+    "language": "zh-CN"
   }
 ]
