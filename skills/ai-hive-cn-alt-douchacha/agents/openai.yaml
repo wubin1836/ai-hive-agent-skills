@@ -1,0 +1,4 @@
+interface:
+  display_name: "抖查查可替代环节：AI-HIVE内容与多模态工作流"
+  short_description: "用真实任务评估抖查查的可迁移内容环节，并通过AI-HIVE MCP做一条可验收小样。"
+  default_prompt: "请帮我评估抖查查的可替代环节，先查询AI-HIVE实时工具与模型，只做一条不批量的小样。"

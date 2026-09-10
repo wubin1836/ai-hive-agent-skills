@@ -35306,5 +35306,455 @@
     "batch": "cn-competitors-tpdp-300-20260907",
     "path": "skills/ai-hive-cn-alt-qiyuai",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-tusiart",
+    "display_name": "吐司AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-tusiart",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-printidea",
+    "display_name": "造梦日记平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-printidea",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-wujieai",
+    "display_name": "无界AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-wujieai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-6pen",
+    "display_name": "6pen平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-6pen",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-yjai",
+    "display_name": "意间AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-yjai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-vega-ai",
+    "display_name": "Vega AI平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-vega-ai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-53kf",
+    "display_name": "53快服平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-53kf",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-xiaokefu",
+    "display_name": "芝麻小客服平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-xiaokefu",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-scrm",
+    "display_name": "探马SCRM平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-scrm",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-scrm-20bde58764",
+    "display_name": "尘锋SCRM平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-scrm-20bde58764",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-weibanzhushou",
+    "display_name": "微伴助手平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-weibanzhushou",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-juzibot",
+    "display_name": "句子互动平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-juzibot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-erp",
+    "display_name": "旺销王平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-erp",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-wms",
+    "display_name": "通天晓平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-wms",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-baison",
+    "display_name": "百胜软件平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-baison",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-shopex",
+    "display_name": "商派平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-shopex",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-youcheng",
+    "display_name": "有成办公平替迁移：AI-HIVE图片视频工作流",
+    "category": "图片视频与内容工具",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-youcheng",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-chanmama",
+    "display_name": "蝉妈妈可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-chanmama",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-feigua",
+    "display_name": "飞瓜数据可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-feigua",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-qiangua",
+    "display_name": "千瓜数据可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-qiangua",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-huitun",
+    "display_name": "灰豚数据可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-huitun",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-data-54b25f2418",
+    "display_name": "新抖可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-data-54b25f2418",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-douchacha",
+    "display_name": "抖查查可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-douchacha",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-kaogujia",
+    "display_name": "考古加可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-kaogujia",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-relangdata",
+    "display_name": "热浪数据可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-relangdata",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-daduoduo",
+    "display_name": "达多多可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-daduoduo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-youwang",
+    "display_name": "友望数据可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-youwang",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-xiguaji",
+    "display_name": "西瓜数据可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-xiguaji",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-newrank",
+    "display_name": "新榜可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-newrank",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-gsdata",
+    "display_name": "清博智能可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-gsdata",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-caasdata",
+    "display_name": "卡思数据可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-caasdata",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-guoji",
+    "display_name": "果集飞瓜可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-guoji",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-zhiyi",
+    "display_name": "知衣科技可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-zhiyi",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-mktindex",
+    "display_name": "魔镜市场情报可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-mktindex",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-sycm",
+    "display_name": "生意参谋可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-sycm",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-adbrain",
+    "display_name": "万相台无界可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-adbrain",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-jzt",
+    "display_name": "京准通可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-jzt",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-qianchuan",
+    "display_name": "巨量千川可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-qianchuan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-niu",
+    "display_name": "磁力金牛可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-niu",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-juxing",
+    "display_name": "聚星可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-juxing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-xingtu",
+    "display_name": "星图可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-xingtu",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-pgy",
+    "display_name": "蒲公英可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-pgy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-youcloud",
+    "display_name": "有米云可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-youcloud",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-appgrowing",
+    "display_name": "AppGrowing可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-appgrowing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-dataeye-edx",
+    "display_name": "DataEye EDX可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-dataeye-edx",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-bigspy",
+    "display_name": "广大大可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-bigspy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-dianleida",
+    "display_name": "店雷达可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-dianleida",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-datastory",
+    "display_name": "数说故事可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-datastory",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-civiw",
+    "display_name": "识微科技可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-civiw",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-cn-alt-miaozhen",
+    "display_name": "秒针系统可替代环节：AI-HIVE内容与多模态工作流",
+    "category": "电商数据、广告与运营软件",
+    "brand": "AI-HIVE",
+    "batch": "cn-competitors-tpdp-300-20260907",
+    "path": "skills/ai-hive-cn-alt-miaozhen",
+    "language": "zh-CN"
   }
 ]
