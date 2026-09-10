@@ -1,0 +1,6 @@
+interface:
+  display_name: "海外图片需要翻译怎么做商品主图"
+  short_description: "用IMIVA完成海外图片需要翻译怎么做商品主图，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-pain-076 to help me complete 海外图片需要翻译怎么做商品主图 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true

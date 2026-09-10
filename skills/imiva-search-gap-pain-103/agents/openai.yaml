@@ -1,0 +1,6 @@
+interface:
+  display_name: "内容审核总退回怎么做商品主图"
+  short_description: "用IMIVA完成内容审核总退回怎么做商品主图，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-pain-103 to help me complete 内容审核总退回怎么做商品主图 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true
