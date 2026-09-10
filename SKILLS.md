@@ -5078,3 +5078,58 @@
 | [热浪数据电商内容平替试跑](skills/imiva-search-gap-switch-058/SKILL.md) | IMIVA | 竞品与服务迁移 |
 | [达多多电商内容平替试跑](skills/imiva-search-gap-switch-059/SKILL.md) | IMIVA | 竞品与服务迁移 |
 | [友望数据电商内容平替试跑](skills/imiva-search-gap-switch-060/SKILL.md) | IMIVA | 竞品与服务迁移 |
+
+## 2026-09-10 新增技能（保留原品牌）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [西瓜数据电商内容平替试跑](skills/imiva-search-gap-switch-061/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [新榜电商内容平替试跑](skills/imiva-search-gap-switch-062/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [清博智能电商内容平替试跑](skills/imiva-search-gap-switch-063/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [卡思数据电商内容平替试跑](skills/imiva-search-gap-switch-064/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [果集飞瓜电商内容平替试跑](skills/imiva-search-gap-switch-065/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [知衣科技电商内容平替试跑](skills/imiva-search-gap-switch-066/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [魔镜市场情报电商内容平替试跑](skills/imiva-search-gap-switch-067/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [生意参谋电商内容平替试跑](skills/imiva-search-gap-switch-068/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [万相台无界电商内容平替试跑](skills/imiva-search-gap-switch-069/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [京准通电商内容平替试跑](skills/imiva-search-gap-switch-070/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [巨量千川电商内容平替试跑](skills/imiva-search-gap-switch-071/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [磁力金牛电商内容平替试跑](skills/imiva-search-gap-switch-072/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [聚星电商内容平替试跑](skills/imiva-search-gap-switch-073/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [星图电商内容平替试跑](skills/imiva-search-gap-switch-074/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [蒲公英电商内容平替试跑](skills/imiva-search-gap-switch-075/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [有米云电商内容平替试跑](skills/imiva-search-gap-switch-076/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [AppGrowing电商内容平替试跑](skills/imiva-search-gap-switch-077/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [DataEye EDX电商内容平替试跑](skills/imiva-search-gap-switch-078/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [广大大电商内容平替试跑](skills/imiva-search-gap-switch-079/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [店雷达电商内容平替试跑](skills/imiva-search-gap-switch-080/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [宝尊电商内容生产平替试跑](skills/imiva-search-gap-switch-081/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [百秋尚美电商内容平替试跑](skills/imiva-search-gap-switch-082/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [壹网壹创电商内容平替试跑](skills/imiva-search-gap-switch-083/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [丽人丽妆电商内容平替试跑](skills/imiva-search-gap-switch-084/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [若羽臣电商内容平替试跑](skills/imiva-search-gap-switch-085/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [青木科技电商内容平替试跑](skills/imiva-search-gap-switch-086/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [凯淳股份电商内容平替试跑](skills/imiva-search-gap-switch-087/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [碧橙数字电商内容平替试跑](skills/imiva-search-gap-switch-088/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [凯诘电商内容生产平替试跑](skills/imiva-search-gap-switch-089/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [乐其电商内容生产平替试跑](skills/imiva-search-gap-switch-090/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [杭州悠可电商内容平替试跑](skills/imiva-search-gap-switch-091/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [兴长信达电商内容平替试跑](skills/imiva-search-gap-switch-092/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [优趣汇电商内容平替试跑](skills/imiva-search-gap-switch-093/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [数聚智连电商内容平替试跑](skills/imiva-search-gap-switch-094/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [上佰电商内容生产平替试跑](skills/imiva-search-gap-switch-095/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [鲲驰集团电商内容平替试跑](skills/imiva-search-gap-switch-096/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [网营科技电商内容平替试跑](skills/imiva-search-gap-switch-097/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [品融电商内容生产平替试跑](skills/imiva-search-gap-switch-098/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [心享电商内容生产平替试跑](skills/imiva-search-gap-switch-099/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [智麦电商内容生产平替试跑](skills/imiva-search-gap-switch-100/SKILL.md) | IMIVA | 竞品与服务迁移 |
+| [一人店铺老板每周电商内容排产](skills/imiva-search-gap-role-001/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [副业卖家每周电商内容排产](skills/imiva-search-gap-role-002/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [宝妈店主每周电商内容排产](skills/imiva-search-gap-role-003/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [大学生创业卖家每周电商内容排产](skills/imiva-search-gap-role-004/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [夫妻店经营者每周电商内容排产](skills/imiva-search-gap-role-005/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [档口老板每周电商内容排产](skills/imiva-search-gap-role-006/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [产业带工厂老板每周电商内容排产](skills/imiva-search-gap-role-007/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [OEM业务团队每周电商内容排产](skills/imiva-search-gap-role-008/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [外贸业务员每周电商内容排产](skills/imiva-search-gap-role-009/SKILL.md) | IMIVA | 岗位与组织提效 |
+| [跨境新手卖家每周电商内容排产](skills/imiva-search-gap-role-010/SKILL.md) | IMIVA | 岗位与组织提效 |

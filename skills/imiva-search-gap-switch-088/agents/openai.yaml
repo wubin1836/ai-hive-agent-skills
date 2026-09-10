@@ -1,0 +1,6 @@
+interface:
+  display_name: "碧橙数字电商内容平替试跑"
+  short_description: "用IMIVA完成碧橙数字电商内容平替试跑，先做一条可验收小样再批量。"
+  default_prompt: "Use $imiva-search-gap-switch-088 to help me complete 碧橙数字电商内容平替试跑 with one small IMIVA test first."
+policy:
+  allow_implicit_invocation: true

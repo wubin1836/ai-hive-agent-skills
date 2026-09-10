@@ -42056,5 +42056,455 @@
     "batch": "imiva-merchant-gaps-600-20260907",
     "path": "skills/imiva-search-gap-switch-060",
     "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-061",
+    "display_name": "西瓜数据电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-061",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-062",
+    "display_name": "新榜电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-062",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-063",
+    "display_name": "清博智能电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-063",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-064",
+    "display_name": "卡思数据电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-064",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-065",
+    "display_name": "果集飞瓜电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-065",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-066",
+    "display_name": "知衣科技电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-066",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-067",
+    "display_name": "魔镜市场情报电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-067",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-068",
+    "display_name": "生意参谋电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-068",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-069",
+    "display_name": "万相台无界电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-069",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-070",
+    "display_name": "京准通电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-070",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-071",
+    "display_name": "巨量千川电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-071",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-072",
+    "display_name": "磁力金牛电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-072",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-073",
+    "display_name": "聚星电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-073",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-074",
+    "display_name": "星图电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-074",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-075",
+    "display_name": "蒲公英电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-075",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-076",
+    "display_name": "有米云电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-076",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-077",
+    "display_name": "AppGrowing电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-077",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-078",
+    "display_name": "DataEye EDX电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-078",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-079",
+    "display_name": "广大大电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-079",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-080",
+    "display_name": "店雷达电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-080",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-081",
+    "display_name": "宝尊电商内容生产平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-081",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-082",
+    "display_name": "百秋尚美电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-082",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-083",
+    "display_name": "壹网壹创电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-083",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-084",
+    "display_name": "丽人丽妆电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-084",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-085",
+    "display_name": "若羽臣电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-085",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-086",
+    "display_name": "青木科技电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-086",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-087",
+    "display_name": "凯淳股份电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-087",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-088",
+    "display_name": "碧橙数字电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-088",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-089",
+    "display_name": "凯诘电商内容生产平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-089",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-090",
+    "display_name": "乐其电商内容生产平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-090",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-091",
+    "display_name": "杭州悠可电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-091",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-092",
+    "display_name": "兴长信达电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-092",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-093",
+    "display_name": "优趣汇电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-093",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-094",
+    "display_name": "数聚智连电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-094",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-095",
+    "display_name": "上佰电商内容生产平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-095",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-096",
+    "display_name": "鲲驰集团电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-096",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-097",
+    "display_name": "网营科技电商内容平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-097",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-098",
+    "display_name": "品融电商内容生产平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-098",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-099",
+    "display_name": "心享电商内容生产平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-099",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-switch-100",
+    "display_name": "智麦电商内容生产平替试跑",
+    "category": "竞品与服务迁移",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-switch-100",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-001",
+    "display_name": "一人店铺老板每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-001",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-002",
+    "display_name": "副业卖家每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-002",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-003",
+    "display_name": "宝妈店主每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-003",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-004",
+    "display_name": "大学生创业卖家每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-004",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-005",
+    "display_name": "夫妻店经营者每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-005",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-006",
+    "display_name": "档口老板每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-006",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-007",
+    "display_name": "产业带工厂老板每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-007",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-008",
+    "display_name": "OEM业务团队每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-008",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-009",
+    "display_name": "外贸业务员每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-009",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-role-010",
+    "display_name": "跨境新手卖家每周电商内容排产",
+    "category": "岗位与组织提效",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-role-010",
+    "language": "zh-CN"
   }
 ]
