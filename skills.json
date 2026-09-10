@@ -39806,5 +39806,455 @@
     "batch": "imiva-merchant-gaps-600-20260907",
     "path": "skills/imiva-search-gap-channel-030",
     "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-031",
+    "display_name": "抖音搜索商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-031",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-032",
+    "display_name": "抖音搜索活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-032",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-033",
+    "display_name": "抖音精选联盟首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-033",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-034",
+    "display_name": "抖音精选联盟详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-034",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-035",
+    "display_name": "抖音精选联盟商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-035",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-036",
+    "display_name": "抖音精选联盟活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-036",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-037",
+    "display_name": "巨量千川首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-037",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-038",
+    "display_name": "巨量千川详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-038",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-039",
+    "display_name": "巨量千川商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-039",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-040",
+    "display_name": "巨量千川活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-040",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-041",
+    "display_name": "快手磁力金牛首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-041",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-042",
+    "display_name": "快手磁力金牛详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-042",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-043",
+    "display_name": "快手磁力金牛商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-043",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-044",
+    "display_name": "快手磁力金牛活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-044",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-045",
+    "display_name": "快手小店首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-045",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-046",
+    "display_name": "快手小店详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-046",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-047",
+    "display_name": "快手小店商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-047",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-048",
+    "display_name": "快手小店活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-048",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-049",
+    "display_name": "小红书店铺首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-049",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-050",
+    "display_name": "小红书店铺详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-050",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-051",
+    "display_name": "小红书店铺商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-051",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-052",
+    "display_name": "小红书店铺活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-052",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-053",
+    "display_name": "小红书搜索首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-053",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-054",
+    "display_name": "小红书搜索详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-054",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-055",
+    "display_name": "小红书搜索商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-055",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-056",
+    "display_name": "小红书搜索活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-056",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-057",
+    "display_name": "视频号小店首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-057",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-058",
+    "display_name": "视频号小店详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-058",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-059",
+    "display_name": "视频号小店商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-059",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-060",
+    "display_name": "视频号小店活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-060",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-061",
+    "display_name": "微信小店首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-061",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-062",
+    "display_name": "微信小店详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-062",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-063",
+    "display_name": "微信小店商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-063",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-064",
+    "display_name": "微信小店活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-064",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-065",
+    "display_name": "1688产业带首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-065",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-066",
+    "display_name": "1688产业带详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-066",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-067",
+    "display_name": "1688产业带商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-067",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-068",
+    "display_name": "1688产业带活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-068",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-069",
+    "display_name": "得物首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-069",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-070",
+    "display_name": "得物详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-070",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-071",
+    "display_name": "得物商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-071",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-072",
+    "display_name": "得物活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-072",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-073",
+    "display_name": "唯品会首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-073",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-074",
+    "display_name": "唯品会详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-074",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-075",
+    "display_name": "唯品会商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-075",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-076",
+    "display_name": "唯品会活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-076",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-077",
+    "display_name": "美团闪购首屏点击素材内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-077",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-078",
+    "display_name": "美团闪购详情页说服模块内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-078",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-079",
+    "display_name": "美团闪购商品短视频内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-079",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-search-gap-channel-080",
+    "display_name": "美团闪购活动图文视频套装内容适配",
+    "category": "平台具体内容位",
+    "brand": "IMIVA",
+    "batch": "imiva-merchant-gaps-600-20260907",
+    "path": "skills/imiva-search-gap-channel-080",
+    "language": "zh-CN"
   }
 ]
