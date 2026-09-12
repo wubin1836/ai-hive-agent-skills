@@ -46826,5 +46826,455 @@
     "batch": "occupational-assistants-360-20260912",
     "path": "skills/ai-hive-role-sales-manager",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-telephone-sales-agent",
+    "display_name": "电话销售助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-telephone-sales-agent",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-account-manager",
+    "display_name": "客户经理助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-account-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-customer-service-agent",
+    "display_name": "客服专员助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-customer-service-agent",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-after-sales-specialist",
+    "display_name": "售后专员助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-after-sales-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-ecommerce-operator",
+    "display_name": "电商运营助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-ecommerce-operator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-ecommerce-designer",
+    "display_name": "电商美工助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-ecommerce-designer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-cross-border-ecommerce-operator",
+    "display_name": "跨境电商运营助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-cross-border-ecommerce-operator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-online-shop-owner",
+    "display_name": "网店店主助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-online-shop-owner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-livestream-host",
+    "display_name": "直播主播助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-livestream-host",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-livestream-controller",
+    "display_name": "直播场控助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-livestream-controller",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-short-video-operator",
+    "display_name": "短视频运营助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-short-video-operator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-new-media-operator",
+    "display_name": "新媒体运营助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-new-media-operator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-community-operator",
+    "display_name": "社群运营助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-community-operator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-private-domain-operator",
+    "display_name": "私域运营助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-private-domain-operator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-xiaohongshu-creator",
+    "display_name": "小红书博主助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-xiaohongshu-creator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-creator-partnership-manager",
+    "display_name": "达人商务助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-creator-partnership-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-performance-marketer",
+    "display_name": "信息流投手助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-performance-marketer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-brand-manager",
+    "display_name": "品牌经理助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-brand-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-marketing-planner",
+    "display_name": "市场策划助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-marketing-planner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-public-relations-specialist",
+    "display_name": "公关专员助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-public-relations-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-real-estate-agent",
+    "display_name": "房产经纪人助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-real-estate-agent",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-merchandise-buyer",
+    "display_name": "商品买手助手",
+    "category": "销售电商内容",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-merchandise-buyer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-photographer",
+    "display_name": "摄影师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-photographer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-videographer",
+    "display_name": "摄像师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-videographer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-video-editor",
+    "display_name": "视频剪辑师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-video-editor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-product-retoucher",
+    "display_name": "修图师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-product-retoucher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-graphic-designer",
+    "display_name": "平面设计师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-graphic-designer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-illustrator",
+    "display_name": "插画师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-illustrator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-fashion-designer",
+    "display_name": "服装设计师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-fashion-designer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-soft-furnishing-designer",
+    "display_name": "室内软装设计师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-soft-furnishing-designer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-animator",
+    "display_name": "动画师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-animator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-packaging-designer",
+    "display_name": "包装设计师助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-packaging-designer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-copywriter",
+    "display_name": "文案策划助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-copywriter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-advertising-creative-planner",
+    "display_name": "广告创意策划助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-advertising-creative-planner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-screenwriter",
+    "display_name": "编剧助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-screenwriter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-novelist",
+    "display_name": "小说作者助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-novelist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-journalist",
+    "display_name": "记者助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-journalist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-editor",
+    "display_name": "编辑助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-editor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-translator",
+    "display_name": "翻译员助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-translator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-subtitle-translator",
+    "display_name": "字幕译员助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-subtitle-translator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-voice-actor",
+    "display_name": "配音员助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-voice-actor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-recording-engineer",
+    "display_name": "录音师工作助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-recording-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-lyricist",
+    "display_name": "作词人助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-lyricist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-freelance-writer",
+    "display_name": "自由撰稿人助手",
+    "category": "创意自由职业",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-freelance-writer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-tour-guide",
+    "display_name": "导游助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-tour-guide",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-travel-operations-coordinator",
+    "display_name": "旅游计调助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-travel-operations-coordinator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-travel-consultant",
+    "display_name": "旅行顾问助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-travel-consultant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-hotel-front-desk",
+    "display_name": "酒店前台助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-hotel-front-desk",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-hotel-housekeeper",
+    "display_name": "酒店客房服务员助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-hotel-housekeeper",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-homestay-host",
+    "display_name": "民宿管家助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-homestay-host",
+    "language": "zh-CN"
   }
 ]
