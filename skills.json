@@ -45476,5 +45476,455 @@
     "batch": "occupational-assistants-360-20260912",
     "path": "skills/ai-hive-role-user-researcher",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-software-product-operations",
+    "display_name": "软件产品运营专员助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-software-product-operations",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-project-manager",
+    "display_name": "项目经理助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-project-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-project-assistant",
+    "display_name": "项目助理工作助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-project-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-project-management-office-specialist",
+    "display_name": "项目管理办公室专员助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-project-management-office-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-agile-coach",
+    "display_name": "敏捷教练助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-agile-coach",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-software-implementation-consultant",
+    "display_name": "软件实施顾问助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-software-implementation-consultant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-presales-engineer",
+    "display_name": "售前工程师助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-presales-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-software-customer-success-manager",
+    "display_name": "软件客户成功经理助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-software-customer-success-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-technical-writer",
+    "display_name": "技术文档工程师助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-technical-writer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-software-test-engineer",
+    "display_name": "软件测试工程师助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-software-test-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-software-developer",
+    "display_name": "软件开发工程师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-software-developer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-frontend-engineer",
+    "display_name": "前端工程师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-frontend-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-backend-engineer",
+    "display_name": "后端工程师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-backend-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-mobile-developer",
+    "display_name": "移动端开发工程师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-mobile-developer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-test-automation-engineer",
+    "display_name": "测试开发工程师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-test-automation-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-data-engineer",
+    "display_name": "数据工程师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-data-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-data-analyst",
+    "display_name": "数据分析师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-data-analyst",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-database-administrator",
+    "display_name": "数据库管理员助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-database-administrator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-systems-operations-engineer",
+    "display_name": "系统运维工程师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-systems-operations-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-network-engineer",
+    "display_name": "网络工程师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-network-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-information-security-engineer",
+    "display_name": "信息安全工程师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-information-security-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-it-service-desk-specialist",
+    "display_name": "IT服务台专员助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-it-service-desk-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-department-supervisor",
+    "display_name": "部门主管助手",
+    "category": "经营管理支持",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-department-supervisor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-ai-trainer",
+    "display_name": "人工智能训练师助手",
+    "category": "软件技术与数据",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-ai-trainer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-business-performance-analyst",
+    "display_name": "经营分析专员助手",
+    "category": "经营管理支持",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-business-performance-analyst",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-strategy-planning-specialist",
+    "display_name": "战略规划专员助手",
+    "category": "经营管理支持",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-strategy-planning-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-management-consultant",
+    "display_name": "管理咨询顾问助手",
+    "category": "经营管理支持",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-management-consultant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-process-management-specialist",
+    "display_name": "流程管理专员助手",
+    "category": "经营管理支持",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-process-management-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-enterprise-knowledge-manager",
+    "display_name": "企业知识库管理员助手",
+    "category": "经营管理支持",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-enterprise-knowledge-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-generative-ai-application-specialist",
+    "display_name": "生成式人工智能系统应用员助手",
+    "category": "经营管理支持",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-generative-ai-application-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-architect",
+    "display_name": "建筑师工作助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-architect",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-civil-engineer",
+    "display_name": "土木工程师工作助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-civil-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-structural-engineer",
+    "display_name": "结构工程师工作助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-structural-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-construction-worker",
+    "display_name": "施工员助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-construction-worker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-construction-document-clerk",
+    "display_name": "建筑工程资料员助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-construction-document-clerk",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-construction-cost-estimator",
+    "display_name": "工程造价员助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-construction-cost-estimator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-construction-supervisor",
+    "display_name": "工程监理员助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-construction-supervisor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-survey-technician",
+    "display_name": "工程测量员助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-survey-technician",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-bim-engineer",
+    "display_name": "BIM工程师助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-bim-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-cad-drafter",
+    "display_name": "CAD制图员助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-cad-drafter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-hvac-engineer",
+    "display_name": "暖通工程师助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-hvac-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-plumbing-engineer",
+    "display_name": "给排水工程师助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-plumbing-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-building-electrical-engineer",
+    "display_name": "建筑电气工程师助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-building-electrical-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-geotechnical-engineer",
+    "display_name": "岩土工程师助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-geotechnical-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-road-bridge-engineer",
+    "display_name": "道路桥梁工程师助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-road-bridge-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-municipal-engineer",
+    "display_name": "市政工程师助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-municipal-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-landscape-engineer",
+    "display_name": "园林工程师助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-landscape-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-construction-safety-officer",
+    "display_name": "工程安全员助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-construction-safety-officer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-construction-materials-tester",
+    "display_name": "建筑材料试验员助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-construction-materials-tester",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-decoration-construction-manager",
+    "display_name": "装饰工程施工管理助手",
+    "category": "工程建造",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-decoration-construction-manager",
+    "language": "zh-CN"
   }
 ]
