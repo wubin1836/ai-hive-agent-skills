@@ -45926,5 +45926,455 @@
     "batch": "occupational-assistants-360-20260912",
     "path": "skills/ai-hive-role-decoration-construction-manager",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-production-planner",
+    "display_name": "生产计划员助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-production-planner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-production-team-leader",
+    "display_name": "生产班组长助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-production-team-leader",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-process-engineer",
+    "display_name": "工艺工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-process-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-industrial-engineer",
+    "display_name": "工业工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-industrial-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-mechanical-design-engineer",
+    "display_name": "机械设计工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-mechanical-design-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-mechanical-assembler",
+    "display_name": "机械装配工助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-mechanical-assembler",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-welding-student",
+    "display_name": "焊接专业学习助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-welding-student",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-cnc-student",
+    "display_name": "数控技术学习助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-cnc-student",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-electrician-student",
+    "display_name": "电工专业学习助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-electrician-student",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-automation-engineer",
+    "display_name": "自动化工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-automation-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-electronics-hardware-engineer",
+    "display_name": "电子硬件工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-electronics-hardware-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-pcb-engineer",
+    "display_name": "PCB工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-pcb-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-mold-engineer",
+    "display_name": "模具工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-mold-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-injection-process-technician",
+    "display_name": "注塑工艺员助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-injection-process-technician",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-textile-process-technician",
+    "display_name": "纺织工艺员助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-textile-process-technician",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-food-production-technician",
+    "display_name": "食品生产工艺员助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-food-production-technician",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-chemical-process-technician",
+    "display_name": "化工工艺员助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-chemical-process-technician",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-quality-inspector",
+    "display_name": "质量检验员助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-quality-inspector",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-quality-engineer",
+    "display_name": "质量工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-quality-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-supplier-quality-engineer",
+    "display_name": "供应商质量工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-supplier-quality-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-metrology-administrator",
+    "display_name": "计量管理员助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-metrology-administrator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-reliability-test-engineer",
+    "display_name": "可靠性试验工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-reliability-test-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-equipment-maintenance-technician",
+    "display_name": "设备维修技术员助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-equipment-maintenance-technician",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-equipment-management-engineer",
+    "display_name": "设备管理工程师助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-equipment-management-engineer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-industrial-technical-writer",
+    "display_name": "工业技术文档员助手",
+    "category": "制造工艺与质量",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-industrial-technical-writer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-supply-chain-planner",
+    "display_name": "供应链计划员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-supply-chain-planner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-materials-planner",
+    "display_name": "物料计划员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-materials-planner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-warehouse-administrator",
+    "display_name": "仓库管理员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-warehouse-administrator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-warehouse-receiving-clerk",
+    "display_name": "仓库收货员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-warehouse-receiving-clerk",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-warehouse-picker",
+    "display_name": "仓库拣货员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-warehouse-picker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-inventory-controller",
+    "display_name": "库存控制员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-inventory-controller",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-logistics-dispatcher",
+    "display_name": "物流调度员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-logistics-dispatcher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-transport-order-tracker",
+    "display_name": "运输跟单员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-transport-order-tracker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-freight-forwarder",
+    "display_name": "货运代理员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-freight-forwarder",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-customs-declaration-clerk",
+    "display_name": "报关员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-customs-declaration-clerk",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-container-operations-clerk",
+    "display_name": "集装箱操作员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-container-operations-clerk",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-port-tally-clerk",
+    "display_name": "港口理货员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-port-tally-clerk",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-courier",
+    "display_name": "快递员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-courier",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-courier-station-manager",
+    "display_name": "快递站点管理员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-courier-station-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-logistics-customer-service",
+    "display_name": "物流客服专员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-logistics-customer-service",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-cold-chain-administrator",
+    "display_name": "冷链管理员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-cold-chain-administrator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-hazardous-goods-document-clerk",
+    "display_name": "危险品运输资料员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-hazardous-goods-document-clerk",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-delivery-driver",
+    "display_name": "配送司机助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-delivery-driver",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-forklift-student",
+    "display_name": "叉车驾驶学习助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-forklift-student",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-logistics-cost-analyst",
+    "display_name": "物流成本分析员助手",
+    "category": "物流供应链",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-logistics-cost-analyst",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-farm-administrator",
+    "display_name": "农场管理员助手",
+    "category": "农业林牧渔",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-farm-administrator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-agronomist",
+    "display_name": "农艺师助手",
+    "category": "农业林牧渔",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-agronomist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-crop-production-technician",
+    "display_name": "种植技术员助手",
+    "category": "农业林牧渔",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-crop-production-technician",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-plant-protection-technician",
+    "display_name": "植保技术员助手",
+    "category": "农业林牧渔",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-plant-protection-technician",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-horticulturist",
+    "display_name": "园艺师助手",
+    "category": "农业林牧渔",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-horticulturist",
+    "language": "zh-CN"
   }
 ]
