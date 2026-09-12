@@ -5333,3 +5333,58 @@
 | [Batch API批量模型任务](skills/ai-hive-gateway-batch-api-processing/SKILL.md) | AI-HIVE | 渠道与协议 |
 | [Embedding与Rerank统一API](skills/ai-hive-gateway-embedding-rerank-api/SKILL.md) | AI-HIVE | 渠道与协议 |
 | [图片视频语音多模态API](skills/ai-hive-gateway-multimodal-api-hub/SKILL.md) | AI-HIVE | 渠道与协议 |
+
+## 2026-09-12 职业助手360（独立适配入口）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [护士工作助手](skills/ai-hive-role-nurse/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [护士长助手](skills/ai-hive-role-head-nurse/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [助产士资料助手](skills/ai-hive-role-midwife-materials/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [护工交接助手](skills/ai-hive-role-caregiver-handoff/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [养老护理员助手](skills/ai-hive-role-eldercare-worker/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [月嫂助手](skills/ai-hive-role-postpartum-care-worker/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [育婴师助手](skills/ai-hive-role-infant-care-worker/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [康复治疗师资料助手](skills/ai-hive-role-rehabilitation-materials/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [营养师记录助手](skills/ai-hive-role-nutrition-records/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [心理咨询师文书助手](skills/ai-hive-role-counsellor-documentation/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [医生文书整理助手](skills/ai-hive-role-physician-documentation/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [牙医随访资料助手](skills/ai-hive-role-dentist-followup-materials/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [药师资料助手](skills/ai-hive-role-pharmacist-materials/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [医药代表助手](skills/ai-hive-role-medical-representative/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [医学检验技师资料助手](skills/ai-hive-role-medical-lab-records/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [医学影像技师资料助手](skills/ai-hive-role-medical-imaging-records/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [体检顾问助手](skills/ai-hive-role-checkup-service-advisor/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [导医助手](skills/ai-hive-role-hospital-navigation/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [病案管理员助手](skills/ai-hive-role-medical-records-archive/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [医院医保专员资料助手](skills/ai-hive-role-hospital-insurance-docs/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [院感专员记录助手](skills/ai-hive-role-infection-control-records/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [健康管理师资料助手](skills/ai-hive-role-health-management-materials/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [临床研究协调员助手](skills/ai-hive-role-clinical-research-coordinator/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [临床监查员助手](skills/ai-hive-role-clinical-research-monitor/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [医疗器械注册专员助手](skills/ai-hive-role-medical-device-registration/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [药物警戒专员资料助手](skills/ai-hive-role-pharmacovigilance-materials/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [医疗器械培训师助手](skills/ai-hive-role-medical-device-trainer/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [兽医客户沟通助手](skills/ai-hive-role-veterinary-client-comms/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [动物护理员交接助手](skills/ai-hive-role-animal-care-handoff/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [公共卫生宣教助手](skills/ai-hive-role-public-health-education/SKILL.md) | AI-HIVE | 医疗护理与健康服务 |
+| [教师工作助手](skills/ai-hive-role-teacher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [班主任助手](skills/ai-hive-role-homeroom-teacher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [幼师助手](skills/ai-hive-role-kindergarten-teacher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [保育员助手](skills/ai-hive-role-childcare-staff/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [小学教师助手](skills/ai-hive-role-primary-school-teacher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [初中教师助手](skills/ai-hive-role-middle-school-teacher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [高中教师助手](skills/ai-hive-role-high-school-teacher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [大学教师助手](skills/ai-hive-role-university-teacher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [职业院校教师助手](skills/ai-hive-role-vocational-teacher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [特殊教育教师资料助手](skills/ai-hive-role-special-education-teacher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [教务排课助手](skills/ai-hive-role-academic-timetable/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [高校辅导员助手](skills/ai-hive-role-university-counsellor/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [培训机构教务助手](skills/ai-hive-role-training-course-admin/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [助教助手](skills/ai-hive-role-teaching-assistant/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [课程顾问助手](skills/ai-hive-role-course-advisor/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [教学设计师助手](skills/ai-hive-role-instructional-designer/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [教研员助手](skills/ai-hive-role-teaching-researcher/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [命题教师助手](skills/ai-hive-role-exam-item-writer/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [督学学习陪跑助手](skills/ai-hive-role-study-coach/SKILL.md) | AI-HIVE | 教育教学与教务 |
+| [升学指导老师资料助手](skills/ai-hive-role-education-admissions-materials/SKILL.md) | AI-HIVE | 教育教学与教务 |

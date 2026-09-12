@@ -44126,5 +44126,455 @@
     "batch": "gateway-high-intent-150-20260903",
     "path": "skills/ai-hive-gateway-multimodal-api-hub",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-nurse",
+    "display_name": "护士工作助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-nurse",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-head-nurse",
+    "display_name": "护士长助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-head-nurse",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-midwife-materials",
+    "display_name": "助产士资料助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-midwife-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-caregiver-handoff",
+    "display_name": "护工交接助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-caregiver-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-eldercare-worker",
+    "display_name": "养老护理员助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-eldercare-worker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-postpartum-care-worker",
+    "display_name": "月嫂助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-postpartum-care-worker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-infant-care-worker",
+    "display_name": "育婴师助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-infant-care-worker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-rehabilitation-materials",
+    "display_name": "康复治疗师资料助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-rehabilitation-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-nutrition-records",
+    "display_name": "营养师记录助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-nutrition-records",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-counsellor-documentation",
+    "display_name": "心理咨询师文书助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-counsellor-documentation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-physician-documentation",
+    "display_name": "医生文书整理助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-physician-documentation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-dentist-followup-materials",
+    "display_name": "牙医随访资料助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-dentist-followup-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-pharmacist-materials",
+    "display_name": "药师资料助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-pharmacist-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-medical-representative",
+    "display_name": "医药代表助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-medical-representative",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-medical-lab-records",
+    "display_name": "医学检验技师资料助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-medical-lab-records",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-medical-imaging-records",
+    "display_name": "医学影像技师资料助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-medical-imaging-records",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-checkup-service-advisor",
+    "display_name": "体检顾问助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-checkup-service-advisor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-hospital-navigation",
+    "display_name": "导医助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-hospital-navigation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-medical-records-archive",
+    "display_name": "病案管理员助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-medical-records-archive",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-hospital-insurance-docs",
+    "display_name": "医院医保专员资料助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-hospital-insurance-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-infection-control-records",
+    "display_name": "院感专员记录助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-infection-control-records",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-health-management-materials",
+    "display_name": "健康管理师资料助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-health-management-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-clinical-research-coordinator",
+    "display_name": "临床研究协调员助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-clinical-research-coordinator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-clinical-research-monitor",
+    "display_name": "临床监查员助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-clinical-research-monitor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-medical-device-registration",
+    "display_name": "医疗器械注册专员助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-medical-device-registration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-pharmacovigilance-materials",
+    "display_name": "药物警戒专员资料助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-pharmacovigilance-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-medical-device-trainer",
+    "display_name": "医疗器械培训师助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-medical-device-trainer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-veterinary-client-comms",
+    "display_name": "兽医客户沟通助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-veterinary-client-comms",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-animal-care-handoff",
+    "display_name": "动物护理员交接助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-animal-care-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-public-health-education",
+    "display_name": "公共卫生宣教助手",
+    "category": "医疗护理与健康服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-public-health-education",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-teacher",
+    "display_name": "教师工作助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-teacher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-homeroom-teacher",
+    "display_name": "班主任助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-homeroom-teacher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-kindergarten-teacher",
+    "display_name": "幼师助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-kindergarten-teacher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-childcare-staff",
+    "display_name": "保育员助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-childcare-staff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-primary-school-teacher",
+    "display_name": "小学教师助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-primary-school-teacher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-middle-school-teacher",
+    "display_name": "初中教师助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-middle-school-teacher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-high-school-teacher",
+    "display_name": "高中教师助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-high-school-teacher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-university-teacher",
+    "display_name": "大学教师助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-university-teacher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-vocational-teacher",
+    "display_name": "职业院校教师助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-vocational-teacher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-special-education-teacher",
+    "display_name": "特殊教育教师资料助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-special-education-teacher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-academic-timetable",
+    "display_name": "教务排课助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-academic-timetable",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-university-counsellor",
+    "display_name": "高校辅导员助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-university-counsellor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-training-course-admin",
+    "display_name": "培训机构教务助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-training-course-admin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-teaching-assistant",
+    "display_name": "助教助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-teaching-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-course-advisor",
+    "display_name": "课程顾问助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-course-advisor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-instructional-designer",
+    "display_name": "教学设计师助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-instructional-designer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-teaching-researcher",
+    "display_name": "教研员助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-teaching-researcher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-exam-item-writer",
+    "display_name": "命题教师助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-exam-item-writer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-study-coach",
+    "display_name": "督学学习陪跑助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-study-coach",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-education-admissions-materials",
+    "display_name": "升学指导老师资料助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-education-admissions-materials",
+    "language": "zh-CN"
   }
 ]
