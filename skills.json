@@ -45026,5 +45026,455 @@
     "batch": "occupational-assistants-360-20260912",
     "path": "skills/ai-hive-role-document-control-specialist",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-travel-coordinator",
+    "display_name": "差旅专员助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-travel-coordinator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-administrative-logistics-supervisor",
+    "display_name": "行政后勤主管助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-administrative-logistics-supervisor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-back-office-clerk",
+    "display_name": "内勤专员助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-back-office-clerk",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-general-office-director",
+    "display_name": "综合办公室主任助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-general-office-director",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-personnel-specialist",
+    "display_name": "人事专员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-personnel-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-human-resources-specialist",
+    "display_name": "人力资源专员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-human-resources-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-recruitment-specialist",
+    "display_name": "招聘专员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-recruitment-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-headhunter-consultant",
+    "display_name": "猎头顾问助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-headhunter-consultant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-recruitment-coordinator",
+    "display_name": "招聘协调员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-recruitment-coordinator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-payroll-specialist",
+    "display_name": "薪酬专员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-payroll-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-performance-specialist",
+    "display_name": "绩效专员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-performance-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-employee-relations-specialist",
+    "display_name": "员工关系专员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-employee-relations-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-training-specialist",
+    "display_name": "培训专员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-training-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-corporate-trainer",
+    "display_name": "企业内训师助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-corporate-trainer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-organization-development-specialist",
+    "display_name": "组织发展专员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-organization-development-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-hr-business-partner",
+    "display_name": "人力资源业务伙伴助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-hr-business-partner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-hr-shared-services-specialist",
+    "display_name": "人事共享服务专员助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-hr-shared-services-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-hr-data-analyst",
+    "display_name": "人力资源数据分析师助手",
+    "category": "人力资源",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-hr-data-analyst",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-finance-specialist",
+    "display_name": "财务专员助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-finance-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-accountant",
+    "display_name": "会计工作助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-accountant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-treasury-cashier",
+    "display_name": "出纳工作助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-treasury-cashier",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-expense-accountant",
+    "display_name": "费用会计助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-expense-accountant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-receivables-accountant",
+    "display_name": "应收会计助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-receivables-accountant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-payables-accountant",
+    "display_name": "应付会计助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-payables-accountant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-cost-accountant",
+    "display_name": "成本会计助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-cost-accountant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-general-ledger-accountant",
+    "display_name": "总账会计助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-general-ledger-accountant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-budget-specialist",
+    "display_name": "预算专员助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-budget-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-financial-analyst",
+    "display_name": "财务分析师助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-financial-analyst",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-tax-specialist",
+    "display_name": "税务专员助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-tax-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-internal-auditor",
+    "display_name": "内部审计师助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-internal-auditor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-audit-assistant",
+    "display_name": "审计助理工作助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-audit-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-treasury-specialist",
+    "display_name": "资金专员助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-treasury-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-financing-specialist",
+    "display_name": "融资专员助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-financing-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-finance-manager",
+    "display_name": "财务经理助手",
+    "category": "财务审计",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-finance-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-business-assistant",
+    "display_name": "商务助理工作助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-business-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-procurement-specialist",
+    "display_name": "采购专员助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-procurement-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-tender-specialist",
+    "display_name": "招投标专员助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-tender-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-bid-document-specialist",
+    "display_name": "标书专员助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-bid-document-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-contract-administrator",
+    "display_name": "合同管理员助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-contract-administrator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-corporate-legal-specialist",
+    "display_name": "企业法务专员助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-corporate-legal-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-corporate-compliance-specialist",
+    "display_name": "企业合规专员助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-corporate-compliance-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-intellectual-property-specialist",
+    "display_name": "知识产权专员助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-intellectual-property-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-board-secretary",
+    "display_name": "董事会秘书助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-board-secretary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-investor-relations-specialist",
+    "display_name": "投资者关系专员助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-investor-relations-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-business-partnership-specialist",
+    "display_name": "商务合作专员助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-business-partnership-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-business-translator",
+    "display_name": "商务翻译助手",
+    "category": "商务法务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-business-translator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-product-manager",
+    "display_name": "产品经理助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-product-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-product-assistant",
+    "display_name": "产品助理工作助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-product-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-business-analyst",
+    "display_name": "业务分析师助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-business-analyst",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-user-researcher",
+    "display_name": "用户研究员助手",
+    "category": "软件产品与交付",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-user-researcher",
+    "language": "zh-CN"
   }
 ]
