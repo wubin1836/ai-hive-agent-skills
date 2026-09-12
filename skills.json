@@ -44576,5 +44576,455 @@
     "batch": "occupational-assistants-360-20260912",
     "path": "skills/ai-hive-role-education-admissions-materials",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-study-abroad-application",
+    "display_name": "留学申请顾问助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-study-abroad-application",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-study-tour-guide",
+    "display_name": "研学导师助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-study-tour-guide",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-librarian",
+    "display_name": "图书管理员助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-librarian",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-school-counsellor-materials",
+    "display_name": "校园心理老师资料助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-school-counsellor-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-school-facilities-admin",
+    "display_name": "学校后勤管理员助手",
+    "category": "教育教学与教务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-school-facilities-admin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-research-assistant",
+    "display_name": "科研助理助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-research-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-laboratory-admin",
+    "display_name": "实验室管理员助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-laboratory-admin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-graduate-student",
+    "display_name": "研究生助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-graduate-student",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-doctoral-student",
+    "display_name": "博士生助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-doctoral-student",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-biology-study",
+    "display_name": "生物专业学习助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-biology-study",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-chemistry-study",
+    "display_name": "化学专业学习助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-chemistry-study",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-materials-engineering-docs",
+    "display_name": "材料工程资料助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-materials-engineering-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-food-testing-docs",
+    "display_name": "食品检测资料助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-food-testing-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-environment-monitoring-docs",
+    "display_name": "环境监测资料助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-environment-monitoring-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-sociology-researcher",
+    "display_name": "社会学研究员助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-sociology-researcher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-anthropology-fieldnotes",
+    "display_name": "人类学田野资料助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-anthropology-fieldnotes",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-statistics-research-assistant",
+    "display_name": "统计研究助理助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-statistics-research-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-gis-documentation",
+    "display_name": "地理信息资料助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-gis-documentation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-astronomy-science-writer",
+    "display_name": "天文科普作者助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-astronomy-science-writer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-history-research-materials",
+    "display_name": "历史研究资料助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-history-research-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-museum-docent",
+    "display_name": "博物馆讲解员助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-museum-docent",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-heritage-records-admin",
+    "display_name": "文物资料管理员助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-heritage-records-admin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-academic-editor",
+    "display_name": "学术编辑助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-academic-editor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-journal-editor",
+    "display_name": "期刊编辑助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-journal-editor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-research-project-admin",
+    "display_name": "科研项目管理员助手",
+    "category": "科研实验与专业学习",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-research-project-admin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-community-worker",
+    "display_name": "社区工作者助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-community-worker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-community-grid-worker",
+    "display_name": "网格员记录助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-community-grid-worker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-social-worker-case-docs",
+    "display_name": "社工个案资料助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-social-worker-case-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-volunteer-leader",
+    "display_name": "志愿者领队助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-volunteer-leader",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-nonprofit-project-officer",
+    "display_name": "公益项目专员助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-nonprofit-project-officer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-fundraising-officer",
+    "display_name": "公益筹款专员助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-fundraising-officer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-public-service-counter",
+    "display_name": "政务窗口办事员助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-public-service-counter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-public-hotline-operator",
+    "display_name": "公共热线话务员助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-public-hotline-operator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-community-mediator-docs",
+    "display_name": "人民调解员资料助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-community-mediator-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-book-editor",
+    "display_name": "图书编辑助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-book-editor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-archive-administrator",
+    "display_name": "档案管理员助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-archive-administrator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-employment-service-advisor",
+    "display_name": "就业服务顾问助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-employment-service-advisor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-accessibility-coordinator",
+    "display_name": "无障碍服务协调员助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-accessibility-coordinator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-eldercare-service-advisor",
+    "display_name": "养老服务顾问助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-eldercare-service-advisor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-funeral-service-advisor",
+    "display_name": "殡葬服务顾问助手",
+    "category": "公共社区与社会服务",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-funeral-service-advisor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-office-worker",
+    "display_name": "白领工作助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-office-worker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-administrative-specialist",
+    "display_name": "行政专员助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-administrative-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-administrative-clerk",
+    "display_name": "行政文员助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-administrative-clerk",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-secretary",
+    "display_name": "秘书工作助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-secretary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-general-manager-assistant",
+    "display_name": "总经理助理工作助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-general-manager-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-corporate-receptionist",
+    "display_name": "企业前台接待助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-corporate-receptionist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-meeting-service-specialist",
+    "display_name": "会议服务专员助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-meeting-service-specialist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-office-asset-administrator",
+    "display_name": "办公资产管理员助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-office-asset-administrator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-enterprise-archivist",
+    "display_name": "企业档案管理员助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-enterprise-archivist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-document-control-specialist",
+    "display_name": "文控专员助手",
+    "category": "行政办公",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-document-control-specialist",
+    "language": "zh-CN"
   }
 ]
