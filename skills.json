@@ -47276,5 +47276,95 @@
     "batch": "occupational-assistants-360-20260912",
     "path": "skills/ai-hive-role-homestay-host",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-exhibition-planner",
+    "display_name": "会展策划助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-exhibition-planner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-wedding-planner",
+    "display_name": "婚礼策划助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-wedding-planner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-event-host",
+    "display_name": "主持人助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-event-host",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-fitness-coach",
+    "display_name": "健身教练助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-fitness-coach",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-yoga-instructor",
+    "display_name": "瑜伽教练助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-yoga-instructor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-swimming-instructor",
+    "display_name": "游泳教练助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-swimming-instructor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-sports-event-operator",
+    "display_name": "体育赛事运营助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-sports-event-operator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-sports-venue-manager",
+    "display_name": "体育场馆管理员助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-sports-venue-manager",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-performance-agent",
+    "display_name": "演出经纪人助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-performance-agent",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-role-stage-manager",
+    "display_name": "舞台监督助手",
+    "category": "旅游文体",
+    "brand": "AI-HIVE",
+    "batch": "occupational-assistants-360-20260912",
+    "path": "skills/ai-hive-role-stage-manager",
+    "language": "zh-CN"
   }
 ]

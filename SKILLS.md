@@ -5718,3 +5718,18 @@
 | [酒店前台助手](skills/ai-hive-role-hotel-front-desk/SKILL.md) | AI-HIVE | 旅游文体 |
 | [酒店客房服务员助手](skills/ai-hive-role-hotel-housekeeper/SKILL.md) | AI-HIVE | 旅游文体 |
 | [民宿管家助手](skills/ai-hive-role-homestay-host/SKILL.md) | AI-HIVE | 旅游文体 |
+
+## 2026-09-12 职业助手360（独立适配入口）
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [会展策划助手](skills/ai-hive-role-exhibition-planner/SKILL.md) | AI-HIVE | 旅游文体 |
+| [婚礼策划助手](skills/ai-hive-role-wedding-planner/SKILL.md) | AI-HIVE | 旅游文体 |
+| [主持人助手](skills/ai-hive-role-event-host/SKILL.md) | AI-HIVE | 旅游文体 |
+| [健身教练助手](skills/ai-hive-role-fitness-coach/SKILL.md) | AI-HIVE | 旅游文体 |
+| [瑜伽教练助手](skills/ai-hive-role-yoga-instructor/SKILL.md) | AI-HIVE | 旅游文体 |
+| [游泳教练助手](skills/ai-hive-role-swimming-instructor/SKILL.md) | AI-HIVE | 旅游文体 |
+| [体育赛事运营助手](skills/ai-hive-role-sports-event-operator/SKILL.md) | AI-HIVE | 旅游文体 |
+| [体育场馆管理员助手](skills/ai-hive-role-sports-venue-manager/SKILL.md) | AI-HIVE | 旅游文体 |
+| [演出经纪人助手](skills/ai-hive-role-performance-agent/SKILL.md) | AI-HIVE | 旅游文体 |
+| [舞台监督助手](skills/ai-hive-role-stage-manager/SKILL.md) | AI-HIVE | 旅游文体 |
