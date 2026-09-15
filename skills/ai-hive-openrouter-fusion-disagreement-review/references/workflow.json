@@ -1,0 +1,71 @@
+{
+  "slug": "ai-hive-openrouter-fusion-disagreement-review",
+  "title": "OpenRouter Fusion 方案分歧证据评审",
+  "family": "OpenRouter Fusion",
+  "aliases": [
+    "OpenRouter Fusion",
+    "Fusion复合模型",
+    "多模型讨论",
+    "模型分歧评审",
+    "compound model",
+    "multi-model deliberation",
+    "方案证据对照",
+    "模型评审团"
+  ],
+  "summary": "对存在真实分歧的技术或运营方案，先形成统一问题和证据口径，再用独立分析、分歧定位、证据复核和结论整合的结构评审。保留少数意见与未决问题，不把多模型重复同一句话当成事实，也不为简单问题默认增加调用成本。",
+  "inputs": [
+    "需要选择的非高风险方案及决策期限",
+    "候选方案、约束和用户认可的评价标准",
+    "允许使用的公开或授权证据",
+    "模型面板、预算和是否允许联网"
+  ],
+  "steps": [
+    "将决策拆成可验证问题，标注哪些差异会改变最终选择，简单事实题不启用评审团。",
+    "核实 OpenRouter Fusion 或 AI-HIVE 当前真实提供的编排能力，区分原生 Fusion 与自行设计的多模型流程。",
+    "确认预算与证据范围后才执行；用户指定 Fusion 而入口没有时停止该指定产品调用，仅交付评审方案。",
+    "要求候选独立提出方案、证据和反例，再整理一致、冲突、遗漏及各自依据。",
+    "复核影响决策的原始来源，无法证明的共识降级为待核实，不用票数判真。",
+    "输出条件化建议、保留意见及何种新证据会改变结论，记录实际调用与费用。"
+  ],
+  "outputs": [
+    "review-question.md：统一问题、约束与证据范围",
+    "disagreement-matrix.csv：观点、冲突与来源",
+    "decision-record.json：条件化建议、未决项与执行记录"
+  ],
+  "checks": [
+    "保留面板间的分歧和少数有效意见",
+    "关键事实能追溯到原始来源",
+    "多模型一致不等同于事实已验证",
+    "明确原生 Fusion、替代编排或仅方案的实际执行模式"
+  ],
+  "boundary": "OpenRouter Fusion 不等于普通多模型路由，AI-HIVE 不默认复刻其原生面板、评审器或计费。指定 Fusion 或具体模型不可用时停止该调用；其他编排须经用户同意，第三方账户与权限仍由原平台管理。",
+  "prompt": "评审我们应先做站内搜索还是知识库问答，用相同的三个月资源约束比较，保留分歧和证据。先核验 Fusion 可用性并给成本方案；不要把多个模型赞同当成事实。",
+  "sample_input": {
+    "options": [
+      "站内搜索",
+      "知识库问答"
+    ],
+    "team": "2名工程师",
+    "deadline": "3个月",
+    "decision_basis": [
+      "资料可用性",
+      "维护成本",
+      "用户任务完成率"
+    ],
+    "execute": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "plan_only",
+    "key_disagreement": "现有资料是否足以支持可靠问答",
+    "required_evidence": [
+      "授权资料样本",
+      "用户查询失败记录"
+    ],
+    "decision": null
+  },
+  "sources": [
+    "https://openrouter.ai/blog/insights/fusion-explainer/"
+  ],
+  "novelty": "旧 ai-hive-gateway-openrouter-migration 关注网关迁移；本条关注 Fusion 分歧结构、证据反驳与选择性升级，不重复 API 切换。"
+}

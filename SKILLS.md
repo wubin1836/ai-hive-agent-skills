@@ -5788,3 +5788,58 @@
 | [Seedance2.5白模参考成片与动作路径对照](skills/ai-hive-seedance25-clay-render-video/SKILL.md) | AI-HIVE | Seedance 2.5 |
 | [Seedance2.5绿幕换景与人物边缘检查](skills/ai-hive-seedance25-green-screen-scene/SKILL.md) | AI-HIVE | Seedance 2.5 |
 | [Seedance2.5成片音画验收与返修时间单](skills/ai-hive-seedance25-audiovisual-review/SKILL.md) | AI-HIVE | Seedance 2.5 |
+
+## 2026-09-15 热点模型与新模型专项 Skill
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [异步工具调用与迟到结果归并助手](skills/ai-hive-async-tool-result-merge/SKILL.md) | AI-HIVE | 工具编排 |
+| [生成中途改需求与续接验收助手](skills/ai-hive-mid-turn-steering-check/SKILL.md) | AI-HIVE | 工具编排 |
+| [思考预算与推理强度调参助手](skills/ai-hive-thinking-budget-calibration/SKILL.md) | AI-HIVE | 模型推理 |
+| [百万上下文资料遗漏核验助手](skills/ai-hive-million-context-omission-test/SKILL.md) | AI-HIVE | 上下文与记忆 |
+| [多模态推理与证据冲突核对助手](skills/ai-hive-multimodal-conflict-evidence/SKILL.md) | AI-HIVE | 多模态证据 |
+| [上下文压缩后的任务恢复验收助手](skills/ai-hive-compaction-resume-acceptance/SKILL.md) | AI-HIVE | 上下文与记忆 |
+| [提示词缓存不命中诊断助手](skills/ai-hive-prompt-cache-miss-diagnosis/SKILL.md) | AI-HIVE | 模型成本 |
+| [缓存命中与模型账单核对助手](skills/ai-hive-cache-usage-bill-reconcile/SKILL.md) | AI-HIVE | 模型成本 |
+| [按问题选页识别与原文取证助手](skills/ai-hive-agentic-ocr-targeted-evidence/SKILL.md) | AI-HIVE | 文档解析 |
+| [跨页表格识别与数值错位复核助手](skills/ai-hive-ocr-cross-page-table-check/SKILL.md) | AI-HIVE | 文档解析 |
+| [AI数据驻留与调用链证据核验助手](skills/ai-hive-data-residency-chain-evidence/SKILL.md) | AI-HIVE | 数据治理 |
+| [多模型辩论分歧与证据裁决助手](skills/ai-hive-model-debate-evidence-arbiter/SKILL.md) | AI-HIVE | 多模型协作 |
+| [MIGHT开源编码栈分层接入验收助手](skills/ai-hive-might-coding-stack-acceptance/SKILL.md) | AI-HIVE | 开源编码栈 |
+| [LoRA训练数据准备与泄漏检查助手](skills/ai-hive-lora-dataset-readiness/SKILL.md) | AI-HIVE | 训练准备 |
+| [量化模型兼容性与质量损失验收助手](skills/ai-hive-quantized-model-acceptance/SKILL.md) | AI-HIVE | 模型部署 |
+| [模型蒸馏样本与师生对照验收助手](skills/ai-hive-distillation-data-acceptance/SKILL.md) | AI-HIVE | 训练准备 |
+| [原生音视频生成与音画一致性验收助手](skills/ai-hive-native-av-generation-check/SKILL.md) | AI-HIVE | 媒体生成 |
+| [MCP交互表单预览与确认一致性验收助手](skills/ai-hive-mcp-app-approval-consistency/SKILL.md) | AI-HIVE | 协议集成 |
+| [A2A跨智能体取消与交接状态核验助手](skills/ai-hive-a2a-cancel-handoff-check/SKILL.md) | AI-HIVE | 协议集成 |
+| [工具按需发现与加载回归测试助手](skills/ai-hive-deferred-tool-search-regression/SKILL.md) | AI-HIVE | 工具编排 |
+| [Suno v6 单句改词与副歌定点修订](skills/ai-hive-suno-v6-lyric-surgical-edit/SKILL.md) | AI-HIVE | Suno v6 |
+| [Suno v6 多首原创素材混编交接单](skills/ai-hive-suno-v6-authorized-mashup/SKILL.md) | AI-HIVE | Suno v6 |
+| [Suno v6-wild 音乐动机探索与收敛](skills/ai-hive-suno-v6-wild-motif-lab/SKILL.md) | AI-HIVE | Suno v6-wild |
+| [Suno v6-mini 照片日记到纪念歌小样](skills/ai-hive-suno-v6-mini-memory-demo/SKILL.md) | AI-HIVE | Suno v6-mini |
+| [Cursor Projects 长项目上下文交接包](skills/ai-hive-cursor-projects-context-handover/SKILL.md) | AI-HIVE | Cursor Projects |
+| [Cursor Projects 云端开发与本地验收拆分](skills/ai-hive-cursor-projects-cloud-local-gates/SKILL.md) | AI-HIVE | Cursor Projects |
+| [SWE-2 修复任务推理档位对照验收](skills/ai-hive-swe2-effort-repair-benchmark/SKILL.md) | AI-HIVE | Cognition SWE-2 |
+| [SWE-2 故障假设证伪与回归补丁包](skills/ai-hive-swe2-hypothesis-regression-pack/SKILL.md) | AI-HIVE | Cognition SWE-2 |
+| [OpenRouter Fusion 方案分歧证据评审](skills/ai-hive-openrouter-fusion-disagreement-review/SKILL.md) | AI-HIVE | OpenRouter Fusion |
+| [OpenRouter Files 文件复用与产物回收清单](skills/ai-hive-openrouter-files-artifact-recovery/SKILL.md) | AI-HIVE | OpenRouter Files API |
+| [OpenRouter Shell 隔离式表格校验与复算包](skills/ai-hive-openrouter-shell-reproducible-csv/SKILL.md) | AI-HIVE | OpenRouter Shell |
+| [Google Pics 图片内文字本地化校对包](skills/ai-hive-google-pics-in-image-localization/SKILL.md) | AI-HIVE | Google Pics |
+| [Google Pics 视觉批注转局部编辑合同](skills/ai-hive-google-pics-comment-edit-contract/SKILL.md) | AI-HIVE | Google Pics |
+| [Siri AI 屏幕任务的中文人工交接方案](skills/ai-hive-siri-ai-screen-task-handoff/SKILL.md) | AI-HIVE | Apple Siri AI |
+| [Claude CI 测试影响分析的离线回放验收](skills/ai-hive-claude-ci-impact-replay/SKILL.md) | AI-HIVE | Claude CI test impact analysis |
+| [Mistral Vibe 旧代码数值对齐迁移包](skills/ai-hive-mistral-vibe-numerical-parity/SKILL.md) | AI-HIVE | Mistral Vibe |
+| [Iris 中文公开资料检索与证据止步清单](skills/ai-hive-iris-search-evidence-sufficiency/SKILL.md) | AI-HIVE | AllSpark Iris |
+| [Claude Fable 5.1 PPT生成助手](skills/ai-hive-fable51-ppt-evidence-deck/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Fable Excel表格修改助手](skills/ai-hive-fable51-excel-formula-repair/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Claude Fable Word文档修订助手](skills/ai-hive-fable51-word-tracked-revision/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Fable PDF资料对照助手](skills/ai-hive-fable51-pdf-version-crosswalk/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Claude Fable网站设计助手](skills/ai-hive-fable51-website-design-prototype/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Fable代码修复与测试助手](skills/ai-hive-fable51-bugfix-regression-proof/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Claude Fable软件项目开发助手](skills/ai-hive-fable51-software-mvp-delivery/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Fable企业知识库整理助手](skills/ai-hive-fable51-knowledge-base-curation/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Claude Fable竞品调研报告助手](skills/ai-hive-fable51-competitor-evidence-report/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Fable数据分析与图表助手](skills/ai-hive-fable51-data-charts-reproducible/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Claude Fable多步骤办公任务助手](skills/ai-hive-fable51-office-checkpoint-handoff/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Fable短视频脚本与分镜助手](skills/ai-hive-fable51-video-script-shot-plan/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
+| [Claude Opus 5旧系统改造助手](skills/ai-hive-opus5-legacy-system-modernization/SKILL.md) | AI-HIVE | Claude Opus 5 |

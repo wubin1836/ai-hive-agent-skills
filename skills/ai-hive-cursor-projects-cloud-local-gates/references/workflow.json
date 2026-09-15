@@ -1,0 +1,70 @@
+{
+  "slug": "ai-hive-cursor-projects-cloud-local-gates",
+  "title": "Cursor Projects 云端开发与本地验收拆分",
+  "family": "Cursor Projects",
+  "aliases": [
+    "Cursor Projects",
+    "Cursor Cloud Agents",
+    "云端Agent",
+    "本地验收",
+    "cloud local testing",
+    "跨环境测试",
+    "项目并行开发",
+    "开发任务依赖图"
+  ],
+  "summary": "将一个功能拆成云端可执行部分、本地硬件或服务依赖部分，以及需要人确认的集成门槛。明确文件交接、环境差异和测试证据，防止云端通过被误称为本地兼容，也避免未经允许将受限数据或设备访问交给云端任务。",
+  "inputs": [
+    "功能需求与验收条件",
+    "仓库和依赖服务列表",
+    "云端可用环境与本地专属条件",
+    "允许上传的文件范围及并行数量上限"
+  ],
+  "steps": [
+    "按编译、业务测试、设备验证和集成四类整理任务及依赖。",
+    "标出云端可做、本地必须做、资料不足三类节点，给每项填写判断依据。",
+    "为可并行节点指定互不冲突的文件责任和输入输出，不让多个任务同时覆盖同一产物。",
+    "设计云端到本地的交接包，包含版本、环境、测试日志和需要复验的假设。",
+    "若授权执行，先核验实际 Agent 工具和权限再启动单个最小节点；工具不可用则仅交付计划。",
+    "分别汇总云端和本地证据，任一必需门槛未通过就保持未完成，不自动合并或部署。"
+  ],
+  "outputs": [
+    "environment-task-map.json：依赖、执行环境和负责人",
+    "cross-environment-handoff.md：版本与产物交接协议",
+    "acceptance-gates.csv：云端、本地及人工验收状态"
+  ],
+  "checks": [
+    "本地专属条件没有被云端测试替代",
+    "任何云端上传都在用户授权范围内",
+    "任务之间没有未声明的文件覆盖冲突",
+    "完成结论关联各环境真实日志而非 Agent 自述"
+  ],
+  "boundary": "AI-HIVE 的模型 API/MCP 不等于 Cursor Projects 云计算、协调器或本地 Agent。执行前核实当前工具与权限；没有对应能力就只输出任务拆分，指定模型不可用时不换名调用。",
+  "prompt": "把桌面打印功能拆成 Cursor Projects 云端开发与本地打印机验收任务。云端只能接收脱敏代码，不能接触真实订单。请交付任务依赖、产物交接和验收门槛，不启动任务或部署。",
+  "sample_input": {
+    "feature": "订单标签打印",
+    "cloud_allowed": [
+      "脱敏代码",
+      "模拟订单"
+    ],
+    "local_only": [
+      "USB打印机"
+    ],
+    "max_parallel": 2,
+    "execute": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "plan_only",
+    "cloud_tasks": [
+      "模板排版单测"
+    ],
+    "local_tasks": [
+      "USB连接与实纸尺寸验证"
+    ],
+    "release_gate": "两环境均通过后人工确认"
+  },
+  "sources": [
+    "https://cursor.com/changelog/projects"
+  ],
+  "novelty": "区别旧 Cursor API 配置与泛多 Agent 流水线，新增 Projects 云端计算、本地专属测试和跨环境证据的明确分工。"
+}

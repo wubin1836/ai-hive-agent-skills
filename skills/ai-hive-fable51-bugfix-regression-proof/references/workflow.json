@@ -1,0 +1,80 @@
+{
+  "slug": "ai-hive-fable51-bugfix-regression-proof",
+  "title": "Fable代码修复与测试助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable改bug",
+    "Claude调试",
+    "Fable修项目报错",
+    "Fable回归测试"
+  ],
+  "summary": "从具体报错和复现步骤出发，定位代码根因并交付最小修复，适合已有项目的接口异常、边界条件和回归缺陷。把修改与能够重复运行的测试绑定，保留修复前后的证据和未解决项，方便开发者审阅、接手与验证。",
+  "inputs": [
+    "授权仓库及允许修改的范围",
+    "报错日志与最短复现步骤",
+    "预期行为与实际行为",
+    "运行环境和相关测试命令"
+  ],
+  "steps": [
+    "读取仓库状态和现有修改，保存失败日志，确认任务只针对指定缺陷",
+    "在隔离或本地测试环境尝试复现，无法复现时列出缺失条件而不猜测已解决",
+    "用Fable 5.1沿调用链定位根因，提出影响范围最小的修复与回归用例",
+    "先增加能够暴露问题的测试，再修改授权代码，保留用户已有变更",
+    "由宿主运行相关测试与必要的邻近回归，分别记录命令、退出码和日志",
+    "审查最终差异，交付补丁、修复证据与未验证环境，不自动提交或部署"
+  ],
+  "outputs": [
+    "bugfix.patch：范围内代码及测试补丁",
+    "test-evidence.md：复现和回归命令结果",
+    "remaining-issues.md：未解决与未验证事项"
+  ],
+  "checks": [
+    "修复对应可说明的根因而非仅隐藏报错",
+    "新增测试在修复前失败、修复后通过或明确记录无法验证",
+    "没有覆盖用户已有修改或扩展无关重构",
+    "只报告实际执行过的测试"
+  ],
+  "boundary": "需模型推理时由用户登录AI-HIVE并绑定远程MCP，核验claude-fable-5-1；不可用即停止指定模型分析，不擅自换型。代码读写、命令执行和测试来自宿主，不是模型接口自带环境；不调用生产接口、使用真实凭据或自动部署，无法执行时仅给待应用补丁方案。",
+  "prompt": "用Fable5.1修复这个仓库里空购物车结算报500的问题。先复现，再加回归测试，只改结算相关代码。把实际测试命令和结果一起交付，不提交、不部署。",
+  "sample_input": {
+    "repository": "shop-demo",
+    "symptom": "空购物车POST /checkout返回500",
+    "expected": "返回400和明确提示",
+    "test_command": "npm test -- checkout",
+    "scope": [
+      "src/checkout",
+      "tests/checkout"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "hypothesis": "空数组读取首个商品时缺少校验",
+    "proposed_test": "empty-cart-returns-400",
+    "test_status": "待宿主复现及运行",
+    "excluded": [
+      "支付生产接口",
+      "订单模块重构"
+    ]
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "从失败复现到回归证据的闭环，不是泛代码建议；与日常功能修改区分，必须围绕既有缺陷及最小修复。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "授权仓库读取、差异查看与补丁工具",
+    "项目语言运行环境及测试框架",
+    "隔离测试数据和本地命令执行工具"
+  ]
+}

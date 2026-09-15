@@ -1,0 +1,70 @@
+{
+  "slug": "ai-hive-google-pics-in-image-localization",
+  "title": "Google Pics 图片内文字本地化校对包",
+  "family": "Google Pics",
+  "aliases": [
+    "Google Pics",
+    "GooglePics",
+    "谷歌Pics",
+    "图片文字翻译",
+    "图内文字编辑",
+    "in-image translation",
+    "海报多语言",
+    "保留版式翻译"
+  ],
+  "summary": "把海报或说明图里的文字翻译做成可核对的区域任务，分别记录源文、译文、长度限制和不能变动的视觉元素。先处理人名、品牌、单位与排版冲突，再形成图片编辑请求与逐字复核单，适合已有设计的多语言版本交接。",
+  "inputs": [
+    "有权编辑的原图及可辨识文字",
+    "目标语言、地区与术语表",
+    "需要保持的品牌、字体观感和布局",
+    "允许修改区域及目标尺寸"
+  ],
+  "steps": [
+    "读取原图，把文字按区域编号并逐字核对；模糊文字先请求补充，不猜测。",
+    "按目标地区翻译并检查术语、数字、单位和字符长度，标出可能溢出的区域。",
+    "为每个区域指定译文、允许调整及禁止改动的背景元素，用户确认文案后再编辑。",
+    "核实 Google Pics 连接或 AI-HIVE 实际图像编辑能力；指定原平台不可用则只交付编辑单，替代工具须经同意。",
+    "在已授权可用入口逐区处理并保存版本，指定图像模型不存在时停止该型号生成。",
+    "将实际导出的图片逐区对照文字表，检查遗漏、错字和背景漂移，再交付可追溯的校对结论。"
+  ],
+  "outputs": [
+    "localized-text.csv：区域、源文、译文和长度约束",
+    "image-edit-brief.json：区域编辑请求与保留清单",
+    "localization-proof.md：实际校对结果或未执行说明"
+  ],
+  "checks": [
+    "译文与图片中实际文字逐字对应",
+    "数字、品牌和单位未被意外替换",
+    "非目标区域的变化有记录",
+    "没有将 Google Pics 与所有 Nano Banana 接口能力等同"
+  ],
+  "boundary": "Google Pics 是 Workspace 图像产品，不是一个可由名称直接调用的模型。AI-HIVE 不继承 Google 账号、协作、对象分割或 Drive 权限；原平台不可用只交付编辑方案，其他模型须真实可用且经用户同意。",
+  "prompt": "把这张授权活动海报的文字改成日文，保持品牌和版式，先按区域给译文与长度检查。我要 Google Pics 交接单；不能接入时不要假装已经改图。",
+  "sample_input": {
+    "image": "event-poster.png",
+    "target_locale": "ja-JP",
+    "locked": [
+      "品牌标识",
+      "主视觉",
+      "日期数字"
+    ],
+    "execute": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "plan_only",
+    "regions": [
+      {
+        "id": "T1",
+        "source": "秋日市集",
+        "translation": "秋のマルシェ",
+        "status": "待用户确认"
+      }
+    ],
+    "image_edited": false
+  },
+  "sources": [
+    "https://blog.google/products-and-platforms/products/workspace/google-pics/"
+  ],
+  "novelty": "旧库无 Google Pics 精确条目；本条强调图内文本区域、长度约束及视觉保留证据，不是泛图片翻译或整图重画。"
+}

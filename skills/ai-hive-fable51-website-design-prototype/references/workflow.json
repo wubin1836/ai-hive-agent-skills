@@ -1,0 +1,87 @@
+{
+  "slug": "ai-hive-fable51-website-design-prototype",
+  "title": "Claude Fable网站设计助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable网站设计",
+    "Claude网页制作",
+    "Fable官网设计",
+    "Fable落地页"
+  ],
+  "summary": "把品牌介绍、产品卖点和页面需求变成可以本地查看的网站原型，适合企业官网、活动落地页与服务介绍页。先梳理访问者要完成的动作，再落实页面结构、视觉层级和响应式布局，交付源码、素材清单与截图验收记录。",
+  "inputs": [
+    "品牌资料、文案与获准使用的图片",
+    "页面清单及主要转化目标",
+    "参考页面或风格要求",
+    "现有项目技术栈与可修改目录"
+  ],
+  "steps": [
+    "盘点品牌素材和页面范围，明确原型中哪些表单与按钮仅作演示",
+    "用Fable 5.1规划信息架构、核心行动入口和各页面内容层级",
+    "在授权项目目录制作语义化页面与响应式样式，使用提供素材并记录来源",
+    "实现必要的本地交互，给演示数据和未连接后端的功能清楚标记",
+    "由宿主启动本地预览，在手机与桌面尺寸截图并检查导航、键盘焦点和溢出",
+    "整理原型源码、资源授权清单和验收结果，未授权部署的内容保持本地"
+  ],
+  "outputs": [
+    "website-prototype.zip：本地原型源码与预览说明",
+    "asset-ledger.csv：图片、字体与文案来源",
+    "visual-acceptance.md：截图索引及响应式验收"
+  ],
+  "checks": [
+    "移动与桌面布局均完成实际预览",
+    "导航、表单演示和按钮状态与真实能力一致",
+    "图片字体来源及使用权限有记录",
+    "未自动部署、购买域名或向访客收集真实数据"
+  ],
+  "boundary": "模型执行需用户登录AI-HIVE并绑定远程MCP，核验claude-fable-5-1；不可用即停止，不替换。Fable提供设计与代码分析，文件编辑、本地运行、浏览器截图及打包由宿主承担；不承诺模型原生托管网站，生图需另核验工具及授权，外网发布不在本流程默认范围。",
+  "prompt": "用Claude Fable 5.1给我们的设备租赁业务设计一个三页官网原型，目标是让客户看懂服务并咨询。用提供的品牌图，不生成虚构客户案例；在本地预览手机和桌面效果，不要上线。",
+  "sample_input": {
+    "brand": "示例设备租赁",
+    "pages": [
+      "首页",
+      "服务",
+      "常见问题"
+    ],
+    "goal": "了解服务后咨询",
+    "stack": "静态HTML/CSS",
+    "form_mode": "演示"
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "routes": [
+      "/",
+      "/services",
+      "/faq"
+    ],
+    "primary_action": "查看租赁流程",
+    "form_notice": "演示表单，不提交资料",
+    "preview_sizes": [
+      "390×844",
+      "1440×900"
+    ],
+    "deployment": "未授权，不执行"
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "以可预览的品牌网站原型为结果，包含素材账本和浏览器验收；区别模型介绍，也区别需要真实业务后端的软件项目开发。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "授权项目目录的文件编辑工具",
+    "匹配项目技术栈的本地运行环境",
+    "浏览器预览与截图工具",
+    "本地归档打包工具"
+  ]
+}

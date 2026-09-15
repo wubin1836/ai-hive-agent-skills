@@ -1,0 +1,90 @@
+{
+  "slug": "ai-hive-fable51-word-tracked-revision",
+  "title": "Claude Fable Word文档修订助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable写Word",
+    "Claude改文档",
+    "Fable文档修订",
+    "Word批注处理"
+  ],
+  "summary": "把零散批注和修改意见落实到Word稿件，适合企业方案、通知、产品说明与内部制度草稿。按段落追踪每条意见，保留指定条款、表格和数字，输出可继续编辑的修订副本、改动理由及尚需负责人决定的问题。",
+  "inputs": [
+    "原始DOCX及批注或意见表",
+    "不可修改的段落、数字和表格",
+    "目标读者与文风",
+    "是否要求Word原生修订记录"
+  ],
+  "steps": [
+    "读取标题层级、段落锚点、表格及现有批注，登记保护内容",
+    "将每条意见映射到原文位置，标记相互冲突或缺少定位的意见",
+    "用Fable 5.1生成范围内的语义修改与理由，保留事实和专有名词",
+    "由宿主DOCX工具写入副本；需要原生修订时先核验工具是否真正支持，不用颜色标注假扮修订",
+    "逐条记录已接受、未处理和待决定的意见，并保留原批注的对应关系",
+    "渲染并回读新文件，检查标题、分页、表格、页眉页脚和受保护内容"
+  ],
+  "outputs": [
+    "document-revised.docx：修订副本，需DOCX工具",
+    "revision-log.csv：意见处理与段落差异",
+    "pending-decisions.md：冲突意见及排版检查"
+  ],
+  "checks": [
+    "原稿未覆盖且指定数字逐项保留",
+    "每条意见均有定位与处理状态",
+    "原生修订不可用时在交付中明确说明",
+    "导出后已回读并检查表格和页眉页脚"
+  ],
+  "boundary": "模型分析前由用户登录AI-HIVE并绑定远程MCP，核验claude-fable-5-1；不可用即停止，不默默改用其他模型。Fable负责文字修订，DOCX结构、原生修订和渲染由宿主实现；缺工具时只交付未应用的修订建议，不声称已修改Word，也不自动发送审阅件。",
+  "prompt": "用Claude Fable 5.1按意见表修改客户方案.docx，报价表和交付日期不能动。要求原生修订记录，保留每条意见的处理状态；工具不支持时先说明，不要用高亮冒充修订。",
+  "sample_input": {
+    "file": "客户方案.docx",
+    "comments": "意见表.csv",
+    "protected": [
+      "第4节报价表",
+      "2026年10月20日"
+    ],
+    "track_changes": true
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "revisions": [
+      {
+        "comment_id": "C03",
+        "anchor": "第2节第3段",
+        "action": "压缩重复背景",
+        "status": "待写入"
+      }
+    ],
+    "conflicts": [
+      {
+        "comment_ids": [
+          "C07",
+          "C09"
+        ],
+        "question": "案例是否允许对外公开"
+      }
+    ],
+    "native_track_changes": "待核验宿主支持"
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "新增批注到段落的可追踪修订交付，并区分真正Word修订与视觉标记，区别于泛写作和模型比较。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "DOCX段落、表格及批注读取工具",
+    "DOCX编辑工具，原生修订仅在受支持时使用",
+    "文档渲染及页面查看工具"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "ai-hive-fable51-office-checkpoint-handoff",
+  "title": "Claude Fable多步骤办公任务助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable自动办公",
+    "Claude处理待办",
+    "Fable长任务助手",
+    "办公任务交接"
+  ],
+  "summary": "把跨文件的办公待办整理成有顺序、能暂停、可交接的工作包，适合活动筹备、项目周报和部门资料整理。为每一步记录输入、依赖、产物与完成证据，把需要人工确认的事项留在明确节点，避免只完成一半却不知道从哪里继续。",
+  "inputs": [
+    "待办清单与获准处理的文件",
+    "截止时间、优先级和交接对象",
+    "每项任务的完成定义",
+    "可用工具及不允许执行的外部动作"
+  ],
+  "steps": [
+    "为待办分配稳定编号并登记输入文件、输出格式、负责人和完成定义",
+    "用Fable 5.1识别前后依赖和可独立完成的任务，区分准备材料与对外执行",
+    "按依赖逐步处理已获准的本地任务，每完成一项就记录产物路径和核验依据",
+    "遇到缺文件、权限或需要人工决定的动作时保存检查点，仅继续不受影响的任务",
+    "恢复时核对输入版本与既有产物，避免重复处理已完成事项或覆盖新修改",
+    "汇总阶段成果、任务状态和下一位接手者所需条件，将发送、发布等动作保持待确认"
+  ],
+  "outputs": [
+    "office-deliverables.zip：已完成的本地阶段成果及清单",
+    "task-ledger.csv：依赖、状态与产物台账",
+    "resume-handoff.md：检查点、阻塞及恢复说明"
+  ],
+  "checks": [
+    "完成状态必须对应可找到且已检查的产物",
+    "每个阻塞有缺失条件和可继续的下一步",
+    "恢复任务不会重复外发或覆盖已修改成果",
+    "邮件发送、日程创建和发布不因待办文字自动执行"
+  ],
+  "boundary": "仅需模型处理时由用户登录AI-HIVE并绑定远程MCP，核验claude-fable-5-1；不可用即暂停指定型号步骤，不更换模型。模型编排任务，宿主读写及文档工具完成实际产物；本地检查点不是后台持续运行或定时任务，不自行创建自动化，也不把离线计划标成已完成。",
+  "prompt": "用Claude Fable 5.1整理这次客户活动的四项待办：合并名单、写主持稿、汇总物料和准备通知草稿。只做本地材料，不发消息。缺负责人就记录，完成一项留一个检查点，方便明天继续。",
+  "sample_input": {
+    "tasks": [
+      "合并名单",
+      "写主持稿",
+      "汇总物料",
+      "准备通知草稿"
+    ],
+    "files": [
+      "报名表.xlsx",
+      "活动流程.docx"
+    ],
+    "allowed_actions": [
+      "本地整理",
+      "生成草稿"
+    ],
+    "forbidden_actions": [
+      "发送通知",
+      "创建日程"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "task": {
+      "id": "T04",
+      "name": "准备通知草稿",
+      "depends_on": [
+        "T01",
+        "T02"
+      ],
+      "status": "待上游完成",
+      "external_send": "未授权"
+    },
+    "checkpoint": {
+      "resume_from": "T01",
+      "required_input": "确认重复报名处理口径"
+    }
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "新增跨产物的检查点与恢复协议，不只是待办摘要；每个完成状态要求产物证据，并将草稿准备和外部执行分开。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "本地文件清单、读取及写入工具",
+    "按实际任务提供DOCX、XLSX或其他文档工具",
+    "文件版本或校验值比较工具",
+    "本地成果归档工具"
+  ]
+}

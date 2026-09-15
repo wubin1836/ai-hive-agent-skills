@@ -1,0 +1,90 @@
+{
+  "slug": "ai-hive-fable51-data-charts-reproducible",
+  "title": "Fable数据分析与图表助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable数据分析",
+    "Claude做图表",
+    "Fable经营分析",
+    "CSV数据清洗"
+  ],
+  "summary": "把CSV或Excel里的经营数据整理成可复算的分析与图表，适合查看销售趋势、客户结构和活动表现。先统一字段、时间和统计口径，再处理缺失与重复，保留清洗规则及计算过程，让图表中的每个数值都能回到数据和代码。",
+  "inputs": [
+    "CSV或Excel原始数据",
+    "要回答的经营问题与指标定义",
+    "时间范围、币种和分组维度",
+    "允许的数据清洗规则"
+  ],
+  "steps": [
+    "读取数据结构并检查行数、字段类型、唯一键、缺失值和日期范围",
+    "明确指标分子分母、时间口径及重复记录处理，冲突定义列为待确认",
+    "让Fable 5.1提出清洗与分析方案，保留不适合直接删除的异常记录",
+    "由宿主计算环境执行清洗和聚合，记录处理前后行数及指标中间值",
+    "按问题选择图表并生成图像，标出单位、样本量和缺失区间，不用视觉截断夸大差异",
+    "将可重跑计算脚本、清洗数据与图表报告交付，核对所有结论能追溯到运算结果"
+  ],
+  "outputs": [
+    "cleaned-data.csv：清洗数据与保留字段",
+    "analysis.py：可复算分析及图表脚本",
+    "analysis-report.html：嵌入图表、口径和检查结果"
+  ],
+  "checks": [
+    "清洗前后记录数及剔除原因可对账",
+    "指标计算可重跑且不是模型心算的最终数值",
+    "图表单位、分母、日期和缺失值说明完整",
+    "相关关系不直接写成因果结论"
+  ],
+  "boundary": "需模型分析时由用户登录AI-HIVE并绑定远程MCP，核验claude-fable-5-1；精确型号不可用即停止，不自动替换。Fable解释口径并设计分析，数值计算、绘图和文件导出由宿主实际执行；缺计算环境时只交付标明未运行的方案，不能声称图表或统计已验证。",
+  "prompt": "用Fable5.1分析这份门店销售.csv，比较近12周各门店的客单价和销售额。退款按负数保留，重复订单先列出来别直接删。给清洗数据、能复跑的脚本和图表报告。",
+  "sample_input": {
+    "file": "门店销售.csv",
+    "period": "最近12周",
+    "metrics": [
+      "销售额",
+      "客单价"
+    ],
+    "group_by": "门店",
+    "refund_policy": "负数保留",
+    "duplicate_policy": "先列出待确认"
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "metric_definition": {
+      "客单价": "销售净额除以有效订单数，退款订单口径待确认"
+    },
+    "checks_planned": [
+      "订单ID重复",
+      "门店字段缺失",
+      "日期超出范围"
+    ],
+    "chart_plan": [
+      {
+        "metric": "销售额",
+        "chart": "按周折线图"
+      }
+    ],
+    "computed_values": null
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "新增可重算的数据分析链路，输出清洗数据与计算脚本；区别Excel定点公式修复和仅对经营材料做语义总结。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "CSV和XLSX读取工具",
+    "Python及数据处理、绘图库或等效计算环境",
+    "HTML报告与本地文件写入工具",
+    "生成图表的查看工具"
+  ]
+}

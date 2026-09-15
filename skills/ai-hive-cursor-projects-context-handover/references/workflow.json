@@ -1,0 +1,70 @@
+{
+  "slug": "ai-hive-cursor-projects-context-handover",
+  "title": "Cursor Projects 长项目上下文交接包",
+  "family": "Cursor Projects",
+  "aliases": [
+    "Cursor Projects",
+    "Cursor项目",
+    "Cursor长任务",
+    "shared context",
+    "项目上下文",
+    "Agent交接",
+    "项目记忆整理",
+    "跨会话代码协作"
+  ],
+  "summary": "为跨周开发或迁移整理可审计的共享上下文：目标、已做决定、已验证命令、待办和过期假设分别存放。通过一个新接手任务检查资料能否让执行者正确开工，避免长期 Agent 把历史意见、旧日志或未验证结论误当成现状。",
+  "inputs": [
+    "授权仓库路径或导出的项目资料",
+    "当前目标、里程碑与不能改的范围",
+    "已完成工作、关键决策及依据",
+    "已验证的构建测试命令与环境限制"
+  ],
+  "steps": [
+    "读取用户选定资料，记录仓库版本和交接时间，不扫描无关个人目录。",
+    "提取稳定约束、暂定决策、待验证事实及过期信息，逐项附来源。",
+    "把每个里程碑分解成有输入、验收标准和负责角色的可交接任务。",
+    "整理已实际验证的命令与环境条件，未执行的命令显式标记未验证。",
+    "用一个新接手者测试问题检查交接包是否能定位文件、运行测试和识别阻碍，补足必要上下文。",
+    "生成本地交接包；只有用户要求且连接器确有对应能力时才写入 Cursor Projects，共享前检查敏感数据。"
+  ],
+  "outputs": [
+    "project-context.md：目标、稳定约束与证据索引",
+    "decision-register.csv：决策、依据、有效期和待验证项",
+    "handover-tasks.json：任务输入、验收与环境需求"
+  ],
+  "checks": [
+    "每个事实标注来源与核验状态",
+    "历史决定和当前要求不混写",
+    "未验证命令不标记为测试通过",
+    "共享资料不含真实密钥或无关个人信息"
+  ],
+  "boundary": "Cursor Projects 是第三方云端协调产品，AI-HIVE 不自动继承其共享文件、云机器、持续记忆或订阅。此 Skill 主要制作交接材料；写入平台需可用连接和明确授权，指定推理模型不可用时停止该型号调用。",
+  "prompt": "给这个持续三周的 Cursor Projects 迁移项目做接手包：区分已经验证的结论与旧假设，列出测试命令、未完成里程碑和不可变范围。先只输出本地文件，不创建项目或自动订阅。",
+  "sample_input": {
+    "project": "订单服务拆分",
+    "revision": "用户提供的当前版本",
+    "next_milestone": "只读查询迁移",
+    "forbidden_scope": [
+      "支付写链路"
+    ],
+    "publish": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "illustrative_only",
+    "stable_constraints": [
+      "不改支付写链路"
+    ],
+    "unverified": [
+      "查询回归测试命令待执行"
+    ],
+    "next_task": {
+      "name": "核对查询接口契约",
+      "acceptance": "字段和错误码逐项对应"
+    }
+  },
+  "sources": [
+    "https://cursor.com/changelog/projects"
+  ],
+  "novelty": "旧 ai-hive-alt-cursor 侧重 RAG 迁移；本条聚焦 Projects 长周期共享上下文的时效、决策证据和交接完整性。"
+}

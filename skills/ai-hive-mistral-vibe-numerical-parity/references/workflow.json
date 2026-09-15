@@ -1,0 +1,67 @@
+{
+  "slug": "ai-hive-mistral-vibe-numerical-parity",
+  "title": "Mistral Vibe 旧代码数值对齐迁移包",
+  "family": "Mistral Vibe",
+  "aliases": [
+    "Mistral Vibe",
+    "Vibe CLI",
+    "Fortran迁移C++",
+    "legacy modernization",
+    "旧代码现代化",
+    "numerical parity",
+    "数值对齐",
+    "调用树迁移"
+  ],
+  "summary": "为可运行的旧数值程序先建立行为基线和关键中间量检查，再选择一个独立叶子模块迁移。将调用关系、全局状态、误差容忍和边界样本写清楚，避免只把旧语法翻译成新语法却改变计算语义，保留人工评审和按模块回退的机会。",
+  "inputs": [
+    "授权的可运行旧代码与目标语言环境",
+    "代表性输入、输出及关键中间检查点",
+    "调用树、全局状态和业务约束",
+    "数值容差、允许修改模块与执行预算"
+  ],
+  "steps": [
+    "验证旧程序能在授权隔离环境运行，记录编译选项、输入和已知异常；基线不可运行时先停止迁移。",
+    "整理调用树及全局状态读写，选择依赖少且范围可控的叶子模块。",
+    "在迁移前建立输出与关键中间量对齐用例，由领域负责人确认绝对和相对误差门槛。",
+    "设计目标模块接口及状态传递方式，避免原样照搬全局状态；用户确认架构后才实施。",
+    "核验实际 Vibe 或 AI-HIVE 代码能力及指定模型，缺失则停止指定调用；有授权时按实现、测试、审查的分工迁移该模块。",
+    "运行新旧同输入对照与边界测试，记录数值差异及解释，任一门槛失败则不合并，不扩大迁移范围。"
+  ],
+  "outputs": [
+    "module-state-map.md：调用关系、接口与状态读写",
+    "parity-cases.json：基线输入、检查点与容差",
+    "migration-review.csv：新旧差异、测试状态与人工门槛"
+  ],
+  "checks": [
+    "迁移前有真实可运行基线，不以模型推测替代",
+    "最终输出和关键中间量均有对齐证据",
+    "容差来自任务与领域确认，不随失败结果放宽",
+    "架构变化没有只换语法仍复制全部旧全局状态",
+    "未通过对齐的模块不自动合并"
+  ],
+  "boundary": "Mistral Vibe 是第三方编码工具，AI-HIVE 不自动拥有其 CLI、多 Agent 或私有仓库权限。只迁移授权模块；指定工具或模型不可用就停止相应执行。数值对齐不等于完成全部领域或生产安全验证。",
+  "prompt": "把这段有基线输入的 Fortran 77 计算模块迁移到 C++，参考 Mistral Vibe 的数值对齐方法。先整理 COMMON 状态、调用关系和中间检查点，确认容差后才改一个叶子模块，不动主程序。",
+  "sample_input": {
+    "source_language": "Fortran 77",
+    "target_language": "C++",
+    "scope": "一个密度计算叶子模块",
+    "baseline_available": true,
+    "tolerance": "等待领域负责人确认",
+    "execute": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "plan_only",
+    "required_checkpoints": [
+      "输入压力",
+      "插值索引",
+      "输出密度"
+    ],
+    "migration_started": false,
+    "blocking_item": "确认数值容差与边界样本"
+  },
+  "sources": [
+    "https://mistral.ai/news/legacy-code-modernization/"
+  ],
+  "novelty": "旧库未命中 Mistral Vibe 数值对齐；新增先建 parity harness、拆解全局状态和叶子模块人工验收，区别普通代码翻译。"
+}

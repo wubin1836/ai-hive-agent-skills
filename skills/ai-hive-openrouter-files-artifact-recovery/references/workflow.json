@@ -1,0 +1,65 @@
+{
+  "slug": "ai-hive-openrouter-files-artifact-recovery",
+  "title": "OpenRouter Files 文件复用与产物回收清单",
+  "family": "OpenRouter Files API",
+  "aliases": [
+    "OpenRouter Files",
+    "OpenRouter Files API",
+    "or_file",
+    "文件重复上传",
+    "AI生成文件下载",
+    "容器产物回收",
+    "workspace files",
+    "artifact manifest"
+  ],
+  "summary": "为需要多次使用同一资料的分析任务建立文件台账：区分本地原件、工作区文件、容器副本和生成产物，记录哈希、权限与保留位置。特别检查原始上传文件不能直接下载等差异，避免把远端临时容器当备份或任务结束后找不到产物。",
+  "inputs": [
+    "用户指定的待处理文件与敏感等级",
+    "目标平台、工作区及区域要求",
+    "复用任务与期望生成的文件类型",
+    "本地备份位置和保存期限"
+  ],
+  "steps": [
+    "只检查选定文件的格式、大小和哈希，登记本地原件位置及上传授权。",
+    "核对现行 Files API 限制、区域入口和原件下载规则；有数据驻留冲突则停止上传。",
+    "先用已授权只读清单匹配现有文件与台账，未知文件归属不按相同文件名直接复用。",
+    "授权上传后记录真实文件标识；请求超时或结果不明时先核对现有记录，不盲目再传。",
+    "对生成产物登记容器位置与可下载状态，按文档下载并校验文件完整性，需要长期保存则形成显式保存计划。",
+    "交付台账与缺失产物清单；清理远端文件须另获授权，保留本地原件，不把未下载产物标为已交付。"
+  ],
+  "outputs": [
+    "file-manifest.json：原件、工作区文件与生成物映射",
+    "artifact-recovery.csv：下载状态、哈希和保留计划",
+    "file-lifecycle.md：权限、区域约束与缺失产物说明"
+  ],
+  "checks": [
+    "本地原件保留，不依赖上传文件可直接下载",
+    "文件标识归属明确且不跨工作区猜测",
+    "交付状态包含真实下载与完整性检查",
+    "上传及保存规则不违反用户数据区域要求"
+  ],
+  "boundary": "OpenRouter Files 是第三方工作区存储，AI-HIVE 的文件或 MCP 接口不能假定兼容。仅在实际连接、权限和接口已核验时执行；否则输出台账方案。该接口当前为 beta 且仅全球入口可用，限制须执行时复查。",
+  "prompt": "给这 8 个授权 CSV 设计 OpenRouter Files 复用和产物回收流程。保留本地原件，不上传敏感字段，不删除任何远端文件；先输出台账和区域限制检查。",
+  "sample_input": {
+    "files": [
+      "orders-redacted.csv",
+      "refunds-redacted.csv"
+    ],
+    "region_requirement": "待确认",
+    "backup": "用户指定本地目录",
+    "upload_authorized": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "plan_only",
+    "uploads": [],
+    "blocking_question": "是否允许全球入口处理这些文件",
+    "originals_must_be_preserved": true,
+    "downloaded_artifacts": []
+  },
+  "sources": [
+    "https://openrouter.ai/docs/guides/features/files-api",
+    "https://openrouter.ai/blog/announcements/shell-tool/"
+  ],
+  "novelty": "区别旧 OpenRouter 网关迁移，新增工作区与容器文件生命周期、原件下载限制、未知上传结果和产物回收。"
+}

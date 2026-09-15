@@ -1,0 +1,75 @@
+{
+  "slug": "ai-hive-google-pics-comment-edit-contract",
+  "title": "Google Pics 视觉批注转局部编辑合同",
+  "family": "Google Pics",
+  "aliases": [
+    "Google Pics",
+    "谷歌Pics",
+    "图片批注修改",
+    "局部对象编辑",
+    "object segmentation",
+    "设计反馈落实",
+    "视觉版本对照",
+    "图片局部改稿"
+  ],
+  "summary": "把多人对同一图片的修改意见整理成不冲突的局部编辑合同：每条批注对应区域、动作、优先级和保留条件。先解决相互矛盾的要求，再逐步验证对象修改是否影响背景，让设计负责人能够追踪每条反馈到底落实到哪个版本。",
+  "inputs": [
+    "有权修改的底图与批注列表",
+    "批注者角色及冲突处理优先级",
+    "允许修改的对象与不可变元素",
+    "目标交付尺寸及执行授权"
+  ],
+  "steps": [
+    "为底图建立版本标识，将每条意见定位到具体对象或区域，无法定位的先标待澄清。",
+    "区分文案、对象、颜色和构图意见，合并重复意见但保留来源。",
+    "找出相互矛盾的修改要求，由用户选择优先级，不擅自代表审批人取舍。",
+    "生成逐条编辑合同，核验 Google Pics 或获准替代入口的真实能力；无连接则仅交付合同。",
+    "经授权后按可验证的批次执行并保留前一版，指定模型不可用立即停止该型号生成。",
+    "对实际导出图检查目标对象和相邻背景，把已落实、未落实及副作用回填批注台账。"
+  ],
+  "outputs": [
+    "comment-resolution.csv：批注、区域、冲突和处理状态",
+    "regional-edit-contract.json：局部动作与保留条件",
+    "version-acceptance.md：版本对照及未决审批"
+  ],
+  "checks": [
+    "每条批注能追溯到区域与处理结论",
+    "冲突意见没有未经授权自动裁决",
+    "修改对象之外的副作用单独检查",
+    "没有原图或实际输出时不声称视觉验收通过"
+  ],
+  "boundary": "Google Pics 的对象级编辑和协作是其原平台能力，AI-HIVE 不自动获得原生分层对象或评论权限。只处理用户提供的素材；无真实连接先交付合同，不承诺替代工具能保留所有图层和效果。",
+  "prompt": "把三位同事对这张封面的批注变成 Google Pics 局部编辑合同：营销要放大标题，设计要保留留白，品牌要锁定 Logo。先列冲突和区域，不直接改图或发给同事。",
+  "sample_input": {
+    "base_image": "cover-v1.png",
+    "comments": [
+      {
+        "author_role": "营销",
+        "change": "放大标题"
+      },
+      {
+        "author_role": "设计",
+        "change": "保留右侧留白"
+      }
+    ],
+    "locked": [
+      "Logo"
+    ],
+    "execute": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "plan_only",
+    "unresolved": [
+      "标题增大后的留白下限需确认"
+    ],
+    "locked_objects": [
+      "Logo"
+    ],
+    "applied_edits": []
+  },
+  "sources": [
+    "https://blog.google/products-and-platforms/products/workspace/google-pics/"
+  ],
+  "novelty": "区别泛设计反馈与上一条翻译，本条专门处理 Google Pics 语境的多人批注冲突、对象级变更合同和版本验收。"
+}

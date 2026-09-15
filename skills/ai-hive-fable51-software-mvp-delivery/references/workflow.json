@@ -1,0 +1,90 @@
+{
+  "slug": "ai-hive-fable51-software-mvp-delivery",
+  "title": "Claude Fable软件项目开发助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable开发软件",
+    "Claude做系统",
+    "Fable写程序",
+    "Fable最小可用项目"
+  ],
+  "summary": "把明确的软件需求做成能在指定环境启动的最小项目，适合内部工具、数据录入和小型业务系统。围绕真实使用路径拆分数据、接口和页面，优先完成一条可验收主流程，交付源码、启动说明与测试用例，便于团队继续开发。",
+  "inputs": [
+    "用户故事、主流程与明确不做的功能",
+    "技术栈和目标运行环境",
+    "数据字段、样例数据与权限要求",
+    "授权输出目录或现有仓库"
+  ],
+  "steps": [
+    "确认项目边界、目标用户与验收主流程，将未授权支付、发布和真实数据接入列为不实施",
+    "用Fable 5.1设计最小数据模型、接口契约和页面状态，登记必要但未决定的需求",
+    "在授权目录搭建项目结构与可运行入口，使用样例数据及显式配置占位符",
+    "按端到端主流程实现最小功能，处理输入校验、空状态和可恢复错误",
+    "由宿主安装已获准依赖并运行构建、测试及本地启动检查，记录环境差异",
+    "整理源码归档、启动步骤与逐项验收结果，将演示功能和未实现需求分开说明"
+  ],
+  "outputs": [
+    "software-mvp.zip：最小项目源码与样例配置",
+    "runbook.md：安装、启动和环境说明",
+    "acceptance-cases.csv：验收用例及实际状态"
+  ],
+  "checks": [
+    "主流程可按启动说明在本地复现或明确列出阻塞",
+    "样例配置没有真实密钥和生产地址",
+    "需求与验收用例一一对应",
+    "演示数据、未接入服务和未实现功能标记清楚"
+  ],
+  "boundary": "模型执行前由用户登录AI-HIVE并绑定远程MCP，核验claude-fable-5-1；缺失即停止，不自动换型。模型负责方案与代码推理，项目生成、依赖管理、运行和打包由宿主工具完成；不把AI-HIVE称为完整托管开发平台，也不自行部署、开通账号或接入真实业务数据。",
+  "prompt": "用Claude Fable 5.1做一个本地设备借用登记工具，支持登记、归还和逾期列表，先不做登录与消息通知。用SQLite和样例数据，交付能启动的源码、说明及验收表，不上线。",
+  "sample_input": {
+    "project": "设备借用登记",
+    "features": [
+      "登记借用",
+      "登记归还",
+      "逾期列表"
+    ],
+    "stack": "Python与SQLite",
+    "excluded": [
+      "登录",
+      "发消息",
+      "公网部署"
+    ],
+    "output_directory": "equipment-demo"
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "entities": [
+      "equipment",
+      "loan"
+    ],
+    "acceptance_case": {
+      "id": "A03",
+      "given": "借用单到期且未归还",
+      "expected": "显示在逾期列表",
+      "status": "待实现与运行"
+    },
+    "data_mode": "样例数据"
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "新增从需求到可启动最小项目的交付，验收重点是端到端业务路径；与网站视觉原型和已有缺陷修复分别路由。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "授权目录文件编辑与归档工具",
+    "所选语言运行环境和依赖管理器",
+    "本地数据库或模拟服务",
+    "测试及本地应用预览工具"
+  ]
+}

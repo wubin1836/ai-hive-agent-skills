@@ -1,0 +1,91 @@
+{
+  "slug": "ai-hive-fable51-competitor-evidence-report",
+  "title": "Claude Fable竞品调研报告助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable做调研",
+    "Claude竞品分析",
+    "Fable行业报告",
+    "竞品证据整理"
+  ],
+  "summary": "围绕一个业务决策比较竞品的产品、服务与公开定位，适合产品经理、销售和创业团队。把结论、公开证据和研究日期放在一起，分清厂商自述、观察结果与待验证推断，交付能够回查来源的报告，而不是难以复核的行业常识汇总。",
+  "inputs": [
+    "研究问题、决策用途及地域范围",
+    "竞品名单与排除范围",
+    "用户指定的公开来源或检索时间窗口",
+    "比较维度与期望交付长度"
+  ],
+  "steps": [
+    "将研究目标拆成可比较问题，限定产品版本、地区与观察日期",
+    "通过宿主浏览器或搜索工具打开相关官网、文档和公告，记录链接与访问日期",
+    "逐项提取支持比较维度的事实，区分厂商宣传、实际公开说明与没有找到资料",
+    "用Fable 5.1综合证据，按相同口径生成差异与对用户决策的影响",
+    "复查价格、可用区域和功能限制等易变信息，无法证实的结论明确降低确定性",
+    "生成带就近引用的报告、证据表和后续验证问题，不主动联系竞品或提交表单"
+  ],
+  "outputs": [
+    "competitor-report.md：带引用的竞品报告",
+    "evidence-ledger.csv：来源、日期与支持结论",
+    "validation-questions.md：未证实事项及验证建议"
+  ],
+  "checks": [
+    "每个关键事实有实际打开的来源链接",
+    "价格和功能比较使用相同地区、版本及时间口径",
+    "找不到证据不写成明确不存在",
+    "建议与事实分开且不伪称亲自试用"
+  ],
+  "boundary": "模型分析需用户登录AI-HIVE并绑定远程MCP并核验claude-fable-5-1；不可用即停止，不替换。实时搜索和网页读取依赖宿主工具，模型知识不能替代当前网页证据；无浏览器时仅处理用户提供资料并注明范围，不使用竞品账号、绕过登录、购买服务或自动外联。",
+  "prompt": "用Claude Fable 5.1比较这三家预约系统在中国市场面向小店的方案，重点看排班、数据导出和服务限制。只用可公开核对的材料，每个结论给链接和日期，没证实的不要猜，不注册试用账号。",
+  "sample_input": {
+    "competitors": [
+      "示例预约A",
+      "示例预约B",
+      "示例预约C"
+    ],
+    "market": "中国",
+    "dimensions": [
+      "排班",
+      "数据导出",
+      "服务限制"
+    ],
+    "research_date": "2026-09-15"
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "comparison": [
+      {
+        "vendor": "示例预约A",
+        "dimension": "数据导出",
+        "finding": "待打开官方说明验证",
+        "source_url": null,
+        "confidence": "未证实"
+      }
+    ],
+    "excluded_actions": [
+      "注册账号",
+      "联系销售",
+      "付费试用"
+    ]
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "新增面向业务问题的实时证据账本与不确定结论管理，不重复旧Fable/Mythos的型号比较，也不冒充已试用的测评。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "公开网页搜索、打开及内容读取工具",
+    "需要时的网页或PDF证据查看工具",
+    "本地Markdown和CSV文件写入工具"
+  ]
+}

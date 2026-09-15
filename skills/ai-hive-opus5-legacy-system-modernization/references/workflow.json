@@ -1,0 +1,80 @@
+{
+  "slug": "ai-hive-opus5-legacy-system-modernization",
+  "title": "Claude Opus 5旧系统改造助手",
+  "family": "Claude Opus 5",
+  "aliases": [
+    "Claude Opus 5",
+    "ClaudeOpus5",
+    "Opus5",
+    "Opus 5",
+    "claude-opus-5",
+    "Claude Opus",
+    "Opus旧系统改造",
+    "Claude代码迁移",
+    "Opus遗留代码",
+    "旧项目升级"
+  ],
+  "summary": "为难以一次重写的旧系统制定可分段实施的改造路径，适合框架升级、模块拆分与接口替换。先梳理依赖和必须保持的业务行为，再选择一个可回退的小切口实施，交付迁移方案、最小补丁和回归证据，降低改造期间的交接难度。",
+  "inputs": [
+    "授权旧仓库与当前运行环境",
+    "目标技术栈及升级原因",
+    "必须兼容的接口、数据与业务行为",
+    "本轮允许改造的模块和回退要求"
+  ],
+  "steps": [
+    "读取仓库、依赖版本和入口，绘制受影响模块及外部接口关系",
+    "登记现有业务行为与兼容约束，使用样例数据建立改造前基线测试",
+    "用Opus 5比较渐进替换方案，按风险、依赖和可回退性拆分阶段",
+    "在用户指定模块实施首个最小改造切口，保持未授权接口及数据结构不变",
+    "由宿主运行基线、契约和相关回归测试，对比改造前后的可观察行为",
+    "交付分阶段方案、补丁和测试证据，列明后续迁移门槛与未执行的回退步骤"
+  ],
+  "outputs": [
+    "modernization-plan.md：依赖图、分阶段路线与回退条件",
+    "migration.patch：本轮最小迁移补丁",
+    "migration-evidence.md：基线、契约与回归结果"
+  ],
+  "checks": [
+    "每个阶段明确输入依赖、验收标准和回退条件",
+    "本轮补丁没有扩展到未授权模块",
+    "关键接口和业务行为有前后对照证据",
+    "未执行的数据迁移或回退演练不写成成功"
+  ],
+  "boundary": "模型执行需用户登录AI-HIVE并绑定远程MCP，核验claude-opus-5；不可用即停止，不自行改用Fable或其他型号。Opus分析架构，代码修改与测试由宿主执行；生产数据库迁移、依赖大范围升级和部署须另有明确授权，不把迁移建议当成已完成改造。",
+  "prompt": "用Claude Opus 5改造这个旧报表服务，先只把CSV导出模块迁到新接口，旧调用方必须继续可用。先做依赖图和基线测试，再交一个可回退的小补丁，不动生产库。",
+  "sample_input": {
+    "repository": "legacy-reporting",
+    "target_module": "csv-export",
+    "compatibility": "保留旧export接口及列顺序",
+    "excluded": [
+      "生产数据库",
+      "登录模块"
+    ],
+    "rollback_requirement": "可恢复旧适配器"
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "phase": {
+      "id": "M1",
+      "change": "新增导出适配层并保留旧接口",
+      "acceptance": "同一样例导出的列顺序与转义一致",
+      "rollback": "恢复旧适配器路由"
+    },
+    "baseline_status": "待运行"
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/opus-5/overview"
+  ],
+  "novelty": "以兼容性基线和可回退切口处理系统演进，区别Fable的单缺陷修复；不复制旧泛代码迁移项的仅建议输出。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Opus 5",
+    "claude-opus-5"
+  ],
+  "host_requirements": [
+    "授权仓库、依赖清单及版本差异读取工具",
+    "项目语言环境与隔离测试数据",
+    "文件编辑、补丁及契约测试工具"
+  ]
+}

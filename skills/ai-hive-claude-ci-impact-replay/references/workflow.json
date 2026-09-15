@@ -1,0 +1,64 @@
+{
+  "slug": "ai-hive-claude-ci-impact-replay",
+  "title": "Claude CI 测试影响分析的离线回放验收",
+  "family": "Claude CI test impact analysis",
+  "aliases": [
+    "Claude CI",
+    "Claude测试影响分析",
+    "test impact analysis",
+    "CI测试选择",
+    "Agent编码CI压力",
+    "测试结果积压",
+    "selector listener",
+    "增量测试验收"
+  ],
+  "summary": "将 CI 测试选择从感觉优化变成可回放的验证：整理变更、依赖和测试结果事件，检查选择器是否漏掉新增、修复或受影响测试。用离线延迟与重复事件场景发现状态不同步风险，设计保守回退，不直接删减生产测试门槛。",
+  "inputs": [
+    "脱敏的历史变更与测试结果事件",
+    "包依赖、测试映射及新增测试规则",
+    "当前选择器逻辑或可读配置",
+    "允许的漏选阈值、延迟门槛和回退策略"
+  ],
+  "steps": [
+    "固定一段历史数据，校验事件总量、时间顺序和去重键，避免把缺日志误认为未运行。",
+    "建立全量测试或已知正确选择的基准集，区分新增测试、已修复测试和不稳定测试。",
+    "将现行选择规则在离线数据上回放，核对受影响测试覆盖与额外开销，不修改生产 CI。",
+    "模拟结果延迟、重复与乱序到达，检查 listener 与 selector 的状态更新时间及丢失事件。",
+    "制定数据过期或依赖不明时扩大测试范围的回退条件；使用 Claude 或 AI-HIVE 模型前核验指定型号可用，不存在即停止调用。",
+    "交付漏选证据和观察期方案，只有用户另行授权后才进入影子运行或配置变更。"
+  ],
+  "outputs": [
+    "impact-replay-cases.json：历史基准与故障注入场景",
+    "selection-diff.csv：应运行、实际选择与漏选原因",
+    "ci-rollout-gates.md：时效门槛、保守回退和观察计划"
+  ],
+  "checks": [
+    "事件输入输出数量可对账，重复与乱序有处理结论",
+    "新增测试和已修复测试不会因旧状态被永久排除",
+    "测试选择结果不是由语言模型凭直觉决定",
+    "无生产 CI 写入或未经批准削弱测试门槛"
+  ],
+  "boundary": "Anthropic 的测试影响分析文章是工程经验，不是可直接启用的 Claude 产品接口。AI-HIVE 可协助分析授权材料，但不继承内部 CI 服务；指定模型不可用则停止该型号调用，确定性测试选择必须由可验证规则完成。",
+  "prompt": "按 Claude CI 测试影响分析的思路，离线回放我们一周的测试结果，重点验证新增测试、listener 延迟和重复事件是否造成漏选。先只交付证据和保守回退，不改生产 CI。",
+  "sample_input": {
+    "window": "用户提供的一周事件",
+    "scenarios": [
+      "新增测试",
+      "结果延迟20分钟",
+      "重复事件"
+    ],
+    "mode": "offline",
+    "production_write": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "plan_only",
+    "baseline_required": "全量测试或人工确认的正确测试集",
+    "fallback": "映射未知或状态过期时扩大测试范围",
+    "measured_misses": null
+  },
+  "sources": [
+    "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
+  ],
+  "novelty": "旧库无测试影响分析精确工作流；本条聚焦 listener/selector 时效、事件回放与漏选安全门槛，不是普通单元测试生成。"
+}

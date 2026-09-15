@@ -1,0 +1,67 @@
+{
+  "slug": "ai-hive-siri-ai-screen-task-handoff",
+  "title": "Siri AI 屏幕任务的中文人工交接方案",
+  "family": "Apple Siri AI",
+  "aliases": [
+    "Siri AI",
+    "新Siri",
+    "Apple Intelligence",
+    "苹果智能",
+    "Siri中文任务",
+    "屏幕内容整理",
+    "onscreen awareness",
+    "苹果任务交接"
+  ],
+  "summary": "将用户主动提供的截图、文字或导出资料整理为可确认的日程、待办和回复草稿，并明确哪些步骤需要回到苹果应用人工执行。适合评估 Siri AI 工作方式但当前地区、语言或连接条件不满足的用户，不承诺自动读取屏幕或接管系统。",
+  "inputs": [
+    "用户主动提供的截图或文本",
+    "希望整理出的日程、待办或回复目标",
+    "日期、时区和需要隐藏的个人信息",
+    "设备、地区与是否仅制作交接方案"
+  ],
+  "steps": [
+    "只读取用户提交的材料，不尝试访问短信、邮件、照片库或系统私有数据。",
+    "核对执行当天 Siri AI 的地区、语言与设备可用条件，不能满足则明确转为人工交接方案，不提供绕过限制方法。",
+    "从材料提取事实、时间、地点和待确认项，无法辨认的内容不猜测。",
+    "将目标拆成可由文本推理完成的整理，以及需要苹果原生应用或额外权限的操作。",
+    "生成日程候选、待办和草稿，标出每项写入或发送前必须核对的字段；如指定 AI-HIVE 模型不可用则停止该型号调用。",
+    "交付人工操作步骤和回查标准，不自动创建日程、发送信息或改动 Siri 设置。"
+  ],
+  "outputs": [
+    "screen-facts.json：事实、出处与未确认字段",
+    "task-handoff.md：待办、草稿及原生应用操作步骤",
+    "confirmation-checklist.csv：日期、对象、权限和回查标准"
+  ],
+  "checks": [
+    "没有声称获得系统屏幕、个人语境或苹果应用原生权限",
+    "日程包含明确日期与时区，模糊信息等待确认",
+    "发送和写入动作保持未执行，除非用户另行授权且工具可用",
+    "地区与语言不可用时清楚标记而不是提供绕过方案"
+  ],
+  "boundary": "截至官方 2026-09-14 公告，Siri AI 新功能在中国尚不可用；执行时须复查。AI-HIVE 不替代 Siri、Apple Intelligence、设备权限或私有语境访问，本条只处理主动提供的材料并输出交接方案。",
+  "prompt": "我在中国，用这张活动通知截图整理日程候选和要问主办方的问题，参考 Siri AI 的屏幕任务思路，但不要读取我的手机、改系统设置或创建日历。缺失字段请列出来。",
+  "sample_input": {
+    "region": "中国",
+    "input": "活动通知截图",
+    "visible_text": "周五下午两点到店",
+    "goal": "整理日程候选",
+    "execute_external_actions": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "manual_handoff_only",
+    "known": {
+      "time": "14:00"
+    },
+    "needs_confirmation": [
+      "周五的具体日期",
+      "门店地址",
+      "时区"
+    ],
+    "calendar_created": false
+  },
+  "sources": [
+    "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/"
+  ],
+  "novelty": "旧库未命中 Siri AI；以地区条件和用户提交材料为起点制作原生应用交接，不重复一般日程助手，也不承诺系统接管。"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "ai-hive-fable51-excel-formula-repair",
+  "title": "Fable Excel表格修改助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable改Excel",
+    "Claude修公式",
+    "Fable表格整理",
+    "Excel公式检查"
+  ],
+  "summary": "定位Excel里的错公式、汇总偏差和格式混乱，适合经营台账、项目预算与销售报表。先梳理工作表之间的依赖，再按指定范围修改副本，保留原有公式、数据验证与命名区域，交付单元格级差异和可核对的重算结果。",
+  "inputs": [
+    "原始XLSX工作簿",
+    "出错现象及目标单元格或工作表",
+    "允许修改范围与保护区域",
+    "已知正确的对照数值"
+  ],
+  "steps": [
+    "读取工作表、公式、命名区域和外部链接，记录原文件校验值与修改边界",
+    "沿错误汇总追踪上游单元格，区分文本数字、缺失值和公式引用问题",
+    "让Fable 5.1解释根因并提出最小单元格修改清单，冲突口径先列待确认",
+    "由宿主表格工具在副本中应用修改，保留样式、验证规则和未涉及公式",
+    "使用实际表格计算引擎重算，对照已知数值与跨表平衡关系",
+    "回读修改稿并生成公式前后差异，外部链接未刷新或无法重算的项目单独标记"
+  ],
+  "outputs": [
+    "workbook-revised.xlsx：修改副本，需表格工具",
+    "cell-changes.csv：单元格与公式差异",
+    "recalculation-check.md：重算与依赖核验"
+  ],
+  "checks": [
+    "原工作簿未覆盖且保护区域无变化",
+    "每处修改有工作表、单元格、旧值和新值",
+    "公式未无故替换成静态数值",
+    "未实际重算不能宣称公式验证通过"
+  ],
+  "boundary": "需模型分析时由用户登录AI-HIVE并绑定远程MCP，核验claude-fable-5-1；不可用即停止该型号任务，不自动换型。模型分析公式语义，XLSX读写及重算由宿主承担；宏、外链刷新和云端表格更新不因本任务自动获准，无工具时只交付明确未执行的修改清单。",
+  "prompt": "用Fable5.1检查销售汇总.xlsx，九月总额比明细少。只允许修改汇总页D2:D20，保留原表和公式，给我副本、单元格差异及实际重算证据；无法计算的要列明。",
+  "sample_input": {
+    "file": "销售汇总.xlsx",
+    "editable_range": "汇总!D2:D20",
+    "protected_sheets": [
+      "原始明细"
+    ],
+    "expected_total": 128400
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "proposed_changes": [
+      {
+        "cell": "汇总!D20",
+        "before": "=SUM(D2:D18)",
+        "after": "=SUM(D2:D19)",
+        "reason": "末行未计入"
+      }
+    ],
+    "recalculation_status": "待宿主计算引擎验证",
+    "original_preserved": true
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "新增保留工作簿依赖的定点修复流程，以单元格差异和真实重算为交付，区别泛表格总结及旧模型比较。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "XLSX结构与公式读取工具",
+    "保留格式及数据验证的工作簿编辑工具",
+    "可用的表格公式计算引擎"
+  ]
+}

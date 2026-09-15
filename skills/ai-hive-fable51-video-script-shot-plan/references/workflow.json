@@ -1,0 +1,85 @@
+{
+  "slug": "ai-hive-fable51-video-script-shot-plan",
+  "title": "Fable短视频脚本与分镜助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable短视频",
+    "Claude写脚本",
+    "Fable广告分镜",
+    "短视频拍摄脚本"
+  ],
+  "summary": "把产品卖点、人物素材和传播目标写成可以交给拍摄或生成团队的短视频方案，适合产品介绍、知识讲解和活动预告。按时长安排开场、信息节奏与结尾行动，交付口播脚本、逐镜头表和素材任务单，让策划与后续制作衔接清楚。",
+  "inputs": [
+    "视频目标、受众、平台与总时长",
+    "已核实的产品卖点和禁用表述",
+    "现有素材清单及可用人物或场景",
+    "口吻、比例和制作方式偏好"
+  ],
+  "steps": [
+    "确认传播目标、事实依据和现有素材，标出不得虚构的效果、价格及用户评价",
+    "用Fable 5.1编排开场问题、核心信息和结尾行动，保持一个明确主线",
+    "写口播、屏幕文字与音效提示，按正常语速估算时长并标明估算性质",
+    "拆成逐镜头表，填写景别、动作、时段、所需素材和镜头衔接",
+    "为缺失画面写独立图片或视频任务单，记录一致性参照及使用权限，不实际发起生成",
+    "检查镜头时长合计、画面与口播对应、必备素材和禁用表述，交付给下一制作环节"
+  ],
+  "outputs": [
+    "video-script.md：口播、屏幕文字与节奏脚本",
+    "shot-list.csv：逐镜头时段及素材要求",
+    "media-task-sheet.json：待拍摄或待生成任务单"
+  ],
+  "checks": [
+    "镜头时长合计符合目标且旁白时长标为估算或实测",
+    "产品宣称均来自用户提供的事实资料",
+    "分镜中每项素材有已有、待拍或待生成状态",
+    "没有图片或视频输出时不声称已生成画面或成片"
+  ],
+  "boundary": "模型策划前由用户登录AI-HIVE并绑定远程MCP并核验claude-fable-5-1；不可用即停止，不擅自换型。Fable只生成文字方案，不原生生成视频、音乐或图片；本流程不渲染、不配音、不发布，后续生成或剪辑需另核验工具、素材权限及用户授权。",
+  "prompt": "用Fable5.1为这款桌面收纳架写30秒竖屏介绍，受众是租房上班族。只有白底产品图，别虚构承重测试或用户评价。给口播、逐镜头表和待拍素材单，这次不出图、不生成视频。",
+  "sample_input": {
+    "product": "桌面收纳架",
+    "duration_seconds": 30,
+    "aspect_ratio": "9:16",
+    "facts": [
+      "两层结构",
+      "可拆装"
+    ],
+    "available_assets": [
+      "产品白底图.jpg"
+    ],
+    "generation_requested": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "shot": {
+      "id": "S02",
+      "start": 4,
+      "end": 10,
+      "visual": "同一桌面使用收纳架前后对照",
+      "voiceover": "把常用物品分成上下两层，桌面更好整理。",
+      "asset_status": "待拍摄"
+    },
+    "video_generated": false
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "新增文字策划到镜头和素材任务单的交接，不与成片生成混淆；以事实宣称、镜头时长和素材状态为可执行约束。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "用户素材清单及文字资料读取工具",
+    "需要参考图片时的本地图片查看工具",
+    "Markdown、CSV和JSON文件写入工具；无需视频生成器或剪辑器"
+  ]
+}

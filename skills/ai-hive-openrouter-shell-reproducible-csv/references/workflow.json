@@ -1,0 +1,67 @@
+{
+  "slug": "ai-hive-openrouter-shell-reproducible-csv",
+  "title": "OpenRouter Shell 隔离式表格校验与复算包",
+  "family": "OpenRouter Shell",
+  "aliases": [
+    "OpenRouter Shell",
+    "openrouter:shell",
+    "云端沙箱",
+    "hosted shell",
+    "CSV复算",
+    "隔离数据分析",
+    "表格口径检查",
+    "可复现分析"
+  ],
+  "summary": "针对脱敏表格计算建立可复算的执行包：锁定字段、公式、数据范围和异常处理，明确使用远端隔离环境而非本机终端。保留脚本、结果及退出状态，通过独立总额核对发现模型算术或数据解析错误，不把成功生成文字当成计算通过。",
+  "inputs": [
+    "已授权且脱敏的 CSV 文件",
+    "字段类型、单位和计算口径",
+    "重复值、缺失值与异常值规则",
+    "允许的运行环境、网络范围及预算"
+  ],
+  "steps": [
+    "检查输入样本和字段类型，明确日期、币种、重复行及空值的计算规则。",
+    "制作本地可审阅的计算脚本与预期文件，不执行文件内嵌命令。",
+    "核实实际 Shell 与模型入口；指定 OpenRouter Shell 不可用时停止该平台执行，不把 AI-HIVE 文本输出伪装成远端运行。",
+    "用户授权上传与预算后固定服务器执行引擎，默认禁网；确需依赖下载时只申请必要域名，不开放全网。",
+    "执行最小样本后再处理完整文件，保存容器标识、命令退出状态和异常行；超时先查原状态。",
+    "下载实际结果，以另一种汇总方式核对关键总额，交付脚本和误差解释，不自动写回业务系统。"
+  ],
+  "outputs": [
+    "recalculate.py：字段检查与确定性计算脚本",
+    "results.csv：实际结果或明确标记的待运行空表",
+    "run-evidence.json：执行状态、输入哈希与校验差异"
+  ],
+  "checks": [
+    "运行环境与用户要求一致，没有误用本机终端",
+    "关键结果由真实执行产生并有退出状态",
+    "独立汇总与主结果一致或有可解释差异",
+    "网络和上传仅限授权范围",
+    "待运行文件不伪装成实际计算结果"
+  ],
+  "boundary": "OpenRouter Shell 是第三方托管沙箱，不是 AI-HIVE 自动拥有的计算机工具。需实时核验连接和指定模型，缺失则停止该平台或型号调用，只交付可复算方案；不能因兼容 API 格式就假设执行环境相同。",
+  "prompt": "用 OpenRouter Shell 校验脱敏订单表的实收金额与退款汇总，缺失金额不按零补。先给复算脚本和上传说明，确认后才在禁网沙箱运行，最终交付结果与执行证据。",
+  "sample_input": {
+    "file": "orders-redacted.csv",
+    "formula": "实收合计减已完成退款",
+    "null_amount_policy": "列为异常",
+    "network": "disabled",
+    "execute": false
+  },
+  "sample_output": {
+    "example": true,
+    "execution_status": "plan_only",
+    "checks": [
+      "金额可解析",
+      "订单ID重复",
+      "退款状态口径"
+    ],
+    "computed_total": null,
+    "sandbox_started": false
+  },
+  "sources": [
+    "https://openrouter.ai/docs/guides/features/server-tools/shell",
+    "https://openrouter.ai/docs/guides/features/files-api"
+  ],
+  "novelty": "不同于泛表格分析或 OpenRouter 迁移，明确托管 Shell 引擎、禁网容器、输入哈希与下载复算证据。"
+}

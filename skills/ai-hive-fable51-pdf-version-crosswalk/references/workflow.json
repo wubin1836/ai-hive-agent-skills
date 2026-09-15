@@ -1,0 +1,90 @@
+{
+  "slug": "ai-hive-fable51-pdf-version-crosswalk",
+  "title": "Fable PDF资料对照助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable读PDF",
+    "Claude多文件比较",
+    "Fable版本对比",
+    "PDF资料对照"
+  ],
+  "summary": "把多份PDF中的参数、条款与版本变化逐项对应，适合采购资料、产品手册和项目说明核对。保留页码、短引用与冲突原文，区分新增、删除、实质变化和仅排版变化，让读者能够快速返回原文件检查每个结论。",
+  "inputs": [
+    "两份或多份获准处理的PDF",
+    "要对照的字段或章节",
+    "版本日期与基准版本",
+    "需要优先核对的数字和单位"
+  ],
+  "steps": [
+    "登记每份PDF文件名、版本与页数，记录印刷页码和文件页序的区别",
+    "用宿主提取文本和表格，扫描页经OCR后保留低置信度与待看图位置",
+    "按稳定字段或章节对齐内容，避免只按页码对齐重排版文件",
+    "让Fable 5.1识别新增、删除、实质差异和冲突，并附两侧页码及短引用",
+    "回看差异相关页面，逐项核对数字、单位、表格跨页和OCR误读",
+    "生成差异表和冲突清单，将没有证据支持的推断独立列出"
+  ],
+  "outputs": [
+    "pdf-differences.csv：字段级差异表",
+    "page-evidence.md：双向页码引用与核验记录",
+    "conflicts.md：冲突及待确认清单"
+  ],
+  "checks": [
+    "每项实质变化能回到两份文件的具体页",
+    "OCR未确认文字不能当成确定事实",
+    "数字差异同时比较单位及时间口径",
+    "排版变化与内容变化分开统计"
+  ],
+  "boundary": "需要模型分析时由用户登录AI-HIVE并绑定远程MCP，核验claude-fable-5-1及需要的视觉输入；缺失即停止对应分析，不换型。PDF解析、OCR和页面查看由宿主提供；文字模型不直接等于PDF解析器。输出是资料对照，不替代法律或专业审查，不改动或外发原文件。",
+  "prompt": "用Fable5.1对照设备手册V2.pdf和V3.pdf，重点看电源、温度范围和保修条款。每个变化给两边页码，扫描文字看不清就标待确认，别把重新分页算实质变化。",
+  "sample_input": {
+    "files": [
+      "设备手册V2.pdf",
+      "设备手册V3.pdf"
+    ],
+    "baseline": "V2",
+    "fields": [
+      "电源",
+      "温度范围",
+      "保修条款"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "differences": [
+      {
+        "field": "温度范围",
+        "old": "0至40℃",
+        "new": "0至45℃",
+        "old_page": 7,
+        "new_page": 9,
+        "classification": "参数变化",
+        "visual_verified": false
+      }
+    ],
+    "uncertain": [
+      "V3第12页保修脚注OCR待复核"
+    ]
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "新增跨版本字段对齐与双页引用，不把多PDF任务简化为摘要；对OCR和排版差异设置独立核验。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "PDF文本和表格提取工具",
+    "扫描件需要OCR工具",
+    "PDF渲染及页面查看工具",
+    "本地CSV和Markdown写入工具"
+  ]
+}

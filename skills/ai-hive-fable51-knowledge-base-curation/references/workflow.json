@@ -1,0 +1,90 @@
+{
+  "slug": "ai-hive-fable51-knowledge-base-curation",
+  "title": "Fable企业知识库整理助手",
+  "family": "Claude Fable 5.1",
+  "aliases": [
+    "Claude Fable",
+    "Claude Fable 5.1",
+    "ClaudeFable",
+    "Fable5.1",
+    "Fable 5.1",
+    "claude-fable-5-1",
+    "Fable知识库",
+    "Claude企业资料",
+    "Fable客服知识库",
+    "企业FAQ整理"
+  ],
+  "summary": "把企业制度、产品说明和客服FAQ整理成可导入的知识条目，适合资料重复、版本混杂和答案口径不一致的团队。为每条答案保存来源、适用范围与有效期，单列冲突制度和缺失信息，再用问答测试检查条目是否真的能回答常见问题。",
+  "inputs": [
+    "获准处理的制度、FAQ和产品资料",
+    "知识库使用人群及权限分组",
+    "目标导入字段或平台模板",
+    "资料负责人和有效期规则"
+  ],
+  "steps": [
+    "登记资料版本、适用人群和敏感级别，将无权限处理的内容排除",
+    "按可独立回答的问题拆分条目，保留原文定位与标题路径",
+    "用Fable 5.1合并重复表达，冲突制度保留各自来源且不自动选定有效版本",
+    "为条目填入答案、适用范围、来源、负责人和有效期，缺失字段留空并列入待补",
+    "根据目标导入结构输出知识条目，不建立未经用户要求的在线索引",
+    "构建正常、边界和无答案三类测试问题，记录预期来源及应拒绝猜测的场景"
+  ],
+  "outputs": [
+    "knowledge-items.jsonl：带来源的可导入条目",
+    "source-conflicts.csv：版本冲突与缺失字段",
+    "qa-validation.csv：问答测试及预期证据"
+  ],
+  "checks": [
+    "每条答案有原始资料定位和适用范围",
+    "未提供的制度、负责人和有效期不编造",
+    "冲突版本未静默合并成新制度",
+    "测试集中包含无法回答时应说明缺证据的情形"
+  ],
+  "boundary": "需要模型处理时由用户登录AI-HIVE并绑定远程MCP，核验claude-fable-5-1及资料上传权限；型号不可用即停止，不替换。AI-HIVE模型用于整理文字，文件解析和JSONL导出由宿主承担；本流程不等于托管知识库、向量检索或在线机器人，不自动导入企业平台或改变访问权限。",
+  "prompt": "用Fable5.1整理这些售后制度和FAQ，输出可导入知识条目。售后人员和经销商的口径要分开，保留来源和有效期；两版制度冲突不要替我决定，另给问答测试集。",
+  "sample_input": {
+    "files": [
+      "售后制度2026.pdf",
+      "经销商FAQ.docx"
+    ],
+    "audiences": [
+      "售后人员",
+      "经销商"
+    ],
+    "fields": [
+      "question",
+      "answer",
+      "source",
+      "audience",
+      "valid_until"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "item": {
+      "id": "KB-014",
+      "question": "退件需要哪些资料",
+      "answer": "需提供订单号与故障说明",
+      "source": "经销商FAQ.docx#退件流程",
+      "audience": "经销商",
+      "valid_until": null
+    },
+    "review_reason": "有效期未提供",
+    "online_import": "未执行"
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+  ],
+  "novelty": "新增可导入知识条目与无答案测试，而非泛摘要或模型比较；通过权限人群、版本冲突和有效期字段支撑后续维护。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Fable 5.1",
+    "claude-fable-5-1"
+  ],
+  "host_requirements": [
+    "授权PDF、DOCX与文本读取工具",
+    "JSONL及CSV写入和结构校验工具",
+    "扫描资料需要OCR和页面核验工具"
+  ]
+}
