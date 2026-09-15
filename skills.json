@@ -48716,5 +48716,14 @@
     "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
     "path": "skills/ai-hive-hy3d31-asset-review",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gwmworlds2-preview-review",
+    "display_name": "GWM Worlds 2交互世界方案与预览验收助手",
+    "category": "Runway GWM Worlds 2",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-gwmworlds2-preview-review",
+    "language": "zh-CN"
   }
 ]

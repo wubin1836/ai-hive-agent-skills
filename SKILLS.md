@@ -5898,3 +5898,9 @@
 | [可灵 3.0 Turbo镜头预览筛选助手](skills/ai-hive-kling3turbo-shot-selection/SKILL.md) | AI-HIVE | Kling 3.0 Turbo |
 | [混元 3D 3.1多视图建模助手](skills/ai-hive-hy3d31-multiview-build/SKILL.md) | AI-HIVE | HY-3D-3.1 |
 | [混元 3D 3.1资产验收助手](skills/ai-hive-hy3d31-asset-review/SKILL.md) | AI-HIVE | HY-3D-3.1 |
+
+## 2026-09-15 热点模型与新模型专项 Skill
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [GWM Worlds 2交互世界方案与预览验收助手](skills/ai-hive-gwmworlds2-preview-review/SKILL.md) | AI-HIVE | Runway GWM Worlds 2 |
