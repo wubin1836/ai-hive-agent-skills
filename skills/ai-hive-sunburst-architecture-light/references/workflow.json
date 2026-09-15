@@ -1,0 +1,77 @@
+{
+  "slug": "ai-hive-sunburst-architecture-light",
+  "title": "Sunburst建筑效果改图与日夜光照方案",
+  "family": "GPT Image 2.5 Sunburst",
+  "aliases": [
+    "Sunburst",
+    "GPT Image 2.5",
+    "Image2.5建筑图",
+    "建筑改图",
+    "白天变夜景",
+    "建筑灯光",
+    "店面夜景",
+    "建筑外观保留",
+    "日夜效果图",
+    "光照方案"
+  ],
+  "summary": "在授权建筑或店面照片上制作日夜灯光方案，锁定门窗、楼层、立面分格与周边位置。将可变灯光、招牌照明和天空分层规划，交付效果图及结构对照；属于视觉方案，不能作为施工照度、结构或安全证明。",
+  "inputs": [
+    "建筑或门店正视照片",
+    "必须保留的结构与标识",
+    "灯光目标、时间和环境参考",
+    "允许改动区域及用途"
+  ],
+  "steps": [
+    "核验Sunburst编辑模式，读取建筑照片并列出楼层、门窗、栏杆和入口等不得改变的结构。",
+    "区分天空、环境光、室内透光与外立面照明，明确灯具位置只是方案示意还是已有实物。",
+    "写出各光源方向、冷暖与照射区域，保留立面材料和几何，不用增加建筑开口来获得更亮画面。",
+    "在用户确认素材与预算后生成单一方案，记录任务ID及参考来源；状态未知先查询。",
+    "用原图逐区检查门窗数、竖线与立面分格，再检查阴影、反射与招牌文字是否被改写。",
+    "交付效果图、结构保留清单与方案说明，把照明观感和需要专业测量的指标明确分开。"
+  ],
+  "outputs": [
+    "architecture-night.png：日夜改图方案",
+    "facade-preservation.csv：结构逐项对照",
+    "lighting-concept.json：光源意图与任务记录"
+  ],
+  "checks": [
+    "门窗、楼层、栏杆数量与原图一致",
+    "建筑竖线及立面结构无明显变形",
+    "招牌文字无未授权修改",
+    "不附虚构照度、能耗或施工合规数值"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。效果图不是工程设计、照度计算或施工图；真实结构变化、营业招牌内容或安全设施变更需另行明确授权。指定型号不支持此类编辑时不改用其他模型冒充。",
+  "prompt": "用Sunburst把这张咖啡馆白天照片做成暖光夜景方案，门窗和招牌文字完全照原图，新增灯只做示意，不要改建筑结构或给施工结论。",
+  "sample_input": {
+    "source": "cafe-day.png",
+    "time": "夜晚",
+    "lighting": "暖色入口与室内透光",
+    "locked": [
+      "门窗数量",
+      "招牌文字",
+      "立面分格"
+    ],
+    "purpose": "灯光视觉方案"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "architecture-night.png",
+      "facade-preservation.csv",
+      "lighting-concept.json"
+    ],
+    "engineering_certification": false,
+    "locked_review": [
+      "门窗",
+      "招牌",
+      "立面"
+    ]
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "novelty": "区别于通用室内设计或背景替换：保持已有立面结构并单独评价光照方案，补Sunburst建筑改图的搜索入口。"
+}

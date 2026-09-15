@@ -1,0 +1,69 @@
+{
+  "slug": "ai-hive-gpt-astra-pdf-conflict-map",
+  "title": "GPT Astra读PDF与多版本对照",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT Astra读PDF",
+    "GPT6 PDF对比",
+    "Astra长文档"
+  ],
+  "summary": "对照多份PDF中的条款、参数和日期变化，适合招投标、采购与资料研究。用Astra辅助抽取页码证据和变化项，保留扫描识别的不确定内容，形成有出处的版本差异表。",
+  "inputs": [
+    "PDF版本文件",
+    "重点字段",
+    "版本先后信息"
+  ],
+  "steps": [
+    "编号文件并确认PDF是文本还是扫描件",
+    "提取目标字段及页码，扫描低置信度位置保留图片供核对",
+    "按实体和章节匹配，分离重排版与真实内容变化",
+    "将新增、删除、变更及冲突各自列出",
+    "抽检关键差异原页，生成未确认清单"
+  ],
+  "outputs": [
+    "pdf-diff.csv：版本差异",
+    "evidence-map.md：页码依据",
+    "uncertain-pages.csv：需复核页"
+  ],
+  "checks": [
+    "关键差异有双方页码",
+    "扫描不清不猜测",
+    "重排版不误报为条款变更"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT Astra对比两版产品规范PDF，重点找尺寸和保修变化，告诉我双方页码，不做法律结论。",
+  "sample_input": {
+    "files": [
+      "规范A.pdf",
+      "规范B.pdf"
+    ],
+    "fields": [
+      "尺寸",
+      "保修"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "changes": [
+      {
+        "field": "保修",
+        "old_page": 3,
+        "new_page": 4,
+        "status": "示例待核验"
+      }
+    ]
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT Astra读PDF与多版本对照」任务；重点是关键差异有双方页码，不同于旧库泛模型介绍或路由比较。"
+}

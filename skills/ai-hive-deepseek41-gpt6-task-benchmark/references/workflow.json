@@ -1,0 +1,60 @@
+{
+  "slug": "ai-hive-deepseek41-gpt6-task-benchmark",
+  "title": "DeepSeek4.1与GPT6同任务成本对比",
+  "family": "DeepSeek V4.1-Flash",
+  "aliases": [
+    "DeepSeek V4.1-Flash",
+    "DeepSeek-V4.1-Flash",
+    "DeepSeek V4.1 Flash",
+    "DeepSeek4.1",
+    "DeepSeek 4.1",
+    "DeepSeekV4.1",
+    "deepseek-flash",
+    "深度求索4.1",
+    "DeepSeek4.1对比GPT6",
+    "GPT6平替测试",
+    "DeepSeek Astra对比"
+  ],
+  "summary": "用同一组真实业务样本比较DeepSeek4.1与GPT6的质量、速度和实际费用，适合模型选型与成本控制。仅报告本次样本结果，不将公开跑分或官方价格直接当作AI-HIVE渠道效果。",
+  "inputs": [
+    "授权测试样本",
+    "评分口径",
+    "预算和可用模型"
+  ],
+  "steps": [
+    "去掉样本中的身份信息并分任务类型",
+    "锁定提示词与输出格式，预先写评分表",
+    "在两模型确实可用且获准后小批执行",
+    "隐藏模型标签进行结果复核，区分成功、失败与未执行",
+    "统计实际账单、延迟与返工率，注明样本局限"
+  ],
+  "outputs": [
+    "comparison.csv：同题结果",
+    "rubric.md：评分标准",
+    "recommendation.md：限定场景建议"
+  ],
+  "checks": [
+    "同题同输入且预算封顶",
+    "未运行不填虚构分数",
+    "失败成本计入总成本"
+  ],
+  "boundary": "官方模型名和AI-HIVE渠道ID分开核验，不把其他DeepSeek版本当V4.1-Flash。只有运行时存在对应视觉或文本工具才调用；未接入时停在准备阶段。不得绕过源系统权限。",
+  "prompt": "对比DeepSeek4.1和GPT6处理我们10条产品FAQ的效果，先设计盲评表和预算，不直接调用。",
+  "sample_input": {
+    "sample_count": 10,
+    "models": [
+      "DeepSeek V4.1-Flash",
+      "GPT-6 Astra"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "executed": 0,
+    "scores": null,
+    "phase": "测试设计"
+  },
+  "sources": [
+    "https://api-docs.deepseek.com/zh-cn/updates/"
+  ],
+  "novelty": "以DeepSeek V4.1-Flash的新版本搜索入口承接「DeepSeek4.1与GPT6同任务成本对比」任务；重点是同题同输入且预算封顶，不同于旧库泛模型介绍或路由比较。"
+}

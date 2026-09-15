@@ -1,0 +1,76 @@
+{
+  "slug": "ai-hive-sunburst-package-version",
+  "title": "Sunburst包装换版与标签信息核对",
+  "family": "GPT Image 2.5 Sunburst",
+  "aliases": [
+    "Sunburst",
+    "GPT Image 2.5 Sunburst",
+    "Image2.5包装",
+    "包装换版",
+    "标签替换",
+    "包装样机",
+    "商品标签修图",
+    "包装设计效果图",
+    "保留瓶型",
+    "换包装图"
+  ],
+  "summary": "把已批准的包装新版应用到现有商品照片，检查标签朝向、曲面透视、品牌字样和信息版本。交付展示样图与版本核查，避免把旧配方、旧容量或过期条码带入新版；不把生成图片当成可直接印刷的刀模文件。",
+  "inputs": [
+    "旧包装商品照片",
+    "已批准新版标签平面稿",
+    "产品版本、容量及必须保留文字",
+    "可编辑包装面与禁止改动部件"
+  ],
+  "steps": [
+    "核验Sunburst编辑模式及参考图限制，登记旧包装照片与新版稿的版本号，拒绝混用不同容量或SKU。",
+    "逐区标记可替换标签、瓶盖、封口和瓶型，说明包装稿如何贴合曲面及可见面，不推测不可见背面信息。",
+    "把品牌、容量、文字顺序与色块位置列成锁定清单；条码、批号等必须准确的内容使用真实原稿，不要求模型编造。",
+    "确认上传与预算后制作一张展示小样，保存任务ID及输入版本，状态不明先核对原任务。",
+    "与新版稿逐字对照可见文字，检查标签透视、折角、边界及反光；错误文字通过获授权的准确排版工具修正或标记未完成。",
+    "交付包装展示图、版本核查表和来源回执，清楚区分生成预览与印刷生产文件。"
+  ],
+  "outputs": [
+    "package-preview.png：包装换版展示图",
+    "package-version-check.csv：新版稿逐项核查",
+    "package-provenance.json：SKU、稿号与任务对应"
+  ],
+  "checks": [
+    "商品照片与新版稿属于同一SKU",
+    "可见容量、品牌与文字顺序对照一致",
+    "瓶型、封口和不可编辑部件未变",
+    "没有把条码、生产批号或认证信息凭空补齐"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。生成包装样图不替代印刷刀模、条码验证或合规审核。若准确贴标必须依赖图层合成而宿主没有该能力，说明未完成，不交付假装可印刷的图片。",
+  "prompt": "用Sunburst把这瓶洗发水照片换成我上传的2026-B标签稿，保持500mL瓶型、泵头和封口，逐字检查正面文字。只做展示预览，不生成生产批号。",
+  "sample_input": {
+    "product": "SHAMPOO-500",
+    "photo": "bottle-old.png",
+    "approved_label": "label-2026-B.png",
+    "locked": [
+      "500mL瓶型",
+      "泵头",
+      "封口"
+    ],
+    "purpose": "展示预览"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "package-preview.png",
+      "package-version-check.csv",
+      "package-provenance.json"
+    ],
+    "version_preview": {
+      "sku": "SHAMPOO-500",
+      "label_version": "2026-B"
+    },
+    "print_ready": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "novelty": "旧包装展开图偏印前检查，本包是Sunburst在现有商品照片上的版本受控换版与标签一致性，不重复生成刀模。"
+}

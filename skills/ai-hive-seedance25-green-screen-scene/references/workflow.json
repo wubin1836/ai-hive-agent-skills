@@ -1,0 +1,81 @@
+{
+  "slug": "ai-hive-seedance25-green-screen-scene",
+  "title": "Seedance2.5绿幕换景与人物边缘检查",
+  "family": "Seedance 2.5",
+  "aliases": [
+    "Seedance2.5",
+    "Seedance 2.5",
+    "Seedance-2.5",
+    "豆包Seedance2.5",
+    "Seedance绿幕",
+    "绿幕换背景",
+    "绿幕换景",
+    "人物换场景",
+    "视频合成",
+    "Green Screen"
+  ],
+  "summary": "将授权绿幕视频中的主体放入指定新场景，检查发丝、透明物、边缘色溢和接地关系，同时保留人物动作。明确模型生成的换景与传统抠像合成的不同，交付成片和边缘问题记录，不把绿色背景去掉就当作完整验收。",
+  "inputs": [
+    "授权绿幕原视频",
+    "目标场景或背景参考",
+    "人物动作和衣物保留要求",
+    "目标规格与可接受的生成变化"
+  ],
+  "steps": [
+    "核验Seedance2.5的真实绿幕/视频编辑能力，查看原片中的绿衣、反光、透明道具和遮挡，确认哪些区域可能难以分离。",
+    "记录人物轮廓、脚底位置和动作节奏，选择与机位、地平线和主光方向相容的新场景。",
+    "明确只换环境还是允许环境带来的光照互动，不能把背景授权扩展成改脸、换衣或改变动作。",
+    "用户确认素材与预算后提交并保存任务ID；状态不明查原任务，不无限返修难以分离的发丝。",
+    "按运动关键帧检查发丝、手指、道具、边缘绿溢和落地阴影，再通看是否出现人物外形或动作漂移。",
+    "交付换景视频、边缘抽查图和问题清单；如果只有传统合成工具可用，先获得同意再改方案并明确执行方式。"
+  ],
+  "outputs": [
+    "seedance25-green-scene.mp4：绿幕换景结果",
+    "green-edge-check.png：边缘与接触位置抽查",
+    "green-screen-review.json：保留项、方式与任务记录"
+  ],
+  "checks": [
+    "主体衣物、脸部和动作未有未授权改动",
+    "发丝、手指与道具边缘问题被记录",
+    "机位、光照和接地关系没有明显冲突",
+    "交付文件没有被误称为带Alpha透明通道的视频"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。默认输出是带新背景的成片，不保证透明Alpha或传统逐像素抠像结果。人物外观可能受生成影响，必须核对；缺少绿幕编辑能力时不假称已完成模型换景。",
+  "prompt": "用Seedance2.5把我的授权绿幕舞蹈视频放进空旷摄影棚，动作、脸和服装不变，只允许环境灯光协调。重点检查发丝、手和地面接触，不换装也不发到社交平台。",
+  "sample_input": {
+    "source": "licensed-dance-green.mp4",
+    "background": "empty-studio.png",
+    "locked": [
+      "动作",
+      "脸",
+      "服装"
+    ],
+    "allowed_change": [
+      "环境",
+      "协调光照"
+    ],
+    "publish": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "seedance25-green-scene.mp4",
+      "green-edge-check.png",
+      "green-screen-review.json"
+    ],
+    "review_regions": [
+      "发丝",
+      "手",
+      "脚底"
+    ],
+    "alpha_output_claim": false
+  },
+  "sources": [
+    "https://seed.bytedance.com/zh/seedance2_5",
+    "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+  ],
+  "novelty": "区别于通用视频换背景：围绕绿幕素材缺陷、边缘与生成主体漂移进行验收，不重复横竖屏裁切或图片去底。"
+}

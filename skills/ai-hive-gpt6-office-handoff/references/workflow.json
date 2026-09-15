@@ -1,0 +1,66 @@
+{
+  "slug": "ai-hive-gpt6-office-handoff",
+  "title": "GPT6办公助手：散乱资料变交付清单",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6办公",
+    "Astra办公助手",
+    "GPT6整理文件"
+  ],
+  "summary": "把邮件摘录、会议纪要和待办文件整理成可交接的工作包，适合行政、运营与项目负责人。通过AI-HIVE核验GPT6可用性后提炼责任、期限和依赖，让资料有出处、任务可追踪。",
+  "inputs": [
+    "获准处理的资料文件",
+    "交接对象与截止时间",
+    "交付格式"
+  ],
+  "steps": [
+    "按文件名和日期登记资料，区分事实、建议及旧版本",
+    "抽取行动项并记录来源段落，不把讨论意见直接当承诺",
+    "合并同事项的不同表述，保留责任人和时间冲突",
+    "对前置依赖排队，明确未定事项需要谁确认",
+    "生成交接摘要和任务表，逐项回链到资料"
+  ],
+  "outputs": [
+    "handoff.md：交接摘要",
+    "action-items.csv：任务表",
+    "open-questions.md：待确认项"
+  ],
+  "checks": [
+    "每个任务有来源定位",
+    "未定负责人不能编造",
+    "相互冲突的期限不自动抹平"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT6整理这三份项目资料，交给接任同事。列出责任人、期限、前置条件和原文出处，未确定的不要补写。",
+  "sample_input": {
+    "files": [
+      "会议纪要.txt",
+      "项目说明.md"
+    ],
+    "deadline": "周五"
+  },
+  "sample_output": {
+    "example_only": true,
+    "tasks": [
+      {
+        "task": "确认样稿",
+        "owner": null,
+        "status": "待确认",
+        "source": "会议纪要.txt#第2段"
+      }
+    ]
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT6办公助手：散乱资料变交付清单」任务；重点是每个任务有来源定位，不同于旧库泛模型介绍或路由比较。"
+}

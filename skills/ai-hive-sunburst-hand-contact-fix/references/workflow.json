@@ -1,0 +1,80 @@
+{
+  "slug": "ai-hive-sunburst-hand-contact-fix",
+  "title": "Sunburst手部修图与持物关系修复",
+  "family": "GPT Image 2.5 Sunburst",
+  "aliases": [
+    "Sunburst",
+    "GPT Image 2.5",
+    "Image2.5手部修复",
+    "手指修图",
+    "多指修复",
+    "持物修复",
+    "握杯修图",
+    "接触关系",
+    "AI图片手部",
+    "人物局部修图"
+  ],
+  "summary": "针对授权图片中的手指畸变、握持位置和接触穿插做局部返修，保持人物身份、姿势和商品外形。通过关节方向、遮挡顺序与受力位置检查成图，交付局部对照；不把推测的遮挡部位称为真实还原。",
+  "inputs": [
+    "授权原图与手部局部放大图",
+    "需保留的身份、姿势与商品特征",
+    "正确握持参考或动作说明",
+    "只允许修改的区域"
+  ],
+  "steps": [
+    "核验Sunburst局部编辑模式，区分手部畸变、物体变形和遮挡误解；参考不足时先确认手应在物体前还是后。",
+    "标注手掌方向、可见指节、握持点和商品边缘，锁定脸、服饰、背景与产品标识。",
+    "将修复目标写成具体几何关系，如拇指绕杯把、其余手指在后方，不要求无依据补齐不可见细节。",
+    "确认上传、预算后只修选定区域并保存任务ID，查询原任务后才决定是否进行下一次授权返修。",
+    "放大核查指节连接、可见指数量、遮挡顺序、接触阴影和商品结构，同时看整图是否造成姿态不协调。",
+    "交付修图、局部前后对照和仍需人工复核的部位，不把生成修图作为原始照片证据。"
+  ],
+  "outputs": [
+    "hand-fixed.png：局部修复图",
+    "hand-detail-comparison.png：手部对照",
+    "hand-contact-review.json：几何与保留区检查"
+  ],
+  "checks": [
+    "可见手指与关节连接不存在明显异常",
+    "手和商品的前后遮挡一致",
+    "原有脸部、商品结构与标识可核对",
+    "修改区域外没有未经批准的变化"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。仅处理用户授权的普通修图，不推断或证明真实身份、动作与事件。不得用生成的手部细节伪称医学、司法或产品原始记录。",
+  "prompt": "用Image2.5 Sunburst修这张人物握杯图：只修右手的多余手指和杯把穿插，脸、衣服、杯型及logo不变，输出局部对照让我检查。",
+  "sample_input": {
+    "source": "person-with-cup.png",
+    "region": "右手与杯把接触处",
+    "problems": [
+      "多余手指",
+      "杯把穿插"
+    ],
+    "locked": [
+      "脸",
+      "衣服",
+      "杯型",
+      "logo"
+    ]
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "hand-fixed.png",
+      "hand-detail-comparison.png",
+      "hand-contact-review.json"
+    ],
+    "review_plan": [
+      "关节连接",
+      "遮挡顺序",
+      "接触阴影"
+    ],
+    "authenticity_claim": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "novelty": "旧同人物多图强调身份延续，此包只修手与物体接触拓扑，并对保留区和真实性作独立核对。"
+}

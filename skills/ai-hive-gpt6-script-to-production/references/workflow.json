@@ -1,0 +1,65 @@
+{
+  "slug": "ai-hive-gpt6-script-to-production",
+  "title": "GPT6短视频脚本与制作任务单",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6写短视频",
+    "Astra视频脚本",
+    "GPT6自媒体"
+  ],
+  "summary": "把真实商品或知识资料整理成分镜、口播和可执行素材任务，适合博主与营销团队。GPT6写脚本，图片与视频分别交给AI-HIVE实际支持的媒体模型，减少文案与成片需求脱节。",
+  "inputs": [
+    "内容资料与事实来源",
+    "目标时长与受众",
+    "已有可用素材"
+  ],
+  "steps": [
+    "确定一个传播主旨，列出禁止虚构的事实",
+    "写开场、论据、展示与结尾动作，估算口播时长",
+    "逐镜头列出画面、旁白、字幕、道具与来源",
+    "将需要生成的素材分配到已发现的图片/视频模型",
+    "先审脚本与调用预算，再生成单镜头小样供确认"
+  ],
+  "outputs": [
+    "script.md：口播脚本",
+    "shots.csv：分镜与素材表",
+    "generation-plan.json：媒体调用计划"
+  ],
+  "checks": [
+    "主张能追溯资料",
+    "口播与时长匹配",
+    "成片模型不标成GPT6"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT6把产品资料做成30秒介绍视频脚本，卖点要真实，分镜写出哪些实拍、哪些需要AI生成，先不花费生成。",
+  "sample_input": {
+    "duration": 30,
+    "product": "保温杯",
+    "claims": [
+      "容量500ml"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "shots": [
+      {
+        "seconds": "0-5",
+        "content": "展示产品",
+        "generation_status": "待确认"
+      }
+    ]
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT6短视频脚本与制作任务单」任务；重点是主张能追溯资料，不同于旧库泛模型介绍或路由比较。"
+}

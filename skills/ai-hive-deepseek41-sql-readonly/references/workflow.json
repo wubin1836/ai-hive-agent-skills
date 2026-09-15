@@ -1,0 +1,61 @@
+{
+  "slug": "ai-hive-deepseek41-sql-readonly",
+  "title": "DeepSeek4.1 SQL生成与只读查询助手",
+  "family": "DeepSeek V4.1-Flash",
+  "aliases": [
+    "DeepSeek V4.1-Flash",
+    "DeepSeek-V4.1-Flash",
+    "DeepSeek V4.1 Flash",
+    "DeepSeek4.1",
+    "DeepSeek 4.1",
+    "DeepSeekV4.1",
+    "deepseek-flash",
+    "深度求索4.1",
+    "DeepSeek4.1 SQL",
+    "DeepSeek4.1数据分析",
+    "DeepSeek生成查询"
+  ],
+  "summary": "根据字段字典生成查询、解释口径并做只读验证，适合运营取数与数据分析。先使用本地样例或只读连接测试，再给结果说明，避免危险写库语句和误连接放大指标。",
+  "inputs": [
+    "脱敏表结构",
+    "统计问题",
+    "只读权限范围"
+  ],
+  "steps": [
+    "确认主键、关联键和日期时区",
+    "把业务问题翻译成指标与过滤条件",
+    "生成仅查询SQL，拒绝写入和管理语句",
+    "在样例数据库检查重复连接和空值逻辑",
+    "有明确授权才连接只读数据库，输出SQL和结果口径"
+  ],
+  "outputs": [
+    "query.sql：查询",
+    "metric-definition.md：指标口径",
+    "checks.csv：验证结果"
+  ],
+  "checks": [
+    "不含写库语句",
+    "关联倍增有检查",
+    "SQL未执行必须标注"
+  ],
+  "boundary": "官方模型名和AI-HIVE渠道ID分开核验，不把其他DeepSeek版本当V4.1-Flash。只有运行时存在对应视觉或文本工具才调用；未接入时停在准备阶段。不得绕过源系统权限。",
+  "prompt": "用DeepSeek4.1按订单和退款字段写净收入SQL，先用样例验证，不能修改数据库。",
+  "sample_input": {
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "mode": "readonly"
+  },
+  "sample_output": {
+    "example_only": true,
+    "query_status": "待基于schema生成",
+    "checks": [
+      "一对多退款不能重复减"
+    ]
+  },
+  "sources": [
+    "https://api-docs.deepseek.com/zh-cn/updates/"
+  ],
+  "novelty": "以DeepSeek V4.1-Flash的新版本搜索入口承接「DeepSeek4.1 SQL生成与只读查询助手」任务；重点是不含写库语句，不同于旧库泛模型介绍或路由比较。"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "ai-hive-image25-sunburst-flare-trial",
+  "title": "Image2.5同题试图与Sunburst和Flare选择",
+  "family": "GPT Image 2.5",
+  "aliases": [
+    "Image2.5",
+    "GPT Image 2.5",
+    "GPTImage2.5",
+    "Sunburst",
+    "Flare",
+    "Sunburst和Flare",
+    "Image2.5哪个好",
+    "生图模型对比",
+    "修图模型对比",
+    "同题出图"
+  ],
+  "summary": "以用户自己的生图或修图任务做有限的Image2.5试图比较，统一输入和验收标准，记录真实耗时、结果与已返回费用。帮助在Sunburst与Flare间作有依据的选择；不凭官方定位替代实际测试，也不声称一张图决定所有任务。",
+  "inputs": [
+    "一个真实生图或编辑任务",
+    "两型号都可使用的参考素材与约束",
+    "统一的输出规格和评审标准",
+    "每型号次数与总预算上限"
+  ],
+  "steps": [
+    "在AI-HIVE MCP分别核验Sunburst、Flare及本任务模式，某一型号不支持编辑等条件时先判定不可比，不强行补一个其他模型。",
+    "固定提示词、参考图和可共同支持的规格，另列不能统一的参数，提前定义主体保真、文字、保留区等评分依据。",
+    "用户确认两边数量和预算后各提交限定次数，记录请求时点、任务ID与真实返回信息；不把排队时间偷偷排除。",
+    "检查两边的原始图像及任务状态，失败或超时照实保留，状态不明先查旧任务，不为凑齐成功案例无限重试。",
+    "按预先规则逐项比较，费用未返回时记为未知；输出适合当前任务的选择理由和不足，不推断总体胜率。",
+    "交付对照图、实测记录与选择建议，保留被比较的原图路径和实际模型ID。"
+  ],
+  "outputs": [
+    "image25-model-comparison.png：同题结果对照",
+    "image25-trials.csv：任务、耗时、费用与失败记录",
+    "image25-choice.md：限于本任务的选择依据"
+  ],
+  "checks": [
+    "实际模型ID和输入版本可追溯",
+    "比较规格差异被明确披露",
+    "失败、超时和未知费用未被隐藏",
+    "结论只覆盖实际测试任务和样本规模"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。没有获得两型号都可用的真实结果时只能给出未完成比较，不编造图像、延迟、价格或分数。本包不是跑分榜单，也不自动购买额度。",
+  "prompt": "我想知道Sunburst和Flare哪个更适合这张产品图的换背景任务。先查两者是否都支持，只各试一张，预算先问我，按杯型保真和背景自然度比较，不猜价格。",
+  "sample_input": {
+    "task": "产品图换背景",
+    "models": [
+      "gpt-image-2.5-sunburst",
+      "gpt-image-2.5-flare"
+    ],
+    "trials_per_model": 1,
+    "criteria": [
+      "杯型保真",
+      "背景自然度"
+    ],
+    "source": "cup.png"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "image25-model-comparison.png",
+      "image25-trials.csv",
+      "image25-choice.md"
+    ],
+    "comparison_status": "演示结构，未执行比较",
+    "cost": null,
+    "latency": null,
+    "winner": null
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare"
+  ],
+  "novelty": "旧资料无Image2.5两子型号的同任务对照入口；此包交付可核对试验而非复述模型宣传，区分不支持、失败与质量差异。"
+}

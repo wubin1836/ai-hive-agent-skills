@@ -1,0 +1,80 @@
+{
+  "slug": "ai-hive-gpt-image25-product-shot",
+  "title": "GPT Image 2.5商品图制作",
+  "family": "GPT Image 2.5 Sunburst",
+  "aliases": [
+    "GPT Image 2.5",
+    "GPTImage2.5",
+    "GPT-Image-2.5",
+    "Image2.5商品图",
+    "Image2.5主图",
+    "商品图制作",
+    "产品场景图",
+    "Sunburst商品图",
+    "电商生图",
+    "商品修图"
+  ],
+  "summary": "用真实商品照片制作一张可用于电商展示的场景图，重点锁定轮廓、颜色、部件数量和标识，处理接地阴影与合理比例。交付商品图及对照核查，区分真实卖点与艺术化场景，不自动上架或编造商品功能。",
+  "inputs": [
+    "用户拥有使用权的商品正面与细节照片",
+    "SKU、实际尺寸与不可改动部件",
+    "目标场景、画幅和留白要求",
+    "允许的模型、张数及预算"
+  ],
+  "steps": [
+    "登记SKU与来源图片的对应关系；在AI-HIVE MCP核验GPT Image2.5 Sunburst的图像编辑或参考输入能力。",
+    "从原图列出必须保留的轮廓、接口、扣件和文字，缺失或互相矛盾的角度先标记，不推测实物结构。",
+    "按真实尺寸选择场景支撑物、机位和接地位置，安排营销文案留白但不将虚构功效画入产品。",
+    "将保留商品与替换环境分开写入提示词，确认本次上传与预算后生成小样，保存任务ID并查询原任务。",
+    "并排查看原图与小样，核查结构、标识、颜色、相对尺度和阴影；针对确定偏差获准后再编辑。",
+    "交付原尺寸商品图、SKU核查表及任务回执；保留生成标识建议，不登录店铺或代替用户发布。"
+  ],
+  "outputs": [
+    "product-scene.png：单张商品场景图",
+    "product-fidelity.json：SKU与实物一致性核查",
+    "product-task.json：输入来源与真实任务回执"
+  ],
+  "checks": [
+    "SKU与全部参考图绑定正确",
+    "部件数量、主体轮廓和可见标识不被随意改写",
+    "无悬浮或明显穿插，商品比例符合确认规格",
+    "未增加用户未提供的功能、认证或价格"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。这是指定Image2.5的新模型搜索入口，不是商品真实性认证。只有可检查的可见结构可被核对；缺少准确参考或模型发生形变时不能宣称商品完全一致。",
+  "prompt": "用GPT Image 2.5给SKU CUP-01做一张咖啡桌商品图，保留杯盖、杯把和原有logo，旁边可以有书，不加文字和认证标。请先核对参考图，不要自动上传店铺。",
+  "sample_input": {
+    "sku": "CUP-01",
+    "references": [
+      "cup-front.png",
+      "cup-detail.png"
+    ],
+    "physical_height_cm": 12,
+    "scene": "咖啡桌与一本书",
+    "forbidden": [
+      "新logo",
+      "认证标",
+      "价格字样"
+    ]
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "product-scene.png",
+      "product-fidelity.json",
+      "product-task.json"
+    ],
+    "review_items": [
+      "杯盖和杯把形状",
+      "标识原样",
+      "接地阴影",
+      "相对比例"
+    ]
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "novelty": "旧商品多角度套图以套系为主；本包补GPT Image2.5商品图/主图关键词，收敛单SKU单场景的实物约束与生成后校验。"
+}

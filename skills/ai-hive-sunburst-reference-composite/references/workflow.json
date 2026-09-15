@@ -1,0 +1,88 @@
+{
+  "slug": "ai-hive-sunburst-reference-composite",
+  "title": "Sunburst多参考图合成与元素归属核对",
+  "family": "GPT Image 2.5 Sunburst",
+  "aliases": [
+    "Sunburst",
+    "GPT Image 2.5",
+    "Image2.5多图合成",
+    "多参考图",
+    "元素合成",
+    "参考图拼场景",
+    "产品组合图",
+    "主体合成",
+    "背景参考",
+    "素材归属"
+  ],
+  "summary": "将多张授权参考图中的指定元素合成为同一场景，明确每张图负责主体、背景、材质或光照。用元素归属表减少对象串位和无意混合，交付合成图与来源映射；不是简单拼图，也不把所有参考图默认当成可复制风格。",
+  "inputs": [
+    "带编号的授权参考图",
+    "各参考图的元素与角色说明",
+    "布局草图、相对大小与遮挡关系",
+    "不可使用元素及输出规格"
+  ],
+  "steps": [
+    "核验Sunburst的多图输入模式与数量上限，为每个文件建立REF编号，确认允许上传和采用的具体元素。",
+    "给参考图分配角色：主体外观、背景结构、材质或灯光；同一物体出现冲突时指定唯一权威参考。",
+    "用文字或草图描述左右位置、大小、前后遮挡和接触点，禁止把背景中的路人、标识等无关元素带入。",
+    "确认预算后提交一版合成，记录参考编号与真实参数；超时查询原任务，未经同意不删掉参考降低要求。",
+    "逐个核对主体数量、归属、几何尺度和接地阴影，检查相似物体是否串位或特征融合。",
+    "交付合成图、元素来源映射和核查记录，未能遵守的引用关系逐项标出。"
+  ],
+  "outputs": [
+    "reference-composite.png：多参考合成图",
+    "reference-map.csv：REF编号与采用元素",
+    "composite-review.json：空间与归属核查"
+  ],
+  "checks": [
+    "每个输出主体可追溯到批准的参考编号",
+    "主体数量与布局一致，无意外混合对象",
+    "前后遮挡与接触关系合理",
+    "未使用明确排除的商标、人物或背景元素"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。参考图片只授权用户指定用途，不授权上传整目录。若MCP不支持足够参考数量，说明限制并请求用户缩减，不默默丢图或更换模型。",
+  "prompt": "用Sunburst把REF1的台灯和REF2的笔记本放进REF3的书房，台灯在左、笔记本在右，不使用REF3里的品牌标识。先给我元素归属表，再生成一张横图。",
+  "sample_input": {
+    "references": [
+      {
+        "id": "REF1",
+        "file": "lamp.png",
+        "role": "台灯外观"
+      },
+      {
+        "id": "REF2",
+        "file": "notebook.png",
+        "role": "笔记本外观"
+      },
+      {
+        "id": "REF3",
+        "file": "study.png",
+        "role": "房间布局"
+      }
+    ],
+    "layout": "台灯左、笔记本右",
+    "exclude": [
+      "REF3品牌标识"
+    ]
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "reference-composite.png",
+      "reference-map.csv",
+      "composite-review.json"
+    ],
+    "mapping_preview": {
+      "台灯": "REF1",
+      "笔记本": "REF2",
+      "房间": "REF3"
+    }
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "novelty": "旧商品实拍风套图是单商品展示；此包聚焦多参考职责拆分、冲突裁决和输出元素归属，补Image2.5多图合成入口。"
+}

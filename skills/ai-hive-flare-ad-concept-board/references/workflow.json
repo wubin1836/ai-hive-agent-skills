@@ -1,0 +1,77 @@
+{
+  "slug": "ai-hive-flare-ad-concept-board",
+  "title": "Flare广告生图与三案创意比较",
+  "family": "GPT Image 2.5 Flare",
+  "aliases": [
+    "Flare",
+    "GPT Image 2.5 Flare",
+    "Image2.5生图",
+    "广告生图",
+    "创意三案",
+    "广告概念图",
+    "Flare出图",
+    "视觉提案",
+    "广告画面",
+    "快速概念图"
+  ],
+  "summary": "将一个广告目标拆成有限的三个视觉方向，用Flare生成便于比较的概念图。三案共用产品事实和画幅，只改变隐喻、构图或场景，并记录每案要验证的假设，帮助快速选方向；不宣称点击率或转化率已经提升。",
+  "inputs": [
+    "产品或活动事实及受众",
+    "必须出现的卖点与禁止声称内容",
+    "参考风格、画幅和用途",
+    "方案数量及费用上限"
+  ],
+  "steps": [
+    "在AI-HIVE MCP核验Flare文生图模式，提炼唯一沟通目标；把已知产品事实与尚待验证的营销假设分开。",
+    "设计三个真正不同的视觉方向，例如场景利益、产品细节和抽象隐喻，避免只换颜色当作三案。",
+    "固定主体、比例、文字策略及品牌约束，为每案写一句可比较的创意假设和具体构图。",
+    "用户确认三案及总费用后逐案提交，记录案号与任务ID，查明旧任务状态再决定是否返修。",
+    "在同尺寸下对比主体识别、卖点表达、视觉层级和误导风险；用户选出的方向不等于已完成投放测试。",
+    "交付三案原图的索引与接触表、创意比较表和回执，不自动发布广告或创建广告计划。"
+  ],
+  "outputs": [
+    "ad-concepts.png：三案接触表",
+    "ad-concepts.json：三个原图路径与创意假设",
+    "ad-comparison.csv：人工评审与任务对应"
+  ],
+  "checks": [
+    "三案有明确不同的创意假设",
+    "所有图遵守同一事实和品牌约束",
+    "案号、原图路径与任务ID不混淆",
+    "没有虚构投放数据或效果承诺"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。Flare的官方定位不保证在AI-HIVE上的实际延迟或价格；按真实返回记录。广告图只是创意样案，不包含投放、商标许可或商品效果认证。",
+  "prompt": "用GPT Image2.5 Flare为便携咖啡杯做三张无字广告概念：通勤、露营、桌面。保持同一杯型和4:3比例，先确认三张总预算，别替我投放。",
+  "sample_input": {
+    "product": "便携咖啡杯",
+    "concepts": [
+      "通勤",
+      "露营",
+      "桌面"
+    ],
+    "ratio": "4:3",
+    "text": "无字",
+    "count": 3
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "ad-concepts.png",
+      "ad-concepts.json",
+      "ad-comparison.csv"
+    ],
+    "concept_ids": [
+      "A-commute",
+      "B-camping",
+      "C-desk"
+    ],
+    "performance_tested": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare"
+  ],
+  "novelty": "旧批量出图按表格逐行处理；此包是同一传播目标的有限创意实验设计与比较，补Flare广告出图入口。"
+}

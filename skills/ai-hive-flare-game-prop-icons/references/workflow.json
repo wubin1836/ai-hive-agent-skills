@@ -1,0 +1,81 @@
+{
+  "slug": "ai-hive-flare-game-prop-icons",
+  "title": "Flare游戏道具图标与缩略可读性检查",
+  "family": "GPT Image 2.5 Flare",
+  "aliases": [
+    "Flare",
+    "GPT Image 2.5 Flare",
+    "Image2.5游戏图标",
+    "道具图标",
+    "背包图标",
+    "游戏素材",
+    "技能图标",
+    "物品图标",
+    "统一光照",
+    "图标缩略检查"
+  ],
+  "summary": "把原创新道具清单转成光照和视角一致的位图图标，重点检查小尺寸下轮廓、稀有度颜色和道具辨识。交付原图、图标映射和缩略预览；不复刻商业游戏资产，不把绘制的图案冒充可编辑矢量或3D模型。",
+  "inputs": [
+    "原创道具名称、用途与外观约束",
+    "图标视角、背景和边距",
+    "稀有度配色与目标显示尺寸",
+    "禁止借用的现有IP元素"
+  ],
+  "steps": [
+    "核验Flare可用模式，给每件道具分配唯一asset_id；确认清单是原创或有许可素材，避免按具体商业游戏资产复刻。",
+    "固定视角、主光方向、边缘明暗和画布占比，设定不同稀有度的可辨特征而非只靠相近色。",
+    "把道具用途转成明确形状，如补给瓶、钥匙或矿石；删除会在小尺寸变成噪点的细节。",
+    "确认数量预算后先做一个标准道具，再按已批准基准生成其余，保存asset_id与任务ID，避免失败条目被新图覆盖。",
+    "在真实目标缩略尺寸并排查看轮廓、颜色与辨识度，必要时修改简化形状，不以原尺寸漂亮替代小图可用性。",
+    "交付原图与资源清单、缩略预览，标出需人工处理的边缘、透明通道或碰撞框，不自动导入引擎。"
+  ],
+  "outputs": [
+    "prop-icons-preview.png：目标尺寸对照板",
+    "prop-assets.json：asset_id、原图路径与规格",
+    "prop-readability.csv：缩略辨识与一致性检查"
+  ],
+  "checks": [
+    "asset_id唯一且与道具名称对应",
+    "缩略图下不同道具不易混淆",
+    "主光、视角和边距保持同套规则",
+    "无未经授权的商业游戏标识或资产复刻"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。只交付位图视觉资产；不承诺真实3D结构、碰撞数据、骨骼或引擎兼容包。透明背景须按实际Alpha验证，不用纯色背景冒充透明。",
+  "prompt": "用GPT Image2.5 Flare做三个原创背包道具图标：药草瓶、铜钥匙、蓝晶石。统一左上光、3/4视角，最终在64像素下能认清，不参考任何现有游戏IP。",
+  "sample_input": {
+    "items": [
+      {
+        "asset_id": "potion-01",
+        "name": "药草瓶"
+      },
+      {
+        "asset_id": "key-01",
+        "name": "铜钥匙"
+      },
+      {
+        "asset_id": "crystal-01",
+        "name": "蓝晶石"
+      }
+    ],
+    "display_size_px": 64,
+    "light": "左上",
+    "view": "3/4"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "prop-icons-preview.png",
+      "prop-assets.json",
+      "prop-readability.csv"
+    ],
+    "target_display_px": 64,
+    "engine_import_performed": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare"
+  ],
+  "novelty": "区别于通用图标转矢量：专注游戏道具的原创视觉语义、缩略辨识和资源ID映射，输出明确为位图。"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "ai-hive-deepseek41-enterprise-faq",
+  "title": "DeepSeek4.1企业问答与客服话术助手",
+  "family": "DeepSeek V4.1-Flash",
+  "aliases": [
+    "DeepSeek V4.1-Flash",
+    "DeepSeek-V4.1-Flash",
+    "DeepSeek V4.1 Flash",
+    "DeepSeek4.1",
+    "DeepSeek 4.1",
+    "DeepSeekV4.1",
+    "deepseek-flash",
+    "深度求索4.1",
+    "DeepSeek4.1客服",
+    "DeepSeek V4.1知识库",
+    "深度求索智能客服"
+  ],
+  "summary": "把产品手册和已批准政策整理成低幻觉问答资产，适合客服主管与知识运营。DeepSeek4.1在AI-HIVE可用时参与分类与撰写，输出可导入的FAQ和盲测问题，方便搭建自己的客服。",
+  "inputs": [
+    "产品手册",
+    "已批准政策",
+    "历史问题脱敏样本"
+  ],
+  "steps": [
+    "建立知识编号与版本，隔离过期政策",
+    "按购买前、使用中、售后归类问题",
+    "生成带条件和来源的简短回答",
+    "用冲突政策、无答案和越权请求做离线测试",
+    "导出问答库和转人工规则，不向真实渠道推送"
+  ],
+  "outputs": [
+    "knowledge.jsonl：问答库",
+    "faq-eval.csv：盲测题",
+    "escalation.md：转人工规则"
+  ],
+  "checks": [
+    "无来源不答政策",
+    "过期内容不混用",
+    "不读取或发送真实客户消息"
+  ],
+  "boundary": "官方模型名和AI-HIVE渠道ID分开核验，不把其他DeepSeek版本当V4.1-Flash。只有运行时存在对应视觉或文本工具才调用；未接入时停在准备阶段。不得绕过源系统权限。",
+  "prompt": "用DeepSeek4.1整理我们的客服知识库，遇到保修政策缺失就转人工，输出导入文件，不接线上客服。",
+  "sample_input": {
+    "manual": "manual.md",
+    "policy": "policy.md"
+  },
+  "sample_output": {
+    "example_only": true,
+    "question": "超期能否退款",
+    "response": "请转人工核实适用政策",
+    "source": null
+  },
+  "sources": [
+    "https://api-docs.deepseek.com/zh-cn/updates/"
+  ],
+  "novelty": "以DeepSeek V4.1-Flash的新版本搜索入口承接「DeepSeek4.1企业问答与客服话术助手」任务；重点是无来源不答政策，不同于旧库泛模型介绍或路由比较。"
+}

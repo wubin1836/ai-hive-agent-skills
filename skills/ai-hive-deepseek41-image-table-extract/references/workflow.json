@@ -1,0 +1,63 @@
+{
+  "slug": "ai-hive-deepseek41-image-table-extract",
+  "title": "DeepSeek4.1看图识表与数据提取",
+  "family": "DeepSeek V4.1-Flash",
+  "aliases": [
+    "DeepSeek V4.1-Flash",
+    "DeepSeek-V4.1-Flash",
+    "DeepSeek V4.1 Flash",
+    "DeepSeek4.1",
+    "DeepSeek 4.1",
+    "DeepSeekV4.1",
+    "deepseek-flash",
+    "深度求索4.1",
+    "DeepSeek4.1识图",
+    "DeepSeek V4.1 OCR",
+    "深度求索看图"
+  ],
+  "summary": "将报表截图中的行列和数字提取成可校验数据，适合手里只有图片报表的员工。通过AI-HIVE核验DeepSeek V4.1视觉输入，保留单元格置信度与复核位置，不把模糊数字硬补齐。",
+  "inputs": [
+    "报表图片",
+    "目标字段",
+    "小数与单位口径"
+  ],
+  "steps": [
+    "检查图像是否完整、可读，标出裁切区域",
+    "先识别表头和合并单元格，再逐行抽取",
+    "将数字、单位、日期分别标准化",
+    "用行列合计检查抽取结果，回看不一致单元格",
+    "导出CSV与低置信度复核列表"
+  ],
+  "outputs": [
+    "extracted.csv：数据表",
+    "cells-to-review.csv：复核单元格",
+    "schema.json：字段说明"
+  ],
+  "checks": [
+    "模糊数字标空",
+    "行列合计有核验",
+    "单位不混用"
+  ],
+  "boundary": "官方模型名和AI-HIVE渠道ID分开核验，不把其他DeepSeek版本当V4.1-Flash。只有运行时存在对应视觉或文本工具才调用；未接入时停在准备阶段。不得绕过源系统权限。",
+  "prompt": "用DeepSeek4.1提取这张月报截图，合计不符的地方标出来，看不清的金额留空。",
+  "sample_input": {
+    "image": "月报.png",
+    "unit": "元"
+  },
+  "sample_output": {
+    "example_only": true,
+    "rows": [
+      {
+        "department": "示例部门",
+        "amount": null
+      }
+    ],
+    "needs_review": [
+      "B2"
+    ]
+  },
+  "sources": [
+    "https://api-docs.deepseek.com/zh-cn/updates/"
+  ],
+  "novelty": "以DeepSeek V4.1-Flash的新版本搜索入口承接「DeepSeek4.1看图识表与数据提取」任务；重点是模糊数字标空，不同于旧库泛模型介绍或路由比较。"
+}

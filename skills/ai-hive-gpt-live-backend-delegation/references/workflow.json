@@ -1,0 +1,58 @@
+{
+  "slug": "ai-hive-gpt-live-backend-delegation",
+  "title": "GPT-Live语音与后台任务协同助手",
+  "family": "GPT-Live 1",
+  "aliases": [
+    "GPT-Live",
+    "GPT Live",
+    "GPT-Live 1",
+    "GPT Live 1",
+    "GPTLive",
+    "GPTLive1",
+    "全双工语音",
+    "实时语音Agent",
+    "GPT Live后台Agent",
+    "GPTLive工具调用",
+    "边说边执行"
+  ],
+  "summary": "设计边说边办事的语音应用：前台保持对话，后台执行被授权的查询或素材任务。交付状态关联、取消与迟到结果处理样例，适合开发者把AI-HIVE的实际工具接到语音体验中。",
+  "inputs": [
+    "可用后台工具schema",
+    "语音客户端能力",
+    "取消和超时规则"
+  ],
+  "steps": [
+    "为每次委派分配关联ID并记录用户请求版本",
+    "把长任务与即时对话隔离，避免重复发起",
+    "按后台状态生成进度提示，不凭空说已完成",
+    "处理取消后迟到结果与新的用户纠正",
+    "用模拟事件测试成功、失败、超时与重复结果"
+  ],
+  "outputs": [
+    "delegation-map.json：任务映射",
+    "event-fixtures.json：事件样例",
+    "acceptance.md：联调验收"
+  ],
+  "checks": [
+    "结果与委派ID对应",
+    "取消不代表已停止外部计费",
+    "迟到结果不覆盖新指令"
+  ],
+  "boundary": "本Skill制作接入方案、对话策略和测试材料，不承诺AI-HIVE已支持GPT-Live或电话网关。实时演示需用户已有兼容音频客户端、后台工具与对应模型权限；不能以文本脚本冒充真实语音成品，不自动外呼。",
+  "prompt": "为GPT-Live设计查询商品资料的后台委派流程，用户改商品后旧结果不能覆盖新问题，先用模拟事件验收。",
+  "sample_input": {
+    "request_id": "demo-r1",
+    "correction": "改查商品B"
+  },
+  "sample_output": {
+    "example_only": true,
+    "old_result_action": "隔离待核对",
+    "active_request": "demo-r2",
+    "live_tested": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-live-1",
+    "https://developers.openai.com/api/docs/guides/live"
+  ],
+  "novelty": "以GPT-Live 1的新版本搜索入口承接「GPT-Live语音与后台任务协同助手」任务；重点是结果与委派ID对应，不同于旧库泛模型介绍或路由比较。"
+}

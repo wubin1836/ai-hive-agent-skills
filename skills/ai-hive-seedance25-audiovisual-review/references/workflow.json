@@ -1,0 +1,71 @@
+{
+  "slug": "ai-hive-seedance25-audiovisual-review",
+  "title": "Seedance2.5成片音画验收与返修时间单",
+  "family": "Seedance 2.5",
+  "aliases": [
+    "Seedance2.5",
+    "Seedance 2.5",
+    "Seedance-2.5",
+    "Seedance音画",
+    "音画同步",
+    "视频验收",
+    "口型检查",
+    "台词漏字",
+    "成片质检",
+    "返修时间单"
+  ],
+  "summary": "对用户已有的Seedance2.5成片进行音画验收，定位台词遗漏、声画错位、场景突变和不可读文字，输出可交给生成或剪辑环节的返修时间单。默认只检查本地视频，不上传或付费重生成，也不凭画面猜测真实使用的模型。",
+  "inputs": [
+    "待验收的真实视频文件",
+    "批准脚本、台词与镜头要求",
+    "可选的真实模型和任务回执",
+    "可接受时差、画面及声音标准"
+  ],
+  "steps": [
+    "只读取用户指定视频，使用实际可用工具探测时长、帧率与音轨；有真实回执才确认模型身份，没有则标为未验证。",
+    "将批准台词和镜头要求转成检查项，约定音画时差标准；先区分没有音轨、静音片段和正常环境声。",
+    "通看并复听视频，对台词、音效和关键动作记录时间点；可用转写只能辅助，专名和漏字需对照批准文本复核。",
+    "逐段检查口型明显错位、说话人串位、声音断裂、画面身份漂移和不可读字幕，证据截图仅来自真实片段。",
+    "按严重度和准确起止时间生成返修单，区分需要生成修改、简单音轨剪辑和无法判断的项目，不自动执行返修。",
+    "交付时间单、真实证据接触表和技术探测报告；仅用户另行要求模型返修时才发现MCP指定版本并确认费用。"
+  ],
+  "outputs": [
+    "seedance25-revision-list.csv：时间点与返修要求",
+    "seedance25-evidence.png：真实关键帧证据板",
+    "seedance25-media-probe.json：技术探测及身份验证状态"
+  ],
+  "checks": [
+    "每个问题有实际片段时间点或明确未能判断",
+    "台词差异对照批准原文而非模型自行改写",
+    "技术指标来自真实探测，不编造检测值",
+    "默认网络上传与模型生成调用数为0"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。本地验收无需AI-HIVE登录或API Key；只有后续授权生成返修才需要MCP发现。缺少播放、音轨或检测工具时报告检查覆盖不足；没有任务回执不能证明影片由Seedance2.5生成。",
+  "prompt": "只检查这段我用Seedance2.5做的视频，按批准台词找漏字、音画错位和人物漂移，给具体秒数的返修单。不要上传、不要重新生成，也不要根据视频猜模型版本。",
+  "sample_input": {
+    "video": "existing-seedance-film.mp4",
+    "approved_script": "approved-dialogue.txt",
+    "task_receipt": null,
+    "upload_allowed": false,
+    "regeneration_allowed": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "seedance25-revision-list.csv",
+      "seedance25-evidence.png",
+      "seedance25-media-probe.json"
+    ],
+    "inspection_status": "人工演示结构，未检查真实文件",
+    "source_model_verified": false,
+    "network_calls": 0
+  },
+  "sources": [
+    "https://seed.bytedance.com/zh/seedance2_5",
+    "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+  ],
+  "novelty": "旧视频声音混音或字幕修正是修改任务；此包是只读的成片验收与精确时间返修单，含模型身份证据边界，不自动触发生成。"
+}

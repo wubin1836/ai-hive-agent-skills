@@ -1,0 +1,58 @@
+{
+  "slug": "ai-hive-agents-api-mcp-boundary",
+  "title": "Agents API接入AI-HIVE MCP权限清单",
+  "family": "Agents API",
+  "aliases": [
+    "Agents API",
+    "Agent API",
+    "OpenAI Agents API",
+    "智能体API",
+    "Agent会话",
+    "托管智能体",
+    "AI Agent API",
+    "Agents API MCP",
+    "AI-HIVE Agent接入",
+    "托管智能体图片视频"
+  ],
+  "summary": "为已有Agent应用整理AI-HIVE MCP的授权范围、工具schema和人工确认点，适合开发团队接入图片视频能力。交付配置草案与风险清单，不把能调用工具误写成拥有所有数据或自动发布权限。",
+  "inputs": [
+    "宿主Agent环境",
+    "MCP工具清单",
+    "允许的内容任务"
+  ],
+  "steps": [
+    "从公开元数据确认MCP地址和OAuth参数",
+    "登记实际工具名及输入schema，区分读取、上传与付费生成",
+    "按工作流确定最少必要权限，不索要其他平台密钥",
+    "用脱敏样例验证缺参、拒绝授权和工具不可用的行为",
+    "导出配置草案与人工确认位置，等待部署授权"
+  ],
+  "outputs": [
+    "mcp-tool-map.json：工具映射",
+    "permission-matrix.csv：权限矩阵",
+    "integration-checklist.md：接入检查"
+  ],
+  "checks": [
+    "密钥不入文件",
+    "付费与发布分开授权",
+    "配置模板不冒充已连接"
+  ],
+  "boundary": "本Skill辅助集成设计与本地样例验证，不把OpenAI托管会话、沙箱或Vault当作AI-HIVE自带功能。接入真实云环境、授权MCP或启动付费运行须用户授权并按当前官方schema验证。",
+  "prompt": "给我们的Agents API应用接AI-HIVE MCP，先列权限与工具映射，只能先查模型，生成前必须确认费用。",
+  "sample_input": {
+    "allowed": [
+      "模型查询"
+    ],
+    "paid_generation": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "required_scope": "mcp:tools",
+    "generation_enabled": false,
+    "connection_verified": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/guides/agents-api/overview"
+  ],
+  "novelty": "以Agents API的新版本搜索入口承接「Agents API接入AI-HIVE MCP权限清单」任务；重点是密钥不入文件，不同于旧库泛模型介绍或路由比较。"
+}

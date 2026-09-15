@@ -1,0 +1,60 @@
+{
+  "slug": "ai-hive-gpt-live-customer-voice-plan",
+  "title": "GPT Live语音客服与转人工方案",
+  "family": "GPT-Live 1",
+  "aliases": [
+    "GPT-Live",
+    "GPT Live",
+    "GPT-Live 1",
+    "GPT Live 1",
+    "GPTLive",
+    "GPTLive1",
+    "全双工语音",
+    "实时语音Agent",
+    "GPT Live客服",
+    "GPTLive实时对话",
+    "全双工AI客服"
+  ],
+  "summary": "为需要自然语音接待的企业设计可打断、可转人工的语音客服流程，交付话术与联调测试。AI-HIVE辅助生成知识和后台任务方案，真实语音接入依赖已授权的兼容客户端。",
+  "inputs": [
+    "客服知识",
+    "可办事项与权限",
+    "转人工条件"
+  ],
+  "steps": [
+    "定义欢迎、身份核对、查询和转人工状态",
+    "把业务办理拆成只读查询和需确认的动作",
+    "规定用户打断时哪些内容中止、哪些后台查询继续",
+    "编排失败、超时和知识缺失的自然话术",
+    "制作本地文本模拟与真实音频联调清单"
+  ],
+  "outputs": [
+    "voice-flow.json：对话状态",
+    "handoff-scripts.md：转人工话术",
+    "voice-tests.csv：联调测试"
+  ],
+  "checks": [
+    "转人工条件明确",
+    "后台动作先确认",
+    "没有语音运行时不声称已接通"
+  ],
+  "boundary": "本Skill制作接入方案、对话策略和测试材料，不承诺AI-HIVE已支持GPT-Live或电话网关。实时演示需用户已有兼容音频客户端、后台工具与对应模型权限；不能以文本脚本冒充真实语音成品，不自动外呼。",
+  "prompt": "设计GPT Live语音售后客服，查进度可以自动，退款必须转人工；先给话术和联调测试，不打电话。",
+  "sample_input": {
+    "actions": {
+      "query": "readonly",
+      "refund": "human"
+    }
+  },
+  "sample_output": {
+    "example_only": true,
+    "state": "handoff",
+    "reason": "退款需人工",
+    "call_started": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-live-1",
+    "https://developers.openai.com/api/docs/guides/live"
+  ],
+  "novelty": "以GPT-Live 1的新版本搜索入口承接「GPT Live语音客服与转人工方案」任务；重点是转人工条件明确，不同于旧库泛模型介绍或路由比较。"
+}

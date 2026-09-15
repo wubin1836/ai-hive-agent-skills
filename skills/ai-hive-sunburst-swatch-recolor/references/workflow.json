@@ -1,0 +1,78 @@
+{
+  "slug": "ai-hive-sunburst-swatch-recolor",
+  "title": "Sunburst色卡换色与商品色差核对",
+  "family": "GPT Image 2.5 Sunburst",
+  "aliases": [
+    "Sunburst",
+    "GPT Image 2.5 Sunburst",
+    "Image2.5换色",
+    "商品换色",
+    "色卡换色",
+    "产品改颜色",
+    "Sunburst修图",
+    "保留材质换色",
+    "多色SKU",
+    "颜色对照图"
+  ],
+  "summary": "依据用户提供的色卡为同一商品生成指定颜色样图，锁定材质、缝线、logo和光照关系。交付带SKU映射的色彩对照与偏差记录，帮助颜色方案评审；不把屏幕颜色或生成图冒充实物色样和专业色彩认证。",
+  "inputs": [
+    "商品原图与需换色区域",
+    "色卡图片及颜色编号",
+    "SKU与目标颜色对应表",
+    "固定背景、材质及输出规格"
+  ],
+  "steps": [
+    "读取每个SKU与色卡编号，核验AI-HIVE MCP提供Sunburst同版本编辑模式；先检查目标区域是否与背景、logo混在一起。",
+    "在原图标出可换色材料和不可改动的缝线、图案、五金；将颜色编号与参考色卡同时记录，不只依赖模糊颜色名称。",
+    "用一张目标色做小样，要求改变基色而保留高光、纹理和阴影；用户确认样式和本次数量费用后提交并记录任务ID。",
+    "核对每个结果与输入SKU、色卡对应，遇到状态不明查原任务；未经确认不把一张小样扩成全部SKU。",
+    "在同一查看条件下并排检查色偏、边界溢色和材质漂移；若有可靠色彩工具，注明采样区和测量局限，不杜撰色差数值。",
+    "保存独立色样原图、颜色映射清单与核查回执，明确需要实体打样或校准显示的情形。"
+  ],
+  "outputs": [
+    "color-samples.png：确认颜色的对照板",
+    "color-map.csv：SKU、色卡与单图路径映射",
+    "color-review.json：换色区域与偏差记录"
+  ],
+  "checks": [
+    "每个SKU和色卡编号唯一对应",
+    "logo、五金与背景未被连带换色",
+    "纹理与原有明暗层次可辨",
+    "任何色差数值都有真实测量方法与采样依据"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。生成图不能替代实体色卡、印刷打样或校准色彩流程；不承诺达到任意Delta E阈值。输出多色图必须按用户明确数量授权，不能为凑齐色系擅自扩量。",
+  "prompt": "用Sunburst把这张沙发图的布面改成我色卡里的C17苔绿，木腿和房间不变。先做一张，给我原图与改色图的对照，不要说等同实物颜色。",
+  "sample_input": {
+    "source": "sofa.png",
+    "swatch": "C17.png",
+    "sku": "SOFA-C17",
+    "editable_material": "布面",
+    "locked": [
+      "木腿",
+      "房间",
+      "缝线"
+    ],
+    "count": 1
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "color-samples.png",
+      "color-map.csv",
+      "color-review.json"
+    ],
+    "mapping_preview": {
+      "sku": "SOFA-C17",
+      "swatch": "C17",
+      "result": "expected-sofa-c17.png"
+    },
+    "color_certification": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "novelty": "区别于通用局部改物：核心是SKU色卡映射、材料边界及色差声明，补Sunburst换色检索，不以相同请求换名字凑多包。"
+}

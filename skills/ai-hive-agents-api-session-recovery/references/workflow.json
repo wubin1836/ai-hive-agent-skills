@@ -1,0 +1,55 @@
+{
+  "slug": "ai-hive-agents-api-session-recovery",
+  "title": "Agents API长任务会话与恢复方案",
+  "family": "Agents API",
+  "aliases": [
+    "Agents API",
+    "Agent API",
+    "OpenAI Agents API",
+    "智能体API",
+    "Agent会话",
+    "托管智能体",
+    "AI Agent API",
+    "OpenAI Agents API",
+    "Agent API会话",
+    "智能体长任务"
+  ],
+  "summary": "给开发者梳理托管Agent会话、执行事件与结果文件的恢复流程，适合长时间调研和内容生产应用。用AI-HIVE辅助设计任务及MCP工具边界，先做本地故障演练再接真实云服务。",
+  "inputs": [
+    "应用任务结构",
+    "已确认API文档",
+    "会话保存要求"
+  ],
+  "steps": [
+    "定义任务ID、会话ID和产物ID的关联，不混作同一状态",
+    "区分已提交、运行中、待人工和完成事件",
+    "把重连设计成读取状态而非盲目重发任务",
+    "模拟中断后仅补未完成步骤，保留已付费产物",
+    "按当前官方API核对示例，未部署前只交付本地方案"
+  ],
+  "outputs": [
+    "session-design.md：恢复设计",
+    "events.json：事件样例",
+    "recovery-tests.csv：恢复测试"
+  ],
+  "checks": [
+    "不会因重连重复计费提交",
+    "产物有所属任务",
+    "真实托管环境未创建则明确标注"
+  ],
+  "boundary": "本Skill辅助集成设计与本地样例验证，不把OpenAI托管会话、沙箱或Vault当作AI-HIVE自带功能。接入真实云环境、授权MCP或启动付费运行须用户授权并按当前官方schema验证。",
+  "prompt": "设计Agents API的营销资料长任务恢复机制，断网重连后先查状态，不要重复启动整个任务。",
+  "sample_input": {
+    "job_id": "demo-job",
+    "last_state": "running"
+  },
+  "sample_output": {
+    "example_only": true,
+    "recovery_action": "read-existing-session",
+    "resubmit": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/guides/agents-api/overview"
+  ],
+  "novelty": "以Agents API的新版本搜索入口承接「Agents API长任务会话与恢复方案」任务；重点是不会因重连重复计费提交，不同于旧库泛模型介绍或路由比较。"
+}

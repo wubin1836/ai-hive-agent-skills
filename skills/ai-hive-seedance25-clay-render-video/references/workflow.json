@@ -1,0 +1,78 @@
+{
+  "slug": "ai-hive-seedance25-clay-render-video",
+  "title": "Seedance2.5白模参考成片与动作路径对照",
+  "family": "Seedance 2.5",
+  "aliases": [
+    "Seedance2.5",
+    "Seedance 2.5",
+    "Seedance-2.5",
+    "豆包Seedance2.5",
+    "Seedance白模",
+    "白模生视频",
+    "白模控制",
+    "灰模参考",
+    "Clay Render",
+    "动作路径对照"
+  ],
+  "summary": "将已准备好的白模预演视频转成带材质和光照的视觉片段，保护空间布局、镜头运动和道具动作路径。交付渲染结果与白模对照，适合广告预演和产品装配示意；不声称生成真实3D模型、工程仿真或可执行机械程序。",
+  "inputs": [
+    "授权白模或灰模预演视频",
+    "材质、外观与光照参考",
+    "需锁定的镜头、动作路径及零件顺序",
+    "目标时长、规格和预算"
+  ],
+  "steps": [
+    "核验Seedance2.5当前MCP的白模/参考视频模式，探测白模片段规格，确认输入是预演素材而不是待执行的控制指令。",
+    "按时间标注镜头轨迹、主体位置、动作节点及零件顺序，区分必须跟随的几何与可以重新设计的材质。",
+    "为每个主体绑定外观参考和材料，约束主光方向与接触阴影，不为了视觉效果改变装配顺序或物体数量。",
+    "确认素材与费用后提交指定模型任务并保存任务ID，状态不明先查询，未经确认不改用自由文生视频。",
+    "将成片与白模按关键时点对照，检查运镜、入出画方向、动作节点和零件穿插，记录实际偏离。",
+    "交付成片、关键帧对照板及路径核查，明确演示可看性不等于物理正确、可制造或工程合规。"
+  ],
+  "outputs": [
+    "seedance25-clay-render.mp4：材质化视频",
+    "clay-render-comparison.png：白模与成片关键帧对照",
+    "clay-motion-review.csv：动作节点与空间偏差"
+  ],
+  "checks": [
+    "镜头轨迹与主体屏幕方向按关键点可核对",
+    "零件数量和动作顺序未被改造",
+    "材料和光照符合确认参考",
+    "未声称输出3D工程文件或真实物理仿真"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。模型生成的是视频，不是CAD、网格或碰撞仿真。白模参考不被当前MCP支持时明确未生成；工业与安全场景只作视觉演示，不代替工程验证。",
+  "prompt": "用Seedance2.5把这段桌面机械玩具的白模预演变成木质材质视频，保留运镜、三块零件和装配顺序。每个装配节点给白模与成片对照，不改成工业生产指导。",
+  "sample_input": {
+    "clay_video": "toy-clay.mp4",
+    "material_reference": "wood-material.png",
+    "locked": [
+      "运镜",
+      "3块零件",
+      "装配顺序"
+    ],
+    "purpose": "玩具视觉预演",
+    "engineering_use": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "seedance25-clay-render.mp4",
+      "clay-render-comparison.png",
+      "clay-motion-review.csv"
+    ],
+    "checkpoint_ids": [
+      "insert-01",
+      "rotate-02",
+      "finish-03"
+    ],
+    "physics_validated": false
+  },
+  "sources": [
+    "https://seed.bytedance.com/zh/seedance2_5",
+    "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+  ],
+  "novelty": "旧Seedance参考生视频没有白模几何与材质职责分离、装配路径逐点检查；此包对准白模/灰模新搜索入口。"
+}

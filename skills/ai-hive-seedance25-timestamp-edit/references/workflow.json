@@ -1,0 +1,83 @@
+{
+  "slug": "ai-hive-seedance25-timestamp-edit",
+  "title": "Seedance2.5指定时间段改视频与前后保留",
+  "family": "Seedance 2.5",
+  "aliases": [
+    "Seedance2.5",
+    "Seedance 2.5",
+    "Seedance-2.5",
+    "豆包Seedance2.5",
+    "即梦Seedance2.5",
+    "定点编辑",
+    "指定秒数改视频",
+    "局部改视频",
+    "视频时间戳编辑",
+    "保留其他片段"
+  ],
+  "summary": "只修改用户指定时间段中的动作、道具或场景细节，记录修改区间并检查前后片段的连续性。按Seedance2.5实际支持的编辑方式执行，交付编辑版与时间段对照，不能把整片重生成后未检查的结果叫作只改了指定秒数。",
+  "inputs": [
+    "原视频与准确起止时间",
+    "区间内要改的内容",
+    "区间外与区间内分别要保留的项目",
+    "目标输出规格及返修预算"
+  ],
+  "steps": [
+    "核验AI-HIVE MCP中Seedance2.5的真实时间段编辑能力，探测原片时长和帧率，将用户秒数转换为可检查的区间。",
+    "为编辑区间内外建立两份保留清单，明确只改道具、动作、视角还是声音，不把定点请求扩成整片重做。",
+    "查看边界前后关键帧和音频，记录出入动作、人物外观与环境状态，设计能连接原片的修改描述。",
+    "确认本次费用后按实际schema提交并保存任务ID，状态不明先查询；不把不支持时间控制的其他模式伪装成等价编辑。",
+    "对照原片检查目标区间和两侧边界，额外抽查区间外是否漂移，实际变化超出授权范围时标记失败并请求处理方向。",
+    "交付编辑视频、区间核查表与任务记录，列出哪些保持要求只经抽查、哪些已完整检查。"
+  ],
+  "outputs": [
+    "seedance25-timed-edit.mp4：指定区间编辑版",
+    "timed-edit-check.csv：目标区间与保留区核查",
+    "timed-edit-task.json：时间控制与真实任务记录"
+  ],
+  "checks": [
+    "编辑起止位置和原片时间基准清晰",
+    "目标修改出现且未遗漏用户要求",
+    "边界动作、外观和音轨无未报告突变",
+    "区间外非授权变化没有被隐藏"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。官方有时间戳编辑介绍不等于每个MCP端点可控。若当前工具不暴露对应能力则明确不能执行；不保证区间外逐像素不变，必须对照检测再报告。",
+  "prompt": "用Seedance2.5只改这段视频第4到7秒，把桌上的红杯换成我的蓝杯参考，其余时间和人物动作不变。先核验时间段编辑能力，完成后重点检查3到8秒边界。",
+  "sample_input": {
+    "source": "desk-scene.mp4",
+    "edit_range_seconds": [
+      4,
+      7
+    ],
+    "boundary_review_seconds": [
+      3,
+      8
+    ],
+    "change": "红杯改蓝杯",
+    "reference": "blue-cup.png",
+    "locked": [
+      "人物动作",
+      "区间外内容"
+    ]
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "seedance25-timed-edit.mp4",
+      "timed-edit-check.csv",
+      "timed-edit-task.json"
+    ],
+    "requested_range": [
+      4,
+      7
+    ],
+    "outside_range_identity_verified": false
+  },
+  "sources": [
+    "https://seed.bytedance.com/zh/seedance2_5",
+    "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+  ],
+  "novelty": "已有Seedance编辑包多为整体参考编辑；新增可定位时间段、边界和区间外保持检查，不以通用编辑标题重复铺设。"
+}

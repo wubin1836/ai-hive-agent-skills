@@ -1,0 +1,82 @@
+{
+  "slug": "ai-hive-sunburst-poster-text-fix",
+  "title": "Sunburst海报改字与多语版面保留",
+  "family": "GPT Image 2.5 Sunburst",
+  "aliases": [
+    "Sunburst",
+    "GPT Image 2.5",
+    "Image2.5改字",
+    "图片改文字",
+    "海报错字",
+    "海报翻译",
+    "原版不变改字",
+    "多语海报",
+    "英文版海报",
+    "图片文字编辑"
+  ],
+  "summary": "修改现有海报中的指定文字或制作经确认的语言版本，保护商品、品牌和原有版式。用原文与目标文案对照检查遗漏、溢出和误译，必要时将背景修复与准确排字分开执行，不承诺模型一次生成全部小字。",
+  "inputs": [
+    "现有海报原图",
+    "逐条原文与目标文案",
+    "字体、语言和版面留白约束",
+    "不得改变的图片与标识"
+  ],
+  "steps": [
+    "核验Sunburst编辑能力，读取原图尺寸与文字区域，先整理原文到目标文案的对应表，不擅自翻译价格或法律声明。",
+    "锁定图像、logo、二维码与装饰元素；目标文字更长时计算是否需要调整字号、行数或文本框，经用户确认再改布局。",
+    "把背景去字修复与准确文字绘制拆开规划，真实可用的排版工具负责需逐字精确的文字，不默认模型输出就是正确文案。",
+    "确认素材与费用后提交受控编辑，保存任务ID；有状态不明的任务先查询，不反复生图碰运气。",
+    "逐字核对目标语言、数字、标点与换行，放大检查文字边缘、旧字残影和版面溢出。",
+    "交付新海报、文案差异表及修订回执，无法准确还原字体或二维码时明确标记而不是伪称完成。"
+  ],
+  "outputs": [
+    "poster-revised.png：修订海报",
+    "poster-copy-diff.csv：原文与目标文案对照",
+    "poster-revision.json：保留区、任务及未满足项"
+  ],
+  "checks": [
+    "批准文字无漏字、错数字或未经确认改写",
+    "图片、logo和二维码保持可核对",
+    "无旧文字残影、重叠或越界",
+    "字号与换行变化均在确认范围"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。不修改票据、证件或证据以误导。二维码和条码应使用用户提供的真实资产，不能靠生成模型复刻；缺少准确排版工具时如实交付未完成状态。",
+  "prompt": "用Sunburst把海报的“9月20日开业”改为“9月28日开业”，其它字、商品和二维码不变。先给文案对照，改后逐字核验，不要重做整张版式。",
+  "sample_input": {
+    "source": "opening-poster.png",
+    "replacements": [
+      {
+        "from": "9月20日开业",
+        "to": "9月28日开业"
+      }
+    ],
+    "locked": [
+      "商品",
+      "二维码",
+      "其他文字"
+    ],
+    "language": "zh-CN"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "poster-revised.png",
+      "poster-copy-diff.csv",
+      "poster-revision.json"
+    ],
+    "copy_preview": [
+      {
+        "from": "9月20日开业",
+        "to": "9月28日开业"
+      }
+    ],
+    "qr_validation": "需实际检查"
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "novelty": "区别于通用海报设计和局部换物：以既有文字差分和非文字保留区为验收核心，补Sunburst改字搜索。"
+}

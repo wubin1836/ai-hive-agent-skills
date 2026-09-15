@@ -1,0 +1,64 @@
+{
+  "slug": "ai-hive-gpt6-ppt-story-deck",
+  "title": "GPT6 PPT生成与汇报排版助手",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6做PPT",
+    "Astra生成PPT",
+    "GPT 6汇报"
+  ],
+  "summary": "将经营材料整理成有结论、有证据的汇报PPT，适合老板、销售和项目汇报。GPT6负责叙事与每页内容，图表和文件导出由可用工具完成，减少空话页和无法解释的数据图。",
+  "inputs": [
+    "汇报材料及数据",
+    "听众与汇报时长",
+    "品牌模板"
+  ],
+  "steps": [
+    "建立结论与证据对照，缺证据的结论标记待补",
+    "按问题、发现、影响、动作规划每页主旨",
+    "设计图表类型与字段映射，不自行补充经营数值",
+    "用宿主演示工具生成PPTX，图片由AI-HIVE可用图片模型独立生成并标注",
+    "逐页检查溢出、数据单位和讲稿对应关系"
+  ],
+  "outputs": [
+    "slides.pptx：演示稿（需导出工具）",
+    "speaker-notes.md：讲稿",
+    "evidence.csv：页码证据表"
+  ],
+  "checks": [
+    "每页只有一个明确主旨",
+    "数据图与源表可核对",
+    "图片生成模型不冒称GPT6原生出图"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT6把经营表做成10页周会汇报，先指出数据缺口，结论必须对应源表，最后给讲稿。",
+  "sample_input": {
+    "pages": 10,
+    "audience": "周会",
+    "data": "经营表.xlsx"
+  },
+  "sample_output": {
+    "example_only": true,
+    "outline": [
+      {
+        "page": 1,
+        "point": "本周经营概况",
+        "source": "经营表.xlsx#汇总"
+      }
+    ],
+    "rendered": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT6 PPT生成与汇报排版助手」任务；重点是每页只有一个明确主旨，不同于旧库泛模型介绍或路由比较。"
+}

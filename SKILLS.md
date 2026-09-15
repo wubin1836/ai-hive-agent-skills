@@ -5733,3 +5733,58 @@
 | [体育场馆管理员助手](skills/ai-hive-role-sports-venue-manager/SKILL.md) | AI-HIVE | 旅游文体 |
 | [演出经纪人助手](skills/ai-hive-role-performance-agent/SKILL.md) | AI-HIVE | 旅游文体 |
 | [舞台监督助手](skills/ai-hive-role-stage-manager/SKILL.md) | AI-HIVE | 旅游文体 |
+
+## 2026-09-15 热点模型与新模型专项 Skill
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [GPT6办公助手：散乱资料变交付清单](skills/ai-hive-gpt6-office-handoff/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT-6 Word文档修改与修订助手](skills/ai-hive-gpt6-word-revision/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT6 PPT生成与汇报排版助手](skills/ai-hive-gpt6-ppt-story-deck/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT6 Excel表格公式修复助手](skills/ai-hive-gpt6-excel-formula-repair/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT Astra读PDF与多版本对照](skills/ai-hive-gpt-astra-pdf-conflict-map/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT-6代码修复与项目调试助手](skills/ai-hive-gpt6-project-bugfix/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT6网站设计与官网原型助手](skills/ai-hive-gpt6-website-from-brief/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT6数据分析助手：多表核对与归因](skills/ai-hive-gpt6-data-agent-reconcile/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT6企业客服知识库制作助手](skills/ai-hive-gpt6-support-knowledge-pack/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT6产品需求与验收用例助手](skills/ai-hive-gpt6-prd-acceptance/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT Astra截图转界面规范助手](skills/ai-hive-gpt6-screenshot-ui-spec/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [GPT6短视频脚本与制作任务单](skills/ai-hive-gpt6-script-to-production/SKILL.md) | AI-HIVE | GPT-6 Astra |
+| [DeepSeek4.1看图识表与数据提取](skills/ai-hive-deepseek41-image-table-extract/SKILL.md) | AI-HIVE | DeepSeek V4.1-Flash |
+| [DeepSeek V4.1代码助手与回归测试](skills/ai-hive-deepseek41-code-patch-tests/SKILL.md) | AI-HIVE | DeepSeek V4.1-Flash |
+| [DeepSeek4.1后台页面与管理系统原型](skills/ai-hive-deepseek41-dashboard-prototype/SKILL.md) | AI-HIVE | DeepSeek V4.1-Flash |
+| [DeepSeek4.1企业问答与客服话术助手](skills/ai-hive-deepseek41-enterprise-faq/SKILL.md) | AI-HIVE | DeepSeek V4.1-Flash |
+| [DeepSeek4.1 SQL生成与只读查询助手](skills/ai-hive-deepseek41-sql-readonly/SKILL.md) | AI-HIVE | DeepSeek V4.1-Flash |
+| [DeepSeek4.1截图制作操作手册](skills/ai-hive-deepseek41-visual-manual/SKILL.md) | AI-HIVE | DeepSeek V4.1-Flash |
+| [DeepSeek V4.1接口升级与别名核验](skills/ai-hive-deepseek41-version-cutover/SKILL.md) | AI-HIVE | DeepSeek V4.1-Flash |
+| [DeepSeek4.1与GPT6同任务成本对比](skills/ai-hive-deepseek41-gpt6-task-benchmark/SKILL.md) | AI-HIVE | DeepSeek V4.1-Flash |
+| [GPT Live语音客服与转人工方案](skills/ai-hive-gpt-live-customer-voice-plan/SKILL.md) | AI-HIVE | GPT-Live 1 |
+| [GPT-Live英语口语陪练配置助手](skills/ai-hive-gpt-live-speaking-coach-plan/SKILL.md) | AI-HIVE | GPT-Live 1 |
+| [GPT Live销售演练与语音复盘方案](skills/ai-hive-gpt-live-sales-rehearsal/SKILL.md) | AI-HIVE | GPT-Live 1 |
+| [GPT-Live语音与后台任务协同助手](skills/ai-hive-gpt-live-backend-delegation/SKILL.md) | AI-HIVE | GPT-Live 1 |
+| [Agents API长任务会话与恢复方案](skills/ai-hive-agents-api-session-recovery/SKILL.md) | AI-HIVE | Agents API |
+| [Agents API接入AI-HIVE MCP权限清单](skills/ai-hive-agents-api-mcp-boundary/SKILL.md) | AI-HIVE | Agents API |
+| [Image2.5图片生成与编辑](skills/ai-hive-image25-generate-edit/SKILL.md) | AI-HIVE | GPT Image 2.5 |
+| [GPT Image 2.5商品图制作](skills/ai-hive-gpt-image25-product-shot/SKILL.md) | AI-HIVE | GPT Image 2.5 Sunburst |
+| [Sunburst色卡换色与商品色差核对](skills/ai-hive-sunburst-swatch-recolor/SKILL.md) | AI-HIVE | GPT Image 2.5 Sunburst |
+| [Sunburst反光商品修图与高光控制](skills/ai-hive-sunburst-reflection-repair/SKILL.md) | AI-HIVE | GPT Image 2.5 Sunburst |
+| [Sunburst包装换版与标签信息核对](skills/ai-hive-sunburst-package-version/SKILL.md) | AI-HIVE | GPT Image 2.5 Sunburst |
+| [Sunburst多参考图合成与元素归属核对](skills/ai-hive-sunburst-reference-composite/SKILL.md) | AI-HIVE | GPT Image 2.5 Sunburst |
+| [Sunburst海报改字与多语版面保留](skills/ai-hive-sunburst-poster-text-fix/SKILL.md) | AI-HIVE | GPT Image 2.5 Sunburst |
+| [Sunburst手部修图与持物关系修复](skills/ai-hive-sunburst-hand-contact-fix/SKILL.md) | AI-HIVE | GPT Image 2.5 Sunburst |
+| [Sunburst扩图补景与主体位置保留](skills/ai-hive-sunburst-outpaint-layout/SKILL.md) | AI-HIVE | GPT Image 2.5 Sunburst |
+| [Sunburst建筑效果改图与日夜光照方案](skills/ai-hive-sunburst-architecture-light/SKILL.md) | AI-HIVE | GPT Image 2.5 Sunburst |
+| [Flare广告生图与三案创意比较](skills/ai-hive-flare-ad-concept-board/SKILL.md) | AI-HIVE | GPT Image 2.5 Flare |
+| [Flare文章配图与事实边界检查](skills/ai-hive-flare-editorial-illustration/SKILL.md) | AI-HIVE | GPT Image 2.5 Flare |
+| [Flare空状态插画与界面资源小套件](skills/ai-hive-flare-ui-empty-states/SKILL.md) | AI-HIVE | GPT Image 2.5 Flare |
+| [Flare游戏道具图标与缩略可读性检查](skills/ai-hive-flare-game-prop-icons/SKILL.md) | AI-HIVE | GPT Image 2.5 Flare |
+| [Flare分镜预演图与镜头连续性检查](skills/ai-hive-flare-shot-previsualization/SKILL.md) | AI-HIVE | GPT Image 2.5 Flare |
+| [Image2.5同题试图与Sunburst和Flare选择](skills/ai-hive-image25-sunburst-flare-trial/SKILL.md) | AI-HIVE | GPT Image 2.5 |
+| [万相3产品资料做视频与原文溯源](skills/ai-hive-wan3-public-brief-video/SKILL.md) | AI-HIVE | Wan3 / 万相3 |
+| [Wan3多素材参考成片与输入组合核对](skills/ai-hive-wan3-reference-combination/SKILL.md) | AI-HIVE | Wan3 / 万相3 |
+| [万相3视频续接与片尾接缝检查](skills/ai-hive-wan3-video-seam-extension/SKILL.md) | AI-HIVE | Wan3 / 万相3 |
+| [万相3双语台词短片与字幕逐句核对](skills/ai-hive-wan3-bilingual-dialogue-film/SKILL.md) | AI-HIVE | Wan3 / 万相3 |
+| [Seedance2.5指定时间段改视频与前后保留](skills/ai-hive-seedance25-timestamp-edit/SKILL.md) | AI-HIVE | Seedance 2.5 |
+| [Seedance2.5白模参考成片与动作路径对照](skills/ai-hive-seedance25-clay-render-video/SKILL.md) | AI-HIVE | Seedance 2.5 |
+| [Seedance2.5绿幕换景与人物边缘检查](skills/ai-hive-seedance25-green-screen-scene/SKILL.md) | AI-HIVE | Seedance 2.5 |
+| [Seedance2.5成片音画验收与返修时间单](skills/ai-hive-seedance25-audiovisual-review/SKILL.md) | AI-HIVE | Seedance 2.5 |

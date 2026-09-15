@@ -1,0 +1,83 @@
+{
+  "slug": "ai-hive-flare-ui-empty-states",
+  "title": "Flare空状态插画与界面资源小套件",
+  "family": "GPT Image 2.5 Flare",
+  "aliases": [
+    "Flare",
+    "GPT Image 2.5 Flare",
+    "Image2.5插画",
+    "空状态插画",
+    "UI插画",
+    "没有数据插图",
+    "搜索无结果插图",
+    "加载失败插画",
+    "界面资源",
+    "产品设计插图"
+  ],
+  "summary": "为没有数据、搜索无结果和加载失败等界面状态制作少量一致的位图插画。先定义每个状态的语义、情绪和留白，再按统一视觉规则生成并检查，交付可供开发接入的资源清单，不假称模型直接产出矢量或组件代码。",
+  "inputs": [
+    "需要覆盖的界面状态及其含义",
+    "品牌配色和插画风格参考",
+    "插画框尺寸、背景色和文字安全区",
+    "不应出现的隐喻与角色"
+  ],
+  "steps": [
+    "核验Flare图像生成模式与支持尺寸，和用户确认状态清单；区分无内容、权限不足和网络失败，避免同图误导用户。",
+    "建立统一形状、描边观感、色彩和透视规则，将状态文案留给真实UI文本，不让模型把小字画进图片。",
+    "为各状态选择不同但语义明确的主体与动作，限制颜色和元素数量，保留按钮与标题区域。",
+    "确认张数与费用后先生成一个基准状态，经认可再提交其余状态，记录状态ID及各任务ID。",
+    "在目标框实际缩放检查可辨性、边缘和背景适配，核查状态之间的一致性；透明背景仅在真实支持并检查Alpha后声明。",
+    "交付位图资源、状态映射清单与预览板，不把PNG称为SVG或已实现的交互组件。"
+  ],
+  "outputs": [
+    "empty-states-preview.png：状态资源预览板",
+    "empty-state-assets.json：各状态图片路径与尺寸",
+    "empty-state-spec.md：设计约束与接入说明"
+  ],
+  "checks": [
+    "每个状态语义明确且不混淆错误原因",
+    "目标UI尺寸下主体仍可辨认",
+    "色彩、视角和留白符合统一规格",
+    "透明通道、文件格式与实际一致"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。本包生成位图插画，不直接交付矢量路径或前端组件。若宿主缺少测量或合成工具，只交付真实原图和缺项，不声称已完成UI集成。",
+  "prompt": "用Flare给我的记账应用做三张无文字空状态插画：尚无记录、搜索无结果、网络失败。统一蓝绿色和圆润几何风，给标题与按钮留白，只交付图片和状态映射。",
+  "sample_input": {
+    "states": [
+      "no-records",
+      "no-results",
+      "network-error"
+    ],
+    "palette": [
+      "蓝绿",
+      "米白"
+    ],
+    "style": "圆润几何",
+    "frame_px": [
+      480,
+      320
+    ],
+    "text_in_image": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "empty-states-preview.png",
+      "empty-state-assets.json",
+      "empty-state-spec.md"
+    ],
+    "asset_ids": [
+      "no-records",
+      "no-results",
+      "network-error"
+    ],
+    "deliverable_type": "raster-not-svg"
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare"
+  ],
+  "novelty": "旧网站设计覆盖整个页面；此包只交付有明确语义状态映射的Flare位图资源，不重复生成完整网站或logo。"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "ai-hive-gpt-live-speaking-coach-plan",
+  "title": "GPT-Live英语口语陪练配置助手",
+  "family": "GPT-Live 1",
+  "aliases": [
+    "GPT-Live",
+    "GPT Live",
+    "GPT-Live 1",
+    "GPT Live 1",
+    "GPTLive",
+    "GPTLive1",
+    "全双工语音",
+    "实时语音Agent",
+    "GPTLive口语",
+    "GPT Live英语陪练",
+    "实时语音外教"
+  ],
+  "summary": "为口语练习设计可打断的角色对话、纠错时机和复盘记录，适合学习者与培训团队。先通过AI-HIVE制作课程与测评资产，再在用户已具备的语音客户端验证，不虚构发音分数。",
+  "inputs": [
+    "语言水平",
+    "练习场景",
+    "纠错偏好"
+  ],
+  "steps": [
+    "设定交流目标和难度，避免一次塞入过多词汇",
+    "写角色目标而非固定逐句对答",
+    "区分影响理解的错误与练习后复盘项",
+    "安排打断、重复、听不清与退出练习分支",
+    "有实际录音才进行发音复核，否则仅评文本表达"
+  ],
+  "outputs": [
+    "lesson.json：练习配置",
+    "dialogue-cases.md：场景集",
+    "review-template.csv：复盘记录"
+  ],
+  "checks": [
+    "没有音频不打发音分",
+    "用户可随时停止",
+    "角色不是冒充真实老师"
+  ],
+  "boundary": "本Skill制作接入方案、对话策略和测试材料，不承诺AI-HIVE已支持GPT-Live或电话网关。实时演示需用户已有兼容音频客户端、后台工具与对应模型权限；不能以文本脚本冒充真实语音成品，不自动外呼。",
+  "prompt": "做GPT-Live机场英语陪练配置，我是初级，先不要逐句打断纠错，练习后给表达复盘。",
+  "sample_input": {
+    "level": "初级",
+    "scene": "机场",
+    "correction": "结束后"
+  },
+  "sample_output": {
+    "example_only": true,
+    "goal": "确认登机口",
+    "audio_evaluated": false,
+    "pronunciation_score": null
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-live-1",
+    "https://developers.openai.com/api/docs/guides/live"
+  ],
+  "novelty": "以GPT-Live 1的新版本搜索入口承接「GPT-Live英语口语陪练配置助手」任务；重点是没有音频不打发音分，不同于旧库泛模型介绍或路由比较。"
+}

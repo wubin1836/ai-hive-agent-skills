@@ -1,0 +1,76 @@
+{
+  "slug": "ai-hive-sunburst-outpaint-layout",
+  "title": "Sunburst扩图补景与主体位置保留",
+  "family": "GPT Image 2.5 Sunburst",
+  "aliases": [
+    "Sunburst",
+    "GPT Image 2.5",
+    "Image2.5扩图",
+    "图片扩边",
+    "横图变竖图",
+    "扩图补景",
+    "保持主体扩图",
+    "海报留白",
+    "画面延展",
+    "Outpainting"
+  ],
+  "summary": "将已有图片扩展到新画幅，为文案或平台版式留出空间，同时检查主体位置、尺度和原有地平线。区分生成补景与简单裁切，交付原图落位图和扩展结果；不承诺模型能逐像素保护原图，应按实际工具核验。",
+  "inputs": [
+    "原图与目标像素或比例",
+    "原图在新画布中的锚点",
+    "主体和重要细节保护区",
+    "留白用途与禁止新增元素"
+  ],
+  "steps": [
+    "核验Sunburst编辑模式及目标尺寸支持情况，记录原图像素和新画布，算出扩展方向与边距。",
+    "标注主体包围框、眼平线或地平线以及文案安全区，确认是加画布不是移动或缩放主体。",
+    "提示词只描述新增画布应延续的材质、光照和空间，不把允许补背景误解为可重画主体。",
+    "确认上传及费用后提交一版扩图，记录任务ID；若工具不支持原图区域保持，提前说明需要额外对照或合成。",
+    "将原图落位到结果坐标做对照，检查主体尺度、边缘接缝、透视延续和新增元素，保留区偏移不得隐藏。",
+    "输出扩展图、落位参数与检查记录；需宿主准确合成时只在实际工具可用且用户同意后执行。"
+  ],
+  "outputs": [
+    "image-outpainted.png：扩展画幅结果",
+    "canvas-placement.json：原图锚点与边距",
+    "outpaint-review.json：保留区和接缝检查"
+  ],
+  "checks": [
+    "目标比例与原图落位参数有明确记录",
+    "主体尺度及位置符合确认容差",
+    "扩展边缘无明显接缝或透视突变",
+    "文案留白区域没有意外主体或文字"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。如果实时模型无法保持未编辑区域，不声称原图像素完全不变；不能把裁切造成的主体丢失当扩图完成。精确贴回原图属于单独的宿主合成步骤。",
+  "prompt": "用Sunburst把这张4:3山景扩成9:16壁纸，山峰位置和大小不动，向上补天空给时间留白。先计算原图落位，扩图后对照山峰有没变化。",
+  "sample_input": {
+    "source": "mountain-4x3.png",
+    "target_ratio": "9:16",
+    "anchor": "bottom-center",
+    "extend": "top",
+    "locked": [
+      "山峰位置",
+      "山峰尺度"
+    ],
+    "safe_area": "顶部时间区域"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "image-outpainted.png",
+      "canvas-placement.json",
+      "outpaint-review.json"
+    ],
+    "placement_preview": {
+      "anchor": "bottom-center",
+      "extension": "top"
+    },
+    "pixel_identity_claim": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "novelty": "旧多尺寸海报适配以重排为主；此包明确扩展画布、原图坐标落位和生成接缝检查，补Image2.5扩图入口。"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "ai-hive-deepseek41-code-patch-tests",
+  "title": "DeepSeek V4.1代码助手与回归测试",
+  "family": "DeepSeek V4.1-Flash",
+  "aliases": [
+    "DeepSeek V4.1-Flash",
+    "DeepSeek-V4.1-Flash",
+    "DeepSeek V4.1 Flash",
+    "DeepSeek4.1",
+    "DeepSeek 4.1",
+    "DeepSeekV4.1",
+    "deepseek-flash",
+    "深度求索4.1",
+    "DeepSeek4.1编程",
+    "DeepSeek V4.1写代码",
+    "DeepSeek Flash调试"
+  ],
+  "summary": "用DeepSeek V4.1-Flash辅助理解错误日志、生成最小补丁和测试，适合低预算开发与维护项目。将模型输出作为待审代码，在本地真实运行验证，不依据榜单推断项目效果。",
+  "inputs": [
+    "项目与报错",
+    "测试命令",
+    "预算上限"
+  ],
+  "steps": [
+    "建立最小复现并记录现有测试状态",
+    "提取相关代码片段，脱敏后才允许发送",
+    "让模型提出根因和最小修改并检查依赖影响",
+    "在隔离副本应用补丁，运行针对性回归",
+    "记录消耗与结果，不合格则停止而非无限反复调用"
+  ],
+  "outputs": [
+    "fix.diff：补丁",
+    "regression.txt：测试记录",
+    "cost-log.csv：实际用量"
+  ],
+  "checks": [
+    "修复经过真实测试",
+    "预算耗尽停止",
+    "不自动合并PR"
+  ],
+  "boundary": "官方模型名和AI-HIVE渠道ID分开核验，不把其他DeepSeek版本当V4.1-Flash。只有运行时存在对应视觉或文本工具才调用；未接入时停在准备阶段。不得绕过源系统权限。",
+  "prompt": "用DeepSeek V4.1修这个分页bug，只生成小补丁，测试不通过不要提交，先让我看预计调用次数。",
+  "sample_input": {
+    "bug": "末页重复一条",
+    "test_command": "项目既有命令"
+  },
+  "sample_output": {
+    "example_only": true,
+    "repro_case": "页大小10，总数21",
+    "expected": "末页1条",
+    "executed": false
+  },
+  "sources": [
+    "https://api-docs.deepseek.com/zh-cn/updates/"
+  ],
+  "novelty": "以DeepSeek V4.1-Flash的新版本搜索入口承接「DeepSeek V4.1代码助手与回归测试」任务；重点是修复经过真实测试，不同于旧库泛模型介绍或路由比较。"
+}

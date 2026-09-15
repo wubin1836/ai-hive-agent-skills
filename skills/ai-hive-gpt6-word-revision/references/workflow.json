@@ -1,0 +1,64 @@
+{
+  "slug": "ai-hive-gpt6-word-revision",
+  "title": "GPT-6 Word文档修改与修订助手",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6 Word",
+    "GPT6改文档",
+    "GPT Astra修订"
+  ],
+  "summary": "按批注意见修改Word稿件，保存原稿和改动理由，适合方案、通知与企业说明文档。用GPT-6处理语义修订，配合宿主文档工具保留标题、表格和引用，交付可核对的新版本。",
+  "inputs": [
+    "原始docx与修改意见",
+    "不可修改条款",
+    "期望文风"
+  ],
+  "steps": [
+    "提取段落编号、表格和批注锚点，保存原文件校验值",
+    "把每条意见映射到段落，定位冲突修改要求",
+    "仅重写被授权段落并记录前后对照",
+    "由可用文档工具导出新docx，不覆盖原件",
+    "回读导出稿检查表格、页眉和未解决批注"
+  ],
+  "outputs": [
+    "revised.docx：修改稿（需文档工具）",
+    "changes.csv：修订记录",
+    "unresolved.md：未决意见"
+  ],
+  "checks": [
+    "原文件未覆盖",
+    "每条意见有处理状态",
+    "无工具时不声称已生成docx"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT-6按意见表修改方案.docx，保留报价表和所有数字，不覆盖原件，给我修订对照。",
+  "sample_input": {
+    "file": "方案.docx",
+    "protected": [
+      "报价表"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "changed_sections": [
+      "背景"
+    ],
+    "protected_preserved": [
+      "报价表"
+    ],
+    "export_status": "示例待执行"
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT-6 Word文档修改与修订助手」任务；重点是原文件未覆盖，不同于旧库泛模型介绍或路由比较。"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "ai-hive-deepseek41-visual-manual",
+  "title": "DeepSeek4.1截图制作操作手册",
+  "family": "DeepSeek V4.1-Flash",
+  "aliases": [
+    "DeepSeek V4.1-Flash",
+    "DeepSeek-V4.1-Flash",
+    "DeepSeek V4.1 Flash",
+    "DeepSeek4.1",
+    "DeepSeek 4.1",
+    "DeepSeekV4.1",
+    "deepseek-flash",
+    "深度求索4.1",
+    "DeepSeek4.1教程生成",
+    "深度求索截图写文档",
+    "DeepSeek看图说明"
+  ],
+  "summary": "把多张操作截图编成顺序清楚、可复核的使用指南，适合培训、客户交付和企业内训。模型辅助识别控件，缺失步骤与不可见交互单独标出，减少看似完整却无法操作的说明。",
+  "inputs": [
+    "按顺序的截图",
+    "操作目标",
+    "受众经验"
+  ],
+  "steps": [
+    "逐张提取页面标题、可见控件与状态",
+    "核对截图连续性，发现跳步则索取说明",
+    "为每一步写前置条件、操作与成功状态",
+    "屏蔽截图中的个人数据和凭证",
+    "生成教程并让用户按截图路径走查"
+  ],
+  "outputs": [
+    "manual.md：操作手册",
+    "step-map.csv：截图步骤映射",
+    "missing-shots.md：补图清单"
+  ],
+  "checks": [
+    "每步对应截图",
+    "不编造隐藏菜单",
+    "敏感字段脱敏"
+  ],
+  "boundary": "官方模型名和AI-HIVE渠道ID分开核验，不把其他DeepSeek版本当V4.1-Flash。只有运行时存在对应视觉或文本工具才调用；未接入时停在准备阶段。不得绕过源系统权限。",
+  "prompt": "用DeepSeek4.1把这些后台截图编成新员工教程，缺少的步骤列出来，不猜菜单位置。",
+  "sample_input": {
+    "images": [
+      "01.png",
+      "02.png",
+      "04.png"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "missing_steps": [
+      "需核实02到04之间操作"
+    ],
+    "publish_ready": false
+  },
+  "sources": [
+    "https://api-docs.deepseek.com/zh-cn/updates/"
+  ],
+  "novelty": "以DeepSeek V4.1-Flash的新版本搜索入口承接「DeepSeek4.1截图制作操作手册」任务；重点是每步对应截图，不同于旧库泛模型介绍或路由比较。"
+}

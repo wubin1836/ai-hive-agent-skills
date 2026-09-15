@@ -47366,5 +47366,455 @@
     "batch": "occupational-assistants-360-20260912",
     "path": "skills/ai-hive-role-stage-manager",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-office-handoff",
+    "display_name": "GPT6办公助手：散乱资料变交付清单",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-office-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-word-revision",
+    "display_name": "GPT-6 Word文档修改与修订助手",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-word-revision",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-ppt-story-deck",
+    "display_name": "GPT6 PPT生成与汇报排版助手",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-ppt-story-deck",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-excel-formula-repair",
+    "display_name": "GPT6 Excel表格公式修复助手",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-excel-formula-repair",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-astra-pdf-conflict-map",
+    "display_name": "GPT Astra读PDF与多版本对照",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt-astra-pdf-conflict-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-project-bugfix",
+    "display_name": "GPT-6代码修复与项目调试助手",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-project-bugfix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-website-from-brief",
+    "display_name": "GPT6网站设计与官网原型助手",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-website-from-brief",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-data-agent-reconcile",
+    "display_name": "GPT6数据分析助手：多表核对与归因",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-data-agent-reconcile",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-support-knowledge-pack",
+    "display_name": "GPT6企业客服知识库制作助手",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-support-knowledge-pack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-prd-acceptance",
+    "display_name": "GPT6产品需求与验收用例助手",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-prd-acceptance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-screenshot-ui-spec",
+    "display_name": "GPT Astra截图转界面规范助手",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-screenshot-ui-spec",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt6-script-to-production",
+    "display_name": "GPT6短视频脚本与制作任务单",
+    "category": "GPT-6 Astra",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt6-script-to-production",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-deepseek41-image-table-extract",
+    "display_name": "DeepSeek4.1看图识表与数据提取",
+    "category": "DeepSeek V4.1-Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-deepseek41-image-table-extract",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-deepseek41-code-patch-tests",
+    "display_name": "DeepSeek V4.1代码助手与回归测试",
+    "category": "DeepSeek V4.1-Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-deepseek41-code-patch-tests",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-deepseek41-dashboard-prototype",
+    "display_name": "DeepSeek4.1后台页面与管理系统原型",
+    "category": "DeepSeek V4.1-Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-deepseek41-dashboard-prototype",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-deepseek41-enterprise-faq",
+    "display_name": "DeepSeek4.1企业问答与客服话术助手",
+    "category": "DeepSeek V4.1-Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-deepseek41-enterprise-faq",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-deepseek41-sql-readonly",
+    "display_name": "DeepSeek4.1 SQL生成与只读查询助手",
+    "category": "DeepSeek V4.1-Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-deepseek41-sql-readonly",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-deepseek41-visual-manual",
+    "display_name": "DeepSeek4.1截图制作操作手册",
+    "category": "DeepSeek V4.1-Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-deepseek41-visual-manual",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-deepseek41-version-cutover",
+    "display_name": "DeepSeek V4.1接口升级与别名核验",
+    "category": "DeepSeek V4.1-Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-deepseek41-version-cutover",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-deepseek41-gpt6-task-benchmark",
+    "display_name": "DeepSeek4.1与GPT6同任务成本对比",
+    "category": "DeepSeek V4.1-Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-deepseek41-gpt6-task-benchmark",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-live-customer-voice-plan",
+    "display_name": "GPT Live语音客服与转人工方案",
+    "category": "GPT-Live 1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt-live-customer-voice-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-live-speaking-coach-plan",
+    "display_name": "GPT-Live英语口语陪练配置助手",
+    "category": "GPT-Live 1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt-live-speaking-coach-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-live-sales-rehearsal",
+    "display_name": "GPT Live销售演练与语音复盘方案",
+    "category": "GPT-Live 1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt-live-sales-rehearsal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-live-backend-delegation",
+    "display_name": "GPT-Live语音与后台任务协同助手",
+    "category": "GPT-Live 1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt-live-backend-delegation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agents-api-session-recovery",
+    "display_name": "Agents API长任务会话与恢复方案",
+    "category": "Agents API",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-agents-api-session-recovery",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agents-api-mcp-boundary",
+    "display_name": "Agents API接入AI-HIVE MCP权限清单",
+    "category": "Agents API",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-agents-api-mcp-boundary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-image25-generate-edit",
+    "display_name": "Image2.5图片生成与编辑",
+    "category": "GPT Image 2.5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-image25-generate-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-image25-product-shot",
+    "display_name": "GPT Image 2.5商品图制作",
+    "category": "GPT Image 2.5 Sunburst",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-gpt-image25-product-shot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sunburst-swatch-recolor",
+    "display_name": "Sunburst色卡换色与商品色差核对",
+    "category": "GPT Image 2.5 Sunburst",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-sunburst-swatch-recolor",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sunburst-reflection-repair",
+    "display_name": "Sunburst反光商品修图与高光控制",
+    "category": "GPT Image 2.5 Sunburst",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-sunburst-reflection-repair",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sunburst-package-version",
+    "display_name": "Sunburst包装换版与标签信息核对",
+    "category": "GPT Image 2.5 Sunburst",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-sunburst-package-version",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sunburst-reference-composite",
+    "display_name": "Sunburst多参考图合成与元素归属核对",
+    "category": "GPT Image 2.5 Sunburst",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-sunburst-reference-composite",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sunburst-poster-text-fix",
+    "display_name": "Sunburst海报改字与多语版面保留",
+    "category": "GPT Image 2.5 Sunburst",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-sunburst-poster-text-fix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sunburst-hand-contact-fix",
+    "display_name": "Sunburst手部修图与持物关系修复",
+    "category": "GPT Image 2.5 Sunburst",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-sunburst-hand-contact-fix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sunburst-outpaint-layout",
+    "display_name": "Sunburst扩图补景与主体位置保留",
+    "category": "GPT Image 2.5 Sunburst",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-sunburst-outpaint-layout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sunburst-architecture-light",
+    "display_name": "Sunburst建筑效果改图与日夜光照方案",
+    "category": "GPT Image 2.5 Sunburst",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-sunburst-architecture-light",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-flare-ad-concept-board",
+    "display_name": "Flare广告生图与三案创意比较",
+    "category": "GPT Image 2.5 Flare",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-flare-ad-concept-board",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-flare-editorial-illustration",
+    "display_name": "Flare文章配图与事实边界检查",
+    "category": "GPT Image 2.5 Flare",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-flare-editorial-illustration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-flare-ui-empty-states",
+    "display_name": "Flare空状态插画与界面资源小套件",
+    "category": "GPT Image 2.5 Flare",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-flare-ui-empty-states",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-flare-game-prop-icons",
+    "display_name": "Flare游戏道具图标与缩略可读性检查",
+    "category": "GPT Image 2.5 Flare",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-flare-game-prop-icons",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-flare-shot-previsualization",
+    "display_name": "Flare分镜预演图与镜头连续性检查",
+    "category": "GPT Image 2.5 Flare",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-flare-shot-previsualization",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-image25-sunburst-flare-trial",
+    "display_name": "Image2.5同题试图与Sunburst和Flare选择",
+    "category": "GPT Image 2.5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-image25-sunburst-flare-trial",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-wan3-public-brief-video",
+    "display_name": "万相3产品资料做视频与原文溯源",
+    "category": "Wan3 / 万相3",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-wan3-public-brief-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-wan3-reference-combination",
+    "display_name": "Wan3多素材参考成片与输入组合核对",
+    "category": "Wan3 / 万相3",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-wan3-reference-combination",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-wan3-video-seam-extension",
+    "display_name": "万相3视频续接与片尾接缝检查",
+    "category": "Wan3 / 万相3",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-wan3-video-seam-extension",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-wan3-bilingual-dialogue-film",
+    "display_name": "万相3双语台词短片与字幕逐句核对",
+    "category": "Wan3 / 万相3",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-wan3-bilingual-dialogue-film",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedance25-timestamp-edit",
+    "display_name": "Seedance2.5指定时间段改视频与前后保留",
+    "category": "Seedance 2.5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-seedance25-timestamp-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedance25-clay-render-video",
+    "display_name": "Seedance2.5白模参考成片与动作路径对照",
+    "category": "Seedance 2.5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-seedance25-clay-render-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedance25-green-screen-scene",
+    "display_name": "Seedance2.5绿幕换景与人物边缘检查",
+    "category": "Seedance 2.5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-seedance25-green-screen-scene",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedance25-audiovisual-review",
+    "display_name": "Seedance2.5成片音画验收与返修时间单",
+    "category": "Seedance 2.5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-热点模型与新概念搜索补充-20260915",
+    "path": "skills/ai-hive-seedance25-audiovisual-review",
+    "language": "zh-CN"
   }
 ]

@@ -1,0 +1,64 @@
+{
+  "slug": "ai-hive-deepseek41-dashboard-prototype",
+  "title": "DeepSeek4.1后台页面与管理系统原型",
+  "family": "DeepSeek V4.1-Flash",
+  "aliases": [
+    "DeepSeek V4.1-Flash",
+    "DeepSeek-V4.1-Flash",
+    "DeepSeek V4.1 Flash",
+    "DeepSeek4.1",
+    "DeepSeek 4.1",
+    "DeepSeekV4.1",
+    "deepseek-flash",
+    "深度求索4.1",
+    "DeepSeek4.1做网站",
+    "DeepSeek后台生成",
+    "深度求索管理系统"
+  ],
+  "summary": "为小企业和开发者把业务字段、页面截图转成可预览后台原型。DeepSeek4.1处理需求与代码，宿主本地运行页面，交付表格、筛选与空状态演示，不连接真实生产数据库。",
+  "inputs": [
+    "字段字典",
+    "角色与业务流程",
+    "页面参考"
+  ],
+  "steps": [
+    "梳理实体、列表列与筛选条件",
+    "按角色区分可见字段，不在前端伪装权限安全",
+    "用人工示例数据实现列表、详情和编辑表单",
+    "添加空数据、校验失败与加载状态",
+    "本地预览并验证交互，列出真实后端接口缺口"
+  ],
+  "outputs": [
+    "prototype/：前端原型",
+    "mock-data.json：演示数据",
+    "api-contract.md：接口约定"
+  ],
+  "checks": [
+    "不包含真实客户数据",
+    "空状态可运行",
+    "演示不冒充生产系统"
+  ],
+  "boundary": "官方模型名和AI-HIVE渠道ID分开核验，不把其他DeepSeek版本当V4.1-Flash。只有运行时存在对应视觉或文本工具才调用；未接入时停在准备阶段。不得绕过源系统权限。",
+  "prompt": "用DeepSeek4.1做订单后台原型，字段是订单号、金额和状态，用假数据，不接生产库。",
+  "sample_input": {
+    "columns": [
+      "订单号",
+      "金额",
+      "状态"
+    ],
+    "use_real_data": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mock_record": {
+      "order_id": "DEMO-001",
+      "amount": 100,
+      "status": "待处理"
+    },
+    "production_connected": false
+  },
+  "sources": [
+    "https://api-docs.deepseek.com/zh-cn/updates/"
+  ],
+  "novelty": "以DeepSeek V4.1-Flash的新版本搜索入口承接「DeepSeek4.1后台页面与管理系统原型」任务；重点是不包含真实客户数据，不同于旧库泛模型介绍或路由比较。"
+}

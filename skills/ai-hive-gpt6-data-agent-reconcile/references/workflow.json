@@ -1,0 +1,59 @@
+{
+  "slug": "ai-hive-gpt6-data-agent-reconcile",
+  "title": "GPT6数据分析助手：多表核对与归因",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6数据分析",
+    "GPT6 Data Agent",
+    "Astra报表"
+  ],
+  "summary": "用GPT6将多张经营表的口径、异常和趋势核对清楚，适合运营主管与中小企业负责人。先用代码计算再由模型解释，提供可复算的数据报告，避免把相关性说成业务因果。",
+  "inputs": [
+    "CSV或工作簿",
+    "字段含义与统计周期",
+    "待回答问题"
+  ],
+  "steps": [
+    "检测重复键、日期区间、单位与缺失字段",
+    "按用户口径建立关联规则，记录未匹配记录",
+    "在本地用确定性计算汇总指标与变化",
+    "让GPT6基于实际汇总提出解释，并分别标记事实与假设",
+    "输出复算脚本及源文件指纹，抽检关键指标"
+  ],
+  "outputs": [
+    "analysis.md：经营分析",
+    "metrics.csv：指标结果",
+    "reproduce.py：复算脚本"
+  ],
+  "checks": [
+    "每个数值可复算",
+    "异常连接不静默丢行",
+    "不把相关性冒充因果"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT6核对订单表和退款表，计算净收入，分开解释真实结果和可能原因，给我复算脚本。",
+  "sample_input": {
+    "orders": "orders.csv",
+    "refunds": "refunds.csv",
+    "join_key": "order_id"
+  },
+  "sample_output": {
+    "example_only": true,
+    "metrics_status": "待计算",
+    "unmatched_rows": [],
+    "hypotheses": []
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT6数据分析助手：多表核对与归因」任务；重点是每个数值可复算，不同于旧库泛模型介绍或路由比较。"
+}

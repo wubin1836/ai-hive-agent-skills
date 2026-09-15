@@ -1,0 +1,62 @@
+{
+  "slug": "ai-hive-gpt6-screenshot-ui-spec",
+  "title": "GPT Astra截图转界面规范助手",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6识图",
+    "GPT Astra截图分析",
+    "GPT6设计交接"
+  ],
+  "summary": "从获授权的界面截图整理布局、组件和交互待确认项，适合设计交接与旧系统升级。GPT Astra辅助视觉理解，不把图片中的未知交互当事实，可进一步通过宿主前端工具制作原型。",
+  "inputs": [
+    "界面截图",
+    "目标设备尺寸",
+    "可改与不可改区域"
+  ],
+  "steps": [
+    "标注截图分辨率、页面区域和阅读顺序",
+    "提取可见文字、控件状态与重复组件",
+    "把可观察事实与推测交互分开记录",
+    "生成间距、颜色、字体与组件规范草案",
+    "用原图逐区比对，标记遮挡或无法识别部分"
+  ],
+  "outputs": [
+    "ui-spec.md：界面规范",
+    "components.csv：组件清单",
+    "questions.md：交互待确认"
+  ],
+  "checks": [
+    "不臆造截图之外功能",
+    "可见文字逐项核对",
+    "设计复用需素材权利"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT Astra分析后台截图，做组件规范，没看到的点击行为不要猜，标出需要产品经理确认的地方。",
+  "sample_input": {
+    "screenshot": "dashboard.png",
+    "width": 1440
+  },
+  "sample_output": {
+    "example_only": true,
+    "observed": [
+      "左侧导航"
+    ],
+    "inferred_interactions": [],
+    "unknown": [
+      "按钮点击结果"
+    ]
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT Astra截图转界面规范助手」任务；重点是不臆造截图之外功能，不同于旧库泛模型介绍或路由比较。"
+}

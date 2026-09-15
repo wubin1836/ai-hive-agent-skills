@@ -1,0 +1,76 @@
+{
+  "slug": "ai-hive-sunburst-reflection-repair",
+  "title": "Sunburst反光商品修图与高光控制",
+  "family": "GPT Image 2.5 Sunburst",
+  "aliases": [
+    "Sunburst",
+    "GPT Image 2.5",
+    "Image2.5修图",
+    "反光修图",
+    "去眩光",
+    "玻璃商品图",
+    "金属产品修图",
+    "高光调整",
+    "包装反光",
+    "珠宝反光"
+  ],
+  "summary": "处理玻璃、金属和亮面包装上的遮挡性反光，在不改造商品结构与标识的前提下改善可读性。先区分真实材质高光和需要修复的眩光，再交付局部修图与对照记录；信息被完全遮挡时要求补拍，不凭空复原。",
+  "inputs": [
+    "原始高分辨率商品照片",
+    "需要改善的反光区域",
+    "可用于核对的同商品细节照",
+    "材质、颜色与可接受修图程度"
+  ],
+  "steps": [
+    "核验Sunburst当前图像编辑能力，检查照片是否存在过曝截断；把无法从图像恢复的标签或刻字列为待补参考。",
+    "标注妨碍商品辨识的眩光与应保留的轮廓高光，分清玻璃透射、金属反射和塑料膜折痕。",
+    "结合细节参考限定可补内容，只调整选定高光形态与明暗，不增加纹理、刻度或不存在的商品细节。",
+    "确认上传范围与费用后只提交待修区域的小样，保存任务ID；如任务未知先查询，不连续生成多个替代答案。",
+    "对照原图检查边缘、反射方向、标识与透明区域，避免把玻璃修成不透明材质或把金属高光全部抹平。",
+    "保存修图、对照图和需要补拍的清单；未经可靠参考支持的被遮信息不标为已还原。"
+  ],
+  "outputs": [
+    "reflection-fixed.png：修复结果",
+    "reflection-before-after.png：局部对照",
+    "reflection-review.json：保留项与补拍要求"
+  ],
+  "checks": [
+    "商品外轮廓和部件数未变化",
+    "材质仍具有合理高光或透射特征",
+    "文字与刻度未凭空补造",
+    "不可恢复区域明确标为未确认"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。过曝丢失的信息无法靠生成模型证明真实恢复；不修除反映真实质量问题的划伤后冒充原始商品记录。该输出只用于获授权的展示修图。",
+  "prompt": "用Image2.5 Sunburst减轻这只不锈钢保温杯正面的刺眼反光，杯型与刻字不变。如果刻字已经过曝看不清，列出需要补拍的位置，不要猜字。",
+  "sample_input": {
+    "source": "steel-cup.png",
+    "detail_reference": "engraving-closeup.png",
+    "target_region": "杯身中央眩光",
+    "keep": [
+      "刻字",
+      "金属质感",
+      "外轮廓"
+    ]
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "reflection-fixed.png",
+      "reflection-before-after.png",
+      "reflection-review.json"
+    ],
+    "recovery_claim": "仅凭参考可核对区域",
+    "review_items": [
+      "刻字",
+      "高光方向",
+      "金属材质"
+    ]
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "novelty": "区别于通用照片修复：聚焦反射材质与过曝不可恢复边界，交付针对玻璃/金属的可核查修图，而非泛化去瑕疵。"
+}

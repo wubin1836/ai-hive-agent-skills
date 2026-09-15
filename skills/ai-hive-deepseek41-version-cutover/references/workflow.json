@@ -1,0 +1,57 @@
+{
+  "slug": "ai-hive-deepseek41-version-cutover",
+  "title": "DeepSeek V4.1接口升级与别名核验",
+  "family": "DeepSeek V4.1-Flash",
+  "aliases": [
+    "DeepSeek V4.1-Flash",
+    "DeepSeek-V4.1-Flash",
+    "DeepSeek V4.1 Flash",
+    "DeepSeek4.1",
+    "DeepSeek 4.1",
+    "DeepSeekV4.1",
+    "deepseek-flash",
+    "深度求索4.1",
+    "DeepSeek4.1 API",
+    "deepseek-flash升级",
+    "DeepSeek V4.1接入"
+  ],
+  "summary": "帮助已有DeepSeek应用核对V4.1模型别名和接口兼容性，生成有回滚点的切换方案。区分官方别名、AI-HIVE模型ID和旧配置，先离线比对请求与返回，再进行获准的小流量测试。",
+  "inputs": [
+    "脱敏旧配置",
+    "关键请求样本",
+    "回滚条件"
+  ],
+  "steps": [
+    "读取旧配置但不打印密钥，登记端点和模型名",
+    "查询AI-HIVE实际支持清单，记录官方名与渠道ID映射",
+    "对比文本、视觉和结构化输出需要的参数",
+    "使用固定样本验证结果与错误处理，限制测试数量",
+    "输出切换补丁与回滚说明，不直接全量替换"
+  ],
+  "outputs": [
+    "migration.diff：配置补丁",
+    "compatibility.csv：兼容测试",
+    "rollback.md：回滚步骤"
+  ],
+  "checks": [
+    "模型别名映射有日期",
+    "旧配置保留",
+    "未通过样例不全量切换"
+  ],
+  "boundary": "官方模型名和AI-HIVE渠道ID分开核验，不把其他DeepSeek版本当V4.1-Flash。只有运行时存在对应视觉或文本工具才调用；未接入时停在准备阶段。不得绕过源系统权限。",
+  "prompt": "检查我们的DeepSeek旧接口能否迁到V4.1，先给配置差异和5个测试样例，不上线，不显示Key。",
+  "sample_input": {
+    "old_model": "deepseek-v4-flash",
+    "desired": "DeepSeek V4.1-Flash"
+  },
+  "sample_output": {
+    "example_only": true,
+    "channel_model_id": null,
+    "status": "等待运行时发现",
+    "rollout": 0
+  },
+  "sources": [
+    "https://api-docs.deepseek.com/zh-cn/updates/"
+  ],
+  "novelty": "以DeepSeek V4.1-Flash的新版本搜索入口承接「DeepSeek V4.1接口升级与别名核验」任务；重点是模型别名映射有日期，不同于旧库泛模型介绍或路由比较。"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "ai-hive-image25-generate-edit",
+  "title": "Image2.5图片生成与编辑",
+  "family": "GPT Image 2.5",
+  "aliases": [
+    "Image2.5",
+    "image 2.5",
+    "GPT Image 2.5",
+    "GPTImage2.5",
+    "GPT-Image-2.5",
+    "Image2.5生图",
+    "Image2.5修图",
+    "图片生成",
+    "图片编辑",
+    "Sunburst",
+    "Flare"
+  ],
+  "summary": "把Image2.5生图或修图请求变为可核验的图片交付：先区分从零生成与基于原图修改，再锁定画面约束、尺寸和预算。保留原图、实际模型、任务与结果对应关系，明确没满足的要求，不把提示词当作已生成图片。",
+  "inputs": [
+    "中文画面描述或待修改原图",
+    "用途、比例与输出数量",
+    "必须保留与禁止出现的内容",
+    "指定Sunburst或Flare及预算上限"
+  ],
+  "steps": [
+    "区分文生图与编辑请求；在AI-HIVE MCP发现Image2.5实际型号和对应模式，未指定子型号时向用户说明可用选项及选择依据。",
+    "把一句话拆成主体、动作、环境和画布；编辑任务另记原图尺寸、主体坐标及允许改变区域。",
+    "生成任务写出画面规格，编辑任务写出逐项修改清单；需要准确文字时另外保存用户原文，不让模型替用户改写。",
+    "取得本次素材、张数及费用授权后提交真实参数，记录任务ID；等待状态不明时查询原任务而非重新生图。",
+    "取得原始结果后检查解码和像素尺寸，逐项看图核对保留区、主体与文字；发现问题只返修已确认项。",
+    "另存最终图片、约束核对表和真实任务回执；缺少模型、下载或看图能力时如实记录未完成部分。"
+  ],
+  "outputs": [
+    "image25-result.png：实际图片原文件",
+    "image25-checks.json：画面与保留区检查",
+    "image25-task.json：实际模型、任务ID与结果路径"
+  ],
+  "checks": [
+    "文件能解码且比例、张数符合确认要求",
+    "编辑任务保留原图并逐项核对未授权变化",
+    "请求文字与实际可见文字逐字核对",
+    "最终图片与真实任务ID一一对应"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。Sunburst与Flare不是两个可随意互换的名称；只指定Image2.5时先确定实际子型号。不承诺精确小字、透明通道或任意像素尺寸，按实际schema与交付检查判断。",
+  "prompt": "用Image2.5把我上传的杯子照片改成暖光书桌场景，杯型和印字不变，只出一张4:3图片。先确认AI-HIVE可用型号和预算，不支持就告诉我，别换成旧版本。",
+  "sample_input": {
+    "task_type": "edit",
+    "source_image": "cup-original.png",
+    "ratio": "4:3",
+    "count": 1,
+    "keep": [
+      "杯型",
+      "杯身原有文字"
+    ],
+    "change": [
+      "背景变成暖光书桌"
+    ],
+    "budget": "提交前确认"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "image25-result.png",
+      "image25-checks.json",
+      "image25-task.json"
+    ],
+    "acceptance_plan": {
+      "count": 1,
+      "ratio": "4:3",
+      "locked_items": [
+        "杯型",
+        "杯身原有文字"
+      ]
+    }
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare"
+  ],
+  "novelty": "旧107中有通用一句话出图和局部修改，但没有Image2.5/Sunburst/Flare入口；此包承接普通模型名检索并明确子型号和生成/编辑分流，不替换旧包。"
+}

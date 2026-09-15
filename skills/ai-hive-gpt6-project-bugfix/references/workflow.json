@@ -1,0 +1,58 @@
+{
+  "slug": "ai-hive-gpt6-project-bugfix",
+  "title": "GPT-6代码修复与项目调试助手",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6写代码",
+    "GPT6改bug",
+    "GPT Astra调试"
+  ],
+  "summary": "针对可复现报错定位根因、补丁和回归测试，适合独立开发者与软件团队。GPT-6通过AI-HIVE已确认文本调用参与分析，配合本地开发工具交付小范围可审核修改，不擅自提交代码。",
+  "inputs": [
+    "项目路径",
+    "复现步骤与日志",
+    "允许修改范围"
+  ],
+  "steps": [
+    "读取项目说明与测试入口，检查已有未提交改动",
+    "按用户步骤复现并保存最小失败样例",
+    "沿调用链定位错误而不是重写整个项目",
+    "在允许范围制作最小补丁，并增加失败路径测试",
+    "运行相关测试，说明未运行项与环境差异"
+  ],
+  "outputs": [
+    "patch.diff：修改补丁",
+    "repro.md：复现和根因",
+    "test-results.txt：真实测试日志"
+  ],
+  "checks": [
+    "失败样例修复前失败、修复后通过",
+    "无无关文件修改",
+    "不自动push或部署"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT-6修复这个仓库的CSV导入报错，只修改导入模块，先复现再给补丁和测试，不提交Git。",
+  "sample_input": {
+    "repo": "./demo",
+    "error": "empty cell causes crash"
+  },
+  "sample_output": {
+    "example_only": true,
+    "suspect": "空值转换",
+    "patch": "待分析后生成",
+    "tests_run": []
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT-6代码修复与项目调试助手」任务；重点是失败样例修复前失败、修复后通过，不同于旧库泛模型介绍或路由比较。"
+}

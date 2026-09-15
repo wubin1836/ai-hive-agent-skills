@@ -1,0 +1,60 @@
+{
+  "slug": "ai-hive-gpt-live-sales-rehearsal",
+  "title": "GPT Live销售演练与语音复盘方案",
+  "family": "GPT-Live 1",
+  "aliases": [
+    "GPT-Live",
+    "GPT Live",
+    "GPT-Live 1",
+    "GPT Live 1",
+    "GPTLive",
+    "GPTLive1",
+    "全双工语音",
+    "实时语音Agent",
+    "GPTLive销售陪练",
+    "AI语音销售教练",
+    "GPT Live话术"
+  ],
+  "summary": "让销售团队准备真实产品信息、客户异议和练习评分表，通过可用语音环境做模拟沟通。AI-HIVE帮助生成训练资料，重点评需求澄清和合规承诺，不冒充真实客户、不自动外呼。",
+  "inputs": [
+    "产品真实卖点",
+    "目标客户场景",
+    "不可承诺事项"
+  ],
+  "steps": [
+    "建立客户角色目标和异议触发条件",
+    "把评价拆成倾听、追问、证据和下一步",
+    "对价格、交付与效果设定不能越过的承诺线",
+    "记录对话关键事件而非索取隐藏思维链",
+    "练习后给有原句证据的反馈和下一轮任务"
+  ],
+  "outputs": [
+    "sales-role.json：演练角色",
+    "scorecard.csv：评分表",
+    "debrief.md：复盘模板"
+  ],
+  "checks": [
+    "反馈有对话证据",
+    "禁止编造效果保证",
+    "演练不发给真实客户"
+  ],
+  "boundary": "本Skill制作接入方案、对话策略和测试材料，不承诺AI-HIVE已支持GPT-Live或电话网关。实时演示需用户已有兼容音频客户端、后台工具与对应模型权限；不能以文本脚本冒充真实语音成品，不自动外呼。",
+  "prompt": "设计GPT Live的SaaS销售模拟客户，客户担心数据迁移；练后评我是否问清现状，不许承诺零风险。",
+  "sample_input": {
+    "objection": "迁移风险",
+    "forbidden": [
+      "零风险"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "trigger": "提及数据丢失",
+    "response_goal": "询问备份与测试方案",
+    "real_calls": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-live-1",
+    "https://developers.openai.com/api/docs/guides/live"
+  ],
+  "novelty": "以GPT-Live 1的新版本搜索入口承接「GPT Live销售演练与语音复盘方案」任务；重点是反馈有对话证据，不同于旧库泛模型介绍或路由比较。"
+}

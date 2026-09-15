@@ -1,0 +1,63 @@
+{
+  "slug": "ai-hive-gpt6-prd-acceptance",
+  "title": "GPT6产品需求与验收用例助手",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6产品经理",
+    "GPT6写PRD",
+    "Astra需求分析"
+  ],
+  "summary": "把老板口述、客户反馈与截图整理成可开发的需求说明和验收案例，适合产品经理与创业团队。GPT6识别冲突、边界状态和缺失条件，让研发拿到可执行而非只有愿景的PRD。",
+  "inputs": [
+    "用户反馈或录音转写",
+    "现有界面与流程",
+    "优先级和范围"
+  ],
+  "steps": [
+    "逐条提取需求并标注来源人和场景",
+    "区分问题、解决建议与未经确认的假设",
+    "为关键操作绘制输入、状态变化和错误分支",
+    "形成验收条件与对应测试数据",
+    "对照原反馈检查遗漏，保留范围外项目"
+  ],
+  "outputs": [
+    "prd.md：产品需求",
+    "acceptance.csv：验收用例",
+    "out-of-scope.md：范围外清单"
+  ],
+  "checks": [
+    "每个需求有来源",
+    "包含失败与空状态",
+    "不把假设当已确认需求"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT6把这批客户反馈整理成订单导入功能PRD，包含空文件、重复订单和权限不足的验收情况。",
+  "sample_input": {
+    "feature": "订单导入",
+    "feedback": [
+      "重复导入会重建订单"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "cases": [
+      {
+        "input": "同一文件再次导入",
+        "expected": "按已确认去重规则处理"
+      }
+    ]
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT6产品需求与验收用例助手」任务；重点是每个需求有来源，不同于旧库泛模型介绍或路由比较。"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "ai-hive-gpt6-excel-formula-repair",
+  "title": "GPT6 Excel表格公式修复助手",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6 Excel",
+    "GPT6修公式",
+    "Astra表格助手"
+  ],
+  "summary": "排查Excel错算、引用错位与跨表汇总问题，适合财务助理、运营和销售。结合GPT6解释公式与宿主计算工具复算，交付修复副本和异常清单，而不是只给一段公式建议。",
+  "inputs": [
+    "工作簿副本",
+    "错误样例单元格",
+    "正确口径或样本"
+  ],
+  "steps": [
+    "读取工作表、命名区域和公式关系，不执行宏",
+    "从错误单元格追踪上游引用与类型混用",
+    "先对样本构建正确结果作为回归基线",
+    "只修复确认范围的公式，在副本上重算",
+    "逐项比较修复前后结果，保留其他工作表不变"
+  ],
+  "outputs": [
+    "fixed.xlsx：修复副本",
+    "formula-diff.csv：公式对照",
+    "test-cases.csv：复算样例"
+  ],
+  "checks": [
+    "关键样例复算通过",
+    "不自动运行宏或外部链接",
+    "未授权工作表未变更"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT6检查销售表的合计为什么不对，先用三行样本复算，确认后只改汇总公式并保留原文件。",
+  "sample_input": {
+    "file": "销售.xlsx",
+    "cell": "汇总!F10",
+    "expected": 1200
+  },
+  "sample_output": {
+    "example_only": true,
+    "suspected": "文本数字未参与求和",
+    "patch_applied": false,
+    "baseline": 1200
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT6 Excel表格公式修复助手」任务；重点是关键样例复算通过，不同于旧库泛模型介绍或路由比较。"
+}

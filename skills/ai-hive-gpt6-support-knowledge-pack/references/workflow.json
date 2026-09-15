@@ -1,0 +1,66 @@
+{
+  "slug": "ai-hive-gpt6-support-knowledge-pack",
+  "title": "GPT6企业客服知识库制作助手",
+  "family": "GPT-6 Astra",
+  "aliases": [
+    "GPT-6",
+    "GPT6",
+    "GPT 6",
+    "GPT-6 Astra",
+    "GPT6 Astra",
+    "GPT 6 Astra",
+    "GPT Astra",
+    "Astra",
+    "OpenAI Astra",
+    "GPT6智能客服",
+    "Astra知识库",
+    "GPT6企业问答"
+  ],
+  "summary": "把散乱产品资料变成可追溯FAQ、拒答边界和客服测试题，适合售前售后团队。GPT6辅助整理知识，AI-HIVE作为已授权模型调用入口；不直接接管店铺，不自动回复真实客户。",
+  "inputs": [
+    "产品说明与政策",
+    "客服问题样本",
+    "不可承诺事项"
+  ],
+  "steps": [
+    "给政策资料编号并确认有效日期",
+    "将问题按意图与适用条件整理，链接原文",
+    "生成简洁答复，缺失政策明确转人工",
+    "用未出现在训练资料的问题检查泛化与幻觉",
+    "交付知识导入文件、测试集和升级流程"
+  ],
+  "outputs": [
+    "faq.jsonl：知识条目",
+    "support-tests.csv：测试集",
+    "handoff-policy.md：转人工规则"
+  ],
+  "checks": [
+    "每条政策有来源",
+    "不编造退款和赔付承诺",
+    "真实客服发送需另行授权"
+  ],
+  "boundary": "必须在AI-HIVE运行时确认GPT-6 Astra及所需文本/视觉调用通道；未接入时只提供资料整理与执行方案，未经用户选择不换模型。Office导出、代码运行或浏览器操作依赖宿主相应工具，不是模型接口自带。",
+  "prompt": "用GPT6整理产品说明和售后政策，生成50条以内FAQ，缺政策的问题转人工，不连接店铺发消息。",
+  "sample_input": {
+    "documents": [
+      "产品说明.md",
+      "售后政策.md"
+    ],
+    "limit": 50
+  },
+  "sample_output": {
+    "example_only": true,
+    "faq": [
+      {
+        "question": "保修多久",
+        "answer": null,
+        "source": null,
+        "action": "补充政策"
+      }
+    ]
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  ],
+  "novelty": "以GPT-6 Astra的新版本搜索入口承接「GPT6企业客服知识库制作助手」任务；重点是每条政策有来源，不同于旧库泛模型介绍或路由比较。"
+}

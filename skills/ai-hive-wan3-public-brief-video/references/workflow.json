@@ -1,0 +1,77 @@
+{
+  "slug": "ai-hive-wan3-public-brief-video",
+  "title": "万相3产品资料做视频与原文溯源",
+  "family": "Wan3 / 万相3",
+  "aliases": [
+    "Wan3",
+    "Wan3.0",
+    "Wan 3.0",
+    "wan-3.0",
+    "万相3",
+    "万相3.0",
+    "通义万相3",
+    "文档做视频",
+    "网页做视频",
+    "产品资料转视频",
+    "万相3有声视频"
+  ],
+  "summary": "将用户指定的公开产品文档或网页整理成短视频，先核对产品事实，再为镜头和台词保留原文来源。按Wan3当前支持的文档或网页参考方式执行，交付真实视频与事实映射，避免把宣传性表达扩展成未经证实的功能。",
+  "inputs": [
+    "指定的公开产品文档或网页",
+    "获授权的产品图片和使用范围",
+    "目标观众、时长与画幅",
+    "允许台词及不应出现的声称"
+  ],
+  "steps": [
+    "核验AI-HIVE MCP中Wan3同版本的文档或网页参考模式；仅读取用户指定且无需登录的公开来源，不绕过访问限制。",
+    "提取产品名称、功能、规格及其原文位置，把无法确认的数值和营销推断列为不可进入台词的内容。",
+    "把确认事实组织成少量镜头，建立镜头ID、台词和来源位置的对应，明确需模型示意的画面不是实际测试录像。",
+    "按真实schema选择文档或网页输入组合，确认素材、时长和费用后提交并保存任务ID，状态不明先查询旧任务。",
+    "查看视频并核对台词、画面暗示和字幕；新增功能、错误数值或无来源认证均列为失败项，获准后再修。",
+    "交付视频、事实到镜头映射及任务回执，不自动上传营销账号，不把公开网页内容当可任意复用的版权许可。"
+  ],
+  "outputs": [
+    "wan3-product-brief.mp4：实际产品说明短片",
+    "brief-source-map.csv：镜头台词与原文位置",
+    "wan3-brief-task.json：输入来源与真实任务记录"
+  ],
+  "checks": [
+    "每条事实性台词有可定位来源",
+    "未新增用户未确认的功能、认证或数字",
+    "真实视频可播放且时长比例符合确认规格",
+    "文档或链接输入方式符合本次实际schema"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。阿里云官方文档描述的模式不等于AI-HIVE当前开放相同模式；MCP未提供就明确不能按该方式生成。私有文档不得为了上传转成公开链接，演示画面不冒充实拍证据。",
+  "prompt": "用万相3把这个公开产品说明页做成15秒介绍片，只有文档写明的功能可以说，每个镜头给我原文依据。先查AI-HIVE能否直接用网页参考，不能就说明，不要换模型。",
+  "sample_input": {
+    "source_url": "https://example.com/public-product-manual",
+    "source_is_fictional_example": true,
+    "target_seconds": 15,
+    "ratio": "16:9",
+    "allowed_claims": [
+      "以批准原文为准"
+    ],
+    "publish": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "wan3-product-brief.mp4",
+      "brief-source-map.csv",
+      "wan3-brief-task.json"
+    ],
+    "source_mapping_preview": {
+      "shot_id": "W01",
+      "claim": "经确认的产品功能",
+      "source_locator": "待真实读取定位"
+    },
+    "video_created": false
+  },
+  "sources": [
+    "https://help.aliyun.com/zh/model-studio/wan3-video-generation-guide"
+  ],
+  "novelty": "已有Wan3通用生成编辑仅2个标题；本包聚焦文档/网页输入、事实来源与视频输出，补万相3中文与资料做视频的新搜索入口。"
+}

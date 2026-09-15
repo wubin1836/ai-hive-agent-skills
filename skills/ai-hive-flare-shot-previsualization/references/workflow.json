@@ -1,0 +1,88 @@
+{
+  "slug": "ai-hive-flare-shot-previsualization",
+  "title": "Flare分镜预演图与镜头连续性检查",
+  "family": "GPT Image 2.5 Flare",
+  "aliases": [
+    "Flare",
+    "GPT Image 2.5 Flare",
+    "Image2.5分镜",
+    "分镜预演",
+    "镜头草图",
+    "广告分镜图",
+    "故事板图片",
+    "场景预演",
+    "运镜示意图",
+    "镜头连续性"
+  ],
+  "summary": "为已经确定的短片分镜快速制作少量预演静帧，统一场景方位、人物或道具位置与运动方向。交付镜头接触表和连续性问题清单，帮助导演选机位；不把静帧当成已生成的视频或承诺动作在成片中必然实现。",
+  "inputs": [
+    "按镜头编号整理的短剧本",
+    "场景布局与原创建模或道具参考",
+    "每镜景别、视线和运动方向",
+    "预演画幅、张数和预算"
+  ],
+  "steps": [
+    "核验Flare文生图或参考图能力，读取已有镜头表，只补视觉预演，不擅自改故事或扩写镜头数量。",
+    "画清场景方位关系和动作轴线，记录主体进入方向、视线与道具在各镜之间的状态。",
+    "为每镜指定单一关键时刻和构图，运动用独立标注表达，不要求一张图同时呈现多个时间状态。",
+    "用户确认预算后先生成建立空间关系的基准镜头，再生成其余预演图，保持镜头ID与任务ID一致。",
+    "将所有图排成接触表，检查屏幕方向、轴线、道具位置及日夜连续性，明确模型造成的身份或空间漂移。",
+    "交付预演静帧索引、分镜板与连续性检查，待用户选定后才可另行启动视频生成。"
+  ],
+  "outputs": [
+    "shot-previs-board.png：带镜号的接触表",
+    "shot-previs.json：镜号与静帧路径",
+    "continuity-notes.csv：空间与动作连续性问题"
+  ],
+  "checks": [
+    "每张图对应单一镜头ID和关键时刻",
+    "主体屏幕方向与空间关系可逐镜核对",
+    "不存在把未生成的视频标为完成的状态",
+    "改动故事或镜数需用户明确确认"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。Flare仅生成图像，不能将它标为视频模型；镜头静帧不证明运镜、动作或人物在后续视频中可实现。视频执行属于另行授权任务。",
+  "prompt": "用Flare给这三个镜头做预演图：咖啡师取杯、倒咖啡、客人接杯。保持吧台方向和杯子一致，只做三张16:9静帧，给我连续性问题，不生成视频。",
+  "sample_input": {
+    "shots": [
+      {
+        "id": "S01",
+        "action": "取杯"
+      },
+      {
+        "id": "S02",
+        "action": "倒咖啡"
+      },
+      {
+        "id": "S03",
+        "action": "接杯"
+      }
+    ],
+    "ratio": "16:9",
+    "locked": [
+      "吧台方向",
+      "同一杯型"
+    ],
+    "video_requested": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "shot-previs-board.png",
+      "shot-previs.json",
+      "continuity-notes.csv"
+    ],
+    "shot_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "video_generated": false
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare"
+  ],
+  "novelty": "旧分镜表侧重剧本拆镜；此包接收已确认镜头表，用Flare生成可比较的预演静帧并审查空间连续性。"
+}

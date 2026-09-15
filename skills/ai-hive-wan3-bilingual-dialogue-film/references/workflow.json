@@ -1,0 +1,84 @@
+{
+  "slug": "ai-hive-wan3-bilingual-dialogue-film",
+  "title": "万相3双语台词短片与字幕逐句核对",
+  "family": "Wan3 / 万相3",
+  "aliases": [
+    "Wan3",
+    "Wan3.0",
+    "Wan 3.0",
+    "万相3",
+    "万相3.0",
+    "万相3有声视频",
+    "双语短片",
+    "中文台词",
+    "英文台词",
+    "原生音画",
+    "台词字幕核对"
+  ],
+  "summary": "依据已经确认的双语台词制作简短有声场景，将角色、台词和镜头对应起来，再逐句核对实际发音与字幕。用于原创产品小剧场或语言演示，保留错词和遗漏记录；不默认模型具备任意语言、口音或声音克隆能力。",
+  "inputs": [
+    "已确认的两种语言台词",
+    "原创或获授权角色与场景说明",
+    "说话人分配和台词顺序",
+    "目标时长、音轨要求与预算"
+  ],
+  "steps": [
+    "发现Wan3实际有声视频模式，核验本次语言和音轨控制能力；不支持双语或语音时停止生成而非默默改成无声片。",
+    "给台词编号并绑定角色，检查总字数与目标时长是否现实；翻译未确认时先让用户确认，不擅自改产品承诺。",
+    "安排说话人与动作节奏，避免同一镜头多人抢话，把难以准确生成的屏幕文字移到后期字幕轨。",
+    "确认素材和费用后提交并保存任务ID，状态不明查询原任务；只在用户允许时重生成错句相关片段。",
+    "听取实际音频并结合可用转写工具或人工复核逐句检查遗漏、读错和串角色；字幕依据真实音轨与批准文本核对。",
+    "交付实际有声视频、校对字幕和台词差异报告；字幕生成或封装依赖宿主真实工具，不冒充Wan原生可编辑字幕输出。"
+  ],
+  "outputs": [
+    "wan3-bilingual.mp4：实际有声片段",
+    "wan3-dialogue.srt：校对后的字幕轨",
+    "wan3-dialogue-review.csv：句号、说话人、音轨和错误记录"
+  ],
+  "checks": [
+    "每句批准台词有可定位的实际音频或缺失记录",
+    "语言、说话人和句序符合确认脚本",
+    "字幕时序与真实音频对应",
+    "未声称未经检测的口型精度或声音身份一致"
+  ],
+  "boundary": "通过AI-HIVE MCP实时发现指定型号、输入schema与本次模式后才能生成；不存在就说明不能生成，不将其他版本或其他模型冒充指定型号。素材上传、数量与费用须获本次授权；保存真实任务ID，超时先查询原任务，不自动重提或扩量。不克隆未获授权的人声，不承诺原生音频支持所有语言。转写结果也要复听；无法听取或提取音轨时不得标记台词已验收，字幕工具缺失则说明未交付字幕。",
+  "prompt": "用万相3做一个原创机器人小剧场，机器人A说中文“欢迎来到工作室”，机器人B说英文“Let's build something useful.”。台词逐句核对，字幕后期处理，不模仿任何真人声音。",
+  "sample_input": {
+    "dialogue": [
+      {
+        "id": "L01",
+        "speaker": "原创机器人A",
+        "language": "zh-CN",
+        "text": "欢迎来到工作室"
+      },
+      {
+        "id": "L02",
+        "speaker": "原创机器人B",
+        "language": "en",
+        "text": "Let's build something useful."
+      }
+    ],
+    "target_seconds": 10,
+    "voice_imitation": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "wan3-bilingual.mp4",
+      "wan3-dialogue.srt",
+      "wan3-dialogue-review.csv"
+    ],
+    "approved_line_ids": [
+      "L01",
+      "L02"
+    ],
+    "audio_verified": false
+  },
+  "sources": [
+    "https://help.aliyun.com/zh/model-studio/wan3-video-generation-guide"
+  ],
+  "novelty": "区别于视频翻译配音和通用文生视频：本包先生成获准双语原创音画，再按角色台词逐句验收，不替用户翻译整片。"
+}
