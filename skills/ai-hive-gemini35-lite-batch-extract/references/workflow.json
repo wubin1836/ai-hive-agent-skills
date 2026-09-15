@@ -1,0 +1,93 @@
+{
+  "slug": "ai-hive-gemini35-lite-batch-extract",
+  "title": "Gemini3.5 Flash Lite批量字段抽取",
+  "family": "Gemini 3.5 Flash Lite",
+  "aliases": [
+    "gemini-3.5-flash-lite",
+    "Gemini 3.5 Flash Lite",
+    "Gemini3.5FlashLite",
+    "Gemini轻量字段抽取",
+    "Gemini批量提取信息",
+    "Gemini固定JSON输出",
+    "Gemini批量文本转表格",
+    "Flash Lite抽取校验"
+  ],
+  "summary": "需要把大量通知、询价或产品说明转成统一字段时，用AI-HIVE核验Gemini3.5 Flash Lite后先固定字段、空值和来源规则，再进行小批验证。交付结构化记录、失败行与字段证据，方便后续导入，并能识别格式正确却内容缺失或张冠李戴的结果。",
+  "inputs": [
+    "脱敏文本记录及每条唯一ID",
+    "字段定义、类型、枚举和空值规则",
+    "必须保留的证据片段或来源位置",
+    "批次规模、费用上限及允许的失败处理方式"
+  ],
+  "steps": [
+    "确认gemini-3.5-flash-lite精确通道和结构化输出支持情况；不支持时使用输出校验但不宣称原生Schema保证",
+    "将字段规范转成可检查的Schema，定义缺失、歧义、重复及禁止推断规则",
+    "用用户授权的小样本验证难例，包括否定、多个日期、无对应字段和近似型号",
+    "按稳定记录ID分批抽取并保存输入输出映射，结构解析失败与内容不确定分别登记",
+    "逐条执行类型、枚举、跨字段约束和来源定位检查，失败行留待确认，不无上限重试",
+    "交付结构化数据、错误清单和字段证据索引，报告实际处理量及未处理原因"
+  ],
+  "outputs": [
+    "extracted-records.jsonl：结构化记录与原ID",
+    "extraction-errors.csv：失败、不确定和未处理行",
+    "field-evidence.json：字段来源与校验摘要"
+  ],
+  "checks": [
+    "输入ID与成功、失败及未处理记录总数一致",
+    "缺失值按规则表示而非补出看似合理的数据",
+    "格式通过和内容证据通过分别统计",
+    "遇预算上限或不明错误不继续自动请求"
+  ],
+  "boundary": "AI-HIVE必须核验Gemini3.5 Flash Lite而非其他3.5型号，未接入时仅提供规则、样例和待运行流程。模型不自带批处理队列或数据库写入器；付费调用、批次和重试须受用户预算约束，不保证零错误或固定成本。",
+  "prompt": "用Gemini3.5 Flash Lite从这批询价文本抽取record_id、型号、数量和期望交期。缺失填null，每个非空字段保留原文证据；先试10条，最多本轮预算内运行，不自动重试失败行。",
+  "sample_input": {
+    "records": [
+      {
+        "id": "R1",
+        "text": "想询价A20，共12台，交期还没定。"
+      }
+    ],
+    "schema": {
+      "model": "string|null",
+      "quantity": "integer|null",
+      "delivery_date": "string|null"
+    }
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "records": [
+      {
+        "record_id": "R1",
+        "model": "A20",
+        "quantity": 12,
+        "delivery_date": null
+      }
+    ],
+    "evidence": {
+      "R1": {
+        "model": "A20",
+        "quantity": "共12台",
+        "delivery_date": "交期还没定，保持null"
+      }
+    },
+    "files": [
+      "extracted-records.jsonl",
+      "extraction-errors.csv",
+      "field-evidence.json"
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/changelog"
+  ],
+  "novelty": "旧Gemini3.5转写入口不覆盖Flash Lite字段抽取。本项以固定Schema、记录守恒和逐字段证据构成批处理闭环，不只是把文本改成JSON或泛费用推荐。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "gemini-3.5-flash-lite"
+  ],
+  "host_requirements": [
+    "AI-HIVE gemini-3.5-flash-lite实际调用通道",
+    "授权文本读取、JSONL和CSV保存工具",
+    "Schema及业务约束校验器，受预算控制的批次执行能力"
+  ]
+}

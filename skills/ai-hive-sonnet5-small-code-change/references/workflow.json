@@ -1,0 +1,96 @@
+{
+  "slug": "ai-hive-sonnet5-small-code-change",
+  "title": "Sonnet5日常代码修改助手",
+  "family": "Claude Sonnet 5",
+  "aliases": [
+    "Claude Sonnet 5",
+    "ClaudeSonnet5",
+    "Sonnet5",
+    "Sonnet 5",
+    "claude-sonnet-5",
+    "Claude Sonnet",
+    "Sonnet改代码",
+    "Claude小功能开发",
+    "Sonnet日常编程",
+    "代码小改动"
+  ],
+  "summary": "把一个范围清楚的小需求落实到现有项目，适合增加筛选项、调整表单校验和补充配置开关。先确认相关文件与验收行为，再按项目现有风格修改并运行相关测试，交付小补丁、测试记录和变更摘要，便于快速审阅而不牵出无关重构。",
+  "inputs": [
+    "授权项目与当前待修改功能",
+    "明确的目标行为和不变行为",
+    "允许修改范围及现有测试命令",
+    "相关界面、接口或样例输入"
+  ],
+  "steps": [
+    "读取仓库状态、项目约定和相关入口，区分用户已有改动与本轮范围",
+    "把需求写成少量可验收行为，发现涉及数据迁移或跨模块重构时先提出范围问题",
+    "用Sonnet 5确定最小修改位置，沿用现有组件、命名和错误处理方式",
+    "应用范围内代码修改并补充对应测试，不顺手改动无关格式或升级依赖",
+    "由宿主运行相关测试、类型检查或本地界面预览，记录成功和未能执行的检查",
+    "审查最终差异并输出补丁、测试记录和使用说明，不自动提交、推送或部署"
+  ],
+  "outputs": [
+    "small-change.patch：小范围功能及测试补丁",
+    "checks.md：实际测试、类型检查或预览结果",
+    "change-summary.md：行为变化与使用说明"
+  ],
+  "checks": [
+    "补丁只实现本轮明确要求且保留不变行为",
+    "未覆盖用户改动或引入无关依赖升级",
+    "每条验收行为对应测试或明确的待验证项",
+    "构建、测试和预览状态均来自实际执行记录"
+  ],
+  "boundary": "需要模型写作或分析时由用户登录AI-HIVE并绑定远程MCP，核验claude-sonnet-5；不可用即停止，不静默换型。代码编辑、运行和预览由宿主提供；本流程不授权重构全仓库、连接生产系统、提交推送或部署，没有运行环境时只交待验证修改方案。",
+  "prompt": "用Sonnet5给现有客户列表增加一个按状态筛选的下拉框，沿用页面现有组件。不要改分页逻辑或升级依赖，补相关测试，交付小补丁和实际检查结果，不提交。",
+  "sample_input": {
+    "feature": "客户列表状态筛选",
+    "statuses": [
+      "全部",
+      "活跃",
+      "暂停"
+    ],
+    "preserve": [
+      "分页逻辑",
+      "默认排序"
+    ],
+    "scope": [
+      "客户列表组件",
+      "相关测试"
+    ],
+    "test_command": "npm test -- customer-list"
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "acceptance_cases": [
+      {
+        "input": "选择暂停",
+        "expected": "仅显示暂停客户且分页行为不变"
+      },
+      {
+        "input": "选择全部",
+        "expected": "恢复原有列表范围"
+      }
+    ],
+    "planned_changes": [
+      "筛选状态与请求参数",
+      "客户列表测试"
+    ],
+    "tests": "待宿主运行"
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/sonnet-5/overview"
+  ],
+  "novelty": "新增日常小功能的严格范围与行为验收，区别Fable的复杂缺陷修复和Opus的系统迁移；不以模型换名复制大项目开发流程。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Sonnet 5",
+    "claude-sonnet-5"
+  ],
+  "host_requirements": [
+    "授权仓库及项目约定读取工具",
+    "代码编辑、差异与补丁工具",
+    "项目运行环境与已有测试框架",
+    "涉及界面时的本地浏览器预览工具"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "ai-hive-seedrealtime-visual-guide",
+  "title": "SeedRealtime实时视觉讲解助手",
+  "family": "SeedRealtime",
+  "model_terms": [
+    "SeedRealtime"
+  ],
+  "aliases": [
+    "SeedRealtime",
+    "Seed Realtime",
+    "字节全双工",
+    "实时视觉讲解",
+    "边看边说",
+    "音视频对话",
+    "看画面讲解",
+    "实时视觉助手"
+  ],
+  "summary": "为用户主动开启的实时视觉场景设计边看边说的讲解与验收，重点处理指代、场景变化和说话打断。先确认SeedRealtime真实入口及摄像头、麦克风权限，再运行有时限的演示，保存观察与回应证据，不默认后台监控。",
+  "inputs": [
+    "需要讲解的物品或低风险操作场景",
+    "用户选择的视频和音频源",
+    "允许观察的区域与会话时长",
+    "讲解语言、主动提醒范围和保存规则"
+  ],
+  "steps": [
+    "只读核验SeedRealtime真实开发或产品入口及音视频流能力，缺少访问资格或接口就停止实机讲解。",
+    "取得用户对本次摄像头、麦克风、传输及保存的明确授权，限定场景与停止按钮，不采集无关屏幕或旁人信息。",
+    "为目标场景列出物件指代、动作顺序和应提醒事件，区分画面直接可见与需用户说明的信息。",
+    "确认测试范围和费用后开启有时限会话，记录会话ID及实际事件；未经确认不调用会改变外部状态的工具。",
+    "执行指物讲解、画面切换、用户打断和目标出现等测试，比较观察时间与回应内容，误认或看不清时要求模型明确不确定。",
+    "结束后关闭采集，交付场景配置、真实交互验收和脱敏回执，未运行测试不能写成演示通过。"
+  ],
+  "outputs": [
+    "seedrealtime-guide-plan.json：场景与授权边界配置",
+    "seedrealtime-guide-review.csv：可见证据、回应与测试状态",
+    "seedrealtime-session.json：真实会话ID及采集关闭记录"
+  ],
+  "checks": [
+    "摄像头与麦克风范围、时限和停止状态明确",
+    "讲解依据能对应当时画面，不用常识补造看见的内容",
+    "打断、场景变化和误认场景有真实测试记录",
+    "没有把无访问权限的方案写成已运行助手"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。产品发布不证明公共API或AI-HIVE接入；无真实流式入口停止运行。只提供低风险视觉讲解，不作为医疗、安全关键设备操作或紧急场景的唯一指导，不默认识别人脸身份或常开监控。",
+  "prompt": "用SeedRealtime做一次桌面文具实时讲解演示，只看我选的摄像头，最多3分钟，我说停就关闭；不认识就说不确定，不要记住旁人的脸。",
+  "sample_input": {
+    "scene": "桌面文具",
+    "video_source": "用户选择的摄像头",
+    "max_minutes": 3,
+    "language": "zh",
+    "proactive_events": [
+      "指定红色剪刀出现"
+    ],
+    "retain_video": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "seedrealtime-guide-plan.json",
+      "seedrealtime-guide-review.csv",
+      "seedrealtime-session.json"
+    ],
+    "acceptance_plan": {
+      "max_minutes": 3,
+      "tests": [
+        "指代",
+        "画面切换",
+        "打断",
+        "目标出现"
+      ],
+      "face_identification": false
+    },
+    "access_status": "requires_verification",
+    "session_id": null
+  },
+  "availability": "access-check",
+  "host_requirements": [
+    "可验证的SeedRealtime访问资格与音视频入口",
+    "用户选择输入、会话限时和立即停止控件",
+    "事件时间记录、隐私范围控制及本地报告工具"
+  ],
+  "novelty": "与GPT实时语音接待不同，本项针对音视频联合场景与视觉指代，新增SeedRealtime精确检索并保留访问限制。",
+  "sources": [
+    "https://seed.bytedance.com/en/blog/seedrealtime-audio-visual-full-duplex-llm-released-toward-omni-modal-natural-interaction"
+  ]
+}

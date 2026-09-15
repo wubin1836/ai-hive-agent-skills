@@ -1,0 +1,101 @@
+{
+  "slug": "ai-hive-happyhorse11-character-reference",
+  "title": "HappyHorse 1.1参考角色一致性视频助手",
+  "family": "HappyHorse 1.1",
+  "model_terms": [
+    "HappyHorse 1.1",
+    "happyhorse-1.1-r2v"
+  ],
+  "aliases": [
+    "HappyHorse1.1参考视频",
+    "HappyHorse 1.1",
+    "happyhorse-1.1-r2v",
+    "快乐马1.1",
+    "角色一致性",
+    "多参考视频",
+    "人物参考生视频",
+    "角色短片"
+  ],
+  "summary": "使用获授权的原创角色参考图制作不同场景的短片，先整理角色识别特征、服装和道具，再通过HappyHorse 1.1参考入口执行。对每段角色外观和行动连续性逐项验收，交付真实短片及角色版本映射，不承诺身份级复刻。",
+  "inputs": [
+    "原创或获授权角色参考图",
+    "角色固定特征与可变服装说明",
+    "场景脚本及镜头数量",
+    "声音权限、输出规格和费用限制"
+  ],
+  "steps": [
+    "发现happyhorse-1.1-r2v及实际参考图数量限制，确认角色图来源与使用范围，不以公众人物身份替代原创角色。",
+    "给每位角色分配参考编号，记录发型、衣物、道具及识别特征；含糊图先提示补充，不猜测不可见身体细节。",
+    "为各镜头写出角色、动作和场景映射，明确同角色换景时哪些特征不变，避免参考图角色混合。",
+    "取得本批素材和费用授权后按镜头提交，使用镜头ID加参考版本去重，保留真实任务ID。",
+    "逐镜头比对角色与道具，再连续播放检查服装、比例和人物数量跳变，身份不一致时标不合格而非自动美化解释。",
+    "交付实际片段包、角色连续性表及任务清单；若仅完成部分镜头明确标记，未经授权不拼入外部素材。"
+  ],
+  "outputs": [
+    "happyhorse-character-clips.zip：真实完成的角色片段",
+    "happyhorse-character-check.csv：参考编号与镜头一致性",
+    "happyhorse-reference-tasks.json：角色版本和真实任务映射"
+  ],
+  "checks": [
+    "每个镜头有明确角色参考与使用权来源",
+    "参考角色未混合且外观变化逐项披露",
+    "镜头数与实际文件、任务ID一一对应",
+    "未完成或不合格片段不会被标成最终通过"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。不保证身份级复刻或跨任意长视频稳定；真实人物须有相应授权，避免未经允许的人物仿冒。参考生视频不是1.1视频编辑，不能编造该编辑型号。",
+  "prompt": "用HappyHorse1.1按这两张原创邮差角色参考，做门口取信和路上骑车两个镜头，帽子、邮包和衣服颜色要一致，先核对参考图上限。",
+  "sample_input": {
+    "character_id": "courier-demo",
+    "references": [
+      "courier-front.png",
+      "courier-side.png"
+    ],
+    "locked": [
+      "绿色帽子",
+      "棕色邮包",
+      "黄色外套"
+    ],
+    "shots": [
+      {
+        "id": "S01",
+        "action": "门口取信"
+      },
+      {
+        "id": "S02",
+        "action": "路上骑车"
+      }
+    ],
+    "rights": "原创角色"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "happyhorse-character-clips.zip",
+      "happyhorse-character-check.csv",
+      "happyhorse-reference-tasks.json"
+    ],
+    "acceptance_plan": {
+      "model_id": "happyhorse-1.1-r2v",
+      "character_id": "courier-demo",
+      "shot_ids": [
+        "S01",
+        "S02"
+      ],
+      "locked_count": 3
+    },
+    "completed_shots": []
+  },
+  "novelty": "以精确1.1-r2v、角色参考版本和跨镜头一致性为新增入口，不重复单图运动或无图文生广告。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、提交及任务查询能力",
+    "授权素材读取与输出文件保存",
+    "视频探测、抽帧、播放和音轨审听工具"
+  ],
+  "sources": [
+    "https://www.alibabacloud.com/help/tc/model-studio/video-generate-edit-model/"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "ai-hive-opus5-business-material-synthesis",
+  "title": "Opus5经营资料分析助手",
+  "family": "Claude Opus 5",
+  "aliases": [
+    "Claude Opus 5",
+    "ClaudeOpus5",
+    "Opus5",
+    "Opus 5",
+    "claude-opus-5",
+    "Claude Opus",
+    "Opus经营分析",
+    "Claude业务复盘",
+    "Opus客户反馈分析",
+    "经营资料关联分析"
+  ],
+  "summary": "把经营表格、会议材料和客户反馈放在同一条证据链上，帮助业务负责人看清现象、可能原因和需要继续验证的问题。统一时间与指标口径，分清数据事实和团队解释，交付有出处的分析、证据账本与验证计划，支持更聚焦的复盘会议。",
+  "inputs": [
+    "获准处理的经营表、会议纪要和客户反馈",
+    "复盘问题、时间范围及业务范围",
+    "指标口径和已知业务事件",
+    "可展示的客户信息与脱敏要求"
+  ],
+  "steps": [
+    "盘点材料日期、业务范围和敏感字段，对客户信息按要求脱敏",
+    "对齐销售、转化或留存等指标的定义，保留不同来源的口径差异",
+    "由宿主计算环境复算必要数字，并提取会议观点和反馈主题的来源锚点",
+    "用Opus 5关联指标变化、业务事件与反馈，区分一致证据、反例和仅相关的假设",
+    "为重要解释列出可证伪的验证方式、所需数据和负责人待确认项",
+    "生成复盘报告与证据账本，明确缺失样本、未核实数据和本轮不能得出的结论"
+  ],
+  "outputs": [
+    "business-review.md：经营复盘与待验证解释",
+    "evidence-ledger.csv：指标、观点及反馈来源",
+    "validation-plan.csv：假设、反例与后续验证"
+  ],
+  "checks": [
+    "同一比较使用一致时间与指标口径",
+    "每个关键判断有来源或明确标为假设",
+    "少量客户反馈不冒充整体统计结论",
+    "分析报告不暴露未获准展示的客户身份"
+  ],
+  "boundary": "需模型处理时由用户登录AI-HIVE并绑定远程MCP，核验claude-opus-5及上传权限；不可用即停止，不换型。数字计算由宿主执行，模型负责资料关联和解释；分析不自动触发客户联络、预算调整或经营决策，也不声称建立了因果关系或完成财务审计。",
+  "prompt": "用Opus5复盘八月续费下降：把经营表、周会纪要和脱敏客户反馈一起看，先统一续费率口径。列出有证据的发现、反例和待验证原因，给下次会议用，不联系客户。",
+  "sample_input": {
+    "files": [
+      "八月续费.xlsx",
+      "周会纪要.docx",
+      "客户反馈_脱敏.csv"
+    ],
+    "question": "续费下降可能与什么有关",
+    "period": "2026年8月",
+    "prohibited": [
+      "客户联络",
+      "预算调整"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "hypothesis": {
+      "id": "H02",
+      "statement": "使用活跃度下降可能早于未续费",
+      "evidence_needed": [
+        "续费前30天活跃数据",
+        "到期客户名单口径"
+      ],
+      "counterexample_check": "高活跃但未续费客户",
+      "causality": "未确认"
+    },
+    "recalculated_metrics": null
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/opus-5/overview"
+  ],
+  "novelty": "新增定量表格与定性反馈的跨材料证据链，重点是反例和验证计划，区别纯CSV作图以及对外竞品研究。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Opus 5",
+    "claude-opus-5"
+  ],
+  "host_requirements": [
+    "经营表格、文档及反馈文件读取工具",
+    "本地脱敏与数据计算环境",
+    "Markdown和CSV文件导出工具"
+  ]
+}

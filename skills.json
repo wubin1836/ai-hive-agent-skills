@@ -48266,5 +48266,455 @@
     "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
     "path": "skills/ai-hive-opus5-legacy-system-modernization",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-opus5-release-readiness-review",
+    "display_name": "Opus5代码审查与上线前检查",
+    "category": "Claude Opus 5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-opus5-release-readiness-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-opus5-complex-requirements-map",
+    "display_name": "Claude Opus 5复杂需求拆解助手",
+    "category": "Claude Opus 5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-opus5-complex-requirements-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-opus5-business-material-synthesis",
+    "display_name": "Opus5经营资料分析助手",
+    "category": "Claude Opus 5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-opus5-business-material-synthesis",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sonnet5-batch-document-manifest",
+    "display_name": "Claude Sonnet 5批量文档处理助手",
+    "category": "Claude Sonnet 5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-sonnet5-batch-document-manifest",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sonnet5-support-ticket-triage",
+    "display_name": "Sonnet5客服工单分类助手",
+    "category": "Claude Sonnet 5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-sonnet5-support-ticket-triage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sonnet5-multilingual-product-copy",
+    "display_name": "Claude Sonnet 5多语商品文案助手",
+    "category": "Claude Sonnet 5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-sonnet5-multilingual-product-copy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-sonnet5-small-code-change",
+    "display_name": "Sonnet5日常代码修改助手",
+    "category": "Claude Sonnet 5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-sonnet5-small-code-change",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-qwen38-max-doc-conflicts",
+    "display_name": "千问Qwen3.8-Max-0902企业资料冲突对照",
+    "category": "Qwen3.8 Max",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-qwen38-max-doc-conflicts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-qwen38-max-spec-code-diff",
+    "display_name": "千问Qwen3.8-Max-0902需求与源码差异审查",
+    "category": "Qwen3.8 Max",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-qwen38-max-spec-code-diff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-qwen38-27b-kb-acceptance",
+    "display_name": "千问Qwen3.8-27B知识库部署验收",
+    "category": "Qwen3.8-27B",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-qwen38-27b-kb-acceptance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-kimi-k3-long-doc-evidence",
+    "display_name": "Kimi K3长文档分析与遗漏核对",
+    "category": "Kimi K3",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-kimi-k3-long-doc-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-kimi-k3-project-handoff",
+    "display_name": "Kimi K3项目交接与未决事项追踪",
+    "category": "Kimi K3",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-kimi-k3-project-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-kimi-k27-code-recording-debug",
+    "display_name": "Kimi K2.7 Code录屏排错与复现",
+    "category": "Kimi K2.7 Code",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-kimi-k27-code-recording-debug",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-doubao21-pro-business-report",
+    "display_name": "豆包Seed2.1 Pro经营汇报口径核对",
+    "category": "Doubao Seed 2.1 Pro",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-doubao21-pro-business-report",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-doubao21-turbo-ticket-triage",
+    "display_name": "豆包Seed2.1 Turbo工单归并与异常分流",
+    "category": "Doubao Seed 2.1 Turbo",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-doubao21-turbo-ticket-triage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gemini37-site-redesign",
+    "display_name": "Gemini3.7 Flash旧网站改版与回归检查",
+    "category": "Gemini 3.7 Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-gemini37-site-redesign",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-grok46-interactive-data-page",
+    "display_name": "Grok4.6数据讲解交互网页制作",
+    "category": "Grok 4.6",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-grok46-interactive-data-page",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-hy4-preview-access-check",
+    "display_name": "混元Hy4-preview预览接入验收",
+    "category": "Tencent Hy4 preview",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-hy4-preview-access-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gemini35-lite-batch-extract",
+    "display_name": "Gemini3.5 Flash Lite批量字段抽取",
+    "category": "Gemini 3.5 Flash Lite",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-gemini35-lite-batch-extract",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-shieldstral-policy-tests",
+    "display_name": "Shieldstral1.0内容政策测试与复核",
+    "category": "Shieldstral 1.0",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-shieldstral-policy-tests",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-minimax-m3-research-repo-handoff",
+    "display_name": "MiniMax M3研究与代码仓库交接",
+    "category": "MiniMax M3",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-minimax-m3-research-repo-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-glm53-cross-file-debug",
+    "display_name": "GLM5.3跨文件故障定位与最小修复",
+    "category": "GLM 5.3",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-glm53-cross-file-debug",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-glm53-flash-screenshot-fix",
+    "display_name": "GLM5.3 Flash截图问题转修复任务",
+    "category": "GLM 5.3 Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-glm53-flash-screenshot-fix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gemini38-feature-acceptance",
+    "display_name": "Gemini3.8 Flash新增功能验收追踪",
+    "category": "Gemini 3.8 Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-gemini38-feature-acceptance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-omni11-video-extension",
+    "display_name": "Gemini Omni 1.1 Flash视频续写助手",
+    "category": "Gemini Omni 1.1 Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-omni11-video-extension",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-omni11-endpoint-video",
+    "display_name": "Omni 1.1 Flash首尾帧视频制作助手",
+    "category": "Gemini Omni 1.1 Flash",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-omni11-endpoint-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedream5pro-product-retouch",
+    "display_name": "Seedream 5.0 Pro商品图精修助手",
+    "category": "Seedream 5.0 Pro",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-seedream5pro-product-retouch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedream5pro-multilingual-poster",
+    "display_name": "Seedream 5.0 Pro多语言海报制作助手",
+    "category": "Seedream 5.0 Pro",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-seedream5pro-multilingual-poster",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedream5pro-layer-assets",
+    "display_name": "Seedream 5.0 Pro图层资产整理助手",
+    "category": "Seedream 5.0 Pro",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-seedream5pro-layer-assets",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-flux3-keyframe-video",
+    "display_name": "FLUX 3 Video多关键帧视频制作助手",
+    "category": "FLUX 3 Video",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-flux3-keyframe-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-flux3-ad-continuation",
+    "display_name": "FLUX 3 Video广告镜头接续助手",
+    "category": "FLUX 3 Video",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-flux3-ad-continuation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-elevenmusic2-ad-score",
+    "display_name": "Eleven Music v2广告配乐助手",
+    "category": "Eleven Music v2",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-elevenmusic2-ad-score",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-elevenmusic2-section-compose",
+    "display_name": "Eleven Music v2分段作曲助手",
+    "category": "Eleven Music v2",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-elevenmusic2-section-compose",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-live-transcribe",
+    "display_name": "GPT Live Transcribe实时转写助手",
+    "category": "GPT-Live-Transcribe",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-gpt-live-transcribe",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-transcribe-recording",
+    "display_name": "GPT Transcribe录音转文字助手",
+    "category": "GPT-Transcribe",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-gpt-transcribe-recording",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-transcribe-subtitle-timing",
+    "display_name": "GPT Transcribe字幕校时助手",
+    "category": "GPT-Transcribe",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-gpt-transcribe-subtitle-timing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-realtime-translate",
+    "display_name": "GPT Realtime Translate实时语音翻译助手",
+    "category": "GPT-Realtime-Translate",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-gpt-realtime-translate",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gpt-realtime21-reception",
+    "display_name": "GPT Realtime 2.1语音接待配置助手",
+    "category": "GPT-Realtime-2.1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-gpt-realtime21-reception",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-happyhorse11-text-ad",
+    "display_name": "HappyHorse 1.1文生广告视频助手",
+    "category": "HappyHorse 1.1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-happyhorse11-text-ad",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-happyhorse11-first-frame",
+    "display_name": "HappyHorse 1.1首帧图生视频助手",
+    "category": "HappyHorse 1.1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-happyhorse11-first-frame",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-happyhorse11-character-reference",
+    "display_name": "HappyHorse 1.1参考角色一致性视频助手",
+    "category": "HappyHorse 1.1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-happyhorse11-character-reference",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-minimaxmusic3-brand-song",
+    "display_name": "MiniMax Music 3.0品牌歌曲制作助手",
+    "category": "MiniMax Music 3.0",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-minimaxmusic3-brand-song",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-minimaxmusic3-arrangement",
+    "display_name": "MiniMax Music 3.0段落编曲助手",
+    "category": "MiniMax Music 3.0",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-minimaxmusic3-arrangement",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedaudio1-dialogue-sfx",
+    "display_name": "Seed Audio 1.0对白音效制作助手",
+    "category": "Seed Audio 1.0",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-seedaudio1-dialogue-sfx",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedaudio1-ambience",
+    "display_name": "Seed Audio 1.0场景环境声助手",
+    "category": "Seed Audio 1.0",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-seedaudio1-ambience",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-lyria35-fixed-score",
+    "display_name": "Lyria 3.5定长配乐助手",
+    "category": "Lyria 3.5",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-lyria35-fixed-score",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-seedrealtime-visual-guide",
+    "display_name": "SeedRealtime实时视觉讲解助手",
+    "category": "SeedRealtime",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-seedrealtime-visual-guide",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-kling3turbo-shot-selection",
+    "display_name": "可灵 3.0 Turbo镜头预览筛选助手",
+    "category": "Kling 3.0 Turbo",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-kling3turbo-shot-selection",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-hy3d31-multiview-build",
+    "display_name": "混元 3D 3.1多视图建模助手",
+    "category": "HY-3D-3.1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-hy3d31-multiview-build",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-hy3d31-asset-review",
+    "display_name": "混元 3D 3.1资产验收助手",
+    "category": "HY-3D-3.1",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
+    "path": "skills/ai-hive-hy3d31-asset-review",
+    "language": "zh-CN"
   }
 ]

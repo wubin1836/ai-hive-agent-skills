@@ -1,0 +1,113 @@
+{
+  "slug": "ai-hive-minimaxmusic3-arrangement",
+  "title": "MiniMax Music 3.0段落编曲助手",
+  "family": "MiniMax Music 3.0",
+  "model_terms": [
+    "MiniMax Music 3.0"
+  ],
+  "aliases": [
+    "MiniMaxMusic3.0编曲",
+    "MiniMax Music 3.0",
+    "Music3.0",
+    "MiniMax分段音乐",
+    "段落编曲",
+    "乐器进出",
+    "曲式编排",
+    "结构化整曲"
+  ],
+  "summary": "把音乐的情绪走向写成分段编曲说明，明确哪些时段进入鼓、贝斯或弦乐以及哪些段落保持留白。利用MiniMax Music 3.0实际结构控制生成后，测量真实段界并审听乐器变化，交付整曲与目标/实际编曲对照。",
+  "inputs": [
+    "前奏、主段、变化段和结尾顺序",
+    "各段目标长度及乐器变化",
+    "人声或纯器乐要求",
+    "参考风格文字与用途"
+  ],
+  "steps": [
+    "发现MiniMax Music 3.0实际结构化提示方式，区分段落说明与接口硬性时间控制，不把自然语言约束当保证。",
+    "将曲式总时长拆分到各段，标注能量曲线、主奏与伴奏角色，检查过多同时变化是否破坏主旋律。",
+    "为每个边界明确进入、退出和延续的乐器，写出结尾解决方式而非只说自然结束。",
+    "在用户确认结构及费用后提交真实任务，保存编曲说明版本和任务ID，不自动为每段创建新歌曲。",
+    "听全曲并标记实际段界、乐器加入与退出时刻，比较目标和实际偏差，不能凭谱面计划认定已生成。",
+    "交付真实整曲、段落编曲对照和回执；拆分或音量修整作为宿主后处理另记，不冒称多轨导出。"
+  ],
+  "outputs": [
+    "minimax-arrangement.wav：实际编曲音频",
+    "minimax-arrangement-map.csv：目标段落与实际乐器变化",
+    "minimax-arrangement-task.json：结构版本、任务与后处理记录"
+  ],
+  "checks": [
+    "曲式顺序和重要乐器变化可以实听确认",
+    "目标段界与实际段界偏差已列明",
+    "结尾无未披露硬截断",
+    "未把音频整曲称为MIDI、乐谱或多轨工程"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。不承诺精确段落时刻、MIDI或独立乐器轨；输出可控程度按真实模型与实听结果判断。修改某段若接口只支持整曲重生成，必须先说明成本和其他段变化风险。",
+  "prompt": "用MiniMax Music3.0做45秒纯器乐，前10秒钢琴，10到30秒加入鼓和贝斯，最后15秒减回钢琴，给我实际乐器变化点。",
+  "sample_input": {
+    "total_seconds": 45,
+    "sections": [
+      {
+        "range": [
+          0,
+          10
+        ],
+        "instruments": [
+          "钢琴"
+        ]
+      },
+      {
+        "range": [
+          10,
+          30
+        ],
+        "instruments": [
+          "钢琴",
+          "鼓",
+          "贝斯"
+        ]
+      },
+      {
+        "range": [
+          30,
+          45
+        ],
+        "instruments": [
+          "钢琴"
+        ]
+      }
+    ],
+    "vocals": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "minimax-arrangement.wav",
+      "minimax-arrangement-map.csv",
+      "minimax-arrangement-task.json"
+    ],
+    "acceptance_plan": {
+      "total_seconds": 45,
+      "transitions": [
+        10,
+        30
+      ],
+      "final_instruments": [
+        "钢琴"
+      ]
+    },
+    "actual_transition_seconds": null
+  },
+  "novelty": "区别于品牌歌的歌词和读音，本项以MiniMaxMusic3结构化编曲、乐器进出和实际段界为交付核心。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、音频任务与回执获取能力",
+    "音频播放、时长探测和音量检查",
+    "本地音频及工作单保存工具"
+  ],
+  "sources": [
+    "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "ai-hive-gemini38-feature-acceptance",
+  "title": "Gemini3.8 Flash新增功能验收追踪",
+  "family": "Gemini 3.8 Flash",
+  "aliases": [
+    "gemini-3.8-flash",
+    "Gemini 3.8 Flash",
+    "Gemini3.8",
+    "谷歌Gemini3.8",
+    "Gemini新增功能验收",
+    "Gemini需求测试追踪",
+    "Gemini功能交付证据",
+    "Gemini开发验收清单"
+  ],
+  "summary": "新增功能涉及多个页面、接口和状态，容易做到一半就被认为完成时，用AI-HIVE核验Gemini3.8 Flash，把需求拆成可观察的验收条件，跟踪到实现、测试和交付证据。输出持续可更新的状态表与阻断清单，让产品和开发按证据确认完成，而不是按进度描述打勾。",
+  "inputs": [
+    "新增功能说明、用户流程及明确不做的范围",
+    "获准读取的仓库版本和相关接口契约",
+    "已有测试、设计参考与环境说明",
+    "允许的实现范围及功能验收负责人"
+  ],
+  "steps": [
+    "核验gemini-3.8-flash与所需仓库工具，冻结本次功能需求、基线提交及不可变接口",
+    "将用户流程拆成正常、权限、异常、空数据和撤销等可观察条件，歧义先列待确认",
+    "给每项条件分配稳定编号，映射到计划修改位置、相关接口和测试用例",
+    "在授权范围协助实现或审查提交，逐项记录代码证据；没有实现授权时只产出追踪计划",
+    "使用真实测试工具逐项验证并保存结果，区分已编码、已测通过、待运行和被阻断",
+    "复核所有条件及排除范围，交付功能验收矩阵、测试证据和仍需负责人决策的问题"
+  ],
+  "outputs": [
+    "feature-acceptance.csv：需求、实现、测试与状态矩阵",
+    "acceptance-evidence.md：实际证据与运行条件",
+    "release-open-items.json：阻断项和待确认问题"
+  ],
+  "checks": [
+    "每个完成标记同时满足约定的实现与验收证据",
+    "只有代码存在但没有测试的项目不标已验收",
+    "权限、异常和空数据路径不被正常演示替代",
+    "环境阻断和产品待决策分开记录，未自动上线"
+  ],
+  "boundary": "AI-HIVE需确认Gemini3.8 Flash实际通道及权限，模型不自带开发、浏览器或CI环境。实际代码修改与测试依赖授权工具；无工具时交待实施矩阵，不伪造运行证据、不擅自发布或扩大功能范围。",
+  "prompt": "用Gemini3.8 Flash帮我追踪这次新增导出功能的验收。覆盖正常导出、无权限、空列表和任务失败，逐项对应实现与测试证据；只有写了代码但未验证的不要标完成，先不发布。",
+  "sample_input": {
+    "feature": "订单CSV导出",
+    "requirements": [
+      "有权限可导出当前筛选结果",
+      "无权限不得获取数据",
+      "空列表给出明确提示"
+    ],
+    "evidence": {
+      "code_present": true,
+      "tests_run": false
+    }
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "acceptance": [
+      {
+        "id": "EXP-01",
+        "condition": "导出当前筛选结果",
+        "implementation": "有代码线索，待核对",
+        "test": "未运行",
+        "status": "未验收"
+      },
+      {
+        "id": "EXP-02",
+        "condition": "无权限不得获取数据",
+        "implementation": "待检查",
+        "test": "未运行",
+        "status": "未验收"
+      }
+    ],
+    "files": [
+      "feature-acceptance.csv",
+      "acceptance-evidence.md",
+      "release-open-items.json"
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/changelog"
+  ],
+  "novelty": "旧Gemini3.8 Flash多模态方案侧重选型和输入能力；本项追踪一个新增功能从验收条件到实现、真实测试和交付阻断的完整链条，不重复泛模型API介绍。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "gemini-3.8-flash"
+  ],
+  "host_requirements": [
+    "AI-HIVE Gemini3.8 Flash实际调用通道",
+    "授权需求文档、仓库与测试日志读取工具",
+    "实现或验证另需明确授权的补丁、浏览器及测试运行器"
+  ]
+}

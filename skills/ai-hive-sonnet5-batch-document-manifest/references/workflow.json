@@ -1,0 +1,86 @@
+{
+  "slug": "ai-hive-sonnet5-batch-document-manifest",
+  "title": "Claude Sonnet 5批量文档处理助手",
+  "family": "Claude Sonnet 5",
+  "aliases": [
+    "Claude Sonnet 5",
+    "ClaudeSonnet5",
+    "Sonnet5",
+    "Sonnet 5",
+    "claude-sonnet-5",
+    "Claude Sonnet",
+    "Sonnet批量文档",
+    "Claude批量整理",
+    "Sonnet文件转换",
+    "批量文档处理"
+  ],
+  "summary": "把一批文档按统一规则整理、提取或转换，适合历史资料归档、会议纪要清理和内容迁移。先建立文件清单并用小样本验证规则，再逐项处理与记录状态，保留原件、失败原因和重试边界，交付结果包与完整处理台账。",
+  "inputs": [
+    "明确选定的文件或目录范围",
+    "提取、命名或转换规则",
+    "目标格式和必须保留的内容",
+    "处理顺序及重试条件"
+  ],
+  "steps": [
+    "列出授权文件并分配稳定编号，记录相对路径、格式及校验值，不扩大扫描范围",
+    "选取包含表格、扫描页或特殊字符的代表样本，验证提取和命名规则",
+    "需语义整理时用Sonnet 5处理已核验的文本内容，纯格式转换交给对应宿主工具",
+    "逐项写入独立输出目录，避免同名冲突并保留原件及输入输出映射",
+    "对每个结果执行格式、必需字段或内容保留检查，失败项单列且不自动反复重试",
+    "按台账区分完成、失败和未处理，生成结果归档及只针对明确失败项的恢复说明"
+  ],
+  "outputs": [
+    "processed-documents.zip：已核验的处理结果",
+    "processing-manifest.csv：逐文件输入输出及状态",
+    "failed-items.md：失败原因与恢复条件"
+  ],
+  "checks": [
+    "清单内每个文件恰有一个明确处理状态",
+    "原文件未覆盖且同名文件不会互相替换",
+    "完成项经过目标格式和关键内容检查",
+    "空白、损坏或未支持格式不会被标成成功"
+  ],
+  "boundary": "需要模型整理时由用户登录AI-HIVE并绑定远程MCP，核验claude-sonnet-5；不可用即停止语义处理，不替换。文件扫描、格式转换和归档由宿主完成，离线纯转换不强制调用模型；没有对应转换器时列为失败或待处理，不假称模型已输出DOCX、PDF等文件，也不自动云端导入。",
+  "prompt": "用Claude Sonnet 5整理我选定的30份会议纪要，统一提取日期、议题和行动项，输出Markdown归档。先试3份，保留原文件；表格或扫描页提取失败的单列，不无限重试。",
+  "sample_input": {
+    "selected_directory": "会议纪要_授权批次",
+    "target_format": "Markdown",
+    "required_fields": [
+      "日期",
+      "议题",
+      "行动项"
+    ],
+    "sample_size": 3,
+    "overwrite_originals": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "manifest_item": {
+      "id": "DOC-008",
+      "input": "部门B/周会.docx",
+      "output": "DOC-008-周会.md",
+      "status": "待处理"
+    },
+    "failure_example": {
+      "id": "DOC-019",
+      "reason": "扫描页需要OCR工具",
+      "automatic_retry": false
+    }
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/sonnet-5/overview"
+  ],
+  "novelty": "新增小样本验证、稳定文件编号与失败恢复台账，处理的是批次一致性而非单份Word修订，纯转换与模型语义处理明确分工。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Sonnet 5",
+    "claude-sonnet-5"
+  ],
+  "host_requirements": [
+    "授权范围的文件枚举、校验值和读写工具",
+    "与实际输入输出格式匹配的文档转换器",
+    "扫描件需要OCR工具",
+    "本地归档及格式校验工具"
+  ]
+}

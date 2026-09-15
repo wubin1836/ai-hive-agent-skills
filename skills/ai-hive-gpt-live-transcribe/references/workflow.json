@@ -1,0 +1,88 @@
+{
+  "slug": "ai-hive-gpt-live-transcribe",
+  "title": "GPT Live Transcribe实时转写助手",
+  "family": "GPT-Live-Transcribe",
+  "model_terms": [
+    "GPT-Live-Transcribe",
+    "gpt-live-transcribe"
+  ],
+  "aliases": [
+    "GPTLiveTranscribe",
+    "GPT Live Transcribe",
+    "GPT-Live-Transcribe",
+    "GPT实时转写",
+    "实时录音转文字",
+    "边说边出字",
+    "实时字幕",
+    "直播转写"
+  ],
+  "summary": "为获授权的实时音频建立边听边转写流程，区分暂态文字和已确认文字，并保存中断、重连与缺失片段。使用GPT-Live-Transcribe实际音频流入口完成后交付文本、事件记录与会话回执，不把上传录音后的结果冒充实时输出。",
+  "inputs": [
+    "明确授权的麦克风或音频流来源",
+    "语言提示与专有名词表",
+    "会话时长及保存规则",
+    "可接受延迟与中断处理要求"
+  ],
+  "steps": [
+    "发现gpt-live-transcribe和宿主真实音频流能力，确认输入格式、会话事件及增量/最终文本语义；无流式能力则停止实时执行。",
+    "向参与者说明音频处理范围，确认本次采集、传输、保留时间及费用，不默认录制系统全部声音。",
+    "建立领域词表与语言提示，只提交实际支持的参数；保留会话起始时刻和本地音频时间基准。",
+    "获授权后启动一次会话，逐事件保存session_id、片段ID、顺序与状态，暂态更新覆盖同片段而非重复追加。",
+    "遇到断流停止推断缺失内容，记录缺口起止和重连边界；是否重传音频需确认支持方式与额外费用。",
+    "结束后等待最终事件并关闭采集，交付最终文本、缺口/事件记录和脱敏回执，未最终确认文字单独标注。"
+  ],
+  "outputs": [
+    "gpt-live-transcript.txt：真实会话最终转写文本",
+    "gpt-live-events.jsonl：片段状态、顺序及缺口记录",
+    "gpt-live-session.json：实际模型、会话ID及采集边界"
+  ],
+  "checks": [
+    "暂态与最终文本区分且无重复增量拼接",
+    "断流缺口显式标记，没有补写未听见内容",
+    "会话结束后采集确已关闭",
+    "文本片段能回溯到真实会话与事件"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。仅文字聊天或文件上传工具不等于实时音频流；不将GPT-Live、GPT-Transcribe或其他转写型号冒充本型号。不默认支持说话人分离、逐字时间戳或后台常开麦克风。",
+  "prompt": "用GPT-Live-Transcribe给这次演示实时出字，只接我选的麦克风，先确认授权和时长上限；断流就标记缺口，不要凭上下文补句子。",
+  "sample_input": {
+    "audio_source": "用户选择的麦克风",
+    "language_hints": [
+      "zh"
+    ],
+    "keywords": [
+      "澄光台灯",
+      "SKU-A17"
+    ],
+    "max_minutes": 10,
+    "retain_raw_audio": false,
+    "consent": "pending"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "gpt-live-transcript.txt",
+      "gpt-live-events.jsonl",
+      "gpt-live-session.json"
+    ],
+    "acceptance_plan": {
+      "source_scope": "selected_microphone",
+      "max_minutes": 10,
+      "partial_policy": "replace_by_segment_id",
+      "gap_policy": "mark_only"
+    },
+    "session_id": null
+  },
+  "host_requirements": [
+    "gpt-live-transcribe真实发现与授权会话入口",
+    "用户可选择并随时停止的音频流采集",
+    "增量事件订阅、持久化与会话关闭工具"
+  ],
+  "novelty": "区别于上一轮GPT Live泛实时助手和离线录音转写，精确覆盖Live Transcribe及暂态事件、音频缺口和会话关闭验收。",
+  "availability": "runtime-check",
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-live-transcribe"
+  ]
+}

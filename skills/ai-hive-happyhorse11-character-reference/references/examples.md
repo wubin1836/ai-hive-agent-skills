@@ -1,0 +1,81 @@
+# HappyHorse 1.1参考角色一致性视频助手：场景示例
+
+## 场景一：首次执行
+
+```text
+用HappyHorse1.1按这两张原创邮差角色参考，做门口取信和路上骑车两个镜头，帽子、邮包和衣服颜色要一致，先核对参考图上限。
+```
+
+输入记录示例：
+
+```json
+{
+  "character_id": "courier-demo",
+  "references": [
+    "courier-front.png",
+    "courier-side.png"
+  ],
+  "locked": [
+    "绿色帽子",
+    "棕色邮包",
+    "黄色外套"
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "action": "门口取信"
+    },
+    {
+      "id": "S02",
+      "action": "路上骑车"
+    }
+  ],
+  "rights": "原创角色"
+}
+```
+
+人工构造的输出片段，仅用于解释格式；不是付费模型生成结果或测试成绩：
+
+```json
+{
+  "illustrative_only": true,
+  "sample": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "happyhorse-character-clips.zip",
+      "happyhorse-character-check.csv",
+      "happyhorse-reference-tasks.json"
+    ],
+    "acceptance_plan": {
+      "model_id": "happyhorse-1.1-r2v",
+      "character_id": "courier-demo",
+      "shot_ids": [
+        "S01",
+        "S02"
+      ],
+      "locked_count": 3
+    },
+    "completed_shots": []
+  }
+}
+```
+
+## 场景二：复核与返工
+
+```text
+请检查本次输出是否满足：每个镜头有明确角色参考与使用权来源；参考角色未混合且外观变化逐项披露；镜头数与实际文件、任务ID一一对应；未完成或不合格片段不会被标成最终通过。
+把结论分成已验证、未验证、需补资料三类。只修复有证据的问题，不覆盖原文件；先列返工清单和额外调用费用。
+```
+
+复核记录建议字段：`check / evidence / actual / status / next_action`。
+
+## 场景三：当前模型或工具不可用
+
+```text
+如果当前AI-HIVE没有本任务需要的精确模型或工具，请不要生成冒名结果。给我已发现的能力、缺失条件、可先完成的本地准备材料，以及需要我选择的替代方案。
+```
+
+本地演练：在MCP未配置时仍可执行 `scripts/workflow.py`，但其结果必须保持 `phase=offline_plan`、`model_calls=0`。这只能验证工作单，不是验证模型能力。

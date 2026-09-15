@@ -1,0 +1,90 @@
+{
+  "slug": "ai-hive-gpt-transcribe-recording",
+  "title": "GPT Transcribe录音转文字助手",
+  "family": "GPT-Transcribe",
+  "model_terms": [
+    "GPT-Transcribe",
+    "gpt-transcribe"
+  ],
+  "aliases": [
+    "GPTTranscribe",
+    "GPT Transcribe",
+    "GPT-Transcribe",
+    "GPT录音转文字",
+    "录音转文字",
+    "访谈转写",
+    "会议录音转写",
+    "音频转文本"
+  ],
+  "summary": "把已有会议、访谈或课程录音转换为可核对的文字，保护原音频并管理领域词、分段和听不清的位置。使用GPT-Transcribe实际文件转写能力后审听抽检，交付忠实转写稿与疑点清单，区分逐字稿和另行整理的摘要。",
+  "inputs": [
+    "有转写授权的音频文件",
+    "语言及领域词表",
+    "逐字或轻整理稿要求",
+    "人名匿名化及保留期限"
+  ],
+  "steps": [
+    "发现gpt-transcribe文件转写模式，探测实际音频编码、时长与大小，核对工具限制而非按后缀判断可读。",
+    "建立源文件指纹、语言提示和领域词表，明确人名是否匿名化、是否保留语气词，不改变说话原意。",
+    "超出单次限制时按停顿切分并保留源时间偏移；有重叠段就记录去重范围，不能静默丢掉片头片尾。",
+    "确认上传范围与费用后逐片提交，按文件指纹和片段号记录真实任务ID，先查失败状态再决定是否重传。",
+    "合并真实文本并处理重叠，抽听数字、名称和含混处；听不清时写明疑点，不凭行业知识补出结论。",
+    "交付转写稿、带来源位置的疑点表和任务清单；用户另需摘要时标成派生内容，不替代原转写。"
+  ],
+  "outputs": [
+    "gpt-recording-transcript.txt：实际音频转写稿",
+    "gpt-recording-uncertain.csv：疑点、来源位置与复核状态",
+    "gpt-recording-tasks.json：文件指纹、分段偏移与任务ID"
+  ],
+  "checks": [
+    "所有源音频区间均有对应结果或明确缺口",
+    "切分重叠没有重复句或误删正文",
+    "重要数字、人名及术语已抽听核验",
+    "未经确认不将听不清内容写成确定事实"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。GPT-Transcribe不默认提供说话人身份或逐字时间戳；没有原音频播放能力就声明未完成审听。领域提示只帮助识别，不能被当成录音内容填入。",
+  "prompt": "用GPT-Transcribe把这份访谈录音转成文字，保留说话原意，客户姓名匿名化，金额和产品型号要回听，听不清的地方列出来。",
+  "sample_input": {
+    "audio_file": "interview-demo.m4a",
+    "language_hints": [
+      "zh",
+      "en"
+    ],
+    "terms": [
+      "A17",
+      "柔光模式"
+    ],
+    "transcript_style": "忠实轻断句",
+    "anonymize_people": true
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "gpt-recording-transcript.txt",
+      "gpt-recording-uncertain.csv",
+      "gpt-recording-tasks.json"
+    ],
+    "acceptance_plan": {
+      "anonymize_people": true,
+      "spot_check_types": [
+        "金额",
+        "产品型号"
+      ],
+      "unknown_policy": "列疑点"
+    },
+    "audio_coverage": null
+  },
+  "novelty": "新增GPT-Transcribe精确入口，交付源文件可追溯逐字稿而非会议摘要；与实时转写的会话管理分开。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、音频任务与回执获取能力",
+    "音频播放、时长探测和音量检查",
+    "本地音频及工作单保存工具"
+  ],
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-transcribe"
+  ]
+}

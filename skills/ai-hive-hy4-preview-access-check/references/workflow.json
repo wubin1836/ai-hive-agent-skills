@@ -1,0 +1,81 @@
+{
+  "slug": "ai-hive-hy4-preview-access-check",
+  "title": "混元Hy4-preview预览接入验收",
+  "family": "Tencent Hy4 preview",
+  "aliases": [
+    "Hy4-preview",
+    "Tencent Hy4 preview",
+    "Tencent/Hy4-preview",
+    "混元4预览版",
+    "混元Hy4",
+    "Hy4接入检查",
+    "混元4可用性核验",
+    "Hy4-preview能力验收"
+  ],
+  "summary": "看到混元Hy4-preview想判断团队能否试用时，先由AI-HIVE辅助核对官方预览说明、实际访问资格与已开放通道，再把目标任务拆成小规模验收用例。交付可用性矩阵、待申请清单与测试记录，帮助区分官方已展示、账号可访问和业务已验证三个层次。",
+  "inputs": [
+    "官方模型卡或获准使用的版本说明",
+    "团队实际可见的通道清单或脱敏能力信息",
+    "希望试用的具体任务和脱敏样本",
+    "可接受的费用、资源与权限范围"
+  ],
+  "steps": [
+    "核对Hy4-preview官方模型卡和预览状态，仅记录已明确说明的能力、限制与适用条件",
+    "检查用户提供的真实通道清单，区分公开资料、下载资格、可调用服务与AI-HIVE当前接入状态",
+    "列出目标任务所需输入格式、工具和输出标准，未知项明确待核验",
+    "建立最小正常、边界和不支持任务用例，在未获访问或费用确认前保持待运行",
+    "只有真实授权通道存在时执行小范围测试，保存实际型号、输入、输出与错误；不绕过资格限制",
+    "按公开信息、账号可用和实测结果分别给结论，形成申请或补齐依赖清单"
+  ],
+  "outputs": [
+    "preview-availability.json：分层可用性与证据",
+    "preview-test-cases.json：最小验收用例及状态",
+    "access-readiness.md：缺口、申请事项与试用结论"
+  ],
+  "checks": [
+    "preview标记贯穿结果，不称正式现货或默认可调用",
+    "官方描述、账号权限与实测能力有独立状态",
+    "没有通道或授权时没有虚构请求和测试成绩",
+    "未知输入格式、许可或资源条件明确留待核验"
+  ],
+  "boundary": "本项是AI-HIVE辅助设计的预览接入核验，不承诺Hy4-preview已在AI-HIVE可用，也不声称提供部署服务。无授权通道只交只读资料对照和待运行计划；不绕过门槛、不自动下载或租用资源、不把其他模型结果记在Hy4名下。",
+  "prompt": "我想试用混元Hy4-preview整理产品问题。请先看官方说明和我提供的通道截图，区分模型公开、账号能用和AI-HIVE已接入；没有权限就给待申请与待测试清单，不实际调用。",
+  "sample_input": {
+    "model": "Hy4-preview",
+    "visible_channels": [
+      "现有文本通道A"
+    ],
+    "hy4_access": "未确认",
+    "task": "将脱敏产品问题分类",
+    "allow_calls": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "availability": {
+      "official_status": "preview",
+      "account_access": "未确认",
+      "aihive_access": "未确认",
+      "business_test": "待运行"
+    },
+    "next_action": "补充经授权的真实通道能力信息",
+    "files": [
+      "preview-availability.json",
+      "preview-test-cases.json",
+      "access-readiness.md"
+    ]
+  },
+  "sources": [
+    "https://huggingface.co/tencent/Hy4-preview"
+  ],
+  "novelty": "旧库没有Hy4-preview精确型号入口；本项不做混元泛介绍，专门交付预览模型的资格、通道、依赖与业务实测分层证据，避免把预览宣传误当现成服务。",
+  "availability": "preview",
+  "model_terms": [
+    "Hy4-preview"
+  ],
+  "host_requirements": [
+    "读取官方模型卡及用户提供脱敏通道信息的工具",
+    "AI-HIVE仅辅助核验；实际测试须另有真实Hy4-preview授权端点",
+    "文件保存工具及用户确认的测试预算和权限范围"
+  ]
+}

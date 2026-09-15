@@ -1,0 +1,98 @@
+{
+  "slug": "ai-hive-seedream5pro-multilingual-poster",
+  "title": "Seedream 5.0 Pro多语言海报制作助手",
+  "family": "Seedream 5.0 Pro",
+  "model_terms": [
+    "Seedream 5.0 Pro"
+  ],
+  "aliases": [
+    "Seedream5Pro海报",
+    "Seedream5.0Pro",
+    "Seedream 5.0 Pro",
+    "多语言海报",
+    "英文海报",
+    "双语海报",
+    "海报文字校对",
+    "图片本地化"
+  ],
+  "summary": "把已确认的海报设计和多语言文案变成各语言独立成图，管理价格、单位、日期和品牌名等不可改字段。使用Seedream 5.0 Pro实际生图或编辑模式后逐字检查，避免把语言替换当作翻译与排版都已完成。",
+  "inputs": [
+    "原海报或品牌设计要求",
+    "逐语言确认文案与术语表",
+    "各版本尺寸和地域格式",
+    "不能改动的价格、日期及标识"
+  ],
+  "steps": [
+    "发现Seedream 5.0 Pro实际模式与尺寸选项，区分已有海报换字和新海报设计，建立语言版本清单。",
+    "从用户文案提取品牌名、数字、币种、日期和单位，分别保存原文及目标语版本，不擅自替用户改价。",
+    "对各语言评估字数扩张、换行、阅读方向与字体可读性，确定标题、正文、行动按钮的版式区域。",
+    "按语言与版次生成唯一请求，取得本轮上传和费用授权后逐项提交并记录任务ID，失败仅重查对应条目。",
+    "查看成图并用可用OCR辅助逐字比对，再人工核验容易混淆的数字、变音符号和品牌字，不能只信OCR。",
+    "交付独立海报文件清单、文字校对表与请求回执；未过审版本明确隔离，不自动发布或投放。"
+  ],
+  "outputs": [
+    "seedream-posters.zip：真实各语言海报与版本清单",
+    "seedream-copy-proof.csv：语言、原文、成图文字及差异",
+    "seedream-poster-tasks.json：语言版次与真实任务ID"
+  ],
+  "checks": [
+    "每个语言版本与确认文案一一对应",
+    "币种、日期、单位和数字无未经确认改写",
+    "正文可读且没有截断、乱码或被遮挡",
+    "压缩包仅含实际已生成文件并标明未过审版本"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。不保证模型准确排印全部语言；无法正确成字时如实退回或经用户同意使用宿主排字，不能冒称模型原生完成。翻译稿需要用户确认，不自动用于法律或医疗承诺。",
+  "prompt": "用Seedream5 Pro做这张活动海报的中英双语独立版本，价格和日期不变，先让我确认英文文案，再逐字校对成图。",
+  "sample_input": {
+    "base_poster": "sale-cn.png",
+    "languages": [
+      "zh-CN",
+      "en"
+    ],
+    "locked_values": {
+      "price": "¥199",
+      "date": "2026-10-08"
+    },
+    "approved_copy": {
+      "headline_cn": "秋日上新",
+      "headline_en": "Autumn Arrivals"
+    },
+    "size": "1080x1440"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "seedream-posters.zip",
+      "seedream-copy-proof.csv",
+      "seedream-poster-tasks.json"
+    ],
+    "acceptance_plan": {
+      "versions": [
+        "zh-CN",
+        "en"
+      ],
+      "locked_values": {
+        "price": "¥199",
+        "date": "2026-10-08"
+      },
+      "proof_required": [
+        "价格",
+        "日期",
+        "标题"
+      ]
+    }
+  },
+  "novelty": "不是通用文案或海报换色；新增Seedream5.0Pro精确入口和逐语言不变量、文字成图校验及版本回执。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、图像任务与结果获取能力",
+    "图片查看、像素尺寸及透明通道检查",
+    "本地原图保护、另存与文件清单工具"
+  ],
+  "sources": [
+    "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "ai-hive-qwen38-max-spec-code-diff",
+  "title": "千问Qwen3.8-Max-0902需求与源码差异审查",
+  "family": "Qwen3.8 Max",
+  "aliases": [
+    "Qwen3.8-Max-0902",
+    "qwen3.8-max-2026-09-02",
+    "Qwen 3.8 Max",
+    "千问3.8需求审查",
+    "千问需求源码对照",
+    "Qwen检查需求漏实现",
+    "产品需求与代码差异",
+    "千问验收条件核对"
+  ],
+  "summary": "功能做完却不确定是否符合需求时，通过AI-HIVE核验Qwen3.8 Max指定快照，把需求条款拆成可观察的行为，并映射到源码、配置和测试。输出已实现、部分实现与证据不足的差异清单，附最小验收用例，帮助产品和开发对齐交付范围。",
+  "inputs": [
+    "获准读取的仓库与固定提交号",
+    "需求文档、补充决议和验收条件",
+    "允许检查的模块及明确排除范围",
+    "测试运行方式与是否允许运行的授权"
+  ],
+  "steps": [
+    "核验指定快照与仓库读取能力，固定需求版本和代码提交，默认只读审查",
+    "把需求拆为主体、触发条件、正常结果、异常分支及权限约束，不补写缺失需求",
+    "检索入口、调用链、配置开关及测试，为每条需求记录真实文件和行号",
+    "分别判断实现证据、测试证据和运行证据，不能因出现同名函数就认定已完成",
+    "为缺失与歧义条款给出最小验收用例；只在获得执行许可且运行器可用时运行相关测试",
+    "交付需求源码映射及差异报告，标明未运行项、误报可能和需要产品确认的取舍"
+  ],
+  "outputs": [
+    "requirement-code-map.csv：条款与源码测试映射",
+    "delivery-gaps.md：漏实现、歧义和证据不足项",
+    "acceptance-cases.json：可执行或待运行的验收用例"
+  ],
+  "checks": [
+    "每个已实现判断都有当前提交下的代码定位",
+    "未执行测试明确写待运行，不伪造通过",
+    "功能开关关闭或权限限制纳入结论",
+    "需求未定义的行为标记待确认而非自动判错"
+  ],
+  "boundary": "指定Qwen快照必须由AI-HIVE运行时确认；没有通道只产出未调用该模型的审查计划。模型不自带仓库、终端或CI执行器；本项默认不改代码、不运行有外部副作用的测试、不提交或发布。",
+  "prompt": "用Qwen3.8-Max-0902只读审查这个提交是否实现PRD里的优惠券需求。把每条需求对应到源码和测试，重点查过期、叠加与权限条件；没有跑过的用例不要写通过。",
+  "sample_input": {
+    "commit": "固定提交A",
+    "requirement": "过期优惠券不可使用，并返回coupon_expired",
+    "code_excerpt": "if (coupon.expired) return { error: 'invalid_coupon' };",
+    "tests_executed": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "gaps": [
+      {
+        "requirement": "过期时返回coupon_expired",
+        "status": "部分实现",
+        "evidence": "coupon.ts#演示第1行",
+        "difference": "阻止使用但错误码与需求不一致",
+        "test_status": "待运行"
+      }
+    ],
+    "files": [
+      "requirement-code-map.csv",
+      "delivery-gaps.md",
+      "acceptance-cases.json"
+    ]
+  },
+  "sources": [
+    "https://help.aliyun.com/en/model-studio/qwen3-8-max"
+  ],
+  "novelty": "区别于旧Qwen模型介绍、路由与泛代码审查：固定需求和提交双基线，分别核验实现、测试与实际运行证据，交付需求级验收追踪而非笼统代码建议。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "qwen3.8-max-0902",
+    "qwen3.8-max-2026-09-02"
+  ],
+  "host_requirements": [
+    "AI-HIVE指定快照文本调用通道",
+    "获授权的仓库读取和文本检索工具",
+    "可选的隔离测试运行器；无运行器时保留待运行状态"
+  ]
+}

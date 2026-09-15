@@ -1,0 +1,84 @@
+{
+  "slug": "ai-hive-opus5-release-readiness-review",
+  "title": "Opus5代码审查与上线前检查",
+  "family": "Claude Opus 5",
+  "aliases": [
+    "Claude Opus 5",
+    "ClaudeOpus5",
+    "Opus5",
+    "Opus 5",
+    "claude-opus-5",
+    "Claude Opus",
+    "Opus代码审查",
+    "Claude上线检查",
+    "Opus审PR",
+    "上线前回归检查"
+  ],
+  "summary": "在上线前围绕本次变更检查会影响真实用户的问题，适合合并请求、版本发布和配置调整。把问题定位到具体代码与触发条件，区分阻断项、可后续处理项和未验证风险，交付可复现的审查结论与发布检查表，方便负责人做决定。",
+  "inputs": [
+    "授权仓库及明确的比较基线和目标变更",
+    "发布范围与重要用户路径",
+    "已有测试结果、配置变化与回退说明",
+    "允许执行的只读诊断或测试命令"
+  ],
+  "steps": [
+    "确认比较基线、目标差异和用户已有修改，只审查本次变更及必要调用上下文",
+    "用Opus 5沿关键路径检查边界条件、错误处理、兼容性和配置影响",
+    "为每个候选问题记录文件行号、触发输入、用户影响和与本次变更的关联",
+    "通过获准的隔离测试或只读诊断验证问题，无法复现的标为待验证而非确定缺陷",
+    "结合影响与发生条件排优先级，去除纯风格意见及无证据的泛风险",
+    "生成审查发现、复现记录与上线检查表，不修改源码、不提交审查评论或执行部署"
+  ],
+  "outputs": [
+    "review-findings.json：定位、影响与优先级",
+    "reproduction-evidence.md：触发条件及实际检查结果",
+    "release-checklist.md：阻断项、待验证项与发布前检查"
+  ],
+  "checks": [
+    "每个确定问题均有代码定位和具体触发条件",
+    "优先级反映真实影响而非措辞强烈程度",
+    "已验证缺陷与待验证风险明确分开",
+    "没有擅自修复、提交评论或部署"
+  ],
+  "boundary": "需模型审查时由用户登录AI-HIVE并绑定远程MCP并核验claude-opus-5；不可用即停止，不替换。仓库读取、差异和测试由宿主提供；本任务只做审查，不授权代码修改、外部PR操作或上线。报告不是零缺陷保证，未能检查的环境需保留为未验证。",
+  "prompt": "用Opus5审查这个版本相对main的变更，重点看导出任务和权限校验。只报告能说明触发条件的问题，运行已有本地测试可以，但别改代码、别发PR评论、别部署。",
+  "sample_input": {
+    "base": "main",
+    "target": "release-candidate",
+    "focus": [
+      "导出任务",
+      "权限校验"
+    ],
+    "allowed_diagnostics": [
+      "本地已有测试"
+    ],
+    "mode": "只读审查"
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "candidate_finding": {
+      "path": "src/export/job.ts",
+      "line": 84,
+      "trigger": "用户撤销导出后任务继续执行",
+      "impact": "产生用户已取消的文件",
+      "verification": "待隔离复现",
+      "priority": "待证据确认"
+    },
+    "source_modified": false
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/opus-5/overview"
+  ],
+  "novelty": "建立范围明确的只读发布审查，要求触发条件和变更关联；与代码修复Skill分离，避免审查请求自动变成实现或部署。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Opus 5",
+    "claude-opus-5"
+  ],
+  "host_requirements": [
+    "仓库及指定版本差异的只读工具",
+    "文件行号定位工具",
+    "获准的隔离测试环境与日志读取工具"
+  ]
+}

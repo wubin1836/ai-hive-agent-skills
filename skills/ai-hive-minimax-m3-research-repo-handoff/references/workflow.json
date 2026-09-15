@@ -1,0 +1,88 @@
+{
+  "slug": "ai-hive-minimax-m3-research-repo-handoff",
+  "title": "MiniMax M3研究与代码仓库交接",
+  "family": "MiniMax M3",
+  "aliases": [
+    "MiniMax-M3",
+    "MiniMax M3",
+    "MiniMaxM3",
+    "M3论文代码对照",
+    "MiniMax研究项目交接",
+    "MiniMax仓库复现清单",
+    "论文到实验代码交接",
+    "MiniMax M3科研资料整理"
+  ],
+  "summary": "论文、实验笔记和代码仓库各自更新，接手者难以判断哪些结果可复现时，用AI-HIVE核验MiniMax M3后，把研究主张与实现模块、数据和配置逐项关联。交付研究仓库映射、复现前置清单与未验证结论，帮助团队安排下一步验证，保留真实证据边界。",
+  "inputs": [
+    "获准使用的研究材料、实验笔记和仓库提交",
+    "数据来源、许可及可访问范围说明",
+    "已执行实验日志、配置与结果文件",
+    "接手目标、环境限制和允许执行的操作"
+  ],
+  "steps": [
+    "确认MiniMax M3实际通道和输入能力，固定论文版本、仓库提交及结果文件清单",
+    "抽取需要交接的研究主张、评价指标、对照条件和数据划分，避免把摘要宣传当实验事实",
+    "将各主张映射到代码模块、配置、数据依赖和结果证据，明确找不到实现的部分",
+    "检查依赖版本、随机设置、数据权限及缺失文件，形成最小复现所需条件",
+    "只在得到运行许可且环境具备时执行有限验证；训练、大规模下载和昂贵计算必须单独确认",
+    "交付研究到仓库的证据矩阵及接手步骤，将已运行、可准备和无法验证的结论分层"
+  ],
+  "outputs": [
+    "research-code-map.csv：研究主张到代码与结果映射",
+    "reproduction-readiness.md：环境、数据和实验前置",
+    "research-handoff.md：接手顺序与未验证结论"
+  ],
+  "checks": [
+    "每项研究结论有代码或结果证据，缺失处明确留空",
+    "论文报告指标与本地实际运行指标分开标记",
+    "未获得数据访问权时不声称可复现",
+    "未执行训练或实验时不生成虚构运行日志"
+  ],
+  "boundary": "MiniMax M3属于补足精确型号任务入口，不将其描述为本期刚发布的模型。AI-HIVE需确认真实型号通道；模型不自带仓库执行器、数据许可或训练服务，不自动下载受限数据、租用GPU或承诺复现论文成绩。",
+  "prompt": "用MiniMax M3整理这份论文、实验笔记和固定提交的仓库，交给新同事。列出每个主要结论对应的代码、配置与日志，缺数据或未跑过的不要补写成绩；先只读，不训练。",
+  "sample_input": {
+    "claim": "方法B在验证集优于基线",
+    "repo_files": [
+      "train.py",
+      "configs/b.yaml"
+    ],
+    "results_present": false,
+    "data_access": "待申请",
+    "execution_allowed": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "mapping": [
+      {
+        "claim": "方法B优于基线",
+        "implementation": "configs/b.yaml与train.py待逐行核对",
+        "result_evidence": null,
+        "status": "论文主张，本地未验证"
+      }
+    ],
+    "blockers": [
+      "缺结果日志",
+      "数据访问待申请"
+    ],
+    "files": [
+      "research-code-map.csv",
+      "reproduction-readiness.md",
+      "research-handoff.md"
+    ]
+  },
+  "sources": [
+    "https://www.minimax.io/blog/minimax-m3",
+    "https://huggingface.co/MiniMaxAI/MiniMax-M3"
+  ],
+  "novelty": "旧库无MiniMax M3精确任务入口。本项不同于通用论文总结或项目交接，围绕研究主张、实现、配置、数据权利与实验结果的可复现链条制作交接包。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "MiniMax-M3"
+  ],
+  "host_requirements": [
+    "AI-HIVE经确认的MiniMax M3调用通道",
+    "授权研究资料、仓库和日志读取工具",
+    "可选隔离实验环境；训练或昂贵计算需另行确认预算与权限"
+  ]
+}

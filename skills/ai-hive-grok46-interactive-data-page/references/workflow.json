@@ -1,0 +1,88 @@
+{
+  "slug": "ai-hive-grok46-interactive-data-page",
+  "title": "Grok4.6数据讲解交互网页制作",
+  "family": "Grok 4.6",
+  "aliases": [
+    "Grok 4.6",
+    "Grok4.6",
+    "格罗克4.6",
+    "Grok交互网页",
+    "Grok数据可视化页面",
+    "Grok筛选器网页",
+    "Grok把数据做成演示页",
+    "Grok交互式报告"
+  ],
+  "summary": "把一份表格或研究结论讲清楚时，用AI-HIVE核验Grok4.6后，将核心问题转成可筛选、可比较的交互网页草案。保留数据来源、计算规则和空状态，交付可审阅的页面代码与验证记录，适合内部演示和方案说明，避免交互效果掩盖数字口径问题。",
+  "inputs": [
+    "获准使用的数据样本及来源说明",
+    "页面要帮助用户回答的具体问题",
+    "目标交互、单位与允许公开的字段",
+    "运行环境、依赖限制与制作授权"
+  ],
+  "steps": [
+    "确认Grok4.6的实际模型标识和AI-HIVE可用通道，不把Grok产品功能当成可调用网页执行器",
+    "核对数据字段、单位、缺失值和授权范围，明确哪些计算可展示、哪些结论证据不足",
+    "围绕一个用户问题设计筛选、比较或参数调整，写清输入到结果的公式和边界",
+    "生成范围受控的HTML/CSS/JavaScript页面，标明演示数据，不接入未经授权的远端服务",
+    "用固定样例检查计算、零值、空筛选和键盘操作；有真实浏览器时再验证渲染与交互",
+    "交付页面文件、来源账本和验证记录，说明如何本地预览，不自动部署或收集访问者信息"
+  ],
+  "outputs": [
+    "index.html：可本地审阅的交互页面代码",
+    "data-sources.csv：数据字段、单位与来源",
+    "page-validation.md：计算和交互验证记录"
+  ],
+  "checks": [
+    "页面数字可根据给定公式和源数据复算",
+    "无数据与零值状态不会生成误导图形或无穷值",
+    "样例数据与真实数据在页面明确区分",
+    "未执行浏览器测试时不写已验证兼容性"
+  ],
+  "boundary": "AI-HIVE需核验Grok4.6实际通道和精确标识，不自行猜测API名或切换版本。模型不自带浏览器、托管或实时数据源；代码保存、测试与部署各需真实工具及相应授权，本项不自动上线或新增数据追踪。",
+  "prompt": "用Grok4.6把这份渠道数据做成本地交互页面，让同事按渠道查看订单、客单价和收入。保留公式和来源，空筛选要有提示，不连外网、不上线；交HTML代码及真实或待运行的测试记录。",
+  "sample_input": {
+    "data": [
+      {
+        "channel": "直营网店",
+        "orders": 10,
+        "average_order_value": 80
+      },
+      {
+        "channel": "线下",
+        "orders": 0,
+        "average_order_value": null
+      }
+    ],
+    "formula": "收入=订单数×客单价",
+    "publish": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "computed_example": {
+      "channel": "直营网店",
+      "revenue": 800,
+      "unit": "元"
+    },
+    "empty_state": "所选渠道无有效数据",
+    "browser_test": "待运行",
+    "files": [
+      "index.html",
+      "data-sources.csv",
+      "page-validation.md"
+    ]
+  },
+  "sources": [
+    "https://x.ai/news/grok-4-6"
+  ],
+  "novelty": "区别于泛Grok聊天或网页生成，本项把数据来源、公式复算与空状态作为交互页验收主线；不借用Grok Build等产品名称暗示AI-HIVE已集成执行环境。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Grok 4.6"
+  ],
+  "host_requirements": [
+    "AI-HIVE经确认的Grok4.6调用通道及真实型号标识",
+    "可读取授权数据并保存页面代码的文件工具",
+    "可选本地浏览器及JavaScript测试环境；无工具时仅交代码和待测计划"
+  ]
+}

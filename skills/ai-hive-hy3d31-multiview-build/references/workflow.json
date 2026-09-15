@@ -1,0 +1,101 @@
+{
+  "slug": "ai-hive-hy3d31-multiview-build",
+  "title": "混元 3D 3.1多视图建模助手",
+  "family": "HY-3D-3.1",
+  "model_terms": [
+    "HY-3D-3.1",
+    "hy-3d-3.1",
+    "混元生3D 3.1"
+  ],
+  "aliases": [
+    "混元3D3.1",
+    "混元生3D3.1",
+    "HY-3D-3.1",
+    "Hunyuan3D3.1",
+    "Hunyuan3D 3.1",
+    "多视图建模",
+    "图片转3D",
+    "多角度生成模型"
+  ],
+  "summary": "把同一物体的多角度图片整理为一致建模输入，先核对视角、比例和遮挡，再检查混元HY-3D-3.1实际多视图能力。生成后以真实三维查看器验收轮廓与材质，交付可打开的模型资产和视图对应表，不把渲染图片当3D文件。",
+  "inputs": [
+    "同一物体的授权多角度图片",
+    "各图视角与实际尺寸说明",
+    "白模或带材质的交付目标",
+    "目标软件、文件格式和费用上限"
+  ],
+  "steps": [
+    "发现HY-3D-3.1及实际多视图模式，检查图片数、视角要求和模型格式；缺少该模式时停止而非擅自只用一张图。",
+    "按前后左右等实际视角建立图片映射，核对是否同一物体、比例是否一致，冲突或未知视角请用户确认。",
+    "把真实尺寸与图片推测分开，标注无法看见的底部和内部结构，不将模型补全当精密测量。",
+    "确认素材、输出目标与费用后提交一次建模，保存视图指纹、版本和任务ID，等待状态不明只查询。",
+    "用实际三维工具打开产物，转动查看各视角，检查轮廓、缺面、纹理错位与材质引用，不能只看供应商缩略图。",
+    "交付实际模型资产、输入视图清单和三维验收回执；格式转换由宿主执行并明确记录，保留原始模型。"
+  ],
+  "outputs": [
+    "hy3d-model-assets.zip：实际三维模型与其依赖纹理",
+    "hy3d-view-map.csv：参考图片、视角和一致性检查",
+    "hy3d-build-review.json：真实模型任务、格式与查看验收"
+  ],
+  "checks": [
+    "实际产物可被三维工具打开并旋转检查",
+    "多视图全部纳入或明确拒绝不支持部分",
+    "模型与纹理依赖齐全且来源可追溯",
+    "推测几何与用户给定尺寸清楚区分"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。不预设固定八视图、任意输出格式或工程级尺寸精度；实际能力由型号和schema确认。渲染图、转台视频和文字报告均不等于可编辑三维资产，不承诺可直接3D打印或制造。",
+  "prompt": "用混元3D3.1根据这组同一茶壶的四个方向照片建模，先确认支持多视图。看不见的底部标成推测，给我能打开的模型和纹理，不要只给预览图。",
+  "sample_input": {
+    "object": "示例茶壶",
+    "views": [
+      {
+        "file": "teapot-front.png",
+        "view": "front"
+      },
+      {
+        "file": "teapot-back.png",
+        "view": "back"
+      },
+      {
+        "file": "teapot-left.png",
+        "view": "left"
+      },
+      {
+        "file": "teapot-right.png",
+        "view": "right"
+      }
+    ],
+    "known_height_mm": null,
+    "output_goal": "带材质三维资产"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "hy3d-model-assets.zip",
+      "hy3d-view-map.csv",
+      "hy3d-build-review.json"
+    ],
+    "acceptance_plan": {
+      "view_count": 4,
+      "unknown_geometry": [
+        "底部",
+        "内部"
+      ],
+      "must_open_in_3d_viewer": true
+    },
+    "actual_asset_format": null
+  },
+  "host_requirements": [
+    "HY-3D-3.1精确发现及实际多视图建模能力",
+    "三维模型查看或导入工具和纹理检查",
+    "原始资产保留、格式探测及打包工具"
+  ],
+  "novelty": "补HY-3D-3.1精确入口，以多视图一致性和真实三维文件交付为主，区别于图片生成及普通资产清单。",
+  "availability": "runtime-check",
+  "sources": [
+    "https://cloud.tencent.com/announce/detail/2405"
+  ]
+}

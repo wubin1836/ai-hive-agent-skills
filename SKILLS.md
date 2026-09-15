@@ -5843,3 +5843,58 @@
 | [Claude Fable多步骤办公任务助手](skills/ai-hive-fable51-office-checkpoint-handoff/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
 | [Fable短视频脚本与分镜助手](skills/ai-hive-fable51-video-script-shot-plan/SKILL.md) | AI-HIVE | Claude Fable 5.1 |
 | [Claude Opus 5旧系统改造助手](skills/ai-hive-opus5-legacy-system-modernization/SKILL.md) | AI-HIVE | Claude Opus 5 |
+
+## 2026-09-15 热点模型与新模型专项 Skill
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [Opus5代码审查与上线前检查](skills/ai-hive-opus5-release-readiness-review/SKILL.md) | AI-HIVE | Claude Opus 5 |
+| [Claude Opus 5复杂需求拆解助手](skills/ai-hive-opus5-complex-requirements-map/SKILL.md) | AI-HIVE | Claude Opus 5 |
+| [Opus5经营资料分析助手](skills/ai-hive-opus5-business-material-synthesis/SKILL.md) | AI-HIVE | Claude Opus 5 |
+| [Claude Sonnet 5批量文档处理助手](skills/ai-hive-sonnet5-batch-document-manifest/SKILL.md) | AI-HIVE | Claude Sonnet 5 |
+| [Sonnet5客服工单分类助手](skills/ai-hive-sonnet5-support-ticket-triage/SKILL.md) | AI-HIVE | Claude Sonnet 5 |
+| [Claude Sonnet 5多语商品文案助手](skills/ai-hive-sonnet5-multilingual-product-copy/SKILL.md) | AI-HIVE | Claude Sonnet 5 |
+| [Sonnet5日常代码修改助手](skills/ai-hive-sonnet5-small-code-change/SKILL.md) | AI-HIVE | Claude Sonnet 5 |
+| [千问Qwen3.8-Max-0902企业资料冲突对照](skills/ai-hive-qwen38-max-doc-conflicts/SKILL.md) | AI-HIVE | Qwen3.8 Max |
+| [千问Qwen3.8-Max-0902需求与源码差异审查](skills/ai-hive-qwen38-max-spec-code-diff/SKILL.md) | AI-HIVE | Qwen3.8 Max |
+| [千问Qwen3.8-27B知识库部署验收](skills/ai-hive-qwen38-27b-kb-acceptance/SKILL.md) | AI-HIVE | Qwen3.8-27B |
+| [Kimi K3长文档分析与遗漏核对](skills/ai-hive-kimi-k3-long-doc-evidence/SKILL.md) | AI-HIVE | Kimi K3 |
+| [Kimi K3项目交接与未决事项追踪](skills/ai-hive-kimi-k3-project-handoff/SKILL.md) | AI-HIVE | Kimi K3 |
+| [Kimi K2.7 Code录屏排错与复现](skills/ai-hive-kimi-k27-code-recording-debug/SKILL.md) | AI-HIVE | Kimi K2.7 Code |
+| [豆包Seed2.1 Pro经营汇报口径核对](skills/ai-hive-doubao21-pro-business-report/SKILL.md) | AI-HIVE | Doubao Seed 2.1 Pro |
+| [豆包Seed2.1 Turbo工单归并与异常分流](skills/ai-hive-doubao21-turbo-ticket-triage/SKILL.md) | AI-HIVE | Doubao Seed 2.1 Turbo |
+| [Gemini3.7 Flash旧网站改版与回归检查](skills/ai-hive-gemini37-site-redesign/SKILL.md) | AI-HIVE | Gemini 3.7 Flash |
+| [Grok4.6数据讲解交互网页制作](skills/ai-hive-grok46-interactive-data-page/SKILL.md) | AI-HIVE | Grok 4.6 |
+| [混元Hy4-preview预览接入验收](skills/ai-hive-hy4-preview-access-check/SKILL.md) | AI-HIVE | Tencent Hy4 preview |
+| [Gemini3.5 Flash Lite批量字段抽取](skills/ai-hive-gemini35-lite-batch-extract/SKILL.md) | AI-HIVE | Gemini 3.5 Flash Lite |
+| [Shieldstral1.0内容政策测试与复核](skills/ai-hive-shieldstral-policy-tests/SKILL.md) | AI-HIVE | Shieldstral 1.0 |
+| [MiniMax M3研究与代码仓库交接](skills/ai-hive-minimax-m3-research-repo-handoff/SKILL.md) | AI-HIVE | MiniMax M3 |
+| [GLM5.3跨文件故障定位与最小修复](skills/ai-hive-glm53-cross-file-debug/SKILL.md) | AI-HIVE | GLM 5.3 |
+| [GLM5.3 Flash截图问题转修复任务](skills/ai-hive-glm53-flash-screenshot-fix/SKILL.md) | AI-HIVE | GLM 5.3 Flash |
+| [Gemini3.8 Flash新增功能验收追踪](skills/ai-hive-gemini38-feature-acceptance/SKILL.md) | AI-HIVE | Gemini 3.8 Flash |
+| [Gemini Omni 1.1 Flash视频续写助手](skills/ai-hive-omni11-video-extension/SKILL.md) | AI-HIVE | Gemini Omni 1.1 Flash |
+| [Omni 1.1 Flash首尾帧视频制作助手](skills/ai-hive-omni11-endpoint-video/SKILL.md) | AI-HIVE | Gemini Omni 1.1 Flash |
+| [Seedream 5.0 Pro商品图精修助手](skills/ai-hive-seedream5pro-product-retouch/SKILL.md) | AI-HIVE | Seedream 5.0 Pro |
+| [Seedream 5.0 Pro多语言海报制作助手](skills/ai-hive-seedream5pro-multilingual-poster/SKILL.md) | AI-HIVE | Seedream 5.0 Pro |
+| [Seedream 5.0 Pro图层资产整理助手](skills/ai-hive-seedream5pro-layer-assets/SKILL.md) | AI-HIVE | Seedream 5.0 Pro |
+| [FLUX 3 Video多关键帧视频制作助手](skills/ai-hive-flux3-keyframe-video/SKILL.md) | AI-HIVE | FLUX 3 Video |
+| [FLUX 3 Video广告镜头接续助手](skills/ai-hive-flux3-ad-continuation/SKILL.md) | AI-HIVE | FLUX 3 Video |
+| [Eleven Music v2广告配乐助手](skills/ai-hive-elevenmusic2-ad-score/SKILL.md) | AI-HIVE | Eleven Music v2 |
+| [Eleven Music v2分段作曲助手](skills/ai-hive-elevenmusic2-section-compose/SKILL.md) | AI-HIVE | Eleven Music v2 |
+| [GPT Live Transcribe实时转写助手](skills/ai-hive-gpt-live-transcribe/SKILL.md) | AI-HIVE | GPT-Live-Transcribe |
+| [GPT Transcribe录音转文字助手](skills/ai-hive-gpt-transcribe-recording/SKILL.md) | AI-HIVE | GPT-Transcribe |
+| [GPT Transcribe字幕校时助手](skills/ai-hive-gpt-transcribe-subtitle-timing/SKILL.md) | AI-HIVE | GPT-Transcribe |
+| [GPT Realtime Translate实时语音翻译助手](skills/ai-hive-gpt-realtime-translate/SKILL.md) | AI-HIVE | GPT-Realtime-Translate |
+| [GPT Realtime 2.1语音接待配置助手](skills/ai-hive-gpt-realtime21-reception/SKILL.md) | AI-HIVE | GPT-Realtime-2.1 |
+| [HappyHorse 1.1文生广告视频助手](skills/ai-hive-happyhorse11-text-ad/SKILL.md) | AI-HIVE | HappyHorse 1.1 |
+| [HappyHorse 1.1首帧图生视频助手](skills/ai-hive-happyhorse11-first-frame/SKILL.md) | AI-HIVE | HappyHorse 1.1 |
+| [HappyHorse 1.1参考角色一致性视频助手](skills/ai-hive-happyhorse11-character-reference/SKILL.md) | AI-HIVE | HappyHorse 1.1 |
+| [MiniMax Music 3.0品牌歌曲制作助手](skills/ai-hive-minimaxmusic3-brand-song/SKILL.md) | AI-HIVE | MiniMax Music 3.0 |
+| [MiniMax Music 3.0段落编曲助手](skills/ai-hive-minimaxmusic3-arrangement/SKILL.md) | AI-HIVE | MiniMax Music 3.0 |
+| [Seed Audio 1.0对白音效制作助手](skills/ai-hive-seedaudio1-dialogue-sfx/SKILL.md) | AI-HIVE | Seed Audio 1.0 |
+| [Seed Audio 1.0场景环境声助手](skills/ai-hive-seedaudio1-ambience/SKILL.md) | AI-HIVE | Seed Audio 1.0 |
+| [Lyria 3.5定长配乐助手](skills/ai-hive-lyria35-fixed-score/SKILL.md) | AI-HIVE | Lyria 3.5 |
+| [SeedRealtime实时视觉讲解助手](skills/ai-hive-seedrealtime-visual-guide/SKILL.md) | AI-HIVE | SeedRealtime |
+| [可灵 3.0 Turbo镜头预览筛选助手](skills/ai-hive-kling3turbo-shot-selection/SKILL.md) | AI-HIVE | Kling 3.0 Turbo |
+| [混元 3D 3.1多视图建模助手](skills/ai-hive-hy3d31-multiview-build/SKILL.md) | AI-HIVE | HY-3D-3.1 |
+| [混元 3D 3.1资产验收助手](skills/ai-hive-hy3d31-asset-review/SKILL.md) | AI-HIVE | HY-3D-3.1 |

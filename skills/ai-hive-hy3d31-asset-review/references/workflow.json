@@ -1,0 +1,86 @@
+{
+  "slug": "ai-hive-hy3d31-asset-review",
+  "title": "混元 3D 3.1资产验收助手",
+  "family": "HY-3D-3.1",
+  "model_terms": [
+    "HY-3D-3.1",
+    "hy-3d-3.1",
+    "混元生3D 3.1"
+  ],
+  "aliases": [
+    "混元3D3.1验收",
+    "HY-3D-3.1",
+    "Hunyuan3D3.1",
+    "混元3D资产",
+    "3D资产验收",
+    "白模检查",
+    "材质贴图检查",
+    "模型文件检查"
+  ],
+  "summary": "检查用户已有的混元3D3.1模型文件能否进入后续设计或展示流程，核对来源、几何、材质、纹理和目标软件兼容性。默认只读本地验收，输出问题视图与修复优先级，不自动重新建模、改资产或调用收费模型。",
+  "inputs": [
+    "已有三维模型和全部纹理文件",
+    "可选真实生成回执与源参考图",
+    "目标软件或展示平台要求",
+    "尺寸、面数和材质验收阈值"
+  ],
+  "steps": [
+    "确认只读资产范围，检查附带回执是否能证明HY-3D-3.1来源；仅文件名标注时记录为用户声明，不能认定实际模型。",
+    "探测模型格式和相对纹理路径，在可用三维工具中打开，记录缺依赖、损坏文件和导入报错。",
+    "按用户阈值检查尺度、轴向、面数及几何问题；只有工具实际提供检测结果时才报告非流形、法线或UV数值。",
+    "使用中性照明分别查看白模与材质状态，截图定位破面、缝隙、错贴图和透明异常，不自动修改原资产。",
+    "按目标用途区分阻塞问题、可接受瑕疵和未验证项，例如网页展示合格不等于制造或动画绑定合格。",
+    "交付检查表、证据截图包和修复建议；用户另要求模型补全时才发现指定型号并请求费用授权，无入口就停止该扩展。"
+  ],
+  "outputs": [
+    "hy3d-asset-check.csv：资产、检测项、实测结果与状态",
+    "hy3d-review-evidence.zip：实际三维视图与错误证据",
+    "hy3d-remediation.md：用途适配、来源局限与修复优先级"
+  ],
+  "checks": [
+    "原模型和纹理未被覆盖或自动修复",
+    "每个检测结论都有真实工具结果或证据截图",
+    "未知来源与未验证项目明确保留",
+    "展示、动画和制造用途没有混作同一合格标准"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。本地只读验收不需要模型调用；缺少三维工具时停止几何验收，不把文件列表当验收通过。无法从回执确认来源就不能宣称已实测HY-3D-3.1；不自动联网重建、安装插件或购买软件。",
+  "prompt": "检查这份声称由混元3D3.1生成的茶壶模型能否用于网页展示，别改原文件，也别重新生成。缺贴图、破面和未验证项都要标出来。",
+  "sample_input": {
+    "asset": "teapot-model.glb",
+    "textures_directory": "textures",
+    "source_receipt": null,
+    "target_use": "网页展示",
+    "limits": {
+      "max_triangles": 100000
+    },
+    "read_only": true
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_requested",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "hy3d-asset-check.csv",
+      "hy3d-review-evidence.zip",
+      "hy3d-remediation.md"
+    ],
+    "acceptance_plan": {
+      "read_only": true,
+      "target_use": "网页展示",
+      "triangle_limit": 100000
+    },
+    "provenance_status": "user_claim_only_until_receipt_checked",
+    "inspection_status": "not_started"
+  },
+  "host_requirements": [
+    "授权本地模型和纹理文件读取",
+    "可导入对应格式的三维查看器及实际检测工具",
+    "截图、检查表和证据打包工具；纯验收不需API密钥"
+  ],
+  "novelty": "不同于建模生成，本项面向已有3D交付的只读质量验收，实际检查几何与材质，不用模型关键词包装文件盘点。",
+  "availability": "runtime-check",
+  "sources": [
+    "https://cloud.tencent.com/announce/detail/2405"
+  ]
+}

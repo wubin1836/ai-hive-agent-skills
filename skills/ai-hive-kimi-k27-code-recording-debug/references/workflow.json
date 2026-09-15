@@ -1,0 +1,88 @@
+{
+  "slug": "ai-hive-kimi-k27-code-recording-debug",
+  "title": "Kimi K2.7 Code录屏排错与复现",
+  "family": "Kimi K2.7 Code",
+  "aliases": [
+    "Kimi-K2.7-Code",
+    "Kimi K2.7 Code",
+    "Kimi2.7代码",
+    "Kimi录屏排错",
+    "K2.7看视频找bug",
+    "Kimi界面故障复现",
+    "操作录屏转复现步骤",
+    "Kimi视频源码排查"
+  ],
+  "summary": "用户说页面偶尔卡住却描述不清时，用AI-HIVE核验Kimi K2.7 Code及视频通道，将获准使用的录屏转成带时间点的操作与异常线索，再关联源码和日志。输出可重复的故障步骤、最小修复草案与回归检查，减少凭截图猜原因和反复追问的成本。",
+  "inputs": [
+    "脱敏操作录屏及已知异常发生时间",
+    "应用版本、环境与预期行为",
+    "获准读取的相关源码和日志",
+    "是否允许本地复现、修改及测试的范围"
+  ],
+  "steps": [
+    "核验精确型号和视频输入能力；无视频通道时仅在有授权取帧工具时提取关键帧，并如实标明输入变化",
+    "建立点击、输入、加载和异常的时间线，标出录屏不能证明的后台状态",
+    "将界面线索与路由、组件、请求日志关联，形成可证伪的原因假设而非直接断言根因",
+    "整理最小复现所需的数据、顺序和等待条件，在授权的本地环境尝试复现并保存真实结果",
+    "定位最小改动范围，有修改许可才生成或应用补丁；否则只交未应用草案",
+    "使用同样操作顺序及一个边界场景检查修复，记录未复现、未测试及仍需补充的证据"
+  ],
+  "outputs": [
+    "recording-repro.md：时间线与复现条件",
+    "fix-draft.patch：明确是否应用的修复草案",
+    "regression-checks.json：回归步骤和实际执行状态"
+  ],
+  "checks": [
+    "每条视觉异常有录屏时间点或帧定位",
+    "网络和后端结论有日志证据，不能单凭转圈画面推断",
+    "补丁是否应用与测试是否运行分别记录",
+    "没有视频读取能力时不声称看过录屏"
+  ],
+  "boundary": "AI-HIVE必须确认Kimi-K2.7-Code及所需输入通道；模型不自带录屏解码、浏览器或代码执行器。取帧、复现与修改依赖授权工具，不上传含敏感数据的录屏，不替换成其他型号或伪造修复验证。",
+  "prompt": "用Kimi K2.7 Code检查这段脱敏录屏：切换筛选后列表一直转圈。请先给准确时间线和最小复现，再结合我提供的源码与日志定位；没有运行条件就交未应用补丁和待运行测试。",
+  "sample_input": {
+    "recording": "筛选故障.mp4",
+    "observations": [
+      {
+        "time": "00:08",
+        "event": "清空全部筛选"
+      },
+      {
+        "time": "00:10",
+        "event": "加载图标持续显示"
+      }
+    ],
+    "code_excerpt": "if (!filters.length) return;",
+    "runtime_available": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未读取真实录屏或调用模型",
+    "hypothesis": "空筛选提前返回可能遗漏加载状态复位，需结合完整函数确认",
+    "patch_status": "未应用草案",
+    "regression": [
+      {
+        "case": "清空筛选后加载状态结束",
+        "status": "待运行"
+      }
+    ],
+    "files": [
+      "recording-repro.md",
+      "fix-draft.patch",
+      "regression-checks.json"
+    ]
+  },
+  "sources": [
+    "https://forum.moonshot.ai/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441"
+  ],
+  "novelty": "旧泛代码排错不保证录屏时间线到源码的对应。本项以视频输入、最小复现和同路径回归为闭环；不把视频描述或High Speed服务包装成新的执行器。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Kimi-K2.7-Code"
+  ],
+  "host_requirements": [
+    "AI-HIVE Kimi-K2.7-Code及实际视频或图像通道",
+    "获授权的视频读取或取帧工具以及仓库和日志读取工具",
+    "复现和验证另需本地浏览器、测试运行器及明确执行许可"
+  ]
+}

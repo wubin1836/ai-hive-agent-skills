@@ -1,0 +1,87 @@
+{
+  "slug": "ai-hive-happyhorse11-first-frame",
+  "title": "HappyHorse 1.1首帧图生视频助手",
+  "family": "HappyHorse 1.1",
+  "model_terms": [
+    "HappyHorse 1.1",
+    "happyhorse-1.1-i2v"
+  ],
+  "aliases": [
+    "HappyHorse1.1图生视频",
+    "HappyHorse 1.1",
+    "happyhorse-1.1-i2v",
+    "快乐马1.1",
+    "首帧视频",
+    "照片变视频",
+    "产品图动起来",
+    "单图视频"
+  ],
+  "summary": "以一张用户选定的图片作为视频起点，限定主体动作、镜头移动与不可改变的商品细节，再调用HappyHorse 1.1首帧接口。逐帧检查外观保持和动作完成情况，交付真实视频及首帧对照，不把单图动画当成首尾帧控制。",
+  "inputs": [
+    "用户选定且授权的首帧图片",
+    "主体与镜头运动要求",
+    "需保留的商品或角色特征",
+    "时长、声音与费用上限"
+  ],
+  "steps": [
+    "发现happyhorse-1.1-i2v并核验首帧图片格式、尺寸和时长参数，不添加未支持的尾帧字段。",
+    "查看首帧遮挡、构图与可动部件，把主体动作和相机运动分别描述，避免以运镜掩盖商品形变。",
+    "明确必须保留的结构、图案、数量和背景，把动作范围限制在图中合理可见的空间。",
+    "确认图片上传和本次费用后提交单图请求，记录图片指纹、动作版本及真实任务ID。",
+    "对照首帧与视频首、中、尾关键帧，播放检查局部变形、漂移、消失和不合理加件，并审听声音。",
+    "交付实际视频、保留项核验和回执；未达标项明确列出，不自动替用户换图或生成更多候选。"
+  ],
+  "outputs": [
+    "happyhorse-first-frame.mp4：实际首帧视频",
+    "happyhorse-first-frame-check.json：首帧与主体保持检查",
+    "happyhorse-first-frame-task.json：输入图片和任务回执"
+  ],
+  "checks": [
+    "首画面与用户指定图对应而非重新生图",
+    "主体结构和物件数量无未披露改变",
+    "主体动作与相机运动分别验收",
+    "单次任务数量、时长和费用范围可追溯"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。首帧入口不等于支持任意尾帧或精确运动轨迹，不能编造双端点参数。不保证所有包装小字随运动保持，必须实看；需要其他模式时先解释并征得用户选择。",
+  "prompt": "用HappyHorse1.1让这张台灯图动起来，只让灯光轻微呼吸，镜头慢慢靠近，灯臂和桌面东西都别变，先查首帧接口。",
+  "sample_input": {
+    "first_frame": "desk-lamp.png",
+    "subject_motion": "灯光轻微呼吸",
+    "camera_motion": "缓慢推近",
+    "locked": [
+      "灯臂",
+      "桌面摆设"
+    ],
+    "duration_seconds": 5
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "happyhorse-first-frame.mp4",
+      "happyhorse-first-frame-check.json",
+      "happyhorse-first-frame-task.json"
+    ],
+    "acceptance_plan": {
+      "model_id": "happyhorse-1.1-i2v",
+      "keyframes_to_check": [
+        "start",
+        "middle",
+        "end"
+      ],
+      "locked_count": 2
+    }
+  },
+  "novelty": "以明确的1.1-i2v首帧输入和主体/相机运动分离为核心，区别于本批文生广告与多参考角色包。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、提交及任务查询能力",
+    "授权素材读取与输出文件保存",
+    "视频探测、抽帧、播放和音轨审听工具"
+  ],
+  "sources": [
+    "https://www.alibabacloud.com/help/tc/model-studio/video-generate-edit-model/"
+  ]
+}

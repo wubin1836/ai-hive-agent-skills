@@ -1,0 +1,87 @@
+{
+  "slug": "ai-hive-gpt-transcribe-subtitle-timing",
+  "title": "GPT Transcribe字幕校时助手",
+  "family": "GPT-Transcribe",
+  "model_terms": [
+    "GPT-Transcribe",
+    "gpt-transcribe"
+  ],
+  "aliases": [
+    "GPTTranscribe字幕",
+    "GPT Transcribe",
+    "GPT-Transcribe",
+    "GPT字幕校时",
+    "字幕时间轴",
+    "录音生成字幕",
+    "字幕断句",
+    "SRT校对"
+  ],
+  "summary": "把视频中的真实语音转为可播放验证的字幕，先用GPT-Transcribe取得转写，再由实际可用的时间对齐与字幕工具完成校时。检查起止、重叠、断句和阅读速度，交付SRT及修改记录，不把无时间依据的文本排成假字幕。",
+  "inputs": [
+    "有权处理的视频或音频",
+    "可选已有字幕文件",
+    "字幕语言、行长与显示规则",
+    "视频时间基准或剪辑偏移"
+  ],
+  "steps": [
+    "发现gpt-transcribe及实际时间对齐能力，探测视频时长与音轨；只转写时不会自行编造逐字时间戳。",
+    "读取已有字幕的编码、时间范围和错位方式，确定整体偏移、局部漂移或需要重新断句。",
+    "授权上传和费用后对真实音频转写，保存任务ID与音轨来源；输出没有时间戳时转到已可用且获授权的对齐工具。",
+    "将语句按语义和阅读规则分块，利用真实对齐结果设起止，保持口语停顿和画面切换关系。",
+    "在开头、中段、尾部及修改点播放检查，检测倒序、超时长、重叠与过短闪现；不足证据的时间段列待人工校准。",
+    "另存SRT、时间轴修改表及转写/对齐回执，不覆盖原字幕，不把未对齐草稿称为可直接发布字幕。"
+  ],
+  "outputs": [
+    "gpt-subtitles.srt：经实际时间对齐的字幕",
+    "gpt-subtitle-timing.csv：原时间、修订时间及依据",
+    "gpt-subtitle-tasks.json：音轨、转写和对齐工具回执"
+  ],
+  "checks": [
+    "所有字幕起止有真实时间依据且处于媒体时长内",
+    "无未解释倒序或不应有的时间重叠",
+    "关键语句通过播放检查而非只看SRT格式",
+    "阅读规则与用户确认一致，疑点明确列出"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。时间对齐是宿主或独立工具能力，不假称GPT-Transcribe原生支持所有时间戳粒度。缺少时间依据时只交转写和待校时清单，不能交伪造的完成版字幕。",
+  "prompt": "用GPT-Transcribe重做这段教程的字幕，原SRT越到后面越不同步。用真实音轨校时间，保留原文件，给我校时后的SRT和改动表。",
+  "sample_input": {
+    "video": "tutorial-demo.mp4",
+    "existing_subtitles": "tutorial-old.srt",
+    "language": "zh",
+    "max_lines": 2,
+    "max_chars_per_line": 18,
+    "known_offset_seconds": null
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "gpt-subtitles.srt",
+      "gpt-subtitle-timing.csv",
+      "gpt-subtitle-tasks.json"
+    ],
+    "acceptance_plan": {
+      "timing_basis": "实际音频对齐",
+      "max_lines": 2,
+      "review_positions": [
+        "开头",
+        "中段",
+        "尾部",
+        "修改点"
+      ]
+    },
+    "aligned_timestamps": null
+  },
+  "host_requirements": [
+    "gpt-transcribe发现与文件转写能力",
+    "音轨提取、媒体播放及真实时间对齐工具",
+    "SRT解析、编码检查与本地另存"
+  ],
+  "novelty": "与录音转文字不同，本项解决字幕漂移与时间轴验收，并明确模型转写和宿主对齐的边界。",
+  "availability": "runtime-check",
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-transcribe"
+  ]
+}

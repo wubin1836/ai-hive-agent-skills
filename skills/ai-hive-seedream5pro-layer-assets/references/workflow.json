@@ -1,0 +1,96 @@
+{
+  "slug": "ai-hive-seedream5pro-layer-assets",
+  "title": "Seedream 5.0 Pro图层资产整理助手",
+  "family": "Seedream 5.0 Pro",
+  "model_terms": [
+    "Seedream 5.0 Pro"
+  ],
+  "aliases": [
+    "Seedream5Pro图层",
+    "Seedream5.0Pro",
+    "Seedream 5.0 Pro",
+    "图层分离",
+    "图片拆层",
+    "设计素材整理",
+    "透明素材",
+    "图层资产"
+  ],
+  "summary": "把已授权设计图需要分离的主体、背景和装饰元素整理为可追溯的资产包。先核验Seedream 5.0 Pro实际分离能力，再检查遮挡补全、透明边缘和坐标关系；明确模型导出的图片资产与可编辑设计工程的区别。",
+  "inputs": [
+    "原始设计图及使用权说明",
+    "希望独立的主体和背景元素",
+    "透明背景、尺寸及命名要求",
+    "允许补全的被遮挡区域"
+  ],
+  "steps": [
+    "通过AI-HIVE MCP核验Seedream 5.0 Pro是否提供所需图层分离模式，列出实际支持的输出文件类型。",
+    "查看原图并按前后遮挡关系编号元素，明确文字是否保留为栅格以及哪些背面内容需要推测补全。",
+    "建立每个元素的画布坐标、命名和来源记录；让用户确认补全范围，不能把猜测内容称为原图隐藏细节。",
+    "确认上传和费用后提交真实分离任务，保存任务ID；拿到结果先检查文件是否存在、可解码及透明通道。",
+    "在宿主画布上按记录位置复合核对，检查白边、裁切、重叠和缺层；复合仅作为验收，不伪造分离成功。",
+    "交付实际资产、层次与坐标清单和验收报告，报告中保留模型任务ID，清楚列出未导出的元素。"
+  ],
+  "outputs": [
+    "seedream-layer-assets.zip：实际分离图像资产",
+    "seedream-layer-map.json：层级、坐标和来源映射",
+    "seedream-layer-review.json：边缘、复合检查与任务ID"
+  ],
+  "checks": [
+    "每个资产有原图来源和唯一元素编号",
+    "透明通道通过实际文件检查而非背景颜色猜测",
+    "复合关系与原图可对照且缺层明确",
+    "推测补全和原图可见内容分别标记"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。实际接口无图层分离时停止模型执行。PNG层资产不等于PSD、矢量文件或可编辑文本；透明、遮挡补全与宿主复合能力必须单独验证，不按文件后缀虚报。",
+  "prompt": "用Seedream5.0Pro把这张礼盒设计里的盒子、丝带和背景分开整理，保留原画布坐标，哪些被遮挡区域是补出来的要标清，不要假装导出了PSD。",
+  "sample_input": {
+    "source_image": "gift-layout.png",
+    "elements": [
+      "礼盒",
+      "丝带",
+      "背景"
+    ],
+    "canvas": [
+      1600,
+      1200
+    ],
+    "allow_inpaint": [
+      "丝带后方盒面"
+    ],
+    "requested_format": "带透明通道的可用资产"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "seedream-layer-assets.zip",
+      "seedream-layer-map.json",
+      "seedream-layer-review.json"
+    ],
+    "acceptance_plan": {
+      "element_ids": [
+        "box",
+        "ribbon",
+        "background"
+      ],
+      "coordinate_space": [
+        1600,
+        1200
+      ],
+      "psd_promised": false
+    },
+    "missing_assets": "待真实任务检查"
+  },
+  "novelty": "与旧资产清单/文件改名不同，核心是模型分离、遮挡推测标记和可复合验收；不把整理台账冒充生成图层。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、图像任务与结果获取能力",
+    "图片查看、像素尺寸及透明通道检查",
+    "本地原图保护、另存与文件清单工具"
+  ],
+  "sources": [
+    "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro"
+  ]
+}

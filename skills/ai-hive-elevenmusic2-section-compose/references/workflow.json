@@ -1,0 +1,101 @@
+{
+  "slug": "ai-hive-elevenmusic2-section-compose",
+  "title": "Eleven Music v2分段作曲助手",
+  "family": "Eleven Music v2",
+  "model_terms": [
+    "Eleven Music v2",
+    "music_v2"
+  ],
+  "aliases": [
+    "ElevenMusicv2分段",
+    "Eleven Music v2",
+    "music_v2",
+    "ElevenLabs音乐",
+    "分段作曲",
+    "结构化编曲",
+    "参考音频作曲",
+    "歌曲段落"
+  ],
+  "summary": "按前奏、主歌、副歌等明确结构组织音乐生成，将每段的长度、乐器与情绪变化编成Eleven Music v2可接受的计划。可在实际接口支持且授权充分时纳入参考音频，交付整曲及段落对应表，不冒充已拆分的多轨工程。",
+  "inputs": [
+    "段落顺序与目标长度",
+    "各段乐器、情绪及歌词要求",
+    "可选授权参考音频",
+    "希望保留或改变的音乐元素"
+  ],
+  "steps": [
+    "发现music_v2结构计划及支持的生成段、参考音频段类型，核对实际字段和可用引用方式。",
+    "把用户曲式拆成编号段落，检查总时长、相邻能量变化和重复段的相同/变化要求。",
+    "为每段写出乐器进出、节奏和歌词约束；有参考音频时记录权利来源并仅引用获授权部分。",
+    "确认段落计划及费用上限后提交，保存计划版本、素材引用和任务ID，失败先查状态。",
+    "全曲审听并标出实际段界，比较目标与实测时长，检查段间突兀、重复丢失及歌词越界。",
+    "交付实际整曲、目标/实测段落表和任务回执；需要切段时由宿主另存并记录边界，不声称模型原生分轨。"
+  ],
+  "outputs": [
+    "eleven-section-song.wav：实际结构化整曲",
+    "eleven-section-map.csv：目标段落与实测段界",
+    "eleven-section-task.json：计划、引用素材及任务ID"
+  ],
+  "checks": [
+    "段落顺序与重复规则符合确认计划",
+    "各段目标时长和实测偏差已列明",
+    "参考音频来源与允许使用范围可追溯",
+    "整曲、切段和分轨的交付类型不混淆"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。参考音频能力须由真实schema确认，不允许拿他人歌曲默认续写或复制风格身份。结构计划不保证完全固定段界；不承诺DAW工程、MIDI或独立乐器轨。",
+  "prompt": "用ElevenMusicv2做一首60秒器乐，10秒前奏、20秒主段、20秒变化段和10秒结尾，变化段加弦乐，给我实际段界而不是只给计划。",
+  "sample_input": {
+    "sections": [
+      {
+        "name": "intro",
+        "seconds": 10
+      },
+      {
+        "name": "theme",
+        "seconds": 20
+      },
+      {
+        "name": "variation",
+        "seconds": 20,
+        "add": "弦乐"
+      },
+      {
+        "name": "outro",
+        "seconds": 10
+      }
+    ],
+    "vocals": false,
+    "reference_audio": null
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "eleven-section-song.wav",
+      "eleven-section-map.csv",
+      "eleven-section-task.json"
+    ],
+    "acceptance_plan": {
+      "section_order": [
+        "intro",
+        "theme",
+        "variation",
+        "outro"
+      ],
+      "total_seconds": 60
+    },
+    "measured_boundaries": null
+  },
+  "novelty": "与广告配乐的镜头对位不同，本项以music_v2曲式结构、重复段和引用段为主流程，单独解决分段作曲搜索。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、音频任务与回执获取能力",
+    "音频播放、时长探测和音量检查",
+    "本地音频及工作单保存工具"
+  ],
+  "sources": [
+    "https://elevenlabs.io/docs/changelog/2026/6/15"
+  ]
+}

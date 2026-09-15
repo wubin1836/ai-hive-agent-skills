@@ -1,0 +1,92 @@
+{
+  "slug": "ai-hive-shieldstral-policy-tests",
+  "title": "Shieldstral1.0内容政策测试与复核",
+  "family": "Shieldstral 1.0",
+  "aliases": [
+    "Shieldstral-1.0-3B",
+    "Shieldstral 1.0",
+    "Shieldstral1.0",
+    "Mistral Shieldstral",
+    "Shieldstral内容政策测试",
+    "自定义内容分类验收",
+    "Shieldstral误判复核",
+    "图文审核策略测试"
+  ],
+  "summary": "准备采用Shieldstral1.0分类自有平台内容时，先用AI-HIVE辅助把自然语言政策拆成清楚的边界和人工标注样例，再检验允许、拒绝及需复核的结果。交付政策用例、混淆记录与人工队列，帮助团队发现误伤和漏判，而不是把模型判断直接当最终处置。",
+  "inputs": [
+    "用户有权制定的内容政策及版本",
+    "合法持有的脱敏文本或图片测试样本",
+    "人工标注、争议说明及复核人员规则",
+    "实际模型端点信息、阈值和测试授权"
+  ],
+  "steps": [
+    "核对Shieldstral-1.0-3B模型卡及实际服务输入能力，明确其内容分类用途，不按通用聊天模型设计任务",
+    "将政策条款编号，拆出范围、例外和无法单靠内容判断的条件，歧义先请政策负责人确认",
+    "构造允许、禁止、边界与上下文缺失的脱敏样例，记录人工参考标签和依据条款",
+    "仅在有真实授权端点时按同一政策版本测试；无端点时保留用例和待运行状态",
+    "比较模型与人工标签，分别列出误伤、漏判、标签争议及图文信息冲突，避免只报整体分数",
+    "交付可复查的失败样例与人工处理队列，任何实际删除、封禁或用户处置都留在独立授权流程"
+  ],
+  "outputs": [
+    "policy-test-cases.jsonl：政策条款与参考标签",
+    "classification-review.csv：结果差异和混淆记录",
+    "human-review-policy.md：人工复核队列与处置边界"
+  ],
+  "checks": [
+    "每个参考标签可追溯到版本化政策条款",
+    "人工标签有争议的样例不当作确定真值计分",
+    "未实际调用时不报告准确率或模型错误数",
+    "分类建议不直接触发删除、封禁或敏感个人推断"
+  ],
+  "boundary": "AI-HIVE可辅助设计和分析；调用Shieldstral-1.0-3B需要真实服务，不承诺提供训练、部署或图文审核执行器。不得生成违法测试材料或传播私人敏感内容；分类不是法律结论，模型结果不得直接替代人工重大处置。",
+  "prompt": "我们想用Shieldstral-1.0-3B测试自有社区的广告政策。请把条款变成含允许、禁止和边界案例的脱敏测试集，比较人工标签和模型结果；没有端点就交待运行方案，不删除内容或封号。",
+  "sample_input": {
+    "policy": {
+      "version": "P1",
+      "rule": "禁止未经标注的商业推广；允许注明赞助关系的推广。"
+    },
+    "cases": [
+      {
+        "id": "S1",
+        "text": "赞助合作：介绍本店新品。",
+        "reference": "允许"
+      },
+      {
+        "id": "S2",
+        "text": "这个品牌不错。",
+        "reference": "需复核，无法判断商业关系"
+      }
+    ],
+    "endpoint_available": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "evaluation_status": "待运行",
+    "human_queue": [
+      {
+        "id": "S2",
+        "reason": "文本无法确定商业关系，不能直接判违规"
+      }
+    ],
+    "files": [
+      "policy-test-cases.jsonl",
+      "classification-review.csv",
+      "human-review-policy.md"
+    ]
+  },
+  "sources": [
+    "https://mistral.ai/news/shieldstral/",
+    "https://huggingface.co/mistralai/Shieldstral-1.0-3B"
+  ],
+  "novelty": "旧库没有Shieldstral定向入口。本项是用户自定政策的版本化测试与误判复核，不是泛安全聊天或直接自动审核；将模型分类和实际账号处置明确分离。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Shieldstral-1.0-3B"
+  ],
+  "host_requirements": [
+    "AI-HIVE辅助分析通道；实际评测另需授权Shieldstral端点",
+    "脱敏样本及政策文件读取工具，图像用例需实际图像输入能力",
+    "标签对照与结果统计工具以及人工复核渠道"
+  ]
+}

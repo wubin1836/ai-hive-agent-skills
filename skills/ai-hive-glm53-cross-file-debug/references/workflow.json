@@ -1,0 +1,81 @@
+{
+  "slug": "ai-hive-glm53-cross-file-debug",
+  "title": "GLM5.3跨文件故障定位与最小修复",
+  "family": "GLM 5.3",
+  "aliases": [
+    "GLM-5.3",
+    "GLM 5.3",
+    "GLM5.3",
+    "智谱GLM5.3",
+    "GLM跨文件排错",
+    "GLM调用链故障定位",
+    "GLM多模块bug修复",
+    "GLM最小补丁回归"
+  ],
+  "summary": "报错发生在一个文件，原因却可能跨越配置、接口和调用链时，通过AI-HIVE核验GLM5.3，先建立可复现的失败路径，再收集跨文件证据。交付根因假设、最小补丁与针对性回归记录，让修复可解释、可审阅，并区分真正验证与尚未运行的推断。",
+  "inputs": [
+    "错误日志、复现步骤和预期行为",
+    "获准读取的固定提交及相关配置",
+    "最近相关变更与已知正常样例",
+    "允许修改的范围、测试方式及执行授权"
+  ],
+  "steps": [
+    "确认GLM-5.3文本通道和仓库工具，保存失败输入与当前提交，不把该型号当作原生视觉输入模型",
+    "从报错入口追踪参数、调用、配置和状态变化，记录跨文件路径与行号",
+    "为候选原因设计最小区分测试，优先排除与证据冲突的猜测，不能只按报错行改代码",
+    "在可执行且获授权的环境重现失败并保存结果；条件不足时明确缺失依赖和待运行步骤",
+    "有修改授权时提出最小补丁并检查所有相关调用方，否则交未应用补丁草案",
+    "运行相关回归和一个边界用例，记录修复前后真实结果以及仍未覆盖的分支"
+  ],
+  "outputs": [
+    "root-cause-evidence.md：调用链与根因证据",
+    "minimal-fix.patch：最小修复及应用状态",
+    "regression-results.json：复现与回归结果"
+  ],
+  "checks": [
+    "根因结论包含跨文件的数据或状态传递证据",
+    "修复不只消除异常文本而保留错误行为",
+    "未运行测试与真实失败或通过严格区分",
+    "补丁没有修改未授权模块或扩大接口契约"
+  ],
+  "boundary": "AI-HIVE需核验GLM-5.3真实文本通道；图片问题须先经授权工具转成文本证据，不默认为支持视觉。终端、仓库修改和测试都依赖实际工具及授权，不自动升级依赖、提交代码、部署或将未知结果称为修复成功。",
+  "prompt": "用GLM5.3排查这个跨文件错误：接口返回有价格，结算页却显示0。请沿数据和配置追到根因，给最小补丁及复现用例；只允许改结算模块，没有运行条件就标待验证。",
+  "sample_input": {
+    "files": {
+      "api.ts": "return { amount_cents: 9900 };",
+      "checkout.ts": "const price = response.amount ?? 0;"
+    },
+    "expected": "显示99元",
+    "execution_available": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "hypothesis": "调用方读取字段与返回契约不一致，且需确认分转元规则",
+    "evidence": [
+      "api.ts：amount_cents",
+      "checkout.ts：读取amount"
+    ],
+    "patch_status": "未应用草案",
+    "regression_status": "待运行",
+    "files": [
+      "root-cause-evidence.md",
+      "minimal-fix.patch",
+      "regression-results.json"
+    ]
+  },
+  "sources": [
+    "https://huggingface.co/zai-org/GLM-5.3",
+    "https://zcode.z.ai/en/changelog"
+  ],
+  "novelty": "旧GLM5.3已有API、成本路由和长编码近邻；本项以失败样例、跨文件传递证据和最小区分测试为验收主线，不重复泛编码能力介绍。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "GLM-5.3"
+  ],
+  "host_requirements": [
+    "AI-HIVE GLM-5.3实际文本通道",
+    "授权仓库与日志读取、检索和补丁工具",
+    "经用户许可的隔离测试运行器；无环境时只交待运行验证"
+  ]
+}

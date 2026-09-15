@@ -1,0 +1,87 @@
+{
+  "slug": "ai-hive-elevenmusic2-ad-score",
+  "title": "Eleven Music v2广告配乐助手",
+  "family": "Eleven Music v2",
+  "model_terms": [
+    "Eleven Music v2",
+    "music_v2"
+  ],
+  "aliases": [
+    "ElevenMusicv2",
+    "Eleven Music v2",
+    "music_v2",
+    "ElevenLabs配乐",
+    "广告配乐",
+    "短视频配乐",
+    "品牌音乐",
+    "配乐卡点"
+  ],
+  "summary": "把广告镜头的节奏和旁白留白转换为Eleven Music v2结构化配乐计划，围绕开场、产品出现和片尾落点制作音频。真实生成后检查时长、能量变化与人声避让，交付音乐文件和对画面可核对的提示点表。",
+  "inputs": [
+    "广告视频或带时间码的镜头表",
+    "旁白出现区间",
+    "曲风、情绪与禁用元素",
+    "目标时长和使用授权要求"
+  ],
+  "steps": [
+    "发现Eleven Music v2及music_v2实际接口，核对composition plan结构，不沿用v1专用MusicPrompt。",
+    "从镜头表提取开场钩子、产品展示、字幕及收尾时刻，为旁白区设置音乐能量和乐器密度约束。",
+    "把需求写成实际支持的结构化段落，确定是否纯器乐及片尾需要自然落音，而非只给模糊曲风词。",
+    "确认音乐使用范围、素材权利和本次费用后提交，记录计划版本与真实任务ID。",
+    "在视频上下文中审听，检查片尾截断、旁白遮盖与节奏错位；宿主混音改动另外记录，不归功于模型。",
+    "另存实际音乐、提示点检查和任务回执，未达标时间点列为返修，不自动无限抽卡或投放。"
+  ],
+  "outputs": [
+    "eleven-ad-score.wav：实际配乐或经说明转码的音频",
+    "eleven-ad-cues.csv：画面节点与配乐落点",
+    "eleven-ad-task.json：结构计划版本和真实任务回执"
+  ],
+  "checks": [
+    "实际时长满足用户确认的容差",
+    "旁白区没有未经允许的人声或强干扰",
+    "关键落点与镜头表可逐项比对",
+    "音频来源与使用条件已记录"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。不承诺逐采样精确卡点、任意分轨或自动获得商用权。输出格式和音乐使用许可分别核验；未能使用music_v2时不能换v1冒充。",
+  "prompt": "用Eleven Music v2给我这条20秒手冲咖啡广告配纯器乐，3到12秒要给旁白留位置，18秒品牌出现时落一个清晰音乐点，先报本次生成范围。",
+  "sample_input": {
+    "duration_seconds": 20,
+    "voiceover_interval": [
+      3,
+      12
+    ],
+    "brand_cue_seconds": 18,
+    "style": "温暖原声，轻节奏",
+    "vocals": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "eleven-ad-score.wav",
+      "eleven-ad-cues.csv",
+      "eleven-ad-task.json"
+    ],
+    "acceptance_plan": {
+      "target_seconds": 20,
+      "voiceover_clearance": [
+        3,
+        12
+      ],
+      "brand_cue": 18
+    },
+    "mix_status": "not_started"
+  },
+  "novelty": "新增music_v2精确入口和广告画面提示点编排，区别于只有风格提示的通用音乐生成。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、音频任务与回执获取能力",
+    "音频播放、时长探测和音量检查",
+    "本地音频及工作单保存工具"
+  ],
+  "sources": [
+    "https://elevenlabs.io/docs/changelog/2026/6/15"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "ai-hive-doubao21-pro-business-report",
+  "title": "豆包Seed2.1 Pro经营汇报口径核对",
+  "family": "Doubao Seed 2.1 Pro",
+  "aliases": [
+    "Doubao-Seed-2.1-Pro",
+    "Doubao Seed 2.1 Pro",
+    "豆包2.1 Pro",
+    "豆包Seed2.1经营汇报",
+    "豆包月度经营分析",
+    "豆包汇报数字核对",
+    "经营会材料整理",
+    "豆包指标口径对齐"
+  ],
+  "summary": "经营会前数据表、业务说明与上月汇报对不上时，通过AI-HIVE核验豆包Seed2.1 Pro，先统一期间、单位和指标定义，再组织有证据的变化说明。交付经营摘要、数字核对表及会议待决策问题，让负责人清楚哪些变化已证实、哪些解释仍需业务补充。",
+  "inputs": [
+    "获准处理的本期、对比期报表和指标定义",
+    "业务部门对异常变化的说明",
+    "汇报对象、关注指标和会议时长",
+    "敏感字段处理要求与允许的导出格式"
+  ],
+  "steps": [
+    "确认Pro精确型号、资料读取及计算工具，固定本期和对比期数据版本",
+    "核对收入、订单等指标的单位、税口径、确认时点和范围，冲突项先单列",
+    "使用真实计算工具或可复核公式计算差额与变化率，基数为零等情况不用普通增幅公式",
+    "把数字变化与业务解释分开，只有有来源的解释才列为证据支持，相关不写成因果",
+    "按结果、风险、待确认及需决策事项组织汇报，明确各提案的前提和负责人待确认项",
+    "逐项回查关键数字、图表所需数据及建议出处，交付文本汇报和可选制稿说明"
+  ],
+  "outputs": [
+    "business-review.md：经营汇报与待决策事项",
+    "metric-reconciliation.csv：数字、口径和来源核对",
+    "report-outline.md：页面提纲与图表数据定位"
+  ],
+  "checks": [
+    "金额、数量和百分比均注明单位及期间",
+    "口径冲突未解决前不合并为单一数字",
+    "每个变化原因区分已证实和待验证",
+    "不把文本提纲称为已生成或渲染的PPT"
+  ],
+  "boundary": "AI-HIVE需确认Doubao-Seed-2.1-Pro真实通道；模型不自带Excel计算或PPT生成器。计算与制稿依赖授权工具，没有时给可核对公式和文本草案，不作投资决定、不保证经营改善、不自动对外发送。",
+  "prompt": "用豆包Seed2.1 Pro整理这次经营会材料，先核对收入和订单的期间、单位及含税口径。汇报只写有依据的变化原因，把口径冲突和需要老板决策的问题单列；先交Markdown和数字核对表。",
+  "sample_input": {
+    "current": {
+      "period": "8月",
+      "revenue": 120,
+      "unit": "万元",
+      "tax": "含税"
+    },
+    "previous": {
+      "period": "7月",
+      "revenue": 100,
+      "unit": "万元",
+      "tax": "未税"
+    },
+    "business_note": "促销可能带来增长"
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "headline": "收入口径不一致，暂不计算同比或环比结论",
+    "issues": [
+      "需将两期调整为同一税口径",
+      "促销影响仅为待验证解释"
+    ],
+    "files": [
+      "business-review.md",
+      "metric-reconciliation.csv",
+      "report-outline.md"
+    ]
+  },
+  "sources": [
+    "https://seed.bytedance.com/zh/blog/seed2-1-officially-released-advancing-ai-productivity",
+    "https://seed.bytedance.com/zh/seed2_1"
+  ],
+  "novelty": "区别于旧汇报材料助手的内容编排，本项围绕Seed2.1 Pro精确入口核验跨表口径、变化归因和经营会决策证据；不重复泛豆包API介绍。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Doubao-Seed-2.1-Pro"
+  ],
+  "host_requirements": [
+    "AI-HIVE Doubao-Seed-2.1-Pro实际调用通道",
+    "获授权的文档与表格读取工具",
+    "可复核的计算工具；PPT制作另需独立制稿和渲染工具"
+  ]
+}

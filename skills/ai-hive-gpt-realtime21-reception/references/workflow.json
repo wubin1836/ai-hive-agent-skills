@@ -1,0 +1,93 @@
+{
+  "slug": "ai-hive-gpt-realtime21-reception",
+  "title": "GPT Realtime 2.1语音接待配置助手",
+  "family": "GPT-Realtime-2.1",
+  "model_terms": [
+    "GPT-Realtime-2.1",
+    "gpt-realtime-2.1"
+  ],
+  "aliases": [
+    "GPTRealtime2.1",
+    "GPT Realtime 2.1",
+    "GPT-Realtime-2.1",
+    "gpt-realtime-2.1",
+    "GPT语音接待",
+    "语音客服配置",
+    "语音机器人",
+    "转人工测试"
+  ],
+  "summary": "为已有语音接待场景整理可实施的配置、话术和测试用例，重点验证型号确认、字母数字复述、打断、静音和转人工。只有实际实时连接可用并授权后才试运行，交付配置与真实测试结果，不自动接通电话或上线客服。",
+  "inputs": [
+    "接待范围与已确认FAQ",
+    "营业时间及转人工规则",
+    "现有通话平台和只读工具清单",
+    "测试号码或离线样本及权限"
+  ],
+  "steps": [
+    "发现精确gpt-realtime-2.1及宿主实时连接能力，区分模型会话、电话平台和业务查询接口，记录未接通依赖。",
+    "把FAQ划分为可答、需查询、必须转人工三类，明确不能承诺的退款、折扣及敏感信息请求。",
+    "编写接待语音规则：短句、订单字母数字复述、确认后继续、用户打断即停；只配置实际支持的参数。",
+    "按宿主schema生成配置草案和最小工具权限，写入的是凭据引用名而不是密钥；不得自动绑定号码或改生产路由。",
+    "经测试授权和费用确认后运行静音、噪声、打断、错号与转人工用例，记录会话ID、工具回执与失败点。",
+    "交付脱敏配置、测试用例和验收报告；未执行用例写未测试，转人工只是文本意图时不得判定真实转接成功。"
+  ],
+  "outputs": [
+    "gpt-reception-config.json：按宿主schema核对的脱敏配置或明确草案",
+    "gpt-reception-cases.csv：接待、打断与转人工用例",
+    "gpt-reception-report.json：真实测试回执与未测依赖"
+  ],
+  "checks": [
+    "实际模型ID为gpt-realtime-2.1而非同族默认型号",
+    "配置不含凭据且业务工具权限最小化",
+    "测试状态区分通过、失败和未执行",
+    "转人工等外部动作只凭真实平台回执判定"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。模型支持语音不等于有电话号码、SIP线路或客户通信授权。默认只产配置与用例；无实际会话时停止试运行，不能声称已上线。生产绑定、外呼和客户数据写入需另行明确授权。",
+  "prompt": "用GPT-Realtime-2.1帮我配置门店语音接待，先只做测试：报单号要复述，听到找店长就转人工，但不要接生产号码，也别自动打给客户。",
+  "sample_input": {
+    "business": "示例咖啡店",
+    "faq": [
+      "营业时间",
+      "地址"
+    ],
+    "handoff_phrase": "找店长",
+    "tools": [
+      "只读营业信息"
+    ],
+    "environment": "test_only",
+    "production_binding": false
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "gpt-reception-config.json",
+      "gpt-reception-cases.csv",
+      "gpt-reception-report.json"
+    ],
+    "acceptance_plan": {
+      "model_id": "gpt-realtime-2.1",
+      "cases": [
+        "单号复述",
+        "静音",
+        "打断",
+        "转人工"
+      ],
+      "production_binding": false
+    },
+    "config_status": "draft_until_host_schema_checked",
+    "executed_cases": 0
+  },
+  "host_requirements": [
+    "gpt-realtime-2.1只读型号发现与真实实时会话",
+    "宿主配置schema、音频测试和可追溯会话日志",
+    "仅在用户授权时可用的业务查询与人工转接接口"
+  ],
+  "novelty": "区别于GPT Live泛助手，新增Realtime2.1精确语音接待配置、号码复述、打断与真实转接回执验收。",
+  "availability": "runtime-check",
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-realtime-2.1"
+  ]
+}

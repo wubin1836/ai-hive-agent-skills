@@ -1,0 +1,88 @@
+{
+  "slug": "ai-hive-gemini37-site-redesign",
+  "title": "Gemini3.7 Flash旧网站改版与回归检查",
+  "family": "Gemini 3.7 Flash",
+  "aliases": [
+    "gemini-3.7-flash",
+    "Gemini 3.7 Flash",
+    "Gemini3.7",
+    "谷歌Gemini3.7",
+    "Gemini旧网站改版",
+    "Gemini响应式布局修复",
+    "Gemini网页改版保留功能",
+    "Gemini网站无障碍检查"
+  ],
+  "summary": "想让旧网站更清楚好用，又担心改版破坏表单、导航和移动端时，用AI-HIVE核验Gemini3.7 Flash后先记录现状与保留项，再设计有限范围改动。交付改版补丁、前后对照及功能回归清单，把视觉改善与业务行为分别验证，便于审阅和回滚。",
+  "inputs": [
+    "获准读取的网站源码及当前固定版本",
+    "旧页面截图、问题描述和目标用户任务",
+    "必须保留的路由、表单和业务规则",
+    "可修改范围、目标屏幕尺寸及测试授权"
+  ],
+  "steps": [
+    "确认Gemini3.7 Flash实际通道与代码工具，登记现有路由、交互和不可变业务规则",
+    "检查目标页面的层级、移动端溢出、键盘操作与表单状态，保存真实基线或标记缺失",
+    "提出限定范围的改版方案，将样式改动与可能影响数据流程的改动分开请求确认",
+    "在授权范围生成或应用最小补丁，保留现有接口契约和可回退版本",
+    "使用可用浏览器和测试工具检查目标尺寸、提交失败、空数据及键盘路径；不能执行时只交待测步骤",
+    "对照基线交付变化说明和回归结果，说明未覆盖页面，不自行部署上线"
+  ],
+  "outputs": [
+    "redesign.patch：有限范围改版补丁及应用状态",
+    "before-after-review.md：界面变化与保留项对照",
+    "site-regression.json：功能与可访问性检查记录"
+  ],
+  "checks": [
+    "既有路由、表单字段和接口契约未被静默改变",
+    "移动端与键盘操作有真实检查结果或待测标记",
+    "视觉对照截图必须来自真实工具，不伪造浏览器验证",
+    "改版范围与补丁文件符合用户授权"
+  ],
+  "boundary": "AI-HIVE必须运行时确认gemini-3.7-flash；模型不自带浏览器、文件修改或托管能力。无工具时提供未应用方案与补丁草案，未经授权不抓取私有站点、不安装依赖、不发布或替换线上网站。",
+  "prompt": "用Gemini3.7 Flash改进旧站产品页的手机布局和询价表单，保留现有接口、字段和路由。先说明改动范围，再给补丁及回归检查；没有浏览器就把视觉测试标为待运行，不上线。",
+  "sample_input": {
+    "page": "/products/a",
+    "issues": [
+      "360px宽度出现横向滚动",
+      "提交中状态不明显"
+    ],
+    "must_preserve": [
+      "POST /api/inquiry",
+      "字段name和email"
+    ],
+    "browser_available": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "plan": [
+      "约束商品图区宽度并检查长文本换行",
+      "增加提交状态提示，不改API字段"
+    ],
+    "patch_status": "未应用草案",
+    "checks": [
+      {
+        "case": "360px无横向溢出",
+        "status": "待运行"
+      }
+    ],
+    "files": [
+      "redesign.patch",
+      "before-after-review.md",
+      "site-regression.json"
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/changelog"
+  ],
+  "novelty": "旧网站生成入口偏从零制作。本项针对Gemini3.7 Flash做既有页面有限改版，输出不变业务契约与前后回归证据，不将新外观等同于功能正确。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "gemini-3.7-flash"
+  ],
+  "host_requirements": [
+    "AI-HIVE Gemini3.7 Flash调用通道",
+    "获授权仓库读写与补丁工具",
+    "真实预览浏览器和测试运行器；缺失则交待运行检查"
+  ]
+}

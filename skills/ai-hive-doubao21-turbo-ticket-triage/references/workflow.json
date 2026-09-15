@@ -1,0 +1,101 @@
+{
+  "slug": "ai-hive-doubao21-turbo-ticket-triage",
+  "title": "豆包Seed2.1 Turbo工单归并与异常分流",
+  "family": "Doubao Seed 2.1 Turbo",
+  "aliases": [
+    "Doubao-Seed-2.1-Turbo",
+    "Doubao Seed 2.1 Turbo",
+    "豆包2.1 Turbo",
+    "豆包工单整理",
+    "豆包客服记录分类",
+    "Turbo重复工单合并",
+    "客户问题转处理清单",
+    "豆包异常工单分流"
+  ],
+  "summary": "客服记录多、同一问题被重复登记时，通过AI-HIVE核验豆包Seed2.1 Turbo，按用户提供的规则抽取订单线索、诉求和处理状态，并保留每条原记录。交付可导入草表、疑似重复组与人工处理队列，帮助团队减少漏单，同时避免误合并不同客户的问题。",
+  "inputs": [
+    "脱敏工单、聊天摘录及唯一记录编号",
+    "目标工单字段和分类优先级规则",
+    "可用于归并的非敏感标识及禁止合并条件",
+    "人工复核阈值、批次规模和调用预算"
+  ],
+  "steps": [
+    "确认Turbo型号、可用调用通道及输入预算，冻结字段定义和工单分类规则",
+    "按原记录编号抽取诉求、产品、时间、订单线索和当前处理状态，未提及信息填空",
+    "依据明确标识和规则形成疑似重复组，不仅凭措辞相似自动认定同一事件",
+    "将缺关键字段、相互矛盾、涉敏及超出分类规则的记录进入人工队列",
+    "检查结构格式、记录总数和来源对应，失败行独立记录，不隐式丢弃或整批自动重发",
+    "交付待确认导入表和抽样复核清单，仅在后续明确授权时才对接客服系统写入"
+  ],
+  "outputs": [
+    "tickets-draft.csv：带原始编号的待导入工单",
+    "duplicate-candidates.json：疑似重复组及理由",
+    "manual-review.csv：缺失、冲突和失败记录"
+  ],
+  "checks": [
+    "每条输入记录都有输出或明确异常去向",
+    "不同客户或订单不因文本相似自动合并",
+    "未提及的退款、优先级和承诺不被编造",
+    "批量错误计数可对账，未自动联系客户或写CRM"
+  ],
+  "boundary": "AI-HIVE需确认Doubao-Seed-2.1-Turbo，不假设其费用、速度或质量必然优于Pro。没有接口时只制作规则与示例；外部调用费用须预算确认，本项不自动退款、回复客户或写入工单系统。",
+  "prompt": "用豆包Seed2.1 Turbo整理这批脱敏售后记录，抽取订单号、诉求和状态。只把同订单同事件标为疑似重复，缺订单号或内容冲突的进入人工队列；先给待导入CSV，不写客服系统。",
+  "sample_input": {
+    "records": [
+      {
+        "id": "T01",
+        "order": "A100",
+        "text": "包裹漏发充电线，请补发。"
+      },
+      {
+        "id": "T02",
+        "order": "A101",
+        "text": "包裹漏发充电线。"
+      },
+      {
+        "id": "T03",
+        "order": null,
+        "text": "还没收到补发件。"
+      }
+    ],
+    "required_fields": [
+      "order",
+      "request"
+    ]
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未调用真实模型",
+    "accounting": {
+      "input": 3,
+      "draft": 2,
+      "manual_review": 1
+    },
+    "duplicates": [],
+    "manual_review": [
+      {
+        "id": "T03",
+        "reason": "缺订单号，不能与其他记录归并"
+      }
+    ],
+    "files": [
+      "tickets-draft.csv",
+      "duplicate-candidates.json",
+      "manual-review.csv"
+    ]
+  },
+  "sources": [
+    "https://seed.bytedance.com/zh/blog/seed2-1-officially-released-advancing-ai-productivity",
+    "https://seed.bytedance.com/zh/seed2_1"
+  ],
+  "novelty": "不是泛客服话术或表格分类助手：本项固定Turbo搜索入口，重点是原记录守恒、跨工单误合并防护及可导入前的人工异常分流。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Doubao-Seed-2.1-Turbo"
+  ],
+  "host_requirements": [
+    "AI-HIVE Doubao-Seed-2.1-Turbo文本调用通道",
+    "脱敏记录读取和CSV/JSON写入工具",
+    "结构校验器及经用户确认的调用预算；不要求CRM写权限"
+  ]
+}

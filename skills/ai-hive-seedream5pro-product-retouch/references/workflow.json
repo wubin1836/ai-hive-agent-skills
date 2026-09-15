@@ -1,0 +1,84 @@
+{
+  "slug": "ai-hive-seedream5pro-product-retouch",
+  "title": "Seedream 5.0 Pro商品图精修助手",
+  "family": "Seedream 5.0 Pro",
+  "model_terms": [
+    "Seedream 5.0 Pro"
+  ],
+  "aliases": [
+    "Seedream5Pro",
+    "Seedream5.0Pro",
+    "Seedream 5.0 Pro",
+    "Seedream商品图",
+    "Seedream修图",
+    "商品精修",
+    "局部修图",
+    "产品反光处理"
+  ],
+  "summary": "针对商品照片的反光、脏点、背景与材质观感做有边界的精修，保留真实产品结构和包装信息。先圈定修改区与保护区，再核对Seedream 5.0 Pro实际编辑入口，交付原图对照、精修图片和修改记录。",
+  "inputs": [
+    "授权商品原图与SKU标识",
+    "需修正位置及预期观感",
+    "包装文字、结构等保护项",
+    "比例、张数与费用限制"
+  ],
+  "steps": [
+    "发现Seedream 5.0 Pro图像编辑能力，检查是否支持点选、圈选或遮罩；不支持的交互方式不得编成参数。",
+    "查看商品轮廓、反射和标签，把每个缺陷定位到区域并区分应保留的材质特征与拍摄瑕疵。",
+    "制作保护清单，包括瓶口、接口、配件数量、品牌字和颜色；先确认修改不会夸大真实产品性能。",
+    "用实际支持方式提交单轮区域精修，确认上传和本轮张数费用，记录源图指纹与任务ID。",
+    "对齐原图和结果，检查保护区、边缘、材质及标签逐字差异；将失败项定位到具体区域供返修。",
+    "另存精修图、修改区审查和真实回执，不覆盖原图，不把不同SKU或虚构配件混入结果。"
+  ],
+  "outputs": [
+    "seedream-product-retouched.png：实际精修图",
+    "seedream-product-diff.json：区域修改与保护项检查",
+    "seedream-product-task.json：SKU、原图和任务回执"
+  ],
+  "checks": [
+    "SKU与原图对应且结构数量未被改变",
+    "标签文字与用户确认原文一致或明确标为不合格",
+    "只改变授权区域并披露越界变化",
+    "文件尺寸和精修任务ID可核对"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。不承诺像素级锁定、准确小字或所有遮罩模式；模型没有指定区域能力时说明限制并停止不兼容任务。不得生成误导消费者的结构、容量或性能变化。",
+  "prompt": "用Seedream5.0Pro修一下这张保温杯图的过曝反光，只处理杯身右侧，杯盖、刻度和商标都别改，只出一张。",
+  "sample_input": {
+    "sku": "CUP-DEMO-08",
+    "source_image": "cup-overexposed.png",
+    "edit_region": "杯身右侧高光",
+    "locked": [
+      "杯盖",
+      "刻度",
+      "商标"
+    ],
+    "count": 1
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "seedream-product-retouched.png",
+      "seedream-product-diff.json",
+      "seedream-product-task.json"
+    ],
+    "acceptance_plan": {
+      "sku": "CUP-DEMO-08",
+      "target_region": "杯身右侧",
+      "protected_items": 3
+    },
+    "comparison_status": "awaiting_actual_images"
+  },
+  "novelty": "补Seedream5.0Pro的商品精修搜索入口，重点是SKU与区域保护核验，不重复通用生图或整套主图流程。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、图像任务与结果获取能力",
+    "图片查看、像素尺寸及透明通道检查",
+    "本地原图保护、另存与文件清单工具"
+  ],
+  "sources": [
+    "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro"
+  ]
+}

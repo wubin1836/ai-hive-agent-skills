@@ -1,0 +1,90 @@
+{
+  "slug": "ai-hive-omni11-endpoint-video",
+  "title": "Omni 1.1 Flash首尾帧视频制作助手",
+  "family": "Gemini Omni 1.1 Flash",
+  "model_terms": [
+    "Gemini Omni 1.1 Flash",
+    "gemini-omni-1.1-flash"
+  ],
+  "aliases": [
+    "Omni1.1",
+    "Omni1.1Flash",
+    "GeminiOmni首尾帧",
+    "Gemini Omni 1.1 Flash",
+    "首尾帧视频",
+    "两张图变视频",
+    "关键帧过渡",
+    "首尾帧插值"
+  ],
+  "summary": "把指定开场图和结束图连接为有动作逻辑的过渡视频，先检查两张图的视角、主体和空间关系，再设计中间动作与镜头路线。利用实际可用的Omni 1.1 Flash端点能力生成，并分别验收起点、终点和过渡过程。",
+  "inputs": [
+    "指定首帧与尾帧图片",
+    "两帧之间的动作或空间变化",
+    "目标比例和时长",
+    "不允许改变的主体特征"
+  ],
+  "steps": [
+    "发现Gemini Omni 1.1 Flash实际首尾帧输入参数，确认两张图片的来源、分辨率和方向。",
+    "并排检查主体数量、位置、衣物或商品结构，标记无法自然连续的差异并请用户确认是否接受转场。",
+    "为中间过程写出动作因果链与镜头移动范围，避免把两个不同主体无说明地变形成同一个。",
+    "按实际schema映射起止图，确认本次素材和费用后提交，保存每个端点文件的指纹及唯一任务ID。",
+    "抽取首帧、四分位帧和尾帧逐项对照，检查终点抵达、主体变形、瞬移和过渡速度；播放验证抽帧未覆盖的问题。",
+    "保存实际视频、端点比较表和回执，端点不达标时明确列出偏差，不靠截入静帧伪造模型约束满足。"
+  ],
+  "outputs": [
+    "omni-endpoints.mp4：实际首尾帧视频",
+    "omni-endpoints-review.json：端点与中间帧对照",
+    "omni-endpoints-task.json：输入指纹、模型与任务ID"
+  ],
+  "checks": [
+    "首尾画面与指定图片的主体和构图相符",
+    "过渡动作符合确认的因果顺序",
+    "主体数量稳定且无未披露明显变形",
+    "时长比例与任务回执一致"
+  ],
+  "boundary": "先通过AI-HIVE MCP只读发现指定精确型号、任务模式及真实参数；缺失就停止模型执行并列明缺项，不偷换版本或供应商。用户提供素材不等于授权上传或计费，提交前确认本次范围、额度与素材权利；超时先查原任务ID，不自动重提、扩量或发布。工作单、人工演示和失败记录均不是模型生成成果。首尾帧接口缺失时停止，不静默改为单图生视频。端点约束并非像素级复原保证；宿主额外插帧或静帧补尾须明示，不能算模型原生达标。",
+  "prompt": "用Omni1.1Flash把空花瓶图和插好花的尾帧做成6秒插花过程，机位固定、花瓶不变，不要让花突然出现；先确认模型支持两张端点图。",
+  "sample_input": {
+    "start_image": "vase-empty.png",
+    "end_image": "vase-filled.png",
+    "duration_seconds": 6,
+    "motion": "手逐支插花",
+    "camera": "locked",
+    "endpoint_policy": "主体和构图对照"
+  },
+  "sample_output": {
+    "demo_only": true,
+    "generation_status": "not_submitted",
+    "actual_model": null,
+    "task_id": null,
+    "expected_files": [
+      "omni-endpoints.mp4",
+      "omni-endpoints-review.json",
+      "omni-endpoints-task.json"
+    ],
+    "acceptance_plan": {
+      "endpoint_files": [
+        "vase-empty.png",
+        "vase-filled.png"
+      ],
+      "sample_fractions": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "forbidden": "花束瞬间出现"
+    }
+  },
+  "novelty": "与Omni视频续写的原片输入不同，本项输入为两个明确端点，专门处理差异可达性、过程动作和端点验收。",
+  "availability": "runtime-check",
+  "host_requirements": [
+    "AI-HIVE MCP实际型号发现、提交及任务查询能力",
+    "授权素材读取与输出文件保存",
+    "视频探测、抽帧、播放和音轨审听工具"
+  ],
+  "sources": [
+    "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
+  ]
+}

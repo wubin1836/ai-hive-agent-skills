@@ -1,0 +1,83 @@
+{
+  "slug": "ai-hive-glm53-flash-screenshot-fix",
+  "title": "GLM5.3 Flash截图问题转修复任务",
+  "family": "GLM 5.3 Flash",
+  "aliases": [
+    "GLM-5.3-Flash",
+    "GLM 5.3 Flash",
+    "GLM5.3Flash",
+    "智谱GLM截图排错",
+    "GLM截图转修复",
+    "GLM视觉回归检查",
+    "GLM界面问题定位",
+    "Flash截图源码对照"
+  ],
+  "summary": "同事发来一张截图说页面不对时，通过AI-HIVE核验GLM5.3 Flash视觉通道，将图中位置、文案和状态转成可定位的界面问题，再对照组件与样式。交付截图问题单、有限范围补丁和复测说明，避免仅凭画面推断后台故障或把设计偏好当确定缺陷。",
+  "inputs": [
+    "有权处理的原始截图和预期参考",
+    "页面地址或路由、窗口尺寸与操作状态",
+    "获准读取的相关组件和样式源码",
+    "允许修复范围与浏览器验证条件"
+  ],
+  "steps": [
+    "确认GLM-5.3-Flash图像通道并登记截图尺寸和来源，没有视觉输入时请求可用文本描述，不假装看图",
+    "在截图上用区域描述、可见文案与相对位置标注问题，区分布局错误、数据异常和主观偏好",
+    "将视觉线索对应到真实组件、样式和状态，缺少源码或页面状态时先列补充材料",
+    "依据参考和业务要求提出最小改动，不凭截图自行更改字段含义、权限或接口",
+    "经授权生成或应用补丁，再用真实浏览器按同尺寸、同数据状态复测；缺工具时保留待测",
+    "交付问题与源码映射、补丁状态和前后核对要求，标明截图无法证明的原因"
+  ],
+  "outputs": [
+    "screenshot-issues.csv：画面位置到组件的问题单",
+    "ui-fix.patch：有限范围界面修复草案",
+    "visual-recheck.md：同条件复测记录与未确认项"
+  ],
+  "checks": [
+    "每个问题有可见位置、文案或参考依据",
+    "后台原因不凭静态截图直接断定",
+    "前后验证条件包含尺寸、数据和页面状态",
+    "没有真实复截图时不报告像素对比通过"
+  ],
+  "boundary": "AI-HIVE需确认GLM-5.3-Flash及图像输入，不把非Flash型号自动当等价替代。模型不自带截图、DOM读取或浏览器执行能力；修复与复测依赖授权工具，不擅自远程操作或公布截图中的敏感信息。",
+  "prompt": "用GLM5.3 Flash检查这张订单页截图：按钮在手机宽度被挤出卡片。请按位置和文案定位到组件，给只改布局的补丁及同尺寸复测清单，不改接口；不能实际截图就标待验证。",
+  "sample_input": {
+    "image": "订单页脱敏截图.png",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "observed": "确认按钮右侧超出卡片",
+    "component": "OrderActions.tsx",
+    "browser_available": false
+  },
+  "sample_output": {
+    "example_only": true,
+    "mode": "人工演示，未读取真实图片或调用模型",
+    "issue": {
+      "anchor": "卡片底部“确认”按钮右侧",
+      "category": "布局溢出待源码确认",
+      "backend_cause": "截图不足以判断"
+    },
+    "patch_status": "未应用草案",
+    "visual_test": "待运行",
+    "files": [
+      "screenshot-issues.csv",
+      "ui-fix.patch",
+      "visual-recheck.md"
+    ]
+  },
+  "sources": [
+    "https://huggingface.co/zai-org/GLM-5.3-Flash",
+    "https://zcode.z.ai/en/changelog"
+  ],
+  "novelty": "旧GLM5.3 Flash已有模型与多模态近邻；本项专做截图坐标语义到组件的定位和同条件回归，不重复图片问答，也不与文本型跨文件故障定位混用。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "GLM-5.3-Flash"
+  ],
+  "host_requirements": [
+    "AI-HIVE GLM-5.3-Flash实际图像调用通道",
+    "授权截图读取与仓库检索、补丁工具",
+    "真实浏览器和截图工具用于复测；缺失时只交待验收任务"
+  ]
+}

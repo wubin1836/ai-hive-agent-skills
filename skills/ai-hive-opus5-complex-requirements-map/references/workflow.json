@@ -1,0 +1,90 @@
+{
+  "slug": "ai-hive-opus5-complex-requirements-map",
+  "title": "Claude Opus 5复杂需求拆解助手",
+  "family": "Claude Opus 5",
+  "aliases": [
+    "Claude Opus 5",
+    "ClaudeOpus5",
+    "Opus5",
+    "Opus 5",
+    "claude-opus-5",
+    "Claude Opus",
+    "Opus需求拆解",
+    "Claude需求分析",
+    "Opus系统方案",
+    "复杂需求验收矩阵"
+  ],
+  "summary": "把多方提出、相互牵制的需求整理成团队能够讨论和验收的系统方案，适合新系统立项、跨部门协作与复杂功能规划。明确角色、权限、数据边界及业务规则，保留冲突决定与假设，再形成可分阶段交付的里程碑和验收矩阵。",
+  "inputs": [
+    "需求文档、访谈纪要与来源信息",
+    "使用角色及关键业务流程",
+    "时间、人力、技术或合规约束",
+    "本轮必须解决的问题与明确排除项"
+  ],
+  "steps": [
+    "为需求建立稳定编号，记录提出者、来源、目标和约束，不把讨论建议当最终决定",
+    "用Opus 5拆出角色、业务状态、系统边界、数据流和外部依赖",
+    "定位冲突规则与隐藏前提，为每个冲突给出选项、影响和需要决定的人",
+    "将确认项转为功能与非功能要求，假设和未定事项保持可见",
+    "按依赖形成里程碑和最小交付切片，避免把没有依据的工期估算写成承诺",
+    "为需求建立正常、异常和权限边界验收条件，核对需求编号在交付物间一致"
+  ],
+  "outputs": [
+    "requirements-spec.md：系统边界、规则及冲突决定",
+    "milestones.csv：依赖与阶段交付",
+    "acceptance-matrix.csv：需求到验收条件映射"
+  ],
+  "checks": [
+    "每项需求有来源且区分确认、假设和待定",
+    "冲突没有被悄悄改写成一致结论",
+    "里程碑依赖与验收条件可对应需求编号",
+    "关键异常路径和权限边界有验收项"
+  ],
+  "boundary": "模型分析前由用户登录AI-HIVE并绑定远程MCP，核验claude-opus-5；不可用即停止，不自动换型。宿主负责文件读取与结构化导出；方案拆解不等于实施、项目排期承诺或法律合规认证，不创建外部工单、修改项目看板或替负责人决定冲突。",
+  "prompt": "用Claude Opus 5拆解这份采购审批系统需求。采购和财务对审批权限有冲突，先把选项与影响列出来，不替他们决定。交付系统边界、里程碑和需求对应的验收矩阵，不创建工单。",
+  "sample_input": {
+    "project": "采购审批系统",
+    "roles": [
+      "采购",
+      "财务",
+      "审批人"
+    ],
+    "conflict": [
+      "采购希望能修改已提交订单",
+      "财务要求提交后金额不可修改"
+    ],
+    "constraint": "先覆盖单公司场景"
+  },
+  "sample_output": {
+    "example_only": true,
+    "execution_status": "人工示例，未执行",
+    "decision": {
+      "id": "D02",
+      "question": "提交后修改是否创建新版本并重新审批",
+      "options": [
+        "禁止直接修改",
+        "新版本重新审批"
+      ],
+      "owner": "采购与财务共同确认",
+      "status": "待决定"
+    },
+    "acceptance": {
+      "requirement_id": "R07",
+      "condition": "未确认决策前不实现绕过审批的修改入口"
+    }
+  },
+  "sources": [
+    "https://platform.claude.com/docs/en/models/opus-5/overview"
+  ],
+  "novelty": "新增多方冲突到系统边界和验收矩阵的拆解流程，不直接产代码；与软件MVP开发区分，保留决定权及需求来源。",
+  "availability": "runtime-check",
+  "model_terms": [
+    "Claude Opus 5",
+    "claude-opus-5"
+  ],
+  "host_requirements": [
+    "需求文档及会议纪要读取工具",
+    "本地Markdown和CSV写入工具",
+    "需要时的DOCX或PDF解析工具"
+  ]
+}
