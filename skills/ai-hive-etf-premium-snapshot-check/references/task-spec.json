@@ -1,0 +1,34 @@
+{
+  "id": "ai-hive-etf-premium-snapshot-check",
+  "slug": "ai-hive-etf-premium-snapshot-check",
+  "title": "ETF折溢价快照核验助手",
+  "inputs": [
+    "用户截图或授权数据文件",
+    "精确ETF代码、市场与报价时间",
+    "净值或参考净值原始来源和估值时间"
+  ],
+  "artifact_files": [
+    "etf-snapshot-provenance.csv",
+    "etf-difference-check.xlsx",
+    "snapshot-limitations.md"
+  ],
+  "workflow": [
+    "确认精确基金代码与类型，并记录每个价格、净值、参考净值的来源和时间戳",
+    "先判断时间与币种是否可比，不能把昨日净值当实时成交价值",
+    "只对口径明确的静态样本计算相对差额，单列跨境时差和估值滞后",
+    "说明差额不是可保证实现的套利收益，不生成交易步骤"
+  ],
+  "checks": [
+    "ETF 代码、市场、币种及价格/净值类型一致且来源可追溯",
+    "报价和估值时间及交易日历已核对，不能比较的行禁算确定溢价",
+    "相对差额公式分母正确且非零，展示精度与源数据一致"
+  ],
+  "keywords": [
+    "ETF溢价是什么意思",
+    "ETF价格和净值区别",
+    "ETF折溢价怎么算",
+    "IOPV怎么看",
+    "跨境ETF估值时差"
+  ],
+  "body_notice": "仅供参考，不构成投资建议，不承诺收益，不自动交易。"
+}

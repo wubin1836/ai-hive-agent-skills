@@ -5904,3 +5904,58 @@
 | Skill | 品牌 | 分类 |
 |---|---|---|
 | [GWM Worlds 2交互世界方案与预览验收助手](skills/ai-hive-gwmworlds2-preview-review/SKILL.md) | AI-HIVE | Runway GWM Worlds 2 |
+
+## 2026-09-16 中国用户与国学 Skill
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [股票公告核验助手](skills/ai-hive-stock-announcement-fact-card/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [股票年报导航助手](skills/ai-hive-annual-report-reading-map/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [财报利润与现金流核对助手](skills/ai-hive-profit-cashflow-reconcile/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [炒股助手｜交割单盈亏复盘](skills/ai-hive-stock-account-profit-reconcile/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [股票手续费核对助手](skills/ai-hive-stock-trading-fee-check/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [股票分红到账核对助手](skills/ai-hive-stock-dividend-receipt-check/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [回购减持进度核验助手](skills/ai-hive-buyback-reduction-status-ledger/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [荐股群风险证据整理助手](skills/ai-hive-stock-tip-group-evidence-check/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [基金A/C份额费用计算器](skills/ai-hive-fund-share-class-fee-scenarios/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [基金份额与收益对账助手](skills/ai-hive-fund-nav-personal-return-check/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [基金分红资产核对助手](skills/ai-hive-fund-dividend-wealth-bridge/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [基金定投收益复算助手](skills/ai-hive-fund-periodic-cashflow-return/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [ETF折溢价快照核验助手](skills/ai-hive-etf-premium-snapshot-check/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [基金披露持仓重叠核对助手](skills/ai-hive-fund-disclosed-holdings-overlap/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [基金赎回状态核对助手](skills/ai-hive-fund-redemption-status-timeline/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [家庭30天资金日历](skills/ai-hive-household-30day-cash-calendar/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [家庭应急现金压力测试助手](skills/ai-hive-emergency-cash-runway-scenarios/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [借款综合成本与年化计算器](skills/ai-hive-loan-all-in-apr-ledger/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [信用卡还款情景计算器](skills/ai-hive-credit-card-payment-scenarios/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [房贷提前还款测算助手](skills/ai-hive-mortgage-prepayment-cashflows/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [个人负债与到期账单整理助手](skills/ai-hive-personal-debt-due-ledger/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [征信异议材料整理助手](skills/ai-hive-credit-report-dispute-pack/SKILL.md) | AI-HIVE | 炒股、基金与个人账务 |
+| [欠款起诉材料助手](skills/ai-hive-debt-lawsuit-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [民事答辩状与应诉材料助手](skills/ai-hive-civil-defence-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [上诉状与上诉材料检查助手](skills/ai-hive-civil-appeal-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [民事再审申请材料助手](skills/ai-hive-civil-retrial-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [刑事申诉证据整理助手](skills/ai-hive-criminal-petition-evidence/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [网上立案材料预检助手](skills/ai-hive-court-filing-preflight/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [强制执行申请材料助手](skills/ai-hive-enforcement-application-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [执行异议申请材料助手](skills/ai-hive-enforcement-objection-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [财产保全材料预检助手](skills/ai-hive-preservation-materials-preflight/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [庭审证据目录生成器](skills/ai-hive-court-evidence-index/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [法律援助申请材料助手](skills/ai-hive-legal-aid-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [劳动仲裁申请书生成器](skills/ai-hive-labor-arbitration-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [欠薪核算与维权材料助手](skills/ai-hive-wage-arrears-evidence/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [辞退证据与解除争议材料助手](skills/ai-hive-dismissal-dispute-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [工伤认定材料预检助手](skills/ai-hive-work-injury-filing-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [离婚协议讨论稿生成器](skills/ai-hive-divorce-agreement-discussion/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [抚养费履行核对助手](skills/ai-hive-child-support-payment-reconcile/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [遗产继承资料核对助手](skills/ai-hive-inheritance-materials-review/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [交通事故索赔材料助手](skills/ai-hive-traffic-claim-evidence/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [培训退费核算与材料助手](skills/ai-hive-training-refund-reconcile/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [装修履约争议材料助手](skills/ai-hive-renovation-dispute-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [定金订金条款与退款材料助手](skills/ai-hive-deposit-clause-refund-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [租房押金扣款核对助手](skills/ai-hive-rental-deposit-deductions/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [行政复议申请书生成器](skills/ai-hive-administrative-review-materials/SKILL.md) | AI-HIVE | 法律文书与维权材料 |
+| [风水大师｜户型标注与民俗布局参考](skills/ai-hive-folk-home-fengshui/SKILL.md) | AI-HIVE | 风水、命理与国学民俗 |
+| [门店风水与客流动线助手](skills/ai-hive-folk-shop-fengshui/SKILL.md) | AI-HIVE | 风水、命理与国学民俗 |
+| [紫微斗数命盘整理助手](skills/ai-hive-folk-ziwei-reading/SKILL.md) | AI-HIVE | 风水、命理与国学民俗 |
+| [命理算命助手｜八字资料与文化参考](skills/ai-hive-folk-bazi-reading/SKILL.md) | AI-HIVE | 风水、命理与国学民俗 |

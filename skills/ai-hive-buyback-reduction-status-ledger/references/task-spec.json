@@ -1,0 +1,34 @@
+{
+  "id": "ai-hive-buyback-reduction-status-ledger",
+  "slug": "ai-hive-buyback-reduction-status-ledger",
+  "title": "回购减持进度核验助手",
+  "inputs": [
+    "用户指定公司、事项和截止时点",
+    "允许检索的官方公告来源或本地公告包",
+    "原计划及补充更正文件"
+  ],
+  "artifact_files": [
+    "corporate-event-ledger.csv",
+    "corporate-event-timeline.html",
+    "announcement-manifest.json"
+  ],
+  "workflow": [
+    "限定用户指定的一家公司、事项和截止日期，收集原计划及后续进展公告",
+    "把拟实施额度、批准条件、实际执行量及终止变更分别登记",
+    "统一股份单位和金额口径，对区间计划保留上下限，不制造单一完成率",
+    "列出最后一次公开更新与尚未确认事项，明确报告不是实时监控"
+  ],
+  "checks": [
+    "计划、执行进展、终止或更正的原文状态分别保留",
+    "累计数不与上期累计数重复相加，数量与金额单位统一",
+    "更正稿关联被更正版本，缺少后续公告只记未取得而非未执行"
+  ],
+  "keywords": [
+    "股票回购进展",
+    "股东减持进度",
+    "回购计划完成了吗",
+    "公告前后对比",
+    "减持预披露实际完成"
+  ],
+  "body_notice": "仅供参考，不构成投资建议，不承诺收益，不自动交易。"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "借款综合成本与年化计算器"
+  short_description: "读取授权资料并核对来源，生成可编辑文件与待复核清单，支持AI-HIVE模型辅助"
+  default_prompt: "请使用 $ai-hive-loan-all-in-apr-ledger 处理我提供的授权资料，核对来源并生成文件与待确认清单。"

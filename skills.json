@@ -48725,5 +48725,455 @@
     "batch": "AI-HIVE-新模型专项与搜索补全-20260915",
     "path": "skills/ai-hive-gwmworlds2-preview-review",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-stock-announcement-fact-card",
+    "display_name": "股票公告核验助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-stock-announcement-fact-card",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-annual-report-reading-map",
+    "display_name": "股票年报导航助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-annual-report-reading-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-profit-cashflow-reconcile",
+    "display_name": "财报利润与现金流核对助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-profit-cashflow-reconcile",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-stock-account-profit-reconcile",
+    "display_name": "炒股助手｜交割单盈亏复盘",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-stock-account-profit-reconcile",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-stock-trading-fee-check",
+    "display_name": "股票手续费核对助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-stock-trading-fee-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-stock-dividend-receipt-check",
+    "display_name": "股票分红到账核对助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-stock-dividend-receipt-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-buyback-reduction-status-ledger",
+    "display_name": "回购减持进度核验助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-buyback-reduction-status-ledger",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-stock-tip-group-evidence-check",
+    "display_name": "荐股群风险证据整理助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-stock-tip-group-evidence-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-fund-share-class-fee-scenarios",
+    "display_name": "基金A/C份额费用计算器",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-fund-share-class-fee-scenarios",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-fund-nav-personal-return-check",
+    "display_name": "基金份额与收益对账助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-fund-nav-personal-return-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-fund-dividend-wealth-bridge",
+    "display_name": "基金分红资产核对助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-fund-dividend-wealth-bridge",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-fund-periodic-cashflow-return",
+    "display_name": "基金定投收益复算助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-fund-periodic-cashflow-return",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-etf-premium-snapshot-check",
+    "display_name": "ETF折溢价快照核验助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-etf-premium-snapshot-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-fund-disclosed-holdings-overlap",
+    "display_name": "基金披露持仓重叠核对助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-fund-disclosed-holdings-overlap",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-fund-redemption-status-timeline",
+    "display_name": "基金赎回状态核对助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-fund-redemption-status-timeline",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-household-30day-cash-calendar",
+    "display_name": "家庭30天资金日历",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-household-30day-cash-calendar",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-emergency-cash-runway-scenarios",
+    "display_name": "家庭应急现金压力测试助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-emergency-cash-runway-scenarios",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-loan-all-in-apr-ledger",
+    "display_name": "借款综合成本与年化计算器",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-loan-all-in-apr-ledger",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-credit-card-payment-scenarios",
+    "display_name": "信用卡还款情景计算器",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-credit-card-payment-scenarios",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-mortgage-prepayment-cashflows",
+    "display_name": "房贷提前还款测算助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-mortgage-prepayment-cashflows",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-personal-debt-due-ledger",
+    "display_name": "个人负债与到期账单整理助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-personal-debt-due-ledger",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-credit-report-dispute-pack",
+    "display_name": "征信异议材料整理助手",
+    "category": "炒股、基金与个人账务",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-credit-report-dispute-pack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-debt-lawsuit-materials",
+    "display_name": "欠款起诉材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-debt-lawsuit-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-civil-defence-materials",
+    "display_name": "民事答辩状与应诉材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-civil-defence-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-civil-appeal-materials",
+    "display_name": "上诉状与上诉材料检查助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-civil-appeal-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-civil-retrial-materials",
+    "display_name": "民事再审申请材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-civil-retrial-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-criminal-petition-evidence",
+    "display_name": "刑事申诉证据整理助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-criminal-petition-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-court-filing-preflight",
+    "display_name": "网上立案材料预检助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-court-filing-preflight",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-enforcement-application-materials",
+    "display_name": "强制执行申请材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-enforcement-application-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-enforcement-objection-materials",
+    "display_name": "执行异议申请材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-enforcement-objection-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-preservation-materials-preflight",
+    "display_name": "财产保全材料预检助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-preservation-materials-preflight",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-court-evidence-index",
+    "display_name": "庭审证据目录生成器",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-court-evidence-index",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-legal-aid-materials",
+    "display_name": "法律援助申请材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-legal-aid-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-labor-arbitration-materials",
+    "display_name": "劳动仲裁申请书生成器",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-labor-arbitration-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-wage-arrears-evidence",
+    "display_name": "欠薪核算与维权材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-wage-arrears-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-dismissal-dispute-materials",
+    "display_name": "辞退证据与解除争议材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-dismissal-dispute-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-work-injury-filing-materials",
+    "display_name": "工伤认定材料预检助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-work-injury-filing-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-divorce-agreement-discussion",
+    "display_name": "离婚协议讨论稿生成器",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-divorce-agreement-discussion",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-child-support-payment-reconcile",
+    "display_name": "抚养费履行核对助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-child-support-payment-reconcile",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-inheritance-materials-review",
+    "display_name": "遗产继承资料核对助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-inheritance-materials-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-traffic-claim-evidence",
+    "display_name": "交通事故索赔材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-traffic-claim-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-training-refund-reconcile",
+    "display_name": "培训退费核算与材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-training-refund-reconcile",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-renovation-dispute-materials",
+    "display_name": "装修履约争议材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-renovation-dispute-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-deposit-clause-refund-materials",
+    "display_name": "定金订金条款与退款材料助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-deposit-clause-refund-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-rental-deposit-deductions",
+    "display_name": "租房押金扣款核对助手",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-rental-deposit-deductions",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-administrative-review-materials",
+    "display_name": "行政复议申请书生成器",
+    "category": "法律文书与维权材料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-administrative-review-materials",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-home-fengshui",
+    "display_name": "风水大师｜户型标注与民俗布局参考",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-home-fengshui",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-shop-fengshui",
+    "display_name": "门店风水与客流动线助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-shop-fengshui",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-ziwei-reading",
+    "display_name": "紫微斗数命盘整理助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-ziwei-reading",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-bazi-reading",
+    "display_name": "命理算命助手｜八字资料与文化参考",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-bazi-reading",
+    "language": "zh-CN"
   }
 ]

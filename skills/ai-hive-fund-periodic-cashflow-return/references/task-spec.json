@@ -1,0 +1,34 @@
+{
+  "id": "ai-hive-fund-periodic-cashflow-return",
+  "slug": "ai-hive-fund-periodic-cashflow-return",
+  "title": "基金定投收益复算助手",
+  "inputs": [
+    "脱敏逐笔投入与取回CSV",
+    "现金分红及期末持仓估值记录",
+    "估值来源时间戳、统计范围与币种"
+  ],
+  "artifact_files": [
+    "periodic-investment-cashflows.csv",
+    "historical-return-calculation.xlsx",
+    "solver-diagnostics.md"
+  ],
+  "workflow": [
+    "将每次实际投入、取回、现金分红及期末估值整理成有日期的现金流",
+    "分别给总损益、简单投入回报及适用时的资金加权年化口径，不混称同一指标",
+    "检查现金流符号、期末重复计数及求解条件；多解、不收敛或记录不足时不输出确定年化值",
+    "保留公式与输入，注明历史复算范围及期末估值日期"
+  ],
+  "checks": [
+    "现金流符号、实际日期与期末估值正确，红利再投不当外部新增投入",
+    "XIRR 检查正负现金流、候选多根与残差，失败时报告状态而非硬填百分比",
+    "总损益可由投入取回与期末价值复算，历史年化不外推为未来收益"
+  ],
+  "keywords": [
+    "定投收益率怎么算",
+    "基金定投年化计算",
+    "XIRR怎么算",
+    "分批投入收益率",
+    "定投账本"
+  ],
+  "body_notice": "仅供参考，不构成投资建议，不承诺收益，不自动交易。"
+}
