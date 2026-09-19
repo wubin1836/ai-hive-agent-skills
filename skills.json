@@ -50813,5 +50813,455 @@
     "batch": "business-96",
     "path": "skills/ai-hive-business-shareholder-meeting",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-board-secretary",
+    "display_name": "董事会秘书待办助手",
+    "category": "董事会与公司治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-board-secretary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-company-start",
+    "display_name": "开公司资料准备助手",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-company-start",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-entity-choice",
+    "display_name": "个体户与有限公司选择顾问",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-entity-choice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-company-name",
+    "display_name": "公司起名与核名准备助手",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-company-name",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-business-scope",
+    "display_name": "经营范围梳理助手",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-business-scope",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-registered-address",
+    "display_name": "注册地址材料核对助手",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-registered-address",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-articles",
+    "display_name": "公司章程条款准备顾问",
+    "category": "董事会与公司治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-articles",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-capital-register",
+    "display_name": "注册资本认缴实缴核对助手",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-capital-register",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-registration-change",
+    "display_name": "公司变更登记材料助手",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-registration-change",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-annual-report",
+    "display_name": "企业年报信息核对助手",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-annual-report",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-deregistration",
+    "display_name": "公司注销清算准备顾问",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-deregistration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-individual-upgrade",
+    "display_name": "个体户转公司准备助手",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-individual-upgrade",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-founder-readiness",
+    "display_name": "合伙开公司签约前核对顾问",
+    "category": "开公司与登记办理准备",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-founder-readiness",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-equity-design",
+    "display_name": "创业公司股权设置顾问",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-equity-design",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-dilution",
+    "display_name": "融资股权稀释测算助手",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-dilution",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-option-pool",
+    "display_name": "期权池预留测算助手",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-option-pool",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-vesting",
+    "display_name": "员工股权激励归属台账助手",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-vesting",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-founder-exit",
+    "display_name": "合伙人退出条款核对顾问",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-founder-exit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-equity-transfer",
+    "display_name": "股权转让资料准备助手",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-equity-transfer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-dividend",
+    "display_name": "股东分红方案核对助手",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-dividend",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-control-rights",
+    "display_name": "股权与控制权情景顾问",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-control-rights",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-holding-platform",
+    "display_name": "员工持股平台准备顾问",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-holding-platform",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-term-sheet",
+    "display_name": "融资条款对照顾问",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-term-sheet",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-capital-record",
+    "display_name": "股东出资证据整理助手",
+    "category": "股权与合伙治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-capital-record",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-founder-loans",
+    "display_name": "股东借款与公司往来核对助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-founder-loans",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-virtual-cfo",
+    "display_name": "外聘CFO工作交接助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-virtual-cfo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-statement-bridge",
+    "display_name": "老板三张表勾稽助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-statement-bridge",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-cash-scenarios",
+    "display_name": "现金流压力情景测算助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-cash-scenarios",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-budget-variance",
+    "display_name": "预算实际差异归因助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-budget-variance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-month-close",
+    "display_name": "月结关账检查助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-month-close",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-ar-aging",
+    "display_name": "应收账款账龄核对助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-ar-aging",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-ap-payment",
+    "display_name": "应付账款付款计划核对助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-ap-payment",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-cost-allocation",
+    "display_name": "产品成本分摊规则核对顾问",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-cost-allocation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-bank-reconcile",
+    "display_name": "银行流水到账核对助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-bank-reconcile",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-expense-audit",
+    "display_name": "报销附件与费用归类助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-expense-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-bookkeeper-handover",
+    "display_name": "代账公司交接核对助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-bookkeeper-handover",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-finance-data-room",
+    "display_name": "融资财务资料室助手",
+    "category": "财务与经营资金",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-finance-data-room",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-tax-calendar",
+    "display_name": "企业办税日历核对助手",
+    "category": "税务资料与合规核对",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-tax-calendar",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-tax-onboarding",
+    "display_name": "新公司税务报到准备助手",
+    "category": "税务资料与合规核对",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-tax-onboarding",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-vat-check",
+    "display_name": "增值税申报资料勾稽助手",
+    "category": "税务资料与合规核对",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-vat-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-corporate-tax",
+    "display_name": "企业所得税汇算资料助手",
+    "category": "税务资料与合规核对",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-corporate-tax",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-tax-incentives",
+    "display_name": "税收优惠适用条件核对顾问",
+    "category": "税务资料与合规核对",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-tax-incentives",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-tax-health",
+    "display_name": "企业税务自查问题清单助手",
+    "category": "税务资料与合规核对",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-tax-health",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-tax-notice",
+    "display_name": "税务通知材料整理助手",
+    "category": "税务资料与合规核对",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-tax-notice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-invoice-check",
+    "display_name": "发票合同业务一致性核对助手",
+    "category": "税务资料与合规核对",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-invoice-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-rd-tax-evidence",
+    "display_name": "研发费用证据归集助手",
+    "category": "税务资料与合规核对",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-rd-tax-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-lawyer-intake",
+    "display_name": "企业法务咨询材料整理助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-lawyer-intake",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-contract-playbook",
+    "display_name": "公司合同审查标准库助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-contract-playbook",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-contract-diff",
+    "display_name": "合同版本差异与谈判清单助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-contract-diff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-signing-authority",
+    "display_name": "合同签署权限核对助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-signing-authority",
+    "language": "zh-CN"
   }
 ]

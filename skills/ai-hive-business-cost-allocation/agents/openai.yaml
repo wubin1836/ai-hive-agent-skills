@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品成本分摊规则核对顾问"
+  short_description: "产品成本分摊规则核对顾问：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-cost-allocation 完成成本核算材料任务，先核对输入与适用范围，再交文件和待复核事项。"

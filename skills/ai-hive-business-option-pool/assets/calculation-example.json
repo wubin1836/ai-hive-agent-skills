@@ -1,0 +1,14 @@
+{
+  "holders": [
+    {
+      "name": "创始人",
+      "units": "90"
+    },
+    {
+      "name": "未授予期权池",
+      "units": "10"
+    }
+  ],
+  "pool_name": "未授予期权池",
+  "target_pool_percent": "20"
+}

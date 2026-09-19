@@ -1,0 +1,4 @@
+interface:
+  display_name: "增值税申报资料勾稽助手"
+  short_description: "增值税申报资料勾稽助手：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-vat-check 完成增值税申报材料任务，先核对输入与适用范围，再交文件和待复核事项。"

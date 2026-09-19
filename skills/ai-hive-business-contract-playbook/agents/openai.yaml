@@ -1,0 +1,4 @@
+interface:
+  display_name: "公司合同审查标准库助手"
+  short_description: "公司合同审查标准库助手：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-contract-playbook 完成合同审核标准材料任务，先核对输入与适用范围，再交文件和待复核事项。"

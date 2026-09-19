@@ -1,0 +1,38 @@
+{
+  "skill_id": "ai-hive-business-board-secretary",
+  "required_files": [
+    "governance-pack.md",
+    "procedure-check.csv",
+    "decision-record.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "procedure-check.csv": [
+      "item_id",
+      "requirement",
+      "source_id",
+      "document_ref",
+      "status",
+      "reviewer"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "先区分上市与非上市主体，再建义务和截止日台账；来源不明日期标待核",
+  "manual_checks": [
+    "公司法、章程、监管与内部制度不能互相替代。",
+    "材料草案不等于已决议或已生效。",
+    "表决权、股权、董事席位和管理岗位分开核对。"
+  ]
+}

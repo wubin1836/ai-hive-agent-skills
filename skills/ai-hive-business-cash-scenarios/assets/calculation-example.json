@@ -1,0 +1,17 @@
+{
+  "opening_balance": "100",
+  "receipt_delay_periods": 1,
+  "payments_factor": "1",
+  "periods": [
+    {
+      "label": "第1期",
+      "inflows": "50",
+      "outflows": "30"
+    },
+    {
+      "label": "第2期",
+      "inflows": "40",
+      "outflows": "40"
+    }
+  ]
+}

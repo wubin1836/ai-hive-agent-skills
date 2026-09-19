@@ -1,0 +1,38 @@
+{
+  "skill_id": "ai-hive-business-articles",
+  "required_files": [
+    "governance-pack.md",
+    "procedure-check.csv",
+    "decision-record.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "procedure-check.csv": [
+      "item_id",
+      "requirement",
+      "source_id",
+      "document_ref",
+      "status",
+      "reviewer"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "将股东约定、法律要求和可选设计分层，条款编号可追溯，最终文本须专业复核",
+  "manual_checks": [
+    "公司法、章程、监管与内部制度不能互相替代。",
+    "材料草案不等于已决议或已生效。",
+    "表决权、股权、董事席位和管理岗位分开核对。"
+  ]
+}

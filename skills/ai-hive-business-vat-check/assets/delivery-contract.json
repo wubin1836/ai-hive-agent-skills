@@ -1,0 +1,39 @@
+{
+  "skill_id": "ai-hive-business-vat-check",
+  "required_files": [
+    "tax-brief.md",
+    "tax-evidence.csv",
+    "professional-questions.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "tax-evidence.csv": [
+      "item_id",
+      "business_fact",
+      "accounting_ref",
+      "tax_rule_id",
+      "support_file",
+      "status",
+      "reviewer"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "身份、税率、优惠和当期规则全部需核实；只定位不一致，不能凭模型认定可抵扣",
+  "manual_checks": [
+    "不得将模板或模型输出作为最终税务判断。",
+    "不协助隐瞒收入、虚构扣除、虚开发票、伪造资料或规避监管。",
+    "核验失败时不填写确定性资格、税负和申报期限。"
+  ]
+}

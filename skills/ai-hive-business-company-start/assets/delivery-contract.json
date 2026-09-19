@@ -1,0 +1,38 @@
+{
+  "skill_id": "ai-hive-business-company-start",
+  "required_files": [
+    "registration-brief.md",
+    "materials.csv",
+    "field-conflicts.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "materials.csv": [
+      "item_id",
+      "official_requirement",
+      "source_id",
+      "provided_file",
+      "status",
+      "responsible"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "依据当前登记机关材料清单建立逐项缺件表，不自动代办、不承诺办结、不收集不必要完整身份证件",
+  "manual_checks": [
+    "使用真实事项的最新地区清单，来源不明处标待核。",
+    "不承诺办结、核名通过、许可证或优惠资格。",
+    "代理材料不能替代当事人实名确认。"
+  ]
+}

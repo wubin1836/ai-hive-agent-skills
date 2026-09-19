@@ -1,0 +1,4 @@
+interface:
+  display_name: "月结关账检查助手"
+  short_description: "月结关账检查助手：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-month-close 完成月结材料任务，先核对输入与适用范围，再交文件和待复核事项。"

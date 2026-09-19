@@ -1,0 +1,39 @@
+{
+  "skill_id": "ai-hive-business-equity-design",
+  "required_files": [
+    "equity-brief.md",
+    "rights-table.csv",
+    "negotiation-issues.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "rights-table.csv": [
+      "holder_id",
+      "right_type",
+      "basis",
+      "amount",
+      "unit",
+      "status",
+      "evidence_ids"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "分别展示贡献假设与最终协商比例，经济权益、表决和岗位不混同，不把模型打分当确定权利",
+  "manual_checks": [
+    "比例与金额可复算，未定方案不表述为已生效权利。",
+    "不凭股比单独断言控制权，也不提供万能分配比例。",
+    "税务、登记和法律效力单独核查。"
+  ]
+}

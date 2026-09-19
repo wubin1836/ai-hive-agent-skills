@@ -1,0 +1,15 @@
+{
+  "holders": [
+    {
+      "name": "创始人甲",
+      "units": "60"
+    },
+    {
+      "name": "创始人乙",
+      "units": "40"
+    }
+  ],
+  "pre_money": "800",
+  "investment": "200",
+  "investor_name": "新投资人"
+}

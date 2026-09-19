@@ -1,0 +1,40 @@
+{
+  "skill_id": "ai-hive-business-expense-audit",
+  "required_files": [
+    "finance-brief.md",
+    "reconciliation.csv",
+    "calculation-notes.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "reconciliation.csv": [
+      "row_id",
+      "metric",
+      "period",
+      "source_value",
+      "comparison_value",
+      "difference",
+      "evidence_ids",
+      "status"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "按制度核附件与额度，异常只提示待核不定性舞弊，OCR金额需人工复核",
+  "manual_checks": [
+    "每项金额和比例可回到原始数据与公式。",
+    "假设、实际、现金、利润、税额不混用。",
+    "差异不自动定性欺诈或违法，未经确认不改账。"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "skill_id": "ai-hive-business-control-rights",
+  "required_files": [
+    "equity-brief.md",
+    "rights-table.csv",
+    "negotiation-issues.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "rights-table.csv": [
+      "holder_id",
+      "right_type",
+      "basis",
+      "amount",
+      "unit",
+      "status",
+      "evidence_ids"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "分别列股权、表决、董事席位与否决权，不能只按持股比例断言控制权",
+  "manual_checks": [
+    "比例与金额可复算，未定方案不表述为已生效权利。",
+    "不凭股比单独断言控制权，也不提供万能分配比例。",
+    "税务、登记和法律效力单独核查。"
+  ]
+}
