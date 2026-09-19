@@ -1,0 +1,17 @@
+{
+  "goal": "家族企业接班议题整理顾问",
+  "jurisdiction": null,
+  "locality": null,
+  "entity_type": null,
+  "as_of_date": null,
+  "period": null,
+  "currency": null,
+  "units": null,
+  "input_files": [],
+  "special_inputs_needed": "家族与公司角色、已确定意向、治理文件、培养目标",
+  "source_permissions": null,
+  "deadline": null,
+  "output_format": "Markdown/CSV",
+  "paid_generation_authorized": false,
+  "budget_limit": null
+}

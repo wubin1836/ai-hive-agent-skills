@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-tuina-prep",
+  "required_files": [
+    "consultation-brief.md",
+    "reference-cards.csv",
+    "doctor-questions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "reference-cards.csv": [
+      "item_id",
+      "topic",
+      "original_record",
+      "source_id",
+      "evidence_type",
+      "uncertainty"
+    ]
+  },
+  "special_acceptance": "列需要向有资质人员说明的事实，不指导强力扳颈、复位、关节冲击或以按摩替代诊断",
+  "boundary": "仅供参考，建议咨询医生。本技能只做科普、资料整理和就诊沟通，不诊断、不辨证开方、不推荐停换药，不教授自行进针、放血、强力正骨或危险操作。"
+}

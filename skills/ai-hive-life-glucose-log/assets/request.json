@@ -1,0 +1,13 @@
+{
+  "goal": "糖尿病血糖记录整理助手",
+  "input_files": [],
+  "special_inputs_needed": "读数单位、空腹或餐后标签、饮食时间、用药和医嘱",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

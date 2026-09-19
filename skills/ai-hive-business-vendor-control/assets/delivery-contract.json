@@ -1,0 +1,28 @@
+{
+  "skill_id": "ai-hive-business-vendor-control",
+  "required_files": [
+    "management-playbook.md",
+    "execution-matrix.csv",
+    "pilot-review.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "execution-matrix.csv": [
+      "item_id",
+      "trigger",
+      "owner",
+      "input",
+      "action",
+      "output",
+      "acceptance",
+      "escalation"
+    ]
+  },
+  "special_acceptance": "评分附证据和有效期，缺资料不直接判不合格；不把公开负面传闻视为事实",
+  "manual_checks": [
+    "制度草案不冒充已生效制度。",
+    "执行流程有输入输出、负责人和升级路径。",
+    "不利用敏感身份特征评价员工，不自动做雇佣重大决定。"
+  ]
+}

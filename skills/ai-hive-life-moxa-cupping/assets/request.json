@@ -1,0 +1,13 @@
+{
+  "goal": "艾灸拔罐咨询准备助手",
+  "input_files": [],
+  "special_inputs_needed": "想了解的项目、既往病史、皮肤情况和医生建议",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

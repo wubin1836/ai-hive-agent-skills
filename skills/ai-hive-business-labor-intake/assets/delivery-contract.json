@@ -1,0 +1,39 @@
+{
+  "skill_id": "ai-hive-business-labor-intake",
+  "required_files": [
+    "people-brief.md",
+    "people-check.csv",
+    "review-and-handover.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "people-check.csv": [
+      "item_id",
+      "person_alias",
+      "document_ref",
+      "rule_source",
+      "fact",
+      "status",
+      "reviewer"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "适用地区规则与岗位事实匹配，劳务与劳动关系不能只靠合同标题定性",
+  "manual_checks": [
+    "不以模板替代劳动法律意见。",
+    "人员信息最小化、匿名化，权限和保存边界明确。",
+    "重大用工决定必须真实授权与人工复核。"
+  ]
+}

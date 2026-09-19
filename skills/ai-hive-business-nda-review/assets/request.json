@@ -1,0 +1,17 @@
+{
+  "goal": "保密协议披露边界助手",
+  "jurisdiction": null,
+  "locality": null,
+  "entity_type": null,
+  "as_of_date": null,
+  "period": null,
+  "currency": null,
+  "units": null,
+  "input_files": [],
+  "special_inputs_needed": "协议草案、业务信息、披露对象、期限",
+  "source_permissions": null,
+  "deadline": null,
+  "output_format": "Markdown/CSV",
+  "paid_generation_authorized": false,
+  "budget_limit": null
+}

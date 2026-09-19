@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-acupoint-study",
+  "required_files": [
+    "consultation-brief.md",
+    "reference-cards.csv",
+    "doctor-questions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "reference-cards.csv": [
+      "item_id",
+      "topic",
+      "original_record",
+      "source_id",
+      "evidence_type",
+      "uncertainty"
+    ]
+  },
+  "special_acceptance": "分开传统理论术语与临床证据，制作术语卡和自测题；不生成治疗穴方或可用于进针的定位教程",
+  "boundary": "仅供参考，建议咨询医生。本技能只做科普、资料整理和就诊沟通，不诊断、不辨证开方、不推荐停换药，不教授自行进针、放血、强力正骨或危险操作。"
+}

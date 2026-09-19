@@ -1,0 +1,13 @@
+{
+  "goal": "经络穴位科普学习卡助手",
+  "input_files": [],
+  "special_inputs_needed": "合法学习材料、概念清单、学习目标",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

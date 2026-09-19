@@ -1,0 +1,28 @@
+{
+  "skill_id": "ai-hive-business-management-charter",
+  "required_files": [
+    "management-playbook.md",
+    "execution-matrix.csv",
+    "pilot-review.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "execution-matrix.csv": [
+      "item_id",
+      "trigger",
+      "owner",
+      "input",
+      "action",
+      "output",
+      "acceptance",
+      "escalation"
+    ]
+  },
+  "special_acceptance": "将制度写成触发条件、责任、动作、证据和例外处理，需内部批准后才生效",
+  "manual_checks": [
+    "制度草案不冒充已生效制度。",
+    "执行流程有输入输出、负责人和升级路径。",
+    "不利用敏感身份特征评价员工，不自动做雇佣重大决定。"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "skill_id": "ai-hive-business-process-owner",
+  "required_files": [
+    "management-playbook.md",
+    "execution-matrix.csv",
+    "pilot-review.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "execution-matrix.csv": [
+      "item_id",
+      "trigger",
+      "owner",
+      "input",
+      "action",
+      "output",
+      "acceptance",
+      "escalation"
+    ]
+  },
+  "special_acceptance": "每个交接节点有接收标准和唯一问责角色，RACI只是分析草案需组织批准",
+  "manual_checks": [
+    "制度草案不冒充已生效制度。",
+    "执行流程有输入输出、负责人和升级路径。",
+    "不利用敏感身份特征评价员工，不自动做雇佣重大决定。"
+  ]
+}

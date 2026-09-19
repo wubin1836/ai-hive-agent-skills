@@ -1,0 +1,17 @@
+{
+  "goal": "劳动合同签约材料核对助手",
+  "jurisdiction": null,
+  "locality": null,
+  "entity_type": null,
+  "as_of_date": null,
+  "period": null,
+  "currency": null,
+  "units": null,
+  "input_files": [],
+  "special_inputs_needed": "工作地点、真实岗位、合同草案、薪酬和制度",
+  "source_permissions": null,
+  "deadline": null,
+  "output_format": "Markdown/CSV",
+  "paid_generation_authorized": false,
+  "budget_limit": null
+}

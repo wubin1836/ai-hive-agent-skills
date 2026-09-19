@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-life-gout-log",
+  "required_files": [
+    "visit-summary.md",
+    "health-log.csv",
+    "doctor-questions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "health-log.csv": [
+      "record_id",
+      "recorded_at",
+      "item",
+      "value",
+      "unit",
+      "context",
+      "source_id",
+      "record_type"
+    ]
+  },
+  "special_acceptance": "尿酸数值与症状分别记录，不凭单次指标下诊断，不开降尿酸方案或极端饮食处方",
+  "boundary": "仅供参考，建议咨询医生。不能用于诊断、分诊排除急症、开药、调整剂量或替代医生的个体治疗决定。"
+}

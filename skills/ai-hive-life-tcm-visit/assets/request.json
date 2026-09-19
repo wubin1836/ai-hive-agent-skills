@@ -1,0 +1,13 @@
+{
+  "goal": "中医问诊资料整理助手",
+  "input_files": [],
+  "special_inputs_needed": "症状时间线、已有诊断、正在使用的药物与医生记录",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

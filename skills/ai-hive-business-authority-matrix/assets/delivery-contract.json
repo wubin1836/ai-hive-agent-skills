@@ -1,0 +1,28 @@
+{
+  "skill_id": "ai-hive-business-authority-matrix",
+  "required_files": [
+    "management-playbook.md",
+    "execution-matrix.csv",
+    "pilot-review.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "execution-matrix.csv": [
+      "item_id",
+      "trigger",
+      "owner",
+      "input",
+      "action",
+      "output",
+      "acceptance",
+      "escalation"
+    ]
+  },
+  "special_acceptance": "发起、执行、复核和批准分开，治理法定权限不因矩阵而改变",
+  "manual_checks": [
+    "制度草案不冒充已生效制度。",
+    "执行流程有输入输出、负责人和升级路径。",
+    "不利用敏感身份特征评价员工，不自动做雇佣重大决定。"
+  ]
+}

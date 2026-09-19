@@ -1,0 +1,13 @@
+{
+  "goal": "中药与西药用药清单核对助手",
+  "input_files": [],
+  "special_inputs_needed": "真实药名、包装说明、原处方、保健品和过敏史",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

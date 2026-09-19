@@ -1,0 +1,13 @@
+{
+  "goal": "颈椎肩颈不适就诊助手",
+  "input_files": [],
+  "special_inputs_needed": "疼痛起止、外伤、麻木无力、既往检查与医嘱",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

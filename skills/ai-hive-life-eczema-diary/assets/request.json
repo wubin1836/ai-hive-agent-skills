@@ -1,0 +1,13 @@
+{
+  "goal": "湿疹皮炎就诊记录助手",
+  "input_files": [],
+  "special_inputs_needed": "出现时间、部位文字、合法照片、暴露和药物史",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

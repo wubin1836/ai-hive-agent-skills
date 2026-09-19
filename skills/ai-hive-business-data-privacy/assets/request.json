@@ -1,0 +1,17 @@
+{
+  "goal": "企业客户数据处理清单助手",
+  "jurisdiction": null,
+  "locality": null,
+  "entity_type": null,
+  "as_of_date": null,
+  "period": null,
+  "currency": null,
+  "units": null,
+  "input_files": [],
+  "special_inputs_needed": "数据字段、来源、用途、权限、保存和共享路径",
+  "source_permissions": null,
+  "deadline": null,
+  "output_format": "Markdown/CSV",
+  "paid_generation_authorized": false,
+  "budget_limit": null
+}

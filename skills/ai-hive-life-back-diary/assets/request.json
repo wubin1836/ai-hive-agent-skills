@@ -1,0 +1,13 @@
+{
+  "goal": "腰痛与椎间盘就诊助手",
+  "input_files": [],
+  "special_inputs_needed": "症状起止、神经症状、检查和现有诊断",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

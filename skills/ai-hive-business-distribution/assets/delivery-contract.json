@@ -1,0 +1,39 @@
+{
+  "skill_id": "ai-hive-business-distribution",
+  "required_files": [
+    "legal-brief.md",
+    "issue-register.csv",
+    "lawyer-handover.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "issue-register.csv": [
+      "issue_id",
+      "document_ref",
+      "original_clause",
+      "concern",
+      "evidence_ids",
+      "proposal",
+      "professional_review"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "核对独家范围、最低任务、库存、售后和终止衔接；竞争法等问题交专业人员",
+  "manual_checks": [
+    "仅法律信息、材料整理与初步问题识别，不是最终法律意见。",
+    "不虚构事实、证据、签署或对方认可，不越权对外表态。",
+    "机密合同、员工个人信息、诉讼材料上传前单独确认范围并脱敏。"
+  ]
+}

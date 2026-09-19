@@ -1,0 +1,17 @@
+{
+  "goal": "供应商准入与合作复评助手",
+  "jurisdiction": null,
+  "locality": null,
+  "entity_type": null,
+  "as_of_date": null,
+  "period": null,
+  "currency": null,
+  "units": null,
+  "input_files": [],
+  "special_inputs_needed": "批准的准入标准、真实供应商资料、履约记录",
+  "source_permissions": null,
+  "deadline": null,
+  "output_format": "Markdown/CSV",
+  "paid_generation_authorized": false,
+  "budget_limit": null
+}

@@ -1,0 +1,13 @@
+{
+  "goal": "痛风与尿酸复诊资料助手",
+  "input_files": [],
+  "special_inputs_needed": "化验日期单位、关节症状、原有诊断与药物",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

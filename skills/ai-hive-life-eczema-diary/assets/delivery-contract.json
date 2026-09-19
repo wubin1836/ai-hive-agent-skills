@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-life-eczema-diary",
+  "required_files": [
+    "visit-summary.md",
+    "health-log.csv",
+    "doctor-questions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "health-log.csv": [
+      "record_id",
+      "recorded_at",
+      "item",
+      "value",
+      "unit",
+      "context",
+      "source_id",
+      "record_type"
+    ]
+  },
+  "special_acceptance": "照片只能辅助资料归档，不能确诊或判定感染；不指导激素强度疗程或偏方刺激皮肤",
+  "boundary": "仅供参考，建议咨询医生。不能用于诊断、分诊排除急症、开药、调整剂量或替代医生的个体治疗决定。"
+}

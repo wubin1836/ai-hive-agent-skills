@@ -1,0 +1,13 @@
+{
+  "goal": "鼻炎症状与诱因记录助手",
+  "input_files": [],
+  "special_inputs_needed": "症状时段、环境暴露、既往诊断和用药",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

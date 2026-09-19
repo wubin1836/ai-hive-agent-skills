@@ -51263,5 +51263,455 @@
     "batch": "business-96",
     "path": "skills/ai-hive-business-signing-authority",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-nda-review",
+    "display_name": "保密协议披露边界助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-nda-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-ip-ownership",
+    "display_name": "委托开发知识产权归属核对助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-ip-ownership",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-saas-contract",
+    "display_name": "软件订阅与SaaS合同核对助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-saas-contract",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-lease-business",
+    "display_name": "商铺办公室租约核对助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-lease-business",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-distribution",
+    "display_name": "经销代理合同业务核对助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-distribution",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-payment-dispute",
+    "display_name": "商事欠款催收证据整理助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-payment-dispute",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-litigation-handover",
+    "display_name": "企业诉讼仲裁资料移交助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-litigation-handover",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-data-privacy",
+    "display_name": "企业客户数据处理清单助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-data-privacy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-compliance-intake",
+    "display_name": "公司法务外包需求与验收助手",
+    "category": "公司法务与合同事务",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-compliance-intake",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-management-charter",
+    "display_name": "公司管理制度落地助手",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-management-charter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-authority-matrix",
+    "display_name": "老板授权审批矩阵顾问",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-authority-matrix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-operating-review",
+    "display_name": "公司月度经营会材料助手",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-operating-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-target-cascade",
+    "display_name": "年度目标与部门承接核对顾问",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-target-cascade",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-process-owner",
+    "display_name": "跨部门流程责任核对助手",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-process-owner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-owner-dashboard",
+    "display_name": "老板经营看板口径顾问",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-owner-dashboard",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-delegation-check",
+    "display_name": "老板不在场管理检查助手",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-delegation-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-branch-control",
+    "display_name": "多门店分公司管理核对助手",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-branch-control",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-vendor-control",
+    "display_name": "供应商准入与合作复评助手",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-vendor-control",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-business-continuity",
+    "display_name": "企业关键岗位断档预案助手",
+    "category": "公司管理与组织运行",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-business-continuity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-founder-succession",
+    "display_name": "家族企业接班议题整理顾问",
+    "category": "董事会与公司治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-founder-succession",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-policy-version",
+    "display_name": "公司制度版本与签收核对助手",
+    "category": "人事用工与人员管理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-policy-version",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-labor-intake",
+    "display_name": "劳动合同签约材料核对助手",
+    "category": "人事用工与人员管理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-labor-intake",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-employee-exit",
+    "display_name": "员工离职交接与结算核对助手",
+    "category": "人事用工与人员管理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-employee-exit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-noncompete",
+    "display_name": "竞业限制与保密事项整理助手",
+    "category": "人事用工与人员管理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-noncompete",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-payroll-check",
+    "display_name": "工资表与考勤口径核对助手",
+    "category": "人事用工与人员管理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-payroll-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-people-plan",
+    "display_name": "部门编制与人员成本测算顾问",
+    "category": "人事用工与人员管理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-people-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-hr-approval",
+    "display_name": "员工奖惩审批证据核对助手",
+    "category": "人事用工与人员管理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-hr-approval",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-tcm-visit",
+    "display_name": "中医问诊资料整理助手",
+    "category": "中医、推拿与针灸参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-tcm-visit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-herbal-list",
+    "display_name": "中药与西药用药清单核对助手",
+    "category": "中医、推拿与针灸参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-herbal-list",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-acupuncture-prep",
+    "display_name": "针灸就诊准备助手",
+    "category": "中医、推拿与针灸参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-acupuncture-prep",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-acupuncture-log",
+    "display_name": "针灸疗程记录与复诊助手",
+    "category": "中医、推拿与针灸参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-acupuncture-log",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-tuina-prep",
+    "display_name": "推拿按摩就诊沟通助手",
+    "category": "中医、推拿与针灸参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-tuina-prep",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-child-tuina",
+    "display_name": "小儿推拿咨询资料助手",
+    "category": "中医、推拿与针灸参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-child-tuina",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-acupoint-study",
+    "display_name": "经络穴位科普学习卡助手",
+    "category": "中医、推拿与针灸参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-acupoint-study",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-moxa-cupping",
+    "display_name": "艾灸拔罐咨询准备助手",
+    "category": "中医、推拿与针灸参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-moxa-cupping",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-bp-log",
+    "display_name": "高血压血压记录与复诊助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-bp-log",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-glucose-log",
+    "display_name": "糖尿病血糖记录整理助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-glucose-log",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-gout-log",
+    "display_name": "痛风与尿酸复诊资料助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-gout-log",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-lipid-log",
+    "display_name": "高血脂检查趋势整理助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-lipid-log",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-fatty-liver",
+    "display_name": "脂肪肝检查与复诊助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-fatty-liver",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-thyroid-followup",
+    "display_name": "甲状腺结节复查资料助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-thyroid-followup",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-lung-followup",
+    "display_name": "肺结节随访资料整理助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-lung-followup",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-rhinitis-diary",
+    "display_name": "鼻炎症状与诱因记录助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-rhinitis-diary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-asthma-diary",
+    "display_name": "哮喘医嘱与症状记录助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-asthma-diary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-eczema-diary",
+    "display_name": "湿疹皮炎就诊记录助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-eczema-diary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-migraine-diary",
+    "display_name": "偏头痛与头痛日记助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-migraine-diary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-neck-diary",
+    "display_name": "颈椎肩颈不适就诊助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-neck-diary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-back-diary",
+    "display_name": "腰痛与椎间盘就诊助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-back-diary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-knee-diary",
+    "display_name": "膝关节疼痛复诊助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-knee-diary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-reflux-diary",
+    "display_name": "胃食管反流症状记录助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-reflux-diary",
+    "language": "zh-CN"
   }
 ]

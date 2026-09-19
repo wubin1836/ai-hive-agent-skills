@@ -1,0 +1,13 @@
+{
+  "goal": "甲状腺结节复查资料助手",
+  "input_files": [],
+  "special_inputs_needed": "超声原文、既往报告、医生随访安排",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

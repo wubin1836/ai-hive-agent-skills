@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-life-glucose-log",
+  "required_files": [
+    "visit-summary.md",
+    "health-log.csv",
+    "doctor-questions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "health-log.csv": [
+      "record_id",
+      "recorded_at",
+      "item",
+      "value",
+      "unit",
+      "context",
+      "source_id",
+      "record_type"
+    ]
+  },
+  "special_acceptance": "不同采样时点与单位分组，记录疑似低血糖等症状供医生评估；不计算胰岛素剂量或调整药物",
+  "boundary": "仅供参考，建议咨询医生。不能用于诊断、分诊排除急症、开药、调整剂量或替代医生的个体治疗决定。"
+}

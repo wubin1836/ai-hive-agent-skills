@@ -1,0 +1,13 @@
+{
+  "goal": "针灸就诊准备助手",
+  "input_files": [],
+  "special_inputs_needed": "治疗目标、既往诊断、用药、妊娠情况及拟就诊机构",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

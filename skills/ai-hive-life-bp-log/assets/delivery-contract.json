@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-life-bp-log",
+  "required_files": [
+    "visit-summary.md",
+    "health-log.csv",
+    "doctor-questions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "health-log.csv": [
+      "record_id",
+      "recorded_at",
+      "item",
+      "value",
+      "unit",
+      "context",
+      "source_id",
+      "record_type"
+    ]
+  },
+  "special_acceptance": "保留收缩压舒张压单位和测量条件，缺值不补；按医生给出的个体目标整理趋势，不自行确诊或调整降压药",
+  "boundary": "仅供参考，建议咨询医生。不能用于诊断、分诊排除急症、开药、调整剂量或替代医生的个体治疗决定。"
+}

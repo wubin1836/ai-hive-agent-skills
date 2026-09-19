@@ -1,0 +1,4 @@
+interface:
+  display_name: "企业关键岗位断档预案助手"
+  short_description: "企业关键岗位断档预案助手：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-business-continuity 完成业务连续性材料任务，先核对输入与适用范围，再交文件和待复核事项。"

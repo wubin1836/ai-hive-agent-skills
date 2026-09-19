@@ -1,0 +1,39 @@
+{
+  "skill_id": "ai-hive-business-payroll-check",
+  "required_files": [
+    "people-brief.md",
+    "people-check.csv",
+    "review-and-handover.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "people-check.csv": [
+      "item_id",
+      "person_alias",
+      "document_ref",
+      "rule_source",
+      "fact",
+      "status",
+      "reviewer"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "底薪、津补贴、加班和扣款依据分开，未经授权不上传完整员工身份及银行卡信息",
+  "manual_checks": [
+    "不以模板替代劳动法律意见。",
+    "人员信息最小化、匿名化，权限和保存边界明确。",
+    "重大用工决定必须真实授权与人工复核。"
+  ]
+}

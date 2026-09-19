@@ -1,0 +1,4 @@
+interface:
+  display_name: "部门编制与人员成本测算顾问"
+  short_description: "部门编制与人员成本测算顾问：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-people-plan 完成人员编制材料任务，先核对输入与适用范围，再交文件和待复核事项。"
