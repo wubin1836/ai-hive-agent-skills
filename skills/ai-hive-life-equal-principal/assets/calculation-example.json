@@ -1,0 +1,6 @@
+{
+  "principal": "12000",
+  "annual_percent": "6",
+  "months": 12,
+  "method": "equal_principal"
+}

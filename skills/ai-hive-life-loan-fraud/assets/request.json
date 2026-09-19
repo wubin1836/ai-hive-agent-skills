@@ -1,0 +1,13 @@
+{
+  "goal": "借贷收费与征信异议资料助手",
+  "input_files": [],
+  "special_inputs_needed": "脱敏通知合同、实际沟通、付款凭证和争议事实",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

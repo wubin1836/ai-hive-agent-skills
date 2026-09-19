@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-life-iou-intake",
+  "required_files": [
+    "money-brief.md",
+    "money-ledger.csv",
+    "contract-questions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "money-ledger.csv": [
+      "row_id",
+      "date_or_period",
+      "principal",
+      "interest",
+      "fees",
+      "currency",
+      "basis",
+      "source_id",
+      "status"
+    ]
+  },
+  "special_acceptance": "区分借条欠条与转账事实，文本为待律师复核草案，不伪造签名日期或认定保证有效",
+  "boundary": "仅供参考，非贷款撮合、信用评估或专业法律意见。算术结果依赖完整输入和合同，不保证获贷、收益、合法性或确定还款金额。"
+}

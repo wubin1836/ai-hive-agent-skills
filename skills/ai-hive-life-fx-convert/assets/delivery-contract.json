@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-life-fx-convert",
+  "required_files": [
+    "fx-brief.md",
+    "fx-ledger.csv",
+    "quote-limitations.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "fx-ledger.csv": [
+      "row_id",
+      "source_currency",
+      "target_currency",
+      "source_amount",
+      "rate",
+      "source_fee",
+      "target_fee",
+      "target_net",
+      "source_url",
+      "quoted_at",
+      "status"
+    ]
+  },
+  "special_acceptance": "按1单位源币等于多少目标币定义汇率，缺汇率只待查；参考价不冒称可成交银行牌价",
+  "boundary": "仅为算术与报价比较，不是交易建议或成交保证。实际牌价和费用以银行/渠道最终报价为准，不代换汇或转账。"
+}

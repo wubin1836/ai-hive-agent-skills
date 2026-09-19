@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-life-loan-schedule",
+  "required_files": [
+    "money-brief.md",
+    "money-ledger.csv",
+    "contract-questions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "money-ledger.csv": [
+      "row_id",
+      "date_or_period",
+      "principal",
+      "interest",
+      "fees",
+      "currency",
+      "basis",
+      "source_id",
+      "status"
+    ]
+  },
+  "special_acceptance": "使用本地Decimal计算固定利率等额本息，最后一期调整舍入；不把不含费用的名义利率当综合年化",
+  "boundary": "仅供参考，非贷款撮合、信用评估或专业法律意见。算术结果依赖完整输入和合同，不保证获贷、收益、合法性或确定还款金额。"
+}

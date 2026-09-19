@@ -1,0 +1,4 @@
+interface:
+  display_name: "等额本金与本息对比助手"
+  short_description: "等额本金与本息对比助手：整理真实资料、执行专项核对并交付可复核文件"
+  default_prompt: "请使用 $ai-hive-life-equal-principal 整理我提供的材料并完成专项任务，给出可编辑文件与待核事项。"

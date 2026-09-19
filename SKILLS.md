@@ -6326,3 +6326,21 @@
 | [四六级错题与证据定位助手](skills/ai-hive-life-cet-errors/SKILL.md) | AI-HIVE | 英语考试与学习文件 |
 | [考研英语长难句拆解卡助手](skills/ai-hive-life-postgrad-english/SKILL.md) | AI-HIVE | 英语考试与学习文件 |
 | [成人学位英语报考核对助手](skills/ai-hive-life-adult-english/SKILL.md) | AI-HIVE | 英语考试与学习文件 |
+
+## 2026-09-19 广告、经营、健康与生活技能补充
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [英语成绩送分与有效期助手](skills/ai-hive-life-exam-score/SKILL.md) | AI-HIVE | 英语考试与学习文件 |
+| [借钱前现金缺口与还款预算助手](skills/ai-hive-life-borrow-plan/SKILL.md) | AI-HIVE | 借款、贷款与利息 |
+| [贷款合同费用逐项对照助手](skills/ai-hive-life-loan-offers/SKILL.md) | AI-HIVE | 借款、贷款与利息 |
+| [等额本息还款计划计算器](skills/ai-hive-life-loan-schedule/SKILL.md) | AI-HIVE | 借款、贷款与利息 |
+| [等额本金与本息对比助手](skills/ai-hive-life-equal-principal/SKILL.md) | AI-HIVE | 借款、贷款与利息 |
+| [提前还贷条款与报价核对助手](skills/ai-hive-life-prepay-evidence/SKILL.md) | AI-HIVE | 借款、贷款与利息 |
+| [借款单利与按天利息计算器](skills/ai-hive-life-simple-interest/SKILL.md) | AI-HIVE | 借款、贷款与利息 |
+| [复利与利息累计计算器](skills/ai-hive-life-compound-interest/SKILL.md) | AI-HIVE | 借款、贷款与利息 |
+| [日息月息年息口径核对助手](skills/ai-hive-life-rate-language/SKILL.md) | AI-HIVE | 借款、贷款与利息 |
+| [汇率换算与币种方向计算器](skills/ai-hive-life-fx-convert/SKILL.md) | AI-HIVE | 汇率与换汇费用 |
+| [换汇手续费与实际到账计算器](skills/ai-hive-life-fx-fees/SKILL.md) | AI-HIVE | 汇率与换汇费用 |
+| [个人借条与借款证据整理助手](skills/ai-hive-life-iou-intake/SKILL.md) | AI-HIVE | 借款、贷款与利息 |
+| [借贷收费与征信异议资料助手](skills/ai-hive-life-loan-fraud/SKILL.md) | AI-HIVE | 借款、贷款与利息 |

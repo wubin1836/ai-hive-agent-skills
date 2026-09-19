@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-life-borrow-plan",
+  "required_files": [
+    "money-brief.md",
+    "money-ledger.csv",
+    "contract-questions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "money-ledger.csv": [
+      "row_id",
+      "date_or_period",
+      "principal",
+      "interest",
+      "fees",
+      "currency",
+      "basis",
+      "source_id",
+      "status"
+    ]
+  },
+  "special_acceptance": "先算缺口及压力情景，讨论非借贷替代；不撮合贷款、不建议借新还旧或保证能贷到",
+  "boundary": "仅供参考，非贷款撮合、信用评估或专业法律意见。算术结果依赖完整输入和合同，不保证获贷、收益、合法性或确定还款金额。"
+}

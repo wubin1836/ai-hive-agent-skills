@@ -52163,5 +52163,122 @@
     "batch": "health-life-86",
     "path": "skills/ai-hive-life-adult-english",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-exam-score",
+    "display_name": "英语成绩送分与有效期助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-exam-score",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-borrow-plan",
+    "display_name": "借钱前现金缺口与还款预算助手",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-borrow-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-loan-offers",
+    "display_name": "贷款合同费用逐项对照助手",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-loan-offers",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-loan-schedule",
+    "display_name": "等额本息还款计划计算器",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-loan-schedule",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-equal-principal",
+    "display_name": "等额本金与本息对比助手",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-equal-principal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-prepay-evidence",
+    "display_name": "提前还贷条款与报价核对助手",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-prepay-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-simple-interest",
+    "display_name": "借款单利与按天利息计算器",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-simple-interest",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-compound-interest",
+    "display_name": "复利与利息累计计算器",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-compound-interest",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-rate-language",
+    "display_name": "日息月息年息口径核对助手",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-rate-language",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-fx-convert",
+    "display_name": "汇率换算与币种方向计算器",
+    "category": "汇率与换汇费用",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-fx-convert",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-fx-fees",
+    "display_name": "换汇手续费与实际到账计算器",
+    "category": "汇率与换汇费用",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-fx-fees",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-iou-intake",
+    "display_name": "个人借条与借款证据整理助手",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-iou-intake",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-loan-fraud",
+    "display_name": "借贷收费与征信异议资料助手",
+    "category": "借款、贷款与利息",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-loan-fraud",
+    "language": "zh-CN"
   }
 ]

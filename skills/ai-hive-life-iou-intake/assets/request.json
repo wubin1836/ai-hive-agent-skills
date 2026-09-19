@@ -1,0 +1,13 @@
+{
+  "goal": "个人借条与借款证据整理助手",
+  "input_files": [],
+  "special_inputs_needed": "真实借贷事实、双方约定、交付凭证和适用地区",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

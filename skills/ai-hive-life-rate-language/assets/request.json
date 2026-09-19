@@ -1,0 +1,13 @@
+{
+  "goal": "日息月息年息口径核对助手",
+  "input_files": [],
+  "special_inputs_needed": "真实合同原文、计息本金变化、付款和费用约定",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

@@ -1,0 +1,10 @@
+{
+  "amount": "100",
+  "rate": "7",
+  "source_currency": "USD",
+  "target_currency": "CNY",
+  "source_fee": "2",
+  "target_fee": "3",
+  "quote_source": "合成示例，不是银行报价",
+  "quoted_at": "synthetic-not-live"
+}

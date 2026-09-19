@@ -1,0 +1,13 @@
+{
+  "goal": "借钱前现金缺口与还款预算助手",
+  "input_files": [],
+  "special_inputs_needed": "真实收入支出、必要开销、现有债务和时间",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}
