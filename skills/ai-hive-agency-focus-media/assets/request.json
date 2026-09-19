@@ -1,0 +1,12 @@
+{
+  "goal": "电梯广告与楼宇屏素材",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "屏幕规格、播放时长、观看距离、品牌识别物",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

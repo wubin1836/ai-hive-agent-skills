@@ -1,0 +1,28 @@
+{
+  "skill_id": "ai-hive-agency-leo-film",
+  "required_files": [
+    "script.md",
+    "shot-list.csv",
+    "production-notes.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "shot-list.csv": [
+      "shot_id",
+      "start_s",
+      "duration_s",
+      "visual",
+      "copy",
+      "audio",
+      "method",
+      "source_ids",
+      "status"
+    ]
+  },
+  "special_acceptance": "角色行为要解释产品价值；网络联合关系不等于全部历史品牌名称可互换",
+  "manual_checks": [
+    "镜头时长合计与约定影片时长一致，关键利益点有画面支持。",
+    "音色克隆、口型、音乐、剪辑不被当作MCP已默认支持。",
+    "实际视频才称成片，分镜、提示词与合成场景明确标注。"
+  ]
+}

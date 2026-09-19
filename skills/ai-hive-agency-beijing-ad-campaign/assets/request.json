@@ -1,0 +1,12 @@
+{
+  "goal": "城市品牌与区域营销提案",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "城市公开资料、目标游客或客群、地方文化禁区",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

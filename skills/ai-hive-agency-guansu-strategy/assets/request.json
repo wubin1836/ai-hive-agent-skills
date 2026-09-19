@@ -1,0 +1,12 @@
+{
+  "goal": "区域品牌升级执行单",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "经营区域、门店清单、客群差异、素材盘点",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

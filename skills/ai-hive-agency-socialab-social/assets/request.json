@@ -1,0 +1,12 @@
+{
+  "goal": "品牌社交话题与互动栏目",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "品牌语气、用户评论、历史互动内容",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

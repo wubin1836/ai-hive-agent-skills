@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-agency-youmen-social",
+  "required_files": [
+    "content-system.md",
+    "calendar.csv",
+    "first-batch.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "calendar.csv": [
+      "content_id",
+      "date",
+      "channel",
+      "topic",
+      "source_ids",
+      "asset_need",
+      "owner",
+      "status"
+    ]
+  },
+  "special_acceptance": "将主创意拆为品牌发布和用户参与两个版本，保留原创性与可执行活动边界",
+  "manual_checks": [
+    "排期量与素材、制作、审核产能相符。",
+    "不伪造用户评论、客户案例、抽奖结果或社交热度。",
+    "各渠道版本保留事实限制，不为吸引点击改变信息。"
+  ]
+}

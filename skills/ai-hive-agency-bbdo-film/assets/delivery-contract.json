@@ -1,0 +1,28 @@
+{
+  "skill_id": "ai-hive-agency-bbdo-film",
+  "required_files": [
+    "script.md",
+    "shot-list.csv",
+    "production-notes.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "shot-list.csv": [
+      "shot_id",
+      "start_s",
+      "duration_s",
+      "visual",
+      "copy",
+      "audio",
+      "method",
+      "source_ids",
+      "status"
+    ]
+  },
+  "special_acceptance": "每个镜头都说明利益证据，不能用情绪叙事掩盖产品信息缺失",
+  "manual_checks": [
+    "镜头时长合计与约定影片时长一致，关键利益点有画面支持。",
+    "音色克隆、口型、音乐、剪辑不被当作MCP已默认支持。",
+    "实际视频才称成片，分镜、提示词与合成场景明确标注。"
+  ]
+}

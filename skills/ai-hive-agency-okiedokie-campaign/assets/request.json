@@ -1,0 +1,12 @@
+{
+  "goal": "借势创意与品牌关联审核",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "事件事实、品牌相关性、发布时间",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

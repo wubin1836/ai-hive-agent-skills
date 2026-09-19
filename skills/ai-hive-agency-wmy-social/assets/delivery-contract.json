@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-agency-wmy-social",
+  "required_files": [
+    "content-system.md",
+    "calendar.csv",
+    "first-batch.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "calendar.csv": [
+      "content_id",
+      "date",
+      "channel",
+      "topic",
+      "source_ids",
+      "asset_need",
+      "owner",
+      "status"
+    ]
+  },
+  "special_acceptance": "每个选题说明为什么做、对谁做、怎么验证，拒绝只按标题吸引力排序",
+  "manual_checks": [
+    "排期量与素材、制作、审核产能相符。",
+    "不伪造用户评论、客户案例、抽奖结果或社交热度。",
+    "各渠道版本保留事实限制，不为吸引点击改变信息。"
+  ]
+}

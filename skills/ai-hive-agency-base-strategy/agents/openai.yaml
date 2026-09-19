@@ -1,0 +1,4 @@
+interface:
+  display_name: "基础作业平替：产品概念与传播原型联动"
+  short_description: "以AI-HIVE辅助产品概念与传播原型联动，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-base-strategy。我想做产品概念与传播原型联动，希望用AI辅助处理相关工作。以下是产品原型、用户反馈、上市假设。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

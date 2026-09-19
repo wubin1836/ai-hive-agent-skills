@@ -1,0 +1,12 @@
+{
+  "goal": "品牌多形式内容组合",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "现有故事素材、平台规格、更新频次",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

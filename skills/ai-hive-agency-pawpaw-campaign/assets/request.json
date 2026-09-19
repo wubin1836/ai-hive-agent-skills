@@ -1,0 +1,12 @@
+{
+  "goal": "小预算品牌创意提案",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "预算、已有资产、可拍场景",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

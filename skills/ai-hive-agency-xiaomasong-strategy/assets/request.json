@@ -1,0 +1,12 @@
+{
+  "goal": "销售阻力诊断与营销改进",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "销售漏斗、客服记录、价格表和渠道反馈",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "特劳特平替：品牌定位假设与验证计划"
+  short_description: "以AI-HIVE辅助品牌定位假设与验证计划，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-trout-strategy。我想做品牌定位假设与验证计划，希望用AI辅助处理相关工作。以下是目标顾客、品类竞品、产品证据、访谈片段。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

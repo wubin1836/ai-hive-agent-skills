@@ -1,0 +1,4 @@
+interface:
+  display_name: "沃顿倍力平替：增长目标与品牌行动对齐"
+  short_description: "以AI-HIVE辅助增长目标与品牌行动对齐，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-whartonking-strategy。我想做增长目标与品牌行动对齐，希望用AI辅助处理相关工作。以下是年度经营目标、营销预算、销售能力限制。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

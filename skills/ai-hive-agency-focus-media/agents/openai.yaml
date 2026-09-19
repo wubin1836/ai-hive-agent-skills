@@ -1,0 +1,4 @@
+interface:
+  display_name: "分众传媒平替：电梯广告与楼宇屏素材"
+  short_description: "以AI-HIVE辅助电梯广告与楼宇屏素材，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-focus-media。我想做电梯广告与楼宇屏素材，希望用AI辅助处理相关工作。以下是屏幕规格、播放时长、观看距离、品牌识别物。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

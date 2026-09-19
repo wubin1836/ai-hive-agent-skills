@@ -1,0 +1,12 @@
+{
+  "goal": "品牌情绪与消费理由提案",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "人群情绪、产品利益、品牌素材",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

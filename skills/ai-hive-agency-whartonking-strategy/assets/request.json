@@ -1,0 +1,12 @@
+{
+  "goal": "增长目标与品牌行动对齐",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "年度经营目标、营销预算、销售能力限制",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

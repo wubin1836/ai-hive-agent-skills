@@ -1,0 +1,12 @@
+{
+  "goal": "品牌主张到营销动作拆解",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "企业战略、消费者痛点、现有销售动作",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

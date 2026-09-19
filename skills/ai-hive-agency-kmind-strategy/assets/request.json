@@ -1,0 +1,12 @@
+{
+  "goal": "竞争定位证据评估",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "本企业品类定义、顾客原话、三家竞品公开资料",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

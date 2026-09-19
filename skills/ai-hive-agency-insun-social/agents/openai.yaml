@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧星传媒平替：短视频内容投放测试"
+  short_description: "以AI-HIVE辅助短视频内容投放测试，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-insun-social。我想做短视频内容投放测试，希望用AI辅助处理相关工作。以下是视频库、目标人群、投放数据导出。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

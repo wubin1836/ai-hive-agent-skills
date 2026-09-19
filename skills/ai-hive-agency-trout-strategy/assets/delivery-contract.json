@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-agency-trout-strategy",
+  "required_files": [
+    "strategy.md",
+    "hypotheses.csv",
+    "action-plan.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "hypotheses.csv": [
+      "hypothesis_id",
+      "claim",
+      "evidence_ids",
+      "counterevidence",
+      "test",
+      "owner",
+      "metric"
+    ]
+  },
+  "special_acceptance": "每条定位陈述标注品类、人群、差异和理由；设计反证问题而非模仿专有咨询方法",
+  "manual_checks": [
+    "策略不是公司官方建议或专有方法复刻。",
+    "每条关键假设包含能够推翻它的验证办法。",
+    "没有真实数据时只给研究设计和假设，不输出已验证结论。"
+  ]
+}

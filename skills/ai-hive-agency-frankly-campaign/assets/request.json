@@ -1,0 +1,12 @@
+{
+  "goal": "品牌观点与议题表达",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "品牌事实、公共议题背景、语气边界",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

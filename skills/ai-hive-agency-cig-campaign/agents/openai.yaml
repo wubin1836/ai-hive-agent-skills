@@ -1,0 +1,4 @@
+interface:
+  display_name: "新意互动平替：耐用品购买旅程内容"
+  short_description: "以AI-HIVE辅助耐用品购买旅程内容，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-cig-campaign。我想做耐用品购买旅程内容，希望用AI辅助处理相关工作。以下是高客单产品资料、决策人角色、线索流程。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

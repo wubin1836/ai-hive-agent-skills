@@ -1,0 +1,12 @@
+{
+  "goal": "创意提案比选与落地清单",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "多份创意草案、预算、品牌评分标准",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

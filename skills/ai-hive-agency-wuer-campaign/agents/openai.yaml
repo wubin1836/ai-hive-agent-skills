@@ -1,0 +1,4 @@
+interface:
+  display_name: "无二创意平替：创意到营销执行对照"
+  short_description: "以AI-HIVE辅助创意到营销执行对照，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-wuer-campaign。我想做创意到营销执行对照，希望用AI辅助处理相关工作。以下是商业目标、创意脚本、制作和渠道限制。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

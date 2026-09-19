@@ -1,0 +1,4 @@
+interface:
+  display_name: "北京广告平替：城市品牌与区域营销提案"
+  short_description: "以AI-HIVE辅助城市品牌与区域营销提案，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-beijing-ad-campaign。我想做城市品牌与区域营销提案，希望用AI辅助处理相关工作。以下是城市公开资料、目标游客或客群、地方文化禁区。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

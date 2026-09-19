@@ -1,0 +1,12 @@
+{
+  "goal": "消费者洞察与品牌广告",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "顾客反馈、购买情境、产品事实",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

@@ -1,0 +1,12 @@
+{
+  "goal": "产品利益驱动广告脚本",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "产品演示条件、目标利益、视频长度",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

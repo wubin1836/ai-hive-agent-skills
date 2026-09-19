@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-agency-social-touch-social",
+  "required_files": [
+    "content-system.md",
+    "calendar.csv",
+    "first-batch.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "calendar.csv": [
+      "content_id",
+      "date",
+      "channel",
+      "topic",
+      "source_ids",
+      "asset_need",
+      "owner",
+      "status"
+    ]
+  },
+  "special_acceptance": "栏目有稳定角色和更新机制，单次活动不伪装成可持续IP资产",
+  "manual_checks": [
+    "排期量与素材、制作、审核产能相符。",
+    "不伪造用户评论、客户案例、抽奖结果或社交热度。",
+    "各渠道版本保留事实限制，不为吸引点击改变信息。"
+  ]
+}

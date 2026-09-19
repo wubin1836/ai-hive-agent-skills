@@ -1,0 +1,12 @@
+{
+  "goal": "内容选题价值与生产优先级",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "选题池、业务问题、生产成本",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

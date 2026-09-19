@@ -1,0 +1,4 @@
+interface:
+  display_name: "琥之珀平替：创意提案比选与落地清单"
+  short_description: "以AI-HIVE辅助创意提案比选与落地清单，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-huzhipo-campaign。我想做创意提案比选与落地清单，希望用AI辅助处理相关工作。以下是多份创意草案、预算、品牌评分标准。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

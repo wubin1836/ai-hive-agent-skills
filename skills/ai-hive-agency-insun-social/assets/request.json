@@ -1,0 +1,12 @@
+{
+  "goal": "短视频内容投放测试",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "视频库、目标人群、投放数据导出",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

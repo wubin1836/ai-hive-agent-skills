@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-agency-socialab-social",
+  "required_files": [
+    "content-system.md",
+    "calendar.csv",
+    "first-batch.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "calendar.csv": [
+      "content_id",
+      "date",
+      "channel",
+      "topic",
+      "source_ids",
+      "asset_need",
+      "owner",
+      "status"
+    ]
+  },
+  "special_acceptance": "每个话题给参与门槛、示例回复和负面情景处置，不能用虚假用户制造热度",
+  "manual_checks": [
+    "排期量与素材、制作、审核产能相符。",
+    "不伪造用户评论、客户案例、抽奖结果或社交热度。",
+    "各渠道版本保留事实限制，不为吸引点击改变信息。"
+  ]
+}

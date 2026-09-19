@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-agency-yemaozhong-campaign",
+  "required_files": [
+    "proposal.md",
+    "asset-plan.csv",
+    "handoff.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "asset-plan.csv": [
+      "asset_id",
+      "channel",
+      "format",
+      "message",
+      "claim_id",
+      "cta",
+      "status"
+    ]
+  },
+  "special_acceptance": "提出真实场景矛盾后提供产品解决证据；不复制该公司的案例、课程或既有广告语",
+  "manual_checks": [
+    "每个可核查产品主张能追溯到证据或标为待核。",
+    "三条路线的叙事或信息结构实质不同；没有用户请求不扩展投放。",
+    "有文件交付；概念图、提示词、实际媒体文件清楚区分。"
+  ]
+}

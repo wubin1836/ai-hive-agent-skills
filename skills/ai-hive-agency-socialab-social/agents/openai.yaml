@@ -1,0 +1,4 @@
+interface:
+  display_name: "环时互动平替：品牌社交话题与互动栏目"
+  short_description: "以AI-HIVE辅助品牌社交话题与互动栏目，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-socialab-social。我想做品牌社交话题与互动栏目，希望用AI辅助处理相关工作。以下是品牌语气、用户评论、历史互动内容。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

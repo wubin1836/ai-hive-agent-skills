@@ -1,0 +1,12 @@
+{
+  "goal": "品牌内容栏目与IP运营计划",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "品牌内容库存、人群兴趣、团队产能",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

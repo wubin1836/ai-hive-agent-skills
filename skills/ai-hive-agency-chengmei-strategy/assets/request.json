@@ -1,0 +1,12 @@
+{
+  "goal": "成熟品牌定位重整",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "既有定位、认知反馈、历史广告与销量时间序列",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

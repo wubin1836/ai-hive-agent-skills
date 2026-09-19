@@ -1,0 +1,12 @@
+{
+  "goal": "数字品牌体验创意原型",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "用户路径、交互约束、品牌素材",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

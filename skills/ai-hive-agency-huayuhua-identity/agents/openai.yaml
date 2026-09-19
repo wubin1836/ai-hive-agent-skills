@@ -1,0 +1,4 @@
+interface:
+  display_name: "华与华平替：原创品牌符号与门店应用"
+  short_description: "以AI-HIVE辅助原创品牌符号与门店应用，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-huayuhua-identity。我想做原创品牌符号与门店应用，希望用AI辅助处理相关工作。以下是现有品牌标志、门头尺寸、商品包装、禁用图形。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

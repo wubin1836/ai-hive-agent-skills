@@ -1,0 +1,12 @@
+{
+  "goal": "新品上市整合战役",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "上市时间、库存节奏、预售规则",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

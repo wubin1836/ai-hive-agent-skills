@@ -1,0 +1,12 @@
+{
+  "goal": "品牌社交创意共创",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "目标圈层、产品使用场景、活动规则",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}
