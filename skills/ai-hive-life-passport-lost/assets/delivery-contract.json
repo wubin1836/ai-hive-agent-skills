@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-passport-lost",
+  "required_files": [
+    "document-brief.md",
+    "document-check.csv",
+    "field-conflicts.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "document-check.csv": [
+      "item_id",
+      "requirement",
+      "provided_document",
+      "source_id",
+      "expiry_or_date",
+      "status"
+    ]
+  },
+  "special_acceptance": "先定位本国领事官方渠道，准备事实清单；不保证加急、不泄露完整证件，不编造报警或航班证明",
+  "boundary": "非移民管理或领事机构，不代替资格判断，不制作仿真证件、伪造证明或承诺办结；只准备真实材料。"
+}

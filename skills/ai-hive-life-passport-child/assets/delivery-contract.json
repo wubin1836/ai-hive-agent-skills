@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-passport-child",
+  "required_files": [
+    "document-brief.md",
+    "document-check.csv",
+    "field-conflicts.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "document-check.csv": [
+      "item_id",
+      "requirement",
+      "provided_document",
+      "source_id",
+      "expiry_or_date",
+      "status"
+    ]
+  },
+  "special_acceptance": "核对监护证明与同意要求，绝不指导绕过监护或提供虚假亲属证明",
+  "boundary": "非移民管理或领事机构，不代替资格判断，不制作仿真证件、伪造证明或承诺办结；只准备真实材料。"
+}

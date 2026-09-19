@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-lottery-probability",
+  "required_files": [
+    "rules-and-assumptions.md",
+    "lottery-ledger.csv",
+    "responsible-play.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "lottery-ledger.csv": [
+      "row_id",
+      "period",
+      "observed_value",
+      "source_id",
+      "check_status",
+      "note"
+    ]
+  },
+  "special_acceptance": "只计算明确假设下特定组合完全命中概率，不计算必胜投注策略，不把随机样例称推荐号码",
+  "boundary": "面向成年人规则学习与数据整理。彩票不是投资，不预测或推荐中奖号码，不承诺收益，不代购、代投、追损加倍或引导借贷购彩。"
+}

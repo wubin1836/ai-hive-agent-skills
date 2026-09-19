@@ -1,0 +1,13 @@
+{
+  "goal": "驾驶证到期换证核对助手",
+  "input_files": [],
+  "special_inputs_needed": "地区、证件到期日、类别、当前办事要求",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

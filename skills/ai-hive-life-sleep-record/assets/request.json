@@ -1,0 +1,13 @@
+{
+  "goal": "失眠与睡眠日记整理助手",
+  "input_files": [],
+  "special_inputs_needed": "睡眠时间、日间影响、饮品用药和既有医嘱",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

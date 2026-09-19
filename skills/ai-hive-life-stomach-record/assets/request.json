@@ -1,0 +1,13 @@
+{
+  "goal": "胃炎幽门螺杆菌资料助手",
+  "input_files": [],
+  "special_inputs_needed": "胃镜病理原文、检测方法、检测时间与治疗记录",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

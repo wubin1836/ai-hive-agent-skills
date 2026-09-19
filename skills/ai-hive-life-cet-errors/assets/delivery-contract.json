@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-cet-errors",
+  "required_files": [
+    "exam-task.md",
+    "feedback-cards.csv",
+    "followup-plan.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "feedback-cards.csv": [
+      "item_id",
+      "original",
+      "evidence_or_rule",
+      "feedback",
+      "next_practice",
+      "status"
+    ]
+  },
+  "special_acceptance": "阅读答案指回原文，没标准答案就标AI推断，错题整理可导出，不虚构历年真题来源",
+  "boundary": "非考试机构官方服务。练习反馈不是正式成绩，不保证提分或录取；不泄题、不代考、不规避监考，不提供考试现场作答。"
+}

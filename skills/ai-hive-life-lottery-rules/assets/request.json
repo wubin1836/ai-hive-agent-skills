@@ -1,0 +1,13 @@
+{
+  "goal": "彩票规则版本核对助手",
+  "input_files": [],
+  "special_inputs_needed": "游戏名称、地区、期号、官方规则链接",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

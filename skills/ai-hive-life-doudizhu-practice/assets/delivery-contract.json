@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-doudizhu-practice",
+  "required_files": [
+    "game-review.md",
+    "move-log.csv",
+    "practice-plan.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "move-log.csv": [
+      "step_id",
+      "position_or_state",
+      "known_information",
+      "decision",
+      "reason",
+      "evidence_id"
+    ]
+  },
+  "special_acceptance": "校验牌张总数与已出牌，未知手牌不伪造；限非金钱离线学习，不承诺稳赢或自动下注",
+  "boundary": "只做非金钱娱乐、离线学习与允许辅助的赛后复盘；不代打赌博，不隐藏使用AI，不为禁止外援的对局提供实时作弊。"
+}

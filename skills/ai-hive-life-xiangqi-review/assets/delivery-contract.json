@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-xiangqi-review",
+  "required_files": [
+    "game-review.md",
+    "move-log.csv",
+    "practice-plan.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "move-log.csv": [
+      "step_id",
+      "position_or_state",
+      "known_information",
+      "decision",
+      "reason",
+      "evidence_id"
+    ]
+  },
+  "special_acceptance": "检查坐标与行棋顺序，不能只凭不完整盘面报必胜；仅赛后或公开允许辅助的练习使用",
+  "boundary": "只做非金钱娱乐、离线学习与允许辅助的赛后复盘；不代打赌博，不隐藏使用AI，不为禁止外援的对局提供实时作弊。"
+}

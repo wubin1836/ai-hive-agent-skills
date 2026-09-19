@@ -1,0 +1,13 @@
+{
+  "goal": "科目二科目三练车复盘助手",
+  "input_files": [],
+  "special_inputs_needed": "教练反馈、合法练习记录、车型和考试场地规则",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

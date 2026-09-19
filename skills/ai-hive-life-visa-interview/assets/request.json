@@ -1,0 +1,13 @@
+{
+  "goal": "签证面谈真实表达练习助手",
+  "input_files": [],
+  "special_inputs_needed": "真实经历、申请目的、已交材料和练习语言",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

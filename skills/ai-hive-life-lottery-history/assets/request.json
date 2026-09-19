@@ -1,0 +1,13 @@
+{
+  "goal": "彩票历史开奖数据整理助手",
+  "input_files": [],
+  "special_inputs_needed": "官方数据或用户合法导出、期号范围",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

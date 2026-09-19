@@ -1,0 +1,13 @@
+{
+  "goal": "境外自驾证件要求核对助手",
+  "input_files": [],
+  "special_inputs_needed": "国籍、发证地、目的地、停留性质和租车公司规则",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

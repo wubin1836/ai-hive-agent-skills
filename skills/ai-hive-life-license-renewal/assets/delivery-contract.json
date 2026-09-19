@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-license-renewal",
+  "required_files": [
+    "driving-brief.md",
+    "driving-check.csv",
+    "pending-actions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "driving-check.csv": [
+      "item_id",
+      "requirement_or_feedback",
+      "source_id",
+      "user_record",
+      "status",
+      "next_action"
+    ]
+  },
+  "special_acceptance": "核对办理条件、体检和材料时效，真正预约或提交另授权；不将清单完成当已换证",
+  "boundary": "非交管官方服务，不保证通过考试或取得驾驶资格。医学适驾、实际驾驶和现场操作须遵从医生、交管机关与教练指导。"
+}

@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-adult-english",
+  "required_files": [
+    "exam-task.md",
+    "feedback-cards.csv",
+    "followup-plan.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "feedback-cards.csv": [
+      "item_id",
+      "original",
+      "evidence_or_rule",
+      "feedback",
+      "next_practice",
+      "status"
+    ]
+  },
+  "special_acceptance": "各校免考、成绩有效期和考试要求逐项核验，不套全国统一要求，不保证取得学位",
+  "boundary": "非考试机构官方服务。练习反馈不是正式成绩，不保证提分或录取；不泄题、不代考、不规避监考，不提供考试现场作答。"
+}

@@ -1,0 +1,13 @@
+{
+  "goal": "围棋SGF复盘整理助手",
+  "input_files": [],
+  "special_inputs_needed": "SGF棋谱、棋盘大小、贴目与规则",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

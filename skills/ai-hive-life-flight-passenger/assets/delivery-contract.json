@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-life-flight-passenger",
+  "required_files": [
+    "flight-brief.md",
+    "flight-options.csv",
+    "fare-and-risk.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "flight-options.csv": [
+      "option_id",
+      "route",
+      "local_date",
+      "timezone",
+      "currency",
+      "total_price",
+      "passengers",
+      "baggage",
+      "source_url",
+      "checked_at",
+      "status"
+    ]
+  },
+  "special_acceptance": "姓名顺序和拼写先逐字段对照，更名规则实时查，不擅改姓名、不展示完整证件号",
+  "boundary": "查询和文件整理不等于预订出票。报价、余票、票规与入境资格需实时核对；没有实际数据时只交查询方案，不编造航班或最低价。"
+}

@@ -1,0 +1,13 @@
+{
+  "goal": "签证资金证明材料核对助手",
+  "input_files": [],
+  "special_inputs_needed": "目的地当期要求、真实流水、担保关系、费用预算",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

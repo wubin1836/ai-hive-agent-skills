@@ -1,0 +1,13 @@
+{
+  "goal": "斗地主离线牌局练习助手",
+  "input_files": [],
+  "special_inputs_needed": "玩法、完整练习牌局、出牌顺序",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

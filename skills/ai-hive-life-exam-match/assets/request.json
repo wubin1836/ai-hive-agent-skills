@@ -1,0 +1,13 @@
+{
+  "goal": "英语考试报考匹配助手",
+  "input_files": [],
+  "special_inputs_needed": "真实用途、学校或机构要求、日期、已有成绩",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

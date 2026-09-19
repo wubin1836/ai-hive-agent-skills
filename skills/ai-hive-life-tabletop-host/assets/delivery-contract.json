@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-tabletop-host",
+  "required_files": [
+    "game-review.md",
+    "move-log.csv",
+    "practice-plan.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "move-log.csv": [
+      "step_id",
+      "position_or_state",
+      "known_information",
+      "decision",
+      "reason",
+      "evidence_id"
+    ]
+  },
+  "special_acceptance": "生成不重复对阵或轮换表，标出不可满足约束；仅非金钱活动，不运营赌场或资金结算",
+  "boundary": "只做非金钱娱乐、离线学习与允许辅助的赛后复盘；不代打赌博，不隐藏使用AI，不为禁止外援的对局提供实时作弊。"
+}

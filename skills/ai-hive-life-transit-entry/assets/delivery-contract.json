@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-transit-entry",
+  "required_files": [
+    "visa-brief.md",
+    "visa-evidence.csv",
+    "questions-and-actions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "visa-evidence.csv": [
+      "item_id",
+      "official_requirement",
+      "source_id",
+      "true_fact",
+      "supporting_document",
+      "status"
+    ]
+  },
+  "special_acceptance": "逐段核对换机场、自转机和行李重托条件，免签不等于无需授权或必然入境",
+  "boundary": "仅作信息与真实材料准备，重要法律问题咨询合格专业人员。不是官方签证代理，不保证获签或入境，不帮助隐瞒事实或伪造材料。"
+}

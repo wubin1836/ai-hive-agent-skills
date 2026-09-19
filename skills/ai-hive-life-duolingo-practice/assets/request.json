@@ -1,0 +1,13 @@
+{
+  "goal": "多邻国英语测试模拟练习助手",
+  "input_files": [],
+  "special_inputs_needed": "官方样题类型、目标、本人练习和考试日期",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

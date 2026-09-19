@@ -1,0 +1,13 @@
+{
+  "goal": "航班取消延误材料助手",
+  "input_files": [],
+  "special_inputs_needed": "官方航变通知、订单、所在地、票规和实际费用",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

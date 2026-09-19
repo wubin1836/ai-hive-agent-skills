@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-postgrad-english",
+  "required_files": [
+    "exam-task.md",
+    "feedback-cards.csv",
+    "followup-plan.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "feedback-cards.csv": [
+      "item_id",
+      "original",
+      "evidence_or_rule",
+      "feedback",
+      "next_practice",
+      "status"
+    ]
+  },
+  "special_acceptance": "分层标主干从句和指代，歧义保留多解；不把机器改写冒称真题答案",
+  "boundary": "非考试机构官方服务。练习反馈不是正式成绩，不保证提分或录取；不泄题、不代考、不规避监考，不提供考试现场作答。"
+}

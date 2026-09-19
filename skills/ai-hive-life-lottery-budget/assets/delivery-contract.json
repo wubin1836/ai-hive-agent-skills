@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-lottery-budget",
+  "required_files": [
+    "rules-and-assumptions.md",
+    "lottery-ledger.csv",
+    "responsible-play.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "lottery-ledger.csv": [
+      "row_id",
+      "period",
+      "observed_value",
+      "source_id",
+      "check_status",
+      "note"
+    ]
+  },
+  "special_acceptance": "将购彩视为可全部损失的娱乐支出，达到上限停止提示；不借钱购彩、不追损翻倍、不鼓励未成年人参与",
+  "boundary": "面向成年人规则学习与数据整理。彩票不是投资，不预测或推荐中奖号码，不承诺收益，不代购、代投、追损加倍或引导借贷购彩。"
+}

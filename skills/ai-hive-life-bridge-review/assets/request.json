@@ -1,0 +1,13 @@
+{
+  "goal": "桥牌约定卡与复盘助手",
+  "input_files": [],
+  "special_inputs_needed": "体系约定卡、完整牌例、计分方式和复盘目标",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

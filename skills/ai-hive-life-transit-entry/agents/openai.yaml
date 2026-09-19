@@ -1,0 +1,4 @@
+interface:
+  display_name: "过境签免签与入境条件助手"
+  short_description: "过境签免签与入境条件助手：整理真实资料、执行专项核对并交付可复核文件"
+  default_prompt: "请使用 $ai-hive-life-transit-entry 整理我提供的材料并完成专项任务，给出可编辑文件与待核事项。"

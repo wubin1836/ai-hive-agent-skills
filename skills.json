@@ -51713,5 +51713,455 @@
     "batch": "health-life-86",
     "path": "skills/ai-hive-life-reflux-diary",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-stomach-record",
+    "display_name": "胃炎幽门螺杆菌资料助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-stomach-record",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-sleep-record",
+    "display_name": "失眠与睡眠日记整理助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-sleep-record",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-period-pain",
+    "display_name": "痛经与经期就诊记录助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-period-pain",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-child-fever",
+    "display_name": "儿童发热就诊交接助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-child-fever",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-cough-record",
+    "display_name": "咳嗽呼吸道症状就诊助手",
+    "category": "疾病记录与复诊参考",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-cough-record",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-lottery-rules",
+    "display_name": "彩票规则版本核对助手",
+    "category": "彩票规则与理性娱乐",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-lottery-rules",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-lottery-history",
+    "display_name": "彩票历史开奖数据整理助手",
+    "category": "彩票规则与理性娱乐",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-lottery-history",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-lottery-probability",
+    "display_name": "彩票组合概率科普计算器",
+    "category": "彩票规则与理性娱乐",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-lottery-probability",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-lottery-budget",
+    "display_name": "彩票娱乐支出记录助手",
+    "category": "彩票规则与理性娱乐",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-lottery-budget",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-xiangqi-review",
+    "display_name": "中国象棋棋谱复盘助手",
+    "category": "棋牌学习与复盘",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-xiangqi-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-chess-review",
+    "display_name": "国际象棋PGN复盘助手",
+    "category": "棋牌学习与复盘",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-chess-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-go-review",
+    "display_name": "围棋SGF复盘整理助手",
+    "category": "棋牌学习与复盘",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-go-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-mahjong-rules",
+    "display_name": "麻将地方规则与牌局复盘助手",
+    "category": "棋牌学习与复盘",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-mahjong-rules",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-guandan-practice",
+    "display_name": "掼蛋规则与搭档复盘助手",
+    "category": "棋牌学习与复盘",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-guandan-practice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-doudizhu-practice",
+    "display_name": "斗地主离线牌局练习助手",
+    "category": "棋牌学习与复盘",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-doudizhu-practice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-bridge-review",
+    "display_name": "桥牌约定卡与复盘助手",
+    "category": "棋牌学习与复盘",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-bridge-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-tabletop-host",
+    "display_name": "棋牌活动排桌记分助手",
+    "category": "棋牌学习与复盘",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-tabletop-host",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-driving-plan",
+    "display_name": "个人驾照报名材料助手",
+    "category": "驾照与学车事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-driving-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-theory-errors",
+    "display_name": "科目一科目四错题整理助手",
+    "category": "驾照与学车事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-theory-errors",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-driving-practice",
+    "display_name": "科目二科目三练车复盘助手",
+    "category": "驾照与学车事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-driving-practice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-license-renewal",
+    "display_name": "驾驶证到期换证核对助手",
+    "category": "驾照与学车事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-license-renewal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-license-replace",
+    "display_name": "驾照遗失补办资料助手",
+    "category": "驾照与学车事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-license-replace",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-overseas-driving",
+    "display_name": "境外自驾证件要求核对助手",
+    "category": "驾照与学车事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-overseas-driving",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-passport-renew",
+    "display_name": "护照换发与新旧证衔接助手",
+    "category": "护照与出境证件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-passport-renew",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-passport-lost",
+    "display_name": "护照遗失应急资料助手",
+    "category": "护照与出境证件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-passport-lost",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-passport-child",
+    "display_name": "儿童护照监护材料助手",
+    "category": "护照与出境证件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-passport-child",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-travel-id",
+    "display_name": "出境证件有效期核对助手",
+    "category": "护照与出境证件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-travel-id",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-visa-type",
+    "display_name": "个人签证类型选择核对助手",
+    "category": "签证与入境准备",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-visa-type",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-visa-form",
+    "display_name": "签证表格事实一致性助手",
+    "category": "签证与入境准备",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-visa-form",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-visa-funds",
+    "display_name": "签证资金证明材料核对助手",
+    "category": "签证与入境准备",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-visa-funds",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-visa-itinerary",
+    "display_name": "签证行程说明准备助手",
+    "category": "签证与入境准备",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-visa-itinerary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-visa-interview",
+    "display_name": "签证面谈真实表达练习助手",
+    "category": "签证与入境准备",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-visa-interview",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-visa-refusal",
+    "display_name": "拒签信解读与补件问题助手",
+    "category": "签证与入境准备",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-visa-refusal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-transit-entry",
+    "display_name": "过境签免签与入境条件助手",
+    "category": "签证与入境准备",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-transit-entry",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-visa-family",
+    "display_name": "家庭同行签证材料协调助手",
+    "category": "签证与入境准备",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-visa-family",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-flight-search",
+    "display_name": "机票查询与含税比价助手",
+    "category": "机票查询与乘机事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-flight-search",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-flight-flex",
+    "display_name": "前后日期机票价格日历助手",
+    "category": "机票查询与乘机事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-flight-flex",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-flight-transfer",
+    "display_name": "联程转机风险核对助手",
+    "category": "机票查询与乘机事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-flight-transfer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-flight-baggage",
+    "display_name": "机票行李与票规核对助手",
+    "category": "机票查询与乘机事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-flight-baggage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-flight-disruption",
+    "display_name": "航班取消延误材料助手",
+    "category": "机票查询与乘机事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-flight-disruption",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-flight-passenger",
+    "display_name": "机票乘机人姓名证件核对助手",
+    "category": "机票查询与乘机事务",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-flight-passenger",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-exam-match",
+    "display_name": "英语考试报考匹配助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-exam-match",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-exam-registration",
+    "display_name": "英语考试报名材料检查助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-exam-registration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-ielts-feedback",
+    "display_name": "雅思写作修改对照助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-ielts-feedback",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-toefl-format",
+    "display_name": "托福新旧题型资料核对助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-toefl-format",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-pte-practice",
+    "display_name": "PTE口语练习记录助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-pte-practice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-duolingo-practice",
+    "display_name": "多邻国英语测试模拟练习助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-duolingo-practice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-cet-errors",
+    "display_name": "四六级错题与证据定位助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-cet-errors",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-postgrad-english",
+    "display_name": "考研英语长难句拆解卡助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-postgrad-english",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-life-adult-english",
+    "display_name": "成人学位英语报考核对助手",
+    "category": "英语考试与学习文件",
+    "brand": "AI-HIVE",
+    "batch": "health-life-86",
+    "path": "skills/ai-hive-life-adult-english",
+    "language": "zh-CN"
   }
 ]

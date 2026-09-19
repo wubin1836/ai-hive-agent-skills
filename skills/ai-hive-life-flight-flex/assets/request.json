@@ -1,0 +1,13 @@
+{
+  "goal": "前后日期机票价格日历助手",
+  "input_files": [],
+  "special_inputs_needed": "允许日期范围、机场组合、人数和最低条件",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

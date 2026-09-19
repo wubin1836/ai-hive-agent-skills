@@ -1,0 +1,13 @@
+{
+  "goal": "过境签免签与入境条件助手",
+  "input_files": [],
+  "special_inputs_needed": "国籍、居住身份、全程航班、机场和是否入境",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

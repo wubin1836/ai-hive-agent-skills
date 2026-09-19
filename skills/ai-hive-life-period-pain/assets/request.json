@@ -1,0 +1,13 @@
+{
+  "goal": "痛经与经期就诊记录助手",
+  "input_files": [],
+  "special_inputs_needed": "周期、症状、出血描述、用药和妊娠可能性",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

@@ -1,0 +1,13 @@
+{
+  "goal": "儿童护照监护材料助手",
+  "input_files": [],
+  "special_inputs_needed": "国籍、年龄、监护关系、办理地和官方清单",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

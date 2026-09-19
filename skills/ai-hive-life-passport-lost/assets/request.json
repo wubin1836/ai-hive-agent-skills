@@ -1,0 +1,13 @@
+{
+  "goal": "护照遗失应急资料助手",
+  "input_files": [],
+  "special_inputs_needed": "所在国家城市、国籍、出行紧迫性与官方领事入口",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

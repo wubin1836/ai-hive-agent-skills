@@ -1,0 +1,13 @@
+{
+  "goal": "拒签信解读与补件问题助手",
+  "input_files": [],
+  "special_inputs_needed": "完整真实通知、送达日期、目的地与原材料",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

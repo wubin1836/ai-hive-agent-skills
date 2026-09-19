@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-guandan-practice",
+  "required_files": [
+    "game-review.md",
+    "move-log.csv",
+    "practice-plan.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "move-log.csv": [
+      "step_id",
+      "position_or_state",
+      "known_information",
+      "decision",
+      "reason",
+      "evidence_id"
+    ]
+  },
+  "special_acceptance": "区分公开信息与事后见到的手牌，避免用全知信息评判当时决策；不提供实时外援作弊",
+  "boundary": "只做非金钱娱乐、离线学习与允许辅助的赛后复盘；不代打赌博，不隐藏使用AI，不为禁止外援的对局提供实时作弊。"
+}

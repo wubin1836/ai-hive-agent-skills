@@ -1,0 +1,13 @@
+{
+  "goal": "掼蛋规则与搭档复盘助手",
+  "input_files": [],
+  "special_inputs_needed": "采用的规则、牌局记录、搭档沟通目标",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

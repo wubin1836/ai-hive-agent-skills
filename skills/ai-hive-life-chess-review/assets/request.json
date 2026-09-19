@@ -1,0 +1,13 @@
+{
+  "goal": "国际象棋PGN复盘助手",
+  "input_files": [],
+  "special_inputs_needed": "PGN或完整FEN、行棋方与比赛状态",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

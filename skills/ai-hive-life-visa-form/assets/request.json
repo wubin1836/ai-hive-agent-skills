@@ -1,0 +1,13 @@
+{
+  "goal": "签证表格事实一致性助手",
+  "input_files": [],
+  "special_inputs_needed": "当前官方表格、真实经历、已有材料、字段说明",
+  "jurisdiction_or_region": null,
+  "as_of_date": null,
+  "versions": null,
+  "source_permissions": null,
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "output_format": "Markdown/CSV"
+}

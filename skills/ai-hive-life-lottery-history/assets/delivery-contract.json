@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-lottery-history",
+  "required_files": [
+    "rules-and-assumptions.md",
+    "lottery-ledger.csv",
+    "responsible-play.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "lottery-ledger.csv": [
+      "row_id",
+      "period",
+      "observed_value",
+      "source_id",
+      "check_status",
+      "note"
+    ]
+  },
+  "special_acceptance": "去重缺期核查后做描述统计，冷热与遗漏不用于预测下期，不声称走势能改善随机中奖机会",
+  "boundary": "面向成年人规则学习与数据整理。彩票不是投资，不预测或推荐中奖号码，不承诺收益，不代购、代投、追损加倍或引导借贷购彩。"
+}

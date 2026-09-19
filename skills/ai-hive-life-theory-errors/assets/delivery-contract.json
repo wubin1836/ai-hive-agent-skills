@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-theory-errors",
+  "required_files": [
+    "driving-brief.md",
+    "driving-check.csv",
+    "pending-actions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "driving-check.csv": [
+      "item_id",
+      "requirement_or_feedback",
+      "source_id",
+      "user_record",
+      "status",
+      "next_action"
+    ]
+  },
+  "special_acceptance": "解释依据查当前交通规则，疑似旧题标待核；不提供泄题、替考或考试现场辅助",
+  "boundary": "非交管官方服务，不保证通过考试或取得驾驶资格。医学适驾、实际驾驶和现场操作须遵从医生、交管机关与教练指导。"
+}

@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-lottery-rules",
+  "required_files": [
+    "rules-and-assumptions.md",
+    "lottery-ledger.csv",
+    "responsible-play.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "lottery-ledger.csv": [
+      "row_id",
+      "period",
+      "observed_value",
+      "source_id",
+      "check_status",
+      "note"
+    ]
+  },
+  "special_acceptance": "按当前规则说明投注与奖级术语，历史版本分开；不提供预测号码或把奖池大小当获奖概率",
+  "boundary": "面向成年人规则学习与数据整理。彩票不是投资，不预测或推荐中奖号码，不承诺收益，不代购、代投、追损加倍或引导借贷购彩。"
+}

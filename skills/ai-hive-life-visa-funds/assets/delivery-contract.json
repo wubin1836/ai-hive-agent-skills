@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-visa-funds",
+  "required_files": [
+    "visa-brief.md",
+    "visa-evidence.csv",
+    "questions-and-actions.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "visa-evidence.csv": [
+      "item_id",
+      "official_requirement",
+      "source_id",
+      "true_fact",
+      "supporting_document",
+      "status"
+    ]
+  },
+  "special_acceptance": "区分真实资产与借入资金，说明来源口径，绝不造流水、虚报收入或指导掩盖资金情况",
+  "boundary": "仅作信息与真实材料准备，重要法律问题咨询合格专业人员。不是官方签证代理，不保证获签或入境，不帮助隐瞒事实或伪造材料。"
+}

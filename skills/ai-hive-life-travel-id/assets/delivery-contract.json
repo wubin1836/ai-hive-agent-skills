@@ -1,0 +1,22 @@
+{
+  "skill_id": "ai-hive-life-travel-id",
+  "required_files": [
+    "document-brief.md",
+    "document-check.csv",
+    "field-conflicts.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "document-check.csv": [
+      "item_id",
+      "requirement",
+      "provided_document",
+      "source_id",
+      "expiry_or_date",
+      "status"
+    ]
+  },
+  "special_acceptance": "每段目的地和过境地单独核对，有效期、可停留时长与入境次数分开，不套一律六个月规则",
+  "boundary": "非移民管理或领事机构，不代替资格判断，不制作仿真证件、伪造证明或承诺办结；只准备真实材料。"
+}
