@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-practical-subscription-cancel",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "service",
+      "billing_channel",
+      "subscription_ref",
+      "requested_action",
+      "official_route",
+      "renewal_status",
+      "access_until",
+      "confirmation",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "不能用卸载应用作为停扣证据；关闭续费不等于退款；同名订阅逐一匹配账单渠道。",
+  "boundary": "任何实际取消需用户确认具体订阅；不收集支付密码，不承诺必退款。"
+}

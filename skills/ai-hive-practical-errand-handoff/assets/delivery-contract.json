@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-errand-handoff",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "task_id",
+      "place",
+      "time_window",
+      "materials",
+      "allowed_action",
+      "cost_limit",
+      "contact_alias",
+      "completion_proof",
+      "status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "每项都有明确完成凭证或待确认说明；代办资格未核实则不称可代办。",
+  "boundary": "不代签、不造授权、不分享验证码；向代办者发送资料需用户确认接收人和内容。"
+}

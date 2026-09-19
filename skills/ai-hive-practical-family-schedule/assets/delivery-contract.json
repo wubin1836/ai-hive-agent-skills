@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-family-schedule",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "event_id",
+      "participants",
+      "owner",
+      "start",
+      "end",
+      "location",
+      "buffer_minutes",
+      "conflict_with",
+      "confirmation",
+      "source",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "冲突表包含同一接送人的交叠；没有负责人确认的活动不标为已落实；缓冲与活动时长分开。",
+  "boundary": "只做安排辅助，不承诺儿童有人照护；不自动联系家人或调整已有预约。"
+}

@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-practical-moving-address",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "service",
+      "address_type",
+      "pending_order",
+      "change_route",
+      "owner",
+      "status",
+      "receipt",
+      "remaining_risk",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "默认地址与存量订单分列；没有成功回执不标已修改；不输出完整账号或身份号码。",
+  "boundary": "默认只交检查清单；账户修改、转寄和对外提交需要针对目标的明确授权。"
+}

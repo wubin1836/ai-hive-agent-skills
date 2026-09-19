@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-renovation-evidence",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "issue_id",
+      "room",
+      "observed_issue",
+      "original_photo",
+      "agreement",
+      "reported_at",
+      "response",
+      "deadline",
+      "recheck_evidence",
+      "status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "原图与标注图可区分；关闭问题有复验证据；争议责任与专业结论不由模型擅定。",
+  "boundary": "仅作资料整理，不出具工程鉴定、法律结论或安全合格证明。"
+}

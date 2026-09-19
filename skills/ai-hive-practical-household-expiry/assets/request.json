@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-household-expiry",
+  "goal": "家庭临期物品管家",
+  "input_files": [],
+  "needed_inputs": "标签照片、批号或物品编号、明确日期含义、开封记录、储存要求和参考日期",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

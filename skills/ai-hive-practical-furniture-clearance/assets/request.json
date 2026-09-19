@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-furniture-clearance",
+  "goal": "家具入户尺寸检查助手",
+  "input_files": [],
+  "needed_inputs": "家具含包装尺寸、拆装限制、门洞净宽净高、电梯门和轿厢尺寸、路径转角及厂家安装间隙",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

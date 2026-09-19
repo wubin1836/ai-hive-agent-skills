@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-09-19",
+  "window_days": 14,
+  "items": [
+    {
+      "id": "A",
+      "deadline": "2026-09-20"
+    },
+    {
+      "id": "B",
+      "deadline": null
+    }
+  ]
+}

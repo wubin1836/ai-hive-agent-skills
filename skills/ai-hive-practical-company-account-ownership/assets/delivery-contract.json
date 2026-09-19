@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-company-account-ownership",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "service",
+      "asset_alias",
+      "registered_entity",
+      "billing_entity",
+      "admin_role",
+      "recovery_owner",
+      "evidence",
+      "single_point_risk",
+      "next_action",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "控制权、主体归属与付费方分列；无证据不认定为公司所有；不将密码记入台账。",
+  "boundary": "只处理获公司授权的资产；不索取个人密码、不冒名找回、不绕过验证。"
+}

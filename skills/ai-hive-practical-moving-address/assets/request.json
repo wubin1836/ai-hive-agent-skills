@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-moving-address",
+  "goal": "搬家地址变更助手",
+  "input_files": [],
+  "needed_inputs": "用户指定的新旧地址、搬迁日期、需要检查的账户类别和授权访问范围",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

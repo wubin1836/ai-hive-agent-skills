@@ -1,0 +1,26 @@
+{
+  "currency": "CNY",
+  "income": [
+    {
+      "id": "salary",
+      "amount": "10000.00"
+    }
+  ],
+  "deductions": [
+    {
+      "id": "deduction",
+      "amount": "1500.00"
+    }
+  ],
+  "credits": [
+    {
+      "id": "credit-1",
+      "amount": "8000.00"
+    },
+    {
+      "id": "credit-2",
+      "amount": "500.00"
+    }
+  ],
+  "statement_net": "8500.00"
+}

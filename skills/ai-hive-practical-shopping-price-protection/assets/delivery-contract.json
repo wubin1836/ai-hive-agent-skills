@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-shopping-price-protection",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "order_alias",
+      "sku",
+      "quantity",
+      "paid_basis",
+      "current_basis",
+      "coupon_difference",
+      "rule_source",
+      "window_status",
+      "estimated_difference",
+      "uncertainty",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "券和运费不能重复扣；仅在同一币种和可比口径下复算；最终资格由平台规则核验。",
+  "boundary": "仅材料与算术核对，不保证保价成功，不虚构截图、资格或订单。"
+}

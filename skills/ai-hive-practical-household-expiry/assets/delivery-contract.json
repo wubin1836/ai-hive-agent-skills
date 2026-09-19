@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-practical-household-expiry",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "item_id",
+      "batch",
+      "quantity",
+      "location",
+      "date_type",
+      "label_date",
+      "opened_at",
+      "verified_deadline",
+      "days_left",
+      "status",
+      "source",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "没有截止日期的物品不得显示安全剩余天数；食品是否可食用不能只靠日期判断；不同批次保留。",
+  "boundary": "不以此判断变质食品、药品或婴幼儿用品可用；有异常按标签及专业建议处理。"
+}

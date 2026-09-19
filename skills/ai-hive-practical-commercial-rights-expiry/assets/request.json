@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-commercial-rights-expiry",
+  "goal": "商用素材授权到期助手",
+  "input_files": [],
+  "needed_inputs": "素材或作品ID、许可正文、采购凭证、项目使用位置、使用渠道、地域和时间",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

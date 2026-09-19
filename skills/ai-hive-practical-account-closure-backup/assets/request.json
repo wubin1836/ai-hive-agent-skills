@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-account-closure-backup",
+  "goal": "账号注销前备份助手",
+  "input_files": [],
+  "needed_inputs": "用户准备注销的单个或明确列举的服务、需要保留的数据种类、官方导出说明和本地保存目录",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

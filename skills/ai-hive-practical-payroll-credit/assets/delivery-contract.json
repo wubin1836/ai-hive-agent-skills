@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-payroll-credit",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "period",
+      "currency",
+      "item_type",
+      "label",
+      "amount",
+      "source",
+      "matched_credit",
+      "unmatched_reason",
+      "question_for_hr",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "同一笔到账不能重复计入；缺数据不能置零；少到账与扣款是否合法分开。",
+  "boundary": "仅供算术和材料核对，不替代人事、税务或法律意见，不读他人工资信息。"
+}

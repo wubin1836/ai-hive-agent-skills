@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-final-version",
+  "goal": "文件最终版本确认助手",
+  "input_files": [],
+  "needed_inputs": "指定候选文件、发送或确认记录、业务范围及用户认可的定稿判断规则",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

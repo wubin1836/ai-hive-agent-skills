@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-renovation-evidence",
+  "goal": "装修现场问题留证助手",
+  "input_files": [],
+  "needed_inputs": "现场照片、拍摄时间、房间位置、合同或验收约定、沟通记录及复验照片",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

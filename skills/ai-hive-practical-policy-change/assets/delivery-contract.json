@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-policy-change",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "clause",
+      "old_source",
+      "new_source",
+      "change",
+      "effective_date",
+      "affected_role",
+      "transition",
+      "action",
+      "interpretation_status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "生效日与发布日期分开；文字改写不必然业务变化；存量事项不能未经依据套新规。",
+  "boundary": "不把内部条款解读当成法律结论，不替企业发布新制度。"
+}

@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-prepayment-check",
+  "goal": "付款前材料核对助手",
+  "input_files": [],
+  "needed_inputs": "明确付款事项、公司审批制度、合同、发票或付款通知、验收证据及已验证收款信息",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

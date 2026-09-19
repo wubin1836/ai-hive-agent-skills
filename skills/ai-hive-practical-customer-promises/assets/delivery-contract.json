@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-customer-promises",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "promise_id",
+      "source",
+      "authority",
+      "scope",
+      "condition",
+      "due_date",
+      "change_source",
+      "delivery_evidence",
+      "acceptance",
+      "status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "交付和验收不混为一谈；未确认的销售口头表述保留状态；不能为补齐表格编承诺。",
+  "boundary": "不替代法务判断，不私自改约、不发送新的业务承诺。"
+}

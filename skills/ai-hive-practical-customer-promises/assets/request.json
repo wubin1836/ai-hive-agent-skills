@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-customer-promises",
+  "goal": "客户承诺履约检查助手",
+  "input_files": [],
+  "needed_inputs": "合同、经授权的邮件或会议记录、变更确认、交付文件与客户验收记录",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

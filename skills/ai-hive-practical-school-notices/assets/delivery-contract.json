@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-practical-school-notices",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "notice_id",
+      "child_alias",
+      "action",
+      "deadline",
+      "reply_needed",
+      "status",
+      "source",
+      "uncertainty",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "每个期限可追溯到通知；补充通知不遗漏；缺日期不自行落日历；已完成必须有用户确认或回执。",
+  "boundary": "默认使用孩子别名；不自动读取未授权群聊，不外传儿童联系方式，不替家长付款或报名。"
+}

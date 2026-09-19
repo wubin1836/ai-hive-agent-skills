@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-subscription-cancel",
+  "goal": "自动续费关闭助手",
+  "input_files": [],
+  "needed_inputs": "服务名称、扣费渠道、用户提供的脱敏订单或订阅页面、期望仅停续费还是结束当前服务",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

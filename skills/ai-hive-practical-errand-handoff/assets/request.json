@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-errand-handoff",
+  "goal": "托人办事交接助手",
+  "input_files": [],
+  "needed_inputs": "事项聊天记录、地点、开放时间、材料、授权范围、联系人和完成标准",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

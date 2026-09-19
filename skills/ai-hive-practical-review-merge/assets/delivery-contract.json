@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-practical-review-merge",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "change_id",
+      "baseline_anchor",
+      "reviewer_alias",
+      "original",
+      "proposed",
+      "conflict_with",
+      "decision",
+      "decision_source",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "每个合并修改有来源；未授权决定的冲突保留；原文档不覆盖；修订与批注不无声丢失。",
+  "boundary": "没有可靠文档编辑工具时交差异表和Markdown草稿，不能假装已写入Word修订。"
+}

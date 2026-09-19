@@ -1,0 +1,4 @@
+interface:
+  display_name: "企业软件续费评估助手"
+  short_description: "企业软件续费评估助手：核对授权资料、生成可追溯结果与可执行待办清单"
+  default_prompt: "请使用 $ai-hive-practical-software-renewal 处理我提供的资料，交付可核对文件与未确认项，暂不执行外部变更。"

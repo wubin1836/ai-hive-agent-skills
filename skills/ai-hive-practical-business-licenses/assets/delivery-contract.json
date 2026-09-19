@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-business-licenses",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "license_alias",
+      "entity",
+      "authority",
+      "region",
+      "validity_type",
+      "verified_deadline",
+      "days_left",
+      "official_route",
+      "owner",
+      "status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "长期有效不等于无其他义务；官方时限与内部提醒分栏；到期和获准续期严格区分。",
+  "boundary": "仅管理资料和时点，不出合规保证，不自动提交许可申请或缴费。"
+}

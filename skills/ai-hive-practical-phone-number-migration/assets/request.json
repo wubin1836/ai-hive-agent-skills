@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-phone-number-migration",
+  "goal": "换手机号账号迁移助手",
+  "input_files": [],
+  "needed_inputs": "用户自列服务清单、旧号是否可用、新号可用状态、账号恢复方式与允许检查的服务",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

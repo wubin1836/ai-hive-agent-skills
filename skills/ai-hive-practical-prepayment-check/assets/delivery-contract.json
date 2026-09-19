@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-practical-prepayment-check",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "payment_ref",
+      "payment_type",
+      "entity",
+      "currency",
+      "amount",
+      "contract_match",
+      "approval",
+      "acceptance_needed",
+      "payee_change",
+      "independent_check",
+      "status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "付款批准与材料检查分离；收款账户变更有独立核验；同一款项重复提交要提示。",
+  "boundary": "不登录网银、不代付、不提供可直接执行的未经确认转账指令；不是财务审计。"
+}

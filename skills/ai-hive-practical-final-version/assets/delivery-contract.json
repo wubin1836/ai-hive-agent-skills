@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-practical-final-version",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "version_id",
+      "file_path",
+      "content_fingerprint",
+      "scope",
+      "material_difference",
+      "approval_source",
+      "approval_scope",
+      "status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "最新时间不等于最终批准；相同内容重命名不算实质新版本；批准范围不可扩大。",
+  "boundary": "不自动删旧版、不替用户批准、不发送尚未批准的附件。"
+}

@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-charger-adapter",
+  "goal": "充电器与转接头匹配助手",
+  "input_files": [],
+  "needed_inputs": "设备准确型号、官方端口规格、充电器输出档位、线材标识、显示器与目标分辨率刷新率",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

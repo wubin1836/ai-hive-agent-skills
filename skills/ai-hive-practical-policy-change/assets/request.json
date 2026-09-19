@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-policy-change",
+  "goal": "制度更新影响检查助手",
+  "input_files": [],
+  "needed_inputs": "新旧制度全文、生效日期、过渡条款、用户角色及正在执行的流程",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

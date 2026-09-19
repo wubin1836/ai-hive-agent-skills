@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-work-evidence",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "achievement_id",
+      "period",
+      "role",
+      "task",
+      "deliverable",
+      "acceptance_evidence",
+      "metric",
+      "attribution_limit",
+      "disclosure_scope",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "结果不捏造、团队贡献不据为己有；每项业绩有来源或明确未核实；外发版去除商业秘密。",
+  "boundary": "不访问同事私有绩效或邮箱，不编造业绩、评价和证明。"
+}

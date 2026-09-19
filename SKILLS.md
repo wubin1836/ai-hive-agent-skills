@@ -5959,3 +5959,40 @@
 | [门店风水与客流动线助手](skills/ai-hive-folk-shop-fengshui/SKILL.md) | AI-HIVE | 风水、命理与国学民俗 |
 | [紫微斗数命盘整理助手](skills/ai-hive-folk-ziwei-reading/SKILL.md) | AI-HIVE | 风水、命理与国学民俗 |
 | [命理算命助手｜八字资料与文化参考](skills/ai-hive-folk-bazi-reading/SKILL.md) | AI-HIVE | 风水、命理与国学民俗 |
+
+## 2026-09-19 生活与工作实用助手 32 个 Skill
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [家校群通知整理助手](skills/ai-hive-practical-school-notices/SKILL.md) | AI-HIVE | 家庭生活 |
+| [全家日程协调助手](skills/ai-hive-practical-family-schedule/SKILL.md) | AI-HIVE | 家庭生活 |
+| [家电说明书助手](skills/ai-hive-practical-appliance-manual/SKILL.md) | AI-HIVE | 家庭生活 |
+| [家具入户尺寸检查助手](skills/ai-hive-practical-furniture-clearance/SKILL.md) | AI-HIVE | 家庭生活 |
+| [家庭临期物品管家](skills/ai-hive-practical-household-expiry/SKILL.md) | AI-HIVE | 家庭生活 |
+| [搬家地址变更助手](skills/ai-hive-practical-moving-address/SKILL.md) | AI-HIVE | 家庭生活 |
+| [托人办事交接助手](skills/ai-hive-practical-errand-handoff/SKILL.md) | AI-HIVE | 家庭生活 |
+| [装修现场问题留证助手](skills/ai-hive-practical-renovation-evidence/SKILL.md) | AI-HIVE | 家庭生活 |
+| [换手机号账号迁移助手](skills/ai-hive-practical-phone-number-migration/SKILL.md) | AI-HIVE | 个人数字生活 |
+| [账号注销前备份助手](skills/ai-hive-practical-account-closure-backup/SKILL.md) | AI-HIVE | 个人数字生活 |
+| [自动续费关闭助手](skills/ai-hive-practical-subscription-cancel/SKILL.md) | AI-HIVE | 个人数字生活 |
+| [网购保价核对助手](skills/ai-hive-practical-shopping-price-protection/SKILL.md) | AI-HIVE | 个人数字生活 |
+| [退换货进度管家](skills/ai-hive-practical-returns-tracker/SKILL.md) | AI-HIVE | 个人数字生活 |
+| [快递丢损理赔材料助手](skills/ai-hive-practical-parcel-claim/SKILL.md) | AI-HIVE | 个人数字生活 |
+| [充电器与转接头匹配助手](skills/ai-hive-practical-charger-adapter/SKILL.md) | AI-HIVE | 个人数字生活 |
+| [电视投屏排障助手](skills/ai-hive-practical-screen-casting/SKILL.md) | AI-HIVE | 个人数字生活 |
+| [多人修改意见合稿助手](skills/ai-hive-practical-review-merge/SKILL.md) | AI-HIVE | 员工工作 |
+| [文件最终版本确认助手](skills/ai-hive-practical-final-version/SKILL.md) | AI-HIVE | 员工工作 |
+| [文档人名日期金额核对助手](skills/ai-hive-practical-cross-document-fields/SKILL.md) | AI-HIVE | 员工工作 |
+| [工作成果留痕助手](skills/ai-hive-practical-work-evidence/SKILL.md) | AI-HIVE | 员工工作 |
+| [新员工账号开通助手](skills/ai-hive-practical-onboarding-access/SKILL.md) | AI-HIVE | 员工工作 |
+| [工资到账核对助手](skills/ai-hive-practical-payroll-credit/SKILL.md) | AI-HIVE | 员工工作 |
+| [员工福利申领助手](skills/ai-hive-practical-employee-benefits/SKILL.md) | AI-HIVE | 员工工作 |
+| [制度更新影响检查助手](skills/ai-hive-practical-policy-change/SKILL.md) | AI-HIVE | 员工工作 |
+| [公司账号归属盘点助手](skills/ai-hive-practical-company-account-ownership/SKILL.md) | AI-HIVE | 企业经营 |
+| [企业软件续费评估助手](skills/ai-hive-practical-software-renewal/SKILL.md) | AI-HIVE | 企业经营 |
+| [企业证照到期管家](skills/ai-hive-practical-business-licenses/SKILL.md) | AI-HIVE | 企业经营 |
+| [商用素材授权到期助手](skills/ai-hive-practical-commercial-rights-expiry/SKILL.md) | AI-HIVE | 企业经营 |
+| [客户承诺履约检查助手](skills/ai-hive-practical-customer-promises/SKILL.md) | AI-HIVE | 企业经营 |
+| [付款前材料核对助手](skills/ai-hive-practical-prepayment-check/SKILL.md) | AI-HIVE | 企业经营 |
+| [公司搬迁变更助手](skills/ai-hive-practical-company-relocation/SKILL.md) | AI-HIVE | 企业经营 |
+| [业务账号停用影响检查助手](skills/ai-hive-practical-account-shutdown-impact/SKILL.md) | AI-HIVE | 企业经营 |

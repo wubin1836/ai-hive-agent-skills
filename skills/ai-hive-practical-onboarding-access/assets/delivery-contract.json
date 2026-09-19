@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-onboarding-access",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "system",
+      "role",
+      "scope",
+      "business_need",
+      "approver",
+      "dependency",
+      "requested_at",
+      "status",
+      "receipt",
+      "test_scope",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "无依据不得默认最高权限；已发申请不等于开通；验证不能越过批准范围。",
+  "boundary": "技能安装不构成公司IT授权；不创建账号、分配许可证或修改权限，除非明确获准对应动作。"
+}

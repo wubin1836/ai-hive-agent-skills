@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-furniture-clearance",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "segment_id",
+      "item_state",
+      "orientation",
+      "width_mm",
+      "height_mm",
+      "clearance_mm",
+      "opening_mm",
+      "result",
+      "missing_measurements",
+      "source",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "任何总路径未知时最终状态为待复核；净尺寸不混毛坯尺寸；禁止把二维门洞筛查当成三维可搬运证明。",
+  "boundary": "不建议危险倾倒、拆承重结构或擅自拆机；最终搬运及安装由商家或专业人员现场确认。"
+}

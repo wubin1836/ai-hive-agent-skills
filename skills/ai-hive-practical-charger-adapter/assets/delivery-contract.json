@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-charger-adapter",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "component",
+      "model",
+      "connector",
+      "power_profiles",
+      "video_protocol",
+      "cable_rating",
+      "official_source",
+      "compatibility",
+      "unknown",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "USB-C外观不作为支持视频证据；不忽略线材；缺协议数据时不推荐具体强制电压。",
+  "boundary": "不推荐改线、强制供电或绕过保护；未知安全认证、破损或异常发热部件不建议继续试用。"
+}

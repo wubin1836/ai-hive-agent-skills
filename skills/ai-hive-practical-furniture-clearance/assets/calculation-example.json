@@ -1,0 +1,19 @@
+{
+  "item_mm": {
+    "width": 700,
+    "height": 1700,
+    "depth": 650
+  },
+  "opening_mm": {
+    "width": 710,
+    "height": 1750
+  },
+  "total_clearance_mm": 20,
+  "allowed_orientations": [
+    [
+      "width",
+      "height",
+      "depth"
+    ]
+  ]
+}

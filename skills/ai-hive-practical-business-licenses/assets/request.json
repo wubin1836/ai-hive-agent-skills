@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-business-licenses",
+  "goal": "企业证照到期管家",
+  "input_files": [],
+  "needed_inputs": "公司授权证照扫描件、主管机关、地区、证面有效期、当前官方办理要求与责任人",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-work-evidence",
+  "goal": "工作成果留痕助手",
+  "input_files": [],
+  "needed_inputs": "本人有权使用的任务记录、交付文件、确认消息、结果指标及参与角色",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

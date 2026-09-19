@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-cross-document-fields",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "object_id",
+      "field",
+      "source_a",
+      "value_a",
+      "source_b",
+      "value_b",
+      "normalization",
+      "comparison",
+      "proposed_action",
+      "confirmation",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "每项差异有两个定位来源；币种税口径不明时不计算差额；名字相似不自动认同一人。",
+  "boundary": "不认定合同效力或财务合规，不把推断后的标准值冒充来源原文。"
+}

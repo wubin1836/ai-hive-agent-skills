@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-software-renewal",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "service",
+      "period",
+      "currency",
+      "renewal_cost",
+      "licensed_seats",
+      "usage_evidence",
+      "critical_dependency",
+      "exit_cost",
+      "option",
+      "net_saving_basis",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "候选节省不是已实现节省；迁移成本和不可替代功能单列；不因登录少自动取消。",
+  "boundary": "不自动退订、签约或发采购单；改变服务前需要业务与授权负责人确认。"
+}

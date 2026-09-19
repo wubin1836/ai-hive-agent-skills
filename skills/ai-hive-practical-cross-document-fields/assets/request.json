@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-cross-document-fields",
+  "goal": "文档人名日期金额核对助手",
+  "input_files": [],
+  "needed_inputs": "需对照的文档及附件、指定主数据或权威版本、字段口径、币种、日期格式",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

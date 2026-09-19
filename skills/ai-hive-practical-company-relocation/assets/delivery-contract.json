@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-company-relocation",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "workstream",
+      "change_type",
+      "authority_or_service",
+      "dependency",
+      "materials",
+      "owner",
+      "target_date",
+      "submission_proof",
+      "effective_status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "办公地点变化不自动等于登记事项变化；依赖未完成时不标后续办结；不固化全国统一办理要求。",
+  "boundary": "仅办事准备，不构成税务法律意见；不擅自提交登记或通知客户。"
+}

@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-family-schedule",
+  "goal": "全家日程协调助手",
+  "input_files": [],
+  "needed_inputs": "成员别名、明确起止时间、地点、接送或陪同需求、可用照护人及用户提供的交通缓冲",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

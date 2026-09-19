@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-practical-account-closure-backup",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "data_type",
+      "export_route",
+      "expected_scope",
+      "local_path",
+      "open_check",
+      "record_count",
+      "dependency",
+      "status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "没有成功读取的备份不判完整；注销动作与备份验收分离；遗漏与平台限制显式列出。",
+  "boundary": "不自动清空余额、删除资料或注销账户；不得删除原件以验证备份。"
+}

@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-practical-commercial-rights-expiry",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "asset_id",
+      "license_source",
+      "project",
+      "channel",
+      "territory",
+      "term",
+      "permitted_use",
+      "actual_use",
+      "coverage_status",
+      "review_question",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "素材来源不等于商用授权；授权期限与下载时间分开；不对含糊条款作确定法律结论。",
+  "boundary": "不是法律意见；不移除版权信息、不伪造授权，不自动替换或删除线上内容。"
+}

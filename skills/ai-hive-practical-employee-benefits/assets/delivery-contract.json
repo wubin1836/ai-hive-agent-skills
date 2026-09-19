@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-employee-benefits",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "benefit",
+      "policy_version",
+      "eligibility",
+      "condition_gap",
+      "amount_basis",
+      "documents",
+      "deadline",
+      "channel",
+      "application_status",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "每项资格有制度出处；不能用去年规则保证今年可领；已准备、已提交、已批准分开。",
+  "boundary": "不伪造亲属、医疗、学历等证明，不保证获批，不扩大收集敏感资料。"
+}

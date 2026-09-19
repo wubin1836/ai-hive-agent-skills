@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-parcel-claim",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "evidence_id",
+      "tracking_alias",
+      "stage",
+      "event_at",
+      "item",
+      "value_type",
+      "value",
+      "original_file",
+      "missing_item",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "不同价值口径分开；保持原始文件；损坏原因与责任不由照片推断成定论。",
+  "boundary": "不伪造票据、包装照片或签收时间；不保证赔付，不自动外发身份信息。"
+}

@@ -1,0 +1,30 @@
+{
+  "skill_id": "ai-hive-practical-returns-tracker",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "case_id",
+      "predecessor_case",
+      "return_type",
+      "order_alias",
+      "return_tracking",
+      "replacement_tracking",
+      "replacement_sku",
+      "stage",
+      "platform_status",
+      "refund_channel",
+      "amount",
+      "credited_at",
+      "next_action",
+      "source",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "旧单与新单不重复计应退款；换货两条运单分开；各支付渠道和补差有独立证据；签收、验货和资金到账不混为一谈。",
+  "boundary": "不自动提交退货、寄件或投诉，不把时间线当作法律责任认定。"
+}

@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-practical-account-shutdown-impact",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "dependency_id",
+      "target_account",
+      "dependent_service",
+      "evidence",
+      "criticality",
+      "migration_owner",
+      "verification",
+      "rollback",
+      "readiness",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "未知依赖不写无影响；无迁移证据不标就绪；不借测试之名提前撤销线上凭据。",
+  "boundary": "只读评估默认；不禁用账户、不撤销密钥、不触发生产任务，变更需单独授权。"
+}

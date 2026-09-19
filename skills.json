@@ -49175,5 +49175,293 @@
     "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
     "path": "skills/ai-hive-folk-bazi-reading",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-school-notices",
+    "display_name": "家校群通知整理助手",
+    "category": "家庭生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-school-notices",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-family-schedule",
+    "display_name": "全家日程协调助手",
+    "category": "家庭生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-family-schedule",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-appliance-manual",
+    "display_name": "家电说明书助手",
+    "category": "家庭生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-appliance-manual",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-furniture-clearance",
+    "display_name": "家具入户尺寸检查助手",
+    "category": "家庭生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-furniture-clearance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-household-expiry",
+    "display_name": "家庭临期物品管家",
+    "category": "家庭生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-household-expiry",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-moving-address",
+    "display_name": "搬家地址变更助手",
+    "category": "家庭生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-moving-address",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-errand-handoff",
+    "display_name": "托人办事交接助手",
+    "category": "家庭生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-errand-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-renovation-evidence",
+    "display_name": "装修现场问题留证助手",
+    "category": "家庭生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-renovation-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-phone-number-migration",
+    "display_name": "换手机号账号迁移助手",
+    "category": "个人数字生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-phone-number-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-account-closure-backup",
+    "display_name": "账号注销前备份助手",
+    "category": "个人数字生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-account-closure-backup",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-subscription-cancel",
+    "display_name": "自动续费关闭助手",
+    "category": "个人数字生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-subscription-cancel",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-shopping-price-protection",
+    "display_name": "网购保价核对助手",
+    "category": "个人数字生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-shopping-price-protection",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-returns-tracker",
+    "display_name": "退换货进度管家",
+    "category": "个人数字生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-returns-tracker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-parcel-claim",
+    "display_name": "快递丢损理赔材料助手",
+    "category": "个人数字生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-parcel-claim",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-charger-adapter",
+    "display_name": "充电器与转接头匹配助手",
+    "category": "个人数字生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-charger-adapter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-screen-casting",
+    "display_name": "电视投屏排障助手",
+    "category": "个人数字生活",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-screen-casting",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-review-merge",
+    "display_name": "多人修改意见合稿助手",
+    "category": "员工工作",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-review-merge",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-final-version",
+    "display_name": "文件最终版本确认助手",
+    "category": "员工工作",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-final-version",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-cross-document-fields",
+    "display_name": "文档人名日期金额核对助手",
+    "category": "员工工作",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-cross-document-fields",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-work-evidence",
+    "display_name": "工作成果留痕助手",
+    "category": "员工工作",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-work-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-onboarding-access",
+    "display_name": "新员工账号开通助手",
+    "category": "员工工作",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-onboarding-access",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-payroll-credit",
+    "display_name": "工资到账核对助手",
+    "category": "员工工作",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-payroll-credit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-employee-benefits",
+    "display_name": "员工福利申领助手",
+    "category": "员工工作",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-employee-benefits",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-policy-change",
+    "display_name": "制度更新影响检查助手",
+    "category": "员工工作",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-policy-change",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-company-account-ownership",
+    "display_name": "公司账号归属盘点助手",
+    "category": "企业经营",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-company-account-ownership",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-software-renewal",
+    "display_name": "企业软件续费评估助手",
+    "category": "企业经营",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-software-renewal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-business-licenses",
+    "display_name": "企业证照到期管家",
+    "category": "企业经营",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-business-licenses",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-commercial-rights-expiry",
+    "display_name": "商用素材授权到期助手",
+    "category": "企业经营",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-commercial-rights-expiry",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-customer-promises",
+    "display_name": "客户承诺履约检查助手",
+    "category": "企业经营",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-customer-promises",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-prepayment-check",
+    "display_name": "付款前材料核对助手",
+    "category": "企业经营",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-prepayment-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-company-relocation",
+    "display_name": "公司搬迁变更助手",
+    "category": "企业经营",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-company-relocation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-practical-account-shutdown-impact",
+    "display_name": "业务账号停用影响检查助手",
+    "category": "企业经营",
+    "brand": "AI-HIVE",
+    "batch": "life-work-practical-32-20260919",
+    "path": "skills/ai-hive-practical-account-shutdown-impact",
+    "language": "zh-CN"
   }
 ]

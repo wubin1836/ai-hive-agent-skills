@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-practical-phone-number-migration",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "service",
+      "number_role",
+      "old_number_available",
+      "official_route",
+      "recovery_method",
+      "status",
+      "proof",
+      "blocking_item",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "每个服务独立验证；不采集密码验证码；旧号是否停用由用户决定，不能因清单完成自动销号。",
+  "boundary": "不批量尝试登录、不绕过身份验证；修改绑定须有对应账号授权。"
+}

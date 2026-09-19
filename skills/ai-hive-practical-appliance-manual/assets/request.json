@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-appliance-manual",
+  "goal": "家电说明书助手",
+  "input_files": [],
+  "needed_inputs": "设备品牌、完整型号、铭牌照片、说明书或官方支持页、具体要完成的操作",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

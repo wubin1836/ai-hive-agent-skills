@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-company-relocation",
+  "goal": "公司搬迁变更助手",
+  "input_files": [],
+  "needed_inputs": "新旧办公地址、是否涉及登记地址改变、经营主体、地区、搬迁日和公司服务清单",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

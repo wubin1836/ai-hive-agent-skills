@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-practical-appliance-manual",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "step_id",
+      "model",
+      "goal",
+      "operation",
+      "precondition",
+      "stop_condition",
+      "manual_page",
+      "verification",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "每个按钮与代码来自同型号资料；不虚构设备功能；危险操作不能作为普通用户步骤。",
+  "boundary": "不指导带电拆机、燃气改装、安全联锁绕过；冒烟、漏气或触电风险优先联系合格服务人员。"
+}

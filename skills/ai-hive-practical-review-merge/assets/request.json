@@ -1,0 +1,15 @@
+{
+  "skill_id": "ai-hive-practical-review-merge",
+  "goal": "多人修改意见合稿助手",
+  "input_files": [],
+  "needed_inputs": "共同基线文档、各审阅版本、批注作者别名、已知决定权限与需要保留的修订方式",
+  "as_of_date": null,
+  "timezone": null,
+  "region": null,
+  "read_scope": [],
+  "sensitive_upload_authorized": false,
+  "paid_call_authorized": false,
+  "budget_limit": null,
+  "external_mutation_authorized": false,
+  "output_directory": null
+}

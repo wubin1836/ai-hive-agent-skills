@@ -1,0 +1,24 @@
+{
+  "skill_id": "ai-hive-practical-screen-casting",
+  "required_files": [
+    "result.csv",
+    "action-plan.md",
+    "evidence.csv",
+    "scope.md"
+  ],
+  "csv_columns": {
+    "result.csv": [
+      "test_id",
+      "layer",
+      "action",
+      "expected",
+      "observed",
+      "result",
+      "rollback",
+      "next_test",
+      "evidence_ids"
+    ]
+  },
+  "task_acceptance": "同一测试只改变一个条件；未执行步骤不写已失败；受保护内容限制不被当成设备故障。",
+  "boundary": "不突破内容保护，不关闭全部防火墙或路由安全功能；有损重置另行确认。"
+}
