@@ -1,0 +1,12 @@
+{
+  "goal": "企业战略到组织行动",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "经营目标、组织岗位、预算与项目清单",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

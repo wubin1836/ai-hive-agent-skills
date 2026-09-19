@@ -1,0 +1,35 @@
+{
+  "skill_id": "ai-hive-agency-mckinsey-management",
+  "required_files": [
+    "management-brief.md",
+    "driver-table.csv",
+    "action-register.csv",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "driver-table.csv": [
+      "driver_id",
+      "metric",
+      "period",
+      "value",
+      "unit",
+      "source_ids",
+      "assumption"
+    ],
+    "action-register.csv": [
+      "action_id",
+      "owner",
+      "milestone",
+      "metric",
+      "dependency",
+      "risk",
+      "stop_condition"
+    ]
+  },
+  "special_acceptance": "用数据拆解驱动因素，结论附来源和假设；不冒充麦肯锡报告或项目经验",
+  "manual_checks": [
+    "图表和计算可以追溯输入，没有数据不伪造规模或收益。",
+    "建议有负责人和验证窗口，不把AI意见当组织授权。",
+    "不冒充目标咨询公司的报告、员工、认证和客户经验。"
+  ]
+}

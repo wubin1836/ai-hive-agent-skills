@@ -1,0 +1,12 @@
+{
+  "goal": "企业增长选项与实施简报",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "增长目标、候选项目、预算和能力",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

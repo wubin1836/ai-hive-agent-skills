@@ -1,0 +1,12 @@
+{
+  "goal": "企业年度传播主题",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "年度大事记、业务主线、公众疑问",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

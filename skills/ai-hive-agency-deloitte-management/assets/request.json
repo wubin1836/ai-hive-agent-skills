@@ -1,0 +1,12 @@
+{
+  "goal": "企业流程与管理控制清单",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "流程制度、职责、实际异常样本",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

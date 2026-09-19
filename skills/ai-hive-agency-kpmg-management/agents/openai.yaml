@@ -1,0 +1,4 @@
+interface:
+  display_name: "毕马威咨询平替：业务风险与流程改进台账"
+  short_description: "以AI-HIVE辅助业务风险与流程改进台账，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-kpmg-management。我想做业务风险与流程改进台账，希望用AI辅助处理相关工作。以下是业务流程、风险事件、控制记录。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

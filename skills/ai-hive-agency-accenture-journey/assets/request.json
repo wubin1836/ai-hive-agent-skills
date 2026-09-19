@@ -1,0 +1,12 @@
+{
+  "goal": "数字化流程与AI需求梳理",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "现有流程、系统清单、权限边界",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

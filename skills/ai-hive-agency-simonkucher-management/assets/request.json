@@ -1,0 +1,12 @@
+{
+  "goal": "价格套餐与收益情景",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "成本下限、现有价格、销量和优惠规则",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

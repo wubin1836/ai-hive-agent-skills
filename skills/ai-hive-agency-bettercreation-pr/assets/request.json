@@ -1,0 +1,12 @@
+{
+  "goal": "品牌发布信息层级",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "复杂产品资料、受众角色、核心问题",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

@@ -50363,5 +50363,455 @@
     "batch": "advertising-131",
     "path": "skills/ai-hive-agency-wins-pr",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-wisebrand-pr",
+    "display_name": "和智传信平替：企业战略沟通转译",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-wisebrand-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-wiseway-pr",
+    "display_name": "智者品牌平替：品牌声誉事实与回应",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-wiseway-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-wom-pr",
+    "display_name": "沃姆互动平替：互动活动沟通与FAQ",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-wom-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-worldwide-pr",
+    "display_name": "开普天下平替：企业出海公关初稿",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-worldwide-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-zone-pr",
+    "display_name": "众行互动平替：多渠道传播素材审校",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-zone-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-bettercreation-pr",
+    "display_name": "北泰创硕平替：品牌发布信息层级",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-bettercreation-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-factorial-pr",
+    "display_name": "阶承传播平替：企业沟通问题树",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-factorial-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-hoffman-pr",
+    "display_name": "霍夫曼公关平替：科技产品媒体解释包",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-hoffman-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-langbu-pr",
+    "display_name": "狼卜传播平替：品牌活动传播执行表",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-langbu-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-linksense-pr",
+    "display_name": "联华盛世平替：企业年度传播主题",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-linksense-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-linksus-pr",
+    "display_name": "灵思云途平替：品牌文化传播内容包",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-linksus-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-mview-pr",
+    "display_name": "曼观公关平替：小团队媒体沟通底稿",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-mview-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-snow-pr",
+    "display_name": "雪润广告平替：品牌新闻配套视觉文案",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-snow-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-wiseculture-pr",
+    "display_name": "环智传媒平替：品牌文化议题传播",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-wiseculture-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-xs-pr",
+    "display_name": "相顺传播平替：企业公关材料协作验收",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-xs-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-mckinsey-management",
+    "display_name": "麦肯锡平替：经营问题树与管理简报",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-mckinsey-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-bcg-management",
+    "display_name": "波士顿咨询平替：业务组合与资源取舍",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-bcg-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-bain-management",
+    "display_name": "贝恩咨询平替：客户反馈与经营行动",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-bain-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-roland-management",
+    "display_name": "罗兰贝格平替：企业转型选项与路线",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-roland-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-kearney-management",
+    "display_name": "科尔尼平替：采购与供应链成本诊断",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-kearney-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-oliverwyman-management",
+    "display_name": "奥纬咨询平替：经营情景与风险预案",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-oliverwyman-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-accenture-journey",
+    "display_name": "埃森哲平替：数字化流程与AI需求梳理",
+    "category": "客户体验与数字化咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-accenture-journey",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-ibm-journey",
+    "display_name": "IBM咨询平替：企业AI工作流试点设计",
+    "category": "客户体验与数字化咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-ibm-journey",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-deloitte-management",
+    "display_name": "德勤咨询平替：企业流程与管理控制清单",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-deloitte-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-pwc-management",
+    "display_name": "普华永道平替：经营数据口径与管理报告",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-pwc-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-ey-management",
+    "display_name": "安永咨询平替：企业增长选项与实施简报",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-ey-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-kpmg-management",
+    "display_name": "毕马威咨询平替：业务风险与流程改进台账",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-kpmg-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-hejun-management",
+    "display_name": "和君咨询平替：企业战略到组织行动",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-hejun-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-simonkucher-management",
+    "display_name": "西蒙顾和平替：价格套餐与收益情景",
+    "category": "管理咨询与经营分析",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-simonkucher-management",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-kantar-research",
+    "display_name": "凯度平替：品牌调研整理与素材测试",
+    "category": "市场研究与消费者洞察",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-kantar-research",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-ipsos-research",
+    "display_name": "益普索平替：问卷设计与洞察证据表",
+    "category": "市场研究与消费者洞察",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-ipsos-research",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-ckgsb",
+    "display_name": "长江商学院案例学习助手（非官方）",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-ckgsb",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-ceibs",
+    "display_name": "中欧商学院经营案例研讨助手（非官方）",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-ceibs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-tsinghua",
+    "display_name": "清华经管管理学习助手（非官方）",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-tsinghua",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-guanghua",
+    "display_name": "北大光华商业分析学习助手（非官方）",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-guanghua",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-fudan",
+    "display_name": "复旦管院企业案例学习助手（非官方）",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-fudan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-antai",
+    "display_name": "交大安泰经营复盘学习助手（非官方）",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-antai",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-rmbs",
+    "display_name": "人大商学院组织管理学习助手（非官方）",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-rmbs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-zju",
+    "display_name": "浙大管理学院创新学习助手（非官方）",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-zju",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-mba-case",
+    "display_name": "MBA案例讨论主持助手",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-mba-case",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-emba-application",
+    "display_name": "EMBA学习成果落地顾问",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-emba-application",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-business-reading",
+    "display_name": "老板商业书共读主持助手",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-business-reading",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-internal-academy",
+    "display_name": "企业商学院课程搭建顾问",
+    "category": "商学院与管理学习",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-internal-academy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-peer-agenda",
+    "display_name": "私董会议题诊断助手",
+    "category": "私董会与老板决策",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-peer-agenda",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-peer-facilitator",
+    "display_name": "私董会主持与追问助手",
+    "category": "私董会与老板决策",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-peer-facilitator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-peer-simulation",
+    "display_name": "AI私董会决策陪练",
+    "category": "私董会与老板决策",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-peer-simulation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-peer-followup",
+    "display_name": "私董会行动跟进顾问",
+    "category": "私董会与老板决策",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-peer-followup",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-board-pack",
+    "display_name": "董事会材料编制助手",
+    "category": "董事会与公司治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-board-pack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-board-minutes",
+    "display_name": "董事会纪要与决议核对助手",
+    "category": "董事会与公司治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-board-minutes",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-business-shareholder-meeting",
+    "display_name": "股东会文件准备助手",
+    "category": "董事会与公司治理",
+    "brand": "AI-HIVE",
+    "batch": "business-96",
+    "path": "skills/ai-hive-business-shareholder-meeting",
+    "language": "zh-CN"
   }
 ]

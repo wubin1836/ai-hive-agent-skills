@@ -1,0 +1,4 @@
+interface:
+  display_name: "人大商学院组织管理学习助手（非官方）"
+  short_description: "人大商学院组织管理学习助手（非官方）：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-rmbs 完成人大商学院材料任务，先核对输入与适用范围，再交文件和待复核事项。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "北泰创硕平替：品牌发布信息层级"
+  short_description: "以AI-HIVE辅助品牌发布信息层级，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-bettercreation-pr。我想做品牌发布信息层级，希望用AI辅助处理相关工作。以下是复杂产品资料、受众角色、核心问题。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

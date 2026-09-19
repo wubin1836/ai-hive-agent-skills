@@ -1,0 +1,4 @@
+interface:
+  display_name: "西蒙顾和平替：价格套餐与收益情景"
+  short_description: "以AI-HIVE辅助价格套餐与收益情景，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-simonkucher-management。我想做价格套餐与收益情景，希望用AI辅助处理相关工作。以下是成本下限、现有价格、销量和优惠规则。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

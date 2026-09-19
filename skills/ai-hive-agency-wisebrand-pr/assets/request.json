@@ -1,0 +1,12 @@
+{
+  "goal": "企业战略沟通转译",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "已批准战略、员工疑问、客户影响",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

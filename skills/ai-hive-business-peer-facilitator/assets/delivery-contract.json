@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-business-peer-facilitator",
+  "required_files": [
+    "issue-brief.md",
+    "challenge-log.csv",
+    "commitments.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "challenge-log.csv": [
+      "question_id",
+      "perspective",
+      "question",
+      "evidence_ids",
+      "response",
+      "unresolved"
+    ]
+  },
+  "special_acceptance": "先澄清事实再提建议，设置轮次和追问卡，不制造真实同行参与或人脉资源",
+  "manual_checks": [
+    "AI视角不是独立证据来源，更不是实际同行参会。",
+    "反对意见和不确定性保留，不制造虚假一致。",
+    "真实承诺必须由本人确认，不自动替老板做决策。"
+  ]
+}

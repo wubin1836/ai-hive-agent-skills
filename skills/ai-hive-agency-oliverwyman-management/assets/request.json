@@ -1,0 +1,12 @@
+{
+  "goal": "经营情景与风险预案",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "经营假设、成本结构、情景范围",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

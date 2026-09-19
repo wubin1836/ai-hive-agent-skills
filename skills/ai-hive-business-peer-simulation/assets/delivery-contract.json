@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-business-peer-simulation",
+  "required_files": [
+    "issue-brief.md",
+    "challenge-log.csv",
+    "commitments.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "challenge-log.csv": [
+      "question_id",
+      "perspective",
+      "question",
+      "evidence_ids",
+      "response",
+      "unresolved"
+    ]
+  },
+  "special_acceptance": "用财务、客户、执行、风险四种分析视角相互质询，标记均为AI模拟而非独立真人意见",
+  "manual_checks": [
+    "AI视角不是独立证据来源，更不是实际同行参会。",
+    "反对意见和不确定性保留，不制造虚假一致。",
+    "真实承诺必须由本人确认，不自动替老板做决策。"
+  ]
+}

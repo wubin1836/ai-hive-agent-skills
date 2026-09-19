@@ -1,0 +1,4 @@
+interface:
+  display_name: "狼卜传播平替：品牌活动传播执行表"
+  short_description: "以AI-HIVE辅助品牌活动传播执行表，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-langbu-pr。我想做品牌活动传播执行表，希望用AI辅助处理相关工作。以下是活动日程、到场角色、已批准素材。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

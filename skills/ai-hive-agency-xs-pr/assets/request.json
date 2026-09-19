@@ -1,0 +1,12 @@
+{
+  "goal": "企业公关材料协作验收",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "版本文件、审批人、发布日期",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

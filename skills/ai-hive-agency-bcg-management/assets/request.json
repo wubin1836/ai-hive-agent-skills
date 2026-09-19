@@ -1,0 +1,12 @@
+{
+  "goal": "业务组合与资源取舍",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "业务线收入、利润、增长和资源占用",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "私董会议题诊断助手"
+  short_description: "私董会议题诊断助手：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-peer-agenda 完成私董会材料任务，先核对输入与适用范围，再交文件和待复核事项。"

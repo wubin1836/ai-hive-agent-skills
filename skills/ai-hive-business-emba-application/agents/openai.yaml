@@ -1,0 +1,4 @@
+interface:
+  display_name: "EMBA学习成果落地顾问"
+  short_description: "EMBA学习成果落地顾问：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-emba-application 完成EMBA课程复盘材料任务，先核对输入与适用范围，再交文件和待复核事项。"

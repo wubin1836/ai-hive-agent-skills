@@ -1,0 +1,12 @@
+{
+  "goal": "经营数据口径与管理报告",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "多部门指标表、定义、日期区间",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "霍夫曼公关平替：科技产品媒体解释包"
+  short_description: "以AI-HIVE辅助科技产品媒体解释包，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-hoffman-pr。我想做科技产品媒体解释包，希望用AI辅助处理相关工作。以下是技术白皮书、使用场景、性能测试。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

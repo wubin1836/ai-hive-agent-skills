@@ -1,0 +1,12 @@
+{
+  "goal": "品牌声誉事实与回应",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "争议材料、时间线、确认责任人",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

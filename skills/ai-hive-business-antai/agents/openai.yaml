@@ -1,0 +1,4 @@
+interface:
+  display_name: "交大安泰经营复盘学习助手（非官方）"
+  short_description: "交大安泰经营复盘学习助手（非官方）：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-antai 完成交大安泰材料任务，先核对输入与适用范围，再交文件和待复核事项。"

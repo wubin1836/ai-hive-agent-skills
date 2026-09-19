@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-business-guanghua",
+  "required_files": [
+    "learning-pack.md",
+    "discussion-cards.csv",
+    "application-plan.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "discussion-cards.csv": [
+      "card_id",
+      "question",
+      "evidence_ids",
+      "counterargument",
+      "learning_goal"
+    ]
+  },
+  "special_acceptance": "用本地工具复算案例数据，将数学结果和商业解释分开，并列假设敏感点",
+  "manual_checks": [
+    "不提供学位、学分、校友身份或教学授权。",
+    "案例来源合法，材料没给全时不声称完成整门课程学习。",
+    "观点练习与真实经营结论、真实外部专家意见分离。"
+  ]
+}

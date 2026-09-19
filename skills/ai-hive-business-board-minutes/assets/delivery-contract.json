@@ -1,0 +1,38 @@
+{
+  "skill_id": "ai-hive-business-board-minutes",
+  "required_files": [
+    "governance-pack.md",
+    "procedure-check.csv",
+    "decision-record.md",
+    "special-review.md",
+    "scope-and-limits.md",
+    "rule-register.csv"
+  ],
+  "csv_columns": {
+    "procedure-check.csv": [
+      "item_id",
+      "requirement",
+      "source_id",
+      "document_ref",
+      "status",
+      "reviewer"
+    ],
+    "rule-register.csv": [
+      "rule_id",
+      "jurisdiction",
+      "source_url",
+      "document_title",
+      "clause",
+      "effective_date",
+      "checked_at",
+      "applicability",
+      "status"
+    ]
+  },
+  "special_acceptance": "逐项核对原始表决与文本，缺席、弃权、反对和回避分别记录；不得捏造签名或投票",
+  "manual_checks": [
+    "公司法、章程、监管与内部制度不能互相替代。",
+    "材料草案不等于已决议或已生效。",
+    "表决权、股权、董事席位和管理岗位分开核对。"
+  ]
+}

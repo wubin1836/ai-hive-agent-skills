@@ -1,0 +1,4 @@
+interface:
+  display_name: "企业商学院课程搭建顾问"
+  short_description: "企业商学院课程搭建顾问：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-internal-academy 完成企业大学材料任务，先核对输入与适用范围，再交文件和待复核事项。"

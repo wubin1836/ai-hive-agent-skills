@@ -1,0 +1,12 @@
+{
+  "goal": "客户反馈与经营行动",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "合法客户反馈、复购数据、服务记录",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

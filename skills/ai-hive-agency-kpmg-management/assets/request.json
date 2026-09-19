@@ -1,0 +1,12 @@
+{
+  "goal": "业务风险与流程改进台账",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "业务流程、风险事件、控制记录",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

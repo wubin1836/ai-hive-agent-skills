@@ -1,0 +1,4 @@
+interface:
+  display_name: "长江商学院案例学习助手（非官方）"
+  short_description: "长江商学院案例学习助手（非官方）：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-ckgsb 完成长江商学院材料任务，先核对输入与适用范围，再交文件和待复核事项。"

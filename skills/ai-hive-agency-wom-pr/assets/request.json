@@ -1,0 +1,12 @@
+{
+  "goal": "互动活动沟通与FAQ",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "活动规则、奖项、参与限制、客服流程",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

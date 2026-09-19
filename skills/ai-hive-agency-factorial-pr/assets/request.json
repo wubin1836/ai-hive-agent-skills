@@ -1,0 +1,12 @@
+{
+  "goal": "企业沟通问题树",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "管理层材料、媒体问题、客户顾虑",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-business-tsinghua",
+  "required_files": [
+    "learning-pack.md",
+    "discussion-cards.csv",
+    "application-plan.md",
+    "special-review.md",
+    "scope-and-limits.md"
+  ],
+  "csv_columns": {
+    "discussion-cards.csv": [
+      "card_id",
+      "question",
+      "evidence_ids",
+      "counterargument",
+      "learning_goal"
+    ]
+  },
+  "special_acceptance": "建立概念到证据再到应用的练习，引用只限必要短引，未知课程要求回到官方核对",
+  "manual_checks": [
+    "不提供学位、学分、校友身份或教学授权。",
+    "案例来源合法，材料没给全时不声称完成整门课程学习。",
+    "观点练习与真实经营结论、真实外部专家意见分离。"
+  ]
+}

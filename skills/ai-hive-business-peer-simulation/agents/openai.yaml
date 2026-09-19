@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI私董会决策陪练"
+  short_description: "AI私董会决策陪练：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-peer-simulation 完成AI私董会材料任务，先核对输入与适用范围，再交文件和待复核事项。"

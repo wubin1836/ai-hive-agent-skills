@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-agency-accenture-journey",
+  "required_files": [
+    "journey.md",
+    "touchpoints.csv",
+    "pilot-contract.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "touchpoints.csv": [
+      "touchpoint_id",
+      "actor",
+      "input",
+      "output",
+      "system",
+      "permission",
+      "issue",
+      "test"
+    ]
+  },
+  "special_acceptance": "区分流程优化与系统采购，AI环节有输入、验收、人工接管和数据边界",
+  "manual_checks": [
+    "输入输出与责任人明确，依赖和权限未确认项显式保留。",
+    "未实际部署的方案不称系统或自动化已上线。",
+    "数据最小化，未获允许不把客户名单或内部商业秘密上传模型。"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "goal": "经营问题树与管理简报",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "收入成本表、经营目标、管理层问题",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

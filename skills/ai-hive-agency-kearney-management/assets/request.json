@@ -1,0 +1,12 @@
+{
+  "goal": "采购与供应链成本诊断",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "采购订单、交期、库存及成本口径",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

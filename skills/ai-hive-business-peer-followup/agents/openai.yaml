@@ -1,0 +1,4 @@
+interface:
+  display_name: "私董会行动跟进顾问"
+  short_description: "私董会行动跟进顾问：整理真实材料、证据台账与可复核交付文件"
+  default_prompt: "请使用 $ai-hive-business-peer-followup 完成私董会复盘材料任务，先核对输入与适用范围，再交文件和待复核事项。"

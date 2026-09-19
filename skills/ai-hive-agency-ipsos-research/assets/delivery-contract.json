@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-agency-ipsos-research",
+  "required_files": [
+    "research-plan.md",
+    "insight-table.csv",
+    "data-quality.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "insight-table.csv": [
+      "insight_id",
+      "finding",
+      "evidence_ids",
+      "sample_scope",
+      "counterexample",
+      "confidence",
+      "next_test"
+    ]
+  },
+  "special_acceptance": "避免诱导题和双重问题，结论标明样本局限，不将模拟问卷视为已实地调研",
+  "manual_checks": [
+    "真实受访者数据与模拟示例分离，不能虚构调查。",
+    "小样本和非随机样本不被表达为全市场结论。",
+    "不提供目标机构付费数据库、专有量表或授权研究产品。"
+  ]
+}
