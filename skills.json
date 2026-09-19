@@ -49913,5 +49913,455 @@
     "batch": "advertising-131",
     "path": "skills/ai-hive-agency-saatchi-campaign",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-lepub-campaign",
+    "display_name": "LePub平替：品牌文化事件与内容计划",
+    "category": "广告创意与整合营销",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-lepub-campaign",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-bbh-campaign",
+    "display_name": "百比赫平替：简洁品牌主张与创意执行",
+    "category": "广告创意与整合营销",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-bbh-campaign",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-fallon-film",
+    "display_name": "Fallon平替：低预算叙事广告分镜",
+    "category": "广告视频与故事制作",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-fallon-film",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-the-community-campaign",
+    "display_name": "The Community平替：多元人群品牌沟通",
+    "category": "广告创意与整合营销",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-the-community-campaign",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-letruc-campaign",
+    "display_name": "Le Truc平替：多路线创意冲刺提案",
+    "category": "广告创意与整合营销",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-letruc-campaign",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-dentsu-creative-campaign",
+    "display_name": "电通创意平替：品牌上市创意素材套装",
+    "category": "广告创意与整合营销",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-dentsu-creative-campaign",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-merkle-journey",
+    "display_name": "美库尔平替：客户旅程与触点内容设计",
+    "category": "客户体验与数字化咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-merkle-journey",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-tag-production",
+    "display_name": "Tag创意制作平替：多市场广告素材适配",
+    "category": "广告制作与跨市场适配",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-tag-production",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-carat-media",
+    "display_name": "凯络平替：品牌媒介组合情景规划",
+    "category": "媒介策划与效果复盘",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-carat-media",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-iprospect-media",
+    "display_name": "安布思沛平替：搜索与效果营销素材测试",
+    "category": "媒介策划与效果复盘",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-iprospect-media",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-dentsux-media",
+    "display_name": "电通X平替：人群触点与媒介场景规划",
+    "category": "媒介策划与效果复盘",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-dentsux-media",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-hakuhodo-strategy",
+    "display_name": "博报堂平替：生活场景洞察与品牌企划",
+    "category": "品牌定位与营销咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-hakuhodo-strategy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-havas-campaign",
+    "display_name": "汉威士平替：品牌意义与整合传播方案",
+    "category": "广告创意与整合营销",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-havas-campaign",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-havas-media-media",
+    "display_name": "Havas Media平替：媒介环境与品牌适配评估",
+    "category": "媒介策划与效果复盘",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-havas-media-media",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-wpp-media-media",
+    "display_name": "WPP Media平替：多代理媒介方案比选",
+    "category": "媒介策划与效果复盘",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-wpp-media-media",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-dongdao-identity",
+    "display_name": "东道设计平替：企业VI与品牌触点草案",
+    "category": "品牌视觉与设计咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-dongdao-identity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-zhengbang-identity",
+    "display_name": "正邦设计平替：企业标识与品牌架构说明",
+    "category": "品牌视觉与设计咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-zhengbang-identity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-landor-identity",
+    "display_name": "朗涛平替：品牌体验与视觉识别系统",
+    "category": "品牌视觉与设计咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-landor-identity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-interbrand-strategy",
+    "display_name": "英图博略平替：品牌资产盘点与升级路线",
+    "category": "品牌定位与营销咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-interbrand-strategy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-pentagram-identity",
+    "display_name": "五角设计平替：标识方向与视觉系统提案",
+    "category": "品牌视觉与设计咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-pentagram-identity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-siegelgale-identity",
+    "display_name": "思睿高平替：品牌信息简化与命名体系",
+    "category": "品牌视觉与设计咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-siegelgale-identity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-lippincott-identity",
+    "display_name": "Lippincott平替：品牌承诺与客户体验设计",
+    "category": "品牌视觉与设计咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-lippincott-identity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-futurebrand-strategy",
+    "display_name": "FutureBrand平替：品牌未来情景与转型沟通",
+    "category": "品牌定位与营销咨询",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-futurebrand-strategy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-designbridge-packaging",
+    "display_name": "Design Bridge and Partners平替：包装概念与货架识别设计",
+    "category": "包装与消费品牌设计",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-designbridge-packaging",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-jihe-packaging",
+    "display_name": "集和品牌设计平替：消费品牌包装系列规划",
+    "category": "包装与消费品牌设计",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-jihe-packaging",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-edelman-pr",
+    "display_name": "爱德曼平替：信任议题与企业传播问答",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-edelman-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-burson-pr",
+    "display_name": "Burson平替：企业声誉议题准备包",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-burson-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-fleishman-pr",
+    "display_name": "福莱希乐平替：跨地区企业传播口径",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-fleishman-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-weber-pr",
+    "display_name": "万博宣伟平替：企业议题与传播响应手册",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-weber-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-ruderfinn-pr",
+    "display_name": "罗德传播平替：品牌新闻与媒体资料包",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-ruderfinn-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-msl-pr",
+    "display_name": "明思力平替：品牌事件与利益相关方沟通",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-msl-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-adigital-pr",
+    "display_name": "艾德数字平替：数字传播议题分类",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-adigital-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-amaxz-pr",
+    "display_name": "浙文天杰平替：品牌信息图与新闻摘要",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-amaxz-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-cenbo-pr",
+    "display_name": "森博科技平替：企业内容知识库到对外材料",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-cenbo-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-china-bright-pr",
+    "display_name": "华瑞成业平替：行业会议传播材料",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-china-bright-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-chuan-pr",
+    "display_name": "传智逢能平替：品牌信息拆解与传播任务表",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-chuan-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-cyts-pr",
+    "display_name": "中青旅联科平替：文旅项目传播资料",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-cyts-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-evision-pr",
+    "display_name": "时空视点平替：品牌议题与传播节奏",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-evision-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-gxever-pr",
+    "display_name": "际恒锐智平替：B2B产品发布问答",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-gxever-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-haitang-pr",
+    "display_name": "海唐新媒平替：企业新媒体传播复用",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-haitang-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-higuide-pr",
+    "display_name": "海嘉传媒平替：品牌合作对外沟通包",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-higuide-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-itrax-pr",
+    "display_name": "爱创营销平替：消费品牌发布素材",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-itrax-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-longwise-pr",
+    "display_name": "朗知传媒平替：企业人物采访准备",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-longwise-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-moremore-pr",
+    "display_name": "鱼得水平替：品牌故事与事件传播",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-moremore-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-mrg-pr",
+    "display_name": "嘉利智联平替：企业传播主题与口径",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-mrg-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-spark-digital-pr",
+    "display_name": "星火数字平替：传播内容标签与复盘",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-spark-digital-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-topline-pr",
+    "display_name": "尚诚同力平替：产品公关素材协同",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-topline-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-trends-pr",
+    "display_name": "趋势中国平替：行业趋势到品牌议题",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-trends-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-trustwin-pr",
+    "display_name": "君信传播平替：企业信任材料与事实卡",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-trustwin-pr",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-agency-wins-pr",
+    "display_name": "汪氏数字平替：品牌数字内容发布检查",
+    "category": "公关传播与企业内容",
+    "brand": "AI-HIVE",
+    "batch": "advertising-131",
+    "path": "skills/ai-hive-agency-wins-pr",
+    "language": "zh-CN"
   }
 ]

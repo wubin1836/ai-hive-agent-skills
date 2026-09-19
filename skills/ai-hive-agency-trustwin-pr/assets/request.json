@@ -1,0 +1,12 @@
+{
+  "goal": "企业信任材料与事实卡",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "资质证明、案例授权、产品证据",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

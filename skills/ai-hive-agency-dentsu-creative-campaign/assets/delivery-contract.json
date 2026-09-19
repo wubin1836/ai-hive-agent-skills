@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-agency-dentsu-creative-campaign",
+  "required_files": [
+    "proposal.md",
+    "asset-plan.csv",
+    "handoff.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "asset-plan.csv": [
+      "asset_id",
+      "channel",
+      "format",
+      "message",
+      "claim_id",
+      "cta",
+      "status"
+    ]
+  },
+  "special_acceptance": "保持全套素材的利益点一致，避免多渠道改写导致参数承诺冲突",
+  "manual_checks": [
+    "每个可核查产品主张能追溯到证据或标为待核。",
+    "三条路线的叙事或信息结构实质不同；没有用户请求不扩展投放。",
+    "有文件交付；概念图、提示词、实际媒体文件清楚区分。"
+  ]
+}

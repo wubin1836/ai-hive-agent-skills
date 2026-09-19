@@ -1,0 +1,4 @@
+interface:
+  display_name: "正邦设计平替：企业标识与品牌架构说明"
+  short_description: "以AI-HIVE辅助企业标识与品牌架构说明，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-zhengbang-identity。我想做企业标识与品牌架构说明，希望用AI辅助处理相关工作。以下是集团子品牌清单、标识、组织关系。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

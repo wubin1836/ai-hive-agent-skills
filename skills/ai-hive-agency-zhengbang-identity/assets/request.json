@@ -1,0 +1,12 @@
+{
+  "goal": "企业标识与品牌架构说明",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "集团子品牌清单、标识、组织关系",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

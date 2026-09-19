@@ -1,0 +1,12 @@
+{
+  "goal": "生活场景洞察与品牌企划",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "访谈笔记、生活场景、产品使用限制",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

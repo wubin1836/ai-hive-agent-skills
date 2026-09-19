@@ -1,0 +1,4 @@
+interface:
+  display_name: "艾德数字平替：数字传播议题分类"
+  short_description: "以AI-HIVE辅助数字传播议题分类，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-adigital-pr。我想做数字传播议题分类，希望用AI辅助处理相关工作。以下是公开评论导出、产品FAQ、处理权限。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "爱德曼平替：信任议题与企业传播问答"
+  short_description: "以AI-HIVE辅助信任议题与企业传播问答，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-edelman-pr。我想做信任议题与企业传播问答，希望用AI辅助处理相关工作。以下是企业实际行动、利益相关方、公开争议。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "凯络平替：品牌媒介组合情景规划"
+  short_description: "以AI-HIVE辅助品牌媒介组合情景规划，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-carat-media。我想做品牌媒介组合情景规划，希望用AI辅助处理相关工作。以下是预算、渠道报价、客群假设、历史效果。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

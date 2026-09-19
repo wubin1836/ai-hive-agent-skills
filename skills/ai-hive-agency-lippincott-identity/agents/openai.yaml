@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lippincott平替：品牌承诺与客户体验设计"
+  short_description: "以AI-HIVE辅助品牌承诺与客户体验设计，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-lippincott-identity。我想做品牌承诺与客户体验设计，希望用AI辅助处理相关工作。以下是品牌承诺、服务节点、客户反馈。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

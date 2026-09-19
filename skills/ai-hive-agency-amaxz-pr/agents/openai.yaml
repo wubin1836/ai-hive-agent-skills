@@ -1,0 +1,4 @@
+interface:
+  display_name: "浙文天杰平替：品牌信息图与新闻摘要"
+  short_description: "以AI-HIVE辅助品牌信息图与新闻摘要，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-amaxz-pr。我想做品牌信息图与新闻摘要，希望用AI辅助处理相关工作。以下是原始数据、新闻事件、图形规范。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

@@ -1,0 +1,26 @@
+{
+  "skill_id": "ai-hive-agency-landor-identity",
+  "required_files": [
+    "identity-guide.md",
+    "applications.csv",
+    "design-board.html",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "applications.csv": [
+      "application_id",
+      "touchpoint",
+      "size",
+      "background",
+      "source_asset",
+      "status",
+      "review_note"
+    ]
+  },
+  "special_acceptance": "从小屏到线下触点验证识别一致性，视觉方向与业务定位可解释地连接",
+  "manual_checks": [
+    "字体和图形授权状态清晰；不保证商标可注册。",
+    "应用触点不是重复贴同一图，尺寸和阅读层级分别检查。",
+    "位图概念、矢量源文件和印刷成品不混称。"
+  ]
+}

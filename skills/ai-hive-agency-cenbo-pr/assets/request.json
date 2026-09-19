@@ -1,0 +1,12 @@
+{
+  "goal": "企业内容知识库到对外材料",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "已批准知识库、产品参数、公开范围",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

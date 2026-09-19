@@ -1,0 +1,12 @@
+{
+  "goal": "品牌体验与视觉识别系统",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "品牌定位、应用场景、现有视觉资产",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

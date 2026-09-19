@@ -1,0 +1,12 @@
+{
+  "goal": "品牌议题与传播节奏",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "议题清单、公众关注、可发布材料",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

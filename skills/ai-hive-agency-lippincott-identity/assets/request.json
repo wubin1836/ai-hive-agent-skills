@@ -1,0 +1,12 @@
+{
+  "goal": "品牌承诺与客户体验设计",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "品牌承诺、服务节点、客户反馈",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

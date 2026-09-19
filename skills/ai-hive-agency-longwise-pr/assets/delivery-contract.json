@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-agency-longwise-pr",
+  "required_files": [
+    "message-pack.md",
+    "media-qa.csv",
+    "review-log.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "media-qa.csv": [
+      "question_id",
+      "audience",
+      "question",
+      "answer",
+      "evidence_ids",
+      "approval_status"
+    ]
+  },
+  "special_acceptance": "采访问题与预备答案分开，不能把模拟回答当真实受访者原话",
+  "manual_checks": [
+    "不使用未经授权的人物引言、机构背书或虚构报道。",
+    "面对争议信息区分当事人说法与已确认事实，重大事项需法务等专业复核。",
+    "不承诺删帖、控评、热搜、新闻收录或操纵舆论。"
+  ]
+}

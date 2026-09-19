@@ -1,0 +1,12 @@
+{
+  "goal": "企业人物采访准备",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "人物履历、访谈问题、已确认事件",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

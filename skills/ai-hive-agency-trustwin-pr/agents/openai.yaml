@@ -1,0 +1,4 @@
+interface:
+  display_name: "君信传播平替：企业信任材料与事实卡"
+  short_description: "以AI-HIVE辅助企业信任材料与事实卡，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-trustwin-pr。我想做企业信任材料与事实卡，希望用AI辅助处理相关工作。以下是资质证明、案例授权、产品证据。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

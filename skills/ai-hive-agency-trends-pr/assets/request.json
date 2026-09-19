@@ -1,0 +1,12 @@
+{
+  "goal": "行业趋势到品牌议题",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "公开行业报告、品牌产品关联、传播对象",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

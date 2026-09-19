@@ -1,0 +1,12 @@
+{
+  "goal": "消费品牌发布素材",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "产品实拍、检测证据、销售政策",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

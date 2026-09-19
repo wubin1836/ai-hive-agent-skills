@@ -1,0 +1,12 @@
+{
+  "goal": "行业会议传播材料",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "会议议程、发言资料、参会对象",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

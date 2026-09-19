@@ -1,0 +1,4 @@
+interface:
+  display_name: "Havas Media平替：媒介环境与品牌适配评估"
+  short_description: "以AI-HIVE辅助媒介环境与品牌适配评估，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-havas-media-media。我想做媒介环境与品牌适配评估，希望用AI辅助处理相关工作。以下是候选媒体、版位上下文、客群和预算。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

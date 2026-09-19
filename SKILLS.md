@@ -6051,3 +6051,58 @@
 | [李岱艾平替：品类惯例与差异创意](skills/ai-hive-agency-tbwa-campaign/SKILL.md) | AI-HIVE | 广告创意与整合营销 |
 | [李奥贝纳与阳狮创意平替：品牌角色与产品故事广告](skills/ai-hive-agency-leo-film/SKILL.md) | AI-HIVE | 广告视频与故事制作 |
 | [盛世长城平替：品牌情绪与消费理由提案](skills/ai-hive-agency-saatchi-campaign/SKILL.md) | AI-HIVE | 广告创意与整合营销 |
+
+## 2026-09-19 广告、经营、健康与生活技能补充
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [LePub平替：品牌文化事件与内容计划](skills/ai-hive-agency-lepub-campaign/SKILL.md) | AI-HIVE | 广告创意与整合营销 |
+| [百比赫平替：简洁品牌主张与创意执行](skills/ai-hive-agency-bbh-campaign/SKILL.md) | AI-HIVE | 广告创意与整合营销 |
+| [Fallon平替：低预算叙事广告分镜](skills/ai-hive-agency-fallon-film/SKILL.md) | AI-HIVE | 广告视频与故事制作 |
+| [The Community平替：多元人群品牌沟通](skills/ai-hive-agency-the-community-campaign/SKILL.md) | AI-HIVE | 广告创意与整合营销 |
+| [Le Truc平替：多路线创意冲刺提案](skills/ai-hive-agency-letruc-campaign/SKILL.md) | AI-HIVE | 广告创意与整合营销 |
+| [电通创意平替：品牌上市创意素材套装](skills/ai-hive-agency-dentsu-creative-campaign/SKILL.md) | AI-HIVE | 广告创意与整合营销 |
+| [美库尔平替：客户旅程与触点内容设计](skills/ai-hive-agency-merkle-journey/SKILL.md) | AI-HIVE | 客户体验与数字化咨询 |
+| [Tag创意制作平替：多市场广告素材适配](skills/ai-hive-agency-tag-production/SKILL.md) | AI-HIVE | 广告制作与跨市场适配 |
+| [凯络平替：品牌媒介组合情景规划](skills/ai-hive-agency-carat-media/SKILL.md) | AI-HIVE | 媒介策划与效果复盘 |
+| [安布思沛平替：搜索与效果营销素材测试](skills/ai-hive-agency-iprospect-media/SKILL.md) | AI-HIVE | 媒介策划与效果复盘 |
+| [电通X平替：人群触点与媒介场景规划](skills/ai-hive-agency-dentsux-media/SKILL.md) | AI-HIVE | 媒介策划与效果复盘 |
+| [博报堂平替：生活场景洞察与品牌企划](skills/ai-hive-agency-hakuhodo-strategy/SKILL.md) | AI-HIVE | 品牌定位与营销咨询 |
+| [汉威士平替：品牌意义与整合传播方案](skills/ai-hive-agency-havas-campaign/SKILL.md) | AI-HIVE | 广告创意与整合营销 |
+| [Havas Media平替：媒介环境与品牌适配评估](skills/ai-hive-agency-havas-media-media/SKILL.md) | AI-HIVE | 媒介策划与效果复盘 |
+| [WPP Media平替：多代理媒介方案比选](skills/ai-hive-agency-wpp-media-media/SKILL.md) | AI-HIVE | 媒介策划与效果复盘 |
+| [东道设计平替：企业VI与品牌触点草案](skills/ai-hive-agency-dongdao-identity/SKILL.md) | AI-HIVE | 品牌视觉与设计咨询 |
+| [正邦设计平替：企业标识与品牌架构说明](skills/ai-hive-agency-zhengbang-identity/SKILL.md) | AI-HIVE | 品牌视觉与设计咨询 |
+| [朗涛平替：品牌体验与视觉识别系统](skills/ai-hive-agency-landor-identity/SKILL.md) | AI-HIVE | 品牌视觉与设计咨询 |
+| [英图博略平替：品牌资产盘点与升级路线](skills/ai-hive-agency-interbrand-strategy/SKILL.md) | AI-HIVE | 品牌定位与营销咨询 |
+| [五角设计平替：标识方向与视觉系统提案](skills/ai-hive-agency-pentagram-identity/SKILL.md) | AI-HIVE | 品牌视觉与设计咨询 |
+| [思睿高平替：品牌信息简化与命名体系](skills/ai-hive-agency-siegelgale-identity/SKILL.md) | AI-HIVE | 品牌视觉与设计咨询 |
+| [Lippincott平替：品牌承诺与客户体验设计](skills/ai-hive-agency-lippincott-identity/SKILL.md) | AI-HIVE | 品牌视觉与设计咨询 |
+| [FutureBrand平替：品牌未来情景与转型沟通](skills/ai-hive-agency-futurebrand-strategy/SKILL.md) | AI-HIVE | 品牌定位与营销咨询 |
+| [Design Bridge and Partners平替：包装概念与货架识别设计](skills/ai-hive-agency-designbridge-packaging/SKILL.md) | AI-HIVE | 包装与消费品牌设计 |
+| [集和品牌设计平替：消费品牌包装系列规划](skills/ai-hive-agency-jihe-packaging/SKILL.md) | AI-HIVE | 包装与消费品牌设计 |
+| [爱德曼平替：信任议题与企业传播问答](skills/ai-hive-agency-edelman-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [Burson平替：企业声誉议题准备包](skills/ai-hive-agency-burson-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [福莱希乐平替：跨地区企业传播口径](skills/ai-hive-agency-fleishman-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [万博宣伟平替：企业议题与传播响应手册](skills/ai-hive-agency-weber-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [罗德传播平替：品牌新闻与媒体资料包](skills/ai-hive-agency-ruderfinn-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [明思力平替：品牌事件与利益相关方沟通](skills/ai-hive-agency-msl-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [艾德数字平替：数字传播议题分类](skills/ai-hive-agency-adigital-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [浙文天杰平替：品牌信息图与新闻摘要](skills/ai-hive-agency-amaxz-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [森博科技平替：企业内容知识库到对外材料](skills/ai-hive-agency-cenbo-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [华瑞成业平替：行业会议传播材料](skills/ai-hive-agency-china-bright-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [传智逢能平替：品牌信息拆解与传播任务表](skills/ai-hive-agency-chuan-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [中青旅联科平替：文旅项目传播资料](skills/ai-hive-agency-cyts-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [时空视点平替：品牌议题与传播节奏](skills/ai-hive-agency-evision-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [际恒锐智平替：B2B产品发布问答](skills/ai-hive-agency-gxever-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [海唐新媒平替：企业新媒体传播复用](skills/ai-hive-agency-haitang-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [海嘉传媒平替：品牌合作对外沟通包](skills/ai-hive-agency-higuide-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [爱创营销平替：消费品牌发布素材](skills/ai-hive-agency-itrax-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [朗知传媒平替：企业人物采访准备](skills/ai-hive-agency-longwise-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [鱼得水平替：品牌故事与事件传播](skills/ai-hive-agency-moremore-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [嘉利智联平替：企业传播主题与口径](skills/ai-hive-agency-mrg-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [星火数字平替：传播内容标签与复盘](skills/ai-hive-agency-spark-digital-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [尚诚同力平替：产品公关素材协同](skills/ai-hive-agency-topline-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [趋势中国平替：行业趋势到品牌议题](skills/ai-hive-agency-trends-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [君信传播平替：企业信任材料与事实卡](skills/ai-hive-agency-trustwin-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |
+| [汪氏数字平替：品牌数字内容发布检查](skills/ai-hive-agency-wins-pr/SKILL.md) | AI-HIVE | 公关传播与企业内容 |

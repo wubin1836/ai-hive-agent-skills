@@ -1,0 +1,12 @@
+{
+  "goal": "品牌信息图与新闻摘要",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "原始数据、新闻事件、图形规范",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

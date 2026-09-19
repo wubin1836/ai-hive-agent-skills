@@ -1,0 +1,27 @@
+{
+  "skill_id": "ai-hive-agency-tag-production",
+  "required_files": [
+    "master-rules.md",
+    "version-matrix.csv",
+    "localization-review.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "version-matrix.csv": [
+      "asset_id",
+      "master_id",
+      "market",
+      "language",
+      "format",
+      "version",
+      "status",
+      "path"
+    ]
+  },
+  "special_acceptance": "每个变体追溯母版、版本号和审核状态，保留不可翻译品牌词",
+  "manual_checks": [
+    "所有变体可追溯母版与审批版本。",
+    "关键数字、条件、品牌名称在各语言一致。",
+    "实际产物与清单一一对应，未生成项不列完成。"
+  ]
+}

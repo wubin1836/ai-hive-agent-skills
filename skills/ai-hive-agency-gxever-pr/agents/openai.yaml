@@ -1,0 +1,4 @@
+interface:
+  display_name: "际恒锐智平替：B2B产品发布问答"
+  short_description: "以AI-HIVE辅助B2B产品发布问答，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-gxever-pr。我想做B2B产品发布问答，希望用AI辅助处理相关工作。以下是产品技术文档、采购疑问、禁用表述。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

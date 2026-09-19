@@ -1,0 +1,28 @@
+{
+  "skill_id": "ai-hive-agency-carat-media",
+  "required_files": [
+    "media-plan.md",
+    "metrics.csv",
+    "creative-tests.md",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "metrics.csv": [
+      "row_id",
+      "channel",
+      "period",
+      "cost",
+      "impressions",
+      "clicks",
+      "conversions",
+      "attribution",
+      "source_ids"
+    ]
+  },
+  "special_acceptance": "区分曝光估计和去重触达，报价标明来源和时间，未知重叠率用区间",
+  "manual_checks": [
+    "所有比例和单价注明分母及公式，零分母不显示虚假数值。",
+    "预算合计不超上限，媒体费、服务费与制作费分列。",
+    "不编造广告投放权限、独家资源、触达数据或效果保证。"
+  ]
+}

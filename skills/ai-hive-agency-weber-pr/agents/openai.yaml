@@ -1,0 +1,4 @@
+interface:
+  display_name: "万博宣伟平替：企业议题与传播响应手册"
+  short_description: "以AI-HIVE辅助企业议题与传播响应手册，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-weber-pr。我想做企业议题与传播响应手册，希望用AI辅助处理相关工作。以下是事实时间线、公众疑问、可公开材料。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

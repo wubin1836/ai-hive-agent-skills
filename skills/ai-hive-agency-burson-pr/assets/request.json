@@ -1,0 +1,12 @@
+{
+  "goal": "企业声誉议题准备包",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "企业介绍、业务变化、关键利益相关方",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

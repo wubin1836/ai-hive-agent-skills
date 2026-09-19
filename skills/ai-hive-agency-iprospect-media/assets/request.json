@@ -1,0 +1,12 @@
+{
+  "goal": "搜索与效果营销素材测试",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "关键词数据、广告组、落地页、转化口径",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

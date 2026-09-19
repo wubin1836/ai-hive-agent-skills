@@ -1,0 +1,12 @@
+{
+  "goal": "数字传播议题分类",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "公开评论导出、产品FAQ、处理权限",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

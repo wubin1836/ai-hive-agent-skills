@@ -1,0 +1,4 @@
+interface:
+  display_name: "Burson平替：企业声誉议题准备包"
+  short_description: "以AI-HIVE辅助企业声誉议题准备包，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-burson-pr。我想做企业声誉议题准备包，希望用AI辅助处理相关工作。以下是企业介绍、业务变化、关键利益相关方。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

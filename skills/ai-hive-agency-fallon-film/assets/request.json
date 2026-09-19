@@ -1,0 +1,12 @@
+{
+  "goal": "低预算叙事广告分镜",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "可用演员、地点、产品互动和时长",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

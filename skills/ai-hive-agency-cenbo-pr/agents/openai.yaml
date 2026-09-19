@@ -1,0 +1,4 @@
+interface:
+  display_name: "森博科技平替：企业内容知识库到对外材料"
+  short_description: "以AI-HIVE辅助企业内容知识库到对外材料，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-cenbo-pr。我想做企业内容知识库到对外材料，希望用AI辅助处理相关工作。以下是已批准知识库、产品参数、公开范围。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

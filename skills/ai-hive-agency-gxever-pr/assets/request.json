@@ -1,0 +1,12 @@
+{
+  "goal": "B2B产品发布问答",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "产品技术文档、采购疑问、禁用表述",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

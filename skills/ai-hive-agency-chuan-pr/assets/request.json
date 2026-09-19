@@ -1,0 +1,12 @@
+{
+  "goal": "品牌信息拆解与传播任务表",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "品牌简报、信息重点、传播节点",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

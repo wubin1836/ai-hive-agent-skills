@@ -1,0 +1,4 @@
+interface:
+  display_name: "尚诚同力平替：产品公关素材协同"
+  short_description: "以AI-HIVE辅助产品公关素材协同，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-topline-pr。我想做产品公关素材协同，希望用AI辅助处理相关工作。以下是产品迭代信息、市场反馈、发布审批。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

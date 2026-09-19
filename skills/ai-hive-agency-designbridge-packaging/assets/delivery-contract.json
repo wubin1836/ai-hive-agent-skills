@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-agency-designbridge-packaging",
+  "required_files": [
+    "packaging-concept.md",
+    "sku-check.csv",
+    "shelf-board.html",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "sku-check.csv": [
+      "sku_id",
+      "variant",
+      "net_content",
+      "label_source",
+      "color_rule",
+      "review_status"
+    ]
+  },
+  "special_acceptance": "先锁定法定信息和刀版安全区，再做货架层级，AI概念图不是可直接生产的文件",
+  "manual_checks": [
+    "每个SKU与批准标签文本一一对应。",
+    "不把包装示意当法规审查结论。",
+    "刀版、出血、色彩与工艺未核验时明确不能直接生产。"
+  ]
+}

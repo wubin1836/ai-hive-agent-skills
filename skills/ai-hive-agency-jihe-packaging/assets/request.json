@@ -1,0 +1,12 @@
+{
+  "goal": "消费品牌包装系列规划",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "SKU口味、规格、包装形式和产品照片",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

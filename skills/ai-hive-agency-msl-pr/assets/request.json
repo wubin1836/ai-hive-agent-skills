@@ -1,0 +1,12 @@
+{
+  "goal": "品牌事件与利益相关方沟通",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "事件事实、利益相关方列表、对外口径",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

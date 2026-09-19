@@ -1,0 +1,12 @@
+{
+  "goal": "品牌文化事件与内容计划",
+  "brand": null,
+  "audience": null,
+  "deadline": null,
+  "input_files": [],
+  "special_inputs_needed": "文化活动、合法合作范围、目标观众",
+  "source_permissions": null,
+  "output_format": null,
+  "model_generation_authorized": false,
+  "budget_limit": null
+}

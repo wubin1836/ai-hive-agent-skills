@@ -1,0 +1,4 @@
+interface:
+  display_name: "海嘉传媒平替：品牌合作对外沟通包"
+  short_description: "以AI-HIVE辅助品牌合作对外沟通包，交付方案、证据台账与执行文件"
+  default_prompt: "请使用 $ai-hive-agency-higuide-pr。我想做品牌合作对外沟通包，希望用AI辅助处理相关工作。以下是合作协议可披露条款、权益边界、时间。请先列出缺失输入和本次可交付文件，再完成方案；素材上传和付费生成先确认预算。"

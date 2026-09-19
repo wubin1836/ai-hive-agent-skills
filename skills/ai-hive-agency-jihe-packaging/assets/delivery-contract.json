@@ -1,0 +1,25 @@
+{
+  "skill_id": "ai-hive-agency-jihe-packaging",
+  "required_files": [
+    "packaging-concept.md",
+    "sku-check.csv",
+    "shelf-board.html",
+    "special-review.md"
+  ],
+  "csv_columns": {
+    "sku-check.csv": [
+      "sku_id",
+      "variant",
+      "net_content",
+      "label_source",
+      "color_rule",
+      "review_status"
+    ]
+  },
+  "special_acceptance": "家族一致性与口味差异并存，小尺寸识别和信息层级分别检查",
+  "manual_checks": [
+    "每个SKU与批准标签文本一一对应。",
+    "不把包装示意当法规审查结论。",
+    "刀版、出血、色彩与工艺未核验时明确不能直接生产。"
+  ]
+}
