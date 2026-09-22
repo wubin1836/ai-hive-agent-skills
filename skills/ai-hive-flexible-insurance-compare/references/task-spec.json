@@ -1,0 +1,32 @@
+{
+  "id": "flexible-insurance-compare",
+  "slug": "ai-hive-flexible-insurance-compare",
+  "title": "灵活就业参保资料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "flexible-insurance-compare-checklist.xlsx",
+    "flexible-insurance-compare-evidence.docx",
+    "flexible-insurance-compare-sources.json"
+  ],
+  "workflow": [
+    "确认城市、已有参保状态和希望查询的险种，不据年龄性别直接推断资格",
+    "查地方官方规则，区分养老与医保，不混用不同年度基数",
+    "做来源可追溯的材料与费用口径表，未知资格标待确认，不代选择或缴费"
+  ],
+  "checks": [
+    "养老和医保参保渠道与资料要求分列，不混用同名政策",
+    "基数或费率必须来自对应年份原文，未提供时不填参考值",
+    "既有参保状态和未知资格分开，不从年龄或性别直接推断可参保"
+  ],
+  "keywords": [
+    "灵活就业社保",
+    "自己交社保",
+    "自由职业社保",
+    "个体户参保",
+    "居民医保职工医保"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

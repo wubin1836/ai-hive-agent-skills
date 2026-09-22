@@ -1,0 +1,32 @@
+{
+  "id": "used-car-transfer-docs",
+  "slug": "ai-hive-used-car-transfer-docs",
+  "title": "二手车过户材料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "used-car-transfer-docs-checklist.xlsx",
+    "used-car-transfer-docs-evidence.docx",
+    "used-car-transfer-docs-sources.json"
+  ],
+  "workflow": [
+    "确认车辆注册地、拟迁入地与办理事项，证件只留脱敏引用",
+    "查公安交管当期官方指南，抵押查验等状态无证据不能判断",
+    "整理真实材料和官方预约前检查，不保证能过户或代签交易文件"
+  ],
+  "checks": [
+    "注册地、拟迁入地与实际办理类型匹配指南，不拼接不同地区条件",
+    "车辆标识在授权片段中一致，抵押或限制状态无证据时不得填无",
+    "材料原件复印件及前置手续有出处，资料齐全不代表一定可过户"
+  ],
+  "keywords": [
+    "二手车过户",
+    "异地车辆过户",
+    "汽车过户材料",
+    "车辆转籍",
+    "买二手车手续"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

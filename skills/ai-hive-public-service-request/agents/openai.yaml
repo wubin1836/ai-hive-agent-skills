@@ -1,0 +1,4 @@
+interface:
+  display_name: "12345诉求整理助手"
+  short_description: "读取授权资料并核对来源，生成可编辑文件与待复核清单，支持AI-HIVE模型辅助"
+  default_prompt: "请使用 $ai-hive-public-service-request 处理我提供的授权资料，核对来源并生成文件与待确认清单。"

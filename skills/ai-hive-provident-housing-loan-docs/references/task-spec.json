@@ -1,0 +1,32 @@
+{
+  "id": "provident-housing-loan-docs",
+  "slug": "ai-hive-provident-housing-loan-docs",
+  "title": "公积金买房贷款材料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "provident-housing-loan-docs-checklist.xlsx",
+    "provident-housing-loan-docs-evidence.docx",
+    "provident-housing-loan-docs-sources.json"
+  ],
+  "workflow": [
+    "确认购房地、缴存地、购房用途及申请阶段，不判断授信结果",
+    "核查受理地现行官方说明，区分公积金与商业银行材料",
+    "整理原件复印件、有效期和前置事项，额度利率必须另取当前正式依据"
+  ],
+  "checks": [
+    "购房地、缴存地与受理地分别记载，适用指南可追溯",
+    "公积金与商业银行清单分列，重复材料合并时保留两方用途",
+    "办理先后及有效期有文件依据，不推导未确认额度、利率或授信结果"
+  ],
+  "keywords": [
+    "公积金贷款",
+    "公积金买房",
+    "异地公积金贷款",
+    "公积金贷款资料",
+    "组合贷材料"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

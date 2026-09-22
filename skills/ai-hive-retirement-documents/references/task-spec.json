@@ -1,0 +1,32 @@
+{
+  "id": "retirement-documents",
+  "slug": "ai-hive-retirement-documents",
+  "title": "退休办理材料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "retirement-documents-checklist.xlsx",
+    "retirement-documents-evidence.docx",
+    "retirement-documents-sources.json"
+  ],
+  "workflow": [
+    "确认办理地、参保类型及官方通知，不默认适用同一退休规则",
+    "核对用户提供的记录与当地当期清单，身份原件只留必要引用",
+    "列材料版本、缺失页和需要经办机构核定的事项，正式申请由本人确认"
+  ],
+  "checks": [
+    "办理地与参保类型对应正确指南，不默认不同退休类别同一材料要求",
+    "材料目录记录版本、页数和缺页，不能将复印件当已核验原件",
+    "历史缴费及档案矛盾列待核定，既不猜补历史记录也不计算未证实待遇"
+  ],
+  "keywords": [
+    "办理退休",
+    "退休手续",
+    "退休申请材料",
+    "退休一件事",
+    "退休档案"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

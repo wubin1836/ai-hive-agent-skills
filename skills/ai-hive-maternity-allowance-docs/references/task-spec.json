@@ -1,0 +1,32 @@
+{
+  "id": "maternity-allowance-docs",
+  "slug": "ai-hive-maternity-allowance-docs",
+  "title": "生育津贴申领资料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "maternity-allowance-docs-checklist.xlsx",
+    "maternity-allowance-docs-evidence.docx",
+    "maternity-allowance-docs-sources.json"
+  ],
+  "workflow": [
+    "确认参保地及用户提供的实际办理阶段，最少化医疗隐私",
+    "区分津贴、医疗费报销和单位工资处理，核对当地官方口径",
+    "匹配已提交材料及回执，未知待遇或到账时间不估造"
+  ],
+  "checks": [
+    "津贴、医疗报销与单位工资处理分栏，不能把一项回执当全部已办",
+    "每项已提交资料均有实际回执对应，缺件和未受理分别记录",
+    "只使用最小必要医疗片段，不估造待遇金额与到账日期"
+  ],
+  "keywords": [
+    "生育津贴怎么领",
+    "生育保险报销",
+    "产假工资",
+    "生育津贴材料",
+    "生育津贴到账"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

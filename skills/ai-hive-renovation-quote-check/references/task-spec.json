@@ -1,0 +1,32 @@
+{
+  "id": "renovation-quote-check",
+  "slug": "ai-hive-renovation-quote-check",
+  "title": "装修报价查漏与增项核对助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "renovation-quote-check-checklist.xlsx",
+    "renovation-quote-check-evidence.docx",
+    "renovation-quote-check-sources.json"
+  ],
+  "workflow": [
+    "读取用户报价与房屋基础尺寸，统一单位并保留原件",
+    "分拆人工材料辅料、数量单价、包含范围与不明增项，实际复算金额",
+    "只指出有依据的差异，不凭低价判断欺诈；承重、防水等专业工程另请专业人员核查"
+  ],
+  "checks": [
+    "数量单位先统一再乘单价，行金额与折扣后总额可复算",
+    "增项与原合同范围逐项关联，重复计费候选保留出处不直接认定欺诈",
+    "用户尺寸与报价计量口径不一致时列问题，不自行测量或估造工程量"
+  ],
+  "keywords": [
+    "装修报价怎么看",
+    "装修增项",
+    "装修清单避坑",
+    "装修预算审核",
+    "半包全包报价"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

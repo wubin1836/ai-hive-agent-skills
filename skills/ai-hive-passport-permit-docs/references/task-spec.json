@@ -1,0 +1,32 @@
+{
+  "id": "passport-permit-docs",
+  "slug": "ai-hive-passport-permit-docs",
+  "title": "护照港澳通行证办证助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "passport-permit-docs-checklist.xlsx",
+    "passport-permit-docs-evidence.docx",
+    "passport-permit-docs-sources.json"
+  ],
+  "workflow": [
+    "确认本人需求、证件类型及办理地，不读取证件账号或完整号码",
+    "依据国家移民管理局和受理地当前指南区分护照、通行证、签注与目的地签证",
+    "整理材料及预约前检查，不保证网办资格、办结时间或代预约缴费"
+  ],
+  "checks": [
+    "护照、通行证、签注及目的地签证各自列示，不相互替代",
+    "申请/换发等办理类型、受理地和指南版本一致",
+    "证件到期与材料要求只据指南核对，不保证网办资格或办结日期"
+  ],
+  "keywords": [
+    "办护照",
+    "港澳通行证",
+    "护照到期换发",
+    "港澳签注",
+    "异地办护照"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

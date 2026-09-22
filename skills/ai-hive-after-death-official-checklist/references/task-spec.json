@@ -1,0 +1,32 @@
+{
+  "id": "after-death-official-checklist",
+  "slug": "ai-hive-after-death-official-checklist",
+  "title": "亲人去世后办事清单助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "after-death-official-checklist-checklist.xlsx",
+    "after-death-official-checklist-evidence.docx",
+    "after-death-official-checklist-sources.json"
+  ],
+  "workflow": [
+    "尊重家属节奏，确认地区和已办事项，只接收必要脱敏资料",
+    "以当地身后一件事为行政入口，区分证件、待遇与涉及遗产的另行法律事项",
+    "整理依赖和所需证明，不代取款、注销、处分遗产或自行认定继承人"
+  ],
+  "checks": [
+    "已办、待办及待确认状态分别记录，避免建议重复注销或重复申请",
+    "行政证件、待遇办理与遗产处分分开，不自行认定继承人",
+    "证明材料按用途最小化引用，每个前置关系有地方指南依据"
+  ],
+  "keywords": [
+    "亲人去世后怎么办",
+    "身后事手续",
+    "死亡后账户怎么办",
+    "身后一件事",
+    "去世手续材料"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

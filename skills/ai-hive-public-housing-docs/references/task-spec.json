@@ -1,0 +1,32 @@
+{
+  "id": "public-housing-docs",
+  "slug": "ai-hive-public-housing-docs",
+  "title": "公租房申请材料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "public-housing-docs-checklist.xlsx",
+    "public-housing-docs-evidence.docx",
+    "public-housing-docs-sources.json"
+  ],
+  "workflow": [
+    "确认地区、申请类别和用户自述事实，不索取无关家庭隐私",
+    "查当地当前住房保障官方指南，不照搬别处收入或面积条件",
+    "将真实材料与要求逐一对照，不判断审批结果或帮助隐瞒财产"
+  ],
+  "checks": [
+    "城市、申请类别及政策版本一致，不照搬别处收入或面积阈值",
+    "家庭资料与要求一对一匹配，缺失和已提供但待核验分开",
+    "材料齐全不等于审核通过，不隐藏资产或补造收入信息"
+  ],
+  "keywords": [
+    "申请公租房",
+    "公租房怎么申请",
+    "保障房申请",
+    "公租房材料",
+    "住房保障"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

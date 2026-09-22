@@ -1,0 +1,32 @@
+{
+  "id": "school-transfer-handoff",
+  "slug": "ai-hive-school-transfer-handoff",
+  "title": "转学与学籍转接材料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "school-transfer-handoff-checklist.xlsx",
+    "school-transfer-handoff-evidence.docx",
+    "school-transfer-handoff-sources.json"
+  ],
+  "workflow": [
+    "确认原校、目标地区、学段和时间，不要求完整学籍号公开上传",
+    "查询适用教育主管部门当前流程，分开学位接收与学籍转接",
+    "整理真实记录和前置条件，不代承诺接收或修改学籍"
+  ],
+  "checks": [
+    "学位接收和学籍转接分为不同状态，不从询问回执推定已获接收",
+    "两地流程及学段适用性有依据，缺乏明确顺序时标待确认",
+    "不输出完整学籍号或儿童无关信息，授权材料仅作本地索引"
+  ],
+  "keywords": [
+    "孩子转学",
+    "学籍转移",
+    "跨省转学",
+    "转学申请材料",
+    "转学证明"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "home-handover-photo-evidence",
+  "slug": "ai-hive-home-handover-photo-evidence",
+  "title": "新房验房拍照与整改清单助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "home-handover-photo-evidence-checklist.xlsx",
+    "home-handover-photo-evidence-photo-review.pdf",
+    "home-handover-photo-evidence-sources.json"
+  ],
+  "workflow": [
+    "依据用户平面图和授权照片按房间部位编号，不推断隐藏结构",
+    "把看到的裂纹渗痕等现象与原因猜测分开，疑似安全问题转专业检查",
+    "建立整改前后对照和未解决项，不签发验收合格或结构安全结论"
+  ],
+  "checks": [
+    "每张照片保留原件引用与部位编号，前后对照必须同一问题且不改写原图",
+    "可见现象与原因推测分开，缺少尺寸或测量条件不估造数值",
+    "拍摄元数据与用户陈述时间分列，不把 EXIF 当已验证事件时间或鉴定结论"
+  ],
+  "keywords": [
+    "收房验房",
+    "新房验房清单",
+    "精装房验收",
+    "验房拍照",
+    "交房问题记录"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "newborn-one-stop-files",
+  "slug": "ai-hive-newborn-one-stop-files",
+  "title": "新生儿出生手续助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "newborn-one-stop-files-checklist.xlsx",
+    "newborn-one-stop-files-evidence.docx",
+    "newborn-one-stop-files-sources.json"
+  ],
+  "workflow": [
+    "确认办理地区和家长已获得的正式材料，不生成或修改出生证明",
+    "核对当地出生一件事官方清单，区分户籍、医保等实际分支",
+    "按依赖关系和责任人整理待办，敏感原件留在用户本地，不代签声明"
+  ],
+  "checks": [
+    "地方实际可联办范围与独立办理事项分列，不默认全国一致",
+    "后续步骤所需前置证明有依据，已办状态须有回执而非家长猜测",
+    "新生儿敏感原件不写入公开文件，不生成或修改出生证明内容"
+  ],
+  "keywords": [
+    "孩子出生后办什么",
+    "新生儿上户口",
+    "新生儿医保",
+    "出生证明材料",
+    "出生一件事"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

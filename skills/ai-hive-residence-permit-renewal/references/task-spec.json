@@ -1,0 +1,32 @@
+{
+  "id": "residence-permit-renewal",
+  "slug": "ai-hive-residence-permit-renewal",
+  "title": "居住证办理与续签助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "residence-permit-renewal-checklist.xlsx",
+    "residence-permit-renewal-evidence.docx",
+    "residence-permit-renewal-sources.json"
+  ],
+  "workflow": [
+    "区分首次登记、申领、变更、签注等实际事项，不把各地名称强行统一",
+    "查当地公安或政务官方指南并记录版本",
+    "检查所需材料与证件时间，仅给准备清单，不代填写虚假住所"
+  ],
+  "checks": [
+    "首次登记、申领、变更和签注分支按当地原文区分",
+    "证件期限与住所证明日期逐项核对，不套用未证实统一续签期限",
+    "住所和证件事实有材料引用，不把缺失证明写成已具备"
+  ],
+  "keywords": [
+    "居住证怎么办",
+    "居住证续签",
+    "居住登记",
+    "居住证过期",
+    "异地居住证"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

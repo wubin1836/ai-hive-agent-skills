@@ -1,0 +1,32 @@
+{
+  "id": "household-transfer-files",
+  "slug": "ai-hive-household-transfer-files",
+  "title": "户口迁移与落户材料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "household-transfer-files-checklist.xlsx",
+    "household-transfer-files-evidence.docx",
+    "household-transfer-files-sources.json"
+  ],
+  "workflow": [
+    "确认迁入迁出地和用户选定办理事由，不推荐虚假条件或包装经历",
+    "对照两地官方指南标前置手续、可联办事项和待确认差异",
+    "按户籍关系与授权范围整理材料，不推定具有落户资格"
+  ],
+  "checks": [
+    "迁入和迁出指南的地区、时间及办理事由对应，不拼接不同通道条件",
+    "前置、联办和待确认事项分别列示，不能将可联办等同已经完成",
+    "户籍关系与授权范围有记录，缺少资格事实时不输出能够落户保证"
+  ],
+  "keywords": [
+    "迁户口",
+    "落户材料",
+    "户口迁移",
+    "结婚迁户口",
+    "随迁落户"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "appliance-repair-quote",
+  "slug": "ai-hive-appliance-repair-quote",
+  "title": "家电维修报价核对助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "appliance-repair-quote-checklist.xlsx",
+    "appliance-repair-quote-evidence.docx",
+    "appliance-repair-quote-sources.json"
+  ],
+  "workflow": [
+    "记录家电型号、症状描述、保修资料和报价，不指导拆带电设备",
+    "核对用户授权项目与报价，优先查厂家当期售后资料，不捏造全国统一价",
+    "标出不清楚的计费或重复项目并起草询问，不凭报价差异定性诈骗"
+  ],
+  "checks": [
+    "品牌型号、保修时点与厂家说明匹配，不使用未经证实统一维修价",
+    "检测、零件、人工及已包含费用分开，行金额与总额可复算",
+    "新增项目有用户授权记录或明确标未确认，价差不直接定性诈骗"
+  ],
+  "keywords": [
+    "家电维修被坑",
+    "维修报价",
+    "上门费检测费",
+    "换零件多少钱",
+    "家电维修清单"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

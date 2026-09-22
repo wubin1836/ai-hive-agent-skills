@@ -1,0 +1,32 @@
+{
+  "id": "flight-change-evidence",
+  "slug": "ai-hive-flight-change-evidence",
+  "title": "航班延误退改资料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "flight-change-evidence-checklist.xlsx",
+    "flight-change-evidence-evidence.docx",
+    "flight-change-evidence-sources.json"
+  ],
+  "workflow": [
+    "确认承运人、出票渠道、受影响航段和通知，不索取支付凭据密码",
+    "使用当前适用运输和票价规则，区分原票条件与特殊通知",
+    "整理已发生费用和证明，不承诺赔偿、不代退票改签或购票"
+  ],
+  "checks": [
+    "承运人、出票渠道、航段和通知时间逐项匹配，不混用其他航班规则",
+    "原票条款与适用特别通知分列，版本冲突标待确认",
+    "已发生费用有凭证且币种明确，不把费用合计直接视为应获赔偿"
+  ],
+  "keywords": [
+    "航班延误怎么办",
+    "机票退改签",
+    "航班取消退票",
+    "非自愿退票",
+    "航班延误证明"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

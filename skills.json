@@ -52280,5 +52280,455 @@
     "batch": "health-life-86",
     "path": "skills/ai-hive-life-loan-fraud",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-surname-search",
+    "display_name": "姓氏寻根与家谱检索助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-surname-search",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-genealogy-table",
+    "display_name": "家谱电子化与世系图生成器",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-genealogy-table",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-family-rules",
+    "display_name": "家训修订与家庭公约助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-family-rules",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-classic-quote-check",
+    "display_name": "国学名句出处查证助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-classic-quote-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-couplet-proofread",
+    "display_name": "对联校对与春联排版助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-couplet-proofread",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-spring-customs",
+    "display_name": "春节习俗与家庭安排助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-spring-customs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-solar-observation",
+    "display_name": "二十四节气观察卡生成器",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-solar-observation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-wedding-customs",
+    "display_name": "两地婚俗协调助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-wedding-customs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-qingming-memorial",
+    "display_name": "清明祭文与追思材料助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-qingming-memorial",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-auspicious-motifs",
+    "display_name": "吉祥纹样识别与说明卡助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-auspicious-motifs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-folk-ancient-page-reading",
+    "display_name": "古籍OCR与竖排校对助手",
+    "category": "风水、命理与国学民俗",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-folk-ancient-page-reading",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-medical-away-file",
+    "display_name": "异地就医备案资料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-medical-away-file",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-social-gap-check",
+    "display_name": "社保断缴与补缴核对助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-social-gap-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-flexible-insurance-compare",
+    "display_name": "灵活就业参保资料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-flexible-insurance-compare",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-job-change-insurance-handoff",
+    "display_name": "离职后社保公积金衔接助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-job-change-insurance-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-retirement-documents",
+    "display_name": "退休办理材料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-retirement-documents",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-retirement-date-evidence",
+    "display_name": "退休时间与延迟退休政策核对助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-retirement-date-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-provident-fund-withdrawal",
+    "display_name": "公积金提取材料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-provident-fund-withdrawal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-provident-housing-loan-docs",
+    "display_name": "公积金买房贷款材料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-provident-housing-loan-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-maternity-allowance-docs",
+    "display_name": "生育津贴申领资料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-maternity-allowance-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-unemployment-claim-docs",
+    "display_name": "失业金申领材料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-unemployment-claim-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-residence-permit-renewal",
+    "display_name": "居住证办理与续签助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-residence-permit-renewal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-household-transfer-files",
+    "display_name": "户口迁移与落户材料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-household-transfer-files",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-school-enrollment-file-check",
+    "display_name": "孩子入学材料核对助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-school-enrollment-file-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-school-transfer-handoff",
+    "display_name": "转学与学籍转接材料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-school-transfer-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-passport-permit-docs",
+    "display_name": "护照港澳通行证办证助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-passport-permit-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-newborn-one-stop-files",
+    "display_name": "新生儿出生手续助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-newborn-one-stop-files",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-after-death-official-checklist",
+    "display_name": "亲人去世后办事清单助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-after-death-official-checklist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-public-housing-docs",
+    "display_name": "公租房申请材料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-public-housing-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-public-service-request",
+    "display_name": "12345诉求整理助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-public-service-request",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-renovation-quote-check",
+    "display_name": "装修报价查漏与增项核对助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-renovation-quote-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-home-handover-photo-evidence",
+    "display_name": "新房验房拍照与整改清单助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-home-handover-photo-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-appliance-repair-quote",
+    "display_name": "家电维修报价核对助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-appliance-repair-quote",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-water-leak-evidence-log",
+    "display_name": "房屋漏水记录与维修沟通助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-water-leak-evidence-log",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-phone-plan-charges",
+    "display_name": "手机宽带套餐扣费核对助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-phone-plan-charges",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-flight-change-evidence",
+    "display_name": "航班延误退改资料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-flight-change-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-used-car-transfer-docs",
+    "display_name": "二手车过户材料助手",
+    "category": "生活办事与家庭资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-used-car-transfer-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-qimen-chart-audit",
+    "display_name": "奇门遁甲助手｜九宫盘标注与核对",
+    "category": "术数与民俗资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-qimen-chart-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-liuyao-record-audit",
+    "display_name": "六爻助手｜摇卦记录与本卦变卦核对",
+    "category": "术数与民俗资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-liuyao-record-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-meihua-rule-replay",
+    "display_name": "梅花易数助手｜取数记录复算",
+    "category": "术数与民俗资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-meihua-rule-replay",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-daliuren-relation-map",
+    "display_name": "大六壬助手｜四课三传关系图",
+    "category": "术数与民俗资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-daliuren-relation-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-xiaoliuren-step-replay",
+    "display_name": "小六壬助手｜步骤回放与教学卡",
+    "category": "术数与民俗资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-xiaoliuren-step-replay",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-qizheng-chart-provenance",
+    "display_name": "七政四余盘历资料核对助手",
+    "category": "术数与民俗资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-qizheng-chart-provenance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-qianshi-text-provenance",
+    "display_name": "签诗解签助手｜原文与典故溯源",
+    "category": "术数与民俗资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-qianshi-text-provenance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-dream-journal-culture",
+    "display_name": "周公解梦助手｜梦境日记与文化参考",
+    "category": "术数与民俗资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-dream-journal-culture",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-guoxue-hexagram-atlas",
+    "display_name": "周易八卦与六十四卦图谱生成器",
+    "category": "图式、历法与文化资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-guoxue-hexagram-atlas",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-guoxue-hetu-luoshu-diagram",
+    "display_name": "河图洛书与九宫图校绘助手",
+    "category": "图式、历法与文化资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-guoxue-hetu-luoshu-diagram",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-guoxue-ganzhi-wuxing-map",
+    "display_name": "天干地支与五行关系图谱助手",
+    "category": "图式、历法与文化资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-guoxue-ganzhi-wuxing-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-guoxue-luopan-labels",
+    "display_name": "风水罗盘与二十四山读图助手",
+    "category": "图式、历法与文化资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-guoxue-luopan-labels",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-guoxue-xuankong-grid-diff",
+    "display_name": "玄空飞星盘与九宫资料核对助手",
+    "category": "图式、历法与文化资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-guoxue-xuankong-grid-diff",
+    "language": "zh-CN"
   }
 ]

@@ -1,0 +1,32 @@
+{
+  "id": "water-leak-evidence-log",
+  "slug": "ai-hive-water-leak-evidence-log",
+  "title": "房屋漏水记录与维修沟通助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "water-leak-evidence-log-checklist.xlsx",
+    "water-leak-evidence-log-photo-review.pdf",
+    "water-leak-evidence-log-sources.json"
+  ],
+  "workflow": [
+    "先识别用户描述中的触电坠落等危险，安全问题优先专业处置",
+    "将照片、发现时间、天气和维修回执关联，不凭图片确定源头或责任",
+    "生成脱敏事实沟通稿和复查表，责任赔偿问题转法律或鉴定专业人员"
+  ],
+  "checks": [
+    "照片、观察时间及天气来源分别记录，未提供天气不补造",
+    "维修前后照片按同一部位关联，未复查项目保持未解决或待观察",
+    "渗水现象与源头责任分开；触电坠落等风险优先提示专业处置"
+  ],
+  "keywords": [
+    "楼上漏水怎么办",
+    "房屋漏水",
+    "漏水拍照取证",
+    "渗水维修",
+    "漏水协商"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

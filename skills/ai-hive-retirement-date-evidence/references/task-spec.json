@@ -1,0 +1,32 @@
+{
+  "id": "retirement-date-evidence",
+  "slug": "ai-hive-retirement-date-evidence",
+  "title": "退休时间与延迟退休政策核对助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "retirement-date-evidence-checklist.xlsx",
+    "retirement-date-evidence-evidence.docx",
+    "retirement-date-evidence-sources.json"
+  ],
+  "workflow": [
+    "只收计算所需最少出生年月和经办分类事实，不自行认定特殊类别",
+    "使用当前官方文件或计算工具，将法定口径、可申请选项和未知条件分开",
+    "保留计算输入和来源日期，缺少资格事实时交问题单，不给确定结论"
+  ],
+  "checks": [
+    "仅使用必要出生年月与经确认类别，不自行认定特殊退休类别",
+    "截图中的输入与用户条件一致，法定口径和可申请选项分栏",
+    "政策版本与计算日期留存；条件不足不输出唯一确定退休日期"
+  ],
+  "keywords": [
+    "什么时候退休",
+    "延迟退休",
+    "退休年龄计算",
+    "退休时间查询",
+    "弹性退休"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

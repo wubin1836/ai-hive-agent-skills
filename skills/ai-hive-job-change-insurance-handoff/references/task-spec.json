@@ -1,0 +1,32 @@
+{
+  "id": "job-change-insurance-handoff",
+  "slug": "ai-hive-job-change-insurance-handoff",
+  "title": "离职后社保公积金衔接助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "job-change-insurance-handoff-checklist.xlsx",
+    "job-change-insurance-handoff-evidence.docx",
+    "job-change-insurance-handoff-sources.json"
+  ],
+  "workflow": [
+    "记录离入职及城市变化，不索取登录凭据",
+    "分开险种、参保关系和公积金账户，按当地官方流程核对",
+    "生成带责任方与来源的衔接清单，不假定账户自动转移或待遇连续"
+  ],
+  "checks": [
+    "离职、入职、缴费所属月与城市变化分别标注，日期矛盾显式提示",
+    "险种、参保关系与公积金账户分开核对，不默认全部自动转移",
+    "每项衔接任务有责任方、前置材料与来源，不声称待遇必然连续"
+  ],
+  "keywords": [
+    "离职后社保怎么办",
+    "离职公积金",
+    "换城市工作",
+    "社保转移",
+    "社保公积金衔接"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

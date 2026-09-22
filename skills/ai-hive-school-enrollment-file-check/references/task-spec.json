@@ -1,0 +1,32 @@
+{
+  "id": "school-enrollment-file-check",
+  "slug": "ai-hive-school-enrollment-file-check",
+  "title": "孩子入学材料核对助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "school-enrollment-file-check-checklist.xlsx",
+    "school-enrollment-file-check-evidence.docx",
+    "school-enrollment-file-check-sources.json"
+  ],
+  "workflow": [
+    "确认学段、区县、年份和用户选定入学类型，儿童信息去标识化",
+    "只使用对应年份教育局或学校正式通知，区分预报名与最终要求",
+    "核对日期、关系和地址一致性，不推断录取概率、承诺学位或包装材料"
+  ],
+  "checks": [
+    "只匹配对应区县、年份和学段的正式通知，预报名与最终要求分开",
+    "儿童与监护关系、地址及日期冲突有原始位置，不擅自修改材料",
+    "资料齐全度不转化为录取概率或学位承诺，儿童身份信息最小化"
+  ],
+  "keywords": [
+    "幼升小材料",
+    "小升初材料",
+    "随迁子女入学",
+    "入学报名材料",
+    "入学资料审核"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

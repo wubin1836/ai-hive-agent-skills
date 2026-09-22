@@ -1,0 +1,32 @@
+{
+  "id": "provident-fund-withdrawal",
+  "slug": "ai-hive-provident-fund-withdrawal",
+  "title": "公积金提取材料助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "provident-fund-withdrawal-checklist.xlsx",
+    "provident-fund-withdrawal-evidence.docx",
+    "provident-fund-withdrawal-sources.json"
+  ],
+  "workflow": [
+    "确认缴存城市、提取用途和账户事实，不默认余额都能取出",
+    "从当地公积金中心核对当前用途分支、资料及限制",
+    "逐件核对记录和声明依据，保留未知项，不代登录、签署或提交"
+  ],
+  "checks": [
+    "用途分支与缴存城市一致，不把租房和购房等条件混用",
+    "证明文件的主体、日期及用途字段可逐项关联到要求",
+    "余额与可提取额度不混同，缺少限制依据时保留待确认"
+  ],
+  "keywords": [
+    "公积金怎么取",
+    "租房提取公积金",
+    "离职提取公积金",
+    "公积金提取材料",
+    "公积金提取"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}

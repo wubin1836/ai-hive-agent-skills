@@ -1,0 +1,32 @@
+{
+  "id": "public-service-request",
+  "slug": "ai-hive-public-service-request",
+  "title": "12345诉求整理助手",
+  "inputs": [
+    "用户授权的本项原始资料文件及办理地区/日期",
+    "对应官方、合同或厂家规则原文与来源"
+  ],
+  "artifact_files": [
+    "public-service-request-checklist.xlsx",
+    "public-service-request-evidence.docx",
+    "public-service-request-sources.json"
+  ],
+  "workflow": [
+    "先区分紧急危险与一般办事诉求，紧急情况优先当地应急服务而非等待整理",
+    "核对当地官方渠道与受理范围，避免把12345当诉讼替代途径",
+    "按时间、事实证据和具体诉求形成草稿，不夸大指控、不代发送或重复轰炸"
+  ],
+  "checks": [
+    "紧急危险与普通诉求先分流，危险情形不以等待材料整理替代应急处置",
+    "每项事实有时间和证据引用，未证实归因与指控不写作确定事实",
+    "诉求在指南受理范围内；历史工单与本次材料关联，避免重复轰炸"
+  ],
+  "keywords": [
+    "12345怎么说",
+    "政府热线投诉",
+    "问题找哪个部门",
+    "12345诉求",
+    "办事咨询"
+  ],
+  "body_notice": "仅供材料准备与核对参考；具体要求以办理地当前官方规则为准，不保证资格或审批结果。"
+}
