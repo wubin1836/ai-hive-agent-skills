@@ -6399,3 +6399,21 @@
 | [天干地支与五行关系图谱助手](skills/ai-hive-guoxue-ganzhi-wuxing-map/SKILL.md) | AI-HIVE | 图式、历法与文化资料 |
 | [风水罗盘与二十四山读图助手](skills/ai-hive-guoxue-luopan-labels/SKILL.md) | AI-HIVE | 图式、历法与文化资料 |
 | [玄空飞星盘与九宫资料核对助手](skills/ai-hive-guoxue-xuankong-grid-diff/SKILL.md) | AI-HIVE | 图式、历法与文化资料 |
+
+## 2026-09-16 中国用户与国学 Skill
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [姓名学字形与笔画核对助手](skills/ai-hive-guoxue-name-stroke-audit/SKILL.md) | AI-HIVE | 图式、历法与文化资料 |
+| [经史子集书目整理助手](skills/ai-hive-classics-edition-catalog/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [古典文本版本对勘助手](skills/ai-hive-classics-text-collation/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [经文与注疏联读排版助手](skills/ai-hive-classics-commentary-reader/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [文言虚词用例索引生成器](skills/ai-hive-classical-function-word-index/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [文言断句歧义对照助手](skills/ai-hive-classical-punctuation-compare/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [史书人物纪年核对助手](skills/ai-hive-historical-chronology-check/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [古典小说人物称谓关系图助手](skills/ai-hive-classical-character-relationships/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [古诗格律与韵脚校核助手](skills/ai-hive-classical-poetry-meter-check/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [古文教材篇目映射助手](skills/ai-hive-classical-textbook-mapping/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [文言译文漏译与歧义核对助手](skills/ai-hive-classical-translation-review/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [典故改编分镜溯源助手](skills/ai-hive-classical-story-source-map/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+| [地方志古今地名索引助手](skills/ai-hive-gazetteer-place-index/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |

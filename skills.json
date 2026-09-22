@@ -52730,5 +52730,122 @@
     "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
     "path": "skills/ai-hive-guoxue-xuankong-grid-diff",
     "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-guoxue-name-stroke-audit",
+    "display_name": "姓名学字形与笔画核对助手",
+    "category": "图式、历法与文化资料",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-guoxue-name-stroke-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classics-edition-catalog",
+    "display_name": "经史子集书目整理助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classics-edition-catalog",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classics-text-collation",
+    "display_name": "古典文本版本对勘助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classics-text-collation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classics-commentary-reader",
+    "display_name": "经文与注疏联读排版助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classics-commentary-reader",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classical-function-word-index",
+    "display_name": "文言虚词用例索引生成器",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classical-function-word-index",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classical-punctuation-compare",
+    "display_name": "文言断句歧义对照助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classical-punctuation-compare",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-historical-chronology-check",
+    "display_name": "史书人物纪年核对助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-historical-chronology-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classical-character-relationships",
+    "display_name": "古典小说人物称谓关系图助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classical-character-relationships",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classical-poetry-meter-check",
+    "display_name": "古诗格律与韵脚校核助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classical-poetry-meter-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classical-textbook-mapping",
+    "display_name": "古文教材篇目映射助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classical-textbook-mapping",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classical-translation-review",
+    "display_name": "文言译文漏译与歧义核对助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classical-translation-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-classical-story-source-map",
+    "display_name": "典故改编分镜溯源助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-classical-story-source-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "ai-hive-gazetteer-place-index",
+    "display_name": "地方志古今地名索引助手",
+    "category": "国学典籍与文本工具",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
+    "path": "skills/ai-hive-gazetteer-place-index",
+    "language": "zh-CN"
   }
 ]
