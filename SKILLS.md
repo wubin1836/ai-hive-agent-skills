@@ -6417,3 +6417,58 @@
 | [文言译文漏译与歧义核对助手](skills/ai-hive-classical-translation-review/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
 | [典故改编分镜溯源助手](skills/ai-hive-classical-story-source-map/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
 | [地方志古今地名索引助手](skills/ai-hive-gazetteer-place-index/SKILL.md) | AI-HIVE | 国学典籍与文本工具 |
+
+## 2026-09-23 企业热门与新模型技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [AI数字人口播与虚拟主播视频](skills/aihive-studio-talking-avatar-video/SKILL.md) | AI-HIVE | 视频 |
+| [播客配音·AI文字转语音](skills/aihive-studio-ai-podcast-voiceover/SKILL.md) | AI-HIVE | 音频 |
+| [AI电商上架套图](skills/aihive-studio-ecommerce-listing-image-set/SKILL.md) | AI-HIVE | 图片 |
+| [热点选题](skills/aihive-studio-hot-topic-content-maker/SKILL.md) | AI-HIVE | 内容 |
+| [直播带货脚本工作台](skills/aihive-studio-live-commerce-script-studio/SKILL.md) | AI-HIVE | 内容 |
+| [视频生成·AI视频与图生视频工作室](skills/aihive-studio-ai-video-studio/SKILL.md) | AI-HIVE | 视频 |
+| [AI音乐生成与写歌](skills/aihive-studio-ai-music-creator/SKILL.md) | AI-HIVE | 音频 |
+| [爆款视频拆解·短视频复刻](skills/aihive-studio-viral-video-teardown-remake/SKILL.md) | AI-HIVE | 视频 |
+| [AI有声书制作](skills/aihive-studio-ai-audiobook-narration/SKILL.md) | AI-HIVE | 音频 |
+| [口播种草视频制作](skills/aihive-studio-oral-seeding-video-maker/SKILL.md) | AI-HIVE | 视频 |
+| [微信视频号封面制作](skills/aihive-studio-wechat-channels-cover-maker/SKILL.md) | AI-HIVE | 图片 |
+| [AI配音](skills/aihive-studio-ai-multilingual-dubbing/SKILL.md) | AI-HIVE | 音频 |
+| [AI声音克隆工作室](skills/aihive-studio-voice-cloning-studio/SKILL.md) | AI-HIVE | 音频 |
+| [跨境电商主图预检](skills/aihive-studio-marketplace-main-image-preflight/SKILL.md) | AI-HIVE | 审查 |
+| [视频号商品视频制作](skills/aihive-studio-wechat-channels-product-video/SKILL.md) | AI-HIVE | 视频 |
+| [TikTok Shop商品视频制作](skills/aihive-studio-tiktok-shop-product-video-maker/SKILL.md) | AI-HIVE | 视频 |
+| [淘宝天猫主图视频制作器](skills/aihive-studio-taobao-main-video-maker/SKILL.md) | AI-HIVE | 视频 |
+| [视频去AI味·真实感精修](skills/aihive-studio-video-realism-retoucher/SKILL.md) | AI-HIVE | 视频 |
+| [抖音脚本与抖音文案制作](skills/aihive-studio-douyin-video-script-maker/SKILL.md) | AI-HIVE | 内容 |
+| [文生图与图片生成工作室](skills/aihive-studio-ai-image-generation-studio/SKILL.md) | AI-HIVE | 图片 |
+| [发布前内容预检](skills/aihive-studio-publish-preflight-studio/SKILL.md) | AI-HIVE | 审查 |
+| [照片转绘](skills/aihive-studio-ai-photo-restyler/SKILL.md) | AI-HIVE | 图片 |
+| [账号拆解与起号模板](skills/aihive-studio-creator-account-teardown/SKILL.md) | AI-HIVE | 分析 |
+| [封面优化预检](skills/aihive-studio-cover-performance-preflight/SKILL.md) | AI-HIVE | 审查 |
+| [分镜生成器](skills/aihive-studio-ai-storyboard-generator/SKILL.md) | AI-HIVE | 视频 |
+| [小说推文视频生成](skills/aihive-studio-novel-promo-video-maker/SKILL.md) | AI-HIVE | 视频 |
+| [B站视频封面制作器](skills/aihive-studio-bilibili-thumbnail-maker/SKILL.md) | AI-HIVE | 图片 |
+| [抖音UGC带货视频制作](skills/aihive-studio-douyin-ugc-ad-creator/SKILL.md) | AI-HIVE | 视频 |
+| [公众号图文全案](skills/aihive-studio-wechat-article-visual-story/SKILL.md) | AI-HIVE | 内容 |
+| [AI多地区模特上身图工作室](skills/aihive-studio-product-on-model-locale-studio/SKILL.md) | AI-HIVE | 图片 |
+| [AI电商详情页模块](skills/aihive-studio-ecommerce-detail-module-studio/SKILL.md) | AI-HIVE | 图片 |
+| [图生视频与照片动画](skills/aihive-studio-image-to-motion/SKILL.md) | AI-HIVE | 视频 |
+| [角色一致性形象包](skills/aihive-studio-ip-character-consistency-studio/SKILL.md) | AI-HIVE | 图片 |
+| [多角色配音工作室](skills/aihive-studio-audio-drama-voice-studio/SKILL.md) | AI-HIVE | 音频 |
+| [抖音直播电商视觉套装](skills/aihive-studio-douyin-live-commerce-visual-kit/SKILL.md) | AI-HIVE | 图片 |
+| [YouTube视频缩略图制作](skills/aihive-studio-youtube-thumbnail-maker/SKILL.md) | AI-HIVE | 图片 |
+| [AI去路人·照片消除工作室](skills/aihive-studio-ai-photo-cleanup-studio/SKILL.md) | AI-HIVE | 图片 |
+| [游戏配乐·独立游戏原声带](skills/aihive-studio-indie-game-ost-pack/SKILL.md) | AI-HIVE | 音频 |
+| [广告歌生成·品牌主题曲](skills/aihive-studio-brand-jingle-studio/SKILL.md) | AI-HIVE | 音频 |
+| [评论分析工作室](skills/aihive-studio-comment-voc-miner/SKILL.md) | AI-HIVE | 分析 |
+| [视频字幕提取](skills/aihive-studio-youtube-caption-studio/SKILL.md) | AI-HIVE | 音频 |
+| [组装步骤视频·一步一镜](skills/aihive-studio-assembly-one-step-clip/SKILL.md) | AI-HIVE | 视频 |
+| [公众号诊断](skills/aihive-studio-wx-account-diagnose/SKILL.md) | AI-HIVE | 分析 |
+| [会员体系搭建](skills/aihive-studio-member-system-setup/SKILL.md) | AI-HIVE | 运营 |
+| [公私域联动方案生成](skills/aihive-studio-cross-domain-synergy-plan/SKILL.md) | AI-HIVE | 运营 |
+| [私域标签体系搭建](skills/aihive-studio-private-domain-tag-system-build/SKILL.md) | AI-HIVE | 运营 |
+| [私域销售和复购策略](skills/aihive-studio-private-domain-sales-repurchase-strategy/SKILL.md) | AI-HIVE | 运营 |
+| [视频号达人筛选](skills/aihive-studio-creator-filter/SKILL.md) | AI-HIVE | 分析 |
+| [违禁词检测+优化](skills/aihive-studio-forbidden-word-detect-optimize/SKILL.md) | AI-HIVE | 审查 |
+| [用户画像与人群洞察](skills/aihive-studio-user-persona-and-crowd-insight/SKILL.md) | AI-HIVE | 分析 |

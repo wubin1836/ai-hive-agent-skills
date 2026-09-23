@@ -1,0 +1,4 @@
+interface:
+  display_name: "抖音直播电商视觉套装"
+  short_description: "结合AI-HIVE与文件工具，交付抖音直播电商视觉套装的可验收成果"
+  default_prompt: "使用 $aihive-studio-douyin-live-commerce-visual-kit 完成抖音直播电商视觉套装。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

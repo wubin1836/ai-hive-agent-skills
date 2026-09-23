@@ -1,0 +1,4 @@
+interface:
+  display_name: "私域标签体系搭建"
+  short_description: "结合AI-HIVE与文件工具，交付私域标签体系搭建的可验收成果"
+  default_prompt: "使用 $aihive-studio-private-domain-tag-system-build 完成私域标签体系搭建。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

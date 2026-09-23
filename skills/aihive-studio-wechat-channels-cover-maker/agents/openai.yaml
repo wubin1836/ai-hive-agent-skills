@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信视频号封面制作"
+  short_description: "结合AI-HIVE与文件工具，交付微信视频号封面制作的可验收成果"
+  default_prompt: "使用 $aihive-studio-wechat-channels-cover-maker 完成微信视频号封面制作。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

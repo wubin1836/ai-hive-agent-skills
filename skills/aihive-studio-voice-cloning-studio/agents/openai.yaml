@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI声音克隆工作室"
+  short_description: "结合AI-HIVE与文件工具，交付AI声音克隆工作室的可验收成果"
+  default_prompt: "使用 $aihive-studio-voice-cloning-studio 完成AI声音克隆工作室。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

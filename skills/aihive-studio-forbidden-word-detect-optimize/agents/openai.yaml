@@ -1,0 +1,4 @@
+interface:
+  display_name: "违禁词检测+优化"
+  short_description: "结合AI-HIVE与文件工具，交付违禁词检测+优化的可验收成果"
+  default_prompt: "使用 $aihive-studio-forbidden-word-detect-optimize 完成违禁词检测+优化。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

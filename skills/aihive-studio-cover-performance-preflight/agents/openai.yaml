@@ -1,0 +1,4 @@
+interface:
+  display_name: "封面优化预检"
+  short_description: "结合AI-HIVE与文件工具，交付封面优化预检的可验收成果"
+  default_prompt: "使用 $aihive-studio-cover-performance-preflight 完成封面优化预检。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频去AI味·真实感精修"
+  short_description: "结合AI-HIVE与文件工具，交付视频去AI味·真实感精修的可验收成果"
+  default_prompt: "使用 $aihive-studio-video-realism-retoucher 完成视频去AI味·真实感精修。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

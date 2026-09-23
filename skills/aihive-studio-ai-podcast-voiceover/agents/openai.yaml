@@ -1,0 +1,4 @@
+interface:
+  display_name: "播客配音·AI文字转语音"
+  short_description: "结合AI-HIVE与文件工具，交付播客配音·AI文字转语音的可验收成果"
+  default_prompt: "使用 $aihive-studio-ai-podcast-voiceover 完成播客配音·AI文字转语音。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

@@ -52847,5 +52847,455 @@
     "batch": "AI-HIVE-中国用户与国学合辑-113个Skill-20260916",
     "path": "skills/ai-hive-gazetteer-place-index",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-talking-avatar-video",
+    "display_name": "AI数字人口播与虚拟主播视频",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-talking-avatar-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ai-podcast-voiceover",
+    "display_name": "播客配音·AI文字转语音",
+    "category": "音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ai-podcast-voiceover",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ecommerce-listing-image-set",
+    "display_name": "AI电商上架套图",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ecommerce-listing-image-set",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-hot-topic-content-maker",
+    "display_name": "热点选题",
+    "category": "内容",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-hot-topic-content-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-live-commerce-script-studio",
+    "display_name": "直播带货脚本工作台",
+    "category": "内容",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-live-commerce-script-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ai-video-studio",
+    "display_name": "视频生成·AI视频与图生视频工作室",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ai-video-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ai-music-creator",
+    "display_name": "AI音乐生成与写歌",
+    "category": "音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ai-music-creator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-viral-video-teardown-remake",
+    "display_name": "爆款视频拆解·短视频复刻",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-viral-video-teardown-remake",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ai-audiobook-narration",
+    "display_name": "AI有声书制作",
+    "category": "音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ai-audiobook-narration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-oral-seeding-video-maker",
+    "display_name": "口播种草视频制作",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-oral-seeding-video-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-wechat-channels-cover-maker",
+    "display_name": "微信视频号封面制作",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-wechat-channels-cover-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ai-multilingual-dubbing",
+    "display_name": "AI配音",
+    "category": "音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ai-multilingual-dubbing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-voice-cloning-studio",
+    "display_name": "AI声音克隆工作室",
+    "category": "音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-voice-cloning-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-marketplace-main-image-preflight",
+    "display_name": "跨境电商主图预检",
+    "category": "审查",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-marketplace-main-image-preflight",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-wechat-channels-product-video",
+    "display_name": "视频号商品视频制作",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-wechat-channels-product-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-tiktok-shop-product-video-maker",
+    "display_name": "TikTok Shop商品视频制作",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-tiktok-shop-product-video-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-taobao-main-video-maker",
+    "display_name": "淘宝天猫主图视频制作器",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-taobao-main-video-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-video-realism-retoucher",
+    "display_name": "视频去AI味·真实感精修",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-video-realism-retoucher",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-douyin-video-script-maker",
+    "display_name": "抖音脚本与抖音文案制作",
+    "category": "内容",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-douyin-video-script-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ai-image-generation-studio",
+    "display_name": "文生图与图片生成工作室",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ai-image-generation-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-publish-preflight-studio",
+    "display_name": "发布前内容预检",
+    "category": "审查",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-publish-preflight-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ai-photo-restyler",
+    "display_name": "照片转绘",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ai-photo-restyler",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-creator-account-teardown",
+    "display_name": "账号拆解与起号模板",
+    "category": "分析",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-creator-account-teardown",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-cover-performance-preflight",
+    "display_name": "封面优化预检",
+    "category": "审查",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-cover-performance-preflight",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ai-storyboard-generator",
+    "display_name": "分镜生成器",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ai-storyboard-generator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-novel-promo-video-maker",
+    "display_name": "小说推文视频生成",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-novel-promo-video-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-bilibili-thumbnail-maker",
+    "display_name": "B站视频封面制作器",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-bilibili-thumbnail-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-douyin-ugc-ad-creator",
+    "display_name": "抖音UGC带货视频制作",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-douyin-ugc-ad-creator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-wechat-article-visual-story",
+    "display_name": "公众号图文全案",
+    "category": "内容",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-wechat-article-visual-story",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-product-on-model-locale-studio",
+    "display_name": "AI多地区模特上身图工作室",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-product-on-model-locale-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ecommerce-detail-module-studio",
+    "display_name": "AI电商详情页模块",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ecommerce-detail-module-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-image-to-motion",
+    "display_name": "图生视频与照片动画",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-image-to-motion",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ip-character-consistency-studio",
+    "display_name": "角色一致性形象包",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ip-character-consistency-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-audio-drama-voice-studio",
+    "display_name": "多角色配音工作室",
+    "category": "音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-audio-drama-voice-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-douyin-live-commerce-visual-kit",
+    "display_name": "抖音直播电商视觉套装",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-douyin-live-commerce-visual-kit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-youtube-thumbnail-maker",
+    "display_name": "YouTube视频缩略图制作",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-youtube-thumbnail-maker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-ai-photo-cleanup-studio",
+    "display_name": "AI去路人·照片消除工作室",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-ai-photo-cleanup-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-indie-game-ost-pack",
+    "display_name": "游戏配乐·独立游戏原声带",
+    "category": "音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-indie-game-ost-pack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-brand-jingle-studio",
+    "display_name": "广告歌生成·品牌主题曲",
+    "category": "音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-brand-jingle-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-comment-voc-miner",
+    "display_name": "评论分析工作室",
+    "category": "分析",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-comment-voc-miner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-youtube-caption-studio",
+    "display_name": "视频字幕提取",
+    "category": "音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-youtube-caption-studio",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-assembly-one-step-clip",
+    "display_name": "组装步骤视频·一步一镜",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-assembly-one-step-clip",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-wx-account-diagnose",
+    "display_name": "公众号诊断",
+    "category": "分析",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-wx-account-diagnose",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-member-system-setup",
+    "display_name": "会员体系搭建",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-member-system-setup",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-cross-domain-synergy-plan",
+    "display_name": "公私域联动方案生成",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-cross-domain-synergy-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-private-domain-tag-system-build",
+    "display_name": "私域标签体系搭建",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-private-domain-tag-system-build",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-private-domain-sales-repurchase-strategy",
+    "display_name": "私域销售和复购策略",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-private-domain-sales-repurchase-strategy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-creator-filter",
+    "display_name": "视频号达人筛选",
+    "category": "分析",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-creator-filter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-forbidden-word-detect-optimize",
+    "display_name": "违禁词检测+优化",
+    "category": "审查",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-forbidden-word-detect-optimize",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-user-persona-and-crowd-insight",
+    "display_name": "用户画像与人群洞察",
+    "category": "分析",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-user-persona-and-crowd-insight",
+    "language": "zh-CN"
   }
 ]
