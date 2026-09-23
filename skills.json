@@ -53747,5 +53747,86 @@
     "batch": "enterprise-models-109-20260923",
     "path": "skills/aihive-mimo25-asr",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo-code-workflow",
+    "display_name": "MiMo Code工程任务迁移助手",
+    "category": "模型编程",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo-code-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo-pro-flash-benchmark",
+    "display_name": "小米MiMo Pro与Flash选型评测助手",
+    "category": "模型评测",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo-pro-flash-benchmark",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-qwen-image21-alpha",
+    "display_name": "Qwen-Image-2.1透明商品图助手",
+    "category": "模型图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-qwen-image21-alpha",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-qwen-image21-edit",
+    "display_name": "千问Qwen-Image-2.1多图编辑助手",
+    "category": "模型图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-qwen-image21-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-grok47-office",
+    "display_name": "Grok 4.7办公交付助手",
+    "category": "模型办公",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-grok47-office",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-hyimage35-poster",
+    "display_name": "混元Hy Image3.5海报测试助手",
+    "category": "模型图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-hyimage35-poster",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gpt6-sol-engineering",
+    "display_name": "GPT-6 Sol工程交付助手",
+    "category": "模型编程",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-gpt6-sol-engineering",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gpt6-luna-batch",
+    "display_name": "GPT-6 Luna批量表格处理助手",
+    "category": "模型批处理",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-gpt6-luna-batch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-claude-opus55-upgrade",
+    "display_name": "Claude Opus 5.5迁移验收助手",
+    "category": "模型评测",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-claude-opus55-upgrade",
+    "language": "zh-CN"
   }
 ]

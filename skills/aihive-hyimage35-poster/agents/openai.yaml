@@ -1,0 +1,4 @@
+interface:
+  display_name: "混元Hy Image3.5海报测试助手"
+  short_description: "结合AI-HIVE与文件工具，交付混元Hy Image3.5海报测试助手的可验收成果"
+  default_prompt: "使用 $aihive-hyimage35-poster 完成混元Hy Image3.5海报测试助手。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

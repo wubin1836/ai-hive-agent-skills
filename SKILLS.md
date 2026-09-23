@@ -6527,3 +6527,17 @@
 | [MiMo-V2.6蒸馏9B部署规划助手](skills/aihive-mimo26-distill9b/SKILL.md) | AI-HIVE | 模型选型 |
 | [小米MiMo-V2.5-TTS配音助手](skills/aihive-mimo25-tts/SKILL.md) | AI-HIVE | 模型音频 |
 | [小米MiMo-V2.5-ASR会议转写助手](skills/aihive-mimo25-asr/SKILL.md) | AI-HIVE | 模型音频 |
+
+## 2026-09-23 企业热门与新模型技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [MiMo Code工程任务迁移助手](skills/aihive-mimo-code-workflow/SKILL.md) | AI-HIVE | 模型编程 |
+| [小米MiMo Pro与Flash选型评测助手](skills/aihive-mimo-pro-flash-benchmark/SKILL.md) | AI-HIVE | 模型评测 |
+| [Qwen-Image-2.1透明商品图助手](skills/aihive-qwen-image21-alpha/SKILL.md) | AI-HIVE | 模型图片 |
+| [千问Qwen-Image-2.1多图编辑助手](skills/aihive-qwen-image21-edit/SKILL.md) | AI-HIVE | 模型图片 |
+| [Grok 4.7办公交付助手](skills/aihive-grok47-office/SKILL.md) | AI-HIVE | 模型办公 |
+| [混元Hy Image3.5海报测试助手](skills/aihive-hyimage35-poster/SKILL.md) | AI-HIVE | 模型图片 |
+| [GPT-6 Sol工程交付助手](skills/aihive-gpt6-sol-engineering/SKILL.md) | AI-HIVE | 模型编程 |
+| [GPT-6 Luna批量表格处理助手](skills/aihive-gpt6-luna-batch/SKILL.md) | AI-HIVE | 模型批处理 |
+| [Claude Opus 5.5迁移验收助手](skills/aihive-claude-opus55-upgrade/SKILL.md) | AI-HIVE | 模型评测 |
