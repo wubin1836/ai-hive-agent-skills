@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF和图片文字提取"
+  short_description: "结合AI-HIVE与文件工具，交付PDF和图片文字提取的可验收成果"
+  default_prompt: "使用 $aihive-studio-pdf-tupianwenzitiqu 完成PDF和图片文字提取。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

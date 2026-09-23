@@ -6472,3 +6472,58 @@
 | [视频号达人筛选](skills/aihive-studio-creator-filter/SKILL.md) | AI-HIVE | 分析 |
 | [违禁词检测+优化](skills/aihive-studio-forbidden-word-detect-optimize/SKILL.md) | AI-HIVE | 审查 |
 | [用户画像与人群洞察](skills/aihive-studio-user-persona-and-crowd-insight/SKILL.md) | AI-HIVE | 分析 |
+
+## 2026-09-23 企业热门与新模型技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [一键改稿多平台分发](skills/aihive-studio-one-click-rewrite-multi-publish/SKILL.md) | AI-HIVE | 内容 |
+| [企微运营方案生成](skills/aihive-studio-wecom-ops-plan-generator/SKILL.md) | AI-HIVE | 运营 |
+| [短视频内容审核（文案/画面/声音）](skills/aihive-studio-short-video-content-audit/SKILL.md) | AI-HIVE | 审查 |
+| [私域活动策划](skills/aihive-studio-private-domain-activity-planner/SKILL.md) | AI-HIVE | 运营 |
+| [选品策略与品类规划](skills/aihive-studio-product-strategy-and-category-planning/SKILL.md) | AI-HIVE | 运营 |
+| [爆品打造路径与上架节奏](skills/aihive-studio-hit-product-launch/SKILL.md) | AI-HIVE | 运营 |
+| [标书制作全流程专家](skills/aihive-studio-bid-proposal-full-process-expert/SKILL.md) | AI-HIVE | 文档 |
+| [招标文件智能解析器（标书skill）](skills/aihive-studio-tender-document-smart-parser/SKILL.md) | AI-HIVE | 文档 |
+| [标书合规审查助手（标书skill）](skills/aihive-studio-bid-proposal-compliance-assistant/SKILL.md) | AI-HIVE | 审查 |
+| [招投标RAG知识检索助手](skills/aihive-studio-bid-rag-knowledge-search/SKILL.md) | AI-HIVE | 检索 |
+| [CRM客户档案补全与商机洞察](skills/aihive-studio-crm/SKILL.md) | AI-HIVE | 运营 |
+| [DOCX 创建、编辑与分析](skills/aihive-studio-docx/SKILL.md) | AI-HIVE | 文档 |
+| [内部沟通文档撰写](skills/aihive-studio-internal-comms/SKILL.md) | AI-HIVE | 文档 |
+| [文档协作撰写工作流](skills/aihive-studio-doc-coauthoring/SKILL.md) | AI-HIVE | 文档 |
+| [竞争分析](skills/aihive-studio-compete/SKILL.md) | AI-HIVE | 分析 |
+| [图解](skills/aihive-studio-mermaid-diagram/SKILL.md) | AI-HIVE | 图解 |
+| [软件架构图生成器](skills/aihive-studio-software-architecture-diagram-generator/SKILL.md) | AI-HIVE | 图解 |
+| [城市天气画报生成](skills/aihive-studio-city-weather-poster-generator/SKILL.md) | AI-HIVE | 图片 |
+| [公文写作专家](skills/aihive-studio-gongwenxiezuo/SKILL.md) | AI-HIVE | 文档 |
+| [公众号爆款写作台](skills/aihive-studio-wechat-writer-pro/SKILL.md) | AI-HIVE | 内容 |
+| [小说·剧本转分镜](skills/aihive-studio-xiaoshuojubenzhuanfenjing/SKILL.md) | AI-HIVE | 视频 |
+| [小说评分专家](skills/aihive-studio-xiaoshuopingfen/SKILL.md) | AI-HIVE | 审查 |
+| [合同审查助手](skills/aihive-studio-hetongfengxianshencha/SKILL.md) | AI-HIVE | 审查 |
+| [自媒体全平台内容矩阵](skills/aihive-studio-omni-content-matrix/SKILL.md) | AI-HIVE | 运营 |
+| [数据可视化全域大师](skills/aihive-studio-data-visualization-master/SKILL.md) | AI-HIVE | 分析 |
+| [AI 漫剧/短剧全流程一站式生成助手](skills/aihive-studio-manjuduanjushengcheng/SKILL.md) | AI-HIVE | 视频 |
+| [微信公众号排版大师](skills/aihive-studio-wechat-official-account-typesetting-master/SKILL.md) | AI-HIVE | 文档 |
+| [学术论文双轨审查·漏洞扫描](skills/aihive-studio-xueshulunwenyushenchaloudongsaomiao/SKILL.md) | AI-HIVE | 审查 |
+| [PDF和图片文字提取](skills/aihive-studio-pdf-tupianwenzitiqu/SKILL.md) | AI-HIVE | 文档 |
+| [写作文风复刻大师](skills/aihive-studio-xiezuowenfengfukedashi/SKILL.md) | AI-HIVE | 内容 |
+| [品牌GEO体检报告](skills/aihive-studio-brandgeo/SKILL.md) | AI-HIVE | 分析 |
+| [Meta Muse Spark 1.3接入助手](skills/aihive-muse-spark-13-connect/SKILL.md) | AI-HIVE | 模型接入 |
+| [Muse Spark长任务交付助手](skills/aihive-muse-spark-13-project/SKILL.md) | AI-HIVE | 模型工作流 |
+| [Muse Code项目改造助手](skills/aihive-muse-code-migration/SKILL.md) | AI-HIVE | 模型编程 |
+| [Muse Glimmer本地与云端选型助手](skills/aihive-muse-glimmer-planner/SKILL.md) | AI-HIVE | 模型选型 |
+| [Muse Image多参考商品图助手](skills/aihive-muse-image-reference/SKILL.md) | AI-HIVE | 模型图片 |
+| [Muse Image局部改图助手](skills/aihive-muse-image-local-edit/SKILL.md) | AI-HIVE | 模型图片 |
+| [Muse Image活动海报助手](skills/aihive-muse-image-poster/SKILL.md) | AI-HIVE | 模型图片 |
+| [Muse Video可用性核验与分镜助手](skills/aihive-muse-video-preflight/SKILL.md) | AI-HIVE | 模型视频 |
+| [Muse Voice录音转写与字幕助手](skills/aihive-muse-voice-transcribe/SKILL.md) | AI-HIVE | 模型音频 |
+| [Meta SAM 3.1商品抠图与视频遮罩助手](skills/aihive-meta-sam31-cutout/SKILL.md) | AI-HIVE | 模型图片 |
+| [Muse Standard与Contributor成本隐私助手](skills/aihive-muse-tier-privacy/SKILL.md) | AI-HIVE | 模型选型 |
+| [小米MiMo-V2.6接入助手](skills/aihive-mimo26-connect/SKILL.md) | AI-HIVE | 模型接入 |
+| [MiMo-V2.6-Pro长文档审阅助手](skills/aihive-mimo26-pro-docs/SKILL.md) | AI-HIVE | 模型文档 |
+| [MiMo-V2.6-Flash批量内容助手](skills/aihive-mimo26-flash-batch/SKILL.md) | AI-HIVE | 模型批处理 |
+| [MiMo-V2.6视频理解与镜头检索助手](skills/aihive-mimo26-video-analysis/SKILL.md) | AI-HIVE | 模型理解 |
+| [MiMo-V2.6代码修复与回归助手](skills/aihive-mimo26-code-fix/SKILL.md) | AI-HIVE | 模型编程 |
+| [MiMo-V2.6蒸馏9B部署规划助手](skills/aihive-mimo26-distill9b/SKILL.md) | AI-HIVE | 模型选型 |
+| [小米MiMo-V2.5-TTS配音助手](skills/aihive-mimo25-tts/SKILL.md) | AI-HIVE | 模型音频 |
+| [小米MiMo-V2.5-ASR会议转写助手](skills/aihive-mimo25-asr/SKILL.md) | AI-HIVE | 模型音频 |

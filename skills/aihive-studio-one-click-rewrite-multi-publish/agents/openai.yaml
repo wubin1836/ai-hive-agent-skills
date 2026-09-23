@@ -1,0 +1,4 @@
+interface:
+  display_name: "一键改稿多平台分发"
+  short_description: "结合AI-HIVE与文件工具，交付一键改稿多平台分发的可验收成果"
+  default_prompt: "使用 $aihive-studio-one-click-rewrite-multi-publish 完成一键改稿多平台分发。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

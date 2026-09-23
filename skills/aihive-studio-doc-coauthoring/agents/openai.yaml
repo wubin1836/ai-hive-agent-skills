@@ -1,0 +1,4 @@
+interface:
+  display_name: "文档协作撰写工作流"
+  short_description: "结合AI-HIVE与文件工具，交付文档协作撰写工作流的可验收成果"
+  default_prompt: "使用 $aihive-studio-doc-coauthoring 完成文档协作撰写工作流。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

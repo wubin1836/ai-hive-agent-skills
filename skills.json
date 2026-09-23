@@ -53297,5 +53297,455 @@
     "batch": "enterprise-models-109-20260923",
     "path": "skills/aihive-studio-user-persona-and-crowd-insight",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-one-click-rewrite-multi-publish",
+    "display_name": "一键改稿多平台分发",
+    "category": "内容",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-one-click-rewrite-multi-publish",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-wecom-ops-plan-generator",
+    "display_name": "企微运营方案生成",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-wecom-ops-plan-generator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-short-video-content-audit",
+    "display_name": "短视频内容审核（文案/画面/声音）",
+    "category": "审查",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-short-video-content-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-private-domain-activity-planner",
+    "display_name": "私域活动策划",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-private-domain-activity-planner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-product-strategy-and-category-planning",
+    "display_name": "选品策略与品类规划",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-product-strategy-and-category-planning",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-hit-product-launch",
+    "display_name": "爆品打造路径与上架节奏",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-hit-product-launch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-bid-proposal-full-process-expert",
+    "display_name": "标书制作全流程专家",
+    "category": "文档",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-bid-proposal-full-process-expert",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-tender-document-smart-parser",
+    "display_name": "招标文件智能解析器（标书skill）",
+    "category": "文档",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-tender-document-smart-parser",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-bid-proposal-compliance-assistant",
+    "display_name": "标书合规审查助手（标书skill）",
+    "category": "审查",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-bid-proposal-compliance-assistant",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-bid-rag-knowledge-search",
+    "display_name": "招投标RAG知识检索助手",
+    "category": "检索",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-bid-rag-knowledge-search",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-crm",
+    "display_name": "CRM客户档案补全与商机洞察",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-crm",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-docx",
+    "display_name": "DOCX 创建、编辑与分析",
+    "category": "文档",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-docx",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-internal-comms",
+    "display_name": "内部沟通文档撰写",
+    "category": "文档",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-internal-comms",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-doc-coauthoring",
+    "display_name": "文档协作撰写工作流",
+    "category": "文档",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-doc-coauthoring",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-compete",
+    "display_name": "竞争分析",
+    "category": "分析",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-compete",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-mermaid-diagram",
+    "display_name": "图解",
+    "category": "图解",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-mermaid-diagram",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-software-architecture-diagram-generator",
+    "display_name": "软件架构图生成器",
+    "category": "图解",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-software-architecture-diagram-generator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-city-weather-poster-generator",
+    "display_name": "城市天气画报生成",
+    "category": "图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-city-weather-poster-generator",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-gongwenxiezuo",
+    "display_name": "公文写作专家",
+    "category": "文档",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-gongwenxiezuo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-wechat-writer-pro",
+    "display_name": "公众号爆款写作台",
+    "category": "内容",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-wechat-writer-pro",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-xiaoshuojubenzhuanfenjing",
+    "display_name": "小说·剧本转分镜",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-xiaoshuojubenzhuanfenjing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-xiaoshuopingfen",
+    "display_name": "小说评分专家",
+    "category": "审查",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-xiaoshuopingfen",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-hetongfengxianshencha",
+    "display_name": "合同审查助手",
+    "category": "审查",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-hetongfengxianshencha",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-omni-content-matrix",
+    "display_name": "自媒体全平台内容矩阵",
+    "category": "运营",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-omni-content-matrix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-data-visualization-master",
+    "display_name": "数据可视化全域大师",
+    "category": "分析",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-data-visualization-master",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-manjuduanjushengcheng",
+    "display_name": "AI 漫剧/短剧全流程一站式生成助手",
+    "category": "视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-manjuduanjushengcheng",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-wechat-official-account-typesetting-master",
+    "display_name": "微信公众号排版大师",
+    "category": "文档",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-wechat-official-account-typesetting-master",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-xueshulunwenyushenchaloudongsaomiao",
+    "display_name": "学术论文双轨审查·漏洞扫描",
+    "category": "审查",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-xueshulunwenyushenchaloudongsaomiao",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-pdf-tupianwenzitiqu",
+    "display_name": "PDF和图片文字提取",
+    "category": "文档",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-pdf-tupianwenzitiqu",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-xiezuowenfengfukedashi",
+    "display_name": "写作文风复刻大师",
+    "category": "内容",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-xiezuowenfengfukedashi",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-studio-brandgeo",
+    "display_name": "品牌GEO体检报告",
+    "category": "分析",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-studio-brandgeo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-spark-13-connect",
+    "display_name": "Meta Muse Spark 1.3接入助手",
+    "category": "模型接入",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-spark-13-connect",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-spark-13-project",
+    "display_name": "Muse Spark长任务交付助手",
+    "category": "模型工作流",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-spark-13-project",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-code-migration",
+    "display_name": "Muse Code项目改造助手",
+    "category": "模型编程",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-code-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-glimmer-planner",
+    "display_name": "Muse Glimmer本地与云端选型助手",
+    "category": "模型选型",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-glimmer-planner",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-image-reference",
+    "display_name": "Muse Image多参考商品图助手",
+    "category": "模型图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-image-reference",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-image-local-edit",
+    "display_name": "Muse Image局部改图助手",
+    "category": "模型图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-image-local-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-image-poster",
+    "display_name": "Muse Image活动海报助手",
+    "category": "模型图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-image-poster",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-video-preflight",
+    "display_name": "Muse Video可用性核验与分镜助手",
+    "category": "模型视频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-video-preflight",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-voice-transcribe",
+    "display_name": "Muse Voice录音转写与字幕助手",
+    "category": "模型音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-voice-transcribe",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-meta-sam31-cutout",
+    "display_name": "Meta SAM 3.1商品抠图与视频遮罩助手",
+    "category": "模型图片",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-meta-sam31-cutout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-muse-tier-privacy",
+    "display_name": "Muse Standard与Contributor成本隐私助手",
+    "category": "模型选型",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-muse-tier-privacy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo26-connect",
+    "display_name": "小米MiMo-V2.6接入助手",
+    "category": "模型接入",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo26-connect",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo26-pro-docs",
+    "display_name": "MiMo-V2.6-Pro长文档审阅助手",
+    "category": "模型文档",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo26-pro-docs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo26-flash-batch",
+    "display_name": "MiMo-V2.6-Flash批量内容助手",
+    "category": "模型批处理",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo26-flash-batch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo26-video-analysis",
+    "display_name": "MiMo-V2.6视频理解与镜头检索助手",
+    "category": "模型理解",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo26-video-analysis",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo26-code-fix",
+    "display_name": "MiMo-V2.6代码修复与回归助手",
+    "category": "模型编程",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo26-code-fix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo26-distill9b",
+    "display_name": "MiMo-V2.6蒸馏9B部署规划助手",
+    "category": "模型选型",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo26-distill9b",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo25-tts",
+    "display_name": "小米MiMo-V2.5-TTS配音助手",
+    "category": "模型音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo25-tts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mimo25-asr",
+    "display_name": "小米MiMo-V2.5-ASR会议转写助手",
+    "category": "模型音频",
+    "brand": "AI-HIVE",
+    "batch": "enterprise-models-109-20260923",
+    "path": "skills/aihive-mimo25-asr",
+    "language": "zh-CN"
   }
 ]

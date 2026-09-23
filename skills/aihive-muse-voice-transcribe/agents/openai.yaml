@@ -1,0 +1,4 @@
+interface:
+  display_name: "Muse Voice录音转写与字幕助手"
+  short_description: "结合AI-HIVE与文件工具，交付Muse Voice录音转写与字幕助手的可验收成果"
+  default_prompt: "使用 $aihive-muse-voice-transcribe 完成Muse Voice录音转写与字幕助手。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

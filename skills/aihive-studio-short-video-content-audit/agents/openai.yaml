@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频内容审核（文案/画面/声音）"
+  short_description: "结合AI-HIVE与文件工具，交付短视频内容审核（文案/画面/声音）的可验收成果"
+  default_prompt: "使用 $aihive-studio-short-video-content-audit 完成短视频内容审核（文案/画面/声音）。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

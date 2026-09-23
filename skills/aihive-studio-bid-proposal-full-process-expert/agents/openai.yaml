@@ -1,0 +1,4 @@
+interface:
+  display_name: "标书制作全流程专家"
+  short_description: "结合AI-HIVE与文件工具，交付标书制作全流程专家的可验收成果"
+  default_prompt: "使用 $aihive-studio-bid-proposal-full-process-expert 完成标书制作全流程专家。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"

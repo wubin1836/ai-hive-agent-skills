@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 漫剧/短剧全流程一站式生成助手"
+  short_description: "结合AI-HIVE与文件工具，交付AI 漫剧/短剧全流程一站式生成助手的可验收成果"
+  default_prompt: "使用 $aihive-studio-manjuduanjushengcheng 完成AI 漫剧/短剧全流程一站式生成助手。先检查我提供的材料与可用工具，说明缺项、费用和交付文件；未经确认不上传敏感资料或发布。"
