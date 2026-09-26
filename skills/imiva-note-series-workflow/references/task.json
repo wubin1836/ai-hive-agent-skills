@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-note-series-workflow",
+  "title": "同商品系列笔记去重复助手",
+  "route": "image_text_commerce",
+  "group": "图文带货",
+  "kind": "功能任务",
+  "aliases": [
+    "笔记选题不重复",
+    "同产品多篇",
+    "种草矩阵"
+  ],
+  "inputs": [
+    "既有笔记",
+    "真实卖点库",
+    "计划数量"
+  ],
+  "steps": [
+    "按不同决策问题划分主题",
+    "每篇建立独立证据图",
+    "检查观点图文与旧稿重复度"
+  ],
+  "deliverables": [
+    "系列笔记",
+    "主题差异表"
+  ],
+  "acceptance": "不通过简单改词规避平台审核",
+  "source": "https://imiva.ecpro.com",
+  "description": "同商品系列笔记去重复助手：适用于笔记选题不重复、同产品多篇、种草矩阵等需求。用 IMIVA 电商内容专家整理真实素材，完成系列笔记、主题差异表，逐项检查不通过简单改词规避平台审核。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_text_commerce",
+  "channel": "",
+  "tools": [
+    "prepare_koc_note_package_task",
+    "submit_koc_note_package_task"
+  ],
+  "new_literal_terms": [
+    "笔记选题不重复",
+    "同产品多篇"
+  ]
+}

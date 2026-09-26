@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-edit-shadow-workflow",
+  "title": "商品落地阴影修复助手",
+  "route": "precision_edit",
+  "group": "局部精修",
+  "kind": "功能任务",
+  "aliases": [
+    "产品悬浮感",
+    "阴影不自然",
+    "接触阴影"
+  ],
+  "inputs": [
+    "商品图",
+    "光线方向",
+    "放置平面"
+  ],
+  "steps": [
+    "定位接触面",
+    "只改阴影范围",
+    "核对投影方向与主体边缘"
+  ],
+  "deliverables": [
+    "阴影修复图",
+    "光向说明"
+  ],
+  "acceptance": "阴影不能遮挡关键产品缺陷",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品落地阴影修复助手：适用于产品悬浮感、阴影不自然、接触阴影等需求。用 IMIVA 电商内容专家整理真实素材，完成阴影修复图、光向说明，逐项检查阴影不能遮挡关键产品缺陷。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=precision_edit",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "产品悬浮感",
+    "阴影不自然",
+    "接触阴影"
+  ]
+}

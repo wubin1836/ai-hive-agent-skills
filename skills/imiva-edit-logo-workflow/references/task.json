@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-edit-logo-workflow",
+  "title": "自有Logo局部保真修复助手",
+  "route": "precision_edit",
+  "group": "局部精修",
+  "kind": "功能任务",
+  "aliases": [
+    "Logo修复",
+    "品牌标志变形",
+    "商标画错"
+  ],
+  "inputs": [
+    "自有Logo源文件",
+    "商品图",
+    "授权"
+  ],
+  "steps": [
+    "标注损坏Logo区域",
+    "用授权原稿约束修改",
+    "核对形状比例和位置"
+  ],
+  "deliverables": [
+    "修复图",
+    "Logo对照"
+  ],
+  "acceptance": "不得替换他牌标志制造假货",
+  "source": "https://imiva.ecpro.com",
+  "description": "自有Logo局部保真修复助手：适用于Logo修复、品牌标志变形、商标画错等需求。用 IMIVA 电商内容专家整理真实素材，完成修复图、Logo对照，逐项检查不得替换他牌标志制造假货。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=precision_edit",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "Logo修复",
+    "品牌标志变形",
+    "商标画错"
+  ]
+}

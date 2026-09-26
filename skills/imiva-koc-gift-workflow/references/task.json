@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-koc-gift-workflow",
+  "title": "送礼开箱情境拼图助手",
+  "route": "koc_grid",
+  "group": "KOC种草拼图",
+  "kind": "功能任务",
+  "aliases": [
+    "送礼种草图",
+    "礼盒开箱",
+    "节日好物"
+  ],
+  "inputs": [
+    "礼盒图",
+    "包含物",
+    "适用关系"
+  ],
+  "steps": [
+    "围绕收礼开箱使用安排格位",
+    "锁定包装清单",
+    "标明演示内容"
+  ],
+  "deliverables": [
+    "礼物拼图",
+    "开箱格位表"
+  ],
+  "acceptance": "不伪造客户晒单",
+  "source": "https://imiva.ecpro.com",
+  "description": "送礼开箱情境拼图助手：适用于送礼种草图、礼盒开箱、节日好物等需求。用 IMIVA 电商内容专家整理真实素材，完成礼物拼图、开箱格位表，逐项检查不伪造客户晒单。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=koc_grid",
+  "channel": "",
+  "tools": [
+    "prepare_koc_collage_task",
+    "submit_koc_collage_task"
+  ],
+  "new_literal_terms": [
+    "送礼种草图",
+    "礼盒开箱",
+    "节日好物"
+  ]
+}

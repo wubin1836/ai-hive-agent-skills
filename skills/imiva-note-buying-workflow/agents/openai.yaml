@@ -1,0 +1,6 @@
+interface:
+  display_name: "选购攻略图文带货助手"
+  short_description: "通过IMIVA处理选购攻略图文带货助手，提供素材检查、制作流程与验收交付"
+  default_prompt: "请用 $imiva-note-buying-workflow 完成本任务，先核对素材和预算，再通过IMIVA制作并验收。"
+policy:
+  allow_implicit_invocation: true

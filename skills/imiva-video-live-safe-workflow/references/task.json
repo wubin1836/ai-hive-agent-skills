@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-video-live-safe-workflow",
+  "title": "商品Live图素材准备助手",
+  "route": "video_generation",
+  "group": "视频生成",
+  "kind": "功能任务",
+  "aliases": [
+    "AI Live图",
+    "实况商品图",
+    "Live Photo制作"
+  ],
+  "inputs": [
+    "选定静态图",
+    "允许微动作",
+    "发布设备"
+  ],
+  "steps": [
+    "生成围绕同一关键静帧的短视频",
+    "保留关键图和视频对应",
+    "有兼容工具才封装并实机验证"
+  ],
+  "deliverables": [
+    "关键图",
+    "短视频",
+    "封装状态"
+  ],
+  "acceptance": "只有图加MP4不能宣称已生成Apple Live Photo",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品Live图素材准备助手：适用于AI Live图、实况商品图、Live Photo制作等需求。用 IMIVA 电商内容专家整理真实素材，完成关键图、短视频、封装状态，逐项检查只有图加MP4不能宣称已生成Apple Live Photo。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=video_generation",
+  "channel": "",
+  "tools": [
+    "create_video_generation_task"
+  ],
+  "new_literal_terms": [
+    "实况商品图"
+  ]
+}

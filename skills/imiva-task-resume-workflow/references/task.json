@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-task-resume-workflow",
+  "title": "商品内容断点续做助手",
+  "route": "ops",
+  "group": "制作交付与任务管理",
+  "kind": "功能任务",
+  "aliases": [
+    "生成中断",
+    "断点续做",
+    "任务恢复"
+  ],
+  "inputs": [
+    "原任务ID",
+    "taskType",
+    "已交付列表"
+  ],
+  "steps": [
+    "先查原任务而非重建",
+    "只识别确实缺失的结果",
+    "得到确认后单独补齐"
+  ],
+  "deliverables": [
+    "任务核对表",
+    "缺项清单"
+  ],
+  "acceptance": "重复提交前必须确认是否已扣费",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品内容断点续做助手：适用于生成中断、断点续做、任务恢复等需求。用 IMIVA 电商内容专家整理真实素材，完成任务核对表、缺项清单，逐项检查重复提交前必须确认是否已扣费。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/task-center",
+  "channel": "",
+  "tools": [
+    "get_user_tasks",
+    "get_user_products",
+    "get_user_credits",
+    "create_material_upload",
+    "get_material_upload"
+  ],
+  "new_literal_terms": []
+}

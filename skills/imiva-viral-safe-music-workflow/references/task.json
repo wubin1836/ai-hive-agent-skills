@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-viral-safe-music-workflow",
+  "title": "参考视频音乐动作分离助手",
+  "route": "viral_video_copy",
+  "group": "爆款视频复制",
+  "kind": "功能任务",
+  "aliases": [
+    "参考节奏不用原音乐",
+    "视频版权",
+    "动作参考"
+  ],
+  "inputs": [
+    "授权范围",
+    "参考视频",
+    "可用音源"
+  ],
+  "steps": [
+    "区分节奏结构与受保护音轨",
+    "重写节奏并使用允许素材",
+    "核对成片不残留原片声音"
+  ],
+  "deliverables": [
+    "原创视频方案",
+    "音源说明"
+  ],
+  "acceptance": "未获授权不得提取原音乐使用",
+  "source": "https://imiva.ecpro.com",
+  "description": "参考视频音乐动作分离助手：适用于参考节奏不用原音乐、视频版权、动作参考等需求。用 IMIVA 电商内容专家整理真实素材，完成原创视频方案、音源说明，逐项检查未获授权不得提取原音乐使用。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=viral_video_copy",
+  "channel": "",
+  "tools": [
+    "create_viral_video_copy_task",
+    "update_viral_video_copy_plan",
+    "confirm_viral_video_copy_task"
+  ],
+  "new_literal_terms": [
+    "参考节奏不用原音乐",
+    "视频版权"
+  ]
+}

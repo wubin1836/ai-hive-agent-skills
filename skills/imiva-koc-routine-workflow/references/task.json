@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-koc-routine-workflow",
+  "title": "商品一天使用场景拼图助手",
+  "route": "koc_grid",
+  "group": "KOC种草拼图",
+  "kind": "功能任务",
+  "aliases": [
+    "一天使用图",
+    "日常种草拼图",
+    "早中晚场景"
+  ],
+  "inputs": [
+    "商品图",
+    "真实用途",
+    "场景顺序"
+  ],
+  "steps": [
+    "按时间安排不同使用情境",
+    "保持主体和人物设定一致",
+    "标注品牌演示而非真实用户证言"
+  ],
+  "deliverables": [
+    "场景拼图",
+    "情境说明"
+  ],
+  "acceptance": "不可虚构真实用户的使用反馈",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品一天使用场景拼图助手：适用于一天使用图、日常种草拼图、早中晚场景等需求。用 IMIVA 电商内容专家整理真实素材，完成场景拼图、情境说明，逐项检查不可虚构真实用户的使用反馈。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=koc_grid",
+  "channel": "",
+  "tools": [
+    "prepare_koc_collage_task",
+    "submit_koc_collage_task"
+  ],
+  "new_literal_terms": [
+    "一天使用图",
+    "日常种草拼图",
+    "早中晚场景"
+  ]
+}

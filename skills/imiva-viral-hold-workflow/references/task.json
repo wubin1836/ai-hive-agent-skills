@@ -1,0 +1,42 @@
+{
+  "slug": "imiva-viral-hold-workflow",
+  "title": "视频复刻先看方案助手",
+  "route": "viral_video_copy",
+  "group": "爆款视频复制",
+  "kind": "功能任务",
+  "aliases": [
+    "复刻先出方案",
+    "不直接扣费",
+    "策划确认"
+  ],
+  "inputs": [
+    "参考视频",
+    "预算上限",
+    "输出要求"
+  ],
+  "steps": [
+    "先执行可用的预检",
+    "保留分步策划不自动确认生成",
+    "用户选定版本后再正式提交"
+  ],
+  "deliverables": [
+    "方案稿",
+    "预算记录",
+    "任务状态"
+  ],
+  "acceptance": "草稿和预检不等于已产生成片",
+  "source": "https://imiva.ecpro.com",
+  "description": "视频复刻先看方案助手：适用于复刻先出方案、不直接扣费、策划确认等需求。用 IMIVA 电商内容专家整理真实素材，完成方案稿、预算记录、任务状态，逐项检查草稿和预检不等于已产生成片。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=viral_video_copy",
+  "channel": "",
+  "tools": [
+    "create_viral_video_copy_task",
+    "update_viral_video_copy_plan",
+    "confirm_viral_video_copy_task"
+  ],
+  "new_literal_terms": [
+    "复刻先出方案",
+    "不直接扣费",
+    "策划确认"
+  ]
+}

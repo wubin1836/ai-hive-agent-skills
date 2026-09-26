@@ -1,0 +1,41 @@
+{
+  "slug": "imiva-viral-format-workflow",
+  "title": "爆款横竖版分镜重构助手",
+  "route": "viral_video_copy",
+  "group": "爆款视频复制",
+  "kind": "功能任务",
+  "aliases": [
+    "横版改竖版分镜",
+    "视频画幅重构",
+    "不是裁切"
+  ],
+  "inputs": [
+    "参考片",
+    "商品素材",
+    "目标版位"
+  ],
+  "steps": [
+    "逐镜重排主体位置",
+    "舍弃无法适配的构图重新设计",
+    "对比关键信息完整"
+  ],
+  "deliverables": [
+    "新版视频",
+    "镜头映射"
+  ],
+  "acceptance": "不能仅裁切后宣称完成内容重构",
+  "source": "https://imiva.ecpro.com",
+  "description": "爆款横竖版分镜重构助手：适用于横版改竖版分镜、视频画幅重构、不是裁切等需求。用 IMIVA 电商内容专家整理真实素材，完成新版视频、镜头映射，逐项检查不能仅裁切后宣称完成内容重构。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=viral_video_copy",
+  "channel": "",
+  "tools": [
+    "create_viral_video_copy_task",
+    "update_viral_video_copy_plan",
+    "confirm_viral_video_copy_task"
+  ],
+  "new_literal_terms": [
+    "横版改竖版分镜",
+    "视频画幅重构",
+    "不是裁切"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-video-gif-safe-workflow",
+  "title": "商品视频转GIF交付助手",
+  "route": "video_generation",
+  "group": "视频生成",
+  "kind": "功能任务",
+  "aliases": [
+    "AI动图",
+    "商品动图",
+    "商品GIF",
+    "动图广告",
+    "视频转动图",
+    "动态主图"
+  ],
+  "inputs": [
+    "已授权视频或商品图",
+    "容量目标",
+    "画幅"
+  ],
+  "steps": [
+    "先准备合适短视频",
+    "用可用本地转码工具输出GIF",
+    "检查帧率色带文件体积"
+  ],
+  "deliverables": [
+    "MP4与GIF",
+    "转码记录"
+  ],
+  "acceptance": "GIF封装不是IMIVA原生工具保证",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品视频转GIF交付助手：适用于AI动图、商品动图、商品GIF、动图广告、视频转动图、动态主图等需求。用 IMIVA 电商内容专家整理真实素材，完成MP4与GIF、转码记录，逐项检查GIF封装不是IMIVA原生工具保证。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=video_generation",
+  "channel": "",
+  "tools": [
+    "create_video_generation_task"
+  ],
+  "new_literal_terms": [
+    "商品GIF"
+  ]
+}

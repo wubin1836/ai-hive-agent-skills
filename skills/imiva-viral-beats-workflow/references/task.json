@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-viral-beats-workflow",
+  "title": "参考视频节奏拆解重创助手",
+  "route": "viral_video_copy",
+  "group": "爆款视频复制",
+  "kind": "功能任务",
+  "aliases": [
+    "视频复刻",
+    "爆款拆解",
+    "节奏参考"
+  ],
+  "inputs": [
+    "有权参考的视频",
+    "自有产品图",
+    "使用权限"
+  ],
+  "steps": [
+    "只提取镜头功能和节奏",
+    "为自有商品重写动作卖点",
+    "确认策划和预算后生成"
+  ],
+  "deliverables": [
+    "原创策划",
+    "新视频",
+    "差异表"
+  ],
+  "acceptance": "不克隆人物身份声音及受保护片段",
+  "source": "https://imiva.ecpro.com",
+  "description": "参考视频节奏拆解重创助手：适用于视频复刻、爆款拆解、节奏参考等需求。用 IMIVA 电商内容专家整理真实素材，完成原创策划、新视频、差异表，逐项检查不克隆人物身份声音及受保护片段。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=viral_video_copy",
+  "channel": "",
+  "tools": [
+    "create_viral_video_copy_task",
+    "update_viral_video_copy_plan",
+    "confirm_viral_video_copy_task"
+  ],
+  "new_literal_terms": [
+    "节奏参考"
+  ]
+}

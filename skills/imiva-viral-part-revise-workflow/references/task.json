@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-viral-part-revise-workflow",
+  "title": "爆款视频分镜局部改稿助手",
+  "route": "viral_video_copy",
+  "group": "爆款视频复制",
+  "kind": "功能任务",
+  "aliases": [
+    "只改一个镜头",
+    "复刻方案修改",
+    "视频改稿"
+  ],
+  "inputs": [
+    "原策划任务ID",
+    "版本",
+    "修改镜头"
+  ],
+  "steps": [
+    "读取原策划版本",
+    "只改用户指定字段",
+    "版本核对后再次确认"
+  ],
+  "deliverables": [
+    "修订策划",
+    "变更日志"
+  ],
+  "acceptance": "不能改完自动重复创建整单",
+  "source": "https://imiva.ecpro.com",
+  "description": "爆款视频分镜局部改稿助手：适用于只改一个镜头、复刻方案修改、视频改稿等需求。用 IMIVA 电商内容专家整理真实素材，完成修订策划、变更日志，逐项检查不能改完自动重复创建整单。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=viral_video_copy",
+  "channel": "",
+  "tools": [
+    "create_viral_video_copy_task",
+    "update_viral_video_copy_plan",
+    "confirm_viral_video_copy_task"
+  ],
+  "new_literal_terms": [
+    "复刻方案修改"
+  ]
+}

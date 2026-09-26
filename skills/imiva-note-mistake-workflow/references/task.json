@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-note-mistake-workflow",
+  "title": "商品使用误区图文助手",
+  "route": "image_text_commerce",
+  "group": "图文带货",
+  "kind": "功能任务",
+  "aliases": [
+    "避坑笔记",
+    "使用误区",
+    "购买注意事项"
+  ],
+  "inputs": [
+    "说明书",
+    "客服常问",
+    "限定条件"
+  ],
+  "steps": [
+    "从真实说明中提取误区",
+    "设计错误与正确用法示意",
+    "审核安全性和措辞"
+  ],
+  "deliverables": [
+    "误区图文包",
+    "依据对照"
+  ],
+  "acceptance": "不制造恐慌或假称医生推荐",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品使用误区图文助手：适用于避坑笔记、使用误区、购买注意事项等需求。用 IMIVA 电商内容专家整理真实素材，完成误区图文包、依据对照，逐项检查不制造恐慌或假称医生推荐。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_text_commerce",
+  "channel": "",
+  "tools": [
+    "prepare_koc_note_package_task",
+    "submit_koc_note_package_task"
+  ],
+  "new_literal_terms": [
+    "避坑笔记",
+    "使用误区",
+    "购买注意事项"
+  ]
+}

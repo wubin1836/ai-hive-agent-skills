@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-note-buying-workflow",
+  "title": "选购攻略图文带货助手",
+  "route": "image_text_commerce",
+  "group": "图文带货",
+  "kind": "功能任务",
+  "aliases": [
+    "怎么选商品",
+    "选购笔记",
+    "买前攻略图"
+  ],
+  "inputs": [
+    "自有商品范围",
+    "参数",
+    "人群差异"
+  ],
+  "steps": [
+    "按实际决策维度组织",
+    "生成可比较的图卡",
+    "标注适用与不适用情境"
+  ],
+  "deliverables": [
+    "选购图文包",
+    "参数出处"
+  ],
+  "acceptance": "不虚构竞品体验和排名",
+  "source": "https://imiva.ecpro.com",
+  "description": "选购攻略图文带货助手：适用于怎么选商品、选购笔记、买前攻略图等需求。用 IMIVA 电商内容专家整理真实素材，完成选购图文包、参数出处，逐项检查不虚构竞品体验和排名。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_text_commerce",
+  "channel": "",
+  "tools": [
+    "prepare_koc_note_package_task",
+    "submit_koc_note_package_task"
+  ],
+  "new_literal_terms": [
+    "怎么选商品",
+    "选购笔记",
+    "买前攻略图"
+  ]
+}

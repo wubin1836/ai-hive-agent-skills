@@ -1,0 +1,44 @@
+{
+  "slug": "imiva-upload-handoff-workflow",
+  "title": "桌面智能体商品素材安全上传助手",
+  "route": "ops",
+  "group": "制作交付与任务管理",
+  "kind": "功能任务",
+  "aliases": [
+    "MCP上传图片",
+    "本地图片上传",
+    "上传商品素材"
+  ],
+  "inputs": [
+    "用户选定文件",
+    "目标任务",
+    "权限"
+  ],
+  "steps": [
+    "确认同账号与允许上传范围",
+    "发现可用上传工具再建会话",
+    "上传完成后只使用本次素材"
+  ],
+  "deliverables": [
+    "素材映射",
+    "会话状态",
+    "后续参数"
+  ],
+  "acceptance": "不扫描上传整个桌面或客户目录",
+  "source": "https://imiva.ecpro.com",
+  "description": "桌面智能体商品素材安全上传助手：适用于MCP上传图片、本地图片上传、上传商品素材等需求。用 IMIVA 电商内容专家整理真实素材，完成素材映射、会话状态、后续参数，逐项检查不扫描上传整个桌面或客户目录。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/task-center",
+  "channel": "",
+  "tools": [
+    "get_user_tasks",
+    "get_user_products",
+    "get_user_credits",
+    "create_material_upload",
+    "get_material_upload"
+  ],
+  "new_literal_terms": [
+    "MCP上传图片",
+    "本地图片上传",
+    "上传商品素材"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-koc-grid-cut-workflow",
+  "title": "种草拼图拆格交付助手",
+  "route": "koc_grid",
+  "group": "KOC种草拼图",
+  "kind": "功能任务",
+  "aliases": [
+    "九宫格拆图",
+    "拼图切片",
+    "一图多图"
+  ],
+  "inputs": [
+    "已生成拼图",
+    "格数",
+    "需要发布的顺序"
+  ],
+  "steps": [
+    "核实拼图布局",
+    "用本地图片工具按格切片",
+    "复核不切掉主体后编排序号"
+  ],
+  "deliverables": [
+    "整图与切片",
+    "顺序清单"
+  ],
+  "acceptance": "切片依赖额外图片工具不得冒充平台原生导出",
+  "source": "https://imiva.ecpro.com",
+  "description": "种草拼图拆格交付助手：适用于九宫格拆图、拼图切片、一图多图等需求。用 IMIVA 电商内容专家整理真实素材，完成整图与切片、顺序清单，逐项检查切片依赖额外图片工具不得冒充平台原生导出。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=koc_grid",
+  "channel": "",
+  "tools": [
+    "prepare_koc_collage_task",
+    "submit_koc_collage_task"
+  ],
+  "new_literal_terms": [
+    "九宫格拆图",
+    "拼图切片",
+    "一图多图"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-note-cover-sequence-workflow",
+  "title": "种草封面与正文图一致性助手",
+  "route": "image_text_commerce",
+  "group": "图文带货",
+  "kind": "功能任务",
+  "aliases": [
+    "封面和正文不一致",
+    "笔记配图",
+    "小红书套图"
+  ],
+  "inputs": [
+    "商品图",
+    "笔记主题",
+    "真实卖点"
+  ],
+  "steps": [
+    "统一封面承诺与正文证明",
+    "生成图文包",
+    "逐页核对文字与画面"
+  ],
+  "deliverables": [
+    "封面正文图",
+    "标题正文",
+    "一致性表"
+  ],
+  "acceptance": "不得封面夸大正文无证据",
+  "source": "https://imiva.ecpro.com",
+  "description": "种草封面与正文图一致性助手：适用于封面和正文不一致、笔记配图、小红书套图等需求。用 IMIVA 电商内容专家整理真实素材，完成封面正文图、标题正文、一致性表，逐项检查不得封面夸大正文无证据。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_text_commerce",
+  "channel": "",
+  "tools": [
+    "prepare_koc_note_package_task",
+    "submit_koc_note_package_task"
+  ],
+  "new_literal_terms": [
+    "封面和正文不一致",
+    "小红书套图"
+  ]
+}

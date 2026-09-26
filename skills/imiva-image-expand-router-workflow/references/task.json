@@ -1,0 +1,44 @@
+{
+  "slug": "imiva-image-expand-router-workflow",
+  "title": "图片扩充与画面扩展分流助手",
+  "route": "ops",
+  "group": "制作交付与任务管理",
+  "kind": "功能任务",
+  "aliases": [
+    "扩图和补图",
+    "多出几张",
+    "加宽图片"
+  ],
+  "inputs": [
+    "原图",
+    "用户目标",
+    "目标张数画幅"
+  ],
+  "steps": [
+    "判断要更多场景还是更大画布",
+    "补图走图片扩充并挑方案",
+    "补边走网页画面扩展或实时发现工具"
+  ],
+  "deliverables": [
+    "任务路由单",
+    "正确入口",
+    "样例要求"
+  ],
+  "acceptance": "不能把image_expand当作画面补边工具",
+  "source": "https://imiva.ecpro.com",
+  "description": "图片扩充与画面扩展分流助手：适用于扩图和补图、多出几张、加宽图片等需求。用 IMIVA 电商内容专家整理真实素材，完成任务路由单、正确入口、样例要求，逐项检查不能把image_expand当作画面补边工具。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/task-center",
+  "channel": "",
+  "tools": [
+    "get_user_tasks",
+    "get_user_products",
+    "get_user_credits",
+    "create_material_upload",
+    "get_material_upload"
+  ],
+  "new_literal_terms": [
+    "扩图和补图",
+    "多出几张",
+    "加宽图片"
+  ]
+}

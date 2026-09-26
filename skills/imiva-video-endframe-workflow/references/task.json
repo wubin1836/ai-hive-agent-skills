@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-video-endframe-workflow",
+  "title": "商品视频首尾帧衔接助手",
+  "route": "video_generation",
+  "group": "视频生成",
+  "kind": "功能任务",
+  "aliases": [
+    "首尾帧视频",
+    "开头结尾控制",
+    "品牌定帧"
+  ],
+  "inputs": [
+    "授权首尾图",
+    "时长",
+    "转场方向"
+  ],
+  "steps": [
+    "核对首尾商品一致",
+    "选择支持首尾帧的当前模型",
+    "逐帧检查跳变和多余物体"
+  ],
+  "deliverables": [
+    "视频",
+    "首尾帧验收"
+  ],
+  "acceptance": "不支持该模式时停止并改网页路径",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品视频首尾帧衔接助手：适用于首尾帧视频、开头结尾控制、品牌定帧等需求。用 IMIVA 电商内容专家整理真实素材，完成视频、首尾帧验收，逐项检查不支持该模式时停止并改网页路径。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=video_generation",
+  "channel": "",
+  "tools": [
+    "create_video_generation_task"
+  ],
+  "new_literal_terms": [
+    "开头结尾控制",
+    "品牌定帧"
+  ]
+}

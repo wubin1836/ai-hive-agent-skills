@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-reference-isolate-workflow",
+  "title": "参考图去品牌化创作助手",
+  "route": "visual_migration",
+  "group": "爆款图复制",
+  "kind": "功能任务",
+  "aliases": [
+    "竞品参考图",
+    "参考图不侵权",
+    "换自有品牌"
+  ],
+  "inputs": [
+    "允许参考的图片",
+    "自有素材",
+    "禁用元素"
+  ],
+  "steps": [
+    "列参考图中不可沿用元素",
+    "仅保留通用视觉方法",
+    "由用户审核原创差异"
+  ],
+  "deliverables": [
+    "原创图",
+    "权利风险清单"
+  ],
+  "acceptance": "不移除他人水印以盗用成图",
+  "source": "https://imiva.ecpro.com",
+  "description": "参考图去品牌化创作助手：适用于竞品参考图、参考图不侵权、换自有品牌等需求。用 IMIVA 电商内容专家整理真实素材，完成原创图、权利风险清单，逐项检查不移除他人水印以盗用成图。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=visual_migration",
+  "channel": "",
+  "tools": [
+    "create_visual_migration_task"
+  ],
+  "new_literal_terms": [
+    "竞品参考图",
+    "参考图不侵权",
+    "换自有品牌"
+  ]
+}

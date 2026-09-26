@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-edit-price-workflow",
+  "title": "活动海报价格区域更新助手",
+  "route": "precision_edit",
+  "group": "局部精修",
+  "kind": "功能任务",
+  "aliases": [
+    "海报改价格",
+    "改活动日期",
+    "换促销文案"
+  ],
+  "inputs": [
+    "自有海报",
+    "已批准价格",
+    "活动条件"
+  ],
+  "steps": [
+    "编号标注价格日期及说明区",
+    "只替换批准内容",
+    "逐字与活动表核对"
+  ],
+  "deliverables": [
+    "更新海报",
+    "活动字段核对表"
+  ],
+  "acceptance": "不生成虚假原价和虚假限时",
+  "source": "https://imiva.ecpro.com",
+  "description": "活动海报价格区域更新助手：适用于海报改价格、改活动日期、换促销文案等需求。用 IMIVA 电商内容专家整理真实素材，完成更新海报、活动字段核对表，逐项检查不生成虚假原价和虚假限时。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=precision_edit",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "海报改价格",
+    "改活动日期",
+    "换促销文案"
+  ]
+}

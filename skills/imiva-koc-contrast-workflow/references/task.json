@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-koc-contrast-workflow",
+  "title": "同商品多种搭配拼图助手",
+  "route": "koc_grid",
+  "group": "KOC种草拼图",
+  "kind": "功能任务",
+  "aliases": [
+    "一物多搭",
+    "搭配九宫格",
+    "商品穿搭图"
+  ],
+  "inputs": [
+    "商品图",
+    "搭配素材",
+    "风格要求"
+  ],
+  "steps": [
+    "为每格定义不同搭配而非不同商品",
+    "锁定核心款式",
+    "检查饰品穿戴关系"
+  ],
+  "deliverables": [
+    "搭配拼图",
+    "单品清单"
+  ],
+  "acceptance": "穿戴图不证明尺码适配结果",
+  "source": "https://imiva.ecpro.com",
+  "description": "同商品多种搭配拼图助手：适用于一物多搭、搭配九宫格、商品穿搭图等需求。用 IMIVA 电商内容专家整理真实素材，完成搭配拼图、单品清单，逐项检查穿戴图不证明尺码适配结果。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=koc_grid",
+  "channel": "",
+  "tools": [
+    "prepare_koc_collage_task",
+    "submit_koc_collage_task"
+  ],
+  "new_literal_terms": [
+    "一物多搭",
+    "搭配九宫格",
+    "商品穿搭图"
+  ]
+}

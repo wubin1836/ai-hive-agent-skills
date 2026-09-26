@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-edit-label-workflow",
+  "title": "商品标签错字局部修改助手",
+  "route": "precision_edit",
+  "group": "局部精修",
+  "kind": "功能任务",
+  "aliases": [
+    "标签改字",
+    "包装文字修正",
+    "AI图乱码"
+  ],
+  "inputs": [
+    "有权修改的图片",
+    "正确文字",
+    "位置标注"
+  ],
+  "steps": [
+    "标出文本区域并编号",
+    "写清替换文字及保持项",
+    "放大逐字审核"
+  ],
+  "deliverables": [
+    "改字图",
+    "文字校对表"
+  ],
+  "acceptance": "不修改认证批号生产日期来误导消费者",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品标签错字局部修改助手：适用于标签改字、包装文字修正、AI图乱码等需求。用 IMIVA 电商内容专家整理真实素材，完成改字图、文字校对表，逐项检查不修改认证批号生产日期来误导消费者。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=precision_edit",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "标签改字",
+    "包装文字修正",
+    "AI图乱码"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-video-subtitle-room-workflow",
+  "title": "带货字幕安全区镜头助手",
+  "route": "video_generation",
+  "group": "视频生成",
+  "kind": "功能任务",
+  "aliases": [
+    "字幕挡商品",
+    "视频留白",
+    "信息流安全区"
+  ],
+  "inputs": [
+    "商品图",
+    "目标界面截图",
+    "字幕长度"
+  ],
+  "steps": [
+    "先画UI与字幕占位",
+    "生成不被遮挡的镜头",
+    "在真实预览尺寸复核"
+  ],
+  "deliverables": [
+    "视频",
+    "遮挡检查图"
+  ],
+  "acceptance": "各平台安全区需当天确认",
+  "source": "https://imiva.ecpro.com",
+  "description": "带货字幕安全区镜头助手：适用于字幕挡商品、视频留白、信息流安全区等需求。用 IMIVA 电商内容专家整理真实素材，完成视频、遮挡检查图，逐项检查各平台安全区需当天确认。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=video_generation",
+  "channel": "",
+  "tools": [
+    "create_video_generation_task"
+  ],
+  "new_literal_terms": [
+    "字幕挡商品",
+    "视频留白",
+    "信息流安全区"
+  ]
+}

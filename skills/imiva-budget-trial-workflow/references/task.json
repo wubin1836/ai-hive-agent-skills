@@ -1,0 +1,43 @@
+{
+  "slug": "imiva-budget-trial-workflow",
+  "title": "电商素材小样成本核算助手",
+  "route": "ops",
+  "group": "制作交付与任务管理",
+  "kind": "功能任务",
+  "aliases": [
+    "生图多少钱",
+    "视频成本",
+    "先试一张"
+  ],
+  "inputs": [
+    "目标质量",
+    "计划数量",
+    "预算"
+  ],
+  "steps": [
+    "按相同验收条件比较小样",
+    "记录尝试数与合格数",
+    "用总花费除合格成果数"
+  ],
+  "deliverables": [
+    "成本表",
+    "合格样例",
+    "预算方案"
+  ],
+  "acceptance": "不得只按单次标价宣称最便宜",
+  "source": "https://imiva.ecpro.com",
+  "description": "电商素材小样成本核算助手：适用于生图多少钱、视频成本、先试一张等需求。用 IMIVA 电商内容专家整理真实素材，完成成本表、合格样例、预算方案，逐项检查不得只按单次标价宣称最便宜。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/task-center",
+  "channel": "",
+  "tools": [
+    "get_user_tasks",
+    "get_user_products",
+    "get_user_credits",
+    "create_material_upload",
+    "get_material_upload"
+  ],
+  "new_literal_terms": [
+    "生图多少钱",
+    "先试一张"
+  ]
+}

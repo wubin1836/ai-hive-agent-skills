@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-edit-markup-workflow",
+  "title": "多处修改批注执行助手",
+  "route": "precision_edit",
+  "group": "局部精修",
+  "kind": "功能任务",
+  "aliases": [
+    "按批注修图",
+    "圈选修改",
+    "美工改稿"
+  ],
+  "inputs": [
+    "原图",
+    "编号批注",
+    "优先级"
+  ],
+  "steps": [
+    "逐条区分冲突修改",
+    "为每个编号写独立指令",
+    "验收逐编号打勾"
+  ],
+  "deliverables": [
+    "改稿图",
+    "批注闭环表"
+  ],
+  "acceptance": "有冲突先确认而非随机覆盖",
+  "source": "https://imiva.ecpro.com",
+  "description": "多处修改批注执行助手：适用于按批注修图、圈选修改、美工改稿等需求。用 IMIVA 电商内容专家整理真实素材，完成改稿图、批注闭环表，逐项检查有冲突先确认而非随机覆盖。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=precision_edit",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "按批注修图",
+    "圈选修改",
+    "美工改稿"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-edit-accessory-workflow",
+  "title": "商品图缺失配件纠正助手",
+  "route": "precision_edit",
+  "group": "局部精修",
+  "kind": "功能任务",
+  "aliases": [
+    "AI图少零件",
+    "按钮丢失",
+    "配件修复"
+  ],
+  "inputs": [
+    "实际结构照片",
+    "缺失区域",
+    "正确数量"
+  ],
+  "steps": [
+    "确认实际部件证据",
+    "仅修被错误遗漏的位置",
+    "与原商品逐处复核"
+  ],
+  "deliverables": [
+    "修复图",
+    "部件对照"
+  ],
+  "acceptance": "无实拍证据不补想象部件",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品图缺失配件纠正助手：适用于AI图少零件、按钮丢失、配件修复等需求。用 IMIVA 电商内容专家整理真实素材，完成修复图、部件对照，逐项检查无实拍证据不补想象部件。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=precision_edit",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "AI图少零件",
+    "按钮丢失",
+    "配件修复"
+  ]
+}

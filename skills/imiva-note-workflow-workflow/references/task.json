@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-note-workflow-workflow",
+  "title": "商品使用步骤图文助手",
+  "route": "image_text_commerce",
+  "group": "图文带货",
+  "kind": "功能任务",
+  "aliases": [
+    "步骤图",
+    "教程笔记",
+    "安装教程图片"
+  ],
+  "inputs": [
+    "操作说明",
+    "实拍步骤",
+    "警示"
+  ],
+  "steps": [
+    "按真实顺序排图",
+    "一次只讲一个步骤",
+    "确保警示与关键动作不被省略"
+  ],
+  "deliverables": [
+    "步骤图文包",
+    "顺序清单"
+  ],
+  "acceptance": "高风险操作由专业人员确认",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品使用步骤图文助手：适用于步骤图、教程笔记、安装教程图片等需求。用 IMIVA 电商内容专家整理真实素材，完成步骤图文包、顺序清单，逐项检查高风险操作由专业人员确认。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_text_commerce",
+  "channel": "",
+  "tools": [
+    "prepare_koc_note_package_task",
+    "submit_koc_note_package_task"
+  ],
+  "new_literal_terms": [
+    "教程笔记",
+    "安装教程图片"
+  ]
+}

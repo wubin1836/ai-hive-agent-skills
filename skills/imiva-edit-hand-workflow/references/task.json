@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-edit-hand-workflow",
+  "title": "模特持物手部修复助手",
+  "route": "precision_edit",
+  "group": "局部精修",
+  "kind": "功能任务",
+  "aliases": [
+    "手指修复",
+    "拿东西变形",
+    "持物图修图"
+  ],
+  "inputs": [
+    "授权模特图",
+    "商品图",
+    "接触位置"
+  ],
+  "steps": [
+    "标出手部错误",
+    "锁定商品结构和持握关系",
+    "检查指头数量遮挡与受力"
+  ],
+  "deliverables": [
+    "持物修复图",
+    "接触检查"
+  ],
+  "acceptance": "不能改变商品尺寸让手更好握",
+  "source": "https://imiva.ecpro.com",
+  "description": "模特持物手部修复助手：适用于手指修复、拿东西变形、持物图修图等需求。用 IMIVA 电商内容专家整理真实素材，完成持物修复图、接触检查，逐项检查不能改变商品尺寸让手更好握。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=precision_edit",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "手指修复",
+    "拿东西变形",
+    "持物图修图"
+  ]
+}
