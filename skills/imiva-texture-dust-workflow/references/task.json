@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-texture-dust-workflow",
+  "title": "商品除灰不磨皮助手",
+  "route": "smart_refine",
+  "group": "智能精修",
+  "kind": "功能任务",
+  "aliases": [
+    "商品除尘",
+    "皮革纹理",
+    "保留瑕疵修图"
+  ],
+  "inputs": [
+    "新品原图",
+    "可移除灰尘标记",
+    "状态说明"
+  ],
+  "steps": [
+    "区分灰尘和实际磨损",
+    "仅处理拍摄污染",
+    "对二手商品保留真实使用痕迹"
+  ],
+  "deliverables": [
+    "干净展示图",
+    "修改区域记录"
+  ],
+  "acceptance": "不隐瞒成色和质量缺陷",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品除灰不磨皮助手：适用于商品除尘、皮革纹理、保留瑕疵修图等需求。用 IMIVA 电商内容专家整理真实素材，完成干净展示图、修改区域记录，逐项检查不隐瞒成色和质量缺陷。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=smart_refine",
+  "channel": "",
+  "tools": [
+    "create_smart_refine_task"
+  ],
+  "new_literal_terms": [
+    "商品除尘",
+    "皮革纹理",
+    "保留瑕疵修图"
+  ]
+}

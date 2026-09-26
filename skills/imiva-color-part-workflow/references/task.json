@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-color-part-workflow",
+  "title": "拼色商品指定部位换色助手",
+  "route": "color_change",
+  "group": "商品换色",
+  "kind": "功能任务",
+  "aliases": [
+    "局部换色",
+    "鞋底换色",
+    "拼色改图"
+  ],
+  "inputs": [
+    "分区标注",
+    "可售配色",
+    "原图"
+  ],
+  "steps": [
+    "分离主体配件与Logo区域",
+    "只替换授权颜色区域",
+    "逐区比对"
+  ],
+  "deliverables": [
+    "换色图",
+    "分区复核表"
+  ],
+  "acceptance": "Logo背景与材质不可误改",
+  "source": "https://imiva.ecpro.com",
+  "description": "拼色商品指定部位换色助手：适用于局部换色、鞋底换色、拼色改图等需求。用 IMIVA 电商内容专家整理真实素材，完成换色图、分区复核表，逐项检查Logo背景与材质不可误改。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=color_change",
+  "channel": "",
+  "tools": [
+    "create_color_change_task"
+  ],
+  "new_literal_terms": [
+    "局部换色",
+    "鞋底换色",
+    "拼色改图"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-long-object-workflow",
+  "title": "长条商品不裁切扩图助手",
+  "route": "outpainting",
+  "group": "画面扩展",
+  "kind": "功能任务",
+  "aliases": [
+    "雨伞主图",
+    "长杆产品",
+    "长商品放不下"
+  ],
+  "inputs": [
+    "长条实拍",
+    "完整轮廓",
+    "目标比例"
+  ],
+  "steps": [
+    "先检查产品有无被原图截断",
+    "完整主体才扩边",
+    "核对首尾端结构"
+  ],
+  "deliverables": [
+    "扩展图",
+    "轮廓检查表"
+  ],
+  "acceptance": "原图缺失结构先补拍不造事实",
+  "source": "https://imiva.ecpro.com",
+  "description": "长条商品不裁切扩图助手：适用于雨伞主图、长杆产品、长商品放不下等需求。用 IMIVA 电商内容专家整理真实素材，完成扩展图、轮廓检查表，逐项检查原图缺失结构先补拍不造事实。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=outpainting",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "雨伞主图",
+    "长杆产品",
+    "长商品放不下"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-photo-gap-workflow",
+  "title": "商品摄影漏拍补齐助手",
+  "route": "image_expand",
+  "group": "图片扩充",
+  "kind": "功能任务",
+  "aliases": [
+    "漏拍补图",
+    "缺少细节图",
+    "拍摄清单补齐"
+  ],
+  "inputs": [
+    "拍摄清单",
+    "已拍素材",
+    "结构事实"
+  ],
+  "steps": [
+    "盘点信息位缺口",
+    "可证实细节再生成补图",
+    "无法证实处列成补拍需求"
+  ],
+  "deliverables": [
+    "补图与补拍清单",
+    "图片索引"
+  ],
+  "acceptance": "未知结构不靠生成补全事实",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品摄影漏拍补齐助手：适用于漏拍补图、缺少细节图、拍摄清单补齐等需求。用 IMIVA 电商内容专家整理真实素材，完成补图与补拍清单、图片索引，逐项检查未知结构不靠生成补全事实。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_expand",
+  "channel": "",
+  "tools": [
+    "prepare_image_expand_task",
+    "submit_image_expand_task"
+  ],
+  "new_literal_terms": [
+    "漏拍补图",
+    "缺少细节图",
+    "拍摄清单补齐"
+  ]
+}

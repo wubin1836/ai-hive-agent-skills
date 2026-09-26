@@ -55178,5 +55178,455 @@
     "batch": "imiva-ecommerce-200",
     "path": "skills/imiva-fabric-weave-workflow",
     "language": "zh-CN"
+  },
+  {
+    "name": "imiva-food-color-workflow",
+    "display_name": "食品实物色泽校正助手",
+    "category": "智能精修",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-food-color-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-shoe-pair-workflow",
+    "display_name": "鞋子左右脚配对修图助手",
+    "category": "智能精修",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-shoe-pair-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-texture-dust-workflow",
+    "display_name": "商品除灰不磨皮助手",
+    "category": "智能精修",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-texture-dust-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-batch-light-workflow",
+    "display_name": "同批商品光线统一助手",
+    "category": "智能精修",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-batch-light-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-empty-scene-workflow",
+    "display_name": "电商无商品空场景生成器",
+    "category": "文生图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-empty-scene-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-brand-texture-workflow",
+    "display_name": "品牌纹理底图设计助手",
+    "category": "文生图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-brand-texture-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-festival-empty-workflow",
+    "display_name": "节日促销空白版式助手",
+    "category": "文生图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-festival-empty-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-explain-icons-workflow",
+    "display_name": "商品功能插画底稿助手",
+    "category": "文生图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-explain-icons-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-prop-scene-workflow",
+    "display_name": "产品摄影道具场景设计助手",
+    "category": "文生图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-prop-scene-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-season-scenery-workflow",
+    "display_name": "四季商品场景底图助手",
+    "category": "文生图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-season-scenery-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-angle-evidence-workflow",
+    "display_name": "商品多角度补图规划助手",
+    "category": "图片扩充",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-angle-evidence-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-single-to-suite-workflow",
+    "display_name": "一张商品图扩充成套素材助手",
+    "category": "图片扩充",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-single-to-suite-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-scenario-grid-workflow",
+    "display_name": "同款商品多场景补图助手",
+    "category": "图片扩充",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-scenario-grid-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-accessory-set-workflow",
+    "display_name": "商品配件齐套展示助手",
+    "category": "图片扩充",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-accessory-set-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-size-context-workflow",
+    "display_name": "商品大小参照图助手",
+    "category": "图片扩充",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-size-context-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-bundle-display-workflow",
+    "display_name": "多规格套装区别图助手",
+    "category": "图片扩充",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-bundle-display-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-photo-gap-workflow",
+    "display_name": "商品摄影漏拍补齐助手",
+    "category": "图片扩充",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-photo-gap-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-customer-angle-workflow",
+    "display_name": "买家常问部位补图助手",
+    "category": "图片扩充",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-customer-angle-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-taobao-white-alt-workflow",
+    "display_name": "商品白底图与场景图双版助手",
+    "category": "商品主图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-taobao-white-alt-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-thumbnail-readable-workflow",
+    "display_name": "商品缩略图可读性优化助手",
+    "category": "商品主图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-thumbnail-readable-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-sku-variant-workflow",
+    "display_name": "SKU选项小图制作助手",
+    "category": "商品主图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-sku-variant-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-transparent-object-workflow",
+    "display_name": "透明产品白底展示助手",
+    "category": "商品主图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-transparent-object-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-multi-piece-count-workflow",
+    "display_name": "多件装数量清楚主图助手",
+    "category": "商品主图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-multi-piece-count-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-package-front-workflow",
+    "display_name": "新旧包装切换主图助手",
+    "category": "商品主图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-package-front-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-gift-main-workflow",
+    "display_name": "赠品与正装分区展示助手",
+    "category": "商品主图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-gift-main-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-batch-sku-lock-workflow",
+    "display_name": "多SKU主图防串款助手",
+    "category": "商品主图",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-batch-sku-lock-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-detail-first-screen-workflow",
+    "display_name": "详情页首屏卖点重排助手",
+    "category": "商品详情页",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-detail-first-screen-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-detail-parameters-workflow",
+    "display_name": "商品参数可读排版助手",
+    "category": "商品详情页",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-detail-parameters-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-detail-comparison-workflow",
+    "display_name": "自有产品型号选购对照助手",
+    "category": "商品详情页",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-detail-comparison-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-detail-box-workflow",
+    "display_name": "包装清单详情模块助手",
+    "category": "商品详情页",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-detail-box-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-detail-limits-workflow",
+    "display_name": "商品使用限制说明图助手",
+    "category": "商品详情页",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-detail-limits-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-detail-care-workflow",
+    "display_name": "商品洗护保养图卡助手",
+    "category": "商品详情页",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-detail-care-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-detail-install-space-workflow",
+    "display_name": "安装空间与适配说明图助手",
+    "category": "商品详情页",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-detail-install-space-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-detail-mobile-chunks-workflow",
+    "display_name": "长详情页手机分屏助手",
+    "category": "商品详情页",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-detail-mobile-chunks-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-color-swatch-workflow",
+    "display_name": "商品色卡对照换色助手",
+    "category": "商品换色",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-color-swatch-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-color-part-workflow",
+    "display_name": "拼色商品指定部位换色助手",
+    "category": "商品换色",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-color-part-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-color-zipper-workflow",
+    "display_name": "服装换色保留辅料助手",
+    "category": "商品换色",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-color-zipper-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-color-series-workflow",
+    "display_name": "整套家居配色统一助手",
+    "category": "商品换色",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-color-series-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-color-variant-names-workflow",
+    "display_name": "色号命名与商品图匹配助手",
+    "category": "商品换色",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-color-variant-names-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-color-material-workflow",
+    "display_name": "同色不同材质视觉校验助手",
+    "category": "商品换色",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-color-material-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-banner-safe-workflow",
+    "display_name": "横版店铺海报留白扩图助手",
+    "category": "画面扩展",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-banner-safe-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-portrait-safe-workflow",
+    "display_name": "竖屏带货封面补边助手",
+    "category": "画面扩展",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-portrait-safe-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-square-safe-workflow",
+    "display_name": "方图改竖图保主体助手",
+    "category": "画面扩展",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-square-safe-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-double-side-workflow",
+    "display_name": "商品两侧空间扩展助手",
+    "category": "画面扩展",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-double-side-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-scene-continuity-workflow",
+    "display_name": "同一场景多尺寸延展助手",
+    "category": "画面扩展",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-scene-continuity-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-long-object-workflow",
+    "display_name": "长条商品不裁切扩图助手",
+    "category": "画面扩展",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-long-object-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-background-match-workflow",
+    "display_name": "爆款图背景结构迁移助手",
+    "category": "爆款图复制",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-background-match-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-light-match-workflow",
+    "display_name": "参考商拍光影迁移助手",
+    "category": "爆款图复制",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-light-match-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-layout-match-workflow",
+    "display_name": "参考海报信息层级重组助手",
+    "category": "爆款图复制",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-layout-match-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-old-style-refresh-workflow",
+    "display_name": "旧商品图换视觉风格助手",
+    "category": "爆款图复制",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-old-style-refresh-workflow",
+    "language": "zh-CN"
   }
 ]

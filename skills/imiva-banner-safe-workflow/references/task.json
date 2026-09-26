@@ -1,0 +1,35 @@
+{
+  "slug": "imiva-banner-safe-workflow",
+  "title": "横版店铺海报留白扩图助手",
+  "route": "outpainting",
+  "group": "画面扩展",
+  "kind": "功能任务",
+  "aliases": [
+    "横图扩图",
+    "店铺banner",
+    "海报留白"
+  ],
+  "inputs": [
+    "现有图",
+    "文字安全区",
+    "目标画幅"
+  ],
+  "steps": [
+    "锁定商品和原画面",
+    "向指定方向扩展背景",
+    "在文字区叠放示意后验收"
+  ],
+  "deliverables": [
+    "横版扩图",
+    "安全区图"
+  ],
+  "acceptance": "扩图不能改变商品边界和比例",
+  "source": "https://imiva.ecpro.com",
+  "description": "横版店铺海报留白扩图助手：适用于横图扩图、店铺banner、海报留白等需求。用 IMIVA 电商内容专家整理真实素材，完成横版扩图、安全区图，逐项检查扩图不能改变商品边界和比例。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=outpainting",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "横图扩图"
+  ]
+}

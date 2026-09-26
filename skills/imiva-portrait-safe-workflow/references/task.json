@@ -1,0 +1,35 @@
+{
+  "slug": "imiva-portrait-safe-workflow",
+  "title": "竖屏带货封面补边助手",
+  "route": "outpainting",
+  "group": "画面扩展",
+  "kind": "功能任务",
+  "aliases": [
+    "横图转竖图",
+    "竖版封面",
+    "9比16扩图"
+  ],
+  "inputs": [
+    "现有商品图",
+    "目标画幅",
+    "按钮遮挡区"
+  ],
+  "steps": [
+    "保留主体比例",
+    "扩出上下空间",
+    "检查平台UI遮挡后可读性"
+  ],
+  "deliverables": [
+    "竖屏图",
+    "遮挡预览"
+  ],
+  "acceptance": "不拉伸商品凑比例",
+  "source": "https://imiva.ecpro.com",
+  "description": "竖屏带货封面补边助手：适用于横图转竖图、竖版封面、9比16扩图等需求。用 IMIVA 电商内容专家整理真实素材，完成竖屏图、遮挡预览，逐项检查不拉伸商品凑比例。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=outpainting",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "9比16扩图"
+  ]
+}

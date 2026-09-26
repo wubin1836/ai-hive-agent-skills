@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-old-style-refresh-workflow",
+  "title": "旧商品图换视觉风格助手",
+  "route": "visual_migration",
+  "group": "爆款图复制",
+  "kind": "功能任务",
+  "aliases": [
+    "老图焕新",
+    "商品视觉升级",
+    "旧图改新"
+  ],
+  "inputs": [
+    "旧图",
+    "新品牌规范",
+    "必须保留项"
+  ],
+  "steps": [
+    "记录旧图商品事实",
+    "迁移新色调背景",
+    "输出前后差异与保留项"
+  ],
+  "deliverables": [
+    "新版商品图",
+    "变更清单"
+  ],
+  "acceptance": "不能同时更改产品实际设计",
+  "source": "https://imiva.ecpro.com",
+  "description": "旧商品图换视觉风格助手：适用于老图焕新、商品视觉升级、旧图改新等需求。用 IMIVA 电商内容专家整理真实素材，完成新版商品图、变更清单，逐项检查不能同时更改产品实际设计。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=visual_migration",
+  "channel": "",
+  "tools": [
+    "create_visual_migration_task"
+  ],
+  "new_literal_terms": [
+    "老图焕新",
+    "商品视觉升级",
+    "旧图改新"
+  ]
+}

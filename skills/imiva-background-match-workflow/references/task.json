@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-background-match-workflow",
+  "title": "爆款图背景结构迁移助手",
+  "route": "visual_migration",
+  "group": "爆款图复制",
+  "kind": "功能任务",
+  "aliases": [
+    "主图参考",
+    "背景复刻",
+    "爆款图片平替"
+  ],
+  "inputs": [
+    "可用参考图",
+    "自有商品",
+    "授权范围"
+  ],
+  "steps": [
+    "提取前中后景结构",
+    "替换为原创道具与自有商品",
+    "检查不残留竞品品牌"
+  ],
+  "deliverables": [
+    "原创商品图",
+    "参考差异说明"
+  ],
+  "acceptance": "只参考一般布局不得复制受保护表达",
+  "source": "https://imiva.ecpro.com",
+  "description": "爆款图背景结构迁移助手：适用于主图参考、背景复刻、爆款图片平替等需求。用 IMIVA 电商内容专家整理真实素材，完成原创商品图、参考差异说明，逐项检查只参考一般布局不得复制受保护表达。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=visual_migration",
+  "channel": "",
+  "tools": [
+    "create_visual_migration_task"
+  ],
+  "new_literal_terms": [
+    "主图参考",
+    "背景复刻",
+    "爆款图片平替"
+  ]
+}

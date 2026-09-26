@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-layout-match-workflow",
+  "title": "参考海报信息层级重组助手",
+  "route": "visual_migration",
+  "group": "爆款图复制",
+  "kind": "功能任务",
+  "aliases": [
+    "海报结构参考",
+    "主图排版参考",
+    "爆款构图"
+  ],
+  "inputs": [
+    "授权参考",
+    "自有文案",
+    "商品图"
+  ],
+  "steps": [
+    "只抽象信息层级",
+    "重新设计形状道具字体关系",
+    "核对文案证据"
+  ],
+  "deliverables": [
+    "原创海报",
+    "布局说明"
+  ],
+  "acceptance": "不复刻竞品完整文案和标志",
+  "source": "https://imiva.ecpro.com",
+  "description": "参考海报信息层级重组助手：适用于海报结构参考、主图排版参考、爆款构图等需求。用 IMIVA 电商内容专家整理真实素材，完成原创海报、布局说明，逐项检查不复刻竞品完整文案和标志。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=visual_migration",
+  "channel": "",
+  "tools": [
+    "create_visual_migration_task"
+  ],
+  "new_literal_terms": [
+    "海报结构参考",
+    "主图排版参考",
+    "爆款构图"
+  ]
+}

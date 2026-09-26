@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-detail-mobile-chunks-workflow",
+  "title": "长详情页手机分屏助手",
+  "route": "detail_page",
+  "group": "商品详情页",
+  "kind": "功能任务",
+  "aliases": [
+    "详情页太长",
+    "手机详情分屏",
+    "详情页模块化"
+  ],
+  "inputs": [
+    "已有内容",
+    "移动显示宽度",
+    "模块优先级"
+  ],
+  "steps": [
+    "把长页拆为独立信息模块",
+    "重排手机阅读顺序",
+    "检查字号和上下文衔接"
+  ],
+  "deliverables": [
+    "模块化详情图",
+    "拼接顺序"
+  ],
+  "acceptance": "分屏后不得丢失必要条件和提示",
+  "source": "https://imiva.ecpro.com",
+  "description": "长详情页手机分屏助手：适用于详情页太长、手机详情分屏、详情页模块化等需求。用 IMIVA 电商内容专家整理真实素材，完成模块化详情图、拼接顺序，逐项检查分屏后不得丢失必要条件和提示。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "详情页太长",
+    "手机详情分屏",
+    "详情页模块化"
+  ]
+}

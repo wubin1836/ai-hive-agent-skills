@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-detail-first-screen-workflow",
+  "title": "详情页首屏卖点重排助手",
+  "route": "detail_page",
+  "group": "商品详情页",
+  "kind": "功能任务",
+  "aliases": [
+    "详情页第一屏",
+    "首屏设计",
+    "商品页开头"
+  ],
+  "inputs": [
+    "旧详情页",
+    "真实卖点",
+    "目标人群"
+  ],
+  "steps": [
+    "确定首屏唯一核心承诺",
+    "用证据图支撑该承诺",
+    "把规格说明放入后续模块"
+  ],
+  "deliverables": [
+    "首屏图",
+    "模块顺序",
+    "证据对照"
+  ],
+  "acceptance": "不把情绪词代替事实证明",
+  "source": "https://imiva.ecpro.com",
+  "description": "详情页首屏卖点重排助手：适用于详情页第一屏、首屏设计、商品页开头等需求。用 IMIVA 电商内容专家整理真实素材，完成首屏图、模块顺序、证据对照，逐项检查不把情绪词代替事实证明。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "详情页第一屏",
+    "首屏设计",
+    "商品页开头"
+  ]
+}

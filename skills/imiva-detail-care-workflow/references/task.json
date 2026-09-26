@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-detail-care-workflow",
+  "title": "商品洗护保养图卡助手",
+  "route": "detail_page",
+  "group": "商品详情页",
+  "kind": "功能任务",
+  "aliases": [
+    "洗护说明图",
+    "保养卡",
+    "怎么清洗"
+  ],
+  "inputs": [
+    "厂家洗护说明",
+    "材质",
+    "禁忌"
+  ],
+  "steps": [
+    "区分可机洗手洗禁洗",
+    "生成图卡和注意事项",
+    "逐条与厂家原文核对"
+  ],
+  "deliverables": [
+    "洗护图卡",
+    "规则核对表"
+  ],
+  "acceptance": "不靠常识替代厂家要求",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品洗护保养图卡助手：适用于洗护说明图、保养卡、怎么清洗等需求。用 IMIVA 电商内容专家整理真实素材，完成洗护图卡、规则核对表，逐项检查不靠常识替代厂家要求。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "洗护说明图",
+    "保养卡",
+    "怎么清洗"
+  ]
+}

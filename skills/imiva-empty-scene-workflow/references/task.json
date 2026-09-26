@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-empty-scene-workflow",
+  "title": "电商无商品空场景生成器",
+  "route": "text_to_image",
+  "group": "文生图",
+  "kind": "功能任务",
+  "aliases": [
+    "电商背景素材",
+    "空场景",
+    "产品合成背景"
+  ],
+  "inputs": [
+    "产品尺寸范围",
+    "品牌调性",
+    "拟放置位置"
+  ],
+  "steps": [
+    "规划透视与留空区域",
+    "只生成没有商品的场景",
+    "交付合成位置和光向说明"
+  ],
+  "deliverables": [
+    "空场景图",
+    "合成标注图"
+  ],
+  "acceptance": "不把虚构背景当作门店实拍",
+  "source": "https://imiva.ecpro.com",
+  "description": "电商无商品空场景生成器：适用于电商背景素材、空场景、产品合成背景等需求。用 IMIVA 电商内容专家整理真实素材，完成空场景图、合成标注图，逐项检查不把虚构背景当作门店实拍。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=text_to_image",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "电商背景素材",
+    "空场景",
+    "产品合成背景"
+  ]
+}

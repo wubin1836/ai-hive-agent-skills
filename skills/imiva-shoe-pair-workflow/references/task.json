@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-shoe-pair-workflow",
+  "title": "鞋子左右脚配对修图助手",
+  "route": "smart_refine",
+  "group": "智能精修",
+  "kind": "功能任务",
+  "aliases": [
+    "鞋图修图",
+    "左右脚错误",
+    "鞋底纹路"
+  ],
+  "inputs": [
+    "左右脚实拍",
+    "鞋标",
+    "鞋底图"
+  ],
+  "steps": [
+    "为左右脚建立对应关系",
+    "只修背景和光线",
+    "检查鞋带孔数及鞋底方向"
+  ],
+  "deliverables": [
+    "成对展示图",
+    "左右脚校验表"
+  ],
+  "acceptance": "不可镜像成两个同侧鞋",
+  "source": "https://imiva.ecpro.com",
+  "description": "鞋子左右脚配对修图助手：适用于鞋图修图、左右脚错误、鞋底纹路等需求。用 IMIVA 电商内容专家整理真实素材，完成成对展示图、左右脚校验表，逐项检查不可镜像成两个同侧鞋。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=smart_refine",
+  "channel": "",
+  "tools": [
+    "create_smart_refine_task"
+  ],
+  "new_literal_terms": [
+    "鞋图修图",
+    "左右脚错误",
+    "鞋底纹路"
+  ]
+}

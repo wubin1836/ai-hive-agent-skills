@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-color-swatch-workflow",
+  "title": "商品色卡对照换色助手",
+  "route": "color_change",
+  "group": "商品换色",
+  "kind": "功能任务",
+  "aliases": [
+    "按色卡换色",
+    "商品换颜色",
+    "色号图"
+  ],
+  "inputs": [
+    "可售色号",
+    "色卡参考",
+    "原图"
+  ],
+  "steps": [
+    "确定每个色号的实体依据",
+    "只改指定材质区域",
+    "输出色号与图片对应"
+  ],
+  "deliverables": [
+    "色号图组",
+    "色卡映射"
+  ],
+  "acceptance": "标明屏幕色差不作为打样验色依据",
+  "source": "https://imiva.ecpro.com",
+  "description": "商品色卡对照换色助手：适用于按色卡换色、商品换颜色、色号图等需求。用 IMIVA 电商内容专家整理真实素材，完成色号图组、色卡映射，逐项检查标明屏幕色差不作为打样验色依据。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=color_change",
+  "channel": "",
+  "tools": [
+    "create_color_change_task"
+  ],
+  "new_literal_terms": [
+    "按色卡换色",
+    "商品换颜色",
+    "色号图"
+  ]
+}

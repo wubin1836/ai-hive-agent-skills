@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-color-variant-names-workflow",
+  "title": "色号命名与商品图匹配助手",
+  "route": "color_change",
+  "group": "商品换色",
+  "kind": "功能任务",
+  "aliases": [
+    "奶油白燕麦色",
+    "颜色名字",
+    "色号图片匹配"
+  ],
+  "inputs": [
+    "厂家色号",
+    "营销别名",
+    "标准图"
+  ],
+  "steps": [
+    "把营销别名映射到真实色号",
+    "生成核对版而非任意颜色",
+    "检查名称混淆"
+  ],
+  "deliverables": [
+    "色号图",
+    "别名映射CSV"
+  ],
+  "acceptance": "一个别名不能误指两个实物颜色",
+  "source": "https://imiva.ecpro.com",
+  "description": "色号命名与商品图匹配助手：适用于奶油白燕麦色、颜色名字、色号图片匹配等需求。用 IMIVA 电商内容专家整理真实素材，完成色号图、别名映射CSV，逐项检查一个别名不能误指两个实物颜色。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=color_change",
+  "channel": "",
+  "tools": [
+    "create_color_change_task"
+  ],
+  "new_literal_terms": [
+    "奶油白燕麦色",
+    "颜色名字",
+    "色号图片匹配"
+  ]
+}

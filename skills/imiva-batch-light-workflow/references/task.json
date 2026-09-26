@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-batch-light-workflow",
+  "title": "同批商品光线统一助手",
+  "route": "smart_refine",
+  "group": "智能精修",
+  "kind": "功能任务",
+  "aliases": [
+    "批量修图色温",
+    "统一灯光",
+    "多张商品图风格一致"
+  ],
+  "inputs": [
+    "同批实拍",
+    "基准图",
+    "SKU清单"
+  ],
+  "steps": [
+    "选一张已确认色温基准",
+    "逐SKU独立修光",
+    "复核色差不覆盖真实色号"
+  ],
+  "deliverables": [
+    "统一光线图组",
+    "SKU对照CSV"
+  ],
+  "acceptance": "不同色号仍可清楚区分",
+  "source": "https://imiva.ecpro.com",
+  "description": "同批商品光线统一助手：适用于批量修图色温、统一灯光、多张商品图风格一致等需求。用 IMIVA 电商内容专家整理真实素材，完成统一光线图组、SKU对照CSV，逐项检查不同色号仍可清楚区分。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=smart_refine",
+  "channel": "",
+  "tools": [
+    "create_smart_refine_task"
+  ],
+  "new_literal_terms": [
+    "批量修图色温",
+    "统一灯光",
+    "多张商品图风格一致"
+  ]
+}

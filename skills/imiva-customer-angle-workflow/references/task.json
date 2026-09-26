@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-customer-angle-workflow",
+  "title": "买家常问部位补图助手",
+  "route": "image_expand",
+  "group": "图片扩充",
+  "kind": "功能任务",
+  "aliases": [
+    "接口在哪",
+    "背面长什么样",
+    "口袋细节"
+  ],
+  "inputs": [
+    "脱敏咨询记录",
+    "部位实拍",
+    "商品规格"
+  ],
+  "steps": [
+    "归并高频部位问题",
+    "只为有证据的部位生成特写",
+    "把问题与图编号关联"
+  ],
+  "deliverables": [
+    "问答部位图",
+    "问题图映射"
+  ],
+  "acceptance": "不能虚构隐藏口袋和接口",
+  "source": "https://imiva.ecpro.com",
+  "description": "买家常问部位补图助手：适用于接口在哪、背面长什么样、口袋细节等需求。用 IMIVA 电商内容专家整理真实素材，完成问答部位图、问题图映射，逐项检查不能虚构隐藏口袋和接口。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_expand",
+  "channel": "",
+  "tools": [
+    "prepare_image_expand_task",
+    "submit_image_expand_task"
+  ],
+  "new_literal_terms": [
+    "接口在哪",
+    "背面长什么样",
+    "口袋细节"
+  ]
+}

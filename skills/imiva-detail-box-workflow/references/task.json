@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-detail-box-workflow",
+  "title": "包装清单详情模块助手",
+  "route": "detail_page",
+  "group": "商品详情页",
+  "kind": "功能任务",
+  "aliases": [
+    "收到什么",
+    "包装内含",
+    "清单详情图"
+  ],
+  "inputs": [
+    "装箱BOM",
+    "包装图",
+    "选配规则"
+  ],
+  "steps": [
+    "按购买规格分别列包含项",
+    "生成清单模块",
+    "与仓库版本复核"
+  ],
+  "deliverables": [
+    "装箱清单图",
+    "规格匹配表"
+  ],
+  "acceptance": "交付图必须与实际发货内容一致",
+  "source": "https://imiva.ecpro.com",
+  "description": "包装清单详情模块助手：适用于收到什么、包装内含、清单详情图等需求。用 IMIVA 电商内容专家整理真实素材，完成装箱清单图、规格匹配表，逐项检查交付图必须与实际发货内容一致。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "收到什么",
+    "包装内含",
+    "清单详情图"
+  ]
+}

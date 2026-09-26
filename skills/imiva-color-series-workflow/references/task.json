@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-color-series-workflow",
+  "title": "整套家居配色统一助手",
+  "route": "color_change",
+  "group": "商品换色",
+  "kind": "功能任务",
+  "aliases": [
+    "家具成套配色",
+    "家居同色系",
+    "整屋配色图"
+  ],
+  "inputs": [
+    "多件商品图",
+    "实际在售配色",
+    "搭配范围"
+  ],
+  "steps": [
+    "明确每件商品支持的颜色",
+    "按统一光照生成组合",
+    "标记未销售配色不可投放"
+  ],
+  "deliverables": [
+    "套系配色图",
+    "可售组合清单"
+  ],
+  "acceptance": "概念配色须注明不用于现货宣传",
+  "source": "https://imiva.ecpro.com",
+  "description": "整套家居配色统一助手：适用于家具成套配色、家居同色系、整屋配色图等需求。用 IMIVA 电商内容专家整理真实素材，完成套系配色图、可售组合清单，逐项检查概念配色须注明不用于现货宣传。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=color_change",
+  "channel": "",
+  "tools": [
+    "create_color_change_task"
+  ],
+  "new_literal_terms": [
+    "家具成套配色",
+    "家居同色系",
+    "整屋配色图"
+  ]
+}

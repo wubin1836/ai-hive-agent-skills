@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-light-match-workflow",
+  "title": "参考商拍光影迁移助手",
+  "route": "visual_migration",
+  "group": "爆款图复制",
+  "kind": "功能任务",
+  "aliases": [
+    "光影复刻",
+    "灯光参考",
+    "高级感商拍"
+  ],
+  "inputs": [
+    "自有商品图",
+    "光影参考",
+    "材质"
+  ],
+  "steps": [
+    "提取光源方向与软硬",
+    "匹配自有材质反应",
+    "保持包装结构不变"
+  ],
+  "deliverables": [
+    "商拍图",
+    "光线配置单"
+  ],
+  "acceptance": "不得宣称与参考摄影作品相同授权",
+  "source": "https://imiva.ecpro.com",
+  "description": "参考商拍光影迁移助手：适用于光影复刻、灯光参考、高级感商拍等需求。用 IMIVA 电商内容专家整理真实素材，完成商拍图、光线配置单，逐项检查不得宣称与参考摄影作品相同授权。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=visual_migration",
+  "channel": "",
+  "tools": [
+    "create_visual_migration_task"
+  ],
+  "new_literal_terms": [
+    "光影复刻",
+    "灯光参考",
+    "高级感商拍"
+  ]
+}

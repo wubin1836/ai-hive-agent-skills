@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-prop-scene-workflow",
+  "title": "产品摄影道具场景设计助手",
+  "route": "text_to_image",
+  "group": "文生图",
+  "kind": "功能任务",
+  "aliases": [
+    "拍摄道具",
+    "电商布景",
+    "商品摄影方案"
+  ],
+  "inputs": [
+    "产品尺寸",
+    "预算",
+    "品牌视觉"
+  ],
+  "steps": [
+    "按产品体积安排道具",
+    "输出布景草图与实拍可行性",
+    "区分AI虚拟道具和实际采购项"
+  ],
+  "deliverables": [
+    "布景图",
+    "道具清单"
+  ],
+  "acceptance": "不把效果图当作真实布景照片",
+  "source": "https://imiva.ecpro.com",
+  "description": "产品摄影道具场景设计助手：适用于拍摄道具、电商布景、商品摄影方案等需求。用 IMIVA 电商内容专家整理真实素材，完成布景图、道具清单，逐项检查不把效果图当作真实布景照片。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=text_to_image",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "拍摄道具",
+    "电商布景",
+    "商品摄影方案"
+  ]
+}

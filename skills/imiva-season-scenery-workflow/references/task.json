@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-season-scenery-workflow",
+  "title": "四季商品场景底图助手",
+  "route": "text_to_image",
+  "group": "文生图",
+  "kind": "功能任务",
+  "aliases": [
+    "春夏秋冬场景",
+    "换季背景",
+    "季节海报"
+  ],
+  "inputs": [
+    "品牌色",
+    "商品摆位",
+    "四季主题"
+  ],
+  "steps": [
+    "保持同一镜头和构图",
+    "分别生成四季背景",
+    "记录主体后续合成区域"
+  ],
+  "deliverables": [
+    "四季底图",
+    "构图一致性表"
+  ],
+  "acceptance": "不借季节元素暗示虚假产地",
+  "source": "https://imiva.ecpro.com",
+  "description": "四季商品场景底图助手：适用于春夏秋冬场景、换季背景、季节海报等需求。用 IMIVA 电商内容专家整理真实素材，完成四季底图、构图一致性表，逐项检查不借季节元素暗示虚假产地。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=text_to_image",
+  "channel": "",
+  "tools": [],
+  "new_literal_terms": [
+    "春夏秋冬场景",
+    "换季背景",
+    "季节海报"
+  ]
+}

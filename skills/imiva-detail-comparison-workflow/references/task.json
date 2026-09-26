@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-detail-comparison-workflow",
+  "title": "自有产品型号选购对照助手",
+  "route": "detail_page",
+  "group": "商品详情页",
+  "kind": "功能任务",
+  "aliases": [
+    "型号对比表",
+    "买哪一款",
+    "同品牌选购图"
+  ],
+  "inputs": [
+    "自有型号参数",
+    "价差",
+    "适用人群"
+  ],
+  "steps": [
+    "统一比较维度",
+    "生成适合人群和差异模块",
+    "核对未比较项保持空白"
+  ],
+  "deliverables": [
+    "型号对比图",
+    "适用人群表"
+  ],
+  "acceptance": "不凭空贬低竞品或补齐缺失参数",
+  "source": "https://imiva.ecpro.com",
+  "description": "自有产品型号选购对照助手：适用于型号对比表、买哪一款、同品牌选购图等需求。用 IMIVA 电商内容专家整理真实素材，完成型号对比图、适用人群表，逐项检查不凭空贬低竞品或补齐缺失参数。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "型号对比表",
+    "买哪一款",
+    "同品牌选购图"
+  ]
+}

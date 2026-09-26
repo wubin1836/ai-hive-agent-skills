@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-food-color-workflow",
+  "title": "食品实物色泽校正助手",
+  "route": "smart_refine",
+  "group": "智能精修",
+  "kind": "功能任务",
+  "aliases": [
+    "食物修图",
+    "菜品调色",
+    "食品图太假"
+  ],
+  "inputs": [
+    "实拍图",
+    "自然光参考",
+    "真实分量"
+  ],
+  "steps": [
+    "以自然光实物作色彩基准",
+    "只调整曝光与偏色",
+    "核对分量和配菜不新增"
+  ],
+  "deliverables": [
+    "校色图",
+    "实物差异说明"
+  ],
+  "acceptance": "不把普通食材改成高价配料",
+  "source": "https://imiva.ecpro.com",
+  "description": "食品实物色泽校正助手：适用于食物修图、菜品调色、食品图太假等需求。用 IMIVA 电商内容专家整理真实素材，完成校色图、实物差异说明，逐项检查不把普通食材改成高价配料。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=smart_refine",
+  "channel": "",
+  "tools": [
+    "create_smart_refine_task"
+  ],
+  "new_literal_terms": [
+    "食物修图",
+    "菜品调色",
+    "食品图太假"
+  ]
+}
