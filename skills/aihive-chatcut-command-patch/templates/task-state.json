@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-chatcut-command-patch",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "edit-patch.json",
+    "protected-regions.csv",
+    "revision-log.md"
+  ]
+}

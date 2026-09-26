@@ -54728,5 +54728,455 @@
     "batch": "video-agents-58",
     "path": "skills/aihive-kickart-product-facts",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-kickart-structure-variants",
+    "display_name": "Kickart 爆款裂变平替｜参考结构转原创变体矩阵",
+    "category": "Kickart",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-kickart-structure-variants",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-kickart-review-repair",
+    "display_name": "Kickart 平替｜广告片段问题定位与修复队列",
+    "category": "Kickart",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-kickart-review-repair",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-picset-set-to-motion",
+    "display_name": "Picset AI 视频平替｜商品套图转动态展示组",
+    "category": "Picset AI",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-picset-set-to-motion",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-picset-variant-isolation",
+    "display_name": "Picset 平替｜多色商品视频串款检查助手",
+    "category": "Picset AI",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-picset-variant-isolation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-chatcut-semantic-cuts",
+    "display_name": "ChatCut 平替｜口播重录句去重与剪辑决定单",
+    "category": "ChatCut",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-chatcut-semantic-cuts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-chatcut-command-patch",
+    "display_name": "ChatCut 平替｜一句话改视频转可撤销编辑清单",
+    "category": "ChatCut",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-chatcut-command-patch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-chatcut-broll-coverage",
+    "display_name": "ChatCut 平替｜口播空镜补位与画中画匹配",
+    "category": "ChatCut",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-chatcut-broll-coverage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-xiaoyunque-dialogue-cast",
+    "display_name": "小云雀短剧创作平替｜多人对白与角色声音绑定",
+    "category": "小云雀",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-xiaoyunque-dialogue-cast",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-xiaoyunque-batch-triage",
+    "display_name": "小云雀工具平替｜视频小样挑选与失败镜头返工",
+    "category": "小云雀",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-xiaoyunque-batch-triage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-linkfox-market-localize",
+    "display_name": "LinkFox 跨境视频平替｜同商品多语言卖点改编",
+    "category": "LinkFox",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-linkfox-market-localize",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-linkfox-ugc-proof",
+    "display_name": "LinkFox 平替｜商品UGC演示与虚构证言排查",
+    "category": "LinkFox",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-linkfox-ugc-proof",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-jurilu-panel-to-shot",
+    "display_name": "巨日禄平替｜漫画分格转镜头与运动制作单",
+    "category": "巨日禄",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-jurilu-panel-to-shot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-jurilu-dialogue-density",
+    "display_name": "巨日禄平替｜漫剧对白密度与画面停留审片",
+    "category": "巨日禄",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-jurilu-dialogue-density",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-nami-episode-lot",
+    "display_name": "纳米漫剧流水线平替｜分集生产批次与断点交接",
+    "category": "纳米漫剧流水线",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-nami-episode-lot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-nami-prop-continuity",
+    "display_name": "纳米漫剧平替｜跨集道具状态与剧情连续性",
+    "category": "纳米漫剧流水线",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-nami-prop-continuity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-popreels-license-gate",
+    "display_name": "泡漫平替｜小说授权材料到短剧制作准入包",
+    "category": "泡漫",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-popreels-license-gate",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-popreels-dubbing-qc",
+    "display_name": "泡漫转绘译配平替｜短剧译配与角色称谓一致",
+    "category": "泡漫",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-popreels-dubbing-qc",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-yuanji-ad-treatment",
+    "display_name": "元极AI平替｜商业广告导演阐述与试镜小样",
+    "category": "元极",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-yuanji-ad-treatment",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-yuanji-sound-picture",
+    "display_name": "元极平替｜产品广告声音事件与画面同步单",
+    "category": "元极",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-yuanji-sound-picture",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-qingduo-page-to-ad",
+    "display_name": "擎舵Agent平替｜落地页卖点到搜索广告视频",
+    "category": "擎舵 Agent",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-qingduo-page-to-ad",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-qingduo-hook-reframe",
+    "display_name": "擎舵爆款裂变平替｜同卖点多搜索意图开场",
+    "category": "擎舵 Agent",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-qingduo-hook-reframe",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-reelmate-production-bible",
+    "display_name": "万兴剧厂平替｜短剧项目制作圣经与交接核验",
+    "category": "万兴剧厂",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-reelmate-production-bible",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-reelmate-episode-cut",
+    "display_name": "万兴剧厂平替｜分集时长预算与悬念接点",
+    "category": "万兴剧厂",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-reelmate-episode-cut",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-filmoratv-packshot",
+    "display_name": "Filmora.TV平替｜TVC产品定版镜头验收助手",
+    "category": "Filmora.TV",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-filmoratv-packshot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-filmoratv-tvc-cutdowns",
+    "display_name": "Filmora.TV平替｜一支广告拆15秒与6秒短版",
+    "category": "Filmora.TV",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-filmoratv-tvc-cutdowns",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-laihua-mg-to-product",
+    "display_name": "来画LAiPIC平替｜流程讲解MG与产品镜头混合片",
+    "category": "来画 LAiPIC",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-laihua-mg-to-product",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-laihua-node-brief",
+    "display_name": "来画全能画布平替｜素材节点转可携带制作清单",
+    "category": "来画 LAiPIC",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-laihua-node-brief",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-superdir-material-reuse",
+    "display_name": "超级编导平替｜企业素材库到批量剪辑配方",
+    "category": "超级编导",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-superdir-material-reuse",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-superdir-live-quote",
+    "display_name": "超级编导直播切片平替｜完整问答切片与上下文保留",
+    "category": "超级编导",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-superdir-live-quote",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-qinghu-linkpix-video",
+    "display_name": "青虎AI LinkPix平替｜上新商品图与视频联动包",
+    "category": "青虎AI LinkPix",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-qinghu-linkpix-video",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-qinghu-analysis-to-shot",
+    "display_name": "青虎AI视频拆解平替｜参考结构到自有商品拍摄单",
+    "category": "青虎AI LinkPix",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-qinghu-analysis-to-shot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-huiwa-garment-motion",
+    "display_name": "绘蛙平替｜服装模特动图转视频与版型审片",
+    "category": "绘蛙",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-huiwa-garment-motion",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-huiwa-image-montage",
+    "display_name": "绘蛙智能混剪平替｜多图上新视频与信息去重",
+    "category": "绘蛙",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-huiwa-image-montage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shanjian-ip-weekly",
+    "display_name": "闪剪AI平替｜老板口播一周选题与素材制作队列",
+    "category": "闪剪AI",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-shanjian-ip-weekly",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-dujia-evidence-news",
+    "display_name": "度加AI平替｜资料核验到科技解读视频",
+    "category": "度加AI",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-dujia-evidence-news",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-dujia-highlight-context",
+    "display_name": "度加高光剪辑平替｜讲座亮点剪辑与论证保全",
+    "category": "度加AI",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-dujia-highlight-context",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-kaipai-local-store",
+    "display_name": "美图开拍平替｜门店照片转同城引流视频",
+    "category": "美图开拍",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-kaipai-local-store",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-kaipai-whiteboard-lesson",
+    "display_name": "开拍白板视频平替｜讲解板书与口播同步制作",
+    "category": "美图开拍",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-kaipai-whiteboard-lesson",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-topview-product-entry",
+    "display_name": "Topview平替｜商品链接与脚本混合输入校验",
+    "category": "Topview",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-topview-product-entry",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-topview-shot-preflight",
+    "display_name": "Topview镜头编排平替｜生成前构图预演与成本检查",
+    "category": "Topview",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-topview-shot-preflight",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-genra-scene-reorder",
+    "display_name": "Genra平替｜对话修改故事顺序与旁白联动",
+    "category": "Genra",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-genra-scene-reorder",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-qingyu-consent-presenter",
+    "display_name": "轻语IP智能体平替｜授权数字人口播生产包",
+    "category": "轻语IP智能体",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-qingyu-consent-presenter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-descript-text-cuts",
+    "display_name": "Descript平替｜逐字稿删改映射原片时间码",
+    "category": "Descript",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-descript-text-cuts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-video-agent-cost-trial",
+    "display_name": "视频Agent平替评测｜同题小样与有效成片成本",
+    "category": "木兰 Mulan",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-video-agent-cost-trial",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mobi-data-to-brief",
+    "display_name": "Mobi AI Master平替｜短视频数据表转创意制作单",
+    "category": "Mobi AI Master",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-mobi-data-to-brief",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mobi-comment-to-demo",
+    "display_name": "Mobi AI Master平替｜评论需求词转商品演示视频",
+    "category": "Mobi AI Master",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-mobi-comment-to-demo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-white-edge-workflow",
+    "display_name": "白底商品图灰边清理助手",
+    "category": "智能精修",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-white-edge-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-transparent-reflection-workflow",
+    "display_name": "透明瓶罐反光精修助手",
+    "category": "智能精修",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-transparent-reflection-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-metal-brush-workflow",
+    "display_name": "金属商品拉丝质感修图助手",
+    "category": "智能精修",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-metal-brush-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-fabric-weave-workflow",
+    "display_name": "服装面料纹理保真修图助手",
+    "category": "智能精修",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-fabric-weave-workflow",
+    "language": "zh-CN"
   }
 ]

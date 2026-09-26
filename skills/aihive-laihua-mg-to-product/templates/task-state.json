@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-laihua-mg-to-product",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "process-storyboard.csv",
+    "graphic-assets/",
+    "explain-qc.md"
+  ]
+}

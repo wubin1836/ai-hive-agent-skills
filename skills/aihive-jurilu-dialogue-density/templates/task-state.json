@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-jurilu-dialogue-density",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "dialogue-load.csv",
+    "pacing-fixes.json",
+    "readability-review.md"
+  ]
+}

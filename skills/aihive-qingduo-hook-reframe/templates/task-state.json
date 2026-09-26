@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-qingduo-hook-reframe",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "intent-hooks.csv",
+    "shared-proof.json",
+    "version-review.md"
+  ]
+}

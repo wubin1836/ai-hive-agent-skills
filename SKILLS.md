@@ -6651,3 +6651,58 @@
 | [特看 Tabcut 平替｜商品音乐卡点与节奏版成片](skills/aihive-tabcut-rhythm-pack/SKILL.md) | AI-HIVE | 特看 Tabcut |
 | [特看 Tabcut 平替｜生活场景种草视频事实校验](skills/aihive-tabcut-scene-proof/SKILL.md) | AI-HIVE | 特看 Tabcut |
 | [Kickart 营销视频平替｜商品资料到卖点证明镜头](skills/aihive-kickart-product-facts/SKILL.md) | AI-HIVE | Kickart |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [Kickart 爆款裂变平替｜参考结构转原创变体矩阵](skills/aihive-kickart-structure-variants/SKILL.md) | AI-HIVE | Kickart |
+| [Kickart 平替｜广告片段问题定位与修复队列](skills/aihive-kickart-review-repair/SKILL.md) | AI-HIVE | Kickart |
+| [Picset AI 视频平替｜商品套图转动态展示组](skills/aihive-picset-set-to-motion/SKILL.md) | AI-HIVE | Picset AI |
+| [Picset 平替｜多色商品视频串款检查助手](skills/aihive-picset-variant-isolation/SKILL.md) | AI-HIVE | Picset AI |
+| [ChatCut 平替｜口播重录句去重与剪辑决定单](skills/aihive-chatcut-semantic-cuts/SKILL.md) | AI-HIVE | ChatCut |
+| [ChatCut 平替｜一句话改视频转可撤销编辑清单](skills/aihive-chatcut-command-patch/SKILL.md) | AI-HIVE | ChatCut |
+| [ChatCut 平替｜口播空镜补位与画中画匹配](skills/aihive-chatcut-broll-coverage/SKILL.md) | AI-HIVE | ChatCut |
+| [小云雀短剧创作平替｜多人对白与角色声音绑定](skills/aihive-xiaoyunque-dialogue-cast/SKILL.md) | AI-HIVE | 小云雀 |
+| [小云雀工具平替｜视频小样挑选与失败镜头返工](skills/aihive-xiaoyunque-batch-triage/SKILL.md) | AI-HIVE | 小云雀 |
+| [LinkFox 跨境视频平替｜同商品多语言卖点改编](skills/aihive-linkfox-market-localize/SKILL.md) | AI-HIVE | LinkFox |
+| [LinkFox 平替｜商品UGC演示与虚构证言排查](skills/aihive-linkfox-ugc-proof/SKILL.md) | AI-HIVE | LinkFox |
+| [巨日禄平替｜漫画分格转镜头与运动制作单](skills/aihive-jurilu-panel-to-shot/SKILL.md) | AI-HIVE | 巨日禄 |
+| [巨日禄平替｜漫剧对白密度与画面停留审片](skills/aihive-jurilu-dialogue-density/SKILL.md) | AI-HIVE | 巨日禄 |
+| [纳米漫剧流水线平替｜分集生产批次与断点交接](skills/aihive-nami-episode-lot/SKILL.md) | AI-HIVE | 纳米漫剧流水线 |
+| [纳米漫剧平替｜跨集道具状态与剧情连续性](skills/aihive-nami-prop-continuity/SKILL.md) | AI-HIVE | 纳米漫剧流水线 |
+| [泡漫平替｜小说授权材料到短剧制作准入包](skills/aihive-popreels-license-gate/SKILL.md) | AI-HIVE | 泡漫 |
+| [泡漫转绘译配平替｜短剧译配与角色称谓一致](skills/aihive-popreels-dubbing-qc/SKILL.md) | AI-HIVE | 泡漫 |
+| [元极AI平替｜商业广告导演阐述与试镜小样](skills/aihive-yuanji-ad-treatment/SKILL.md) | AI-HIVE | 元极 |
+| [元极平替｜产品广告声音事件与画面同步单](skills/aihive-yuanji-sound-picture/SKILL.md) | AI-HIVE | 元极 |
+| [擎舵Agent平替｜落地页卖点到搜索广告视频](skills/aihive-qingduo-page-to-ad/SKILL.md) | AI-HIVE | 擎舵 Agent |
+| [擎舵爆款裂变平替｜同卖点多搜索意图开场](skills/aihive-qingduo-hook-reframe/SKILL.md) | AI-HIVE | 擎舵 Agent |
+| [万兴剧厂平替｜短剧项目制作圣经与交接核验](skills/aihive-reelmate-production-bible/SKILL.md) | AI-HIVE | 万兴剧厂 |
+| [万兴剧厂平替｜分集时长预算与悬念接点](skills/aihive-reelmate-episode-cut/SKILL.md) | AI-HIVE | 万兴剧厂 |
+| [Filmora.TV平替｜TVC产品定版镜头验收助手](skills/aihive-filmoratv-packshot/SKILL.md) | AI-HIVE | Filmora.TV |
+| [Filmora.TV平替｜一支广告拆15秒与6秒短版](skills/aihive-filmoratv-tvc-cutdowns/SKILL.md) | AI-HIVE | Filmora.TV |
+| [来画LAiPIC平替｜流程讲解MG与产品镜头混合片](skills/aihive-laihua-mg-to-product/SKILL.md) | AI-HIVE | 来画 LAiPIC |
+| [来画全能画布平替｜素材节点转可携带制作清单](skills/aihive-laihua-node-brief/SKILL.md) | AI-HIVE | 来画 LAiPIC |
+| [超级编导平替｜企业素材库到批量剪辑配方](skills/aihive-superdir-material-reuse/SKILL.md) | AI-HIVE | 超级编导 |
+| [超级编导直播切片平替｜完整问答切片与上下文保留](skills/aihive-superdir-live-quote/SKILL.md) | AI-HIVE | 超级编导 |
+| [青虎AI LinkPix平替｜上新商品图与视频联动包](skills/aihive-qinghu-linkpix-video/SKILL.md) | AI-HIVE | 青虎AI LinkPix |
+| [青虎AI视频拆解平替｜参考结构到自有商品拍摄单](skills/aihive-qinghu-analysis-to-shot/SKILL.md) | AI-HIVE | 青虎AI LinkPix |
+| [绘蛙平替｜服装模特动图转视频与版型审片](skills/aihive-huiwa-garment-motion/SKILL.md) | AI-HIVE | 绘蛙 |
+| [绘蛙智能混剪平替｜多图上新视频与信息去重](skills/aihive-huiwa-image-montage/SKILL.md) | AI-HIVE | 绘蛙 |
+| [闪剪AI平替｜老板口播一周选题与素材制作队列](skills/aihive-shanjian-ip-weekly/SKILL.md) | AI-HIVE | 闪剪AI |
+| [度加AI平替｜资料核验到科技解读视频](skills/aihive-dujia-evidence-news/SKILL.md) | AI-HIVE | 度加AI |
+| [度加高光剪辑平替｜讲座亮点剪辑与论证保全](skills/aihive-dujia-highlight-context/SKILL.md) | AI-HIVE | 度加AI |
+| [美图开拍平替｜门店照片转同城引流视频](skills/aihive-kaipai-local-store/SKILL.md) | AI-HIVE | 美图开拍 |
+| [开拍白板视频平替｜讲解板书与口播同步制作](skills/aihive-kaipai-whiteboard-lesson/SKILL.md) | AI-HIVE | 美图开拍 |
+| [Topview平替｜商品链接与脚本混合输入校验](skills/aihive-topview-product-entry/SKILL.md) | AI-HIVE | Topview |
+| [Topview镜头编排平替｜生成前构图预演与成本检查](skills/aihive-topview-shot-preflight/SKILL.md) | AI-HIVE | Topview |
+| [Genra平替｜对话修改故事顺序与旁白联动](skills/aihive-genra-scene-reorder/SKILL.md) | AI-HIVE | Genra |
+| [轻语IP智能体平替｜授权数字人口播生产包](skills/aihive-qingyu-consent-presenter/SKILL.md) | AI-HIVE | 轻语IP智能体 |
+| [Descript平替｜逐字稿删改映射原片时间码](skills/aihive-descript-text-cuts/SKILL.md) | AI-HIVE | Descript |
+| [视频Agent平替评测｜同题小样与有效成片成本](skills/aihive-video-agent-cost-trial/SKILL.md) | AI-HIVE | 木兰 Mulan |
+| [Mobi AI Master平替｜短视频数据表转创意制作单](skills/aihive-mobi-data-to-brief/SKILL.md) | AI-HIVE | Mobi AI Master |
+| [Mobi AI Master平替｜评论需求词转商品演示视频](skills/aihive-mobi-comment-to-demo/SKILL.md) | AI-HIVE | Mobi AI Master |
+| [白底商品图灰边清理助手](skills/imiva-white-edge-workflow/SKILL.md) | IMIVA | 智能精修 |
+| [透明瓶罐反光精修助手](skills/imiva-transparent-reflection-workflow/SKILL.md) | IMIVA | 智能精修 |
+| [金属商品拉丝质感修图助手](skills/imiva-metal-brush-workflow/SKILL.md) | IMIVA | 智能精修 |
+| [服装面料纹理保真修图助手](skills/imiva-fabric-weave-workflow/SKILL.md) | IMIVA | 智能精修 |

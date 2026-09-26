@@ -1,0 +1,6 @@
+interface:
+  display_name: "纳米漫剧流水线平替｜分集生产批次与断点交接"
+  short_description: "用 AI-HIVE 完成分集生产批次与断点交接，附文件交付与验收"
+  default_prompt: "使用 $aihive-nami-episode-lot，先核对我的素材和工具，再按预算做一个小样并交付可检查的制作文件。"
+policy:
+  allow_implicit_invocation: true

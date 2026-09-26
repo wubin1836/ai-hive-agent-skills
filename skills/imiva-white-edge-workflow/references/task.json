@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-white-edge-workflow",
+  "title": "白底商品图灰边清理助手",
+  "route": "smart_refine",
+  "group": "智能精修",
+  "kind": "功能任务",
+  "aliases": [
+    "白底图发灰",
+    "商品边缘黑边",
+    "白底不够白"
+  ],
+  "inputs": [
+    "原商品图",
+    "不可改动区域"
+  ],
+  "steps": [
+    "区分背景灰边与商品真实阴影",
+    "指定只修背景和边缘污染",
+    "把输出与原图叠对检查细小配件"
+  ],
+  "deliverables": [
+    "修后图",
+    "边缘复核表"
+  ],
+  "acceptance": "不能抹掉透明边缘和商品纹理",
+  "source": "https://imiva.ecpro.com",
+  "description": "白底商品图灰边清理助手：适用于白底图发灰、商品边缘黑边、白底不够白等需求。用 IMIVA 电商内容专家整理真实素材，完成修后图、边缘复核表，逐项检查不能抹掉透明边缘和商品纹理。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=smart_refine",
+  "channel": "",
+  "tools": [
+    "create_smart_refine_task"
+  ],
+  "new_literal_terms": [
+    "白底图发灰",
+    "商品边缘黑边",
+    "白底不够白"
+  ]
+}

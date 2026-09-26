@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-kaipai-whiteboard-lesson",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "board-elements.svg",
+    "reveal-cues.csv",
+    "lesson-qc.md"
+  ]
+}

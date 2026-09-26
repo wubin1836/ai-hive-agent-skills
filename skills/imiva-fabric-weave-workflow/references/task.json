@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-fabric-weave-workflow",
+  "title": "服装面料纹理保真修图助手",
+  "route": "smart_refine",
+  "group": "智能精修",
+  "kind": "功能任务",
+  "aliases": [
+    "面料修图",
+    "衣服纹理",
+    "毛衣针织细节"
+  ],
+  "inputs": [
+    "面料近景",
+    "全身商品图",
+    "成分事实"
+  ],
+  "steps": [
+    "分离污点与真实纹理",
+    "指定不平滑针织纱线",
+    "近景和远景逐项比对"
+  ],
+  "deliverables": [
+    "精修样图",
+    "面料细节对照"
+  ],
+  "acceptance": "纹理不能换成另一种材质",
+  "source": "https://imiva.ecpro.com",
+  "description": "服装面料纹理保真修图助手：适用于面料修图、衣服纹理、毛衣针织细节等需求。用 IMIVA 电商内容专家整理真实素材，完成精修样图、面料细节对照，逐项检查纹理不能换成另一种材质。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=smart_refine",
+  "channel": "",
+  "tools": [
+    "create_smart_refine_task"
+  ],
+  "new_literal_terms": [
+    "面料修图",
+    "衣服纹理",
+    "毛衣针织细节"
+  ]
+}

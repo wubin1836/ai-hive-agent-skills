@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-jurilu-panel-to-shot",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "panel-shot-map.csv",
+    "motion-spec.json",
+    "story-review.md"
+  ]
+}

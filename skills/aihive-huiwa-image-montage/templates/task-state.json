@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-huiwa-image-montage",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "image-purpose.csv",
+    "montage-plan.json",
+    "readability-qc.md"
+  ]
+}

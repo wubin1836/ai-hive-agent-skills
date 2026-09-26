@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-yuanji-sound-picture",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "sound-cues.csv",
+    "mix-plan.json",
+    "sync-review.md"
+  ]
+}

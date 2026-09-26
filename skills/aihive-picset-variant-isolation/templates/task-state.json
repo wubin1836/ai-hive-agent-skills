@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-picset-variant-isolation",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "sku-isolation.csv",
+    "mismatch-review.html",
+    "repair-plan.json"
+  ]
+}

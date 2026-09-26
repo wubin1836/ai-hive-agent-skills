@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-nami-episode-lot",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "episode-lots.csv",
+    "checkpoint.json",
+    "handoff.md"
+  ]
+}

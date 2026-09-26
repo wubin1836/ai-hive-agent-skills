@@ -1,0 +1,6 @@
+interface:
+  display_name: "轻语IP智能体平替｜授权数字人口播生产包"
+  short_description: "用 AI-HIVE 完成授权数字人口播生产包，附文件交付与验收"
+  default_prompt: "使用 $aihive-qingyu-consent-presenter，先核对我的素材和工具，再按预算做一个小样并交付可检查的制作文件。"
+policy:
+  allow_implicit_invocation: true

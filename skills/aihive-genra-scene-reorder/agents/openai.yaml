@@ -1,0 +1,6 @@
+interface:
+  display_name: "Genra平替｜对话修改故事顺序与旁白联动"
+  short_description: "用 AI-HIVE 完成对话修改故事顺序与旁白联动，附文件交付与验收"
+  default_prompt: "使用 $aihive-genra-scene-reorder，先核对我的素材和工具，再按预算做一个小样并交付可检查的制作文件。"
+policy:
+  allow_implicit_invocation: true
