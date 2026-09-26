@@ -6541,3 +6541,58 @@
 | [GPT-6 Sol工程交付助手](skills/aihive-gpt6-sol-engineering/SKILL.md) | AI-HIVE | 模型编程 |
 | [GPT-6 Luna批量表格处理助手](skills/aihive-gpt6-luna-batch/SKILL.md) | AI-HIVE | 模型批处理 |
 | [Claude Opus 5.5迁移验收助手](skills/aihive-claude-opus55-upgrade/SKILL.md) | AI-HIVE | 模型评测 |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [跳跃视界平替｜单集短剧生产工作台](skills/aihive-ty-episode-workbench/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界影视Agent平替｜剧本改稿影响分析](skills/aihive-ty-script-change-impact/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界妆造映射｜人物阶段与造型绑定](skills/aihive-ty-costume-stage-map/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界旁白改编｜对白剧本转叙述短片](skills/aihive-ty-dialogue-narration/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界多画风平替｜同镜头风格打样](skills/aihive-ty-style-trial-matrix/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界全局设定｜剧集世界规则冻结](skills/aihive-ty-global-setting-lock/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界角色库平替｜原创角色选角试镜](skills/aihive-ty-casting-audition/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界场景库平替｜固定机位场景包](skills/aihive-ty-set-camera-pack/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界道具库平替｜线索道具生命周期](skills/aihive-ty-prop-lifecycle/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界无限画布平替｜镜头依赖图](skills/aihive-ty-canvas-dependencies/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界资产调用｜来源与复用边界核对](skills/aihive-ty-asset-license-ledger/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界团队协作平替｜分集审片交接](skills/aihive-ty-team-review-handoff/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界模型清单平替｜镜头需求路由](skills/aihive-ty-model-capability-routing/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界成本对照｜合格镜头成本核算](skills/aihive-ty-accepted-shot-cost/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界出海短剧平替｜角色文化适配重制](skills/aihive-ty-overseas-remake-plan/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [跳跃视界旧项目续拍平替｜续集制作状态恢复](skills/aihive-ty-season-resume/SKILL.md) | AI-HIVE | 跳跃视界 |
+| [Flova Prompt卡平替｜逐镜约束编译](skills/aihive-fl-prompt-card-compiler/SKILL.md) | AI-HIVE | Flova |
+| [Flova Final Video Spec平替｜成片规格核验](skills/aihive-fl-final-video-spec/SKILL.md) | AI-HIVE | Flova |
+| [Flova Key Elements平替｜参考素材用途绑定](skills/aihive-fl-key-elements-binding/SKILL.md) | AI-HIVE | Flova |
+| [Flova评论生成平替｜局部修改与影响控制](skills/aihive-fl-local-comment-edit/SKILL.md) | AI-HIVE | Flova |
+| [Flova素材组平替｜候选版本审选定版](skills/aihive-fl-asset-group-approval/SKILL.md) | AI-HIVE | Flova |
+| [Flova媒体空间平替｜游离素材归位](skills/aihive-fl-unbound-media-reconcile/SKILL.md) | AI-HIVE | Flova |
+| [Flova首尾帧绑定平替｜相邻镜头共享关键帧](skills/aihive-fl-shared-boundary-frame/SKILL.md) | AI-HIVE | Flova |
+| [Flova时间线平替｜手工改动与AI重组冲突合并](skills/aihive-fl-timeline-merge/SKILL.md) | AI-HIVE | Flova |
+| [Flova项目记忆平替｜制作上下文快照](skills/aihive-fl-project-memory-snapshot/SKILL.md) | AI-HIVE | Flova |
+| [Flova视频续作平替｜尾段状态继承](skills/aihive-fl-video-continuation-seam/SKILL.md) | AI-HIVE | Flova |
+| [Flova原样重新生成平替｜参数复现对照](skills/aihive-fl-regeneration-repro/SKILL.md) | AI-HIVE | Flova |
+| [Flova导出迁移｜剪映与PR素材重链接](skills/aihive-fl-export-relink/SKILL.md) | AI-HIVE | Flova |
+| [Flova Skill引用素材平替｜素材版本冻结](skills/aihive-fl-skill-reference-freeze/SKILL.md) | AI-HIVE | Flova |
+| [Flova CLI平替｜本地剧本资料制作交接](skills/aihive-fl-cli-local-migration/SKILL.md) | AI-HIVE | Flova |
+| [Flova MCP迁移评估｜项目状态与生成工具适配](skills/aihive-fl-mcp-state-adapter/SKILL.md) | AI-HIVE | Flova |
+| [Flova积分对照｜可用镜头成本与质量试验](skills/aihive-fl-usable-output-benchmark/SKILL.md) | AI-HIVE | Flova |
+| [Vivix平替可行性｜实时与离线路线评估](skills/aihive-vx-capability-decision/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix-A1全身角色｜动作脚本与离线预演](skills/aihive-vx-a1-body-rehearsal/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix-A1全双工｜插话与取消状态测试](skills/aihive-vx-a1-barge-in/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix互动讲解｜商品拿取与演示分支](skills/aihive-vx-product-handling/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix角色看图对话｜可见事实与知识边界](skills/aihive-vx-visual-grounding/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix角色表现验收｜表情语音与动作对齐](skills/aihive-vx-expression-sync/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix-W1交互世界｜状态包与镜头预演](skills/aihive-vx-w1-world-state/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix-W1点击交互｜画面对象事件映射](skills/aihive-vx-w1-touch-events/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix-W1相机控制｜视角路径与越界检查](skills/aihive-vx-w1-camera-path/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix-W1动态参考｜中途插入素材兼容评估](skills/aihive-vx-w1-live-reference/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix流式视频评估｜首帧延迟与卡顿验收](skills/aihive-vx-stream-latency/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix原生音画评估｜长会话音画漂移检查](skills/aihive-vx-av-drift/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix IVI平替原型｜预制片段与互动节点编排](skills/aihive-vx-ivi-branch-runtime/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix Real-Time Director平替｜剧情调度状态机](skills/aihive-vx-realtime-director/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix Harness Engine平替｜角色工具任务隔离](skills/aihive-vx-harness-tools/SKILL.md) | AI-HIVE | Vivix |
+| [Vivix互动短剧原型｜会话恢复与观众退出](skills/aihive-vx-session-resume/SKILL.md) | AI-HIVE | Vivix |
+| [旧梦留声机题材参考｜普通人故事原创短片](skills/aihive-case-old-dream-everyday/SKILL.md) | AI-HIVE | 案例创作 |
+| [旧梦留声机《宝贝回家》题材参考｜团圆信物短片](skills/aihive-case-reunion-object/SKILL.md) | AI-HIVE | 案例创作 |

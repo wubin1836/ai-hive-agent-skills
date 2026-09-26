@@ -53828,5 +53828,455 @@
     "batch": "enterprise-models-109-20260923",
     "path": "skills/aihive-claude-opus55-upgrade",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-episode-workbench",
+    "display_name": "跳跃视界平替｜单集短剧生产工作台",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-episode-workbench",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-script-change-impact",
+    "display_name": "跳跃视界影视Agent平替｜剧本改稿影响分析",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-script-change-impact",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-costume-stage-map",
+    "display_name": "跳跃视界妆造映射｜人物阶段与造型绑定",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-costume-stage-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-dialogue-narration",
+    "display_name": "跳跃视界旁白改编｜对白剧本转叙述短片",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-dialogue-narration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-style-trial-matrix",
+    "display_name": "跳跃视界多画风平替｜同镜头风格打样",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-style-trial-matrix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-global-setting-lock",
+    "display_name": "跳跃视界全局设定｜剧集世界规则冻结",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-global-setting-lock",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-casting-audition",
+    "display_name": "跳跃视界角色库平替｜原创角色选角试镜",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-casting-audition",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-set-camera-pack",
+    "display_name": "跳跃视界场景库平替｜固定机位场景包",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-set-camera-pack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-prop-lifecycle",
+    "display_name": "跳跃视界道具库平替｜线索道具生命周期",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-prop-lifecycle",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-canvas-dependencies",
+    "display_name": "跳跃视界无限画布平替｜镜头依赖图",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-canvas-dependencies",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-asset-license-ledger",
+    "display_name": "跳跃视界资产调用｜来源与复用边界核对",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-asset-license-ledger",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-team-review-handoff",
+    "display_name": "跳跃视界团队协作平替｜分集审片交接",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-team-review-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-model-capability-routing",
+    "display_name": "跳跃视界模型清单平替｜镜头需求路由",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-model-capability-routing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-accepted-shot-cost",
+    "display_name": "跳跃视界成本对照｜合格镜头成本核算",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-accepted-shot-cost",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-overseas-remake-plan",
+    "display_name": "跳跃视界出海短剧平替｜角色文化适配重制",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-overseas-remake-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-season-resume",
+    "display_name": "跳跃视界旧项目续拍平替｜续集制作状态恢复",
+    "category": "跳跃视界",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-season-resume",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-prompt-card-compiler",
+    "display_name": "Flova Prompt卡平替｜逐镜约束编译",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-prompt-card-compiler",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-final-video-spec",
+    "display_name": "Flova Final Video Spec平替｜成片规格核验",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-final-video-spec",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-key-elements-binding",
+    "display_name": "Flova Key Elements平替｜参考素材用途绑定",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-key-elements-binding",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-local-comment-edit",
+    "display_name": "Flova评论生成平替｜局部修改与影响控制",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-local-comment-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-asset-group-approval",
+    "display_name": "Flova素材组平替｜候选版本审选定版",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-asset-group-approval",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-unbound-media-reconcile",
+    "display_name": "Flova媒体空间平替｜游离素材归位",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-unbound-media-reconcile",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-shared-boundary-frame",
+    "display_name": "Flova首尾帧绑定平替｜相邻镜头共享关键帧",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-shared-boundary-frame",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-timeline-merge",
+    "display_name": "Flova时间线平替｜手工改动与AI重组冲突合并",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-timeline-merge",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-project-memory-snapshot",
+    "display_name": "Flova项目记忆平替｜制作上下文快照",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-project-memory-snapshot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-video-continuation-seam",
+    "display_name": "Flova视频续作平替｜尾段状态继承",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-video-continuation-seam",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-regeneration-repro",
+    "display_name": "Flova原样重新生成平替｜参数复现对照",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-regeneration-repro",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-export-relink",
+    "display_name": "Flova导出迁移｜剪映与PR素材重链接",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-export-relink",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-skill-reference-freeze",
+    "display_name": "Flova Skill引用素材平替｜素材版本冻结",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-skill-reference-freeze",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-cli-local-migration",
+    "display_name": "Flova CLI平替｜本地剧本资料制作交接",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-cli-local-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-mcp-state-adapter",
+    "display_name": "Flova MCP迁移评估｜项目状态与生成工具适配",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-mcp-state-adapter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-fl-usable-output-benchmark",
+    "display_name": "Flova积分对照｜可用镜头成本与质量试验",
+    "category": "Flova",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-fl-usable-output-benchmark",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-capability-decision",
+    "display_name": "Vivix平替可行性｜实时与离线路线评估",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-capability-decision",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-a1-body-rehearsal",
+    "display_name": "Vivix-A1全身角色｜动作脚本与离线预演",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-a1-body-rehearsal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-a1-barge-in",
+    "display_name": "Vivix-A1全双工｜插话与取消状态测试",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-a1-barge-in",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-product-handling",
+    "display_name": "Vivix互动讲解｜商品拿取与演示分支",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-product-handling",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-visual-grounding",
+    "display_name": "Vivix角色看图对话｜可见事实与知识边界",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-visual-grounding",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-expression-sync",
+    "display_name": "Vivix角色表现验收｜表情语音与动作对齐",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-expression-sync",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-w1-world-state",
+    "display_name": "Vivix-W1交互世界｜状态包与镜头预演",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-w1-world-state",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-w1-touch-events",
+    "display_name": "Vivix-W1点击交互｜画面对象事件映射",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-w1-touch-events",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-w1-camera-path",
+    "display_name": "Vivix-W1相机控制｜视角路径与越界检查",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-w1-camera-path",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-w1-live-reference",
+    "display_name": "Vivix-W1动态参考｜中途插入素材兼容评估",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-w1-live-reference",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-stream-latency",
+    "display_name": "Vivix流式视频评估｜首帧延迟与卡顿验收",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-stream-latency",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-av-drift",
+    "display_name": "Vivix原生音画评估｜长会话音画漂移检查",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-av-drift",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-ivi-branch-runtime",
+    "display_name": "Vivix IVI平替原型｜预制片段与互动节点编排",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-ivi-branch-runtime",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-realtime-director",
+    "display_name": "Vivix Real-Time Director平替｜剧情调度状态机",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-realtime-director",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-harness-tools",
+    "display_name": "Vivix Harness Engine平替｜角色工具任务隔离",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-harness-tools",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-vx-session-resume",
+    "display_name": "Vivix互动短剧原型｜会话恢复与观众退出",
+    "category": "Vivix",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-vx-session-resume",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-old-dream-everyday",
+    "display_name": "旧梦留声机题材参考｜普通人故事原创短片",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-old-dream-everyday",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-reunion-object",
+    "display_name": "旧梦留声机《宝贝回家》题材参考｜团圆信物短片",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-reunion-object",
+    "language": "zh-CN"
   }
 ]

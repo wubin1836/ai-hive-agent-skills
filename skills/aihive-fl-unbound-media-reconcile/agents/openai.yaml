@@ -1,0 +1,6 @@
+interface:
+  display_name: "Flova媒体空间平替｜游离素材归位"
+  short_description: "用 AI-HIVE 完成游离素材归位，附执行步骤与验收交接"
+  default_prompt: "使用 $aihive-fl-unbound-media-reconcile，根据我提供的资料完成任务，先核对输入和实际工具能力。"
+policy:
+  allow_implicit_invocation: true

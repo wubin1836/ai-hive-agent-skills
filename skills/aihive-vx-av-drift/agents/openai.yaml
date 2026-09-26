@@ -1,0 +1,6 @@
+interface:
+  display_name: "Vivix原生音画评估｜长会话音画漂移检查"
+  short_description: "用 AI-HIVE 完成长会话音画漂移检查，附执行步骤与验收交接"
+  default_prompt: "使用 $aihive-vx-av-drift，根据我提供的资料完成任务，先核对输入和实际工具能力。"
+policy:
+  allow_implicit_invocation: true

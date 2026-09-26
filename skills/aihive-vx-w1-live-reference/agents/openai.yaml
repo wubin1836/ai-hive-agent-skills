@@ -1,0 +1,6 @@
+interface:
+  display_name: "Vivix-W1动态参考｜中途插入素材兼容评估"
+  short_description: "用 AI-HIVE 完成中途插入素材兼容评估，附执行步骤与验收交接"
+  default_prompt: "使用 $aihive-vx-w1-live-reference，根据我提供的资料完成任务，先核对输入和实际工具能力。"
+policy:
+  allow_implicit_invocation: true

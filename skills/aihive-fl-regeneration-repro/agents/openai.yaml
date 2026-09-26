@@ -1,0 +1,6 @@
+interface:
+  display_name: "Flova原样重新生成平替｜参数复现对照"
+  short_description: "用 AI-HIVE 完成参数复现对照，附执行步骤与验收交接"
+  default_prompt: "使用 $aihive-fl-regeneration-repro，根据我提供的资料完成任务，先核对输入和实际工具能力。"
+policy:
+  allow_implicit_invocation: true
