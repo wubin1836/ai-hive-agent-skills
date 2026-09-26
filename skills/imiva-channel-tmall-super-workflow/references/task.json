@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-tmall-super-workflow",
+  "title": "天猫超市家庭装份量展示助手",
+  "route": "product_main_image",
+  "group": "品牌供货渠道",
+  "kind": "渠道任务",
+  "aliases": [
+    "天猫超市",
+    "猫超"
+  ],
+  "inputs": [
+    "渠道现行要求",
+    "真实包数净含量",
+    "授权商品图"
+  ],
+  "steps": [
+    "将单包与整箱数量分层",
+    "以真实包装制作家庭装展示",
+    "核对促销量与常规量区别"
+  ],
+  "deliverables": [
+    "份量图",
+    "计量核对表"
+  ],
+  "acceptance": "是供应商素材方案，不代表可直接入驻猫超",
+  "source": "https://chaoshi.tmall.com/",
+  "description": "天猫超市家庭装份量展示助手：适用于天猫超市、猫超等需求。用 IMIVA 电商内容专家整理真实素材，完成份量图、计量核对表，逐项检查是供应商素材方案，不代表可直接入驻猫超。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "天猫超市；猫超",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "天猫超市",
+    "猫超"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-qunjielong-workflow",
+  "title": "群接龙团品开团素材助手",
+  "route": "product_main_image",
+  "group": "私域电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "群接龙",
+    "社群接龙团购"
+  ],
+  "inputs": [
+    "团品清单",
+    "截团取货条件",
+    "实拍"
+  ],
+  "steps": [
+    "用大字表现商品规格",
+    "单独列取货时间地点",
+    "核对团品与接龙选项"
+  ],
+  "deliverables": [
+    "开团图",
+    "取货说明"
+  ],
+  "acceptance": "群接龙与接龙管家不是同一个产品；不自动发布群消息及收款",
+  "source": "https://www.qunjielong.com/",
+  "description": "群接龙团品开团素材助手：适用于群接龙、社群接龙团购等需求。用 IMIVA 电商内容专家整理真实素材，完成开团图、取货说明，逐项检查群接龙与接龙管家不是同一个产品；不自动发布群消息及收款。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "群接龙；社群接龙团购",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "社群接龙团购"
+  ]
+}

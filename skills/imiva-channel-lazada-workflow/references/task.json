@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-lazada-workflow",
+  "title": "Lazada移动端商详模块助手",
+  "route": "detail_page",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "Lazada",
+    "来赞达"
+  ],
+  "inputs": [
+    "站点语言",
+    "手机预览",
+    "商品参数"
+  ],
+  "steps": [
+    "分解长详情为移动端模块",
+    "突出型号与使用限制",
+    "检查文字缩放及跨语种溢出"
+  ],
+  "deliverables": [
+    "移动商详图",
+    "版位清单"
+  ],
+  "acceptance": "不保证所有国家后台组件相同",
+  "source": "https://www.lazada.cn/",
+  "description": "Lazada移动端商详模块助手：适用于Lazada、来赞达等需求。用 IMIVA 电商内容专家整理真实素材，完成移动商详图、版位清单，逐项检查不保证所有国家后台组件相同。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "Lazada；来赞达",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "来赞达"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-winxuan-workflow",
+  "title": "文轩图书采购套系图助手",
+  "route": "product_main_image",
+  "group": "垂直电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "文轩网",
+    "新华文轩"
+  ],
+  "inputs": [
+    "正版封面",
+    "ISBN列表",
+    "采购套系"
+  ],
+  "steps": [
+    "按套系展示册数和书目",
+    "只用有权使用封面",
+    "交付采购索引"
+  ],
+  "deliverables": [
+    "套系图",
+    "书目CSV"
+  ],
+  "acceptance": "不保证该渠道开放商家入驻",
+  "source": "https://www.winxuan.com/",
+  "description": "文轩图书采购套系图助手：适用于文轩网、新华文轩等需求。用 IMIVA 电商内容专家整理真实素材，完成套系图、书目CSV，逐项检查不保证该渠道开放商家入驻。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "文轩网；新华文轩",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "文轩网",
+    "新华文轩"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-etsy-workflow",
+  "title": "Etsy定制选项与制作说明图助手",
+  "route": "detail_page",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "Etsy",
+    "手工电商"
+  ],
+  "inputs": [
+    "真实制作方式",
+    "选项表",
+    "授权作品图"
+  ],
+  "steps": [
+    "如实区分手工和生产合作",
+    "生成个性化选项示意",
+    "标注示意不是已完成订单"
+  ],
+  "deliverables": [
+    "定制选项图",
+    "制作说明"
+  ],
+  "acceptance": "遵守当前平台披露要求，不伪造手工过程",
+  "source": "https://www.etsy.com/seller-handbook",
+  "description": "Etsy定制选项与制作说明图助手：适用于Etsy、手工电商等需求。用 IMIVA 电商内容专家整理真实素材，完成定制选项图、制作说明，逐项检查遵守当前平台披露要求，不伪造手工过程。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "Etsy；手工电商",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "手工电商"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-coupang-workflow",
+  "title": "Coupang韩语商品差异图助手",
+  "route": "detail_page",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "Coupang",
+    "酷澎"
+  ],
+  "inputs": [
+    "韩语术语",
+    "商品版本",
+    "规格表"
+  ],
+  "steps": [
+    "把版本差异变成视觉对照",
+    "保持商品真实标识",
+    "核对单位及包含内容"
+  ],
+  "deliverables": [
+    "差异图",
+    "韩语校验表"
+  ],
+  "acceptance": "不生成未经确认的安全认证或配送承诺",
+  "source": "https://globalsellers.coupang.com/",
+  "description": "Coupang韩语商品差异图助手：适用于Coupang、酷澎等需求。用 IMIVA 电商内容专家整理真实素材，完成差异图、韩语校验表，逐项检查不生成未经确认的安全认证或配送承诺。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "Coupang；酷澎",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "酷澎"
+  ]
+}

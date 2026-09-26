@@ -1,0 +1,34 @@
+{
+  "slug": "imiva-channel-mercado-workflow",
+  "title": "美客多西语葡语参数图助手",
+  "route": "detail_page",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "Mercado Libre",
+    "美客多"
+  ],
+  "inputs": [
+    "销售国家",
+    "参数原文",
+    "术语表"
+  ],
+  "steps": [
+    "先选西语或葡语而非混用",
+    "保留型号与单位",
+    "制作参数图并逐字段对照"
+  ],
+  "deliverables": [
+    "参数图",
+    "双语字段表"
+  ],
+  "acceptance": "币种电压插头需用户提供真实信息",
+  "source": "https://global-selling.mercadolibre.com/",
+  "description": "美客多西语葡语参数图助手：适用于Mercado Libre、美客多等需求。用 IMIVA 电商内容专家整理真实素材，完成参数图、双语字段表，逐项检查币种电压插头需用户提供真实信息。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "Mercado Libre；美客多",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": []
+}

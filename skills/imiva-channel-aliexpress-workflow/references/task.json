@@ -1,0 +1,34 @@
+{
+  "slug": "imiva-channel-aliexpress-workflow",
+  "title": "速卖通多语规格图校对助手",
+  "route": "detail_page",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "速卖通",
+    "AliExpress"
+  ],
+  "inputs": [
+    "原始规格",
+    "目标语言",
+    "站点要求"
+  ],
+  "steps": [
+    "保留型号与数字",
+    "独立翻译说明而非涂改包装",
+    "复核单位电压及尺码"
+  ],
+  "deliverables": [
+    "多语规格图",
+    "术语核对表"
+  ],
+  "acceptance": "不能猜测当地认证和物流时效",
+  "source": "https://sell.aliexpress.com/",
+  "description": "速卖通多语规格图校对助手：适用于速卖通、AliExpress等需求。用 IMIVA 电商内容专家整理真实素材，完成多语规格图、术语核对表，逐项检查不能猜测当地认证和物流时效。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "速卖通；AliExpress",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": []
+}

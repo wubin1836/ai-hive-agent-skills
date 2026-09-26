@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-shopline-workflow",
+  "title": "SHOPLINE商品页视觉交付助手",
+  "route": "detail_page",
+  "group": "中文独立站",
+  "kind": "渠道任务",
+  "aliases": [
+    "SHOPLINE",
+    "Shopline独立站"
+  ],
+  "inputs": [
+    "站点组件要求",
+    "品牌素材",
+    "产品规格"
+  ],
+  "steps": [
+    "按实际主题组件拆图",
+    "制作首屏与参数模块",
+    "检查桌面移动两版"
+  ],
+  "deliverables": [
+    "站点图组",
+    "组件交付清单"
+  ],
+  "acceptance": "不改站点代码不操作收款与发布",
+  "source": "https://www.shopline.com/",
+  "description": "SHOPLINE商品页视觉交付助手：适用于SHOPLINE、Shopline独立站等需求。用 IMIVA 电商内容专家整理真实素材，完成站点图组、组件交付清单，逐项检查不改站点代码不操作收款与发布。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "SHOPLINE；Shopline独立站",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "Shopline独立站"
+  ]
+}

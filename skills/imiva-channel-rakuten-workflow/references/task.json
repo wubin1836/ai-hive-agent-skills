@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-rakuten-workflow",
+  "title": "乐天市场日语购买须知图助手",
+  "route": "detail_page",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "乐天市场",
+    "Rakuten"
+  ],
+  "inputs": [
+    "日语事实文案",
+    "商品图",
+    "购买条件"
+  ],
+  "steps": [
+    "分离商品优势和限制",
+    "制作日语可读模块",
+    "核对型号及选项数量"
+  ],
+  "deliverables": [
+    "购买须知图",
+    "术语表"
+  ],
+  "acceptance": "不承诺平台入驻审核及商品合规结论",
+  "source": "https://www.rakuten.co.jp/ec/",
+  "description": "乐天市场日语购买须知图助手：适用于乐天市场、Rakuten等需求。用 IMIVA 电商内容专家整理真实素材，完成购买须知图、术语表，逐项检查不承诺平台入驻审核及商品合规结论。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "乐天市场；Rakuten",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "乐天市场"
+  ]
+}

@@ -56528,5 +56528,419 @@
     "batch": "imiva-ecommerce-200",
     "path": "skills/imiva-channel-weidian-workflow",
     "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-qunjielong-workflow",
+    "display_name": "群接龙团品开团素材助手",
+    "category": "私域电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-qunjielong-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-kuaituantuan-workflow",
+    "display_name": "快团团帮卖素材统一助手",
+    "category": "私域电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-kuaituantuan-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-group-template-workflow",
+    "display_name": "社区团购到货取货图卡助手",
+    "category": "私域电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-group-template-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-xiaoe-workflow",
+    "display_name": "小鹅通课程商品封面助手",
+    "category": "私域电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-xiaoe-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-wechat-mini-workflow",
+    "display_name": "小程序商城分享裁切适配助手",
+    "category": "私域电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-wechat-mini-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-alipay-workflow",
+    "display_name": "支付宝商家活动图卡助手",
+    "category": "私域电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-alipay-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-dewu-workflow",
+    "display_name": "得物潮品细节保真图助手",
+    "category": "垂直电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-dewu-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-xianyu-workflow",
+    "display_name": "闲鱼成色与瑕疵说明图助手",
+    "category": "二手电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-xianyu-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-zhuanzhuan-workflow",
+    "display_name": "转转二手数码配件展示助手",
+    "category": "二手电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-zhuanzhuan-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-kongfz-workflow",
+    "display_name": "孔网旧书品相说明图助手",
+    "category": "垂直电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-kongfz-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-mogujie-workflow",
+    "display_name": "蘑菇街穿搭款式说明助手",
+    "category": "垂直电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-mogujie-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-bili-mall-workflow",
+    "display_name": "会员购手办配件与比例图助手",
+    "category": "垂直电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-bili-mall-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-winxuan-workflow",
+    "display_name": "文轩图书采购套系图助手",
+    "category": "垂直电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-winxuan-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-bookschina-workflow",
+    "display_name": "中图网图书品类专题素材助手",
+    "category": "垂直电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-bookschina-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-ctrip-workflow",
+    "display_name": "携程酒店房型差异图助手",
+    "category": "文旅电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-ctrip-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-fliggy-workflow",
+    "display_name": "飞猪套餐权益图文助手",
+    "category": "文旅电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-fliggy-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-ly-workflow",
+    "display_name": "同程周边游套餐素材助手",
+    "category": "文旅电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-ly-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-qunar-workflow",
+    "display_name": "去哪儿民宿设施说明图助手",
+    "category": "文旅电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-qunar-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-hktv-workflow",
+    "display_name": "HKTVmall繁体商品图文助手",
+    "category": "港澳台及中文站",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-hktv-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-momo-workflow",
+    "display_name": "momo商品繁体规格卡助手",
+    "category": "港澳台及中文站",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-momo-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-pchome-workflow",
+    "display_name": "PChome数码接口说明图助手",
+    "category": "港澳台及中文站",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-pchome-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-shopline-workflow",
+    "display_name": "SHOPLINE商品页视觉交付助手",
+    "category": "中文独立站",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-shopline-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-tmall-super-workflow",
+    "display_name": "天猫超市家庭装份量展示助手",
+    "category": "品牌供货渠道",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-tmall-super-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-jd-procure-workflow",
+    "display_name": "京东慧采企业采购规格卡助手",
+    "category": "企业采购",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-jd-procure-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-youpin-workflow",
+    "display_name": "小米有品产品设计细节展示助手",
+    "category": "品质电商",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-youpin-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-yanxuan-workflow",
+    "display_name": "网易严选材质与工艺说明助手",
+    "category": "品牌供货渠道",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-yanxuan-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-qixian-workflow",
+    "display_name": "七鲜生鲜份量与烹饪状态图助手",
+    "category": "即时零售",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-qixian-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-meicai-workflow",
+    "display_name": "美菜餐饮原料出品参考图助手",
+    "category": "餐饮采购",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-meicai-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-99114-workflow",
+    "display_name": "网库单品采购信息图助手",
+    "category": "批发产业",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-99114-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-sam-workflow",
+    "display_name": "山姆大包装与储存说明图助手",
+    "category": "品牌供货渠道",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-sam-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-amazon-workflow",
+    "display_name": "亚马逊A加模块与白底图交付助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-amazon-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-aliexpress-workflow",
+    "display_name": "速卖通多语规格图校对助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-aliexpress-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-temu-workflow",
+    "display_name": "Temu供货多规格图包助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-temu-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-shein-workflow",
+    "display_name": "SHEIN服饰细节与尺码素材助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-shein-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-shopee-workflow",
+    "display_name": "虾皮本地语商品套图助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-shopee-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-lazada-workflow",
+    "display_name": "Lazada移动端商详模块助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-lazada-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-tiktok-workflow",
+    "display_name": "TikTok Shop无口播演示素材助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-tiktok-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-ebay-workflow",
+    "display_name": "eBay成色与配件如实展示助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-ebay-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-walmart-workflow",
+    "display_name": "Walmart规格变体视觉校对助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-walmart-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-etsy-workflow",
+    "display_name": "Etsy定制选项与制作说明图助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-etsy-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-mercado-workflow",
+    "display_name": "美客多西语葡语参数图助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-mercado-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-ozon-workflow",
+    "display_name": "Ozon俄语规格与装箱图助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-ozon-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-wildberries-workflow",
+    "display_name": "Wildberries服饰尺码测量图助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-wildberries-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-rakuten-workflow",
+    "display_name": "乐天市场日语购买须知图助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-rakuten-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-coupang-workflow",
+    "display_name": "Coupang韩语商品差异图助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-coupang-workflow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "imiva-channel-shopify-workflow",
+    "display_name": "Shopify商品页面图片交付助手",
+    "category": "中国卖家出海",
+    "brand": "IMIVA",
+    "batch": "imiva-ecommerce-200",
+    "path": "skills/imiva-channel-shopify-workflow",
+    "language": "zh-CN"
   }
 ]

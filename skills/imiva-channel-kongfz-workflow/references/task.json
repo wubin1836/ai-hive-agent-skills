@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-kongfz-workflow",
+  "title": "孔网旧书品相说明图助手",
+  "route": "detail_page",
+  "group": "垂直电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "孔夫子旧书网",
+    "孔网"
+  ],
+  "inputs": [
+    "书封页码实拍",
+    "瑕疵",
+    "版本"
+  ],
+  "steps": [
+    "按封面书脊内页展示",
+    "如实说明缺页笔迹",
+    "制作位置清楚的说明图"
+  ],
+  "deliverables": [
+    "品相图",
+    "版本表"
+  ],
+  "acceptance": "不能修补后冒充无瑕实物",
+  "source": "https://www.kongfz.com/",
+  "description": "孔网旧书品相说明图助手：适用于孔夫子旧书网、孔网等需求。用 IMIVA 电商内容专家整理真实素材，完成品相图、版本表，逐项检查不能修补后冒充无瑕实物。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "孔夫子旧书网；孔网",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "孔夫子旧书网",
+    "孔网"
+  ]
+}

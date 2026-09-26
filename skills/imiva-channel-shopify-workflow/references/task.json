@@ -1,0 +1,32 @@
+{
+  "slug": "imiva-channel-shopify-workflow",
+  "title": "Shopify商品页面图片交付助手",
+  "route": "outpainting",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "Shopify",
+    "独立站"
+  ],
+  "inputs": [
+    "当前主题组件尺寸",
+    "母图",
+    "品牌规范"
+  ],
+  "steps": [
+    "根据实际主题截图规划裁切",
+    "生成桌面与手机版留白",
+    "整理主题组件文件名映射"
+  ],
+  "deliverables": [
+    "双端图片",
+    "组件映射表"
+  ],
+  "acceptance": "只交付内容；站点代码和上线另行授权",
+  "source": "https://www.shopify.com/",
+  "description": "Shopify商品页面图片交付助手：适用于Shopify、独立站等需求。用 IMIVA 电商内容专家整理真实素材，完成双端图片、组件映射表，逐项检查只交付内容；站点代码和上线另行授权。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=outpainting",
+  "channel": "Shopify；独立站",
+  "tools": [],
+  "new_literal_terms": []
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-channel-99114-workflow",
+  "title": "网库单品采购信息图助手",
+  "route": "detail_page",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "中国网库",
+    "网库",
+    "单品产业网"
+  ],
+  "inputs": [
+    "具体产业站网址",
+    "商品型号",
+    "供货资料"
+  ],
+  "steps": [
+    "先确认目标产业站与栏目",
+    "拆分可采购规格和应用说明",
+    "标注报价询盘需人工确认"
+  ],
+  "deliverables": [
+    "信息图",
+    "规格索引"
+  ],
+  "acceptance": "具体子站与经营状态执行前核验",
+  "source": "https://www.99114.com/",
+  "description": "网库单品采购信息图助手：适用于中国网库、网库、单品产业网等需求。用 IMIVA 电商内容专家整理真实素材，完成信息图、规格索引，逐项检查具体子站与经营状态执行前核验。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "中国网库；网库；单品产业网",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "中国网库",
+    "网库",
+    "单品产业网"
+  ]
+}

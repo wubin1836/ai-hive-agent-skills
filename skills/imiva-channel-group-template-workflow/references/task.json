@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-group-template-workflow",
+  "title": "社区团购到货取货图卡助手",
+  "route": "detail_page",
+  "group": "私域电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "团购接龙",
+    "社区团购",
+    "团长"
+  ],
+  "inputs": [
+    "真实到货安排",
+    "商品规格",
+    "自提点"
+  ],
+  "steps": [
+    "将活动预告与到货通知分开",
+    "生成可替换日期图卡",
+    "核对地址与时间"
+  ],
+  "deliverables": [
+    "团购图卡",
+    "日期字段模板"
+  ],
+  "acceptance": "不知道配送时间必须留待确认",
+  "source": "https://www.weidian.com/",
+  "description": "社区团购到货取货图卡助手：适用于团购接龙、社区团购、团长等需求。用 IMIVA 电商内容专家整理真实素材，完成团购图卡、日期字段模板，逐项检查不知道配送时间必须留待确认。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "团购接龙；社区团购；团长",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "团购接龙"
+  ]
+}

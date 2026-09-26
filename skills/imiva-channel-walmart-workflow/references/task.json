@@ -1,0 +1,34 @@
+{
+  "slug": "imiva-channel-walmart-workflow",
+  "title": "Walmart规格变体视觉校对助手",
+  "route": "product_main_image",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "Walmart",
+    "沃尔玛电商"
+  ],
+  "inputs": [
+    "站点规范",
+    "变体表",
+    "商品图"
+  ],
+  "steps": [
+    "逐变体绑定真实商品图",
+    "生成统一信息层级",
+    "核对件数尺寸及包装"
+  ],
+  "deliverables": [
+    "变体图",
+    "映射CSV"
+  ],
+  "acceptance": "不宣称官方合作或自动获得销售权限",
+  "source": "https://marketplace.walmart.com/",
+  "description": "Walmart规格变体视觉校对助手：适用于Walmart、沃尔玛电商等需求。用 IMIVA 电商内容专家整理真实素材，完成变体图、映射CSV，逐项检查不宣称官方合作或自动获得销售权限。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "Walmart；沃尔玛电商",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": []
+}

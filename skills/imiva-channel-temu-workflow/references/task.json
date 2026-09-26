@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-temu-workflow",
+  "title": "Temu供货多规格图包助手",
+  "route": "product_main_image",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "Temu",
+    "拼多多跨境"
+  ],
+  "inputs": [
+    "供货模式要求",
+    "SKU表",
+    "对应实拍"
+  ],
+  "steps": [
+    "按当前模式收集图规",
+    "统一构图展示真实规格差异",
+    "生成交付表防止串款"
+  ],
+  "deliverables": [
+    "规格图包",
+    "供货对应表"
+  ],
+  "acceptance": "全托管半托管规则不同，不自动提审",
+  "source": "https://seller.kuajingmaihuo.com/",
+  "description": "Temu供货多规格图包助手：适用于Temu、拼多多跨境等需求。用 IMIVA 电商内容专家整理真实素材，完成规格图包、供货对应表，逐项检查全托管半托管规则不同，不自动提审。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "Temu；拼多多跨境",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "拼多多跨境"
+  ]
+}

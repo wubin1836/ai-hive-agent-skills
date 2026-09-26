@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-bili-mall-workflow",
+  "title": "会员购手办配件与比例图助手",
+  "route": "detail_page",
+  "group": "垂直电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "B站会员购",
+    "哔哩哔哩会员购"
+  ],
+  "inputs": [
+    "正版授权图",
+    "比例尺寸",
+    "配件清单"
+  ],
+  "steps": [
+    "按实物配件分区",
+    "说明比例不等于绝对高度",
+    "核对涂装与官图差异"
+  ],
+  "deliverables": [
+    "配件图",
+    "比例说明"
+  ],
+  "acceptance": "不生成未授权IP衍生设计",
+  "source": "https://mall.bilibili.com/",
+  "description": "会员购手办配件与比例图助手：适用于B站会员购、哔哩哔哩会员购等需求。用 IMIVA 电商内容专家整理真实素材，完成配件图、比例说明，逐项检查不生成未授权IP衍生设计。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "B站会员购；哔哩哔哩会员购",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "B站会员购",
+    "哔哩哔哩会员购"
+  ]
+}

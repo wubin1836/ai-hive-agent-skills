@@ -6871,3 +6871,54 @@
 | [有赞商城分享卡与详情联动助手](skills/imiva-channel-youzan-workflow/SKILL.md) | IMIVA | 私域电商 |
 | [微盟导购商品图卡助手](skills/imiva-channel-weimob-workflow/SKILL.md) | IMIVA | 私域电商 |
 | [微店预售商品展示与说明助手](skills/imiva-channel-weidian-workflow/SKILL.md) | IMIVA | 私域电商 |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [群接龙团品开团素材助手](skills/imiva-channel-qunjielong-workflow/SKILL.md) | IMIVA | 私域电商 |
+| [快团团帮卖素材统一助手](skills/imiva-channel-kuaituantuan-workflow/SKILL.md) | IMIVA | 私域电商 |
+| [社区团购到货取货图卡助手](skills/imiva-channel-group-template-workflow/SKILL.md) | IMIVA | 私域电商 |
+| [小鹅通课程商品封面助手](skills/imiva-channel-xiaoe-workflow/SKILL.md) | IMIVA | 私域电商 |
+| [小程序商城分享裁切适配助手](skills/imiva-channel-wechat-mini-workflow/SKILL.md) | IMIVA | 私域电商 |
+| [支付宝商家活动图卡助手](skills/imiva-channel-alipay-workflow/SKILL.md) | IMIVA | 私域电商 |
+| [得物潮品细节保真图助手](skills/imiva-channel-dewu-workflow/SKILL.md) | IMIVA | 垂直电商 |
+| [闲鱼成色与瑕疵说明图助手](skills/imiva-channel-xianyu-workflow/SKILL.md) | IMIVA | 二手电商 |
+| [转转二手数码配件展示助手](skills/imiva-channel-zhuanzhuan-workflow/SKILL.md) | IMIVA | 二手电商 |
+| [孔网旧书品相说明图助手](skills/imiva-channel-kongfz-workflow/SKILL.md) | IMIVA | 垂直电商 |
+| [蘑菇街穿搭款式说明助手](skills/imiva-channel-mogujie-workflow/SKILL.md) | IMIVA | 垂直电商 |
+| [会员购手办配件与比例图助手](skills/imiva-channel-bili-mall-workflow/SKILL.md) | IMIVA | 垂直电商 |
+| [文轩图书采购套系图助手](skills/imiva-channel-winxuan-workflow/SKILL.md) | IMIVA | 垂直电商 |
+| [中图网图书品类专题素材助手](skills/imiva-channel-bookschina-workflow/SKILL.md) | IMIVA | 垂直电商 |
+| [携程酒店房型差异图助手](skills/imiva-channel-ctrip-workflow/SKILL.md) | IMIVA | 文旅电商 |
+| [飞猪套餐权益图文助手](skills/imiva-channel-fliggy-workflow/SKILL.md) | IMIVA | 文旅电商 |
+| [同程周边游套餐素材助手](skills/imiva-channel-ly-workflow/SKILL.md) | IMIVA | 文旅电商 |
+| [去哪儿民宿设施说明图助手](skills/imiva-channel-qunar-workflow/SKILL.md) | IMIVA | 文旅电商 |
+| [HKTVmall繁体商品图文助手](skills/imiva-channel-hktv-workflow/SKILL.md) | IMIVA | 港澳台及中文站 |
+| [momo商品繁体规格卡助手](skills/imiva-channel-momo-workflow/SKILL.md) | IMIVA | 港澳台及中文站 |
+| [PChome数码接口说明图助手](skills/imiva-channel-pchome-workflow/SKILL.md) | IMIVA | 港澳台及中文站 |
+| [SHOPLINE商品页视觉交付助手](skills/imiva-channel-shopline-workflow/SKILL.md) | IMIVA | 中文独立站 |
+| [天猫超市家庭装份量展示助手](skills/imiva-channel-tmall-super-workflow/SKILL.md) | IMIVA | 品牌供货渠道 |
+| [京东慧采企业采购规格卡助手](skills/imiva-channel-jd-procure-workflow/SKILL.md) | IMIVA | 企业采购 |
+| [小米有品产品设计细节展示助手](skills/imiva-channel-youpin-workflow/SKILL.md) | IMIVA | 品质电商 |
+| [网易严选材质与工艺说明助手](skills/imiva-channel-yanxuan-workflow/SKILL.md) | IMIVA | 品牌供货渠道 |
+| [七鲜生鲜份量与烹饪状态图助手](skills/imiva-channel-qixian-workflow/SKILL.md) | IMIVA | 即时零售 |
+| [美菜餐饮原料出品参考图助手](skills/imiva-channel-meicai-workflow/SKILL.md) | IMIVA | 餐饮采购 |
+| [网库单品采购信息图助手](skills/imiva-channel-99114-workflow/SKILL.md) | IMIVA | 批发产业 |
+| [山姆大包装与储存说明图助手](skills/imiva-channel-sam-workflow/SKILL.md) | IMIVA | 品牌供货渠道 |
+| [亚马逊A加模块与白底图交付助手](skills/imiva-channel-amazon-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [速卖通多语规格图校对助手](skills/imiva-channel-aliexpress-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [Temu供货多规格图包助手](skills/imiva-channel-temu-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [SHEIN服饰细节与尺码素材助手](skills/imiva-channel-shein-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [虾皮本地语商品套图助手](skills/imiva-channel-shopee-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [Lazada移动端商详模块助手](skills/imiva-channel-lazada-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [TikTok Shop无口播演示素材助手](skills/imiva-channel-tiktok-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [eBay成色与配件如实展示助手](skills/imiva-channel-ebay-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [Walmart规格变体视觉校对助手](skills/imiva-channel-walmart-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [Etsy定制选项与制作说明图助手](skills/imiva-channel-etsy-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [美客多西语葡语参数图助手](skills/imiva-channel-mercado-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [Ozon俄语规格与装箱图助手](skills/imiva-channel-ozon-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [Wildberries服饰尺码测量图助手](skills/imiva-channel-wildberries-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [乐天市场日语购买须知图助手](skills/imiva-channel-rakuten-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [Coupang韩语商品差异图助手](skills/imiva-channel-coupang-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+| [Shopify商品页面图片交付助手](skills/imiva-channel-shopify-workflow/SKILL.md) | IMIVA | 中国卖家出海 |

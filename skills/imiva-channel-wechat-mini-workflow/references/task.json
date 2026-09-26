@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-wechat-mini-workflow",
+  "title": "小程序商城分享裁切适配助手",
+  "route": "outpainting",
+  "group": "私域电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "微信小程序商城",
+    "公众号商城",
+    "微信商城"
+  ],
+  "inputs": [
+    "实际分享卡尺寸",
+    "商品母图",
+    "文字安全区"
+  ],
+  "steps": [
+    "按当前组件截图确定裁切",
+    "补边保留主体",
+    "输出分享与商品页不同版本"
+  ],
+  "deliverables": [
+    "分享图",
+    "裁切检查"
+  ],
+  "acceptance": "不开发小程序和支付能力",
+  "source": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
+  "description": "小程序商城分享裁切适配助手：适用于微信小程序商城、公众号商城、微信商城等需求。用 IMIVA 电商内容专家整理真实素材，完成分享图、裁切检查，逐项检查不开发小程序和支付能力。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=outpainting",
+  "channel": "微信小程序商城；公众号商城；微信商城",
+  "tools": [],
+  "new_literal_terms": [
+    "微信小程序商城",
+    "公众号商城"
+  ]
+}

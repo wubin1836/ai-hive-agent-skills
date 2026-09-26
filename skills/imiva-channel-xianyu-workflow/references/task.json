@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-channel-xianyu-workflow",
+  "title": "闲鱼成色与瑕疵说明图助手",
+  "route": "detail_page",
+  "group": "二手电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "闲鱼",
+    "咸鱼二手",
+    "闲鱼小店"
+  ],
+  "inputs": [
+    "真实瑕疵照片",
+    "成色事实",
+    "附件清单"
+  ],
+  "steps": [
+    "标注瑕疵位置",
+    "制作清楚说明图而非抹除瑕疵",
+    "核对赠送附件"
+  ],
+  "deliverables": [
+    "瑕疵图",
+    "附件说明"
+  ],
+  "acceptance": "AI美化不得掩盖实际磨损",
+  "source": "https://www.goofish.com/",
+  "description": "闲鱼成色与瑕疵说明图助手：适用于闲鱼、咸鱼二手、闲鱼小店等需求。用 IMIVA 电商内容专家整理真实素材，完成瑕疵图、附件说明，逐项检查AI美化不得掩盖实际磨损。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "闲鱼；咸鱼二手；闲鱼小店",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "咸鱼二手",
+    "闲鱼小店"
+  ]
+}

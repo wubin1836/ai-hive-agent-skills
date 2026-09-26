@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-channel-tiktok-workflow",
+  "title": "TikTok Shop无口播演示素材助手",
+  "route": "video_generation",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "TikTok Shop",
+    "TikTok电商",
+    "TK小店"
+  ],
+  "inputs": [
+    "目标市场",
+    "商品素材",
+    "使用事实"
+  ],
+  "steps": [
+    "设计不依赖口音的演示镜头",
+    "保留字幕和挂车安全区",
+    "核对动作与产品事实"
+  ],
+  "deliverables": [
+    "演示片段",
+    "字幕文案",
+    "安全区图"
+  ],
+  "acceptance": "字幕烧录及平台挂车为外部步骤；不自动发布",
+  "source": "https://seller.tiktokglobalshop.com/",
+  "description": "TikTok Shop无口播演示素材助手：适用于TikTok Shop、TikTok电商、TK小店等需求。用 IMIVA 电商内容专家整理真实素材，完成演示片段、字幕文案、安全区图，逐项检查字幕烧录及平台挂车为外部步骤；不自动发布。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=video_generation",
+  "channel": "TikTok Shop；TikTok电商；TK小店",
+  "tools": [
+    "create_video_generation_task"
+  ],
+  "new_literal_terms": [
+    "TK小店"
+  ]
+}

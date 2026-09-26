@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-channel-mogujie-workflow",
+  "title": "蘑菇街穿搭款式说明助手",
+  "route": "image_text_commerce",
+  "group": "垂直电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "蘑菇街",
+    "蘑菇街直播"
+  ],
+  "inputs": [
+    "当前账号入口",
+    "授权服装图",
+    "尺码事实"
+  ],
+  "steps": [
+    "确认实际可用渠道",
+    "做款式与面料图文",
+    "说明穿搭为AI示意"
+  ],
+  "deliverables": [
+    "穿搭图文",
+    "款式表"
+  ],
+  "acceptance": "不保证平台业务和招商状态未变化",
+  "source": "https://www.mogujie.com/",
+  "description": "蘑菇街穿搭款式说明助手：适用于蘑菇街、蘑菇街直播等需求。用 IMIVA 电商内容专家整理真实素材，完成穿搭图文、款式表，逐项检查不保证平台业务和招商状态未变化。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_text_commerce",
+  "channel": "蘑菇街；蘑菇街直播",
+  "tools": [
+    "prepare_koc_note_package_task",
+    "submit_koc_note_package_task"
+  ],
+  "new_literal_terms": [
+    "蘑菇街",
+    "蘑菇街直播"
+  ]
+}

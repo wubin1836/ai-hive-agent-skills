@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-fliggy-workflow",
+  "title": "飞猪套餐权益图文助手",
+  "route": "detail_page",
+  "group": "文旅电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "飞猪",
+    "飞猪旅行"
+  ],
+  "inputs": [
+    "真实套餐",
+    "适用日期",
+    "限制"
+  ],
+  "steps": [
+    "分开包含权益和自费项目",
+    "使用授权实拍制作模块",
+    "核对不可用日期"
+  ],
+  "deliverables": [
+    "套餐图文",
+    "权益表"
+  ],
+  "acceptance": "不能保证签证出票和履约",
+  "source": "https://www.fliggy.com/",
+  "description": "飞猪套餐权益图文助手：适用于飞猪、飞猪旅行等需求。用 IMIVA 电商内容专家整理真实素材，完成套餐图文、权益表，逐项检查不能保证签证出票和履约。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "飞猪；飞猪旅行",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "飞猪旅行"
+  ]
+}

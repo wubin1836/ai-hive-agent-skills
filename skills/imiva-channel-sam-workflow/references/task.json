@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-channel-sam-workflow",
+  "title": "山姆大包装与储存说明图助手",
+  "route": "detail_page",
+  "group": "品牌供货渠道",
+  "kind": "渠道任务",
+  "aliases": [
+    "山姆",
+    "山姆会员商店",
+    "Sam's Club"
+  ],
+  "inputs": [
+    "真实大包装规格",
+    "授权图",
+    "标签储存条件"
+  ],
+  "steps": [
+    "区分整包单份与拆封状态",
+    "制作份量与储存模块",
+    "逐项核对标签"
+  ],
+  "deliverables": [
+    "大包装图",
+    "储存说明"
+  ],
+  "acceptance": "只处理授权供货内容，不声称可直接开店",
+  "source": "https://www.samsclub.cn/",
+  "description": "山姆大包装与储存说明图助手：适用于山姆、山姆会员商店、Sam's Club等需求。用 IMIVA 电商内容专家整理真实素材，完成大包装图、储存说明，逐项检查只处理授权供货内容，不声称可直接开店。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "山姆；山姆会员商店；Sam's Club",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "山姆",
+    "山姆会员商店",
+    "Sam's Club"
+  ]
+}

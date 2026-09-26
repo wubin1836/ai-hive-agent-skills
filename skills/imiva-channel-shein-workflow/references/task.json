@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-shein-workflow",
+  "title": "SHEIN服饰细节与尺码素材助手",
+  "route": "detail_page",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "SHEIN",
+    "希音"
+  ],
+  "inputs": [
+    "款图",
+    "实测尺码",
+    "面料依据"
+  ],
+  "steps": [
+    "区分成衣测量与人体建议",
+    "用实拍展示车线开口和版型",
+    "核对单位与尺码表"
+  ],
+  "deliverables": [
+    "细节图",
+    "测量说明",
+    "尺码表"
+  ],
+  "acceptance": "供货与开放平台规则分开，不编造模特试穿结论",
+  "source": "https://seller.shein.com/",
+  "description": "SHEIN服饰细节与尺码素材助手：适用于SHEIN、希音等需求。用 IMIVA 电商内容专家整理真实素材，完成细节图、测量说明、尺码表，逐项检查供货与开放平台规则分开，不编造模特试穿结论。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "SHEIN；希音",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "希音"
+  ]
+}

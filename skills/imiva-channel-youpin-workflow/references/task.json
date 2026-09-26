@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-youpin-workflow",
+  "title": "小米有品产品设计细节展示助手",
+  "route": "image_expand",
+  "group": "品质电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "小米有品",
+    "有品"
+  ],
+  "inputs": [
+    "产品结构实拍",
+    "材质依据",
+    "设计授权"
+  ],
+  "steps": [
+    "选择有证据的设计细节",
+    "规划细节补图与使用场景",
+    "区分自有设计和品牌背书"
+  ],
+  "deliverables": [
+    "设计细节图",
+    "事实标注"
+  ],
+  "acceptance": "不能暗示商品由小米制造或背书",
+  "source": "https://www.xiaomiyoupin.com/",
+  "description": "小米有品产品设计细节展示助手：适用于小米有品、有品等需求。用 IMIVA 电商内容专家整理真实素材，完成设计细节图、事实标注，逐项检查不能暗示商品由小米制造或背书。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_expand",
+  "channel": "小米有品；有品",
+  "tools": [
+    "prepare_image_expand_task",
+    "submit_image_expand_task"
+  ],
+  "new_literal_terms": [
+    "小米有品"
+  ]
+}

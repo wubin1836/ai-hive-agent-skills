@@ -1,0 +1,34 @@
+{
+  "slug": "imiva-channel-wildberries-workflow",
+  "title": "Wildberries服饰尺码测量图助手",
+  "route": "detail_page",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "Wildberries",
+    "WB"
+  ],
+  "inputs": [
+    "实测表",
+    "测量方法",
+    "授权服装图"
+  ],
+  "steps": [
+    "用图解释测量位置",
+    "保留真实误差范围",
+    "核对俄语单位与成衣部位"
+  ],
+  "deliverables": [
+    "测量图",
+    "尺码字段表"
+  ],
+  "acceptance": "不根据AI人体推算真实合体程度",
+  "source": "https://seller.wildberries.ru/",
+  "description": "Wildberries服饰尺码测量图助手：适用于Wildberries、WB等需求。用 IMIVA 电商内容专家整理真实素材，完成测量图、尺码字段表，逐项检查不根据AI人体推算真实合体程度。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "Wildberries；WB",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": []
+}

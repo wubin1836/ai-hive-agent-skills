@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-ebay-workflow",
+  "title": "eBay成色与配件如实展示助手",
+  "route": "detail_page",
+  "group": "中国卖家出海",
+  "kind": "渠道任务",
+  "aliases": [
+    "eBay",
+    "易贝"
+  ],
+  "inputs": [
+    "实物照片",
+    "成色",
+    "配件"
+  ],
+  "steps": [
+    "区分全新翻新二手事实",
+    "整理清楚的配件和瑕疵图",
+    "保留原始照片追溯"
+  ],
+  "deliverables": [
+    "成色图",
+    "配件表",
+    "原图索引"
+  ],
+  "acceptance": "不抹掉二手磨损或更改序列信息",
+  "source": "https://www.ebay.com/sellercenter",
+  "description": "eBay成色与配件如实展示助手：适用于eBay、易贝等需求。用 IMIVA 电商内容专家整理真实素材，完成成色图、配件表、原图索引，逐项检查不抹掉二手磨损或更改序列信息。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "eBay；易贝",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "易贝"
+  ]
+}
