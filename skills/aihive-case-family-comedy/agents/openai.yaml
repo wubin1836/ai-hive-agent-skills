@@ -1,0 +1,6 @@
+interface:
+  display_name: "暴富一家人题材参考｜家庭反差喜剧原创制作"
+  short_description: "用 AI-HIVE 完成家庭反差喜剧原创制作，附执行步骤与验收交接"
+  default_prompt: "使用 $aihive-case-family-comedy，根据我提供的资料完成任务，先核对输入和实际工具能力。"
+policy:
+  allow_implicit_invocation: true

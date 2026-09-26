@@ -1,0 +1,6 @@
+interface:
+  display_name: "短剧动作接点助手｜Match on Action跨镜衔接"
+  short_description: "用 AI-HIVE 完成Match on Action跨镜衔接，附执行步骤与验收交接"
+  default_prompt: "使用 $aihive-shot-match-on-action，根据我提供的资料完成任务，先核对输入和实际工具能力。"
+policy:
+  allow_implicit_invocation: true

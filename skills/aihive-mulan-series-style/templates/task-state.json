@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-mulan-series-style",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "brand-contract.json",
+    "sku-matrix.csv",
+    "style-review.html"
+  ]
+}

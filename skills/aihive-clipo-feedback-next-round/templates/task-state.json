@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-clipo-feedback-next-round",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "metric-audit.csv",
+    "hypotheses.md",
+    "next-round.csv"
+  ]
+}

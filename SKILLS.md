@@ -6596,3 +6596,58 @@
 | [Vivix互动短剧原型｜会话恢复与观众退出](skills/aihive-vx-session-resume/SKILL.md) | AI-HIVE | Vivix |
 | [旧梦留声机题材参考｜普通人故事原创短片](skills/aihive-case-old-dream-everyday/SKILL.md) | AI-HIVE | 案例创作 |
 | [旧梦留声机《宝贝回家》题材参考｜团圆信物短片](skills/aihive-case-reunion-object/SKILL.md) | AI-HIVE | 案例创作 |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [旧梦留声机《爷爷》题材参考｜隔代亲情记忆短片](skills/aihive-case-grandparent-memory/SKILL.md) | AI-HIVE | 案例创作 |
+| [旧梦留声机《早餐奶奶》题材参考｜善意人物原创故事](skills/aihive-case-kindness-breakfast/SKILL.md) | AI-HIVE | 案例创作 |
+| [旧梦留声机题材延伸｜年代家庭记忆场景](skills/aihive-case-period-home/SKILL.md) | AI-HIVE | 案例创作 |
+| [旧梦留声机题材延伸｜无对白情感表演分镜](skills/aihive-case-quiet-performance/SKILL.md) | AI-HIVE | 案例创作 |
+| [旧梦留声机题材延伸｜生活故事中的品牌自然植入](skills/aihive-case-story-brand/SKILL.md) | AI-HIVE | 案例创作 |
+| [暴富一家人题材参考｜家庭反差喜剧原创制作](skills/aihive-case-family-comedy/SKILL.md) | AI-HIVE | 案例创作 |
+| [Money喵游记题材参考｜原创拟人猫合租系列](skills/aihive-case-cat-shared-home/SKILL.md) | AI-HIVE | 案例创作 |
+| [山海经-起源题材参考｜古籍异兽原创故事](skills/aihive-case-shanhai-origin/SKILL.md) | AI-HIVE | 案例创作 |
+| [地球online题材参考｜故障世界任务短片](skills/aihive-case-world-bug/SKILL.md) | AI-HIVE | 案例创作 |
+| [十二星座魔法职业｜原创奇幻角色展示系列](skills/aihive-case-zodiac-profession/SKILL.md) | AI-HIVE | 案例创作 |
+| [短剧正反打助手｜对话轴线与视线匹配](skills/aihive-shot-reverse-eyeline/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧反应镜头助手｜听者反应与情绪接力](skills/aihive-shot-reaction-relay/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧动作接点助手｜Match on Action跨镜衔接](skills/aihive-shot-match-on-action/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧声音先行助手｜J-cut与L-cut剪辑交接](skills/aihive-shot-jl-audio-cuts/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧机位覆盖检查｜主镜头与补镜缺口](skills/aihive-shot-coverage-audit/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧潜台词表演助手｜台词与真实意图拆分](skills/aihive-shot-subtext-performance/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧场面调度助手｜人物走位与叙事焦点](skills/aihive-shot-blocking-plan/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧情绪连续性助手｜乱序生成镜头状态表](skills/aihive-shot-emotion-continuity/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧插入特写助手｜线索曝光与观众信息控制](skills/aihive-shot-insert-information/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧景别递进助手｜从空间到情绪的切镜设计](skills/aihive-shot-scale-progression/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧视频转绘验收｜授权原片时序保真检查](skills/aihive-shot-restyle-fidelity/SKILL.md) | AI-HIVE | 镜头术语 |
+| [短剧声音空间助手｜房间环境声与距离连续性](skills/aihive-shot-sound-space/SKILL.md) | AI-HIVE | 镜头术语 |
+| [跳跃视界调度台平替｜3D素模站位与机位参考](skills/aihive-ty-3d-stage-blockout/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界720全景平替｜同场景取景与接缝验收](skills/aihive-ty-panorama-extract/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界多角度平替｜环绕俯仰与景别矩阵](skills/aihive-ty-multiview-camera-grid/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界打光平替｜主光轮廓光与跨镜校正](skills/aihive-ty-relight-continuity/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界视频转绘平替｜参考原视频开关决策](skills/aihive-ty-restyle-reference-switch/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界批量转绘平替｜原片分集排序与拆段](skills/aihive-ty-episode-ingest/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界资产修改助手｜参考更新与已生成片段返工](skills/aihive-ty-asset-update-propagation/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界素材转资产平替｜团队复用入库审核](skills/aihive-ty-material-promotion/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界团队积分平替｜项目与成员预算闸门](skills/aihive-ty-team-budget-model/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界自动手动模式平替｜生成流程确认闸门](skills/aihive-ty-manual-auto-gates/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界全能参考平替｜图音视频参考组装](skills/aihive-ty-multimodal-reference-budget/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界九宫格平替｜分镜格图拆分与镜头索引](skills/aihive-ty-grid-to-shot-index/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界字幕擦除平替｜自有成片多语言净版](skills/aihive-ty-subtitle-clean-master/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界提取指定帧平替｜真实帧到参考包](skills/aihive-ty-frame-reference-extract/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界超清平替｜分辨率提升与细节真实性验收](skills/aihive-ty-upscale-truth/SKILL.md) | AI-HIVE | 手册深挖 |
+| [跳跃视界画布历史平替｜工作流版本差异与安全恢复](skills/aihive-ty-workflow-version-diff/SKILL.md) | AI-HIVE | 手册深挖 |
+| [木兰 Mulan 平替｜广告需求转分阶段制作单](skills/aihive-mulan-brief-checkpoints/SKILL.md) | AI-HIVE | 木兰 Mulan |
+| [木兰 Mulan 平替｜系列广告视觉规范执行助手](skills/aihive-mulan-series-style/SKILL.md) | AI-HIVE | 木兰 Mulan |
+| [木兰 Mulan 平替｜客户改稿影响范围与局部重做](skills/aihive-mulan-revision-scope/SKILL.md) | AI-HIVE | 木兰 Mulan |
+| [特赞 Clipo 平替｜短视频创意实验分组助手](skills/aihive-clipo-experiment-cells/SKILL.md) | AI-HIVE | 特赞 Clipo |
+| [特赞 Clipo 平替｜投放结果转下一轮视频改稿](skills/aihive-clipo-feedback-next-round/SKILL.md) | AI-HIVE | 特赞 Clipo |
+| [特赞 Clipo 平替｜多账号视频物料审批交接](skills/aihive-clipo-human-approval/SKILL.md) | AI-HIVE | 特赞 Clipo |
+| [特赞 MuseAI 平替｜广告风格探索与参考板锁定](skills/aihive-museai-lookdev-board/SKILL.md) | AI-HIVE | 特赞 MuseAI |
+| [特赞 MuseDAM 平替｜视频素材授权与复用台账](skills/aihive-musedam-rights-reuse/SKILL.md) | AI-HIVE | 特赞 MuseDAM |
+| [特看 Tabcut 平替｜商品类目广告镜头配方](skills/aihive-tabcut-category-ad/SKILL.md) | AI-HIVE | 特看 Tabcut |
+| [特看 Tabcut 平替｜商品音乐卡点与节奏版成片](skills/aihive-tabcut-rhythm-pack/SKILL.md) | AI-HIVE | 特看 Tabcut |
+| [特看 Tabcut 平替｜生活场景种草视频事实校验](skills/aihive-tabcut-scene-proof/SKILL.md) | AI-HIVE | 特看 Tabcut |
+| [Kickart 营销视频平替｜商品资料到卖点证明镜头](skills/aihive-kickart-product-facts/SKILL.md) | AI-HIVE | Kickart |

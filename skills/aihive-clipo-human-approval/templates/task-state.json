@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "aihive-clipo-human-approval",
+  "stage": "planned",
+  "input_references": [],
+  "authorization": {
+    "external_upload": false,
+    "paid_calls": false,
+    "max_budget": null,
+    "currency": null
+  },
+  "tasks": [],
+  "actual_outputs": [],
+  "planned_outputs": [
+    "approval-register.csv",
+    "handoff-index.html",
+    "release-manifest.json"
+  ]
+}

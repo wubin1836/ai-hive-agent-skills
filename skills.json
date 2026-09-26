@@ -54278,5 +54278,455 @@
     "batch": "ty-flova-vivix-88",
     "path": "skills/aihive-case-reunion-object",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-grandparent-memory",
+    "display_name": "旧梦留声机《爷爷》题材参考｜隔代亲情记忆短片",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-grandparent-memory",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-kindness-breakfast",
+    "display_name": "旧梦留声机《早餐奶奶》题材参考｜善意人物原创故事",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-kindness-breakfast",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-period-home",
+    "display_name": "旧梦留声机题材延伸｜年代家庭记忆场景",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-period-home",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-quiet-performance",
+    "display_name": "旧梦留声机题材延伸｜无对白情感表演分镜",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-quiet-performance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-story-brand",
+    "display_name": "旧梦留声机题材延伸｜生活故事中的品牌自然植入",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-story-brand",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-family-comedy",
+    "display_name": "暴富一家人题材参考｜家庭反差喜剧原创制作",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-family-comedy",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-cat-shared-home",
+    "display_name": "Money喵游记题材参考｜原创拟人猫合租系列",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-cat-shared-home",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-shanhai-origin",
+    "display_name": "山海经-起源题材参考｜古籍异兽原创故事",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-shanhai-origin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-world-bug",
+    "display_name": "地球online题材参考｜故障世界任务短片",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-world-bug",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-case-zodiac-profession",
+    "display_name": "十二星座魔法职业｜原创奇幻角色展示系列",
+    "category": "案例创作",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-case-zodiac-profession",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-reverse-eyeline",
+    "display_name": "短剧正反打助手｜对话轴线与视线匹配",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-reverse-eyeline",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-reaction-relay",
+    "display_name": "短剧反应镜头助手｜听者反应与情绪接力",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-reaction-relay",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-match-on-action",
+    "display_name": "短剧动作接点助手｜Match on Action跨镜衔接",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-match-on-action",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-jl-audio-cuts",
+    "display_name": "短剧声音先行助手｜J-cut与L-cut剪辑交接",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-jl-audio-cuts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-coverage-audit",
+    "display_name": "短剧机位覆盖检查｜主镜头与补镜缺口",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-coverage-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-subtext-performance",
+    "display_name": "短剧潜台词表演助手｜台词与真实意图拆分",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-subtext-performance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-blocking-plan",
+    "display_name": "短剧场面调度助手｜人物走位与叙事焦点",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-blocking-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-emotion-continuity",
+    "display_name": "短剧情绪连续性助手｜乱序生成镜头状态表",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-emotion-continuity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-insert-information",
+    "display_name": "短剧插入特写助手｜线索曝光与观众信息控制",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-insert-information",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-scale-progression",
+    "display_name": "短剧景别递进助手｜从空间到情绪的切镜设计",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-scale-progression",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-restyle-fidelity",
+    "display_name": "短剧视频转绘验收｜授权原片时序保真检查",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-restyle-fidelity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shot-sound-space",
+    "display_name": "短剧声音空间助手｜房间环境声与距离连续性",
+    "category": "镜头术语",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-shot-sound-space",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-3d-stage-blockout",
+    "display_name": "跳跃视界调度台平替｜3D素模站位与机位参考",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-3d-stage-blockout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-panorama-extract",
+    "display_name": "跳跃视界720全景平替｜同场景取景与接缝验收",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-panorama-extract",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-multiview-camera-grid",
+    "display_name": "跳跃视界多角度平替｜环绕俯仰与景别矩阵",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-multiview-camera-grid",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-relight-continuity",
+    "display_name": "跳跃视界打光平替｜主光轮廓光与跨镜校正",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-relight-continuity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-restyle-reference-switch",
+    "display_name": "跳跃视界视频转绘平替｜参考原视频开关决策",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-restyle-reference-switch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-episode-ingest",
+    "display_name": "跳跃视界批量转绘平替｜原片分集排序与拆段",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-episode-ingest",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-asset-update-propagation",
+    "display_name": "跳跃视界资产修改助手｜参考更新与已生成片段返工",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-asset-update-propagation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-material-promotion",
+    "display_name": "跳跃视界素材转资产平替｜团队复用入库审核",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-material-promotion",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-team-budget-model",
+    "display_name": "跳跃视界团队积分平替｜项目与成员预算闸门",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-team-budget-model",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-manual-auto-gates",
+    "display_name": "跳跃视界自动手动模式平替｜生成流程确认闸门",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-manual-auto-gates",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-multimodal-reference-budget",
+    "display_name": "跳跃视界全能参考平替｜图音视频参考组装",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-multimodal-reference-budget",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-grid-to-shot-index",
+    "display_name": "跳跃视界九宫格平替｜分镜格图拆分与镜头索引",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-grid-to-shot-index",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-subtitle-clean-master",
+    "display_name": "跳跃视界字幕擦除平替｜自有成片多语言净版",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-subtitle-clean-master",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-frame-reference-extract",
+    "display_name": "跳跃视界提取指定帧平替｜真实帧到参考包",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-frame-reference-extract",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-upscale-truth",
+    "display_name": "跳跃视界超清平替｜分辨率提升与细节真实性验收",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-upscale-truth",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ty-workflow-version-diff",
+    "display_name": "跳跃视界画布历史平替｜工作流版本差异与安全恢复",
+    "category": "手册深挖",
+    "brand": "AI-HIVE",
+    "batch": "ty-flova-vivix-88",
+    "path": "skills/aihive-ty-workflow-version-diff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mulan-brief-checkpoints",
+    "display_name": "木兰 Mulan 平替｜广告需求转分阶段制作单",
+    "category": "木兰 Mulan",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-mulan-brief-checkpoints",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mulan-series-style",
+    "display_name": "木兰 Mulan 平替｜系列广告视觉规范执行助手",
+    "category": "木兰 Mulan",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-mulan-series-style",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-mulan-revision-scope",
+    "display_name": "木兰 Mulan 平替｜客户改稿影响范围与局部重做",
+    "category": "木兰 Mulan",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-mulan-revision-scope",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-clipo-experiment-cells",
+    "display_name": "特赞 Clipo 平替｜短视频创意实验分组助手",
+    "category": "特赞 Clipo",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-clipo-experiment-cells",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-clipo-feedback-next-round",
+    "display_name": "特赞 Clipo 平替｜投放结果转下一轮视频改稿",
+    "category": "特赞 Clipo",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-clipo-feedback-next-round",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-clipo-human-approval",
+    "display_name": "特赞 Clipo 平替｜多账号视频物料审批交接",
+    "category": "特赞 Clipo",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-clipo-human-approval",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-museai-lookdev-board",
+    "display_name": "特赞 MuseAI 平替｜广告风格探索与参考板锁定",
+    "category": "特赞 MuseAI",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-museai-lookdev-board",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-musedam-rights-reuse",
+    "display_name": "特赞 MuseDAM 平替｜视频素材授权与复用台账",
+    "category": "特赞 MuseDAM",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-musedam-rights-reuse",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-tabcut-category-ad",
+    "display_name": "特看 Tabcut 平替｜商品类目广告镜头配方",
+    "category": "特看 Tabcut",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-tabcut-category-ad",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-tabcut-rhythm-pack",
+    "display_name": "特看 Tabcut 平替｜商品音乐卡点与节奏版成片",
+    "category": "特看 Tabcut",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-tabcut-rhythm-pack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-tabcut-scene-proof",
+    "display_name": "特看 Tabcut 平替｜生活场景种草视频事实校验",
+    "category": "特看 Tabcut",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-tabcut-scene-proof",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-kickart-product-facts",
+    "display_name": "Kickart 营销视频平替｜商品资料到卖点证明镜头",
+    "category": "Kickart",
+    "brand": "AI-HIVE",
+    "batch": "video-agents-58",
+    "path": "skills/aihive-kickart-product-facts",
+    "language": "zh-CN"
   }
 ]
