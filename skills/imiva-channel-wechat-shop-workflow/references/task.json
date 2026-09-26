@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-channel-wechat-shop-workflow",
+  "title": "微信小店送礼商品图卡助手",
+  "route": "product_main_image",
+  "group": "内容电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "微信小店",
+    "视频号小店",
+    "微信送礼"
+  ],
+  "inputs": [
+    "礼品真实内容",
+    "适用关系",
+    "当前版位要求"
+  ],
+  "steps": [
+    "突出礼盒与内含物",
+    "准备无价格干扰的分享图",
+    "核对与实际礼品选项一致"
+  ],
+  "deliverables": [
+    "礼品图",
+    "分享图",
+    "内含物表"
+  ],
+  "acceptance": "不承诺平台送礼权限或物流服务",
+  "source": "https://channels.weixin.qq.com/shop",
+  "description": "微信小店送礼商品图卡助手：适用于微信小店、视频号小店、微信送礼等需求。用 IMIVA 电商内容专家整理真实素材，完成礼品图、分享图、内含物表，逐项检查不承诺平台送礼权限或物流服务。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "微信小店；视频号小店；微信送礼",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "微信送礼"
+  ]
+}

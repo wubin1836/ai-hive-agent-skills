@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-jd-industry-workflow",
+  "title": "京东工业耗材替换规格图助手",
+  "route": "detail_page",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "京东工业",
+    "京东工品"
+  ],
+  "inputs": [
+    "制造商规格",
+    "型号",
+    "适用边界"
+  ],
+  "steps": [
+    "分离原厂和兼容配件",
+    "用真实规格做选购对照",
+    "专业复核安全相关参数"
+  ],
+  "deliverables": [
+    "选购图",
+    "规格对照"
+  ],
+  "acceptance": "不宣称未经证明的原厂认证",
+  "source": "https://industry.jd.com/",
+  "description": "京东工业耗材替换规格图助手：适用于京东工业、京东工品等需求。用 IMIVA 电商内容专家整理真实素材，完成选购图、规格对照，逐项检查不宣称未经证明的原厂认证。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "京东工业；京东工品",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "京东工业",
+    "京东工品"
+  ]
+}

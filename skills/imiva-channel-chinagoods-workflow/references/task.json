@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-chinagoods-workflow",
+  "title": "Chinagoods小商品选样图册助手",
+  "route": "detail_page",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "Chinagoods",
+    "义乌中国小商品城"
+  ],
+  "inputs": [
+    "货号表",
+    "样品图",
+    "最小订量"
+  ],
+  "steps": [
+    "按货号制作选样图卡",
+    "区分样品展示和量产配置",
+    "导出可询价索引"
+  ],
+  "deliverables": [
+    "选样图册",
+    "货号索引"
+  ],
+  "acceptance": "采购及支付仍由原平台完成",
+  "source": "https://www.chinagoods.com/",
+  "description": "Chinagoods小商品选样图册助手：适用于Chinagoods、义乌中国小商品城等需求。用 IMIVA 电商内容专家整理真实素材，完成选样图册、货号索引，逐项检查采购及支付仍由原平台完成。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "Chinagoods；义乌中国小商品城",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "Chinagoods",
+    "义乌中国小商品城"
+  ]
+}

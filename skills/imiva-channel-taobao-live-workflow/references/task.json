@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-taobao-live-workflow",
+  "title": "淘宝直播商品讲解可视提词助手",
+  "route": "detail_page",
+  "group": "内容电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "淘宝直播",
+    "点淘"
+  ],
+  "inputs": [
+    "直播脚本",
+    "SKU顺序",
+    "优惠条件"
+  ],
+  "steps": [
+    "按讲解顺序生成大字图卡",
+    "明确规格和活动条件",
+    "以直播画面预览文字"
+  ],
+  "deliverables": [
+    "提词图卡",
+    "SKU顺序表"
+  ],
+  "acceptance": "点淘等旧入口词保留为别名，实际入口以账号为准",
+  "source": "https://live.taobao.com/",
+  "description": "淘宝直播商品讲解可视提词助手：适用于淘宝直播、点淘等需求。用 IMIVA 电商内容专家整理真实素材，完成提词图卡、SKU顺序表，逐项检查点淘等旧入口词保留为别名，实际入口以账号为准。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "淘宝直播；点淘",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "点淘"
+  ]
+}

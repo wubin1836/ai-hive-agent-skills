@@ -1,0 +1,18 @@
+{
+  "rights_confirmed": false,
+  "budget_credits": 0,
+  "max_trials": 1,
+  "requirements": {
+    "品牌规范": "",
+    "授权商品图": "",
+    "当前商详要求": ""
+  },
+  "facts": {},
+  "items": [
+    {
+      "sku": "DEMO-001",
+      "assets": []
+    }
+  ],
+  "target_placement": "填写实际展示位和当前规则，不猜固定尺寸"
+}

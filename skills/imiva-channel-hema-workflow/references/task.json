@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-channel-hema-workflow",
+  "title": "盒马供货商品图文资料助手",
+  "route": "detail_page",
+  "group": "零售供货",
+  "kind": "渠道任务",
+  "aliases": [
+    "盒马",
+    "盒马鲜生",
+    "盒马奥莱"
+  ],
+  "inputs": [
+    "供货需求单",
+    "真实包装",
+    "规格"
+  ],
+  "steps": [
+    "按采购方需求拆商品信息",
+    "制作包装和卖点模块",
+    "核对供应资料"
+  ],
+  "deliverables": [
+    "供货图文",
+    "规格表"
+  ],
+  "acceptance": "属于供货内容，不宣称任何人均可开店",
+  "source": "https://www.freshippo.com/",
+  "description": "盒马供货商品图文资料助手：适用于盒马、盒马鲜生、盒马奥莱等需求。用 IMIVA 电商内容专家整理真实素材，完成供货图文、规格表，逐项检查属于供货内容，不宣称任何人均可开店。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "盒马；盒马鲜生；盒马奥莱",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "盒马",
+    "盒马鲜生",
+    "盒马奥莱"
+  ]
+}

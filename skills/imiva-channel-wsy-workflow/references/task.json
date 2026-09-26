@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-channel-wsy-workflow",
+  "title": "网商园服装拿货细节图助手",
+  "route": "image_expand",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "网商园",
+    "杭州服装货源"
+  ],
+  "inputs": [
+    "货号",
+    "面料实拍",
+    "拿货规格"
+  ],
+  "steps": [
+    "区分款式图与面料图",
+    "用有证据部位补细节",
+    "标注季节批次差异"
+  ],
+  "deliverables": [
+    "细节图",
+    "款号说明"
+  ],
+  "acceptance": "商品成分不得根据图片猜测",
+  "source": "https://www.wsy.com/",
+  "description": "网商园服装拿货细节图助手：适用于网商园、杭州服装货源等需求。用 IMIVA 电商内容专家整理真实素材，完成细节图、款号说明，逐项检查商品成分不得根据图片猜测。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_expand",
+  "channel": "网商园；杭州服装货源",
+  "tools": [
+    "prepare_image_expand_task",
+    "submit_image_expand_task"
+  ],
+  "new_literal_terms": [
+    "网商园",
+    "杭州服装货源"
+  ]
+}

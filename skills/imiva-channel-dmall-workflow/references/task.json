@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-channel-dmall-workflow",
+  "title": "多点商超商品视觉统一助手",
+  "route": "smart_refine",
+  "group": "零售SaaS",
+  "kind": "渠道任务",
+  "aliases": [
+    "多点",
+    "Dmall",
+    "多点新鲜"
+  ],
+  "inputs": [
+    "商超SKU表",
+    "多来源商品图",
+    "基准"
+  ],
+  "steps": [
+    "区分不同货号图片",
+    "统一光线和背景",
+    "输出可交商超导入的素材索引"
+  ],
+  "deliverables": [
+    "统一图组",
+    "SKU索引"
+  ],
+  "acceptance": "图片处理不等于对接POS和库存",
+  "source": "https://www.dmall.com/",
+  "description": "多点商超商品视觉统一助手：适用于多点、Dmall、多点新鲜等需求。用 IMIVA 电商内容专家整理真实素材，完成统一图组、SKU索引，逐项检查图片处理不等于对接POS和库存。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=smart_refine",
+  "channel": "多点；Dmall；多点新鲜",
+  "tools": [
+    "create_smart_refine_task"
+  ],
+  "new_literal_terms": [
+    "多点",
+    "Dmall",
+    "多点新鲜"
+  ]
+}

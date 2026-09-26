@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-channel-baidu-youxuan-workflow",
+  "title": "百度优选商品问答图卡助手",
+  "route": "detail_page",
+  "group": "内容电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "百度优选",
+    "度小店",
+    "百度电商"
+  ],
+  "inputs": [
+    "商品问答",
+    "已核实参数",
+    "当前后台版位"
+  ],
+  "steps": [
+    "从搜索问题提炼决策点",
+    "制作问题与参数证据图",
+    "核对内容与商品一致"
+  ],
+  "deliverables": [
+    "问答图卡",
+    "证据表"
+  ],
+  "acceptance": "入口与资质执行前确认，不承诺获客量",
+  "source": "https://youxuan.baidu.com/",
+  "description": "百度优选商品问答图卡助手：适用于百度优选、度小店、百度电商等需求。用 IMIVA 电商内容专家整理真实素材，完成问答图卡、证据表，逐项检查入口与资质执行前确认，不承诺获客量。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "百度优选；度小店；百度电商",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "百度优选",
+    "度小店",
+    "百度电商"
+  ]
+}

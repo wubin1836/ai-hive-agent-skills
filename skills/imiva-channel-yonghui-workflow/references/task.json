@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-channel-yonghui-workflow",
+  "title": "永辉生鲜包装与散装图卡助手",
+  "route": "detail_page",
+  "group": "零售供货",
+  "kind": "渠道任务",
+  "aliases": [
+    "永辉",
+    "永辉生活",
+    "永辉超市"
+  ],
+  "inputs": [
+    "包装与散装销售单位",
+    "实拍",
+    "价格规则"
+  ],
+  "steps": [
+    "分离按件和称重展示",
+    "明确图片示意与实际重量",
+    "制作清楚的规格图"
+  ],
+  "deliverables": [
+    "规格图",
+    "计量说明"
+  ],
+  "acceptance": "不生成实际称重和结算结果",
+  "source": "https://www.yonghui.com.cn/",
+  "description": "永辉生鲜包装与散装图卡助手：适用于永辉、永辉生活、永辉超市等需求。用 IMIVA 电商内容专家整理真实素材，完成规格图、计量说明，逐项检查不生成实际称重和结算结果。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "永辉；永辉生活；永辉超市",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "永辉",
+    "永辉生活",
+    "永辉超市"
+  ]
+}

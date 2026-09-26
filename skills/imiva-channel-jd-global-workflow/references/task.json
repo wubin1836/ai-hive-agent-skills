@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-jd-global-workflow",
+  "title": "京东国际版本与包装差异助手",
+  "route": "detail_page",
+  "group": "货架电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "京东国际",
+    "进口专区"
+  ],
+  "inputs": [
+    "地区版本",
+    "包装实拍",
+    "规格"
+  ],
+  "steps": [
+    "区分地区版及语言标签",
+    "制作购买前差异图",
+    "标注实际发货版本"
+  ],
+  "deliverables": [
+    "版本图",
+    "包装对照"
+  ],
+  "acceptance": "不可用海外版本替代实际交付商品",
+  "source": "https://www.jd.hk/",
+  "description": "京东国际版本与包装差异助手：适用于京东国际、进口专区等需求。用 IMIVA 电商内容专家整理真实素材，完成版本图、包装对照，逐项检查不可用海外版本替代实际交付商品。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "京东国际；进口专区",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "进口专区"
+  ]
+}

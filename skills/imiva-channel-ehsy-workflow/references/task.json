@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-ehsy-workflow",
+  "title": "西域工业采购商品资料整编助手",
+  "route": "detail_page",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "西域",
+    "EHSY"
+  ],
+  "inputs": [
+    "目标渠道当前要求",
+    "准入要求",
+    "自有产品资料"
+  ],
+  "steps": [
+    "先核实供应商接入要求",
+    "按当前渠道清单组织商品图文",
+    "标记缺失资料"
+  ],
+  "deliverables": [
+    "渠道资料包",
+    "待补证清单"
+  ],
+  "acceptance": "适用于授权供货资料，不保证开放招商或直接对接",
+  "source": "https://www.ehsy.com/",
+  "description": "西域工业采购商品资料整编助手：适用于西域、EHSY等需求。用 IMIVA 电商内容专家整理真实素材，完成渠道资料包、待补证清单，逐项检查适用于授权供货资料，不保证开放招商或直接对接。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "西域；EHSY",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "西域",
+    "EHSY"
+  ]
+}

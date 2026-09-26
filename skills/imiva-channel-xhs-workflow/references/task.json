@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-channel-xhs-workflow",
+  "title": "小红书买手选品图文资料助手",
+  "route": "image_text_commerce",
+  "group": "内容电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "小红书",
+    "红薯店铺",
+    "小红书电商",
+    "买手"
+  ],
+  "inputs": [
+    "可公开商品事实",
+    "授权素材",
+    "寄样内容"
+  ],
+  "steps": [
+    "按选品要点整理图文",
+    "分开品牌介绍和真实使用证据",
+    "交付可编辑说明"
+  ],
+  "deliverables": [
+    "选品图文",
+    "寄样清单"
+  ],
+  "acceptance": "不伪造买手推荐和客户笔记",
+  "source": "https://ec.xiaohongshu.com/",
+  "description": "小红书买手选品图文资料助手：适用于小红书、红薯店铺、小红书电商、买手等需求。用 IMIVA 电商内容专家整理真实素材，完成选品图文、寄样清单，逐项检查不伪造买手推荐和客户笔记。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=image_text_commerce",
+  "channel": "小红书；红薯店铺；小红书电商；买手",
+  "tools": [
+    "prepare_koc_note_package_task",
+    "submit_koc_note_package_task"
+  ],
+  "new_literal_terms": [
+    "红薯店铺"
+  ]
+}

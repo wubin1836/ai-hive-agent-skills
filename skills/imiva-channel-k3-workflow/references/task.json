@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-k3-workflow",
+  "title": "开山网鞋款尺码素材助手",
+  "route": "detail_page",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "开山网",
+    "鞋子货源"
+  ],
+  "inputs": [
+    "鞋码表",
+    "内长数据",
+    "款图"
+  ],
+  "steps": [
+    "把尺码与鞋楦说明分开",
+    "制作购买参考模块",
+    "核对男女童鞋单位"
+  ],
+  "deliverables": [
+    "鞋款图",
+    "尺码说明"
+  ],
+  "acceptance": "AI图不能代替试穿适配承诺",
+  "source": "https://www.k3.cn/",
+  "description": "开山网鞋款尺码素材助手：适用于开山网、鞋子货源等需求。用 IMIVA 电商内容专家整理真实素材，完成鞋款图、尺码说明，逐项检查AI图不能代替试穿适配承诺。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "开山网；鞋子货源",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "开山网",
+    "鞋子货源"
+  ]
+}

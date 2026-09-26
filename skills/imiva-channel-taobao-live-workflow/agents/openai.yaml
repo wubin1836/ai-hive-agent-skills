@@ -1,0 +1,6 @@
+interface:
+  display_name: "淘宝直播商品讲解可视提词助手"
+  short_description: "通过IMIVA处理淘宝直播商品讲解可视提词助手，提供素材检查、制作流程与验收交付"
+  default_prompt: "请用 $imiva-channel-taobao-live-workflow 完成本任务，先核对素材和预算，再通过IMIVA制作并验收。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-channel-jd-workflow",
+  "title": "京东多主图视频关联素材助手",
+  "route": "video_generation",
+  "group": "货架电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "京东",
+    "京麦",
+    "京东商城"
+  ],
+  "inputs": [
+    "商品素材中心要求",
+    "SKU关联表",
+    "商品素材"
+  ],
+  "steps": [
+    "按商品家族拆分镜头",
+    "生成可核对的视频与封面",
+    "整理一视频多SKU适用范围"
+  ],
+  "deliverables": [
+    "视频",
+    "封面",
+    "关联CSV"
+  ],
+  "acceptance": "只整理关联素材，不操作京东后台绑定",
+  "source": "https://media.shop.jd.com/",
+  "description": "京东多主图视频关联素材助手：适用于京东、京麦、京东商城等需求。用 IMIVA 电商内容专家整理真实素材，完成视频、封面、关联CSV，逐项检查只整理关联素材，不操作京东后台绑定。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=video_generation",
+  "channel": "京东；京麦；京东商城",
+  "tools": [
+    "create_video_generation_task"
+  ],
+  "new_literal_terms": [
+    "京麦"
+  ]
+}

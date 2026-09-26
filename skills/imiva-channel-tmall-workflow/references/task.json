@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-tmall-workflow",
+  "title": "天猫品牌主视觉与详情一致性助手",
+  "route": "detail_page",
+  "group": "货架电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "天猫",
+    "天猫商城",
+    "品牌旗舰店"
+  ],
+  "inputs": [
+    "品牌规范",
+    "授权商品图",
+    "当前商详要求"
+  ],
+  "steps": [
+    "锁定品牌色字体和产品事实",
+    "制作主视觉与对应详情模块",
+    "核对旗舰店视觉一致性"
+  ],
+  "deliverables": [
+    "主视觉方案",
+    "详情模块",
+    "品牌检查表"
+  ],
+  "acceptance": "品牌及认证必须有授权依据",
+  "source": "https://www.tmall.com/",
+  "description": "天猫品牌主视觉与详情一致性助手：适用于天猫、天猫商城、品牌旗舰店等需求。用 IMIVA 电商内容专家整理真实素材，完成主视觉方案、详情模块、品牌检查表，逐项检查品牌及认证必须有授权依据。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "天猫；天猫商城；品牌旗舰店",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": []
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-1688-workflow",
+  "title": "1688阶梯起订与规格图助手",
+  "route": "detail_page",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "1688",
+    "阿里巴巴批发",
+    "诚信通"
+  ],
+  "inputs": [
+    "起订量",
+    "阶梯规则",
+    "规格表"
+  ],
+  "steps": [
+    "把起订单位和规格拆开",
+    "制作拿货须知及商品图",
+    "核对件箱包计量"
+  ],
+  "deliverables": [
+    "批发图文",
+    "起订说明"
+  ],
+  "acceptance": "不以效果图证明工厂实力",
+  "source": "https://www.1688.com/",
+  "description": "1688阶梯起订与规格图助手：适用于1688、阿里巴巴批发、诚信通等需求。用 IMIVA 电商内容专家整理真实素材，完成批发图文、起订说明，逐项检查不以效果图证明工厂实力。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "1688；阿里巴巴批发；诚信通",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "诚信通"
+  ]
+}

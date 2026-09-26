@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-vvic-workflow",
+  "title": "搜款网档口款色素材助手",
+  "route": "product_main_image",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "搜款网",
+    "VVIC"
+  ],
+  "inputs": [
+    "档口款号",
+    "色号",
+    "有权使用的图"
+  ],
+  "steps": [
+    "先核对供货方授权",
+    "分离模特效果与款色细节",
+    "整理代理可用素材"
+  ],
+  "deliverables": [
+    "款色图包",
+    "授权范围清单"
+  ],
+  "acceptance": "不能搬运其他档口未授权模特图",
+  "source": "https://www.vvic.com/",
+  "description": "搜款网档口款色素材助手：适用于搜款网、VVIC等需求。用 IMIVA 电商内容专家整理真实素材，完成款色图包、授权范围清单，逐项检查不能搬运其他档口未授权模特图。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "搜款网；VVIC",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "搜款网",
+    "VVIC"
+  ]
+}

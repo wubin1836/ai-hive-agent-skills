@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-jd-food-workflow",
+  "title": "京东外卖出餐图片整理助手",
+  "route": "smart_refine",
+  "group": "即时零售",
+  "kind": "渠道任务",
+  "aliases": [
+    "京东外卖",
+    "京东七鲜外卖"
+  ],
+  "inputs": [
+    "已入驻渠道要求",
+    "出餐实拍",
+    "分量"
+  ],
+  "steps": [
+    "先确认实际经营渠道",
+    "去除拍摄杂物不增加菜量",
+    "逐菜复核"
+  ],
+  "deliverables": [
+    "修后菜图",
+    "出餐对应"
+  ],
+  "acceptance": "渠道资质与类目以当前商家后台为准",
+  "source": "https://www.jd.com/",
+  "description": "京东外卖出餐图片整理助手：适用于京东外卖、京东七鲜外卖等需求。用 IMIVA 电商内容专家整理真实素材，完成修后菜图、出餐对应，逐项检查渠道资质与类目以当前商家后台为准。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=smart_refine",
+  "channel": "京东外卖；京东七鲜外卖",
+  "tools": [
+    "create_smart_refine_task"
+  ],
+  "new_literal_terms": [
+    "京东外卖",
+    "京东七鲜外卖"
+  ]
+}

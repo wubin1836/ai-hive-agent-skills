@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-channel-17huo-workflow",
+  "title": "17货源代理上新图包助手",
+  "route": "product_main_image",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "17货源",
+    "一起做网店",
+    "17网"
+  ],
+  "inputs": [
+    "供货SKU",
+    "授权图",
+    "规格"
+  ],
+  "steps": [
+    "按供货货号建立素材关系",
+    "修正只影响展示的问题",
+    "交付代理版本说明"
+  ],
+  "deliverables": [
+    "代理素材包",
+    "SKU表"
+  ],
+  "acceptance": "代发规则需供应商确认",
+  "source": "https://www.17zwd.com/",
+  "description": "17货源代理上新图包助手：适用于17货源、一起做网店、17网等需求。用 IMIVA 电商内容专家整理真实素材，完成代理素材包、SKU表，逐项检查代发规则需供应商确认。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "17货源；一起做网店；17网",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "17货源",
+    "一起做网店",
+    "17网"
+  ]
+}

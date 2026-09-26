@@ -1,0 +1,36 @@
+{
+  "slug": "imiva-channel-tmall-global-workflow",
+  "title": "天猫国际进口包装中文解读助手",
+  "route": "detail_page",
+  "group": "货架电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "天猫国际",
+    "进口商品"
+  ],
+  "inputs": [
+    "进口原包装",
+    "中文标签",
+    "合法宣称"
+  ],
+  "steps": [
+    "保留原包装不改字",
+    "把核实信息做独立中文模块",
+    "核对原文与译文"
+  ],
+  "deliverables": [
+    "中文说明图",
+    "译文对照"
+  ],
+  "acceptance": "不生成假进口标志或扩大功效",
+  "source": "https://www.tmall.hk/",
+  "description": "天猫国际进口包装中文解读助手：适用于天猫国际、进口商品等需求。用 IMIVA 电商内容专家整理真实素材，完成中文说明图、译文对照，逐项检查不生成假进口标志或扩大功效。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "天猫国际；进口商品",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "进口商品"
+  ]
+}

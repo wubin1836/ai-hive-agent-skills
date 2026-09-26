@@ -1,0 +1,39 @@
+{
+  "slug": "imiva-channel-taogongchang-workflow",
+  "title": "淘工厂商品成本友好套图助手",
+  "route": "product_main_image",
+  "group": "货架电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "淘工厂",
+    "工厂直供",
+    "源头工厂"
+  ],
+  "inputs": [
+    "实际材质规格",
+    "可售商品",
+    "预算"
+  ],
+  "steps": [
+    "先做最低必要信息图",
+    "以同一母版拓展规格",
+    "记录合格素材单位成本"
+  ],
+  "deliverables": [
+    "基础套图",
+    "规格矩阵",
+    "成本表"
+  ],
+  "acceptance": "不得编造厂房产能与认证",
+  "source": "https://taogongchang.taobao.com/",
+  "description": "淘工厂商品成本友好套图助手：适用于淘工厂、工厂直供、源头工厂等需求。用 IMIVA 电商内容专家整理真实素材，完成基础套图、规格矩阵、成本表，逐项检查不得编造厂房产能与认证。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "淘工厂；工厂直供；源头工厂",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "淘工厂",
+    "工厂直供"
+  ]
+}

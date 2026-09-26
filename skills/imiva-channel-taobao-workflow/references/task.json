@@ -1,0 +1,40 @@
+{
+  "slug": "imiva-channel-taobao-workflow",
+  "title": "淘宝宝贝SKU与五图顺序助手",
+  "route": "product_main_image",
+  "group": "货架电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "淘宝",
+    "淘宝网",
+    "千牛",
+    "宝贝主图"
+  ],
+  "inputs": [
+    "店铺当前五图要求",
+    "SKU表",
+    "商品原图"
+  ],
+  "steps": [
+    "区分商品首图与SKU选项图",
+    "按信息优先级安排五个位置",
+    "用千牛预览截图校对"
+  ],
+  "deliverables": [
+    "五图任务包",
+    "SKU映射",
+    "位置表"
+  ],
+  "acceptance": "白底图活动图按真实版位分开，不自动上传",
+  "source": "https://www.taobao.com/",
+  "description": "淘宝宝贝SKU与五图顺序助手：适用于淘宝、淘宝网、千牛、宝贝主图等需求。用 IMIVA 电商内容专家整理真实素材，完成五图任务包、SKU映射、位置表，逐项检查白底图活动图按真实版位分开，不自动上传。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "淘宝；淘宝网；千牛；宝贝主图",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "千牛",
+    "宝贝主图"
+  ]
+}

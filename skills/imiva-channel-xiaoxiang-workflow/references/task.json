@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-xiaoxiang-workflow",
+  "title": "小象超市供货包装展示助手",
+  "route": "product_main_image",
+  "group": "零售供货",
+  "kind": "渠道任务",
+  "aliases": [
+    "小象超市",
+    "美团买菜"
+  ],
+  "inputs": [
+    "包装规格",
+    "供应资料",
+    "产品图"
+  ],
+  "steps": [
+    "核对包装与计量",
+    "制作易识别商品图",
+    "交付给供货流程审核"
+  ],
+  "deliverables": [
+    "包装图",
+    "供货资料索引"
+  ],
+  "acceptance": "保留旧称搜索但不假设旧入口有效",
+  "source": "https://www.meituan.com/",
+  "description": "小象超市供货包装展示助手：适用于小象超市、美团买菜等需求。用 IMIVA 电商内容专家整理真实素材，完成包装图、供货资料索引，逐项检查保留旧称搜索但不假设旧入口有效。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=product_main_image",
+  "channel": "小象超市；美团买菜",
+  "tools": [
+    "create_product_main_image_task"
+  ],
+  "new_literal_terms": [
+    "小象超市",
+    "美团买菜"
+  ]
+}

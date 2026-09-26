@@ -1,0 +1,38 @@
+{
+  "slug": "imiva-channel-bilibili-video-workflow",
+  "title": "B站商品测评证据镜头助手",
+  "route": "video_generation",
+  "group": "内容电商",
+  "kind": "渠道任务",
+  "aliases": [
+    "B站带货",
+    "哔哩哔哩",
+    "悬赏带货"
+  ],
+  "inputs": [
+    "自有测试素材",
+    "测试条件",
+    "商品事实"
+  ],
+  "steps": [
+    "区分实测镜头与AI演示",
+    "生成补充展示镜头",
+    "建立结论与证据关联"
+  ],
+  "deliverables": [
+    "补充视频",
+    "证据清单"
+  ],
+  "acceptance": "生成演示不能冒充真实实验",
+  "source": "https://member.bilibili.com/",
+  "description": "B站商品测评证据镜头助手：适用于B站带货、哔哩哔哩、悬赏带货等需求。用 IMIVA 电商内容专家整理真实素材，完成补充视频、证据清单，逐项检查生成演示不能冒充真实实验。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=video_generation",
+  "channel": "B站带货；哔哩哔哩；悬赏带货",
+  "tools": [
+    "create_video_generation_task"
+  ],
+  "new_literal_terms": [
+    "B站带货",
+    "悬赏带货"
+  ]
+}

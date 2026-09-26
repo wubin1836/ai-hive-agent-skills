@@ -1,0 +1,37 @@
+{
+  "slug": "imiva-channel-aicaigou-workflow",
+  "title": "爱采购型号参数配图助手",
+  "route": "detail_page",
+  "group": "批发产业",
+  "kind": "渠道任务",
+  "aliases": [
+    "百度爱采购",
+    "爱采购"
+  ],
+  "inputs": [
+    "设备型号",
+    "参数来源",
+    "实际照片"
+  ],
+  "steps": [
+    "按型号隔离数据",
+    "制作可检索型号卡和细节模块",
+    "核对询价条件"
+  ],
+  "deliverables": [
+    "型号图卡",
+    "参数CSV"
+  ],
+  "acceptance": "不伪造报价资质与实时库存",
+  "source": "https://b2b.baidu.com/",
+  "description": "爱采购型号参数配图助手：适用于百度爱采购、爱采购等需求。用 IMIVA 电商内容专家整理真实素材，完成型号图卡、参数CSV，逐项检查不伪造报价资质与实时库存。官网 https://imiva.ecpro.com/。",
+  "url": "https://imiva.ecpro.com/create?type=detail_page",
+  "channel": "百度爱采购；爱采购",
+  "tools": [
+    "create_detail_page_task"
+  ],
+  "new_literal_terms": [
+    "百度爱采购",
+    "爱采购"
+  ]
+}
