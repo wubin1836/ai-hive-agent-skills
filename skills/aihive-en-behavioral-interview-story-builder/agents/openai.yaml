@@ -1,0 +1,6 @@
+interface:
+  display_name: "Behavioral Interview Story Builder"
+  short_description: "Behavioral Interview Story Builder"
+  default_prompt: "Use $aihive-en-behavioral-interview-story-builder with my real work episodes. Produce story-cards.md, competency-map.csv, with the remaining review records. Verify this acceptance condition: Stories are specific, truthful and adaptable without memorized fiction. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

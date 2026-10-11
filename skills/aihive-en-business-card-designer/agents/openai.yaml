@@ -1,0 +1,6 @@
+interface:
+  display_name: "Business Card Designer"
+  short_description: "Business Card Designer with verified outputs"
+  default_prompt: "Use $aihive-en-business-card-designer with my verified contact details. Produce card-source/, print-proof/, with the remaining review records. Verify this acceptance condition: Contact details are exact and the supplied export matches printer requirements. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

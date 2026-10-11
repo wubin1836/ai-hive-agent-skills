@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Search Visibility Audit"
+  short_description: "AI Search Visibility Audit"
+  default_prompt: "Use $aihive-en-ai-search-visibility-audit with my brand facts. Produce prompt-test-register.csv, visibility-evidence.md, with the remaining review records. Verify this acceptance condition: Every observation identifies system, prompt and date; no universal ranking is inferred. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

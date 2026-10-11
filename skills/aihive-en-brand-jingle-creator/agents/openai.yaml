@@ -1,0 +1,6 @@
+interface:
+  display_name: "Brand Jingle Creator"
+  short_description: "Brand Jingle Creator with verified outputs"
+  default_prompt: "Use $aihive-en-brand-jingle-creator with my approved brand phrase. Produce jingle-brief.md, lyric-variants.md, with the remaining review records. Verify this acceptance condition: Brand wording is correct and audio fits the intended placement. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

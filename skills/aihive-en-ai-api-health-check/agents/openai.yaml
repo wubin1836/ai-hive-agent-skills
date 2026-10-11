@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI API Health Check"
+  short_description: "AI API Health Check with verified outputs"
+  default_prompt: "Use $aihive-en-ai-api-health-check with my authorized endpoint. Produce health-check.md, sanitized-observations.json, with the remaining review records. Verify this acceptance condition: Each diagnosis follows from an observed layer-specific test. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

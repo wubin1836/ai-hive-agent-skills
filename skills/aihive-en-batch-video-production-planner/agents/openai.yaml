@@ -1,0 +1,6 @@
+interface:
+  display_name: "Batch Video Production Planner"
+  short_description: "Batch Video Production Planner"
+  default_prompt: "Use $aihive-en-batch-video-production-planner with my video backlog. Produce production-queue.json, dependency-map.md, with the remaining review records. Verify this acceptance condition: No item runs before its inputs and approvals are ready. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

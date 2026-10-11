@@ -1,0 +1,6 @@
+interface:
+  display_name: "Beverage Pour & Splash Studio"
+  short_description: "Beverage Pour & Splash Studio"
+  default_prompt: "Use $aihive-en-beverage-pour-splash-studio with my bottle or can references. Produce container-lock.json, motion-plan.md, with the remaining review records. Verify this acceptance condition: Packaging stays recognizable and the effect is clearly illustrative. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

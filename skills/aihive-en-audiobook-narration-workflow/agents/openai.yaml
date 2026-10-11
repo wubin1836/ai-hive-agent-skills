@@ -1,0 +1,6 @@
+interface:
+  display_name: "Audiobook Narration Workflow"
+  short_description: "Audiobook Narration Workflow"
+  default_prompt: "Use $aihive-en-audiobook-narration-workflow with my licensed manuscript. Produce chapter-manifest.csv, pronunciation.md, with the remaining review records. Verify this acceptance condition: Narration covers the authorized text without skipped or duplicated passages. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

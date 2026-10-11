@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Credential Rotation Checklist"
+  short_description: "AI Credential Rotation Checklist"
+  default_prompt: "Use $aihive-en-ai-credential-rotation-checklist with my specific credential owner. Produce rotation-plan.md, consumer-checklist.csv, with the remaining review records. Verify this acceptance condition: No key value is included in outputs and revocation is separately authorized. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

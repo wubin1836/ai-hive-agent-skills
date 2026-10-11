@@ -7033,7 +7033,7 @@
 | [桌面Agent越权动作模拟测试](skills/aih-agent-unintended-action-tests/SKILL.md) | AI-HIVE | AI workflows |
 | [AI模型优惠到期与真实成本核对](skills/aih-ai-promotion-price-expiry/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7417,3 +7417,58 @@
 | [Vmake平替方案｜服装细节展示短视频助手](skills/aihive-global-vmake-apparel-detail-video/SKILL.md) | AI-HIVE | AI workflows |
 | [Voiceflow平替方案｜智能客服流程原型助手](skills/aihive-global-voiceflow-dialogue-prototype/SKILL.md) | AI-HIVE | AI workflows |
 | [Vozo平替方案｜多角色对白翻译配音助手](skills/aihive-global-vozo-dialogue-localization/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [Wisecut平替方案｜口播静音与重录剪辑助手](skills/aihive-global-wisecut-speech-clean-edit/SKILL.md) | AI-HIVE | AI workflows |
+| [Ad Creative Image Builder](skills/aihive-en-ad-creative-image-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Ad Creative Submission Checker](skills/aihive-en-ad-creative-submission-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [AI API Access Error Diagnoser](skills/aihive-en-ai-api-access-error-diagnoser/SKILL.md) | AI-HIVE | AI workflows |
+| [AI API Health Check](skills/aihive-en-ai-api-health-check/SKILL.md) | AI-HIVE | AI workflows |
+| [AI API Migration Planner](skills/aihive-en-ai-api-migration-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Avatar Video Presenter](skills/aihive-en-ai-avatar-video-presenter/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Budget Alert Planner](skills/aihive-en-ai-budget-alert-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Credential Rotation Checklist](skills/aihive-en-ai-credential-rotation-checklist/SKILL.md) | AI-HIVE | AI workflows |
+| [AI-HIVE MCP Setup Assistant](skills/aihive-en-ai-hive-mcp-setup-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Image Generator](skills/aihive-en-ai-image-generator/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Model Selection Benchmark](skills/aihive-en-ai-model-selection-benchmark/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Music Brief & Generation Studio](skills/aihive-en-ai-music-brief-generation-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Podcast Production Kit](skills/aihive-en-ai-podcast-production-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Provider Switch Readiness Check](skills/aihive-en-ai-provider-switch-readiness-check/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Request Timeout Investigator](skills/aihive-en-ai-request-timeout-investigator/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Search Visibility Audit](skills/aihive-en-ai-search-visibility-audit/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Usage Cost Ledger](skills/aihive-en-ai-usage-cost-ledger/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Video Budget Calculator](skills/aihive-en-ai-video-budget-calculator/SKILL.md) | AI-HIVE | AI workflows |
+| [AI Video Production Studio](skills/aihive-en-ai-video-production-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Amazon Listing Image Builder](skills/aihive-en-amazon-listing-image-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Amazon Product Video Builder](skills/aihive-en-amazon-product-video-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Art Workshop Promotion Kit](skills/aihive-en-art-workshop-promotion-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Article-to-Carousel Builder](skills/aihive-en-article-to-carousel-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [ATS Resume Parsing Checker](skills/aihive-en-ats-resume-parsing-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Audience Retention Analyzer](skills/aihive-en-audience-retention-analyzer/SKILL.md) | AI-HIVE | AI workflows |
+| [Audiobook Narration Workflow](skills/aihive-en-audiobook-narration-workflow/SKILL.md) | AI-HIVE | AI workflows |
+| [Auto Detailing Service Content Kit](skills/aihive-en-auto-detailing-service-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [B-Roll & Pickup Shot Planner](skills/aihive-en-b-roll-pickup-shot-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [Bag Capacity Demo Builder](skills/aihive-en-bag-capacity-demo-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Bakery Preorder Campaign Builder](skills/aihive-en-bakery-preorder-campaign-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Batch AI Job Queue Planner](skills/aihive-en-batch-ai-job-queue-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [Batch Video Production Planner](skills/aihive-en-batch-video-production-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [BBQ Platter Promo Builder](skills/aihive-en-bbq-platter-promo-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Beauty Tutorial Video Builder](skills/aihive-en-beauty-tutorial-video-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Behavioral Interview Story Builder](skills/aihive-en-behavioral-interview-story-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Beverage Pour & Splash Studio](skills/aihive-en-beverage-pour-splash-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Bilingual Business Email Assistant](skills/aihive-en-bilingual-business-email-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Board Game Quick-Start Guide](skills/aihive-en-board-game-quick-start-guide/SKILL.md) | AI-HIVE | AI workflows |
+| [Branching Story Game Builder](skills/aihive-en-branching-story-game-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Brand Asset Kit Builder](skills/aihive-en-brand-asset-kit-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Brand Asset Version Controller](skills/aihive-en-brand-asset-version-controller/SKILL.md) | AI-HIVE | AI workflows |
+| [Brand Jingle Creator](skills/aihive-en-brand-jingle-creator/SKILL.md) | AI-HIVE | AI workflows |
+| [Brand Story Content Kit](skills/aihive-en-brand-story-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Brand Voice Guide Builder](skills/aihive-en-brand-voice-guide-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Browser Puzzle Prototype Builder](skills/aihive-en-browser-puzzle-prototype-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Bubble Tea Launch Content Kit](skills/aihive-en-bubble-tea-launch-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Budget Variance Checker](skills/aihive-en-budget-variance-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Business Card Designer](skills/aihive-en-business-card-designer/SKILL.md) | AI-HIVE | AI workflows |
+| [Business Dashboard Builder](skills/aihive-en-business-dashboard-builder/SKILL.md) | AI-HIVE | AI workflows |

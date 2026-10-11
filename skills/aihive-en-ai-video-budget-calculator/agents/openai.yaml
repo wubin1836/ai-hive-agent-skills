@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Video Budget Calculator"
+  short_description: "AI Video Budget Calculator"
+  default_prompt: "Use $aihive-en-ai-video-budget-calculator with my shot plan. Produce video-budget.csv, assumptions.md, with the remaining review records. Verify this acceptance condition: Currency, units and retry assumptions are explicit and totals recompute. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

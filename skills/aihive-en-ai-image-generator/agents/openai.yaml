@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Image Generator"
+  short_description: "AI Image Generator with verified outputs"
+  default_prompt: "Use $aihive-en-ai-image-generator with my visual brief. Produce generation-brief.md, candidate-images/, with the remaining review records. Verify this acceptance condition: Outputs meet the brief and correspond to actual completed generation tasks. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

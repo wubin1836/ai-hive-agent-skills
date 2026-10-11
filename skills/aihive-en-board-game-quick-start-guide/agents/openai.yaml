@@ -1,0 +1,6 @@
+interface:
+  display_name: "Board Game Quick-Start Guide"
+  short_description: "Board Game Quick-Start Guide"
+  default_prompt: "Use $aihive-en-board-game-quick-start-guide with my authorized rulebook. Produce quick-start.md, turn-flow/, with the remaining review records. Verify this acceptance condition: Rules remain consistent with the source and examples use legal moves. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

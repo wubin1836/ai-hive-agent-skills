@@ -1,0 +1,6 @@
+interface:
+  display_name: "Article-to-Carousel Builder"
+  short_description: "Article-to-Carousel Builder"
+  default_prompt: "Use $aihive-en-article-to-carousel-builder with my authorized article. Produce carousel-source/, slide-copy.md, with the remaining review records. Verify this acceptance condition: The carousel remains comprehensible and accurate without the full article. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

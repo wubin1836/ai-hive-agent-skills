@@ -1,0 +1,6 @@
+interface:
+  display_name: "Batch AI Job Queue Planner"
+  short_description: "Batch AI Job Queue Planner"
+  default_prompt: "Use $aihive-en-batch-ai-job-queue-planner with my authorized batch inputs. Produce batch-queue.json, submission-ledger.csv, with the remaining review records. Verify this acceptance condition: Resume never blindly resubmits an item with an uncertain accepted state. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

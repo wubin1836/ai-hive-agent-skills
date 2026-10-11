@@ -1,0 +1,6 @@
+interface:
+  display_name: "Beauty Tutorial Video Builder"
+  short_description: "Beauty Tutorial Video Builder"
+  default_prompt: "Use $aihive-en-beauty-tutorial-video-builder with my approved beauty product directions. Produce instruction-shot-map.csv, tutorial-script.md, with the remaining review records. Verify this acceptance condition: The tutorial follows supplied directions and retains relevant warnings. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

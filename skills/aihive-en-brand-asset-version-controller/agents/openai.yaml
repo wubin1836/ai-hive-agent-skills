@@ -1,0 +1,6 @@
+interface:
+  display_name: "Brand Asset Version Controller"
+  short_description: "Brand Asset Version Controller"
+  default_prompt: "Use $aihive-en-brand-asset-version-controller with my authorized brand asset folders. Produce asset-manifest.json, version-conflicts.csv, with the remaining review records. Verify this acceptance condition: Every approved reference resolves to the intended file and hash. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

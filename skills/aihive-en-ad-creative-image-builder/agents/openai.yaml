@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ad Creative Image Builder"
+  short_description: "Ad Creative Image Builder"
+  default_prompt: "Use $aihive-en-ad-creative-image-builder with my campaign brief. Produce creative-matrix.csv, ad-images/, with the remaining review records. Verify this acceptance condition: Variant differences are intentional and claims have evidence. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

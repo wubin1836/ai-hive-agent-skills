@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI-HIVE MCP Setup Assistant"
+  short_description: "AI-HIVE MCP Setup Assistant"
+  default_prompt: "Use $aihive-en-ai-hive-mcp-setup-assistant for this task: AI-HIVE MCP. Inspect my authorized materials and confirm the target output. Explain missing tools and approval requirements before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

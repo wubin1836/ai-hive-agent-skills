@@ -60992,5 +60992,455 @@
     "batch": "AI-HIVE-海外产品搜索补充-40个Skill-20260926",
     "path": "skills/aihive-global-vozo-dialogue-localization",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-global-wisecut-speech-clean-edit",
+    "display_name": "Wisecut平替方案｜口播静音与重录剪辑助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-海外产品搜索补充-40个Skill-20260926",
+    "path": "skills/aihive-global-wisecut-speech-clean-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-en-ad-creative-image-builder",
+    "display_name": "Ad Creative Image Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ad-creative-image-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ad-creative-submission-checker",
+    "display_name": "Ad Creative Submission Checker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ad-creative-submission-checker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-api-access-error-diagnoser",
+    "display_name": "AI API Access Error Diagnoser",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-api-access-error-diagnoser",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-api-health-check",
+    "display_name": "AI API Health Check",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-api-health-check",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-api-migration-planner",
+    "display_name": "AI API Migration Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-api-migration-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-avatar-video-presenter",
+    "display_name": "AI Avatar Video Presenter",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-avatar-video-presenter",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-budget-alert-planner",
+    "display_name": "AI Budget Alert Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-budget-alert-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-credential-rotation-checklist",
+    "display_name": "AI Credential Rotation Checklist",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-credential-rotation-checklist",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-hive-mcp-setup-assistant",
+    "display_name": "AI-HIVE MCP Setup Assistant",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-hive-mcp-setup-assistant",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-image-generator",
+    "display_name": "AI Image Generator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-image-generator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-model-selection-benchmark",
+    "display_name": "AI Model Selection Benchmark",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-model-selection-benchmark",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-music-brief-generation-studio",
+    "display_name": "AI Music Brief & Generation Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-music-brief-generation-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-podcast-production-kit",
+    "display_name": "AI Podcast Production Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-podcast-production-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-provider-switch-readiness-check",
+    "display_name": "AI Provider Switch Readiness Check",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-provider-switch-readiness-check",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-request-timeout-investigator",
+    "display_name": "AI Request Timeout Investigator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-request-timeout-investigator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-search-visibility-audit",
+    "display_name": "AI Search Visibility Audit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-search-visibility-audit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-usage-cost-ledger",
+    "display_name": "AI Usage Cost Ledger",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-usage-cost-ledger",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-video-budget-calculator",
+    "display_name": "AI Video Budget Calculator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-video-budget-calculator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ai-video-production-studio",
+    "display_name": "AI Video Production Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ai-video-production-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-amazon-listing-image-builder",
+    "display_name": "Amazon Listing Image Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-amazon-listing-image-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-amazon-product-video-builder",
+    "display_name": "Amazon Product Video Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-amazon-product-video-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-art-workshop-promotion-kit",
+    "display_name": "Art Workshop Promotion Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-art-workshop-promotion-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-article-to-carousel-builder",
+    "display_name": "Article-to-Carousel Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-article-to-carousel-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ats-resume-parsing-checker",
+    "display_name": "ATS Resume Parsing Checker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ats-resume-parsing-checker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-audience-retention-analyzer",
+    "display_name": "Audience Retention Analyzer",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-audience-retention-analyzer",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-audiobook-narration-workflow",
+    "display_name": "Audiobook Narration Workflow",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-audiobook-narration-workflow",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-auto-detailing-service-content-kit",
+    "display_name": "Auto Detailing Service Content Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-auto-detailing-service-content-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-b-roll-pickup-shot-planner",
+    "display_name": "B-Roll & Pickup Shot Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-b-roll-pickup-shot-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-bag-capacity-demo-builder",
+    "display_name": "Bag Capacity Demo Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-bag-capacity-demo-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-bakery-preorder-campaign-builder",
+    "display_name": "Bakery Preorder Campaign Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-bakery-preorder-campaign-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-batch-ai-job-queue-planner",
+    "display_name": "Batch AI Job Queue Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-batch-ai-job-queue-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-batch-video-production-planner",
+    "display_name": "Batch Video Production Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-batch-video-production-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-bbq-platter-promo-builder",
+    "display_name": "BBQ Platter Promo Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-bbq-platter-promo-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-beauty-tutorial-video-builder",
+    "display_name": "Beauty Tutorial Video Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-beauty-tutorial-video-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-behavioral-interview-story-builder",
+    "display_name": "Behavioral Interview Story Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-behavioral-interview-story-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-beverage-pour-splash-studio",
+    "display_name": "Beverage Pour & Splash Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-beverage-pour-splash-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-bilingual-business-email-assistant",
+    "display_name": "Bilingual Business Email Assistant",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-bilingual-business-email-assistant",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-board-game-quick-start-guide",
+    "display_name": "Board Game Quick-Start Guide",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-board-game-quick-start-guide",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-branching-story-game-builder",
+    "display_name": "Branching Story Game Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-branching-story-game-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-brand-asset-kit-builder",
+    "display_name": "Brand Asset Kit Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-brand-asset-kit-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-brand-asset-version-controller",
+    "display_name": "Brand Asset Version Controller",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-brand-asset-version-controller",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-brand-jingle-creator",
+    "display_name": "Brand Jingle Creator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-brand-jingle-creator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-brand-story-content-kit",
+    "display_name": "Brand Story Content Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-brand-story-content-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-brand-voice-guide-builder",
+    "display_name": "Brand Voice Guide Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-brand-voice-guide-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-browser-puzzle-prototype-builder",
+    "display_name": "Browser Puzzle Prototype Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-browser-puzzle-prototype-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-bubble-tea-launch-content-kit",
+    "display_name": "Bubble Tea Launch Content Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-bubble-tea-launch-content-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-budget-variance-checker",
+    "display_name": "Budget Variance Checker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-budget-variance-checker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-business-card-designer",
+    "display_name": "Business Card Designer",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-business-card-designer",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-business-dashboard-builder",
+    "display_name": "Business Dashboard Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-business-dashboard-builder",
+    "language": "en"
   }
 ]

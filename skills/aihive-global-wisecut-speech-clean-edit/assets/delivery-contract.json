@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-wisecut-speech-clean-edit",
+  "required_documents": [
+    "edit-decisions.json",
+    "time-map.csv",
+    "subtitle-review.md"
+  ],
+  "human_acceptance": [
+    "所有删除区间可回退，成片语义和说话顺序一致。",
+    "字幕以新时间线验收，不能直接沿用源片时间码。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "静音检测和剪辑需媒体工具；不宣称复现Wisecut专有自动化服务。"
+}

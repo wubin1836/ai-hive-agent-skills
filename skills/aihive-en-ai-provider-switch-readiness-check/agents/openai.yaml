@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Provider Switch Readiness Check"
+  short_description: "AI Provider Switch Readiness Check"
+  default_prompt: "Use $aihive-en-ai-provider-switch-readiness-check with my application configuration. Produce switch-readiness.md, regression-matrix.csv, with the remaining review records. Verify this acceptance condition: A ready decision is supported by tests, not just matching endpoint syntax. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

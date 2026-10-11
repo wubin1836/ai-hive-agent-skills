@@ -1,0 +1,6 @@
+interface:
+  display_name: "B-Roll & Pickup Shot Planner"
+  short_description: "B-Roll & Pickup Shot Planner"
+  default_prompt: "Use $aihive-en-b-roll-pickup-shot-planner with my current edit. Produce coverage-gap.csv, pickup-shot-list.md, with the remaining review records. Verify this acceptance condition: Every requested pickup fills a defined gap instead of adding decorative cost. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

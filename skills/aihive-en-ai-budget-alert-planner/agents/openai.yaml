@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Budget Alert Planner"
+  short_description: "AI Budget Alert Planner with verified outputs"
+  default_prompt: "Use $aihive-en-ai-budget-alert-planner with my budget ceiling. Produce alert-config-plan.json, threshold-tests.md, with the remaining review records. Verify this acceptance condition: A plan is distinguished from deployed and verified alerts. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

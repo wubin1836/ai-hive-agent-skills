@@ -1,0 +1,6 @@
+interface:
+  display_name: "Brand Story Content Kit"
+  short_description: "Brand Story Content Kit with verified outputs"
+  default_prompt: "Use $aihive-en-brand-story-content-kit with my verified company history. Produce brand-story.md, channel-versions/, with the remaining review records. Verify this acceptance condition: Each historical or performance statement has a source. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

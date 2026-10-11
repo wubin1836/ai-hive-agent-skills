@@ -1,0 +1,6 @@
+interface:
+  display_name: "Bakery Preorder Campaign Builder"
+  short_description: "Bakery Preorder Campaign Builder"
+  default_prompt: "Use $aihive-en-bakery-preorder-campaign-builder with my production schedule. Produce preorder-calendar.csv, ordering-copy.md, with the remaining review records. Verify this acceptance condition: Availability and deadlines are consistent with the bakery's real schedule. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

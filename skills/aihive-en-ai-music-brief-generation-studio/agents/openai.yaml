@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Music Brief & Generation Studio"
+  short_description: "AI Music Brief & Generation Studio"
+  default_prompt: "Use $aihive-en-ai-music-brief-generation-studio with my music brief. Produce music-brief.md, generated-tracks/, with the remaining review records. Verify this acceptance condition: Delivered tracks actually play and meet the agreed musical constraints. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

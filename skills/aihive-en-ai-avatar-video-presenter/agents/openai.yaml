@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Avatar Video Presenter"
+  short_description: "AI Avatar Video Presenter"
+  default_prompt: "Use $aihive-en-ai-avatar-video-presenter with my approved script. Produce avatar-permission-notes.md, pronunciation-sheet.csv, with the remaining review records. Verify this acceptance condition: No unauthorized identity or voice is used; script meaning is preserved. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Brand Voice Guide Builder"
+  short_description: "Brand Voice Guide Builder"
+  default_prompt: "Use $aihive-en-brand-voice-guide-builder with my approved company writing. Produce brand-voice-guide.md, editing-examples.md, with the remaining review records. Verify this acceptance condition: Rules are concrete, usable and distinguish brand voice from unsupported claims. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Request Timeout Investigator"
+  short_description: "AI Request Timeout Investigator"
+  default_prompt: "Use $aihive-en-ai-request-timeout-investigator with my original request or task ID. Produce timeout-timeline.csv, task-status-evidence.md, with the remaining review records. Verify this acceptance condition: No duplicate chargeable request is issued while task state is uncertain. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

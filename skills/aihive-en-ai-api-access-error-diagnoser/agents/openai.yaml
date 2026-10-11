@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI API Access Error Diagnoser"
+  short_description: "AI API Access Error Diagnoser"
+  default_prompt: "Use $aihive-en-ai-api-access-error-diagnoser with my sanitized access error. Produce access-diagnosis.md, evidence-log.json, with the remaining review records. Verify this acceptance condition: Recommendations do not bypass permission or quota controls. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

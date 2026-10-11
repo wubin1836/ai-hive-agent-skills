@@ -1,0 +1,6 @@
+interface:
+  display_name: "Budget Variance Checker"
+  short_description: "Budget Variance Checker with verified outputs"
+  default_prompt: "Use $aihive-en-budget-variance-checker with my budget. Produce budget-variance.csv, category-map.json, with the remaining review records. Verify this acceptance condition: Formulas, denominators and classifications are reproducible. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

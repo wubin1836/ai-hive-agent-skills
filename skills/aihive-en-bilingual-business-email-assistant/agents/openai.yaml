@@ -1,0 +1,6 @@
+interface:
+  display_name: "Bilingual Business Email Assistant"
+  short_description: "Bilingual Business Email Assistant"
+  default_prompt: "Use $aihive-en-bilingual-business-email-assistant with my source email. Produce bilingual-email.md, terminology.csv, with the remaining review records. Verify this acceptance condition: Both versions make the same commitments and factual claims. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

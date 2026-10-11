@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Podcast Production Kit"
+  short_description: "AI Podcast Production Kit"
+  default_prompt: "Use $aihive-en-ai-podcast-production-kit with my source notes. Produce episode-script.md, segment-timing.csv, with the remaining review records. Verify this acceptance condition: Episode sources, speaker labels and actual audio status are clear. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

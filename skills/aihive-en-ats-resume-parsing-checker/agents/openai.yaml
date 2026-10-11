@@ -1,0 +1,6 @@
+interface:
+  display_name: "ATS Resume Parsing Checker"
+  short_description: "ATS Resume Parsing Checker"
+  default_prompt: "Use $aihive-en-ats-resume-parsing-checker with my actual resume file. Produce parsing-report.md, extracted-text.txt, with the remaining review records. Verify this acceptance condition: Reported issues are observable extraction failures or documented risks. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

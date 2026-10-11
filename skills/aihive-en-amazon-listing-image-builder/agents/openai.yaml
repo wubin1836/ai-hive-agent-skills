@@ -1,0 +1,6 @@
+interface:
+  display_name: "Amazon Listing Image Builder"
+  short_description: "Amazon Listing Image Builder"
+  default_prompt: "Use $aihive-en-amazon-listing-image-builder with my verified Amazon SKU facts. Produce amazon-image-plan.csv, reviewed-images/, with the remaining review records. Verify this acceptance condition: Actual images match the specific SKU and destination rules checked that day. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

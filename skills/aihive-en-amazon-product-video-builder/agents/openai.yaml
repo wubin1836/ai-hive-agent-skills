@@ -1,0 +1,6 @@
+interface:
+  display_name: "Amazon Product Video Builder"
+  short_description: "Amazon Product Video Builder"
+  default_prompt: "Use $aihive-en-amazon-product-video-builder with my Amazon product facts. Produce listing-video-map.csv, reviewed-export-or-handoff/, with the remaining review records. Verify this acceptance condition: The video demonstrates the advertised SKU and required format is verified. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

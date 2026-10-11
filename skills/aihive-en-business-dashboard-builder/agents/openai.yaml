@@ -1,0 +1,6 @@
+interface:
+  display_name: "Business Dashboard Builder"
+  short_description: "Business Dashboard Builder"
+  default_prompt: "Use $aihive-en-business-dashboard-builder with my approved data. Produce dashboard/, metric-dictionary.md, with the remaining review records. Verify this acceptance condition: Displayed metrics reproduce from approved data and refresh limits are explicit. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

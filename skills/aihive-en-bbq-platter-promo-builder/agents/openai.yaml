@@ -1,0 +1,6 @@
+interface:
+  display_name: "BBQ Platter Promo Builder"
+  short_description: "BBQ Platter Promo Builder"
+  default_prompt: "Use $aihive-en-bbq-platter-promo-builder with my actual platter contents. Produce platter-ledger.csv, promo-shot-list.md, with the remaining review records. Verify this acceptance condition: Serving depictions and included items match the priced platter. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Branching Story Game Builder"
+  short_description: "Branching Story Game Builder"
+  default_prompt: "Use $aihive-en-branching-story-game-builder with my original story. Produce game-source/, story-graph.json, with the remaining review records. Verify this acceptance condition: A playable prototype is distinguished from an outline and reachable endings are tested. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true
