@@ -1,0 +1,6 @@
+interface:
+  display_name: "Hotel Room Marketing Studio"
+  short_description: "Hotel Room Marketing Studio"
+  default_prompt: "Use $aihive-en-hotel-room-marketing-studio with my current room photos. Produce room-type-matrix.csv, room-media-plan.md, with the remaining review records. Verify this acceptance condition: Every advertised amenity belongs to the bookable room type. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Job Search Tracker & Review"
+  short_description: "Job Search Tracker & Review"
+  default_prompt: "Use $aihive-en-job-search-tracker-review with my personal application log. Produce job-search-report.md, funnel-table.csv, with the remaining review records. Verify this acceptance condition: Metrics derive from recorded events and missing feedback is not invented. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

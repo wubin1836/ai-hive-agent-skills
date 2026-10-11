@@ -1,0 +1,6 @@
+interface:
+  display_name: "Game User Acquisition Ad Studio"
+  short_description: "Game User Acquisition Ad Studio"
+  default_prompt: "Use $aihive-en-game-user-acquisition-ad-studio with my actual game mechanics. Produce UA-creative-matrix.csv, mechanic-evidence.md, with the remaining review records. Verify this acceptance condition: Ads represent the game being promoted and do not use unrelated fake gameplay. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

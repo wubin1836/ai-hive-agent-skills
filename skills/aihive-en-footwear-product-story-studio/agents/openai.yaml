@@ -1,0 +1,6 @@
+interface:
+  display_name: "Footwear Product Story Studio"
+  short_description: "Footwear Product Story Studio"
+  default_prompt: "Use $aihive-en-footwear-product-story-studio with my shoe photos. Produce footwear-feature-map.csv, photo-video-briefs/, with the remaining review records. Verify this acceptance condition: Left/right orientation and SKU differences remain correct. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

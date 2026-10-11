@@ -1,0 +1,6 @@
+interface:
+  display_name: "Jewelry Virtual Try-On Studio"
+  short_description: "Jewelry Virtual Try-On Studio"
+  default_prompt: "Use $aihive-en-jewelry-virtual-try-on-studio with my authorized business materials. Deliver placement constraints, reference-to-preview comparisons and approved images; do not treat generated fit or gemstone appearance as measurements or authenticity evidence. Start with the input check and a sample plan. Confirm any missing facts, paid generation, external upload or publication permissions before acting."
+policy:
+  allow_implicit_invocation: true

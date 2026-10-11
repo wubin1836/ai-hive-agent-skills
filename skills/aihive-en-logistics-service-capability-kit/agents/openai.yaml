@@ -1,0 +1,6 @@
+interface:
+  display_name: "Logistics Service Capability Kit"
+  short_description: "Logistics Service Capability Kit"
+  default_prompt: "Use $aihive-en-logistics-service-capability-kit with my confirmed routes. Produce logistics-capability-pack/, route-service-matrix.csv, with the remaining review records. Verify this acceptance condition: Coverage and service promises are supported and conditional assumptions stay visible. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

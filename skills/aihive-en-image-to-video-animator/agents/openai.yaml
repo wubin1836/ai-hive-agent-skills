@@ -1,0 +1,6 @@
+interface:
+  display_name: "Image-to-Video Animator"
+  short_description: "Image-to-Video Animator with verified outputs"
+  default_prompt: "Use $aihive-en-image-to-video-animator with my selected still image. Produce motion-brief.md, animated-clips/, with the remaining review records. Verify this acceptance condition: Identity and required still-image details survive the motion. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

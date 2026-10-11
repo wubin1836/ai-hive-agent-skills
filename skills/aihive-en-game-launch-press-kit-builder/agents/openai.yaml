@@ -1,0 +1,6 @@
+interface:
+  display_name: "Game Launch Press Kit Builder"
+  short_description: "Game Launch Press Kit Builder"
+  default_prompt: "Use $aihive-en-game-launch-press-kit-builder with my confirmed game facts. Produce press-kit/, media-manifest.csv, with the remaining review records. Verify this acceptance condition: Journalists can identify current facts and permitted assets without invented accolades. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

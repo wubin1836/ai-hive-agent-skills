@@ -1,0 +1,6 @@
+interface:
+  display_name: "Marketplace Product Image Checker"
+  short_description: "Marketplace Product Image Checker"
+  default_prompt: "Use $aihive-en-marketplace-product-image-checker with my actual hero images. Produce image-preflight.csv, requirements-snapshot.md, with the remaining review records. Verify this acceptance condition: Every finding is supported by a file property, visible feature or named rule. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Game Item Icon Pack Builder"
+  short_description: "Game Item Icon Pack Builder"
+  default_prompt: "Use $aihive-en-game-item-icon-pack-builder with my item inventory. Produce item-icon-manifest.csv, icons/, with the remaining review records. Verify this acceptance condition: Icons remain distinguishable and map to real item IDs. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

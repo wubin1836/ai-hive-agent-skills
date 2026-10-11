@@ -1,0 +1,6 @@
+interface:
+  display_name: "Gift Set Unboxing Planner"
+  short_description: "Gift Set Unboxing Planner"
+  default_prompt: "Use $aihive-en-gift-set-unboxing-planner with my confirmed gift-set contents. Produce contents-ledger.csv, unboxing-shot-list.md, with the remaining review records. Verify this acceptance condition: Every featured included item matches the actual offer. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

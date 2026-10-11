@@ -1,0 +1,6 @@
+interface:
+  display_name: "Image Upscaler & Quality Check"
+  short_description: "Image Upscaler & Quality Check"
+  default_prompt: "Use $aihive-en-image-upscaler-quality-check with my source image. Produce upscaled/, dimension-report.json, with the remaining review records. Verify this acceptance condition: Dimensions are correct and added detail is not represented as recovered truth. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Jewelry Detail Video Studio"
+  short_description: "Jewelry Detail Video Studio"
+  default_prompt: "Use $aihive-en-jewelry-detail-video-studio with my jewelry macro references. Produce jewelry-shot-plan.csv, material-evidence.md, with the remaining review records. Verify this acceptance condition: Product structure is consistent and cinematic sparkle is not treated as quality proof. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

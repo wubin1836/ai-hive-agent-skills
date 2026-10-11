@@ -1,0 +1,6 @@
+interface:
+  display_name: "Job Work-Sample Assessment Builder"
+  short_description: "Job Work-Sample Assessment Builder"
+  default_prompt: "Use $aihive-en-job-work-sample-assessment-builder with my job tasks. Produce assessment-pack/, scoring-rubric.csv, with the remaining review records. Verify this acceptance condition: Criteria assess relevant work, not protected traits or personality guesses. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

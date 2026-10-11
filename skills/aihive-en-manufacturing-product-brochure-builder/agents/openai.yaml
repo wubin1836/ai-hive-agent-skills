@@ -1,0 +1,6 @@
+interface:
+  display_name: "Manufacturing Product Brochure Builder"
+  short_description: "Manufacturing Product Brochure Builder"
+  default_prompt: "Use $aihive-en-manufacturing-product-brochure-builder with my verified industrial specifications. Produce technical-brochure/, spec-claim-map.csv, with the remaining review records. Verify this acceptance condition: Every numeric or certification claim is verifiable. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

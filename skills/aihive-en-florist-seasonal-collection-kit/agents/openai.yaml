@@ -1,0 +1,6 @@
+interface:
+  display_name: "Florist Seasonal Collection Kit"
+  short_description: "Florist Seasonal Collection Kit"
+  default_prompt: "Use $aihive-en-florist-seasonal-collection-kit with my available stems. Produce bouquet-catalog/, stem-option-matrix.csv, with the remaining review records. Verify this acceptance condition: Pictured premium stems are included or clearly identified as optional. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

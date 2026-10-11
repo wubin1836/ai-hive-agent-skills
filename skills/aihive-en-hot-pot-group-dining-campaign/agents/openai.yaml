@@ -1,0 +1,6 @@
+interface:
+  display_name: "Hot Pot Group Dining Campaign"
+  short_description: "Hot Pot Group Dining Campaign"
+  default_prompt: "Use $aihive-en-hot-pot-group-dining-campaign with my confirmed hot-pot sets. Produce set-contents.csv, group-dining-brief.md, with the remaining review records. Verify this acceptance condition: The pictured spread does not exceed the actual set without explicit labels. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

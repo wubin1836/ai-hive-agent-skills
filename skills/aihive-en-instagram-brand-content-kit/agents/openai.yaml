@@ -1,0 +1,6 @@
+interface:
+  display_name: "Instagram Brand Content Kit"
+  short_description: "Instagram Brand Content Kit"
+  default_prompt: "Use $aihive-en-instagram-brand-content-kit with my brand assets. Produce instagram-plan.csv, caption-drafts.md, with the remaining review records. Verify this acceptance condition: Visual consistency does not override product accuracy or source rights. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

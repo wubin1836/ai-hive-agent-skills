@@ -1,0 +1,6 @@
+interface:
+  display_name: "Image Compression & Export Assistant"
+  short_description: "Image Compression & Export Assistant"
+  default_prompt: "Use $aihive-en-image-compression-export-assistant with my source images. Produce optimized-images/, size-comparison.csv, with the remaining review records. Verify this acceptance condition: Each file opens, meets the limit and preserves required alpha or metadata. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Food Photography Styling Studio"
+  short_description: "Food Photography Styling Studio"
+  default_prompt: "Use $aihive-en-food-photography-styling-studio with my actual dish photos. Produce dish-reference.csv, reviewed-photos/, with the remaining review records. Verify this acceptance condition: Photos do not imply added ingredients or larger portions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

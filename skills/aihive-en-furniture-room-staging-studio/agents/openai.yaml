@@ -1,0 +1,6 @@
+interface:
+  display_name: "Furniture Room Staging Studio"
+  short_description: "Furniture Room Staging Studio"
+  default_prompt: "Use $aihive-en-furniture-room-staging-studio with my furniture references. Produce placement-plan.json, dimension-assumptions.md, with the remaining review records. Verify this acceptance condition: Staging preserves the item and distinguishes concept from verified fit. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

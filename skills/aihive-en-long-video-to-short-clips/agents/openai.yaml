@@ -1,0 +1,6 @@
+interface:
+  display_name: "Long Video to Short Clips"
+  short_description: "Long Video to Short Clips"
+  default_prompt: "Use $aihive-en-long-video-to-short-clips for this task: long video to shorts. Inspect my authorized materials and confirm the target output. Explain missing tools and approval requirements before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

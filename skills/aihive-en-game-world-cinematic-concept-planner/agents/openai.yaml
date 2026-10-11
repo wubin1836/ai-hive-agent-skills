@@ -1,0 +1,6 @@
+interface:
+  display_name: "Game World Cinematic Concept Planner"
+  short_description: "Game World Cinematic Concept Planner"
+  default_prompt: "Use $aihive-en-game-world-cinematic-concept-planner with my original world bible. Produce world-constraints.md, cinematic-storyboard.csv, with the remaining review records. Verify this acceptance condition: The sequence is identified as concept art and does not imply an engine implementation. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

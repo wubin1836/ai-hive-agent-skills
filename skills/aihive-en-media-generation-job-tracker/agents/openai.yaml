@@ -1,0 +1,6 @@
+interface:
+  display_name: "Media Generation Job Tracker"
+  short_description: "Media Generation Job Tracker"
+  default_prompt: "Use $aihive-en-media-generation-job-tracker with my accepted task IDs. Produce job-register.json, output-manifest.csv, with the remaining review records. Verify this acceptance condition: Accepted, running, completed and inspected are distinct states. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

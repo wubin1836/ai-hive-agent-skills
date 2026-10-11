@@ -1,0 +1,6 @@
+interface:
+  display_name: "Game Update Announcement Kit"
+  short_description: "Game Update Announcement Kit"
+  default_prompt: "Use $aihive-en-game-update-announcement-kit with my verified patch notes. Produce update-announcement.md, change-asset-map.csv, with the remaining review records. Verify this acceptance condition: Only shipped or explicitly planned changes are represented accordingly. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

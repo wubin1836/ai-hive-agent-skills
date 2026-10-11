@@ -1,0 +1,6 @@
+interface:
+  display_name: "Job Application Email Checker"
+  short_description: "Job Application Email Checker"
+  default_prompt: "Use $aihive-en-job-application-email-checker with my draft application email. Produce application-email.md, attachment-check.csv, with the remaining review records. Verify this acceptance condition: The draft names the correct role and includes the intended files. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

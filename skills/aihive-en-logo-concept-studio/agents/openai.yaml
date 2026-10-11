@@ -1,0 +1,6 @@
+interface:
+  display_name: "Logo Concept Studio"
+  short_description: "Logo Concept Studio with verified outputs"
+  default_prompt: "Use $aihive-en-logo-concept-studio with my brand brief. Produce logo-concepts/, concept-rationale.md, with the remaining review records. Verify this acceptance condition: Logo remains legible in required uses; file types are accurately labeled. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Live Shopping Run-of-Show Builder"
+  short_description: "Live Shopping Run-of-Show Builder"
+  default_prompt: "Use $aihive-en-live-shopping-run-of-show-builder with my live-shopping product list. Produce run-of-show.csv, product-cue-cards.md, with the remaining review records. Verify this acceptance condition: Spoken offer details agree with confirmed terms and timing is feasible. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

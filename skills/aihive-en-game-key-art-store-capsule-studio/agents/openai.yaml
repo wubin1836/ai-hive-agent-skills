@@ -1,0 +1,6 @@
+interface:
+  display_name: "Game Key Art & Store Capsule Studio"
+  short_description: "Game Key Art & Store Capsule Studio"
+  default_prompt: "Use $aihive-en-game-key-art-store-capsule-studio with my authorized business materials. Deliver art-direction board, current template checklist and capsule export manifest; promotional artwork must not be passed off as real gameplay screenshots. Start with the input check and a sample plan. Confirm any missing facts, paid generation, external upload or publication permissions before acting."
+policy:
+  allow_implicit_invocation: true

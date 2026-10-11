@@ -1,0 +1,6 @@
+interface:
+  display_name: "Local Document Search Index"
+  short_description: "Local Document Search Index"
+  default_prompt: "Use $aihive-en-local-document-search-index with my authorized document paths. Produce search-index/, provenance-manifest.json, with the remaining review records. Verify this acceptance condition: Results resolve to actual authorized files and index scope is explicit. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

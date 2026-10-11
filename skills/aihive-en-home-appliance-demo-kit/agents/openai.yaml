@@ -1,0 +1,6 @@
+interface:
+  display_name: "Home Appliance Demo Kit"
+  short_description: "Home Appliance Demo Kit with verified outputs"
+  default_prompt: "Use $aihive-en-home-appliance-demo-kit with my specific appliance manual. Produce manual-scene-map.csv, demo-script.md, with the remaining review records. Verify this acceptance condition: The shown controls and functions exist on the advertised appliance. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

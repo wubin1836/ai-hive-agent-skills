@@ -1,0 +1,6 @@
+interface:
+  display_name: "Keyword Research & Intent Mapper"
+  short_description: "Keyword Research & Intent Mapper"
+  default_prompt: "Use $aihive-en-keyword-research-intent-mapper with my query list or authorized data source. Produce intent-clusters.csv, keyword-page-map.csv, with the remaining review records. Verify this acceptance condition: Each cluster has an actionable intent and traceable query source. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

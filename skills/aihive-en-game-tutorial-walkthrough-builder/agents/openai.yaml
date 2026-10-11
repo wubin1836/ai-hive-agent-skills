@@ -1,0 +1,6 @@
+interface:
+  display_name: "Game Tutorial Walkthrough Builder"
+  short_description: "Game Tutorial Walkthrough Builder"
+  default_prompt: "Use $aihive-en-game-tutorial-walkthrough-builder with my specified game version. Produce walkthrough-script.md, footage-step-map.csv, with the remaining review records. Verify this acceptance condition: Steps and caveats apply to the stated version. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

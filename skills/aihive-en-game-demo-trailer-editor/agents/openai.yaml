@@ -1,0 +1,6 @@
+interface:
+  display_name: "Game Demo Trailer Editor"
+  short_description: "Game Demo Trailer Editor with verified outputs"
+  default_prompt: "Use $aihive-en-game-demo-trailer-editor with my real gameplay footage. Produce gameplay-evidence.csv, trailer-edit-list.csv, with the remaining review records. Verify this acceptance condition: Every shown feature is supported by the supplied build or clearly labeled concept. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

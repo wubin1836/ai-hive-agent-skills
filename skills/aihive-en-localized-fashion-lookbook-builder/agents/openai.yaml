@@ -1,0 +1,6 @@
+interface:
+  display_name: "Localized Fashion Lookbook Builder"
+  short_description: "Localized Fashion Lookbook Builder"
+  default_prompt: "Use $aihive-en-localized-fashion-lookbook-builder with my garment references. Produce locale-briefs/, garment-lock.json, with the remaining review records. Verify this acceptance condition: Locale changes preserve the product and avoid unsupported demographic assumptions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

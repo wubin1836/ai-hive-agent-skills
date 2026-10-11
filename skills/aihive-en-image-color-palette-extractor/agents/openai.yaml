@@ -1,0 +1,6 @@
+interface:
+  display_name: "Image Color Palette Extractor"
+  short_description: "Image Color Palette Extractor"
+  default_prompt: "Use $aihive-en-image-color-palette-extractor with my reference images. Produce palette.json, swatch-sheet/, with the remaining review records. Verify this acceptance condition: Color values match the sampled space and contrast claims are calculated. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Food Motion Ad Studio"
+  short_description: "Food Motion Ad Studio with verified outputs"
+  default_prompt: "Use $aihive-en-food-motion-ad-studio with my real dish references. Produce dish-motion-plan.md, concept-clips/, with the remaining review records. Verify this acceptance condition: Effects remain illustrative and do not invent the served dish. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

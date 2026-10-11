@@ -1,0 +1,6 @@
+interface:
+  display_name: "Image Generation Cost Benchmark"
+  short_description: "Image Generation Cost Benchmark"
+  default_prompt: "Use $aihive-en-image-generation-cost-benchmark with my common image brief. Produce image-benchmark.csv, test-manifest.json, with the remaining review records. Verify this acceptance condition: Rejected attempts are included in cost and unequal settings are identified. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

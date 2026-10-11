@@ -61892,5 +61892,455 @@
     "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
     "path": "skills/aihive-en-file-archive-organizer",
     "language": "en"
+  },
+  {
+    "name": "aihive-en-florist-seasonal-collection-kit",
+    "display_name": "Florist Seasonal Collection Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-florist-seasonal-collection-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-food-delivery-menu-photo-checker",
+    "display_name": "Food Delivery Menu Photo Checker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-food-delivery-menu-photo-checker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-food-motion-ad-studio",
+    "display_name": "Food Motion Ad Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-food-motion-ad-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-food-photography-styling-studio",
+    "display_name": "Food Photography Styling Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-food-photography-styling-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-footwear-product-story-studio",
+    "display_name": "Footwear Product Story Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-footwear-product-story-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-freelance-proposal-builder",
+    "display_name": "Freelance Proposal Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-freelance-proposal-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-furniture-room-staging-studio",
+    "display_name": "Furniture Room Staging Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-furniture-room-staging-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-game-demo-trailer-editor",
+    "display_name": "Game Demo Trailer Editor",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-game-demo-trailer-editor",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-game-item-icon-pack-builder",
+    "display_name": "Game Item Icon Pack Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-game-item-icon-pack-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-game-key-art-store-capsule-studio",
+    "display_name": "Game Key Art & Store Capsule Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-game-key-art-store-capsule-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-game-launch-press-kit-builder",
+    "display_name": "Game Launch Press Kit Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-game-launch-press-kit-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-game-soundtrack-planner",
+    "display_name": "Game Soundtrack Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-game-soundtrack-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-game-tutorial-walkthrough-builder",
+    "display_name": "Game Tutorial Walkthrough Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-game-tutorial-walkthrough-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-game-update-announcement-kit",
+    "display_name": "Game Update Announcement Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-game-update-announcement-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-game-user-acquisition-ad-studio",
+    "display_name": "Game User Acquisition Ad Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-game-user-acquisition-ad-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-game-world-cinematic-concept-planner",
+    "display_name": "Game World Cinematic Concept Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-game-world-cinematic-concept-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-gift-set-unboxing-planner",
+    "display_name": "Gift Set Unboxing Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-gift-set-unboxing-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-gym-membership-campaign-builder",
+    "display_name": "Gym Membership Campaign Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-gym-membership-campaign-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-hair-salon-portfolio-booking-kit",
+    "display_name": "Hair Salon Portfolio & Booking Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-hair-salon-portfolio-booking-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-home-appliance-demo-kit",
+    "display_name": "Home Appliance Demo Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-home-appliance-demo-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-hot-pot-group-dining-campaign",
+    "display_name": "Hot Pot Group Dining Campaign",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-hot-pot-group-dining-campaign",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-hotel-room-marketing-studio",
+    "display_name": "Hotel Room Marketing Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-hotel-room-marketing-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-how-to-video-creator",
+    "display_name": "How-To Video Creator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-how-to-video-creator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-image-color-palette-extractor",
+    "display_name": "Image Color Palette Extractor",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-image-color-palette-extractor",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-image-compression-export-assistant",
+    "display_name": "Image Compression & Export Assistant",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-image-compression-export-assistant",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-image-generation-cost-benchmark",
+    "display_name": "Image Generation Cost Benchmark",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-image-generation-cost-benchmark",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-image-to-video-animator",
+    "display_name": "Image-to-Video Animator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-image-to-video-animator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-image-upscaler-quality-check",
+    "display_name": "Image Upscaler & Quality Check",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-image-upscaler-quality-check",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-instagram-brand-content-kit",
+    "display_name": "Instagram Brand Content Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-instagram-brand-content-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-interior-design-concept-presentation",
+    "display_name": "Interior Design Concept Presentation",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-interior-design-concept-presentation",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-interview-recording-practice-coach",
+    "display_name": "Interview Recording Practice Coach",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-interview-recording-practice-coach",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-jewelry-detail-video-studio",
+    "display_name": "Jewelry Detail Video Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-jewelry-detail-video-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-jewelry-virtual-try-on-studio",
+    "display_name": "Jewelry Virtual Try-On Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-jewelry-virtual-try-on-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-job-application-email-checker",
+    "display_name": "Job Application Email Checker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-job-application-email-checker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-job-search-tracker-review",
+    "display_name": "Job Search Tracker & Review",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-job-search-tracker-review",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-job-work-sample-assessment-builder",
+    "display_name": "Job Work-Sample Assessment Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-job-work-sample-assessment-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-keyword-research-intent-mapper",
+    "display_name": "Keyword Research & Intent Mapper",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-keyword-research-intent-mapper",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-lead-magnet-builder",
+    "display_name": "Lead Magnet Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-lead-magnet-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-linkedin-founder-content-kit",
+    "display_name": "LinkedIn Founder Content Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-linkedin-founder-content-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-live-shopping-run-of-show-builder",
+    "display_name": "Live Shopping Run-of-Show Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-live-shopping-run-of-show-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-local-document-search-index",
+    "display_name": "Local Document Search Index",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-local-document-search-index",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-localized-fashion-lookbook-builder",
+    "display_name": "Localized Fashion Lookbook Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-localized-fashion-lookbook-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-logistics-service-capability-kit",
+    "display_name": "Logistics Service Capability Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-logistics-service-capability-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-logo-concept-studio",
+    "display_name": "Logo Concept Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-logo-concept-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-logo-vectorization-export-check",
+    "display_name": "Logo Vectorization & Export Check",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-logo-vectorization-export-check",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-long-document-briefing-builder",
+    "display_name": "Long Document Briefing Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-long-document-briefing-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-long-video-to-short-clips",
+    "display_name": "Long Video to Short Clips",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-long-video-to-short-clips",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-manufacturing-product-brochure-builder",
+    "display_name": "Manufacturing Product Brochure Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-manufacturing-product-brochure-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-marketplace-product-image-checker",
+    "display_name": "Marketplace Product Image Checker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-marketplace-product-image-checker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-media-generation-job-tracker",
+    "display_name": "Media Generation Job Tracker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-media-generation-job-tracker",
+    "language": "en"
   }
 ]

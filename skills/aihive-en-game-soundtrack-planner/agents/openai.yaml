@@ -1,0 +1,6 @@
+interface:
+  display_name: "Game Soundtrack Planner"
+  short_description: "Game Soundtrack Planner with verified outputs"
+  default_prompt: "Use $aihive-en-game-soundtrack-planner with my game scenes. Produce cue-map.csv, soundtrack-tracks/, with the remaining review records. Verify this acceptance condition: Loops play cleanly and transition intentions are documented. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

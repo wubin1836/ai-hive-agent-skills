@@ -1,0 +1,6 @@
+interface:
+  display_name: "Logo Vectorization & Export Check"
+  short_description: "Logo Vectorization & Export Check"
+  default_prompt: "Use $aihive-en-logo-vectorization-export-check with my authorized raster logo. Produce vector-logo/, raster-vector-comparison/, with the remaining review records. Verify this acceptance condition: Output contains editable vector geometry rather than an embedded bitmap alone. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

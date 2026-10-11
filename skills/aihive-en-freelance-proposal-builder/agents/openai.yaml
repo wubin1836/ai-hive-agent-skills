@@ -1,0 +1,6 @@
+interface:
+  display_name: "Freelance Proposal Builder"
+  short_description: "Freelance Proposal Builder"
+  default_prompt: "Use $aihive-en-freelance-proposal-builder for this task: freelance proposal. Inspect my authorized materials and confirm the target output. Explain missing tools and approval requirements before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

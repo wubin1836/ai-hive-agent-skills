@@ -1,0 +1,6 @@
+interface:
+  display_name: "Food Delivery Menu Photo Checker"
+  short_description: "Food Delivery Menu Photo Checker"
+  default_prompt: "Use $aihive-en-food-delivery-menu-photo-checker with my menu item list. Produce item-photo-map.csv, platform-checklist.md, with the remaining review records. Verify this acceptance condition: Findings distinguish factual mismatch, format errors and unverifiable acceptance. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "LinkedIn Founder Content Kit"
+  short_description: "LinkedIn Founder Content Kit"
+  default_prompt: "Use $aihive-en-linkedin-founder-content-kit with my founder's real experience. Produce founder-posts.md, evidence-map.csv, with the remaining review records. Verify this acceptance condition: The founder can truthfully stand behind every personal statement. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

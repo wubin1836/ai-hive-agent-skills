@@ -1,0 +1,6 @@
+interface:
+  display_name: "Interview Recording Practice Coach"
+  short_description: "Interview Recording Practice Coach"
+  default_prompt: "Use $aihive-en-interview-recording-practice-coach with my authorized practice recording. Produce timestamped-feedback.md, answer-outline.md, with the remaining review records. Verify this acceptance condition: Feedback cites observed moments and does not infer personality or health. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

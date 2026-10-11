@@ -1,0 +1,6 @@
+interface:
+  display_name: "Interior Design Concept Presentation"
+  short_description: "Interior Design Concept Presentation"
+  default_prompt: "Use $aihive-en-interior-design-concept-presentation with my measured room brief. Produce concept-boards/, room-assumptions.md, with the remaining review records. Verify this acceptance condition: Concepts are labeled and do not masquerade as construction drawings. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true
