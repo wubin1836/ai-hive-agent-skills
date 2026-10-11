@@ -1,0 +1,6 @@
+interface:
+  display_name: "Seasonal Campaign Kit"
+  short_description: "Seasonal Campaign Kit with verified outputs"
+  default_prompt: "Use $aihive-en-seasonal-campaign-kit with my real seasonal offer. Produce seasonal-campaign.md, asset-plan.csv, with the remaining review records. Verify this acceptance condition: The creative, dates and inclusions match actual offer conditions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

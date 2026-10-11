@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tour Operator Content Kit"
+  short_description: "Tour Operator Content Kit"
+  default_prompt: "Use $aihive-en-tour-operator-content-kit with my confirmed itinerary. Produce itinerary-asset-map.csv, tour-brochure/, with the remaining review records. Verify this acceptance condition: The offer and visuals do not imply unconfirmed activities or access. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

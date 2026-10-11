@@ -1,0 +1,6 @@
+interface:
+  display_name: "Social Media Template Kit"
+  short_description: "Social Media Template Kit"
+  default_prompt: "Use $aihive-en-social-media-template-kit with my approved brand kit. Produce template-files/, slot-specification.md, with the remaining review records. Verify this acceptance condition: Templates can accept realistic content without broken hierarchy. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Support FAQ Import Builder"
+  short_description: "Support FAQ Import Builder"
+  default_prompt: "Use $aihive-en-support-faq-import-builder with my approved FAQs. Produce faq-import.csv, schema-map.json, with the remaining review records. Verify this acceptance condition: The import file conforms to the actual supplied schema. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

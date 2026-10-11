@@ -7253,7 +7253,7 @@
 | [钟文泽公开内容学习｜新品资料转上手演示清单](skills/aihive-persona-next-zhong-launch-hands-on/SKILL.md) | AI-HIVE | AI workflows |
 | [朱铁雄公开内容学习｜原创国风变装分镜与转场衔接](skills/aihive-persona-next-zhu-transition-design/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7637,3 +7637,58 @@
 | [Project Plan & Risk Register](skills/aihive-en-project-plan-risk-register/SKILL.md) | AI-HIVE | AI workflows |
 | [Project Proposal & Scope Builder](skills/aihive-en-project-proposal-scope-builder/SKILL.md) | AI-HIVE | AI workflows |
 | [Project Timesheet Consolidator](skills/aihive-en-project-timesheet-consolidator/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [Promotion Consistency Checker](skills/aihive-en-promotion-consistency-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Quick-Service Combo Campaign](skills/aihive-en-quick-service-combo-campaign/SKILL.md) | AI-HIVE | AI workflows |
+| [Real Estate Listing Media Kit](skills/aihive-en-real-estate-listing-media-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Receipt Data Extraction Assistant](skills/aihive-en-receipt-data-extraction-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Recruiting Funnel Report Builder](skills/aihive-en-recruiting-funnel-report-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Restaurant Marketing Campaign Kit](skills/aihive-en-restaurant-marketing-campaign-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Restaurant Menu Design Studio](skills/aihive-en-restaurant-menu-design-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Restaurant Menu Version Synchronizer](skills/aihive-en-restaurant-menu-version-synchronizer/SKILL.md) | AI-HIVE | AI workflows |
+| [Resume Builder](skills/aihive-en-resume-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Resume-to-Job Match Assistant](skills/aihive-en-resume-to-job-match-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [SaaS Onboarding Content Kit](skills/aihive-en-saas-onboarding-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Screenshot-to-Webpage Builder](skills/aihive-en-screenshot-to-webpage-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Script-to-Storyboard Converter](skills/aihive-en-script-to-storyboard-converter/SKILL.md) | AI-HIVE | AI workflows |
+| [Seasonal Campaign Kit](skills/aihive-en-seasonal-campaign-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Service Quote Builder](skills/aihive-en-service-quote-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Shopify Product Image Studio](skills/aihive-en-shopify-product-image-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Shopify Product Video Kit](skills/aihive-en-shopify-product-video-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Side Business Feasibility Planner](skills/aihive-en-side-business-feasibility-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [SKU Image Mismatch Checker](skills/aihive-en-sku-image-mismatch-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Slides-to-Handout Converter](skills/aihive-en-slides-to-handout-converter/SKILL.md) | AI-HIVE | AI workflows |
+| [Social Media Template Kit](skills/aihive-en-social-media-template-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Software Architecture Diagram Builder](skills/aihive-en-software-architecture-diagram-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Solo Founder Launch Planner](skills/aihive-en-solo-founder-launch-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [Spa Service Menu Content Kit](skills/aihive-en-spa-service-menu-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Speaker-Labeled Audio Transcription](skills/aihive-en-speaker-labeled-audio-transcription/SKILL.md) | AI-HIVE | AI workflows |
+| [Spreadsheet Analysis Assistant](skills/aihive-en-spreadsheet-analysis-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Spreadsheet Chart Builder](skills/aihive-en-spreadsheet-chart-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Spreadsheet Data Cleaner](skills/aihive-en-spreadsheet-data-cleaner/SKILL.md) | AI-HIVE | AI workflows |
+| [Startup Cost Calculator](skills/aihive-en-startup-cost-calculator/SKILL.md) | AI-HIVE | AI workflows |
+| [Store Catalog Migration Planner](skills/aihive-en-store-catalog-migration-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [Storyboard Generator](skills/aihive-en-storyboard-generator/SKILL.md) | AI-HIVE | AI workflows |
+| [Structured Data Markup Builder](skills/aihive-en-structured-data-markup-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Structured Output Debugger](skills/aihive-en-structured-output-debugger/SKILL.md) | AI-HIVE | AI workflows |
+| [Supplier Statement Reconciliation](skills/aihive-en-supplier-statement-reconciliation/SKILL.md) | AI-HIVE | AI workflows |
+| [Support FAQ Import Builder](skills/aihive-en-support-faq-import-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Sushi & Japanese Dining Content Kit](skills/aihive-en-sushi-japanese-dining-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Team Weekly Report Consolidator](skills/aihive-en-team-weekly-report-consolidator/SKILL.md) | AI-HIVE | AI workflows |
+| [Text-Accurate Poster Maker](skills/aihive-en-text-accurate-poster-maker/SKILL.md) | AI-HIVE | AI workflows |
+| [Thumbnail Readability Tester](skills/aihive-en-thumbnail-readability-tester/SKILL.md) | AI-HIVE | AI workflows |
+| [TikTok Shop Product Video Builder](skills/aihive-en-tiktok-shop-product-video-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Token Cost Calculator](skills/aihive-en-token-cost-calculator/SKILL.md) | AI-HIVE | AI workflows |
+| [Tool-Calling Compatibility Tester](skills/aihive-en-tool-calling-compatibility-tester/SKILL.md) | AI-HIVE | AI workflows |
+| [Tour Operator Content Kit](skills/aihive-en-tour-operator-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Toy Demo Content Builder](skills/aihive-en-toy-demo-content-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Tracked Video Callout Builder](skills/aihive-en-tracked-video-callout-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Trade Show Booth Content Builder](skills/aihive-en-trade-show-booth-content-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Training Course Enrollment Kit](skills/aihive-en-training-course-enrollment-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [UGC Ad Video Creator](skills/aihive-en-ugc-ad-video-creator/SKILL.md) | AI-HIVE | AI workflows |
+| [UTM Link Builder & Validator](skills/aihive-en-utm-link-builder-validator/SKILL.md) | AI-HIVE | AI workflows |
+| [Vacation Rental Guest Guide Builder](skills/aihive-en-vacation-rental-guest-guide-builder/SKILL.md) | AI-HIVE | AI workflows |

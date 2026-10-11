@@ -1,0 +1,6 @@
+interface:
+  display_name: "UTM Link Builder & Validator"
+  short_description: "UTM Link Builder & Validator"
+  default_prompt: "Use $aihive-en-utm-link-builder-validator with my approved destination URLs. Produce campaign-links.csv, naming-spec.md, with the remaining review records. Verify this acceptance condition: Every encoded URL decodes to the intended approved values. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Software Architecture Diagram Builder"
+  short_description: "Software Architecture Diagram Builder"
+  default_prompt: "Use $aihive-en-software-architecture-diagram-builder with my system evidence. Produce architecture-source/, diagram-export/, with the remaining review records. Verify this acceptance condition: The diagram does not imply unverified integrations or security controls. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

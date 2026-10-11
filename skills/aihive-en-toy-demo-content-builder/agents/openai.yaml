@@ -1,0 +1,6 @@
+interface:
+  display_name: "Toy Demo Content Builder"
+  short_description: "Toy Demo Content Builder with verified outputs"
+  default_prompt: "Use $aihive-en-toy-demo-content-builder with my toy instructions. Produce toy-demo-plan.csv, parts-inventory.md, with the remaining review records. Verify this acceptance condition: No unlisted component or unsafe use is presented as normal operation. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

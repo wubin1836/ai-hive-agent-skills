@@ -1,0 +1,6 @@
+interface:
+  display_name: "Restaurant Marketing Campaign Kit"
+  short_description: "Restaurant Marketing Campaign Kit"
+  default_prompt: "Use $aihive-en-restaurant-marketing-campaign-kit with my actual menu. Produce restaurant-campaign.md, offer-ledger.csv, with the remaining review records. Verify this acceptance condition: Campaign claims correspond to the actual restaurant and operating conditions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

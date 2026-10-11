@@ -1,0 +1,6 @@
+interface:
+  display_name: "Restaurant Menu Design Studio"
+  short_description: "Restaurant Menu Design Studio"
+  default_prompt: "Use $aihive-en-restaurant-menu-design-studio with my authorized business materials. Deliver menu data table, actual layout file when supported and proof checklist; do not invent allergens or call an unverified image print-ready. Start with the input check and a sample plan. Confirm any missing facts, paid generation, external upload or publication permissions before acting."
+policy:
+  allow_implicit_invocation: true

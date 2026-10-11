@@ -1,0 +1,6 @@
+interface:
+  display_name: "SKU Image Mismatch Checker"
+  short_description: "SKU Image Mismatch Checker"
+  default_prompt: "Use $aihive-en-sku-image-mismatch-checker with my SKU table. Produce sku-image-map.csv, suspected-mismatches.md, with the remaining review records. Verify this acceptance condition: Each mismatch has a source reference and uncertain matches are not asserted as facts. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

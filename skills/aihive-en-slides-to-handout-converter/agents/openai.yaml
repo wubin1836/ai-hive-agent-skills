@@ -1,0 +1,6 @@
+interface:
+  display_name: "Slides-to-Handout Converter"
+  short_description: "Slides-to-Handout Converter"
+  default_prompt: "Use $aihive-en-slides-to-handout-converter with my slide deck. Produce handout.docx, preview/, with the remaining review records. Verify this acceptance condition: Substantive slide and note content is preserved without unreadable miniature slides. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

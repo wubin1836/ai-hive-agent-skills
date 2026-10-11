@@ -62792,5 +62792,455 @@
     "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
     "path": "skills/aihive-en-project-timesheet-consolidator",
     "language": "en"
+  },
+  {
+    "name": "aihive-en-promotion-consistency-checker",
+    "display_name": "Promotion Consistency Checker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-promotion-consistency-checker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-quick-service-combo-campaign",
+    "display_name": "Quick-Service Combo Campaign",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-quick-service-combo-campaign",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-real-estate-listing-media-kit",
+    "display_name": "Real Estate Listing Media Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-real-estate-listing-media-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-receipt-data-extraction-assistant",
+    "display_name": "Receipt Data Extraction Assistant",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-receipt-data-extraction-assistant",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-recruiting-funnel-report-builder",
+    "display_name": "Recruiting Funnel Report Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-recruiting-funnel-report-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-restaurant-marketing-campaign-kit",
+    "display_name": "Restaurant Marketing Campaign Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-restaurant-marketing-campaign-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-restaurant-menu-design-studio",
+    "display_name": "Restaurant Menu Design Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-restaurant-menu-design-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-restaurant-menu-version-synchronizer",
+    "display_name": "Restaurant Menu Version Synchronizer",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-restaurant-menu-version-synchronizer",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-resume-builder",
+    "display_name": "Resume Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-resume-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-resume-to-job-match-assistant",
+    "display_name": "Resume-to-Job Match Assistant",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-resume-to-job-match-assistant",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-saas-onboarding-content-kit",
+    "display_name": "SaaS Onboarding Content Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-saas-onboarding-content-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-screenshot-to-webpage-builder",
+    "display_name": "Screenshot-to-Webpage Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-screenshot-to-webpage-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-script-to-storyboard-converter",
+    "display_name": "Script-to-Storyboard Converter",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-script-to-storyboard-converter",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-seasonal-campaign-kit",
+    "display_name": "Seasonal Campaign Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-seasonal-campaign-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-service-quote-builder",
+    "display_name": "Service Quote Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-service-quote-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-shopify-product-image-studio",
+    "display_name": "Shopify Product Image Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-shopify-product-image-studio",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-shopify-product-video-kit",
+    "display_name": "Shopify Product Video Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-shopify-product-video-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-side-business-feasibility-planner",
+    "display_name": "Side Business Feasibility Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-side-business-feasibility-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-sku-image-mismatch-checker",
+    "display_name": "SKU Image Mismatch Checker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-sku-image-mismatch-checker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-slides-to-handout-converter",
+    "display_name": "Slides-to-Handout Converter",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-slides-to-handout-converter",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-social-media-template-kit",
+    "display_name": "Social Media Template Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-social-media-template-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-software-architecture-diagram-builder",
+    "display_name": "Software Architecture Diagram Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-software-architecture-diagram-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-solo-founder-launch-planner",
+    "display_name": "Solo Founder Launch Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-solo-founder-launch-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-spa-service-menu-content-kit",
+    "display_name": "Spa Service Menu Content Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-spa-service-menu-content-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-speaker-labeled-audio-transcription",
+    "display_name": "Speaker-Labeled Audio Transcription",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-speaker-labeled-audio-transcription",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-spreadsheet-analysis-assistant",
+    "display_name": "Spreadsheet Analysis Assistant",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-spreadsheet-analysis-assistant",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-spreadsheet-chart-builder",
+    "display_name": "Spreadsheet Chart Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-spreadsheet-chart-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-spreadsheet-data-cleaner",
+    "display_name": "Spreadsheet Data Cleaner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-spreadsheet-data-cleaner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-startup-cost-calculator",
+    "display_name": "Startup Cost Calculator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-startup-cost-calculator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-store-catalog-migration-planner",
+    "display_name": "Store Catalog Migration Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-store-catalog-migration-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-storyboard-generator",
+    "display_name": "Storyboard Generator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-storyboard-generator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-structured-data-markup-builder",
+    "display_name": "Structured Data Markup Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-structured-data-markup-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-structured-output-debugger",
+    "display_name": "Structured Output Debugger",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-structured-output-debugger",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-supplier-statement-reconciliation",
+    "display_name": "Supplier Statement Reconciliation",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-supplier-statement-reconciliation",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-support-faq-import-builder",
+    "display_name": "Support FAQ Import Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-support-faq-import-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-sushi-japanese-dining-content-kit",
+    "display_name": "Sushi & Japanese Dining Content Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-sushi-japanese-dining-content-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-team-weekly-report-consolidator",
+    "display_name": "Team Weekly Report Consolidator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-team-weekly-report-consolidator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-text-accurate-poster-maker",
+    "display_name": "Text-Accurate Poster Maker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-text-accurate-poster-maker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-thumbnail-readability-tester",
+    "display_name": "Thumbnail Readability Tester",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-thumbnail-readability-tester",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-tiktok-shop-product-video-builder",
+    "display_name": "TikTok Shop Product Video Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-tiktok-shop-product-video-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-token-cost-calculator",
+    "display_name": "Token Cost Calculator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-token-cost-calculator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-tool-calling-compatibility-tester",
+    "display_name": "Tool-Calling Compatibility Tester",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-tool-calling-compatibility-tester",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-tour-operator-content-kit",
+    "display_name": "Tour Operator Content Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-tour-operator-content-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-toy-demo-content-builder",
+    "display_name": "Toy Demo Content Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-toy-demo-content-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-tracked-video-callout-builder",
+    "display_name": "Tracked Video Callout Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-tracked-video-callout-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-trade-show-booth-content-builder",
+    "display_name": "Trade Show Booth Content Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-trade-show-booth-content-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-training-course-enrollment-kit",
+    "display_name": "Training Course Enrollment Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-training-course-enrollment-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-ugc-ad-video-creator",
+    "display_name": "UGC Ad Video Creator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-ugc-ad-video-creator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-utm-link-builder-validator",
+    "display_name": "UTM Link Builder & Validator",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-utm-link-builder-validator",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-vacation-rental-guest-guide-builder",
+    "display_name": "Vacation Rental Guest Guide Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-vacation-rental-guest-guide-builder",
+    "language": "en"
   }
 ]

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Solo Founder Launch Planner"
+  short_description: "Solo Founder Launch Planner"
+  default_prompt: "Use $aihive-en-solo-founder-launch-planner with my founder's skills. Produce launch-plan.md, resource-budget.csv, with the remaining review records. Verify this acceptance condition: The plan fits actual resources and identifies assumptions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

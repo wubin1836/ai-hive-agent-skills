@@ -1,0 +1,6 @@
+interface:
+  display_name: "Sushi & Japanese Dining Content Kit"
+  short_description: "Sushi & Japanese Dining Content Kit"
+  default_prompt: "Use $aihive-en-sushi-japanese-dining-content-kit with my actual Japanese dishes. Produce dish-count-map.csv, content-plan.md, with the remaining review records. Verify this acceptance condition: Serving counts and ingredient descriptions are grounded in restaurant data. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "UGC Ad Video Creator"
+  short_description: "UGC Ad Video Creator with verified outputs"
+  default_prompt: "Use $aihive-en-ugc-ad-video-creator for this task: UGC ads. Inspect my authorized materials and confirm the target output. Explain missing tools and approval requirements before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

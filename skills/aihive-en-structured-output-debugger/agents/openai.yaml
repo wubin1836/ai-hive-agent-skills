@@ -1,0 +1,6 @@
+interface:
+  display_name: "Structured Output Debugger"
+  short_description: "Structured Output Debugger"
+  default_prompt: "Use $aihive-en-structured-output-debugger with my actual schema. Produce minimal-repro/, schema-findings.md, with the remaining review records. Verify this acceptance condition: Corrections are demonstrated against real validation cases. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

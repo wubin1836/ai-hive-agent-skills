@@ -1,0 +1,6 @@
+interface:
+  display_name: "Spreadsheet Data Cleaner"
+  short_description: "Spreadsheet Data Cleaner with verified outputs"
+  default_prompt: "Use $aihive-en-spreadsheet-data-cleaner with my authorized table. Produce cleaned-data.csv, change-log.csv, with the remaining review records. Verify this acceptance condition: Row removals and value changes are explainable and traceable. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Real Estate Listing Media Kit"
+  short_description: "Real Estate Listing Media Kit"
+  default_prompt: "Use $aihive-en-real-estate-listing-media-kit with my authorized property photos. Produce property-facts.csv, labeled-media/, with the remaining review records. Verify this acceptance condition: Staged images are identifiable and structural facts remain unchanged. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

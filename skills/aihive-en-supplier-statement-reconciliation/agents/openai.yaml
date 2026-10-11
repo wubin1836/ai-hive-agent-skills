@@ -1,0 +1,6 @@
+interface:
+  display_name: "Supplier Statement Reconciliation"
+  short_description: "Supplier Statement Reconciliation"
+  default_prompt: "Use $aihive-en-supplier-statement-reconciliation with my supplier statement. Produce supplier-reconciliation.csv, missing-items.csv, with the remaining review records. Verify this acceptance condition: Statement and ledger differences can be reproduced. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

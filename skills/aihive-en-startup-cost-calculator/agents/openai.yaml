@@ -1,0 +1,6 @@
+interface:
+  display_name: "Startup Cost Calculator"
+  short_description: "Startup Cost Calculator with verified outputs"
+  default_prompt: "Use $aihive-en-startup-cost-calculator with my confirmed startup quotes. Produce startup-cost-model.csv, assumptions.md, with the remaining review records. Verify this acceptance condition: All totals and recurring frequencies recompute. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

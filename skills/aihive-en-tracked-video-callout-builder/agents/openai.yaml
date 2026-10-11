@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tracked Video Callout Builder"
+  short_description: "Tracked Video Callout Builder"
+  default_prompt: "Use $aihive-en-tracked-video-callout-builder with my authorized footage. Produce tracking-notes.csv, callout-edit-plan.md, with the remaining review records. Verify this acceptance condition: Labels remain attached to the intended region and avoid important subjects. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

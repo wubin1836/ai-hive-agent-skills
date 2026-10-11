@@ -1,0 +1,6 @@
+interface:
+  display_name: "Quick-Service Combo Campaign"
+  short_description: "Quick-Service Combo Campaign"
+  default_prompt: "Use $aihive-en-quick-service-combo-campaign with my combo definitions. Produce combo-rules.csv, menu-board-copy.md, with the remaining review records. Verify this acceptance condition: A customer can tell what the stated price includes. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

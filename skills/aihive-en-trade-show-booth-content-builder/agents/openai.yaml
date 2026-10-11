@@ -1,0 +1,6 @@
+interface:
+  display_name: "Trade Show Booth Content Builder"
+  short_description: "Trade Show Booth Content Builder"
+  default_prompt: "Use $aihive-en-trade-show-booth-content-builder with my confirmed exhibition brief. Produce booth-content-map.csv, asset-manifest.json, with the remaining review records. Verify this acceptance condition: Assets fit actual placement requirements and demos are feasible. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

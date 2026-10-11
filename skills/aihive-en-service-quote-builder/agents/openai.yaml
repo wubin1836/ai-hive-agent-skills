@@ -1,0 +1,6 @@
+interface:
+  display_name: "Service Quote Builder"
+  short_description: "Service Quote Builder with verified outputs"
+  default_prompt: "Use $aihive-en-service-quote-builder with my agreed scope. Produce service-quote/, calculation-table.csv, with the remaining review records. Verify this acceptance condition: Totals recompute and every line has a scope basis. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

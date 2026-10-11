@@ -1,0 +1,6 @@
+interface:
+  display_name: "Screenshot-to-Webpage Builder"
+  short_description: "Screenshot-to-Webpage Builder"
+  default_prompt: "Use $aihive-en-screenshot-to-webpage-builder with my authorized screenshot. Produce webpage-source/, comparison-previews/, with the remaining review records. Verify this acceptance condition: Visual approximation is documented and functionality claims are tested. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

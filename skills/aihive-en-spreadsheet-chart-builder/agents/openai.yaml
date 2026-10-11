@@ -1,0 +1,6 @@
+interface:
+  display_name: "Spreadsheet Chart Builder"
+  short_description: "Spreadsheet Chart Builder"
+  default_prompt: "Use $aihive-en-spreadsheet-chart-builder with my source table. Produce charted-workbook.xlsx, chart-previews/, with the remaining review records. Verify this acceptance condition: Charts use correct ranges and remain editable where requested. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

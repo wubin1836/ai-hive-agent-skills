@@ -1,0 +1,6 @@
+interface:
+  display_name: "Store Catalog Migration Planner"
+  short_description: "Store Catalog Migration Planner"
+  default_prompt: "Use $aihive-en-store-catalog-migration-planner with my authorized source catalog. Produce catalog-import.csv, field-map.json, with the remaining review records. Verify this acceptance condition: Variant and product identifiers remain consistent and required fields pass checks. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Team Weekly Report Consolidator"
+  short_description: "Team Weekly Report Consolidator"
+  default_prompt: "Use $aihive-en-team-weekly-report-consolidator with my team reports. Produce consolidated-report.md, attribution-map.csv, with the remaining review records. Verify this acceptance condition: The summary preserves ownership and does not double-count achievements. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

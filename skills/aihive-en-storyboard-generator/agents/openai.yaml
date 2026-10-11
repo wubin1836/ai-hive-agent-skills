@@ -1,0 +1,6 @@
+interface:
+  display_name: "Storyboard Generator"
+  short_description: "Storyboard Generator with verified outputs"
+  default_prompt: "Use $aihive-en-storyboard-generator with my story brief. Produce storyboard.csv, storyboard-frames/, with the remaining review records. Verify this acceptance condition: Every shot has a narrative function, duration and actionable composition. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

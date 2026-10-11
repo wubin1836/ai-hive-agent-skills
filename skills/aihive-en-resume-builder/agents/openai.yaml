@@ -1,0 +1,6 @@
+interface:
+  display_name: "Resume Builder"
+  short_description: "Resume Builder with verified outputs"
+  default_prompt: "Use $aihive-en-resume-builder with my verified work history. Produce resume.docx, resume.pdf, with the remaining review records. Verify this acceptance condition: Dates, responsibilities and accomplishments are accurate. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Recruiting Funnel Report Builder"
+  short_description: "Recruiting Funnel Report Builder"
+  default_prompt: "Use $aihive-en-recruiting-funnel-report-builder with my authorized hiring data. Produce hiring-funnel.csv, process-bottlenecks.md, with the remaining review records. Verify this acceptance condition: No sensitive-trait screening or automated employment decisions are made. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

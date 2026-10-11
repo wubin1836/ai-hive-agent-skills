@@ -1,0 +1,6 @@
+interface:
+  display_name: "Shopify Product Video Kit"
+  short_description: "Shopify Product Video Kit"
+  default_prompt: "Use $aihive-en-shopify-product-video-kit with my Shopify product page. Produce product-page-video/, objection-shot-map.csv, with the remaining review records. Verify this acceptance condition: Key information survives muted playback and the export suits the destination. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

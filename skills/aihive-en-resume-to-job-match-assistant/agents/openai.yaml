@@ -1,0 +1,6 @@
+interface:
+  display_name: "Resume-to-Job Match Assistant"
+  short_description: "Resume-to-Job Match Assistant"
+  default_prompt: "Use $aihive-en-resume-to-job-match-assistant with my existing resume. Produce tailored-resume/, requirement-match.csv, with the remaining review records. Verify this acceptance condition: Every tailored statement remains supported by the user's history. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

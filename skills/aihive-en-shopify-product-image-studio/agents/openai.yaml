@@ -1,0 +1,6 @@
+interface:
+  display_name: "Shopify Product Image Studio"
+  short_description: "Shopify Product Image Studio"
+  default_prompt: "Use $aihive-en-shopify-product-image-studio with my Shopify product and collection map. Produce store-image-manifest.csv, images/, with the remaining review records. Verify this acceptance condition: Each image is associated with the correct product or collection. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

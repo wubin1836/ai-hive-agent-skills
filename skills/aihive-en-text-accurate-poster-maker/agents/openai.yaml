@@ -1,0 +1,6 @@
+interface:
+  display_name: "Text-Accurate Poster Maker"
+  short_description: "Text-Accurate Poster Maker"
+  default_prompt: "Use $aihive-en-text-accurate-poster-maker with my approved poster copy. Produce poster-source/, poster-exports/, with the remaining review records. Verify this acceptance condition: Exact spelling and legibility are verified, not assumed from generated pixels. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

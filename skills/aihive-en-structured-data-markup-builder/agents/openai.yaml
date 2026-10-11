@@ -1,0 +1,6 @@
+interface:
+  display_name: "Structured Data Markup Builder"
+  short_description: "Structured Data Markup Builder"
+  default_prompt: "Use $aihive-en-structured-data-markup-builder with my verified page facts. Produce structured-data.json, fact-map.csv, with the remaining review records. Verify this acceptance condition: Markup is valid and does not include fabricated ratings or business details. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

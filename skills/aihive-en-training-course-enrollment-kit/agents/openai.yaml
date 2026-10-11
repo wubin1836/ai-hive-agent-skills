@@ -1,0 +1,6 @@
+interface:
+  display_name: "Training Course Enrollment Kit"
+  short_description: "Training Course Enrollment Kit"
+  default_prompt: "Use $aihive-en-training-course-enrollment-kit with my actual course syllabus. Produce course-enrollment-kit/, syllabus-benefit-map.csv, with the remaining review records. Verify this acceptance condition: Promised content exists in the syllabus and credentials are supported. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

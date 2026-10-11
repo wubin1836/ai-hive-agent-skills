@@ -1,0 +1,6 @@
+interface:
+  display_name: "SaaS Onboarding Content Kit"
+  short_description: "SaaS Onboarding Content Kit"
+  default_prompt: "Use $aihive-en-saas-onboarding-content-kit with my current application flow. Produce task-screen-map.csv, onboarding-guides/, with the remaining review records. Verify this acceptance condition: Named controls and outcomes actually exist in the current product. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

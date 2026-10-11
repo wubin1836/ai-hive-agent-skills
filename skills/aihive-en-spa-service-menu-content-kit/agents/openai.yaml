@@ -1,0 +1,6 @@
+interface:
+  display_name: "Spa Service Menu Content Kit"
+  short_description: "Spa Service Menu Content Kit"
+  default_prompt: "Use $aihive-en-spa-service-menu-content-kit with my verified spa services. Produce spa-service-menu/, experience-storyboard.md, with the remaining review records. Verify this acceptance condition: Services and surroundings are real and copy avoids unsupported clinical promises. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

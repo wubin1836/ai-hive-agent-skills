@@ -1,0 +1,6 @@
+interface:
+  display_name: "Restaurant Menu Version Synchronizer"
+  short_description: "Restaurant Menu Version Synchronizer"
+  default_prompt: "Use $aihive-en-restaurant-menu-version-synchronizer with my canonical menu. Produce canonical-menu.csv, channel-diff.csv, with the remaining review records. Verify this acceptance condition: Every difference has a source and no live price change occurs implicitly. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

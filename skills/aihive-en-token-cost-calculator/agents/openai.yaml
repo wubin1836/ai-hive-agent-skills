@@ -1,0 +1,6 @@
+interface:
+  display_name: "Token Cost Calculator"
+  short_description: "Token Cost Calculator with verified outputs"
+  default_prompt: "Use $aihive-en-token-cost-calculator with my usage counts. Produce token-cost-model.csv, rate-sources.md, with the remaining review records. Verify this acceptance condition: Units, currency and date are explicit and totals recompute. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true
