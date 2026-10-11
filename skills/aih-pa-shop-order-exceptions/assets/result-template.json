@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-shop-order-exceptions",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "order_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "exception": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "source_status": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "deadline": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "allowed_response": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-research-source-map",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "claim": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "source_url": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "source_date": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "evidence": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "inference": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-repair-service-tracker",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "issue": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "provider_source": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "warranty_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "quoted_cost": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "acceptance": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

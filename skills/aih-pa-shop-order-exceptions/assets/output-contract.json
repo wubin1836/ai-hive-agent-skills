@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-shop-order-exceptions",
+  "fields": [
+    "order_ref",
+    "exception",
+    "source_status",
+    "deadline",
+    "allowed_response"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

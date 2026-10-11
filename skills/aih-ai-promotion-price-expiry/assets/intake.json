@@ -1,0 +1,22 @@
+{
+  "skill": "aih-ai-promotion-price-expiry",
+  "goal": "",
+  "required_materials": "报价链接或截图、活动起止、适用账号、实际用量",
+  "materials": [],
+  "success_criteria": [
+    "注册用户不必然满足企业优惠",
+    "预付费与后付费优惠不可叠算",
+    "不能承诺永久最低价"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

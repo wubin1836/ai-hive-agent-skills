@@ -57392,5 +57392,455 @@
     "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
     "path": "skills/aih-pa-life-mini-dashboard",
     "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-lightweight-agent-runtime",
+    "display_name": "nanobot、NanoClaw、Hermes与ZeroClaw：轻量私人助理部署",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-lightweight-agent-runtime",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-lindy-tasklet-ops",
+    "display_name": "Lindy、Tasklet与Twin平替：小公司事务跟进",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-lindy-tasklet-ops",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-long-goal-milestones",
+    "display_name": "长期目标行动管家",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-long-goal-milestones",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-macaron-code-receipts",
+    "display_name": "Macaron代码工作台：代理变更回执核验",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-macaron-code-receipts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-macaron-life-miniapps",
+    "display_name": "Macaron平替：个人习惯与生活小工具",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-macaron-life-miniapps",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-martin-dola-calendar",
+    "display_name": "Martin与Dola平替：邮件约时间与日历协调",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-martin-dola-calendar",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-meeting-prebrief",
+    "display_name": "会前人物与事项准备助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-meeting-prebrief",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-mobile-desktop-handoff",
+    "display_name": "手机交办电脑执行助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-mobile-desktop-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-morning-action-brief",
+    "display_name": "个人晨报与今日三件事助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-morning-action-brief",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-motion-reclaim-time",
+    "display_name": "Motion、Reclaim与Saner AI：个人时间与专注排程",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-motion-reclaim-time",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-muse-life-goals",
+    "display_name": "Meta Muse平替：长期目标与生活项目管家",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-muse-life-goals",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-ohai-caddy-family",
+    "display_name": "Ohai与Caddy平替：家庭通知与分工管家",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-ohai-caddy-family",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-openclaw-qwenpaw-setup",
+    "display_name": "OpenClaw与CoPaw QwenPaw：个人助理搭建助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-openclaw-qwenpaw-setup",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-personal-agent-runtime",
+    "display_name": "自建个人Agent部署顾问",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-personal-agent-runtime",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-personal-choice-card",
+    "display_name": "个人生活偏好决策助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-personal-choice-card",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-personal-data-export",
+    "display_name": "个人数字资料迁移助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-personal-data-export",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-personal-evidence-search",
+    "display_name": "个人资料找答案助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-personal-evidence-search",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-personal-expense-reconcile",
+    "display_name": "个人收支与账单核对助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-personal-expense-reconcile",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-personal-memory-workspace",
+    "display_name": "Khoj、Mem、Recall、MyAI与Notion Agent：个人知识行动台",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-personal-memory-workspace",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-personal-writing-voice",
+    "display_name": "个人表达偏好与代拟稿助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-personal-writing-voice",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-poke-inbox-followthrough",
+    "display_name": "Poke平替：聊天交办与个人提醒助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-poke-inbox-followthrough",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-preference-memory",
+    "display_name": "个人偏好记忆管家",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-preference-memory",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-priority-dependencies",
+    "display_name": "个人任务优先级顾问",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-priority-dependencies",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-purchase-comparison",
+    "display_name": "个人采购比价与下单清单助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-purchase-comparison",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-quiet-schedule-spec",
+    "display_name": "定时任务与安静提醒助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-quiet-schedule-spec",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-raycast-context-actions",
+    "display_name": "Raycast平替：选中内容到跨应用行动助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-raycast-context-actions",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-receivables-documents",
+    "display_name": "应收款与报销材料跟进助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-receivables-documents",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-refund-tracker",
+    "display_name": "退货退款进度管家",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-refund-tracker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-repair-service-tracker",
+    "display_name": "房屋维修售后进度助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-repair-service-tracker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-research-computer-delivery",
+    "display_name": "Manus与Perplexity Computer平替：研究到成果交付",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-research-computer-delivery",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-research-source-map",
+    "display_name": "多网页研究证据助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-research-source-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-resume-checkpoints",
+    "display_name": "没做完任务接着办助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-resume-checkpoints",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-scoped-file-actions",
+    "display_name": "个人工作文件办事助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-scoped-file-actions",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-sharick-commitment-chief",
+    "display_name": "Sharick平替：个人承诺与优先级参谋",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-sharick-commitment-chief",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-shop-order-exceptions",
+    "display_name": "小店订单异常跟进助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-shop-order-exceptions",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-smallbiz-recurring-flow",
+    "display_name": "小公司例行事务管家",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-smallbiz-recurring-flow",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-solo-admin-tracker",
+    "display_name": "一人公司行政待办助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-solo-admin-tracker",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-subscription-renewal",
+    "display_name": "订阅账单与续费提醒助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-subscription-renewal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-tab-booking-approval",
+    "display_name": "Tab平替：预约购物确认与回执管家",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-tab-booking-approval",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-tencent-step-desktop",
+    "display_name": "WorkBuddy、QClaw与阶跃桌面伙伴：移动交办接力",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-tencent-step-desktop",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-travel-change-chain",
+    "display_name": "差旅行程变更跟进助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-travel-change-chain",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-visit-preparation",
+    "display_name": "就诊资料与预约准备助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-visit-preparation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-voice-memory-actions",
+    "display_name": "Granola、Omi与Amazon Bee：授权语音记录转行动",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-voice-memory-actions",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-website-change-watch",
+    "display_name": "关注网站变化提醒助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-website-change-watch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-wukong-chief-brief",
+    "display_name": "钉钉悟空平替：老板交办与审批材料助手",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-wukong-chief-brief",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pa-yutori-change-scout",
+    "display_name": "Yutori Scouts平替：个人关注事项变化雷达",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-pa-yutori-change-scout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-sierra-poppy-service-contract",
+    "display_name": "Sierra Poppy个人Agent授权接待",
+    "category": "Personal Agent",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-Personal-Agent-成品Skill-20261010",
+    "path": "skills/aih-sierra-poppy-service-contract",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-agent-lightning-rollout",
+    "display_name": "Agent Lightning 1.0训练轨迹准备",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-agent-lightning-rollout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-agent-unintended-action-tests",
+    "display_name": "桌面Agent越权动作模拟测试",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-agent-unintended-action-tests",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-ai-promotion-price-expiry",
+    "display_name": "AI模型优惠到期与真实成本核对",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-ai-promotion-price-expiry",
+    "language": "zh-CN"
   }
 ]

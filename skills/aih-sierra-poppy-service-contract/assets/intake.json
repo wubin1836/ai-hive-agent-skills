@@ -1,0 +1,22 @@
+{
+  "skill": "aih-sierra-poppy-service-contract",
+  "goal": "",
+  "required_materials": "企业服务清单、客户授权规则、接口说明、人工接管条件",
+  "materials": [],
+  "success_criteria": [
+    "协议仍是草案",
+    "代理身份不能冒充真人",
+    "不能用一个客户授权访问另一个客户"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

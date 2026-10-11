@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-meeting-prebrief",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "meeting_id": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "participant_identity": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "last_decision": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "open_question": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "source": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

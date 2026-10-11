@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-visit-preparation",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "report_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "report_date": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "doctor_instruction": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "user_question": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "appointment_info": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

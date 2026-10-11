@@ -1,0 +1,49 @@
+{
+  "skill_id": "aih-pa-purchase-comparison",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "item": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "variant": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "source_url": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "total_price": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "currency": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "price_checked_at": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

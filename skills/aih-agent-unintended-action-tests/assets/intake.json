@@ -1,0 +1,22 @@
+{
+  "skill": "aih-agent-unintended-action-tests",
+  "goal": "",
+  "required_materials": "明确允许动作、模拟页面、工具schema、预期停止点",
+  "materials": [],
+  "success_criteria": [
+    "测试不可触及真实第三方账户",
+    "不能把绕过限制当成功",
+    "不暴露真实密钥或内部日志"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

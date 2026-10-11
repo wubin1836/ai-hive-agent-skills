@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-resume-checkpoints",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "step_id": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "original_task_id": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "last_confirmed_state": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "unknown_action": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "resume_point": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

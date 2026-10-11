@@ -1,0 +1,13 @@
+{
+  "skill_id": "aih-pa-purchase-comparison",
+  "fields": [
+    "item",
+    "variant",
+    "source_url",
+    "total_price",
+    "currency",
+    "price_checked_at"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

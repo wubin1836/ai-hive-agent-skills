@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-personal-agent-runtime",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "component": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "selected_option": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "permission_scope": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "maintenance_owner": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "smoke_test": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

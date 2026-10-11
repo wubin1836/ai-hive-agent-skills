@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-personal-data-export",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "original_path": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "format": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "record_count": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "target_path": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "migration_status": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

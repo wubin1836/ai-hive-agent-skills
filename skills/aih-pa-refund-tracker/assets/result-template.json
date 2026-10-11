@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-refund-tracker",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "order_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "policy_source": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "return_status": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "refund_due": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "received_amount": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

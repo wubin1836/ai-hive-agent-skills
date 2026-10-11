@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-personal-choice-card",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "choice": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "preference_match": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "constraint_violation": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "total_cost": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "next_step": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

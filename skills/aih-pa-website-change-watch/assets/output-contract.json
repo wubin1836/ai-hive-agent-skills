@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-website-change-watch",
+  "fields": [
+    "url",
+    "field",
+    "baseline_value",
+    "current_value",
+    "observed_at"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

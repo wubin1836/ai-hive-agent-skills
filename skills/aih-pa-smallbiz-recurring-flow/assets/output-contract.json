@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-smallbiz-recurring-flow",
+  "fields": [
+    "process",
+    "trigger",
+    "idempotency_key",
+    "exception_owner",
+    "stop_condition"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

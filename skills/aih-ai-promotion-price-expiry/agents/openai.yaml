@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI模型优惠到期与真实成本核对"
+  short_description: "优惠有效性与真实成本说明；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-ai-promotion-price-expiry，根据我提供的材料完成优惠有效性与真实成本说明。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

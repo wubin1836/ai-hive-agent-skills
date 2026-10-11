@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-personal-data-export",
+  "fields": [
+    "original_path",
+    "format",
+    "record_count",
+    "target_path",
+    "migration_status"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

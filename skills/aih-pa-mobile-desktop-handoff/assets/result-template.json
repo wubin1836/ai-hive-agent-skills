@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-mobile-desktop-handoff",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "source_channel": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "target_device": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "allowed_path": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "requested_output": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "receipt_path": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

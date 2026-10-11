@@ -1,0 +1,22 @@
+{
+  "skill": "aih-agent-lightning-rollout",
+  "goal": "",
+  "required_materials": "获授权测试轨迹、环境版本、任务结果、奖励规则",
+  "materials": [],
+  "success_criteria": [
+    "不上传客户对话训练除非获准",
+    "静态整理不宣称模型已提升",
+    "分割轨迹不能重复统计成功"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-visit-preparation",
+  "fields": [
+    "report_ref",
+    "report_date",
+    "doctor_instruction",
+    "user_question",
+    "appointment_info"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

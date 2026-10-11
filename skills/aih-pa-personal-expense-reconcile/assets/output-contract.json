@@ -1,0 +1,13 @@
+{
+  "skill_id": "aih-pa-personal-expense-reconcile",
+  "fields": [
+    "transaction_ref",
+    "date",
+    "amount",
+    "currency",
+    "category",
+    "duplicate_candidate"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

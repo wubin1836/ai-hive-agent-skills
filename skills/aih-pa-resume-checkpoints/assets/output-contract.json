@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-resume-checkpoints",
+  "fields": [
+    "step_id",
+    "original_task_id",
+    "last_confirmed_state",
+    "unknown_action",
+    "resume_point"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

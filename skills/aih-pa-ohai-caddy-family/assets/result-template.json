@@ -1,0 +1,49 @@
+{
+  "skill_id": "aih-pa-ohai-caddy-family",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "stage": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "source_request": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "dependency": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "expected_artifact": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "handoff_target": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "unresolved_issue": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

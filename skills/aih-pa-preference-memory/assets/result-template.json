@@ -1,0 +1,49 @@
+{
+  "skill_id": "aih-pa-preference-memory",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "subject": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "preference": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "source": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "confidence": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "valid_until": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "scope": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

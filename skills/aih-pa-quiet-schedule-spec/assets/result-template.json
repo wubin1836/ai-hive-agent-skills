@@ -1,0 +1,49 @@
+{
+  "skill_id": "aih-pa-quiet-schedule-spec",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "trigger": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "timezone": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "quiet_hours": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "dedupe_key": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "end_at": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "stop_rule": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

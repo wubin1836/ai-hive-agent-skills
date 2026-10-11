@@ -6597,7 +6597,7 @@
 | [旧梦留声机题材参考｜普通人故事原创短片](skills/aihive-case-old-dream-everyday/SKILL.md) | AI-HIVE | 案例创作 |
 | [旧梦留声机《宝贝回家》题材参考｜团圆信物短片](skills/aihive-case-reunion-object/SKILL.md) | AI-HIVE | 案例创作 |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -6977,3 +6977,58 @@
 | [个人学习项目督办助手](skills/aih-pa-learning-project-progress/SKILL.md) | AI-HIVE | Personal Agent |
 | [Atlas、LettaBot与Limitless Rewind：旧Agent资料迁移](skills/aih-pa-legacy-agent-migration/SKILL.md) | AI-HIVE | Personal Agent |
 | [个人生活小面板生成助手](skills/aih-pa-life-mini-dashboard/SKILL.md) | AI-HIVE | Personal Agent |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [nanobot、NanoClaw、Hermes与ZeroClaw：轻量私人助理部署](skills/aih-pa-lightweight-agent-runtime/SKILL.md) | AI-HIVE | Personal Agent |
+| [Lindy、Tasklet与Twin平替：小公司事务跟进](skills/aih-pa-lindy-tasklet-ops/SKILL.md) | AI-HIVE | Personal Agent |
+| [长期目标行动管家](skills/aih-pa-long-goal-milestones/SKILL.md) | AI-HIVE | Personal Agent |
+| [Macaron代码工作台：代理变更回执核验](skills/aih-pa-macaron-code-receipts/SKILL.md) | AI-HIVE | Personal Agent |
+| [Macaron平替：个人习惯与生活小工具](skills/aih-pa-macaron-life-miniapps/SKILL.md) | AI-HIVE | Personal Agent |
+| [Martin与Dola平替：邮件约时间与日历协调](skills/aih-pa-martin-dola-calendar/SKILL.md) | AI-HIVE | Personal Agent |
+| [会前人物与事项准备助手](skills/aih-pa-meeting-prebrief/SKILL.md) | AI-HIVE | Personal Agent |
+| [手机交办电脑执行助手](skills/aih-pa-mobile-desktop-handoff/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人晨报与今日三件事助手](skills/aih-pa-morning-action-brief/SKILL.md) | AI-HIVE | Personal Agent |
+| [Motion、Reclaim与Saner AI：个人时间与专注排程](skills/aih-pa-motion-reclaim-time/SKILL.md) | AI-HIVE | Personal Agent |
+| [Meta Muse平替：长期目标与生活项目管家](skills/aih-pa-muse-life-goals/SKILL.md) | AI-HIVE | Personal Agent |
+| [Ohai与Caddy平替：家庭通知与分工管家](skills/aih-pa-ohai-caddy-family/SKILL.md) | AI-HIVE | Personal Agent |
+| [OpenClaw与CoPaw QwenPaw：个人助理搭建助手](skills/aih-pa-openclaw-qwenpaw-setup/SKILL.md) | AI-HIVE | Personal Agent |
+| [自建个人Agent部署顾问](skills/aih-pa-personal-agent-runtime/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人生活偏好决策助手](skills/aih-pa-personal-choice-card/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人数字资料迁移助手](skills/aih-pa-personal-data-export/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人资料找答案助手](skills/aih-pa-personal-evidence-search/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人收支与账单核对助手](skills/aih-pa-personal-expense-reconcile/SKILL.md) | AI-HIVE | Personal Agent |
+| [Khoj、Mem、Recall、MyAI与Notion Agent：个人知识行动台](skills/aih-pa-personal-memory-workspace/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人表达偏好与代拟稿助手](skills/aih-pa-personal-writing-voice/SKILL.md) | AI-HIVE | Personal Agent |
+| [Poke平替：聊天交办与个人提醒助手](skills/aih-pa-poke-inbox-followthrough/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人偏好记忆管家](skills/aih-pa-preference-memory/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人任务优先级顾问](skills/aih-pa-priority-dependencies/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人采购比价与下单清单助手](skills/aih-pa-purchase-comparison/SKILL.md) | AI-HIVE | Personal Agent |
+| [定时任务与安静提醒助手](skills/aih-pa-quiet-schedule-spec/SKILL.md) | AI-HIVE | Personal Agent |
+| [Raycast平替：选中内容到跨应用行动助手](skills/aih-pa-raycast-context-actions/SKILL.md) | AI-HIVE | Personal Agent |
+| [应收款与报销材料跟进助手](skills/aih-pa-receivables-documents/SKILL.md) | AI-HIVE | Personal Agent |
+| [退货退款进度管家](skills/aih-pa-refund-tracker/SKILL.md) | AI-HIVE | Personal Agent |
+| [房屋维修售后进度助手](skills/aih-pa-repair-service-tracker/SKILL.md) | AI-HIVE | Personal Agent |
+| [Manus与Perplexity Computer平替：研究到成果交付](skills/aih-pa-research-computer-delivery/SKILL.md) | AI-HIVE | Personal Agent |
+| [多网页研究证据助手](skills/aih-pa-research-source-map/SKILL.md) | AI-HIVE | Personal Agent |
+| [没做完任务接着办助手](skills/aih-pa-resume-checkpoints/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人工作文件办事助手](skills/aih-pa-scoped-file-actions/SKILL.md) | AI-HIVE | Personal Agent |
+| [Sharick平替：个人承诺与优先级参谋](skills/aih-pa-sharick-commitment-chief/SKILL.md) | AI-HIVE | Personal Agent |
+| [小店订单异常跟进助手](skills/aih-pa-shop-order-exceptions/SKILL.md) | AI-HIVE | Personal Agent |
+| [小公司例行事务管家](skills/aih-pa-smallbiz-recurring-flow/SKILL.md) | AI-HIVE | Personal Agent |
+| [一人公司行政待办助手](skills/aih-pa-solo-admin-tracker/SKILL.md) | AI-HIVE | Personal Agent |
+| [订阅账单与续费提醒助手](skills/aih-pa-subscription-renewal/SKILL.md) | AI-HIVE | Personal Agent |
+| [Tab平替：预约购物确认与回执管家](skills/aih-pa-tab-booking-approval/SKILL.md) | AI-HIVE | Personal Agent |
+| [WorkBuddy、QClaw与阶跃桌面伙伴：移动交办接力](skills/aih-pa-tencent-step-desktop/SKILL.md) | AI-HIVE | Personal Agent |
+| [差旅行程变更跟进助手](skills/aih-pa-travel-change-chain/SKILL.md) | AI-HIVE | Personal Agent |
+| [就诊资料与预约准备助手](skills/aih-pa-visit-preparation/SKILL.md) | AI-HIVE | Personal Agent |
+| [Granola、Omi与Amazon Bee：授权语音记录转行动](skills/aih-pa-voice-memory-actions/SKILL.md) | AI-HIVE | Personal Agent |
+| [关注网站变化提醒助手](skills/aih-pa-website-change-watch/SKILL.md) | AI-HIVE | Personal Agent |
+| [钉钉悟空平替：老板交办与审批材料助手](skills/aih-pa-wukong-chief-brief/SKILL.md) | AI-HIVE | Personal Agent |
+| [Yutori Scouts平替：个人关注事项变化雷达](skills/aih-pa-yutori-change-scout/SKILL.md) | AI-HIVE | Personal Agent |
+| [Sierra Poppy个人Agent授权接待](skills/aih-sierra-poppy-service-contract/SKILL.md) | AI-HIVE | Personal Agent |
+| [Agent Lightning 1.0训练轨迹准备](skills/aih-agent-lightning-rollout/SKILL.md) | AI-HIVE | AI workflows |
+| [桌面Agent越权动作模拟测试](skills/aih-agent-unintended-action-tests/SKILL.md) | AI-HIVE | AI workflows |
+| [AI模型优惠到期与真实成本核对](skills/aih-ai-promotion-price-expiry/SKILL.md) | AI-HIVE | AI workflows |

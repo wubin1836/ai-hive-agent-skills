@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-personal-evidence-search",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "document_id": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "question": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "answer": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "evidence_location": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "uncertainty": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

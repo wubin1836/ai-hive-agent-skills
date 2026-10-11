@@ -1,0 +1,49 @@
+{
+  "skill_id": "aih-pa-subscription-renewal",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "service": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "cycle": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "renewal_at": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "amount": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "currency": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "cancel_deadline": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

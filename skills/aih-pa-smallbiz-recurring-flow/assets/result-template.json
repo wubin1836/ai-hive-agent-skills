@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-smallbiz-recurring-flow",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "process": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "trigger": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "idempotency_key": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "exception_owner": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "stop_condition": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

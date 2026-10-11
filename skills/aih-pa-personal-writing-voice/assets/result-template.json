@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-personal-writing-voice",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "sample_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "style_rule": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "verified_fact": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "draft_commitment": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "reviewer": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

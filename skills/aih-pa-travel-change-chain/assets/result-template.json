@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-travel-change-chain",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "booking_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "change_notice": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "affected_step": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "cancellation_rule": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "confirmation": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}
