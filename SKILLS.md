@@ -6817,7 +6817,7 @@
 | [全国电商渠道内容路由助手](skills/imiva-platform-router-workflow/SKILL.md) | IMIVA | 制作交付与任务管理 |
 | [图片扩充与画面扩展分流助手](skills/imiva-image-expand-router-workflow/SKILL.md) | IMIVA | 制作交付与任务管理 |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7197,3 +7197,58 @@
 | [评论区需求聚类转下周拍摄清单](skills/aihive-persona-next-comment-to-shoot-plan/SKILL.md) | AI-HIVE | AI workflows |
 | [课程问答可见范围与学员权限测试](skills/aihive-persona-next-course-access-tests/SKILL.md) | AI-HIVE | AI workflows |
 | [达人报价单权益口径对齐](skills/aihive-persona-next-creator-ratecard-alignment/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [崔玉涛公开内容学习｜育儿观察记录与就诊提问整理](skills/aihive-persona-next-cui-parent-observation/SKILL.md) | AI-HIVE | AI workflows |
+| [大饼穿搭札记公开内容学习｜个人风格板与购物清单去重](skills/aihive-persona-next-dabing-style-brief/SKILL.md) | AI-HIVE | AI workflows |
+| [饭统戴老板公开内容学习｜企业发展时间线与决策因果辨析](skills/aihive-persona-next-daiboss-business-timeline/SKILL.md) | AI-HIVE | AI workflows |
+| [大J小D公开内容学习｜家庭沟通情境卡与家长复盘](skills/aihive-persona-next-daj-family-dialogue/SKILL.md) | AI-HIVE | AI workflows |
+| [大LOGO吃垮北京公开内容学习｜体验型探店预算与真实价值对照](skills/aihive-persona-next-dalogo-experience-budget/SKILL.md) | AI-HIVE | AI workflows |
+| [大米评测公开内容学习｜手机横评条件归一与缺测表](skills/aihive-persona-next-dami-test-normalization/SKILL.md) | AI-HIVE | AI workflows |
+| [盗月社食遇记公开内容学习｜小店人物采访与探店事实清单](skills/aihive-persona-next-daoyue-shop-interview/SKILL.md) | AI-HIVE | AI workflows |
+| [滇西小哥公开内容学习｜时令食材产地故事与采拍计划](skills/aihive-persona-next-dianxi-seasonal-origin/SKILL.md) | AI-HIVE | AI workflows |
+| [都靓读书公开内容学习｜读书摘记转原创荐书与共读问题](skills/aihive-persona-next-duliang-book-club/SKILL.md) | AI-HIVE | AI workflows |
+| [老板知识分身流程问答与决策授权边界](skills/aihive-persona-next-founder-decision-permissions/SKILL.md) | AI-HIVE | AI workflows |
+| [分身转人工交接摘要与最少必要字段](skills/aihive-persona-next-human-handoff-minimal/SKILL.md) | AI-HIVE | AI workflows |
+| [IC实验室公开内容学习｜消费现象证据卡与原创商业解说](skills/aihive-persona-next-ic-consumption-case/SKILL.md) | AI-HIVE | AI workflows |
+| [私信询盘缺字段补问草稿](skills/aihive-persona-next-inquiry-missing-fields/SKILL.md) | AI-HIVE | AI workflows |
+| [九边公开内容学习｜长文观点前提与反例笔记](skills/aihive-persona-next-jiubian-claim-counterexample/SKILL.md) | AI-HIVE | AI workflows |
+| [凯叔讲故事公开内容学习｜原创睡前故事分龄与讲读提示](skills/aihive-persona-next-kaishu-original-story/SKILL.md) | AI-HIVE | AI workflows |
+| [康仔农人公开内容学习｜农产品溯源链与助农内容核查](skills/aihive-persona-next-kangzai-produce-chain/SKILL.md) | AI-HIVE | AI workflows |
+| [知识库版本变更失效问答复测清单](skills/aihive-persona-next-knowledge-version-retest/SKILL.md) | AI-HIVE | AI workflows |
+| [授权素材到期引用撤回清单](skills/aihive-persona-next-licensed-assets-expiry/SKILL.md) | AI-HIVE | AI workflows |
+| [直播回放重复问答去重与分段索引](skills/aihive-persona-next-live-faq-index/SKILL.md) | AI-HIVE | AI workflows |
+| [直播优惠口播数字核对](skills/aihive-persona-next-live-offer-numbers/SKILL.md) | AI-HIVE | AI workflows |
+| [麦小登公开内容学习｜乡村家庭系列选题与人物连续性](skills/aihive-persona-next-mai-family-season-series/SKILL.md) | AI-HIVE | AI workflows |
+| [绵羊料理公开内容学习｜料理挑战实验记录与失败镜头复盘](skills/aihive-persona-next-mianyang-cooking-experiment/SKILL.md) | AI-HIVE | AI workflows |
+| [平台审核理由归因与合规修订](skills/aihive-persona-next-moderation-reason-review/SKILL.md) | AI-HIVE | AI workflows |
+| [一人多角台词与服装道具连续性校对](skills/aihive-persona-next-multi-role-continuity/SKILL.md) | AI-HIVE | AI workflows |
+| [多语分身术语专名与承诺对齐](skills/aihive-persona-next-multilingual-persona-promises/SKILL.md) | AI-HIVE | AI workflows |
+| [年糕妈妈公开内容学习｜亲子活动材料清单与陪玩复盘](skills/aihive-persona-next-niangao-parent-play/SKILL.md) | AI-HIVE | AI workflows |
+| [彭传明公开内容学习｜传统工艺资料时间线与纪录片企划](skills/aihive-persona-next-peng-craft-process/SKILL.md) | AI-HIVE | AI workflows |
+| [知识分身上线前离线验收包](skills/aihive-persona-next-persona-offline-acceptance/SKILL.md) | AI-HIVE | AI workflows |
+| [播客逐字稿角色分离与观点地图](skills/aihive-persona-next-podcast-speaker-map/SKILL.md) | AI-HIVE | AI workflows |
+| [七颗猩猩公开内容学习｜原创职场反差短剧与设定检查](skills/aihive-persona-next-qike-workplace-satire/SKILL.md) | AI-HIVE | AI workflows |
+| [圈外同学公开内容学习｜管理案例练习与决策复盘卡](skills/aihive-persona-next-quanwai-management-drill/SKILL.md) | AI-HIVE | AI workflows |
+| [三木三木呢公开内容学习｜现有衣橱一衣多穿与拍摄搭配](skills/aihive-persona-next-sanmu-wardrobe-matrix/SKILL.md) | AI-HIVE | AI workflows |
+| [科普图卡数值单位与来源反向核对](skills/aihive-persona-next-science-card-unit-check/SKILL.md) | AI-HIVE | AI workflows |
+| [瞎说职场Sean Ye公开内容学习｜岗位要求转经历证据与面试追问](skills/aihive-persona-next-sean-career-evidence/SKILL.md) | AI-HIVE | AI workflows |
+| [用户搜索词到知识条目回答路径覆盖矩阵](skills/aihive-persona-next-search-to-answer-matrix/SKILL.md) | AI-HIVE | AI workflows |
+| [新旧SKU知识差异与回答影响检查](skills/aihive-persona-next-sku-answer-impact/SKILL.md) | AI-HIVE | AI workflows |
+| [引用材料指令隔离与安全读取测试](skills/aihive-persona-next-source-instruction-isolation/SKILL.md) | AI-HIVE | AI workflows |
+| [视频字幕切知识卡与时间码回链](skills/aihive-persona-next-subtitle-knowledge-timecodes/SKILL.md) | AI-HIVE | AI workflows |
+| [特厨隋坡公开内容学习｜菜品品鉴维度与餐饮改进记录](skills/aihive-persona-next-suipo-tasting-criteria/SKILL.md) | AI-HIVE | AI workflows |
+| [蜀中桃子姐公开内容学习｜调味品用法演示与商品知识卡](skills/aihive-persona-next-tao-condiment-demo/SKILL.md) | AI-HIVE | AI workflows |
+| [自有口播稿转提词器分屏与字幕对齐](skills/aihive-persona-next-teleprompter-subtitle-layout/SKILL.md) | AI-HIVE | AI workflows |
+| [TESTV公开内容学习｜真实使用日记转产品体验稿](skills/aihive-persona-next-testv-use-diary/SKILL.md) | AI-HIVE | AI workflows |
+| [先看评测公开内容学习｜消费品验证计划与变量控制表](skills/aihive-persona-next-xiankan-test-protocol/SKILL.md) | AI-HIVE | AI workflows |
+| [徐静雨公开内容学习｜比赛数据转原创复盘与争议论证](skills/aihive-persona-next-xujingyu-game-review/SKILL.md) | AI-HIVE | AI workflows |
+| [杨毅杨侃公开内容学习｜体育播客议题与事实核对提纲](skills/aihive-persona-next-yangyi-podcast-rundown/SKILL.md) | AI-HIVE | AI workflows |
+| [叶子说职场公开内容学习｜工作成果整理与述职材料索引](skills/aihive-persona-next-yezi-career-deliverables/SKILL.md) | AI-HIVE | AI workflows |
+| [远川研究所公开内容学习｜产业链术语与供需关系图](skills/aihive-persona-next-yuanchuan-value-chain/SKILL.md) | AI-HIVE | AI workflows |
+| [张同学公开内容学习｜乡村日常动作拆镜与节奏表](skills/aihive-persona-next-zhang-rural-rhythm/SKILL.md) | AI-HIVE | AI workflows |
+| [钟文泽公开内容学习｜新品资料转上手演示清单](skills/aihive-persona-next-zhong-launch-hands-on/SKILL.md) | AI-HIVE | AI workflows |
+| [朱铁雄公开内容学习｜原创国风变装分镜与转场衔接](skills/aihive-persona-next-zhu-transition-design/SKILL.md) | AI-HIVE | AI workflows |

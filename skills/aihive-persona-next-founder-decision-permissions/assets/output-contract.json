@@ -1,0 +1,23 @@
+{
+  "title": "老板知识分身流程问答与决策授权边界",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "情境ID",
+    "请求动作",
+    "流程依据",
+    "所需权限",
+    "分身可做范围",
+    "审批人",
+    "回答草稿",
+    "执行状态",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不代老板签字或同意付款；权限阈值缺失必须补问；默认只解释。"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "大J小D公开内容学习｜家庭沟通情境卡与家长复盘",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "情境",
+    "原话摘要",
+    "事实",
+    "家长目标",
+    "回应A",
+    "回应B",
+    "后续观察",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不虚构儿童原话；新回应不贬低、威胁或给儿童贴标签。"
+}

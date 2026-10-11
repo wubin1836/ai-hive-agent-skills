@@ -1,0 +1,21 @@
+{
+  "title": "叶子说职场公开内容学习｜工作成果整理与述职材料索引",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "职责",
+    "实际动作",
+    "交付物",
+    "影响依据",
+    "协作贡献",
+    "待确认",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每个成果有文件或记录；团队产出不归成个人独功。"
+}

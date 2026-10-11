@@ -1,0 +1,21 @@
+{
+  "title": "杨毅杨侃公开内容学习｜体育播客议题与事实核对提纲",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "环节",
+    "讨论问题",
+    "已核事实",
+    "反方追问",
+    "预计分钟",
+    "待核实",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "时长合计可复算；历史事实有日期；节目内容原创。"
+}

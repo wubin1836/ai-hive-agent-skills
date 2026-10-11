@@ -1,0 +1,22 @@
+{
+  "title": "IC实验室公开内容学习｜消费现象证据卡与原创商业解说",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "现象",
+    "指标定义",
+    "数据时期",
+    "证据",
+    "解释",
+    "反向证据",
+    "原创论点",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "指标口径一致；不编造内部销售；不复制原稿的独创结构和台词。"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "TESTV公开内容学习｜真实使用日记转产品体验稿",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "使用场景",
+    "产品版本",
+    "实测记录",
+    "问题",
+    "解决尝试",
+    "优缺点",
+    "商业关系",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每条体验能定位日志；参数来自官方；缺测不填分数。"
+}

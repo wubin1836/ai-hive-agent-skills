@@ -1,0 +1,23 @@
+{
+  "title": "视频字幕切知识卡与时间码回链",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "知识卡ID",
+    "视频ID",
+    "开始秒",
+    "结束秒",
+    "问题",
+    "要点摘要",
+    "证据短摘",
+    "画面核验状态",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每卡结束晚于开始；回链落在原字幕范围；不声称看过未提供画面。"
+}

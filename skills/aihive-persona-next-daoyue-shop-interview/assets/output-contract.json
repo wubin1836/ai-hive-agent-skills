@@ -1,0 +1,22 @@
+{
+  "title": "盗月社食遇记公开内容学习｜小店人物采访与探店事实清单",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "段落",
+    "真实消费",
+    "人物信息授权",
+    "事实",
+    "采访问题",
+    "镜头",
+    "赞助",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "采访引语准确；菜单价有时间；隐私和赞助清楚。"
+}

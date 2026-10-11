@@ -1,0 +1,22 @@
+{
+  "title": "播客逐字稿角色分离与观点地图",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "轮次ID",
+    "说话人标签",
+    "时间码",
+    "观点ID",
+    "主张摘要",
+    "支持或反驳对象",
+    "身份置信说明",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不把主持人的追问当嘉宾立场；不靠声音做身份识别；未知标签保留。"
+}

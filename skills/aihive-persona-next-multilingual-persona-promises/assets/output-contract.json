@@ -1,0 +1,23 @@
+{
+  "title": "多语分身术语专名与承诺对齐",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "回答ID",
+    "目标语言",
+    "对应段落",
+    "术语问题",
+    "金额单位问题",
+    "承诺差异",
+    "修订草稿",
+    "审核状态",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "金额不擅自换汇；否定和条件不遗漏；不保证本地法规适用。"
+}

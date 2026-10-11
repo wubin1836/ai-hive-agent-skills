@@ -1,0 +1,22 @@
+{
+  "title": "七颗猩猩公开内容学习｜原创职场反差短剧与设定检查",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "场次",
+    "原创角色",
+    "表面目标",
+    "真实动机",
+    "反差",
+    "设定冲突",
+    "修订",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不直接使用王妈等已有IP；不影射真实同事隐私；剧本标虚构。"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "授权素材到期引用撤回清单",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "素材ID",
+    "到期日",
+    "使用位置",
+    "许可用途",
+    "实际用途",
+    "状态",
+    "建议动作",
+    "确认人",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "采用明确时区和截止日；位置映射完整；不自动删生产资料。"
+}

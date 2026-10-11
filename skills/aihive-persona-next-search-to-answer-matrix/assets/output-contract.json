@@ -1,0 +1,23 @@
+{
+  "title": "用户搜索词到知识条目回答路径覆盖矩阵",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "搜索词ID",
+    "原始搜索词",
+    "意图组",
+    "知识条目ID",
+    "能回答范围",
+    "缺口类型",
+    "补充资料",
+    "验收问题",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "所有原词有归宿；一条证据不能扩成无依据全功能；同意图不重复建技能。"
+}

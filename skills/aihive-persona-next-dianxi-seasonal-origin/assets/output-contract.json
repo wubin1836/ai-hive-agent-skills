@@ -1,0 +1,21 @@
+{
+  "title": "滇西小哥公开内容学习｜时令食材产地故事与采拍计划",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "食材",
+    "采收日期",
+    "产地依据",
+    "可拍环节",
+    "故事段落",
+    "未知声明",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "产地和认证有依据；季节不套用其他地区；未拍镜头不能写成已存在。"
+}

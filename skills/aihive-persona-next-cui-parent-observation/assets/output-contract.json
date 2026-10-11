@@ -1,0 +1,20 @@
+{
+  "title": "崔玉涛公开内容学习｜育儿观察记录与就诊提问整理",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "日期",
+    "原始观察",
+    "家长关注点",
+    "已有医生说明",
+    "待问医生的问题",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "时间顺序准确；不新增症状或用药；缺少年龄与记录日期时先补问。"
+}

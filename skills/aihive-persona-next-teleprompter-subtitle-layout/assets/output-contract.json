@@ -1,0 +1,22 @@
+{
+  "title": "自有口播稿转提词器分屏与字幕对齐",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "块ID",
+    "口播文本",
+    "屏幕行数",
+    "重音提示",
+    "预计秒数",
+    "实测时间码",
+    "对齐状态",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不删否定词与价格条件；预估时间不冒充实测；原稿句子可追踪。"
+}

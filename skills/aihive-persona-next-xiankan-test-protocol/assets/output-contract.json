@@ -1,0 +1,22 @@
+{
+  "title": "先看评测公开内容学习｜消费品验证计划与变量控制表",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "问题",
+    "样品",
+    "控制变量",
+    "测量方式",
+    "重复次数",
+    "误差",
+    "需专业机构",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "方案不把主观感受写成国家标准检测；未实验不生成结果。"
+}

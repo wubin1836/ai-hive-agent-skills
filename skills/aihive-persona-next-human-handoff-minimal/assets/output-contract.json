@@ -1,0 +1,23 @@
+{
+  "title": "分身转人工交接摘要与最少必要字段",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "会话ID",
+    "用户目标",
+    "已确认事实",
+    "已尝试动作",
+    "未解决点",
+    "必要字段",
+    "交接草稿",
+    "转接状态",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "摘要不包含推测；没有渠道回执时状态为待转接；敏感字段最少化。"
+}

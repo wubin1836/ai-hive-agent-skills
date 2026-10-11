@@ -1,0 +1,21 @@
+{
+  "title": "特厨隋坡公开内容学习｜菜品品鉴维度与餐饮改进记录",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "菜品",
+    "体验维度",
+    "实际观察",
+    "可量事实",
+    "未知项",
+    "改进问题",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不从口感推定卫生违规；个人口味不写普遍结论；时间地点有记录。"
+}

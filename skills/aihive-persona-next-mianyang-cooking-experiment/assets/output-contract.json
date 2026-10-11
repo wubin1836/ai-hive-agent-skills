@@ -1,0 +1,22 @@
+{
+  "title": "绵羊料理公开内容学习｜料理挑战实验记录与失败镜头复盘",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "试做批次",
+    "改动变量",
+    "用量",
+    "现象",
+    "耗时",
+    "素材时间码",
+    "下次调整",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每次结果对应真实素材；不把未做过的试验写成亲历。"
+}

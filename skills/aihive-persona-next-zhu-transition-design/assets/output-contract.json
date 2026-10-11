@@ -1,0 +1,22 @@
+{
+  "title": "朱铁雄公开内容学习｜原创国风变装分镜与转场衔接",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "镜号",
+    "原创角色",
+    "起始构图",
+    "遮挡点",
+    "动作方向",
+    "结束构图",
+    "工具缺口",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "前后动作可衔接；不得使用未授权真人脸声；无工具只交分镜。"
+}

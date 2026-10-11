@@ -1,0 +1,21 @@
+{
+  "title": "九边公开内容学习｜长文观点前提与反例笔记",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "观点摘要",
+    "论据",
+    "前提",
+    "反例",
+    "适用边界",
+    "可验证行动",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每个观点标出处；反例可区分真实案例与假设；不复述全文。"
+}

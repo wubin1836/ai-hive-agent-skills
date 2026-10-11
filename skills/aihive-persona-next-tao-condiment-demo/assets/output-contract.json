@@ -1,0 +1,21 @@
+{
+  "title": "蜀中桃子姐公开内容学习｜调味品用法演示与商品知识卡",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "SKU",
+    "用法依据",
+    "演示菜品",
+    "真实用量",
+    "过敏原",
+    "实测或设想",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每条演示对应实际SKU；用量按标签与试做；不借博主名义背书。"
+}

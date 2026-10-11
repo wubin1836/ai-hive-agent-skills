@@ -1,0 +1,21 @@
+{
+  "title": "麦小登公开内容学习｜乡村家庭系列选题与人物连续性",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "集数",
+    "真实事件",
+    "出镜者同意",
+    "前集承接",
+    "本集变化",
+    "隐私处理",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "人物设定前后一致；虚构桥段标演绎；不复制作者家庭故事。"
+}

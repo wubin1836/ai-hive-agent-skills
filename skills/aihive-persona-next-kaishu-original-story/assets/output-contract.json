@@ -1,0 +1,21 @@
+{
+  "title": "凯叔讲故事公开内容学习｜原创睡前故事分龄与讲读提示",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "段落",
+    "原创情节",
+    "朗读字数",
+    "停顿",
+    "互动问题",
+    "陪读提示",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "故事角色和情节原创；时长明确估算；朗读音色不克隆凯叔。"
+}

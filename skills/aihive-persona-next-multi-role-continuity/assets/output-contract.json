@@ -1,0 +1,24 @@
+{
+  "title": "一人多角台词与服装道具连续性校对",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "镜头ID",
+    "剧情时间",
+    "角色",
+    "台词索引",
+    "服装",
+    "道具前状态",
+    "道具后状态",
+    "连续性问题",
+    "补镜",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "所有镜头对应角色；补镜有明确目的；不增加未授权真人形象。"
+}

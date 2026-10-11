@@ -1,0 +1,22 @@
+{
+  "title": "直播回放重复问答去重与分段索引",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "问答ID",
+    "标准问题",
+    "出现时段",
+    "答案版本",
+    "冲突点",
+    "当前适用状态",
+    "需人工确认",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不把旧场次价格变成现在报价；问题覆盖率以输入范围为分母。"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "知识分身上线前离线验收包",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "用例ID",
+    "验收维度",
+    "前置条件",
+    "输入摘要",
+    "期望结果",
+    "执行方式",
+    "实际结果",
+    "状态",
+    "阻断原因",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "上线必测项未通过不得写已验收；生成测试表不等于模型和渠道通过。"
+}

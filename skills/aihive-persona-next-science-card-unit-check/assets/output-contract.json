@@ -1,0 +1,24 @@
+{
+  "title": "科普图卡数值单位与来源反向核对",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "声明ID",
+    "图卡位置",
+    "原声明",
+    "数值",
+    "单位",
+    "前提",
+    "出处位置",
+    "核验结果",
+    "修订建议",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "分母、单位、范围都一致；OCR不确定数字不能直接通过。"
+}

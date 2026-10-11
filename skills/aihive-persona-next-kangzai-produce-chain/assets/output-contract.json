@@ -1,0 +1,21 @@
+{
+  "title": "康仔农人公开内容学习｜农产品溯源链与助农内容核查",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "商品批次",
+    "流程环节",
+    "证据",
+    "可拍内容",
+    "价格有效期",
+    "未确认声明",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每个助农或品质声明有依据；缺证明不写保真或公益承诺。"
+}

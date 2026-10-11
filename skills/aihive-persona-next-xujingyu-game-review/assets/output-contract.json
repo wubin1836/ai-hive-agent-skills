@@ -1,0 +1,22 @@
+{
+  "title": "徐静雨公开内容学习｜比赛数据转原创复盘与争议论证",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "比赛",
+    "数据时期",
+    "事实",
+    "观点",
+    "支持证据",
+    "反向证据",
+    "未知项",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "比赛版本一致；不臆造球员心理；没有授权不重用赛事画面。"
+}

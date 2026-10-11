@@ -1,0 +1,22 @@
+{
+  "title": "饭统戴老板公开内容学习｜企业发展时间线与决策因果辨析",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "日期",
+    "公开事件",
+    "当时信息",
+    "结果",
+    "解释A",
+    "解释B",
+    "待核实",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "事件都有日期与出处；因果不能只靠时间先后；不凭案例推荐股票。"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "三木三木呢公开内容学习｜现有衣橱一衣多穿与拍摄搭配",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "搭配ID",
+    "单品ID",
+    "场景",
+    "配色理由",
+    "天气依据",
+    "拍摄动作",
+    "可选缺口",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每件单品能回到衣橱表；不生成博主代穿或代言图。"
+}

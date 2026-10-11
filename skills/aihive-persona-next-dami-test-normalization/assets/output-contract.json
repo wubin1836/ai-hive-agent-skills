@@ -1,0 +1,23 @@
+{
+  "title": "大米评测公开内容学习｜手机横评条件归一与缺测表",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "型号",
+    "系统版本",
+    "测试项",
+    "环境条件",
+    "单位",
+    "实测值",
+    "可比性",
+    "缺测",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "禁止合并不同亮度或负载数据作排名；所有数字可追溯。"
+}

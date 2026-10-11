@@ -59192,5 +59192,455 @@
     "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
     "path": "skills/aihive-persona-next-creator-ratecard-alignment",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-cui-parent-observation",
+    "display_name": "崔玉涛公开内容学习｜育儿观察记录与就诊提问整理",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-cui-parent-observation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-dabing-style-brief",
+    "display_name": "大饼穿搭札记公开内容学习｜个人风格板与购物清单去重",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-dabing-style-brief",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-daiboss-business-timeline",
+    "display_name": "饭统戴老板公开内容学习｜企业发展时间线与决策因果辨析",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-daiboss-business-timeline",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-daj-family-dialogue",
+    "display_name": "大J小D公开内容学习｜家庭沟通情境卡与家长复盘",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-daj-family-dialogue",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-dalogo-experience-budget",
+    "display_name": "大LOGO吃垮北京公开内容学习｜体验型探店预算与真实价值对照",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-dalogo-experience-budget",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-dami-test-normalization",
+    "display_name": "大米评测公开内容学习｜手机横评条件归一与缺测表",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-dami-test-normalization",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-daoyue-shop-interview",
+    "display_name": "盗月社食遇记公开内容学习｜小店人物采访与探店事实清单",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-daoyue-shop-interview",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-dianxi-seasonal-origin",
+    "display_name": "滇西小哥公开内容学习｜时令食材产地故事与采拍计划",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-dianxi-seasonal-origin",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-duliang-book-club",
+    "display_name": "都靓读书公开内容学习｜读书摘记转原创荐书与共读问题",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-duliang-book-club",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-founder-decision-permissions",
+    "display_name": "老板知识分身流程问答与决策授权边界",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-founder-decision-permissions",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-human-handoff-minimal",
+    "display_name": "分身转人工交接摘要与最少必要字段",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-human-handoff-minimal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-ic-consumption-case",
+    "display_name": "IC实验室公开内容学习｜消费现象证据卡与原创商业解说",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-ic-consumption-case",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-inquiry-missing-fields",
+    "display_name": "私信询盘缺字段补问草稿",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-inquiry-missing-fields",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-jiubian-claim-counterexample",
+    "display_name": "九边公开内容学习｜长文观点前提与反例笔记",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-jiubian-claim-counterexample",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-kaishu-original-story",
+    "display_name": "凯叔讲故事公开内容学习｜原创睡前故事分龄与讲读提示",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-kaishu-original-story",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-kangzai-produce-chain",
+    "display_name": "康仔农人公开内容学习｜农产品溯源链与助农内容核查",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-kangzai-produce-chain",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-knowledge-version-retest",
+    "display_name": "知识库版本变更失效问答复测清单",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-knowledge-version-retest",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-licensed-assets-expiry",
+    "display_name": "授权素材到期引用撤回清单",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-licensed-assets-expiry",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-live-faq-index",
+    "display_name": "直播回放重复问答去重与分段索引",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-live-faq-index",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-live-offer-numbers",
+    "display_name": "直播优惠口播数字核对",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-live-offer-numbers",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-mai-family-season-series",
+    "display_name": "麦小登公开内容学习｜乡村家庭系列选题与人物连续性",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-mai-family-season-series",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-mianyang-cooking-experiment",
+    "display_name": "绵羊料理公开内容学习｜料理挑战实验记录与失败镜头复盘",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-mianyang-cooking-experiment",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-moderation-reason-review",
+    "display_name": "平台审核理由归因与合规修订",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-moderation-reason-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-multi-role-continuity",
+    "display_name": "一人多角台词与服装道具连续性校对",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-multi-role-continuity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-multilingual-persona-promises",
+    "display_name": "多语分身术语专名与承诺对齐",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-multilingual-persona-promises",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-niangao-parent-play",
+    "display_name": "年糕妈妈公开内容学习｜亲子活动材料清单与陪玩复盘",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-niangao-parent-play",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-peng-craft-process",
+    "display_name": "彭传明公开内容学习｜传统工艺资料时间线与纪录片企划",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-peng-craft-process",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-persona-offline-acceptance",
+    "display_name": "知识分身上线前离线验收包",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-persona-offline-acceptance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-podcast-speaker-map",
+    "display_name": "播客逐字稿角色分离与观点地图",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-podcast-speaker-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-qike-workplace-satire",
+    "display_name": "七颗猩猩公开内容学习｜原创职场反差短剧与设定检查",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-qike-workplace-satire",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-quanwai-management-drill",
+    "display_name": "圈外同学公开内容学习｜管理案例练习与决策复盘卡",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-quanwai-management-drill",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-sanmu-wardrobe-matrix",
+    "display_name": "三木三木呢公开内容学习｜现有衣橱一衣多穿与拍摄搭配",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-sanmu-wardrobe-matrix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-science-card-unit-check",
+    "display_name": "科普图卡数值单位与来源反向核对",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-science-card-unit-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-sean-career-evidence",
+    "display_name": "瞎说职场Sean Ye公开内容学习｜岗位要求转经历证据与面试追问",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-sean-career-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-search-to-answer-matrix",
+    "display_name": "用户搜索词到知识条目回答路径覆盖矩阵",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-search-to-answer-matrix",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-sku-answer-impact",
+    "display_name": "新旧SKU知识差异与回答影响检查",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-sku-answer-impact",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-source-instruction-isolation",
+    "display_name": "引用材料指令隔离与安全读取测试",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-source-instruction-isolation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-subtitle-knowledge-timecodes",
+    "display_name": "视频字幕切知识卡与时间码回链",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-subtitle-knowledge-timecodes",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-suipo-tasting-criteria",
+    "display_name": "特厨隋坡公开内容学习｜菜品品鉴维度与餐饮改进记录",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-suipo-tasting-criteria",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-tao-condiment-demo",
+    "display_name": "蜀中桃子姐公开内容学习｜调味品用法演示与商品知识卡",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-tao-condiment-demo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-teleprompter-subtitle-layout",
+    "display_name": "自有口播稿转提词器分屏与字幕对齐",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-teleprompter-subtitle-layout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-testv-use-diary",
+    "display_name": "TESTV公开内容学习｜真实使用日记转产品体验稿",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-testv-use-diary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-xiankan-test-protocol",
+    "display_name": "先看评测公开内容学习｜消费品验证计划与变量控制表",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-xiankan-test-protocol",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-xujingyu-game-review",
+    "display_name": "徐静雨公开内容学习｜比赛数据转原创复盘与争议论证",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-xujingyu-game-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-yangyi-podcast-rundown",
+    "display_name": "杨毅杨侃公开内容学习｜体育播客议题与事实核对提纲",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-yangyi-podcast-rundown",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-yezi-career-deliverables",
+    "display_name": "叶子说职场公开内容学习｜工作成果整理与述职材料索引",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-yezi-career-deliverables",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-yuanchuan-value-chain",
+    "display_name": "远川研究所公开内容学习｜产业链术语与供需关系图",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-yuanchuan-value-chain",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-zhang-rural-rhythm",
+    "display_name": "张同学公开内容学习｜乡村日常动作拆镜与节奏表",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-zhang-rural-rhythm",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-zhong-launch-hands-on",
+    "display_name": "钟文泽公开内容学习｜新品资料转上手演示清单",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-zhong-launch-hands-on",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-zhu-transition-design",
+    "display_name": "朱铁雄公开内容学习｜原创国风变装分镜与转场衔接",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-zhu-transition-design",
+    "language": "zh-CN"
   }
 ]

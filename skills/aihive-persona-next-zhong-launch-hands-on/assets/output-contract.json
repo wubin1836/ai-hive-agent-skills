@@ -1,0 +1,21 @@
+{
+  "title": "钟文泽公开内容学习｜新品资料转上手演示清单",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "功能",
+    "厂商宣称",
+    "实机版本",
+    "演示动作",
+    "测试状态",
+    "拍摄要点",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不把发布会宣传当实测；未接触设备不写第一人称使用结论。"
+}

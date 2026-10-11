@@ -1,0 +1,21 @@
+{
+  "title": "彭传明公开内容学习｜传统工艺资料时间线与纪录片企划",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "工艺阶段",
+    "文献出处",
+    "实际记录",
+    "等待周期",
+    "可拍镜头",
+    "安全限制",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "等待周期与拍摄期分开；不宣称未经核实的非遗身份或传承资格。"
+}

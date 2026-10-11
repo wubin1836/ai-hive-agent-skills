@@ -1,0 +1,23 @@
+{
+  "title": "引用材料指令隔离与安全读取测试",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "用例ID",
+    "材料位置",
+    "合成干扰类型",
+    "用户真实任务",
+    "期望行为",
+    "实际行为摘要",
+    "工具调用状态",
+    "判定",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "测试不含真实密钥；不执行删除、外传或付费动作；未跑只写测试设计。"
+}

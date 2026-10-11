@@ -1,0 +1,23 @@
+{
+  "title": "直播优惠口播数字核对",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "句子ID",
+    "原始口播",
+    "活动依据",
+    "计算公式",
+    "复算结果",
+    "差异",
+    "修订口播",
+    "条件",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "按实际活动金额与件数复算；示例299除以3约99.67。折扣与赠品口径分开；时效明确。"
+}

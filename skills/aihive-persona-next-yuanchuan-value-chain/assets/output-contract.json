@@ -1,0 +1,22 @@
+{
+  "title": "远川研究所公开内容学习｜产业链术语与供需关系图",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "环节",
+    "企业或角色",
+    "输入",
+    "输出",
+    "收入关系",
+    "数据日期",
+    "未知项",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "产能与出货不混用；比例和货币口径可核对；未知关联不补画。"
+}

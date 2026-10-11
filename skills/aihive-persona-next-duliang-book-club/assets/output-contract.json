@@ -1,0 +1,21 @@
+{
+  "title": "都靓读书公开内容学习｜读书摘记转原创荐书与共读问题",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "书名版本",
+    "摘记位置",
+    "观点类型",
+    "个人观察",
+    "共读问题",
+    "引用范围",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "引用不超必要范围；不把没读过的内容说成亲读；页码可追溯。"
+}

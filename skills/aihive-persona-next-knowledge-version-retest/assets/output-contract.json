@@ -1,0 +1,24 @@
+{
+  "title": "知识库版本变更失效问答复测清单",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "测试ID",
+    "依赖条目",
+    "变更类型",
+    "旧预期",
+    "新预期",
+    "优先级",
+    "实际结果",
+    "状态",
+    "修订建议",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每个受影响问题可追溯；待测不计通过；实际测试必须记录版本。"
+}

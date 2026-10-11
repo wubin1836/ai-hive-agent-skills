@@ -1,0 +1,22 @@
+{
+  "title": "年糕妈妈公开内容学习｜亲子活动材料清单与陪玩复盘",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "活动",
+    "材料",
+    "成人协助",
+    "预计时长",
+    "实际参与",
+    "孩子反馈",
+    "下次调整",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不需要额外购买未确认材料；适龄信息不足明确待核；活动目标不写成发育承诺。"
+}

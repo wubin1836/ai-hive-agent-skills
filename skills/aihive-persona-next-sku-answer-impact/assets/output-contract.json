@@ -1,0 +1,24 @@
+{
+  "title": "新旧SKU知识差异与回答影响检查",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "变更ID",
+    "SKU",
+    "字段",
+    "旧值",
+    "新值",
+    "生效日期",
+    "受影响问答ID",
+    "修订草稿",
+    "确认状态",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "旧值新值不串列；过渡期有标识；未变字段不无故改写。"
+}

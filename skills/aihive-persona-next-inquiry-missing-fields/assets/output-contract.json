@@ -1,0 +1,22 @@
+{
+  "title": "私信询盘缺字段补问草稿",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "询盘ID",
+    "已知需求",
+    "已知期限",
+    "预算原文",
+    "缺失字段",
+    "补问草稿",
+    "转人工原因",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不添加客户没说的承诺；不要求身份证等无关敏感信息。"
+}

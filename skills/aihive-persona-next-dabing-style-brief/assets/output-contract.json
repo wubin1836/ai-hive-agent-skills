@@ -1,0 +1,22 @@
+{
+  "title": "大饼穿搭札记公开内容学习｜个人风格板与购物清单去重",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "风格关键词",
+    "已有单品",
+    "使用场景",
+    "缺口",
+    "重复项",
+    "预算",
+    "试穿要点",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "风格解释来自用户偏好；购物建议有预算与现有库存对照。"
+}

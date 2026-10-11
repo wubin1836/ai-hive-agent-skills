@@ -1,0 +1,21 @@
+{
+  "title": "大LOGO吃垮北京公开内容学习｜体验型探店预算与真实价值对照",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "体验环节",
+    "报价时间",
+    "基础费用",
+    "可选费用",
+    "实际花费",
+    "体验证据",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "总预算可复算；报价非实时则标日期；未消费不写亲测。"
+}

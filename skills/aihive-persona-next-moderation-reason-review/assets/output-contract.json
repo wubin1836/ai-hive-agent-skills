@@ -1,0 +1,22 @@
+{
+  "title": "平台审核理由归因与合规修订",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "问题ID",
+    "原片段定位",
+    "审核理由",
+    "规则来源",
+    "拟修订内容",
+    "实质变化",
+    "待确认项",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "不做拆字、谐音、隐藏品牌或换账号规避；原因不明不猜为已解决。"
+}
