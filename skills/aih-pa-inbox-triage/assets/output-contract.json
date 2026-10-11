@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-inbox-triage",
+  "fields": [
+    "message_ref",
+    "classification",
+    "due_hint",
+    "reply_needed",
+    "proposed_label"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

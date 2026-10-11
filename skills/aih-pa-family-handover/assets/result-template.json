@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-family-handover",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "event": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "dependent": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "primary_person": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "backup_person": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "confirmed": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

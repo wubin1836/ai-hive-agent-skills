@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-file-delivery-contract",
+  "fields": [
+    "deliverable",
+    "source_refs",
+    "format",
+    "required_checks",
+    "actual_path"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

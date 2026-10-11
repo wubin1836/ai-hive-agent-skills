@@ -1,0 +1,16 @@
+{
+  "goal": null,
+  "acceptance_criteria": [],
+  "selected_source_refs": [],
+  "allowed_upload_scope": [],
+  "execution_mode": "draft_first",
+  "target_environment": null,
+  "budget": {
+    "maximum": null,
+    "currency": null
+  },
+  "external_actions": [],
+  "timezone": null,
+  "stop_condition": null,
+  "note": "空值供用户按实际任务填写，不填密码、Token、验证码、Cookie或完整证件信息。"
+}

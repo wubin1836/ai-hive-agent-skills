@@ -1,0 +1,13 @@
+{
+  "skill_id": "aih-pa-genspark-skywork-output",
+  "fields": [
+    "stage",
+    "source_request",
+    "dependency",
+    "expected_artifact",
+    "handoff_target",
+    "unresolved_issue"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-assistant-business-reception",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "question": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "allowed_answer": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "required_identity": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "approval_needed": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "handoff": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-agent-platform-migration",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "source_capability": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "export_method": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "target_capability": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "gap": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "acceptance_case": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-file-delivery-contract",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "deliverable": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "source_refs": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "format": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "required_checks": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "actual_path": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "skill_id": "aih-pa-agent-total-cost",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "task_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "model_cost": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "runtime_cost": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "connector_cost": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "currency": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "accepted_count": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

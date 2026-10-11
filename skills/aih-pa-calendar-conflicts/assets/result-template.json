@@ -1,0 +1,49 @@
+{
+  "skill_id": "aih-pa-calendar-conflicts",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "event_id": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "start": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "end": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "timezone": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "immutable": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "conflicts": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

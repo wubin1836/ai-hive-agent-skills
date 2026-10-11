@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-customer-followup",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "customer_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "stage": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "last_promise": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "next_action": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "contact_permission": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

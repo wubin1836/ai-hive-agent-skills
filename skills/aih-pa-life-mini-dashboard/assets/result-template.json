@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-life-mini-dashboard",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "panel_id": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "field": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "data_source": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "storage_scope": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "export_path": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

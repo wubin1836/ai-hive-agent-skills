@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-life-mini-dashboard",
+  "fields": [
+    "panel_id",
+    "field",
+    "data_source",
+    "storage_scope",
+    "export_path"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

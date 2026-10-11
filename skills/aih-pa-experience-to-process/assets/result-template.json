@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-experience-to-process",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "case_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "lesson": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "applicability": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "counterexample": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "version": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

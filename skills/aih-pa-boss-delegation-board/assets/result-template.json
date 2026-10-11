@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-boss-delegation-board",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "request": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "owner": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "due_at": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "decision_needed": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "blocker": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

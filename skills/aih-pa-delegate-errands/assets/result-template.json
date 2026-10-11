@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-delegate-errands",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "request_text": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "assignee": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "due_at": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "success_evidence": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "pending_question": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

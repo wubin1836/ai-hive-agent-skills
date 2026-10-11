@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-job-application-tracker",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "job_url": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "hard_requirement": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "evidence_in_resume": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "application_state": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "interview_at": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

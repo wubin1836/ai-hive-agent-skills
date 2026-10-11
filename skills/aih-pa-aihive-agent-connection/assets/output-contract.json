@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-aihive-agent-connection",
+  "fields": [
+    "client",
+    "mcp_supported",
+    "auth_state",
+    "discovered_tool",
+    "test_receipt"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

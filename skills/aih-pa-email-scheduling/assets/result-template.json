@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-email-scheduling",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "thread_id": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "participant": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "reply_status": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "candidate_slot": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "timezone": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

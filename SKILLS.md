@@ -6542,7 +6542,7 @@
 | [GPT-6 Luna批量表格处理助手](skills/aihive-gpt6-luna-batch/SKILL.md) | AI-HIVE | 模型批处理 |
 | [Claude Opus 5.5迁移验收助手](skills/aihive-claude-opus55-upgrade/SKILL.md) | AI-HIVE | 模型评测 |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -6922,3 +6922,58 @@
 | [乐天市场日语购买须知图助手](skills/imiva-channel-rakuten-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
 | [Coupang韩语商品差异图助手](skills/imiva-channel-coupang-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
 | [Shopify商品页面图片交付助手](skills/imiva-channel-shopify-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [Comet、Fellou、Dia与Opera Neon：网页办事助手](skills/aih-pa-agent-browser-research/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人Agent完成质量验收助手](skills/aih-pa-agent-delivery-audit/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人Agent换平台助手](skills/aih-pa-agent-platform-migration/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人Agent接管与撤销助手](skills/aih-pa-agent-stop-recovery/SKILL.md) | AI-HIVE | Personal Agent |
+| [私人助理调用成本管家](skills/aih-pa-agent-total-cost/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人Agent接入AI-HIVE助手](skills/aih-pa-aihive-agent-connection/SKILL.md) | AI-HIVE | Personal Agent |
+| [预约电话准备与跟进助手](skills/aih-pa-appointment-call-brief/SKILL.md) | AI-HIVE | Personal Agent |
+| [私人助理代接业务助手](skills/aih-pa-assistant-business-reception/SKILL.md) | AI-HIVE | Personal Agent |
+| [私人助理账号权限体检助手](skills/aih-pa-assistant-permission-review/SKILL.md) | AI-HIVE | Personal Agent |
+| [私人AI助理选型与试用助手](skills/aih-pa-assistant-trial-benchmark/SKILL.md) | AI-HIVE | Personal Agent |
+| [老板交办进度秘书](skills/aih-pa-boss-delegation-board/SKILL.md) | AI-HIVE | Personal Agent |
+| [老板异常事项提醒助手](skills/aih-pa-boss-exception-alerts/SKILL.md) | AI-HIVE | Personal Agent |
+| [浏览器办事流程助手](skills/aih-pa-browser-action-stages/SKILL.md) | AI-HIVE | Personal Agent |
+| [多日历冲突协调助手](skills/aih-pa-calendar-conflicts/SKILL.md) | AI-HIVE | Personal Agent |
+| [截图语音转待办助手](skills/aih-pa-capture-to-actions/SKILL.md) | AI-HIVE | Personal Agent |
+| [跨渠道任务收件箱助手](skills/aih-pa-channel-task-inbox/SKILL.md) | AI-HIVE | Personal Agent |
+| [Genspark Claw、Simular与Pipali平替：电脑任务检查点](skills/aih-pa-claw-computer-checkpoints/SKILL.md) | AI-HIVE | Personal Agent |
+| [ArkClaw、MaxClaw与EasyClaw：云端助理成本管家](skills/aih-pa-cloud-claw-budget/SKILL.md) | AI-HIVE | Personal Agent |
+| [关电脑后继续办事助手](skills/aih-pa-cloud-offline-plan/SKILL.md) | AI-HIVE | Personal Agent |
+| [答应过的事跟进助手](skills/aih-pa-commitment-ledger/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人内容日更流水线助手](skills/aih-pa-content-production-queue/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人与公司记忆隔离助手](skills/aih-pa-context-boundary/SKILL.md) | AI-HIVE | Personal Agent |
+| [Claude Cowork与Copilot Tasks平替：办公任务交付台](skills/aih-pa-cowork-office-delivery/SKILL.md) | AI-HIVE | Personal Agent |
+| [Manus Cue平替：跨渠道办事交接助手](skills/aih-pa-cue-channel-handoff/SKILL.md) | AI-HIVE | Personal Agent |
+| [客户跟进私人销售助手](skills/aih-pa-customer-followup/SKILL.md) | AI-HIVE | Personal Agent |
+| [一句话交办助手](skills/aih-pa-delegate-errands/SKILL.md) | AI-HIVE | Personal Agent |
+| [豆包手机助手、AutoGLM、Siri与Alexa：跨设备办事接力](skills/aih-pa-device-assistant-relay/SKILL.md) | AI-HIVE | Personal Agent |
+| [ChatGPT Dots平替：离线委托与任务回执](skills/aih-pa-dots-cloud-handoff/SKILL.md) | AI-HIVE | Personal Agent |
+| [Duckbill替代流程：人工代办材料与进度管家](skills/aih-pa-duckbill-human-handoff/SKILL.md) | AI-HIVE | Personal Agent |
+| [邮件约时间与回信草稿助手](skills/aih-pa-email-scheduling/SKILL.md) | AI-HIVE | Personal Agent |
+| [活动聚会筹备与报名助手](skills/aih-pa-event-planning-confirmations/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人经验转复用流程助手](skills/aih-pa-experience-to-process/SKILL.md) | AI-HIVE | Personal Agent |
+| [证件与保养到期管家](skills/aih-pa-expiry-maintenance/SKILL.md) | AI-HIVE | Personal Agent |
+| [家庭分工与接送日程助手](skills/aih-pa-family-handover/SKILL.md) | AI-HIVE | Personal Agent |
+| [资料到成果交付助手](skills/aih-pa-file-delivery-contract/SKILL.md) | AI-HIVE | Personal Agent |
+| [专注时段与习惯排程助手](skills/aih-pa-focus-habit-planner/SKILL.md) | AI-HIVE | Personal Agent |
+| [Fyxer平替：未回复邮件与会后跟进助手](skills/aih-pa-fyxer-mail-followup/SKILL.md) | AI-HIVE | Personal Agent |
+| [Gemini Personal Intelligence：个人与工作上下文助手](skills/aih-pa-gemini-context-split/SKILL.md) | AI-HIVE | Personal Agent |
+| [Genspark与Skywork平替：多格式成果交付助手](skills/aih-pa-genspark-skywork-output/SKILL.md) | AI-HIVE | Personal Agent |
+| [Grok Bot平替：常驻助理任务分派台](skills/aih-pa-grok-bot-task-roster/SKILL.md) | AI-HIVE | Personal Agent |
+| [Hark Pro平替：生活事务面板与行动建议](skills/aih-pa-hark-life-dashboard/SKILL.md) | AI-HIVE | Personal Agent |
+| [家庭补货采购清单助手](skills/aih-pa-household-restock/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人邮箱分流与漏信检查助手](skills/aih-pa-inbox-triage/SKILL.md) | AI-HIVE | Personal Agent |
+| [Instinct平替：个人琐事委托与办结回执](skills/aih-pa-instinct-errand-receipts/SKILL.md) | AI-HIVE | Personal Agent |
+| [求职申请进度助理](skills/aih-pa-job-application-tracker/SKILL.md) | AI-HIVE | Personal Agent |
+| [Kimi Work、QoderWork与扣子：项目资料续办助手](skills/aih-pa-kimi-qoder-coze-project/SKILL.md) | AI-HIVE | Personal Agent |
+| [Kortix Suna与Flowith Neo平替：长任务编排助手](skills/aih-pa-kortix-flowith-orchestration/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人学习项目督办助手](skills/aih-pa-learning-project-progress/SKILL.md) | AI-HIVE | Personal Agent |
+| [Atlas、LettaBot与Limitless Rewind：旧Agent资料迁移](skills/aih-pa-legacy-agent-migration/SKILL.md) | AI-HIVE | Personal Agent |
+| [个人生活小面板生成助手](skills/aih-pa-life-mini-dashboard/SKILL.md) | AI-HIVE | Personal Agent |

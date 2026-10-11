@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-context-boundary",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "data_ref": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "space": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "audience": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "retention": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "cross_space_approval": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-focus-habit-planner",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "task": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "estimated_minutes": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "available_window": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "priority": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "rest_block": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

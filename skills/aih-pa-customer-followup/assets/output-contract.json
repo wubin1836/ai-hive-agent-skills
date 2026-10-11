@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-customer-followup",
+  "fields": [
+    "customer_ref",
+    "stage",
+    "last_promise",
+    "next_action",
+    "contact_permission"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

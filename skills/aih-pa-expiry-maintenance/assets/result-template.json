@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-expiry-maintenance",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "item": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "expires_at": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "lead_days": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "official_source": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "materials": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

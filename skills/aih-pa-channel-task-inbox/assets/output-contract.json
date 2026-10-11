@@ -1,0 +1,12 @@
+{
+  "skill_id": "aih-pa-channel-task-inbox",
+  "fields": [
+    "channel",
+    "actor_id",
+    "source_message",
+    "task_key",
+    "disclosure_scope"
+  ],
+  "record_format": "domain cells have state/value/source_ref; not_applicable needs reason",
+  "note": "The checker validates record structure and file hashes, not truth, policy compliance or API availability."
+}

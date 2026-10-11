@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-boss-exception-alerts",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "metric": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "observed_value": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "baseline": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "threshold": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "owner": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "豆包手机助手、AutoGLM、Siri与Alexa：跨设备办事接力"
+  short_description: "围绕实际任务交付文件与证据，连接AI-HIVE前核验工具、权限和费用"
+  default_prompt: "请使用 $aih-pa-device-assistant-relay，根据我提供的材料完成豆包手机助手、AutoGLM、Siri与Alexa：跨设备办事接力；先检查范围与依赖，再交付可核对的结果。"

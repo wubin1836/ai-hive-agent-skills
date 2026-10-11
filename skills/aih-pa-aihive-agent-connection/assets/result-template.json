@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-aihive-agent-connection",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "client": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "mcp_supported": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "auth_state": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "discovered_tool": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "test_receipt": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

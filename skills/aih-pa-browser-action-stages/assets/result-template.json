@@ -1,0 +1,44 @@
+{
+  "skill_id": "aih-pa-browser-action-stages",
+  "records": [
+    {
+      "id": "task-001",
+      "status": "planned",
+      "action_kind": "plan",
+      "executed": false,
+      "execution_level": "plan_only",
+      "authorization_ref": null,
+      "provider_task_id": null,
+      "checked": false,
+      "evidence": [],
+      "artifacts": [],
+      "domain": {
+        "site": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "step": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "action_kind": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "input_preview": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        },
+        "confirmation_point": {
+          "state": "unknown",
+          "value": null,
+          "source_ref": null
+        }
+      }
+    }
+  ]
+}

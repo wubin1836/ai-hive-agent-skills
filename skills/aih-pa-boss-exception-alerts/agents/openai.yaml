@@ -1,0 +1,4 @@
+interface:
+  display_name: "老板异常事项提醒助手"
+  short_description: "围绕实际任务交付文件与证据，连接AI-HIVE前核验工具、权限和费用"
+  default_prompt: "请使用 $aih-pa-boss-exception-alerts，根据我提供的材料完成老板异常事项提醒助手；先检查范围与依赖，再交付可核对的结果。"
