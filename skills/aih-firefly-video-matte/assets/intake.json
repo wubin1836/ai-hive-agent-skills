@@ -1,0 +1,22 @@
+{
+  "skill": "aih-firefly-video-matte",
+  "goal": "",
+  "required_materials": "授权视频、主体范围、新背景、目标容器编码",
+  "materials": [],
+  "success_criteria": [
+    "普通MP4通常不保留Alpha需核格式",
+    "不删除来源水印",
+    "无工具只交付操作清单"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

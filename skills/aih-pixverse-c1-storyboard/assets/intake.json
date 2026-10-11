@@ -1,0 +1,22 @@
+{
+  "skill": "aih-pixverse-c1-storyboard",
+  "goal": "",
+  "required_materials": "原创故事板、格序、角色锚点、总时长",
+  "materials": [],
+  "success_criteria": [
+    "无延长接口不猜参数",
+    "动作符合创作意图",
+    "未渲染不称成片"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

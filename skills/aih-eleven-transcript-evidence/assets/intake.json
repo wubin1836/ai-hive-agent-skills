@@ -1,0 +1,22 @@
+{
+  "skill": "aih-eleven-transcript-evidence",
+  "goal": "",
+  "required_materials": "授权录音、时间戳转写、术语表、编辑范围",
+  "materials": [],
+  "success_criteria": [
+    "不填补听不清金额",
+    "未授权录音不得上传",
+    "去口头禅不能改变否定含义"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

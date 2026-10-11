@@ -1,0 +1,22 @@
+{
+  "skill": "aih-gpt61-sol-task-budget",
+  "goal": "",
+  "required_materials": "脱敏任务集、人工参考结果、旧模型成绩、当前报价",
+  "materials": [],
+  "success_criteria": [
+    "缺失成绩不能按通过处理",
+    "不把Sol与Astra名称混写",
+    "预算与价格以运行当日为准"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

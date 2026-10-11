@@ -1,0 +1,22 @@
+{
+  "skill": "aih-decisions-api-intake",
+  "goal": "",
+  "required_materials": "表单样例、可选标签、拒判条件、人工分流规则",
+  "materials": [],
+  "success_criteria": [
+    "无证据时不强选标签",
+    "不自动拒贷拒保或作高风险资格判断",
+    "beta状态与调用状态分别记录"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -1,0 +1,22 @@
+{
+  "skill": "aih-claude-motion-report",
+  "goal": "",
+  "required_materials": "已确认报表、讲解目标、时长、品牌素材",
+  "materials": [],
+  "success_criteria": [
+    "不得夸大差异轴线",
+    "没有渲染不能称MP4完成",
+    "不要把该竞品功能误称视频扩散模型"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

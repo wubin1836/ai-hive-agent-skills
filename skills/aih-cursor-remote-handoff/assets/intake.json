@@ -1,0 +1,22 @@
+{
+  "skill": "aih-cursor-remote-handoff",
+  "goal": "",
+  "required_materials": "任务ID、电脑在线状态、允许动作、现有进度",
+  "materials": [],
+  "success_criteria": [
+    "本机离线不得宣称任务仍可远控",
+    "不替用户批准危险命令",
+    "凭据与设备配对不写进交接文件"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

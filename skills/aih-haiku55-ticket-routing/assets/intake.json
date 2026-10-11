@@ -1,0 +1,22 @@
+{
+  "skill": "aih-haiku55-ticket-routing",
+  "goal": "",
+  "required_materials": "脱敏工单、类别定义、紧急事项清单、期望输出",
+  "materials": [],
+  "success_criteria": [
+    "紧急安全问题转人工",
+    "模型不可用不能标成Haiku实测",
+    "不把语言流畅等同分流正确"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -1,0 +1,22 @@
+{
+  "skill": "aih-claude-dashboards-audit",
+  "goal": "",
+  "required_materials": "授权数据副本、指标定义、时间区间、刷新要求",
+  "materials": [],
+  "success_criteria": [
+    "不能宣称静态网页实时刷新",
+    "不执行数据库写入",
+    "缺数显示未知不补零"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

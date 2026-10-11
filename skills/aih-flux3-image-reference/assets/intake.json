@@ -1,0 +1,22 @@
+{
+  "skill": "aih-flux3-image-reference",
+  "goal": "",
+  "required_materials": "真实商品图、构图参考、文案、不可变细节",
+  "materials": [],
+  "success_criteria": [
+    "平台上线日期不是全球首发",
+    "不保证绝对更便宜",
+    "多语文案人工核对"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

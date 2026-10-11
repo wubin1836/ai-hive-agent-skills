@@ -1,0 +1,22 @@
+{
+  "skill": "aih-higgsfield-katana-edit",
+  "goal": "",
+  "required_materials": "自有照片、授权节奏参考、音乐授权、时长",
+  "materials": [],
+  "success_criteria": [
+    "不得冒称原厂Katana预设",
+    "音乐未授权不得商用分发",
+    "照片与输出身份要核对"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

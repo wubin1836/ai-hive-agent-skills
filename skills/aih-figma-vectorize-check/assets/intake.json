@@ -1,0 +1,22 @@
+{
+  "skill": "aih-figma-vectorize-check",
+  "goal": "",
+  "required_materials": "自有图标插画、颜色上限、最小尺寸、编辑要求",
+  "materials": [],
+  "success_criteria": [
+    "不复制无授权商标",
+    "描摹字体不说原字体",
+    "无工具不伪造完成"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

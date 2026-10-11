@@ -1,0 +1,6 @@
+interface:
+  display_name: "模型别名自动切换回归检查"
+  short_description: "别名漂移回归报告；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-model-alias-drift-regression，根据我提供的材料完成别名漂移回归报告。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

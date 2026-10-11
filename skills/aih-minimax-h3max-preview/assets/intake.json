@@ -1,0 +1,22 @@
+{
+  "skill": "aih-minimax-h3max-preview",
+  "goal": "",
+  "required_materials": "同一镜头简报、必须出现的声音动作、候选数量、预算",
+  "materials": [],
+  "success_criteria": [
+    "不把高速档当高分辨率档",
+    "声音与口型需实际听看",
+    "普通H3旧素材不能称Max实测"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

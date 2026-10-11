@@ -1,0 +1,21 @@
+{
+  "mode": "trials",
+  "groups": [
+    {
+      "model": "candidate-A",
+      "currency": "CNY",
+      "cases": 3,
+      "accepted": 1,
+      "unknown_or_pending": 1,
+      "not_accepted": 1,
+      "confirmed_pass_rate": 0.3333333333333333,
+      "known_cost_subtotal": 0.2,
+      "missing_cost_cases": 1,
+      "total_cost": null,
+      "cost_per_accepted": null,
+      "latency_samples": 2,
+      "latency_p95_ms": 1400.0
+    }
+  ],
+  "note": "Currencies are separate. Pending/unknown is not success. Costs must include all attempts per case."
+}

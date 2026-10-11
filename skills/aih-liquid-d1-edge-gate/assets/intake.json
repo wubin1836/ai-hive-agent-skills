@@ -1,0 +1,22 @@
+{
+  "skill": "aih-liquid-d1-edge-gate",
+  "goal": "",
+  "required_materials": "设备条件、有限决策标签、异常样本、可上传范围",
+  "materials": [],
+  "success_criteria": [
+    "云端调用不能宣传为离线",
+    "实验checkpoint不能冒充生产保证",
+    "不上传完整摄像头流"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

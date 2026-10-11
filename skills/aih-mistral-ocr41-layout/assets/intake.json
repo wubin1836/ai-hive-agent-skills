@@ -1,0 +1,22 @@
+{
+  "skill": "aih-mistral-ocr41-layout",
+  "goal": "",
+  "required_materials": "扫描PDF、关键字段、人工页样、旧OCR结果",
+  "materials": [],
+  "success_criteria": [
+    "不把置信度当准确率",
+    "原PDF保留不覆盖",
+    "合并单元格与跨页标题单独核对"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

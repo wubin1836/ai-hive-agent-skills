@@ -1,0 +1,22 @@
+{
+  "skill": "aih-heygen-liveavatar-support",
+  "goal": "",
+  "required_materials": "授权形象声音、演示资料、可读工具、会话保留要求",
+  "materials": [],
+  "success_criteria": [
+    "没有实时接口不能承诺实现",
+    "订单查询先核身份",
+    "不默认存储用户音频"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -6652,7 +6652,7 @@
 | [特看 Tabcut 平替｜生活场景种草视频事实校验](skills/aihive-tabcut-scene-proof/SKILL.md) | AI-HIVE | 特看 Tabcut |
 | [Kickart 营销视频平替｜商品资料到卖点证明镜头](skills/aihive-kickart-product-facts/SKILL.md) | AI-HIVE | Kickart |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7032,3 +7032,58 @@
 | [Agent Lightning 1.0训练轨迹准备](skills/aih-agent-lightning-rollout/SKILL.md) | AI-HIVE | AI workflows |
 | [桌面Agent越权动作模拟测试](skills/aih-agent-unintended-action-tests/SKILL.md) | AI-HIVE | AI workflows |
 | [AI模型优惠到期与真实成本核对](skills/aih-ai-promotion-price-expiry/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [AIHOT新品情报转业务试验清单](skills/aih-aihot-news-opportunity/SKILL.md) | AI-HIVE | AI workflows |
+| [模型API退役影响盘点助手](skills/aih-api-retirement-impact/SKILL.md) | AI-HIVE | AI workflows |
+| [Claude Dashboards经营看板平替](skills/aih-claude-dashboards-audit/SKILL.md) | AI-HIVE | AI workflows |
+| [Claude Design项目迁移与素材盘点](skills/aih-claude-design-portability/SKILL.md) | AI-HIVE | AI workflows |
+| [Claude Motion数据动画平替](skills/aih-claude-motion-report/SKILL.md) | AI-HIVE | AI workflows |
+| [Claude Google Workspace联动平替](skills/aih-claude-workspace-sync/SKILL.md) | AI-HIVE | AI workflows |
+| [扣子三方知识库引用核对](skills/aih-coze-external-kb-evidence/SKILL.md) | AI-HIVE | AI workflows |
+| [扣子MCP插件接入与权限映射](skills/aih-coze-mcp-plugin-map/SKILL.md) | AI-HIVE | AI workflows |
+| [Cursor远程Agent接续与结果交接](skills/aih-cursor-remote-handoff/SKILL.md) | AI-HIVE | AI workflows |
+| [Decisions API表单分流规则助手](skills/aih-decisions-api-intake/SKILL.md) | AI-HIVE | AI workflows |
+| [Deep Agents技能工具按需加载](skills/aih-deepagents-skill-tools/SKILL.md) | AI-HIVE | AI workflows |
+| [语音客服流程发布前演练｜ElevenAgents平替](skills/aih-eleven-procedure-dryrun/SKILL.md) | AI-HIVE | AI workflows |
+| [录音转写纠错留原文｜ElevenLabs转写编辑助手](skills/aih-eleven-transcript-evidence/SKILL.md) | AI-HIVE | AI workflows |
+| [多语多角色配音｜Eleven v4助手](skills/aih-eleven-v4-dialogue/SKILL.md) | AI-HIVE | AI workflows |
+| [EmbeddingGemma 2商品图文检索助手](skills/aih-embeddinggemma2-product-search/SKILL.md) | AI-HIVE | AI workflows |
+| [网页批注变修改单｜Figma Make平替](skills/aih-figma-make-annotation/SKILL.md) | AI-HIVE | AI workflows |
+| [图片转可编辑矢量｜Figma Vectorize平替](skills/aih-figma-vectorize-check/SKILL.md) | AI-HIVE | AI workflows |
+| [视频抠像透明背景｜Firefly去背景平替](skills/aih-firefly-video-matte/SKILL.md) | AI-HIVE | AI workflows |
+| [多参考商品广告图｜FLUX 3 Image助手](skills/aih-flux3-image-reference/SKILL.md) | AI-HIVE | AI workflows |
+| [GPT-6.1 Sol任务质量与预算验收](skills/aih-gpt61-sol-task-budget/SKILL.md) | AI-HIVE | AI workflows |
+| [GPT-6.1 Ultrafast低延迟联调助手](skills/aih-gpt61-ultrafast-latency/SKILL.md) | AI-HIVE | AI workflows |
+| [Claude Haiku 5.5客服工单分流助手](skills/aih-haiku55-ticket-routing/SKILL.md) | AI-HIVE | AI workflows |
+| [HeyGen Avatar V真人分身验收平替](skills/aih-heygen-avatarv-consistency/SKILL.md) | AI-HIVE | AI workflows |
+| [代码动画成片质检｜Code2Video评测助手](skills/aih-heygen-code2video-review/SKILL.md) | AI-HIVE | AI workflows |
+| [实时数字人讲解台｜HeyGen LiveAvatar平替](skills/aih-heygen-liveavatar-support/SKILL.md) | AI-HIVE | AI workflows |
+| [专业声音克隆语料包｜HeyGen PVC平替](skills/aih-heygen-professional-voice-corpus/SKILL.md) | AI-HIVE | AI workflows |
+| [广告钩子批量换版｜Ad Multiplier平替](skills/aih-higgsfield-ad-multiplier/SKILL.md) | AI-HIVE | AI workflows |
+| [网站一键广告套图｜Higgsfield Ads Studio平替](skills/aih-higgsfield-ads-brand-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [虚拟达人选角档案｜AI Influencer平替](skills/aih-higgsfield-ai-influencer-casting/SKILL.md) | AI-HIVE | AI workflows |
+| [整片换画风保动作｜Genjutsu Restyle平替](skills/aih-higgsfield-genjutsu-restyle/SKILL.md) | AI-HIVE | AI workflows |
+| [照片做卡点视频｜Higgsfield Katana平替](skills/aih-higgsfield-katana-edit/SKILL.md) | AI-HIVE | AI workflows |
+| [海报换文字保版式｜Ideogram 4.5助手](skills/aih-ideogram45-localization/SKILL.md) | AI-HIVE | AI workflows |
+| [Kimi Work飞书Notion双写审校](skills/aih-kimiwork-feishu-notion-review/SKILL.md) | AI-HIVE | AI workflows |
+| [Kimi Work办公文件版本交接](skills/aih-kimiwork-office-history/SKILL.md) | AI-HIVE | AI workflows |
+| [Liquid d1端侧决策与云端协作](skills/aih-liquid-d1-edge-gate/SKILL.md) | AI-HIVE | AI workflows |
+| [海报拆图层再排版｜Lovart Edit Elements平替](skills/aih-lovart-edit-elements/SKILL.md) | AI-HIVE | AI workflows |
+| [Luma Ray3.2多关键帧导演助手](skills/aih-luma-ray32-keyframes/SKILL.md) | AI-HIVE | AI workflows |
+| [MCP工具升级参数差异检查](skills/aih-mcp-schema-change-audit/SKILL.md) | AI-HIVE | AI workflows |
+| [MiniMax H3 Max快速试镜筛选](skills/aih-minimax-h3max-preview/SKILL.md) | AI-HIVE | AI workflows |
+| [Mistral OCR 4.1扫描件结构验收](skills/aih-mistral-ocr41-layout/SKILL.md) | AI-HIVE | AI workflows |
+| [Mistral Large 4多语文档证据助手](skills/aih-mistral4-doc-grounding/SKILL.md) | AI-HIVE | AI workflows |
+| [模型别名自动切换回归检查](skills/aih-model-alias-drift-regression/SKILL.md) | AI-HIVE | AI workflows |
+| [新模型盲测与失败样本复盘](skills/aih-model-benchmark-blind-review/SKILL.md) | AI-HIVE | AI workflows |
+| [AI新模型预览与正式版登记助手](skills/aih-model-preview-release-register/SKILL.md) | AI-HIVE | AI workflows |
+| [Nano Banana 2.1保主体连续改图](skills/aih-nano21-locked-edit/SKILL.md) | AI-HIVE | AI workflows |
+| [OpenDocRouter多模型文档解析平替](skills/aih-opendocrouter-parse-bench/SKILL.md) | AI-HIVE | AI workflows |
+| [同一场景换机位｜Pika Camera Director平替](skills/aih-pika-camera-reshoot/SKILL.md) | AI-HIVE | AI workflows |
+| [照片视频重新布光｜Pika Relight平替](skills/aih-pika-relight-lock/SKILL.md) | AI-HIVE | AI workflows |
+| [无声视频配环境声｜Pika Soundtrack平替](skills/aih-pika-soundtrack-cue/SKILL.md) | AI-HIVE | AI workflows |
+| [多格故事板转镜头｜PixVerse C1助手](skills/aih-pixverse-c1-storyboard/SKILL.md) | AI-HIVE | AI workflows |

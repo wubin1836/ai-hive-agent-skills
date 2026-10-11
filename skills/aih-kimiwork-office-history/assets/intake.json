@@ -1,0 +1,22 @@
+{
+  "skill": "aih-kimiwork-office-history",
+  "goal": "",
+  "required_materials": "指定Office文件、版本快照、修改记录、交付对象",
+  "materials": [],
+  "success_criteria": [
+    "不得覆盖唯一原件",
+    "宏文件和外部链接明确标注",
+    "公式结果与公式本体分别检查"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

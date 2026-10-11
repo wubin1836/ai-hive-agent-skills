@@ -1,0 +1,22 @@
+{
+  "skill": "aih-heygen-avatarv-consistency",
+  "goal": "",
+  "required_materials": "本人或书面授权影像、授权范围、口播稿、场景清单",
+  "materials": [],
+  "success_criteria": [
+    "不得冒充他人真实发言",
+    "AI-HIVE未提供该能力则只出制作包",
+    "外观相似不能证明身份授权"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

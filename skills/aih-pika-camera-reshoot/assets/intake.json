@@ -1,0 +1,22 @@
+{
+  "skill": "aih-pika-camera-reshoot",
+  "goal": "",
+  "required_materials": "场景原图、可见结构、景别、未知区域说明",
+  "materials": [],
+  "success_criteria": [
+    "未知背面标推测",
+    "不改变房屋真实结构作售楼证据",
+    "图像不是测量图"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -1,0 +1,22 @@
+{
+  "skill": "aih-eleven-procedure-dryrun",
+  "goal": "",
+  "required_materials": "脱敏流程、允许动作、转人工条件、回放用例",
+  "materials": [],
+  "success_criteria": [
+    "模拟通过不是上线",
+    "不强制合并冲突",
+    "录音必须获准处理"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

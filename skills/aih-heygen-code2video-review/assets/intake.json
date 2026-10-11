@@ -1,0 +1,22 @@
+{
+  "skill": "aih-heygen-code2video-review",
+  "goal": "",
+  "required_materials": "原创brief、动画工程、渲染视频、允许偏差",
+  "materials": [],
+  "success_criteria": [
+    "不捏造人工偏好分",
+    "无渲染工具交付待测清单",
+    "不冒称官方基准排名"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

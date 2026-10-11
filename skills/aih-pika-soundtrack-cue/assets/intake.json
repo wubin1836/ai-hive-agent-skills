@@ -1,0 +1,22 @@
+{
+  "skill": "aih-pika-soundtrack-cue",
+  "goal": "",
+  "required_materials": "自有无声视频、保留原声、声源清单、响度要求",
+  "materials": [],
+  "success_criteria": [
+    "合成音不是事实录音",
+    "音乐授权独立核对",
+    "未试听不得称同步合格"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

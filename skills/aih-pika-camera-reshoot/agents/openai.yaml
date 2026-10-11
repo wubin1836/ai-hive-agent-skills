@@ -1,0 +1,6 @@
+interface:
+  display_name: "同一场景换机位｜Pika Camera Director平替"
+  short_description: "机位变化与空间一致性；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-pika-camera-reshoot，根据我提供的材料完成机位变化与空间一致性。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

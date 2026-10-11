@@ -1,0 +1,22 @@
+{
+  "skill": "aih-heygen-professional-voice-corpus",
+  "goal": "",
+  "required_materials": "本人或书面授权录音、用途期限、朗读文本、声音版本",
+  "materials": [],
+  "success_criteria": [
+    "公开视频不等于授权",
+    "不能擅自启动付费训练",
+    "合成声不得用于绕过身份验证"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

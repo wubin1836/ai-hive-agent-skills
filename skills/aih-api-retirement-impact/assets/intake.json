@@ -1,0 +1,22 @@
+{
+  "skill": "aih-api-retirement-impact",
+  "goal": "",
+  "required_materials": "授权项目配置、模型ID清单、官方退役公告、负责人",
+  "materials": [],
+  "success_criteria": [
+    "保留原配置",
+    "不能把代理商下线当原厂全球退役",
+    "无替代能力时保留阻断"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

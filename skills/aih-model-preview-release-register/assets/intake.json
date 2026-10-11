@@ -1,0 +1,22 @@
+{
+  "skill": "aih-model-preview-release-register",
+  "goal": "",
+  "required_materials": "产品候选、官方公告、模型目录、当前账号可见信息",
+  "materials": [],
+  "success_criteria": [
+    "没有权重下载链接不写已开源",
+    "平台列名不等于当前账户授权",
+    "不虚构后续核验已完成"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

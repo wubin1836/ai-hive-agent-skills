@@ -1,0 +1,22 @@
+{
+  "skill": "aih-nano21-locked-edit",
+  "goal": "",
+  "required_materials": "商品原图、改图清单、不可更改属性、渠道规格",
+  "materials": [],
+  "success_criteria": [
+    "不能臆造商品功能",
+    "未产生图片只交付编辑包",
+    "OCR核对不替代人工品牌审核"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

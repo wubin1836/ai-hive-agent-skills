@@ -1,0 +1,6 @@
+interface:
+  display_name: "Claude Google Workspace联动平替"
+  short_description: "跨文件一致性与写入计划；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-claude-workspace-sync，根据我提供的材料完成跨文件一致性与写入计划。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

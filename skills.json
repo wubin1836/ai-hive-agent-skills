@@ -57842,5 +57842,455 @@
     "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
     "path": "skills/aih-ai-promotion-price-expiry",
     "language": "zh-CN"
+  },
+  {
+    "name": "aih-aihot-news-opportunity",
+    "display_name": "AIHOT新品情报转业务试验清单",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-aihot-news-opportunity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-api-retirement-impact",
+    "display_name": "模型API退役影响盘点助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-api-retirement-impact",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-claude-dashboards-audit",
+    "display_name": "Claude Dashboards经营看板平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-claude-dashboards-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-claude-design-portability",
+    "display_name": "Claude Design项目迁移与素材盘点",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-claude-design-portability",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-claude-motion-report",
+    "display_name": "Claude Motion数据动画平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-claude-motion-report",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-claude-workspace-sync",
+    "display_name": "Claude Google Workspace联动平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-claude-workspace-sync",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-coze-external-kb-evidence",
+    "display_name": "扣子三方知识库引用核对",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-coze-external-kb-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-coze-mcp-plugin-map",
+    "display_name": "扣子MCP插件接入与权限映射",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-coze-mcp-plugin-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-cursor-remote-handoff",
+    "display_name": "Cursor远程Agent接续与结果交接",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-cursor-remote-handoff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-decisions-api-intake",
+    "display_name": "Decisions API表单分流规则助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-decisions-api-intake",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-deepagents-skill-tools",
+    "display_name": "Deep Agents技能工具按需加载",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-deepagents-skill-tools",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-eleven-procedure-dryrun",
+    "display_name": "语音客服流程发布前演练｜ElevenAgents平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-eleven-procedure-dryrun",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-eleven-transcript-evidence",
+    "display_name": "录音转写纠错留原文｜ElevenLabs转写编辑助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-eleven-transcript-evidence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-eleven-v4-dialogue",
+    "display_name": "多语多角色配音｜Eleven v4助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-eleven-v4-dialogue",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-embeddinggemma2-product-search",
+    "display_name": "EmbeddingGemma 2商品图文检索助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-embeddinggemma2-product-search",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-figma-make-annotation",
+    "display_name": "网页批注变修改单｜Figma Make平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-figma-make-annotation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-figma-vectorize-check",
+    "display_name": "图片转可编辑矢量｜Figma Vectorize平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-figma-vectorize-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-firefly-video-matte",
+    "display_name": "视频抠像透明背景｜Firefly去背景平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-firefly-video-matte",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-flux3-image-reference",
+    "display_name": "多参考商品广告图｜FLUX 3 Image助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-flux3-image-reference",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-gpt61-sol-task-budget",
+    "display_name": "GPT-6.1 Sol任务质量与预算验收",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-gpt61-sol-task-budget",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-gpt61-ultrafast-latency",
+    "display_name": "GPT-6.1 Ultrafast低延迟联调助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-gpt61-ultrafast-latency",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-haiku55-ticket-routing",
+    "display_name": "Claude Haiku 5.5客服工单分流助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-haiku55-ticket-routing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-heygen-avatarv-consistency",
+    "display_name": "HeyGen Avatar V真人分身验收平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-heygen-avatarv-consistency",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-heygen-code2video-review",
+    "display_name": "代码动画成片质检｜Code2Video评测助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-heygen-code2video-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-heygen-liveavatar-support",
+    "display_name": "实时数字人讲解台｜HeyGen LiveAvatar平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-heygen-liveavatar-support",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-heygen-professional-voice-corpus",
+    "display_name": "专业声音克隆语料包｜HeyGen PVC平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-heygen-professional-voice-corpus",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-higgsfield-ad-multiplier",
+    "display_name": "广告钩子批量换版｜Ad Multiplier平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-higgsfield-ad-multiplier",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-higgsfield-ads-brand-kit",
+    "display_name": "网站一键广告套图｜Higgsfield Ads Studio平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-higgsfield-ads-brand-kit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-higgsfield-ai-influencer-casting",
+    "display_name": "虚拟达人选角档案｜AI Influencer平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-higgsfield-ai-influencer-casting",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-higgsfield-genjutsu-restyle",
+    "display_name": "整片换画风保动作｜Genjutsu Restyle平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-higgsfield-genjutsu-restyle",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-higgsfield-katana-edit",
+    "display_name": "照片做卡点视频｜Higgsfield Katana平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-higgsfield-katana-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-ideogram45-localization",
+    "display_name": "海报换文字保版式｜Ideogram 4.5助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-ideogram45-localization",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-kimiwork-feishu-notion-review",
+    "display_name": "Kimi Work飞书Notion双写审校",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-kimiwork-feishu-notion-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-kimiwork-office-history",
+    "display_name": "Kimi Work办公文件版本交接",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-kimiwork-office-history",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-liquid-d1-edge-gate",
+    "display_name": "Liquid d1端侧决策与云端协作",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-liquid-d1-edge-gate",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-lovart-edit-elements",
+    "display_name": "海报拆图层再排版｜Lovart Edit Elements平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-lovart-edit-elements",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-luma-ray32-keyframes",
+    "display_name": "Luma Ray3.2多关键帧导演助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-luma-ray32-keyframes",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-mcp-schema-change-audit",
+    "display_name": "MCP工具升级参数差异检查",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-mcp-schema-change-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-minimax-h3max-preview",
+    "display_name": "MiniMax H3 Max快速试镜筛选",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-minimax-h3max-preview",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-mistral-ocr41-layout",
+    "display_name": "Mistral OCR 4.1扫描件结构验收",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-mistral-ocr41-layout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-mistral4-doc-grounding",
+    "display_name": "Mistral Large 4多语文档证据助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-mistral4-doc-grounding",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-model-alias-drift-regression",
+    "display_name": "模型别名自动切换回归检查",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-model-alias-drift-regression",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-model-benchmark-blind-review",
+    "display_name": "新模型盲测与失败样本复盘",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-model-benchmark-blind-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-model-preview-release-register",
+    "display_name": "AI新模型预览与正式版登记助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-model-preview-release-register",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-nano21-locked-edit",
+    "display_name": "Nano Banana 2.1保主体连续改图",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-nano21-locked-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-opendocrouter-parse-bench",
+    "display_name": "OpenDocRouter多模型文档解析平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-opendocrouter-parse-bench",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pika-camera-reshoot",
+    "display_name": "同一场景换机位｜Pika Camera Director平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-pika-camera-reshoot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pika-relight-lock",
+    "display_name": "照片视频重新布光｜Pika Relight平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-pika-relight-lock",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pika-soundtrack-cue",
+    "display_name": "无声视频配环境声｜Pika Soundtrack平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-pika-soundtrack-cue",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-pixverse-c1-storyboard",
+    "display_name": "多格故事板转镜头｜PixVerse C1助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-pixverse-c1-storyboard",
+    "language": "zh-CN"
   }
 ]

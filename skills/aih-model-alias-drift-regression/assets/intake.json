@@ -1,0 +1,22 @@
+{
+  "skill": "aih-model-alias-drift-regression",
+  "goal": "",
+  "required_materials": "旧请求记录、返回model字段、固定样本、关键阈值",
+  "materials": [],
+  "success_criteria": [
+    "无版本证据不推断后台已换",
+    "schema失败优先于风格分",
+    "回滚要核对旧模型仍可用"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

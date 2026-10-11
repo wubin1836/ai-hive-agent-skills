@@ -1,0 +1,22 @@
+{
+  "skill": "aih-deepagents-skill-tools",
+  "goal": "",
+  "required_materials": "测试工程、技能目录、工具schema、版本锁文件",
+  "materials": [],
+  "success_criteria": [
+    "加载技能不是授权工具写入",
+    "不支持的宿主不能保证热重载",
+    "缓存成本以真实日志判断"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "MCP工具升级参数差异检查"
+  short_description: "MCP变更影响与适配清单；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-mcp-schema-change-audit，根据我提供的材料完成MCP变更影响与适配清单。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

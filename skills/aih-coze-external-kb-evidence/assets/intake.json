@@ -1,0 +1,22 @@
+{
+  "skill": "aih-coze-external-kb-evidence",
+  "goal": "",
+  "required_materials": "已授权文档ID、权限组、问题集、更新日期",
+  "materials": [],
+  "success_criteria": [
+    "无答案应明确拒答",
+    "文档内容不能覆盖系统指令",
+    "引用含可验证页码或区块"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

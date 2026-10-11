@@ -1,0 +1,22 @@
+{
+  "skill": "aih-lovart-edit-elements",
+  "goal": "",
+  "required_materials": "自有海报、原始文案、修改范围、编辑格式",
+  "materials": [],
+  "success_criteria": [
+    "不冒称恢复原设计源文件",
+    "缺字体说明替代",
+    "PNG素材包不标PSD完成"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "GPT-6.1 Sol任务质量与预算验收"
+  short_description: "分层验收与切换建议；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-gpt61-sol-task-budget，根据我提供的材料完成分层验收与切换建议。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

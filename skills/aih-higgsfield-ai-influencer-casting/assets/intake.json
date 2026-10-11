@@ -1,0 +1,22 @@
+{
+  "skill": "aih-higgsfield-ai-influencer-casting",
+  "goal": "",
+  "required_materials": "原创人物简报、品牌受众、服装场景、禁用相似形象",
+  "materials": [],
+  "success_criteria": [
+    "不得假称真实用户体验",
+    "不能冒用真人代言",
+    "每张同一角色需核对"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

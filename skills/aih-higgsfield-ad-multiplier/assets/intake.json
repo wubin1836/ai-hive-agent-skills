@@ -1,0 +1,22 @@
+{
+  "skill": "aih-higgsfield-ad-multiplier",
+  "goal": "",
+  "required_materials": "自有或授权广告、商品资产、待测钩子、预算",
+  "materials": [],
+  "success_criteria": [
+    "不用他人的效果数据当本品证据",
+    "不承诺爆单",
+    "保留素材授权记录"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

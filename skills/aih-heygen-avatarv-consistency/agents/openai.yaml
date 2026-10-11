@@ -1,0 +1,6 @@
+interface:
+  display_name: "HeyGen Avatar V真人分身验收平替"
+  short_description: "真人分身授权与连续性验收；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-heygen-avatarv-consistency，根据我提供的材料完成真人分身授权与连续性验收。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

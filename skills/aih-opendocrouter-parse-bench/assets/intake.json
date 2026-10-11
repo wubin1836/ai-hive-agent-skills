@@ -1,0 +1,22 @@
+{
+  "skill": "aih-opendocrouter-parse-bench",
+  "goal": "",
+  "required_materials": "授权PDF集、字段或版面标准、成本上限",
+  "materials": [],
+  "success_criteria": [
+    "统一API不代表各模型同样能力",
+    "第三方优惠不当AI-HIVE价格",
+    "原PDF只读保留"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

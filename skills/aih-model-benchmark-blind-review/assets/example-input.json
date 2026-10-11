@@ -1,0 +1,32 @@
+[
+  {
+    "case_id": "demo-01",
+    "model": "candidate-A",
+    "status": "completed",
+    "passed": true,
+    "cost": 0.12,
+    "currency": "CNY",
+    "latency_ms": 900,
+    "evidence": "synthetic/manual-pass"
+  },
+  {
+    "case_id": "demo-02",
+    "model": "candidate-A",
+    "status": "failed",
+    "passed": false,
+    "cost": 0.08,
+    "currency": "CNY",
+    "latency_ms": 1400,
+    "evidence": "synthetic/error"
+  },
+  {
+    "case_id": "demo-03",
+    "model": "candidate-A",
+    "status": "pending",
+    "passed": null,
+    "cost": null,
+    "currency": "CNY",
+    "latency_ms": null,
+    "evidence": "synthetic/pending"
+  }
+]

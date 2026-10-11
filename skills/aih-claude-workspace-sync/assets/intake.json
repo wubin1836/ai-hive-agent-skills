@@ -1,0 +1,22 @@
+{
+  "skill": "aih-claude-workspace-sync",
+  "goal": "",
+  "required_materials": "文档、表格、演示稿的授权副本、指标与版本",
+  "materials": [],
+  "success_criteria": [
+    "不能只改PPT漏改源表",
+    "不自动扩大链接共享",
+    "冲突先交接不覆盖"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

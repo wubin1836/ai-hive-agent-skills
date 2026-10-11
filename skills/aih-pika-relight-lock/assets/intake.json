@@ -1,0 +1,22 @@
+{
+  "skill": "aih-pika-relight-lock",
+  "goal": "",
+  "required_materials": "原图或视频、目标光位、反射材质、保护区",
+  "materials": [],
+  "success_criteria": [
+    "不改变商品真实颜色而不披露",
+    "单帧不能称整片完成",
+    "人脸身份保持单列验收"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

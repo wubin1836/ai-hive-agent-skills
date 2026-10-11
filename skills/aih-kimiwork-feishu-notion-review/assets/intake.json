@@ -1,0 +1,22 @@
+{
+  "skill": "aih-kimiwork-feishu-notion-review",
+  "goal": "",
+  "required_materials": "指定文档、基准版本、批注意见、允许修改区段",
+  "materials": [],
+  "success_criteria": [
+    "AI-HIVE连接不自动获得飞书Notion权限",
+    "不删除未解决评论",
+    "版本冲突必须人工确认"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

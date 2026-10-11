@@ -1,0 +1,22 @@
+{
+  "skill": "aih-embeddinggemma2-product-search",
+  "goal": "",
+  "required_materials": "获授权产品图册、SKU属性、测试查询、相关性标注",
+  "materials": [],
+  "success_criteria": [
+    "索引版本可追溯",
+    "候选相似不等于同款",
+    "无向量工具时不伪造检索结果"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

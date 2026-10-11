@@ -1,0 +1,22 @@
+{
+  "skill": "aih-figma-make-annotation",
+  "goal": "",
+  "required_materials": "网站代码副本、批注截图、组件约束、设备宽度",
+  "materials": [],
+  "success_criteria": [
+    "截图位置不是真实DOM选择器",
+    "保持键盘焦点和文字对比",
+    "不覆盖未提交代码"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

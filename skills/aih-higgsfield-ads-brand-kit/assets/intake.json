@@ -1,0 +1,22 @@
+{
+  "skill": "aih-higgsfield-ads-brand-kit",
+  "goal": "",
+  "required_materials": "自有商品网址或资料、Logo、已验证卖点、投放尺寸",
+  "materials": [],
+  "success_criteria": [
+    "不得抓取登录后的全店数据",
+    "不能把活动价写成永久价",
+    "无广告平台授权不自动投放"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

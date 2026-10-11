@@ -1,0 +1,22 @@
+{
+  "skill": "aih-coze-mcp-plugin-map",
+  "goal": "",
+  "required_materials": "扣子应用副本、已获准MCP地址、任务动作清单",
+  "materials": [],
+  "success_criteria": [
+    "不上传密钥到技能",
+    "不恢复已下线的发布入口",
+    "付费生成前确认预算"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

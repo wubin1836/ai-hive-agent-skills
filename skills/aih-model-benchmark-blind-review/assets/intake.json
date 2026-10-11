@@ -1,0 +1,22 @@
+{
+  "skill": "aih-model-benchmark-blind-review",
+  "goal": "",
+  "required_materials": "自有任务集、参考答案、评审标准、候选模型与预算",
+  "materials": [],
+  "success_criteria": [
+    "人工待审不得按成功",
+    "不删失败样本美化榜单",
+    "不同任务不能任意合并平均"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

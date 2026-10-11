@@ -1,0 +1,22 @@
+{
+  "skill": "aih-higgsfield-genjutsu-restyle",
+  "goal": "",
+  "required_materials": "授权原片、原创画风参考、帧率时长、动作锚点",
+  "materials": [],
+  "success_criteria": [
+    "静态风格图不能冒充视频",
+    "不移除来源水印",
+    "不承诺跨模型完全保帧"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

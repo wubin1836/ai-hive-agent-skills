@@ -1,0 +1,22 @@
+{
+  "skill": "aih-claude-design-portability",
+  "goal": "",
+  "required_materials": "用户可访问项目、可导出资源、评论与链接清单",
+  "materials": [],
+  "success_criteria": [
+    "历史评论不能假称已自动迁移",
+    "源服务日期以执行时复核",
+    "不自动下载无授权共享素材"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -1,0 +1,22 @@
+{
+  "skill": "aih-gpt61-ultrafast-latency",
+  "goal": "",
+  "required_materials": "同一提示、并发目标、超时阈值、客户端日志",
+  "materials": [],
+  "success_criteria": [
+    "总时延包含排队与网络",
+    "不擅自开启付费档位",
+    "无支持证据不生成猜测参数"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

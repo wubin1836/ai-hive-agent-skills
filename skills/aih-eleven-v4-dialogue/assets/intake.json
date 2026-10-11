@@ -1,0 +1,22 @@
+{
+  "skill": "aih-eleven-v4-dialogue",
+  "goal": "",
+  "required_materials": "授权台本、音色许可、目标语言、发音词表",
+  "materials": [],
+  "success_criteria": [
+    "厂商推理延迟不等于端到端延迟",
+    "不克隆无授权真人声音",
+    "旧版音轨不标为v4测试"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

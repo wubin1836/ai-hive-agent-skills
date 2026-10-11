@@ -1,0 +1,22 @@
+{
+  "skill": "aih-ideogram45-localization",
+  "goal": "",
+  "required_materials": "自有广告图、逐字替换表、目标语言、Logo保护区",
+  "materials": [],
+  "success_criteria": [
+    "不添加翻译后的功效承诺",
+    "文字不清不算通过",
+    "新版本可用性实时查询"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

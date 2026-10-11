@@ -1,0 +1,22 @@
+{
+  "skill": "aih-luma-ray32-keyframes",
+  "goal": "",
+  "required_materials": "授权关键帧、各帧目标时间、角色动作、片长",
+  "materials": [],
+  "success_criteria": [
+    "不得保证每帧像素级锁定",
+    "素材权利需确认",
+    "时间点应在总片长内"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}
