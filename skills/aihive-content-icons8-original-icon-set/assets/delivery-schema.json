@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-icons8-original-icon-set",
+  "documents": [
+    {
+      "path": "icon-map.csv",
+      "required_fields": [
+        "icon_id",
+        "meaning",
+        "filename",
+        "format",
+        "review_status"
+      ]
+    },
+    {
+      "path": "style-tokens.json",
+      "required_fields": [
+        "grid",
+        "stroke",
+        "colors"
+      ]
+    }
+  ],
+  "media_deliverables": "真实图标文件和小尺寸测试页；SVG仅在路径实际生成时交付。",
+  "human_acceptance": [
+    "套系线宽和视觉重量统一。",
+    "无权下载的商业图标不复制。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-hubspot-stage-content",
+  "documents": [
+    {
+      "path": "stage-content.csv",
+      "required_fields": [
+        "segment_id",
+        "stage",
+        "content_id",
+        "source_ref",
+        "next_action"
+      ]
+    },
+    {
+      "path": "followup-drafts.json",
+      "required_fields": [
+        "drafts",
+        "suppression_rules"
+      ]
+    }
+  ],
+  "media_deliverables": "分阶段内容稿和可核对的跟进清单；不是已部署营销自动化。",
+  "human_acceptance": [
+    "客户未提供的信息不被臆造。",
+    "拒收客户不进入触达候选。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

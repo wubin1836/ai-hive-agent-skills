@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-kapwing-webinar-layout",
+  "documents": [
+    {
+      "path": "track-sync.csv",
+      "required_fields": [
+        "track_id",
+        "fps",
+        "offset_seconds",
+        "evidence"
+      ]
+    },
+    {
+      "path": "layout-timeline.json",
+      "required_fields": [
+        "segments",
+        "protected_regions",
+        "outputs"
+      ]
+    }
+  ],
+  "media_deliverables": "实际画中画视频、字幕与时间线交接文件。",
+  "human_acceptance": [
+    "不能遮住演示的重要按钮、代码或图表。",
+    "跨长时段抽查音画漂移。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

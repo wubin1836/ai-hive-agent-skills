@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-grammarly-business-redline",
+  "documents": [
+    {
+      "path": "sentence-changes.csv",
+      "required_fields": [
+        "sentence_id",
+        "original",
+        "revised",
+        "reason",
+        "meaning_change"
+      ]
+    },
+    {
+      "path": "fact-lock-review.json",
+      "required_fields": [
+        "locked_facts",
+        "checks",
+        "unresolved"
+      ]
+    }
+  ],
+  "media_deliverables": "英文定稿、逐句对照表和待确认事项。",
+  "human_acceptance": [
+    "润色不能改变付款、交付或日期承诺。",
+    "不以华丽语句牺牲准确含义。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

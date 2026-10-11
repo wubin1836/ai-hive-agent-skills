@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-leonardo-prop-variations",
+  "documents": [
+    {
+      "path": "prop-bible.json",
+      "required_fields": [
+        "props",
+        "style_rules"
+      ]
+    },
+    {
+      "path": "variant-matrix.csv",
+      "required_fields": [
+        "prop_id",
+        "variant_id",
+        "structure_change",
+        "output_path",
+        "decision"
+      ]
+    }
+  ],
+  "media_deliverables": "原创道具概念图与标注页；不是可直接使用的3D模型。",
+  "human_acceptance": [
+    "固定部件、阵营和用途一致。",
+    "未经建模不能声称具有真实拓扑。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

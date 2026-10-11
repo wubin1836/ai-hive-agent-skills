@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-animaker-explainer-blocks",
+  "documents": [
+    {
+      "path": "scene-components.json",
+      "required_fields": [
+        "scenes",
+        "assets",
+        "timing"
+      ]
+    },
+    {
+      "path": "animation-review.csv",
+      "required_fields": [
+        "scene_id",
+        "readability",
+        "sync",
+        "output_path",
+        "status"
+      ]
+    }
+  ],
+  "media_deliverables": "实际动画文件和可用工程；没有渲染工具则交标明未渲染的组件包。",
+  "human_acceptance": [
+    "动作能解释概念，不以装饰动画替代信息。",
+    "旁白、画面和字幕同步。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

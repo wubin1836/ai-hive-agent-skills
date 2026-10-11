@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-removebg-alpha-qc",
+  "documents": [
+    {
+      "path": "cutout-manifest.csv",
+      "required_fields": [
+        "asset_id",
+        "source_ref",
+        "output_path",
+        "alpha_present",
+        "edge_status"
+      ]
+    },
+    {
+      "path": "edge-review.json",
+      "required_fields": [
+        "failed_items",
+        "notes"
+      ]
+    }
+  ],
+  "media_deliverables": "真实透明PNG与多底色边缘对照图。",
+  "human_acceptance": [
+    "白底图片不能冒充透明底。",
+    "半透明材质不能被误删成空洞。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

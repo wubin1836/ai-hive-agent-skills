@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-domo-anime-restyle",
+  "documents": [
+    {
+      "path": "motion-anchors.csv",
+      "required_fields": [
+        "shot_id",
+        "timecode",
+        "action",
+        "reference"
+      ]
+    },
+    {
+      "path": "restyle-review.json",
+      "required_fields": [
+        "shots",
+        "temporal_issues",
+        "output_paths"
+      ]
+    }
+  ],
+  "media_deliverables": "实际动漫化视频与关键帧对照；仅关键帧成果需明确标注。",
+  "human_acceptance": [
+    "不能以重新生成不同动作的短片替代原视频转换。",
+    "输出人物形象须在授权范围内。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

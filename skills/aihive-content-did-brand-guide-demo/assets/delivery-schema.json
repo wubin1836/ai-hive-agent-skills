@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-did-brand-guide-demo",
+  "documents": [
+    {
+      "path": "guide-dialogues.json",
+      "required_fields": [
+        "intents",
+        "answers",
+        "evidence",
+        "fallbacks"
+      ]
+    },
+    {
+      "path": "demo-record.csv",
+      "required_fields": [
+        "case_id",
+        "input",
+        "output_path",
+        "runtime_mode",
+        "review"
+      ]
+    }
+  ],
+  "media_deliverables": "虚拟讲解员脚本、形象素材及真实生成的演示片段。",
+  "human_acceptance": [
+    "销售条件有资料支持，不制造虚假使用评价。",
+    "录制片段不得冒充实时互动。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

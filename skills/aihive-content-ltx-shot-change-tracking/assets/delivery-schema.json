@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-ltx-shot-change-tracking",
+  "documents": [
+    {
+      "path": "change-impact.csv",
+      "required_fields": [
+        "change_id",
+        "shot_id",
+        "reason",
+        "action",
+        "asset_ref"
+      ]
+    },
+    {
+      "path": "revision-state.json",
+      "required_fields": [
+        "retained",
+        "regenerated",
+        "pending"
+      ]
+    }
+  ],
+  "media_deliverables": "新版分镜、实际返工镜头及剪辑替换说明。",
+  "human_acceptance": [
+    "未改镜头不无故重复付费。",
+    "旧镜头与新剧情不能发生角色或道具冲突。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

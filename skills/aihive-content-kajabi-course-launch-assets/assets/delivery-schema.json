@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-kajabi-course-launch-assets",
+  "documents": [
+    {
+      "path": "course-asset-map.csv",
+      "required_fields": [
+        "asset_id",
+        "lesson_ref",
+        "purpose",
+        "output_path",
+        "status"
+      ]
+    },
+    {
+      "path": "launch-facts.json",
+      "required_fields": [
+        "included",
+        "excluded",
+        "dates",
+        "policies"
+      ]
+    }
+  ],
+  "media_deliverables": "课程介绍、试听稿、封面与开课通知文件；未生成媒体须注明。",
+  "human_acceptance": [
+    "试听和销售页不夸大实际交付。",
+    "讲师履历与学员案例有真实依据。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

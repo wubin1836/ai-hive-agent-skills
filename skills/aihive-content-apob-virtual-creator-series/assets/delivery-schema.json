@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-apob-virtual-creator-series",
+  "documents": [
+    {
+      "path": "creator-bible.json",
+      "required_fields": [
+        "fictional_identity",
+        "visual_rules",
+        "history"
+      ]
+    },
+    {
+      "path": "episode-calendar.csv",
+      "required_fields": [
+        "episode_id",
+        "topic",
+        "continuity_ref",
+        "asset_path",
+        "disclosure",
+        "status"
+      ]
+    }
+  ],
+  "media_deliverables": "虚拟博主设定、连载稿和实际生成的图片或视频素材。",
+  "human_acceptance": [
+    "不虚构真人体验、收入或粉丝数据。",
+    "同一角色跨集身份和经历一致。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

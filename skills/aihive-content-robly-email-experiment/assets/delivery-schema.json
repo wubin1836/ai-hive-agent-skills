@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-robly-email-experiment",
+  "documents": [
+    {
+      "path": "experiment-plan.json",
+      "required_fields": [
+        "variable",
+        "groups",
+        "metrics",
+        "stop_rules"
+      ]
+    },
+    {
+      "path": "email-results.csv",
+      "required_fields": [
+        "group",
+        "delivered",
+        "clicks",
+        "unsubscribes",
+        "limitations"
+      ]
+    }
+  ],
+  "media_deliverables": "主题变体、实验配置和基于真实数据的复盘表。",
+  "human_acceptance": [
+    "不能用不同时段或不同人群的差异冒充因果。",
+    "无数据的结果列保持缺失而非填0。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

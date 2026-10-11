@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-firefly-generative-fill",
+  "documents": [
+    {
+      "path": "layer-plan.json",
+      "required_fields": [
+        "protected_layers",
+        "generated_layers"
+      ]
+    },
+    {
+      "path": "composite-review.csv",
+      "required_fields": [
+        "variant_id",
+        "product_fidelity",
+        "light_match",
+        "output_path",
+        "status"
+      ]
+    }
+  ],
+  "media_deliverables": "合成图及可编辑图层文件（仅在真实支持时）。",
+  "human_acceptance": [
+    "商品标签、标识和结构保持原样。",
+    "不得把普通位图命名为可编辑PSD。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

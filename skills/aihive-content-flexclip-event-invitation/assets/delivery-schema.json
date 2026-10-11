@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-flexclip-event-invitation",
+  "documents": [
+    {
+      "path": "event-facts.json",
+      "required_fields": [
+        "confirmed",
+        "tentative",
+        "registration"
+      ]
+    },
+    {
+      "path": "invitation-review.csv",
+      "required_fields": [
+        "version_id",
+        "date_check",
+        "link_check",
+        "output_path",
+        "status"
+      ]
+    }
+  ],
+  "media_deliverables": "实际邀请短片、封面与可核对的信息卡。",
+  "human_acceptance": [
+    "成片不得保留已过期日期。",
+    "嘉宾素材不能暗示未确认出席。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

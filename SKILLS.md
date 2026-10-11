@@ -6923,7 +6923,7 @@
 | [Coupang韩语商品差异图助手](skills/imiva-channel-coupang-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
 | [Shopify商品页面图片交付助手](skills/imiva-channel-shopify-workflow/SKILL.md) | IMIVA | 中国卖家出海 |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7307,3 +7307,58 @@
 | [袁启聪公开内容学习｜用车账本与车型取舍](skills/aihive-persona-yuanqicong-ownership-cost/SKILL.md) | AI-HIVE | AI workflows |
 | [张踩铃公开内容学习｜家庭日常口播与原创段子](skills/aihive-persona-zhangcailing-family-stories/SKILL.md) | AI-HIVE | AI workflows |
 | [住范儿公开内容学习｜装修报价对项与内容问答](skills/aihive-persona-zhufaner-renovation-quote/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [周六野Zoey公开内容学习｜低冲击跟练需求匹配](skills/aihive-persona-zoey-low-impact-filter/SKILL.md) | AI-HIVE | AI workflows |
+| [Animaker平替｜二维讲解动画与场景组件](skills/aihive-content-animaker-explainer-blocks/SKILL.md) | AI-HIVE | AI workflows |
+| [APOB平替｜虚拟博主设定与连载内容包](skills/aihive-content-apob-virtual-creator-series/SKILL.md) | AI-HIVE | AI workflows |
+| [Artflow平替｜原创演员选角卡与服装试装](skills/aihive-content-artflow-casting-wardrobe/SKILL.md) | AI-HIVE | AI workflows |
+| [Artlist平替｜视频配乐选曲与节奏剪辑单](skills/aihive-content-artlist-music-cue-planning/SKILL.md) | AI-HIVE | AI workflows |
+| [Beacons平替｜创作者媒体包与品牌合作介绍](skills/aihive-content-beacons-creator-media-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Chaport平替｜网站咨询FAQ与人工接管](skills/aihive-content-chaport-chat-routing/SKILL.md) | AI-HIVE | AI workflows |
+| [Character.AI平替｜原创角色卡与对话记忆](skills/aihive-content-characterai-character-memory/SKILL.md) | AI-HIVE | AI workflows |
+| [Clay平替｜企业线索资料核对与拜访简报](skills/aihive-content-clay-account-research-brief/SKILL.md) | AI-HIVE | AI workflows |
+| [Clipchamp平替｜幻灯片配音成片与翻页同步](skills/aihive-content-clipchamp-slide-narration/SKILL.md) | AI-HIVE | AI workflows |
+| [Coolors平替｜品牌配色提取与对比度校验](skills/aihive-content-coolors-brand-palette/SKILL.md) | AI-HIVE | AI workflows |
+| [Copy.ai平替｜商品描述批量生成与字段回填](skills/aihive-content-copyai-product-description-batch/SKILL.md) | AI-HIVE | AI workflows |
+| [Cutout.pro平替｜照片转线稿与涂色页](skills/aihive-content-cutout-coloring-lines/SKILL.md) | AI-HIVE | AI workflows |
+| [Delphi平替｜本人知识分身与来源问答](skills/aihive-content-delphi-sourced-knowledge-self/SKILL.md) | AI-HIVE | AI workflows |
+| [D-ID平替｜品牌虚拟讲解员与问答演示](skills/aihive-content-did-brand-guide-demo/SKILL.md) | AI-HIVE | AI workflows |
+| [DomoAI平替｜真人视频转动漫与动作保留](skills/aihive-content-domo-anime-restyle/SKILL.md) | AI-HIVE | AI workflows |
+| [DreamFace平替｜宠物开口与趣味配音短片](skills/aihive-content-dreamface-talking-pet/SKILL.md) | AI-HIVE | AI workflows |
+| [Edpuzzle平替｜课程视频出题与知识点定位](skills/aihive-content-edpuzzle-video-question-map/SKILL.md) | AI-HIVE | AI workflows |
+| [Envato平替｜自有视频模板填充与素材打包](skills/aihive-content-envato-owned-template-fill/SKILL.md) | AI-HIVE | AI workflows |
+| [Filmora平替｜多机位访谈同步与切镜](skills/aihive-content-filmora-multicam-interview/SKILL.md) | AI-HIVE | AI workflows |
+| [Adobe Firefly平替｜商品场景补绘与保护区合成](skills/aihive-content-firefly-generative-fill/SKILL.md) | AI-HIVE | AI workflows |
+| [FlexClip平替｜活动邀请短片与报名信息同步](skills/aihive-content-flexclip-event-invitation/SKILL.md) | AI-HIVE | AI workflows |
+| [FlowUs 息流平替｜知识库文章合并与修订说明](skills/aihive-content-flowus-knowledge-revision/SKILL.md) | AI-HIVE | AI workflows |
+| [GetResponse平替｜订阅欢迎邮件与内容序列](skills/aihive-content-getresponse-email-sequence/SKILL.md) | AI-HIVE | AI workflows |
+| [GoEnhance平替｜混剪素材风格统一与镜头匹配](skills/aihive-content-goenhance-mixed-shot-style/SKILL.md) | AI-HIVE | AI workflows |
+| [Grammarly平替｜英文商务文稿逐句审校](skills/aihive-content-grammarly-business-redline/SKILL.md) | AI-HIVE | AI workflows |
+| [Hedra平替｜音频驱动角色表演与情绪节奏](skills/aihive-content-hedra-audio-performance/SKILL.md) | AI-HIVE | AI workflows |
+| [HubSpot平替｜客户阶段内容包与跟进草稿](skills/aihive-content-hubspot-stage-content/SKILL.md) | AI-HIVE | AI workflows |
+| [Icons8平替｜原创图标套系与尺寸交付](skills/aihive-content-icons8-original-icon-set/SKILL.md) | AI-HIVE | AI workflows |
+| [Ideogram平替｜海报改字与多语言排版](skills/aihive-content-ideogram-poster-text/SKILL.md) | AI-HIVE | AI workflows |
+| [Jasper平替｜品牌口吻提炼与文案一致性](skills/aihive-content-jasper-brand-voice-corpus/SKILL.md) | AI-HIVE | AI workflows |
+| [Kajabi平替｜知识产品课程包装与开课物料](skills/aihive-content-kajabi-course-launch-assets/SKILL.md) | AI-HIVE | AI workflows |
+| [Kantar 凯度平替｜开放题调研编码与原话证据表](skills/aihive-content-kantar-open-response-coding/SKILL.md) | AI-HIVE | AI workflows |
+| [Kapwing平替｜线上分享录屏与人物画中画](skills/aihive-content-kapwing-webinar-layout/SKILL.md) | AI-HIVE | AI workflows |
+| [Krea平替｜草图渲染与构图迭代](skills/aihive-content-krea-sketch-iterations/SKILL.md) | AI-HIVE | AI workflows |
+| [Leonardo.Ai平替｜游戏道具设定与风格变体](skills/aihive-content-leonardo-prop-variations/SKILL.md) | AI-HIVE | AI workflows |
+| [LiveReacting平替｜直播互动题库与主持流程](skills/aihive-content-livereacting-quiz-show/SKILL.md) | AI-HIVE | AI workflows |
+| [LTX Studio平替｜剧本改稿与分镜局部返工](skills/aihive-content-ltx-shot-change-tracking/SKILL.md) | AI-HIVE | AI workflows |
+| [MagicSchool平替｜差异化教案与评分量规](skills/aihive-content-magicschool-lesson-rubrics/SKILL.md) | AI-HIVE | AI workflows |
+| [Media.io平替｜商品动图循环与GIF导出](skills/aihive-content-mediaio-product-loops/SKILL.md) | AI-HIVE | AI workflows |
+| [NovelAI平替｜小说设定库与伏笔连续性](skills/aihive-content-novelai-lore-continuity/SKILL.md) | AI-HIVE | AI workflows |
+| [OpenArt平替｜图文故事分格与场景连续性](skills/aihive-content-openart-story-panels/SKILL.md) | AI-HIVE | AI workflows |
+| [Picsart平替｜社媒拼图与贴纸版式](skills/aihive-content-picsart-social-collage/SKILL.md) | AI-HIVE | AI workflows |
+| [PixAI平替｜原创二次元表情差分](skills/aihive-content-pixai-expression-sheets/SKILL.md) | AI-HIVE | AI workflows |
+| [Pixlr平替｜促销图批量改尺寸与重排](skills/aihive-content-pixlr-retail-resize/SKILL.md) | AI-HIVE | AI workflows |
+| [PolyBuzz平替｜自有角色卡整理与格式迁移](skills/aihive-content-polybuzz-card-format-migration/SKILL.md) | AI-HIVE | AI workflows |
+| [ReadTheory平替｜分级阅读材料与题目证据](skills/aihive-content-readtheory-reading-packets/SKILL.md) | AI-HIVE | AI workflows |
+| [remove.bg平替｜透明底批量抠图与边缘检查](skills/aihive-content-removebg-alpha-qc/SKILL.md) | AI-HIVE | AI workflows |
+| [Reve平替｜参考图局部换物与版本对照](skills/aihive-content-reve-masked-variants/SKILL.md) | AI-HIVE | AI workflows |
+| [Robly平替｜邮件主题实验与分组复盘](skills/aihive-content-robly-email-experiment/SKILL.md) | AI-HIVE | AI workflows |

@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-hedra-audio-performance",
+  "documents": [
+    {
+      "path": "performance-cues.csv",
+      "required_fields": [
+        "cue_id",
+        "start",
+        "end",
+        "emphasis",
+        "expression"
+      ]
+    },
+    {
+      "path": "performance-review.json",
+      "required_fields": [
+        "segments",
+        "lip_sync_issues",
+        "outputs"
+      ]
+    }
+  ],
+  "media_deliverables": "表演时间表、真实角色表演片段与局部返工说明。",
+  "human_acceptance": [
+    "情绪表达不能改变原台词的否定与立场。",
+    "没有视频预览不能声称同步通过。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

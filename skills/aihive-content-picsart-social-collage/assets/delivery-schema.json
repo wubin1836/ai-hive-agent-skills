@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-picsart-social-collage",
+  "documents": [
+    {
+      "path": "grid-plan.csv",
+      "required_fields": [
+        "tile_id",
+        "source_ref",
+        "caption",
+        "position",
+        "output_path"
+      ]
+    },
+    {
+      "path": "layout-check.json",
+      "required_fields": [
+        "tiles",
+        "edge_issues"
+      ]
+    }
+  ],
+  "media_deliverables": "完整拼图预览和逐格导出的真实图片。",
+  "human_acceptance": [
+    "发布顺序与拼图衔接一致。",
+    "装饰不能遮挡价格或主体证据。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

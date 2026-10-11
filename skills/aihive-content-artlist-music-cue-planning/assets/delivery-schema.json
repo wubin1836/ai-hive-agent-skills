@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-artlist-music-cue-planning",
+  "documents": [
+    {
+      "path": "music-cues.csv",
+      "required_fields": [
+        "cue_id",
+        "track_ref",
+        "start",
+        "end",
+        "license_ref"
+      ]
+    },
+    {
+      "path": "mix-brief.json",
+      "required_fields": [
+        "dialogue_regions",
+        "ducking",
+        "review"
+      ]
+    }
+  ],
+  "media_deliverables": "实际试听混音或明确标注的剪辑单，以及逐曲许可引用。",
+  "human_acceptance": [
+    "不能把订阅某平台等同任何用途都获授权。",
+    "对白不被音乐覆盖。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-artflow-casting-wardrobe",
+  "documents": [
+    {
+      "path": "casting-cards.json",
+      "required_fields": [
+        "roles",
+        "candidates",
+        "consent_refs"
+      ]
+    },
+    {
+      "path": "wardrobe-board.csv",
+      "required_fields": [
+        "role_id",
+        "candidate_id",
+        "outfit_id",
+        "image_path",
+        "decision"
+      ]
+    }
+  ],
+  "media_deliverables": "选角卡、试装图册与角色服装清单。",
+  "human_acceptance": [
+    "虚构角色不能宣传为真人代言。",
+    "有实物商品时不能在试装中改变其结构事实。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

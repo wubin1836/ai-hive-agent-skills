@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-characterai-character-memory",
+  "documents": [
+    {
+      "path": "character-card.json",
+      "required_fields": [
+        "identity",
+        "voice",
+        "knowledge_bounds",
+        "fiction_notice"
+      ]
+    },
+    {
+      "path": "memory-tests.csv",
+      "required_fields": [
+        "case_id",
+        "input",
+        "expected_boundary",
+        "result",
+        "review"
+      ]
+    }
+  ],
+  "media_deliverables": "原创角色卡、本地记忆结构和对话试演记录。",
+  "human_acceptance": [
+    "清楚说明是AI虚构角色，不冒充真人。",
+    "不声称真实情感、意识或永久记忆。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

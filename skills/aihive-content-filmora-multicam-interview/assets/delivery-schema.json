@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-filmora-multicam-interview",
+  "documents": [
+    {
+      "path": "camera-sync.csv",
+      "required_fields": [
+        "camera_id",
+        "offset_seconds",
+        "valid_start",
+        "valid_end"
+      ]
+    },
+    {
+      "path": "switch-list.json",
+      "required_fields": [
+        "cuts",
+        "source_mapping",
+        "review"
+      ]
+    }
+  ],
+  "media_deliverables": "实际访谈成片、切镜表与可回退工程。",
+  "human_acceptance": [
+    "反应镜头的时序不造成误导。",
+    "所有切点均有真实源素材。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

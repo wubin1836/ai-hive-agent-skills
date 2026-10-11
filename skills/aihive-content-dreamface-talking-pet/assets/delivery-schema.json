@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-dreamface-talking-pet",
+  "documents": [
+    {
+      "path": "pet-script.json",
+      "required_fields": [
+        "fiction_notice",
+        "lines",
+        "voice_direction"
+      ]
+    },
+    {
+      "path": "pet-video-review.csv",
+      "required_fields": [
+        "clip_id",
+        "source_ref",
+        "output_path",
+        "mouth_review",
+        "status"
+      ]
+    }
+  ],
+  "media_deliverables": "原创趣味短片、台词和画面检查记录。",
+  "human_acceptance": [
+    "不表现对动物的真实伤害或胁迫。",
+    "不能将字幕误作真实行为证据。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

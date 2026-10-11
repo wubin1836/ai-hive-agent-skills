@@ -60092,5 +60092,455 @@
     "batch": "AI-HIVE-行业博主与知识分身-50个Skill-20260928",
     "path": "skills/aihive-persona-zhufaner-renovation-quote",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-zoey-low-impact-filter",
+    "display_name": "周六野Zoey公开内容学习｜低冲击跟练需求匹配",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-50个Skill-20260928",
+    "path": "skills/aihive-persona-zoey-low-impact-filter",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-animaker-explainer-blocks",
+    "display_name": "Animaker平替｜二维讲解动画与场景组件",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-animaker-explainer-blocks",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-apob-virtual-creator-series",
+    "display_name": "APOB平替｜虚拟博主设定与连载内容包",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-apob-virtual-creator-series",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-artflow-casting-wardrobe",
+    "display_name": "Artflow平替｜原创演员选角卡与服装试装",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-artflow-casting-wardrobe",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-artlist-music-cue-planning",
+    "display_name": "Artlist平替｜视频配乐选曲与节奏剪辑单",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-artlist-music-cue-planning",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-beacons-creator-media-kit",
+    "display_name": "Beacons平替｜创作者媒体包与品牌合作介绍",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-beacons-creator-media-kit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-chaport-chat-routing",
+    "display_name": "Chaport平替｜网站咨询FAQ与人工接管",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-chaport-chat-routing",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-characterai-character-memory",
+    "display_name": "Character.AI平替｜原创角色卡与对话记忆",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-characterai-character-memory",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-clay-account-research-brief",
+    "display_name": "Clay平替｜企业线索资料核对与拜访简报",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-clay-account-research-brief",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-clipchamp-slide-narration",
+    "display_name": "Clipchamp平替｜幻灯片配音成片与翻页同步",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-clipchamp-slide-narration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-coolors-brand-palette",
+    "display_name": "Coolors平替｜品牌配色提取与对比度校验",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-coolors-brand-palette",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-copyai-product-description-batch",
+    "display_name": "Copy.ai平替｜商品描述批量生成与字段回填",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-copyai-product-description-batch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-cutout-coloring-lines",
+    "display_name": "Cutout.pro平替｜照片转线稿与涂色页",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-cutout-coloring-lines",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-delphi-sourced-knowledge-self",
+    "display_name": "Delphi平替｜本人知识分身与来源问答",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-delphi-sourced-knowledge-self",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-did-brand-guide-demo",
+    "display_name": "D-ID平替｜品牌虚拟讲解员与问答演示",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-did-brand-guide-demo",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-domo-anime-restyle",
+    "display_name": "DomoAI平替｜真人视频转动漫与动作保留",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-domo-anime-restyle",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-dreamface-talking-pet",
+    "display_name": "DreamFace平替｜宠物开口与趣味配音短片",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-dreamface-talking-pet",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-edpuzzle-video-question-map",
+    "display_name": "Edpuzzle平替｜课程视频出题与知识点定位",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-edpuzzle-video-question-map",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-envato-owned-template-fill",
+    "display_name": "Envato平替｜自有视频模板填充与素材打包",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-envato-owned-template-fill",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-filmora-multicam-interview",
+    "display_name": "Filmora平替｜多机位访谈同步与切镜",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-filmora-multicam-interview",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-firefly-generative-fill",
+    "display_name": "Adobe Firefly平替｜商品场景补绘与保护区合成",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-firefly-generative-fill",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-flexclip-event-invitation",
+    "display_name": "FlexClip平替｜活动邀请短片与报名信息同步",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-flexclip-event-invitation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-flowus-knowledge-revision",
+    "display_name": "FlowUs 息流平替｜知识库文章合并与修订说明",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-flowus-knowledge-revision",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-getresponse-email-sequence",
+    "display_name": "GetResponse平替｜订阅欢迎邮件与内容序列",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-getresponse-email-sequence",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-goenhance-mixed-shot-style",
+    "display_name": "GoEnhance平替｜混剪素材风格统一与镜头匹配",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-goenhance-mixed-shot-style",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-grammarly-business-redline",
+    "display_name": "Grammarly平替｜英文商务文稿逐句审校",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-grammarly-business-redline",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-hedra-audio-performance",
+    "display_name": "Hedra平替｜音频驱动角色表演与情绪节奏",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-hedra-audio-performance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-hubspot-stage-content",
+    "display_name": "HubSpot平替｜客户阶段内容包与跟进草稿",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-hubspot-stage-content",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-icons8-original-icon-set",
+    "display_name": "Icons8平替｜原创图标套系与尺寸交付",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-icons8-original-icon-set",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-ideogram-poster-text",
+    "display_name": "Ideogram平替｜海报改字与多语言排版",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-ideogram-poster-text",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-jasper-brand-voice-corpus",
+    "display_name": "Jasper平替｜品牌口吻提炼与文案一致性",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-jasper-brand-voice-corpus",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-kajabi-course-launch-assets",
+    "display_name": "Kajabi平替｜知识产品课程包装与开课物料",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-kajabi-course-launch-assets",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-kantar-open-response-coding",
+    "display_name": "Kantar 凯度平替｜开放题调研编码与原话证据表",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-kantar-open-response-coding",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-kapwing-webinar-layout",
+    "display_name": "Kapwing平替｜线上分享录屏与人物画中画",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-kapwing-webinar-layout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-krea-sketch-iterations",
+    "display_name": "Krea平替｜草图渲染与构图迭代",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-krea-sketch-iterations",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-leonardo-prop-variations",
+    "display_name": "Leonardo.Ai平替｜游戏道具设定与风格变体",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-leonardo-prop-variations",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-livereacting-quiz-show",
+    "display_name": "LiveReacting平替｜直播互动题库与主持流程",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-livereacting-quiz-show",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-ltx-shot-change-tracking",
+    "display_name": "LTX Studio平替｜剧本改稿与分镜局部返工",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-ltx-shot-change-tracking",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-magicschool-lesson-rubrics",
+    "display_name": "MagicSchool平替｜差异化教案与评分量规",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-magicschool-lesson-rubrics",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-mediaio-product-loops",
+    "display_name": "Media.io平替｜商品动图循环与GIF导出",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-mediaio-product-loops",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-novelai-lore-continuity",
+    "display_name": "NovelAI平替｜小说设定库与伏笔连续性",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-novelai-lore-continuity",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-openart-story-panels",
+    "display_name": "OpenArt平替｜图文故事分格与场景连续性",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-openart-story-panels",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-picsart-social-collage",
+    "display_name": "Picsart平替｜社媒拼图与贴纸版式",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-picsart-social-collage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-pixai-expression-sheets",
+    "display_name": "PixAI平替｜原创二次元表情差分",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-pixai-expression-sheets",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-pixlr-retail-resize",
+    "display_name": "Pixlr平替｜促销图批量改尺寸与重排",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-pixlr-retail-resize",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-polybuzz-card-format-migration",
+    "display_name": "PolyBuzz平替｜自有角色卡整理与格式迁移",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-polybuzz-card-format-migration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-readtheory-reading-packets",
+    "display_name": "ReadTheory平替｜分级阅读材料与题目证据",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-readtheory-reading-packets",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-removebg-alpha-qc",
+    "display_name": "remove.bg平替｜透明底批量抠图与边缘检查",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-removebg-alpha-qc",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-reve-masked-variants",
+    "display_name": "Reve平替｜参考图局部换物与版本对照",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-reve-masked-variants",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-content-robly-email-experiment",
+    "display_name": "Robly平替｜邮件主题实验与分组复盘",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-图片视频营销文字角色-60个补充Skill-20260926",
+    "path": "skills/aihive-content-robly-email-experiment",
+    "language": "zh-CN"
   }
 ]

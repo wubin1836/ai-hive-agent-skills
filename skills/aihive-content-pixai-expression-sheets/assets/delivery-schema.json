@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-pixai-expression-sheets",
+  "documents": [
+    {
+      "path": "expression-map.csv",
+      "required_fields": [
+        "expression_id",
+        "emotion",
+        "gesture",
+        "output_path",
+        "status"
+      ]
+    },
+    {
+      "path": "identity-locks.json",
+      "required_fields": [
+        "fixed_traits",
+        "review"
+      ]
+    }
+  ],
+  "media_deliverables": "逐张表情PNG和表情预览图册；透明底须实际检查。",
+  "human_acceptance": [
+    "同一角色各表情保持身份一致。",
+    "不照搬第三方动漫角色设定或模型许可。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

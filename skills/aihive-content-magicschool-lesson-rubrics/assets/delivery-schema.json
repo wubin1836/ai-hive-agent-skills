@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-magicschool-lesson-rubrics",
+  "documents": [
+    {
+      "path": "lesson-alignment.csv",
+      "required_fields": [
+        "objective",
+        "activity",
+        "evidence",
+        "time_minutes"
+      ]
+    },
+    {
+      "path": "rubric.json",
+      "required_fields": [
+        "criteria",
+        "levels",
+        "teacher_review"
+      ]
+    }
+  ],
+  "media_deliverables": "分层教案、课堂材料与评分量规。",
+  "human_acceptance": [
+    "教学目标、活动和评分标准互相对应。",
+    "不给学生贴心理或能力诊断标签。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

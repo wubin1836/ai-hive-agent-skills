@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-mediaio-product-loops",
+  "documents": [
+    {
+      "path": "loop-spec.json",
+      "required_fields": [
+        "motion",
+        "duration",
+        "output_constraints"
+      ]
+    },
+    {
+      "path": "export-check.csv",
+      "required_fields": [
+        "file_path",
+        "format",
+        "size_bytes",
+        "fps",
+        "loop_status"
+      ]
+    }
+  ],
+  "media_deliverables": "真实GIF、视频备选及首尾衔接预览。",
+  "human_acceptance": [
+    "检查循环断点和商品结构漂移。",
+    "透明通道与文件大小必须实测。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

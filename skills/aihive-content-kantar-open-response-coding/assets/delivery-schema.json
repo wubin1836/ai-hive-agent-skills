@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-kantar-open-response-coding",
+  "documents": [
+    {
+      "path": "response-codes.csv",
+      "required_fields": [
+        "response_id",
+        "theme",
+        "quote_ref",
+        "review_status"
+      ]
+    },
+    {
+      "path": "insight-evidence.json",
+      "required_fields": [
+        "themes",
+        "counterexamples",
+        "sample_limits"
+      ]
+    }
+  ],
+  "media_deliverables": "编码表、可回溯洞察报告和待人工复核清单。",
+  "human_acceptance": [
+    "主题计数的分母与多标签口径清楚。",
+    "不能宣称自有样本具有全国代表性。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

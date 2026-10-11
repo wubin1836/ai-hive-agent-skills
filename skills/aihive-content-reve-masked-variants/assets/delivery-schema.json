@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-reve-masked-variants",
+  "documents": [
+    {
+      "path": "edit-map.json",
+      "required_fields": [
+        "regions",
+        "protected_regions"
+      ]
+    },
+    {
+      "path": "variant-review.csv",
+      "required_fields": [
+        "variant_id",
+        "input_ref",
+        "output_path",
+        "protected_area_result",
+        "status"
+      ]
+    }
+  ],
+  "media_deliverables": "可打开的编辑图、保护区对照图；未生成时只交明确标注的编辑方案。",
+  "human_acceptance": [
+    "替换物与原画面接触、遮挡关系合理。",
+    "检查没有授权修改的区域是否发生变化。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

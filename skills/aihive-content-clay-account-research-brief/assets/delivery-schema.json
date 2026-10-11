@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-clay-account-research-brief",
+  "documents": [
+    {
+      "path": "account-evidence.csv",
+      "required_fields": [
+        "account_id",
+        "claim",
+        "source",
+        "date",
+        "confidence"
+      ]
+    },
+    {
+      "path": "visit-briefs.json",
+      "required_fields": [
+        "accounts",
+        "questions",
+        "uncertainties"
+      ]
+    }
+  ],
+  "media_deliverables": "企业事实表、拜访简报和待确认问题。",
+  "human_acceptance": [
+    "不伪造邮箱、采购意向或预算。",
+    "不得从姓名照片推断敏感属性。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-goenhance-mixed-shot-style",
+  "documents": [
+    {
+      "path": "shot-style-map.csv",
+      "required_fields": [
+        "shot_id",
+        "source_ref",
+        "correction_type",
+        "output_path",
+        "status"
+      ]
+    },
+    {
+      "path": "sequence-review.json",
+      "required_fields": [
+        "transitions",
+        "issues"
+      ]
+    }
+  ],
+  "media_deliverables": "调整后的镜头或真实调色交接参数，以及衔接预览。",
+  "human_acceptance": [
+    "不同内容镜头不能只因统一滤镜而损害主体可读性。",
+    "商品颜色不可脱离真实色卡。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

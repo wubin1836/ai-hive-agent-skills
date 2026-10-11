@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-novelai-lore-continuity",
+  "documents": [
+    {
+      "path": "story-bible.json",
+      "required_fields": [
+        "characters",
+        "locations",
+        "rules",
+        "version"
+      ]
+    },
+    {
+      "path": "continuity-ledger.csv",
+      "required_fields": [
+        "item_id",
+        "chapter",
+        "evidence",
+        "status",
+        "proposed_change"
+      ]
+    }
+  ],
+  "media_deliverables": "原创章节草稿、设定库和连续性修改清单。",
+  "human_acceptance": [
+    "角色不能提前知道未发生事件。",
+    "未确认设定不写成既定事实。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

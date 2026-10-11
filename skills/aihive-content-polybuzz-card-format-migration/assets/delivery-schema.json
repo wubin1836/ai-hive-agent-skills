@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-polybuzz-card-format-migration",
+  "documents": [
+    {
+      "path": "neutral-character.json",
+      "required_fields": [
+        "profile",
+        "greeting",
+        "dialogue_examples",
+        "boundaries"
+      ]
+    },
+    {
+      "path": "field-map.csv",
+      "required_fields": [
+        "source_field",
+        "target_field",
+        "status",
+        "loss_note"
+      ]
+    }
+  ],
+  "media_deliverables": "中立角色卡、字段映射与迁移损失报告。",
+  "human_acceptance": [
+    "私有角色、聊天记忆和个人信息不默认公开。",
+    "未知字段不能静默丢弃。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

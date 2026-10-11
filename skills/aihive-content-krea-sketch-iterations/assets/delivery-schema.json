@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-krea-sketch-iterations",
+  "documents": [
+    {
+      "path": "composition-locks.json",
+      "required_fields": [
+        "objects",
+        "spatial_relations"
+      ]
+    },
+    {
+      "path": "iterations.csv",
+      "required_fields": [
+        "iteration_id",
+        "changed_variable",
+        "input_ref",
+        "output_path",
+        "decision"
+      ]
+    }
+  ],
+  "media_deliverables": "草图对照页与实际渲染候选图。",
+  "human_acceptance": [
+    "不把构图完全变化的美图当作草图还原。",
+    "不能暗示异步生成等同实时画布。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

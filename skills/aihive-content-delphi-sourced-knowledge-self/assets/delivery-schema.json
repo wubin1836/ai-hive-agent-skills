@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-delphi-sourced-knowledge-self",
+  "documents": [
+    {
+      "path": "knowledge-index.csv",
+      "required_fields": [
+        "entry_id",
+        "author",
+        "date",
+        "locator",
+        "access_scope"
+      ]
+    },
+    {
+      "path": "answer-review.json",
+      "required_fields": [
+        "questions",
+        "answers",
+        "citations",
+        "unknowns"
+      ]
+    }
+  ],
+  "media_deliverables": "知识索引、可追溯问答与转本人处理规则。",
+  "human_acceptance": [
+    "始终披露是基于资料的AI助手，不是本人。",
+    "资料撤回后相关条目停止使用。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

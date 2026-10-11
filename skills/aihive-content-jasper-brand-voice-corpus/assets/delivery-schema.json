@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-jasper-brand-voice-corpus",
+  "documents": [
+    {
+      "path": "brand-voice.json",
+      "required_fields": [
+        "rules",
+        "terms",
+        "exceptions"
+      ]
+    },
+    {
+      "path": "copy-consistency.csv",
+      "required_fields": [
+        "copy_id",
+        "rule_id",
+        "original",
+        "revised",
+        "status"
+      ]
+    }
+  ],
+  "media_deliverables": "品牌口吻指南、渠道定稿及逐条修改说明。",
+  "human_acceptance": [
+    "不能把个人写作喜好当全品牌硬规则。",
+    "品牌事实和免责声明保持准确。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-flowus-knowledge-revision",
+  "documents": [
+    {
+      "path": "document-map.csv",
+      "required_fields": [
+        "source_id",
+        "version",
+        "target_section",
+        "conflict_status"
+      ]
+    },
+    {
+      "path": "revision-notes.json",
+      "required_fields": [
+        "merged",
+        "conflicts",
+        "link_checks"
+      ]
+    }
+  ],
+  "media_deliverables": "新的知识文章文件、来源映射与修订记录。",
+  "human_acceptance": [
+    "保留可回溯的原文版本。",
+    "不能将内部资料默认为公开资料。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

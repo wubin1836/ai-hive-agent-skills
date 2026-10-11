@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-readtheory-reading-packets",
+  "documents": [
+    {
+      "path": "reading-plan.json",
+      "required_fields": [
+        "audience",
+        "learning_targets",
+        "assumptions"
+      ]
+    },
+    {
+      "path": "question-evidence.csv",
+      "required_fields": [
+        "question_id",
+        "type",
+        "answer",
+        "evidence",
+        "review"
+      ]
+    }
+  ],
+  "media_deliverables": "分级阅读文章、学生练习版和答案解析版。",
+  "human_acceptance": [
+    "题目不依赖材料外的隐含知识。",
+    "不编造官方Lexile或考试等级认证。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

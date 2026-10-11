@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-openart-story-panels",
+  "documents": [
+    {
+      "path": "panel-plan.csv",
+      "required_fields": [
+        "panel_id",
+        "event",
+        "characters",
+        "scene",
+        "output_path"
+      ]
+    },
+    {
+      "path": "continuity-review.json",
+      "required_fields": [
+        "panels",
+        "issues"
+      ]
+    }
+  ],
+  "media_deliverables": "实际分格图片与完整故事排版页。",
+  "human_acceptance": [
+    "人物不能无解释换装或丢失关键道具。",
+    "阅读顺序与对白归属清楚。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-copyai-product-description-batch",
+  "documents": [
+    {
+      "path": "product-copy.csv",
+      "required_fields": [
+        "sku",
+        "language",
+        "title",
+        "short_description",
+        "evidence_ref",
+        "status"
+      ]
+    },
+    {
+      "path": "batch-audit.json",
+      "required_fields": [
+        "processed",
+        "missing",
+        "field_limits"
+      ]
+    }
+  ],
+  "media_deliverables": "可交用户审核的SKU文案CSV与错误清单，不自动导入店铺。",
+  "human_acceptance": [
+    "SKU不得串行或遗漏。",
+    "任何新增事实必须有资料依据。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

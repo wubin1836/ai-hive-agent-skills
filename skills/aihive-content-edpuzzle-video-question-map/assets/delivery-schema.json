@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-edpuzzle-video-question-map",
+  "documents": [
+    {
+      "path": "video-questions.csv",
+      "required_fields": [
+        "question_id",
+        "timecode",
+        "question",
+        "answer",
+        "evidence"
+      ]
+    },
+    {
+      "path": "rubric.json",
+      "required_fields": [
+        "items",
+        "review_needed"
+      ]
+    }
+  ],
+  "media_deliverables": "可导入前需核对目标schema的题库、时间码表与教师审核稿。",
+  "human_acceptance": [
+    "不能用视频中未讲到的内容作为唯一正确答案。",
+    "不收集无关学生身份信息。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

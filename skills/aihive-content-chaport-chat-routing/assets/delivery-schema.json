@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-chaport-chat-routing",
+  "documents": [
+    {
+      "path": "routing-rules.csv",
+      "required_fields": [
+        "intent",
+        "required_info",
+        "knowledge_ref",
+        "action"
+      ]
+    },
+    {
+      "path": "chat-tests.json",
+      "required_fields": [
+        "cases",
+        "results",
+        "handoff_notes"
+      ]
+    }
+  ],
+  "media_deliverables": "FAQ回复库、分流规则与离线对话测试记录。",
+  "human_acceptance": [
+    "转人工摘要完整，不让用户重复提供敏感信息。",
+    "不可回答的问题要明确未确认。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

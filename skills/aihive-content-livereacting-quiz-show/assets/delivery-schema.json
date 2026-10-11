@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-livereacting-quiz-show",
+  "documents": [
+    {
+      "path": "quiz-bank.csv",
+      "required_fields": [
+        "question_id",
+        "question",
+        "answer",
+        "source",
+        "difficulty"
+      ]
+    },
+    {
+      "path": "show-state.json",
+      "required_fields": [
+        "states",
+        "transitions",
+        "fallbacks"
+      ]
+    }
+  ],
+  "media_deliverables": "题面图片、主持稿和可模拟的节目流程；实际推流另需工具及授权。",
+  "human_acceptance": [
+    "题目无歧义，计分规则一致。",
+    "不伪造直播人数、中奖或互动记录。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

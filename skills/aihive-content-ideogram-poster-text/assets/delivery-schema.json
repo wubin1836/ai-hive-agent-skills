@@ -1,0 +1,27 @@
+{
+  "skill": "aihive-content-ideogram-poster-text",
+  "documents": [
+    {
+      "path": "text-locks.csv",
+      "required_fields": [
+        "text_id",
+        "language",
+        "exact_text",
+        "placement"
+      ]
+    },
+    {
+      "path": "layout-review.json",
+      "required_fields": [
+        "variants",
+        "unresolved"
+      ]
+    }
+  ],
+  "media_deliverables": "实际海报图片及有真实可编辑元素的源文件，未生成源文件须注明。",
+  "human_acceptance": [
+    "图片文字与锁定文案逐字一致。",
+    "伪造文字图层或错误字符不得通过。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

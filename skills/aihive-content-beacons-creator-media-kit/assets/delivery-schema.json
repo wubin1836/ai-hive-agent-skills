@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-beacons-creator-media-kit",
+  "documents": [
+    {
+      "path": "creator-metrics.csv",
+      "required_fields": [
+        "metric",
+        "value",
+        "period",
+        "source"
+      ]
+    },
+    {
+      "path": "media-kit-plan.json",
+      "required_fields": [
+        "sections",
+        "assets",
+        "quote_terms"
+      ]
+    }
+  ],
+  "media_deliverables": "真实媒体包PDF或网页文件，以及可编辑文案。",
+  "human_acceptance": [
+    "数据口径可复核，不伪造合作品牌。",
+    "公开版不含后台私密信息。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-cutout-coloring-lines",
+  "documents": [
+    {
+      "path": "lineart-spec.json",
+      "required_fields": [
+        "subject",
+        "complexity",
+        "page_size"
+      ]
+    },
+    {
+      "path": "print-review.csv",
+      "required_fields": [
+        "page_id",
+        "line_clarity",
+        "closed_regions",
+        "output_path",
+        "status"
+      ]
+    }
+  ],
+  "media_deliverables": "可打印线稿图片和按真实页面尺寸排出的PDF（需对应工具）。",
+  "human_acceptance": [
+    "涂色空间可用，不能只是对比度拉高的照片。",
+    "不包含来源不明的卡通IP。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

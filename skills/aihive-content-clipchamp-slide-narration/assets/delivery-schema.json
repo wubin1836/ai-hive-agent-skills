@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-clipchamp-slide-narration",
+  "documents": [
+    {
+      "path": "slide-audio-map.csv",
+      "required_fields": [
+        "slide_id",
+        "audio_path",
+        "duration_seconds",
+        "start_seconds"
+      ]
+    },
+    {
+      "path": "narration-review.json",
+      "required_fields": [
+        "pronunciation",
+        "visual_issues",
+        "outputs"
+      ]
+    }
+  ],
+  "media_deliverables": "实际旁白视频、音频和逐页同步清单。",
+  "human_acceptance": [
+    "翻页不能早于重要信息读完。",
+    "配音不可使用未授权真人声纹。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}
