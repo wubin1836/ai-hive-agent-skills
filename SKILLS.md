@@ -6872,7 +6872,7 @@
 | [微盟导购商品图卡助手](skills/imiva-channel-weimob-workflow/SKILL.md) | IMIVA | 私域电商 |
 | [微店预售商品展示与说明助手](skills/imiva-channel-weidian-workflow/SKILL.md) | IMIVA | 私域电商 |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7252,3 +7252,58 @@
 | [张同学公开内容学习｜乡村日常动作拆镜与节奏表](skills/aihive-persona-next-zhang-rural-rhythm/SKILL.md) | AI-HIVE | AI workflows |
 | [钟文泽公开内容学习｜新品资料转上手演示清单](skills/aihive-persona-next-zhong-launch-hands-on/SKILL.md) | AI-HIVE | AI workflows |
 | [朱铁雄公开内容学习｜原创国风变装分镜与转场衔接](skills/aihive-persona-next-zhu-transition-design/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [祝晓晗公开内容学习｜亲情短喜剧双人台词与节拍](skills/aihive-persona-next-zhuxiaohan-family-sketch/SKILL.md) | AI-HIVE | AI workflows |
+| [233乐园案例参考｜游戏推荐与新手问答](skills/aihive-persona-233-game-discovery/SKILL.md) | AI-HIVE | AI workflows |
+| [Alex是大叔公开内容学习｜星座主题原创栏目与互动排期](skills/aihive-persona-alex-astrology-content-calendar/SKILL.md) | AI-HIVE | AI workflows |
+| [韩小四AprilHan公开内容学习｜碎片化跟练与坚持复盘](skills/aihive-persona-aprilhan-session-adherence/SKILL.md) | AI-HIVE | AI workflows |
+| [设计师阿爽公开内容学习｜小户型需求与软装沟通板](skills/aihive-persona-ashuang-room-brief/SKILL.md) | AI-HIVE | AI workflows |
+| [宝剑嫂公开内容学习｜生活好物选题与开箱记录](skills/aihive-persona-baojiansao-lifestyle-selection/SKILL.md) | AI-HIVE | AI workflows |
+| [渤海小吏公开内容学习｜历史事件脉络与证据讲稿](skills/aihive-persona-bohai-history-sources/SKILL.md) | AI-HIVE | AI workflows |
+| [程十安an公开内容学习｜新手妆容步骤与练习打卡](skills/aihive-persona-chengshian-makeup-practice/SKILL.md) | AI-HIVE | AI workflows |
+| [陈震同学公开内容学习｜试驾提问与车评脚本](skills/aihive-persona-chenzhen-testdrive-brief/SKILL.md) | AI-HIVE | AI workflows |
+| [崔佳楠公开内容学习｜美妆产品问答与搭配卡](skills/aihive-persona-cuijianan-beauty-faq/SKILL.md) | AI-HIVE | AI workflows |
+| [老爸评测公开内容学习｜检测报告阅读与消费证据卡](skills/aihive-persona-daddylab-report-evidence/SKILL.md) | AI-HIVE | AI workflows |
+| [粉丝问题转答复库｜分流草稿与人工接管](skills/aihive-persona-fan-comments-answer-bank/SKILL.md) | AI-HIVE | AI workflows |
+| [韩路公开内容学习｜自驾路书与车辆准备](skills/aihive-persona-hanlu-roadtrip-preparation/SKILL.md) | AI-HIVE | AI workflows |
+| [HOPICO公开内容学习｜音乐访谈准备与听感笔记](skills/aihive-persona-hopico-music-interview/SKILL.md) | AI-HIVE | AI workflows |
+| [惠尔康案例参考｜食品商品与售后知识助手](skills/aihive-persona-huerkang-catalog-support/SKILL.md) | AI-HIVE | AI workflows |
+| [浑元Rysn公开内容学习｜民乐跨风格编配企划](skills/aihive-persona-hunyuan-folk-arrangement/SKILL.md) | AI-HIVE | AI workflows |
+| [胡说老王公开内容学习｜商业案例知识库与经营问答](skills/aihive-persona-hushuolaowang-business-cases/SKILL.md) | AI-HIVE | AI workflows |
+| [俊平大魔王公开内容学习｜成分宣传证据整理](skills/aihive-persona-junping-ingredient-evidence/SKILL.md) | AI-HIVE | AI workflows |
+| [肯德基食货局案例参考｜餐饮评论接待助手](skills/aihive-persona-kfc-food-community/SKILL.md) | AI-HIVE | AI workflows |
+| [老饭骨公开内容学习｜宴席备菜排程与标准菜卡](skills/aihive-persona-laofangu-banquet-sop/SKILL.md) | AI-HIVE | AI workflows |
+| [老番茄公开内容学习｜游戏实录解说与笑点标注](skills/aihive-persona-laofanqie-game-commentary/SKILL.md) | AI-HIVE | AI workflows |
+| [李佳琦Austin公开内容学习｜直播选品讲解与异议演练](skills/aihive-persona-lijiaqi-selling-rehearsal/SKILL.md) | AI-HIVE | AI workflows |
+| [Linksphotograph公开内容学习｜风光摄影行前与镜头计划](skills/aihive-persona-links-photo-trip/SKILL.md) | AI-HIVE | AI workflows |
+| [刘畊宏公开内容学习｜跟练筛选与运动打卡](skills/aihive-persona-liugenghong-workout-log/SKILL.md) | AI-HIVE | AI workflows |
+| [骆王宇公开内容学习｜护肤选品对照与咨询分流](skills/aihive-persona-luowangyu-product-comparison/SKILL.md) | AI-HIVE | AI workflows |
+| [侣行公开内容学习｜旅行纪实调研与采访提纲](skills/aihive-persona-lvxing-documentary-research/SKILL.md) | AI-HIVE | AI workflows |
+| [毛戈平公开内容学习｜光影妆容分析与原创妆面板](skills/aihive-persona-maogeping-light-shadow/SKILL.md) | AI-HIVE | AI workflows |
+| [MCN达人知识隔离｜多账号分身口径测试](skills/aihive-persona-mcn-persona-isolation/SKILL.md) | AI-HIVE | AI workflows |
+| [木鱼水心公开内容学习｜叙事结构研究与原创长解说](skills/aihive-persona-muyushuixin-narrative-analysis/SKILL.md) | AI-HIVE | AI workflows |
+| [本人资料转知识分身｜出处问答与缺证拒答](skills/aihive-persona-owned-knowledge-persona/SKILL.md) | AI-HIVE | AI workflows |
+| [帕梅拉公开内容学习｜训练视频索引与日历整理](skills/aihive-persona-pamela-workout-calendar/SKILL.md) | AI-HIVE | AI workflows |
+| [AI分身模型选型｜回答质量与成本对照](skills/aihive-persona-persona-model-cost-eval/SKILL.md) | AI-HIVE | AI workflows |
+| [地产AI接待｜预算户型咨询与留资授权](skills/aihive-persona-property-consultation-brief/SKILL.md) | AI-HIVE | AI workflows |
+| [38号车评中心公开内容学习｜选车证据对照与试驾评分](skills/aihive-persona-review38-evidence-grid/SKILL.md) | AI-HIVE | AI workflows |
+| [日食记公开内容学习｜餐饮氛围短片与图文菜单](skills/aihive-persona-rishiji-food-storyboard/SKILL.md) | AI-HIVE | AI workflows |
+| [逍遥散人公开内容学习｜剧情游戏分支与无剧透提示](skills/aihive-persona-sanren-branch-hints/SKILL.md) | AI-HIVE | AI workflows |
+| [一栗小莎子公开内容学习｜穿搭写真互动与拍摄企划](skills/aihive-persona-shazizi-photo-replies/SKILL.md) | AI-HIVE | AI workflows |
+| [手工耿公开内容学习｜趣味道具概念与拍摄脚本](skills/aihive-persona-shougonggeng-prop-story/SKILL.md) | AI-HIVE | AI workflows |
+| [宋浩老师公开内容学习｜高数错题归因与变式练习](skills/aihive-persona-songhao-math-review/SKILL.md) | AI-HIVE | AI workflows |
+| [STN工作室公开内容学习｜游戏行业资讯与原创评论稿](skills/aihive-persona-stn-industry-brief/SKILL.md) | AI-HIVE | AI workflows |
+| [唐绮阳公开内容学习｜占星术语学习与自我观察](skills/aihive-persona-tangqiyang-symbols-journal/SKILL.md) | AI-HIVE | AI workflows |
+| [陶白白Sensei公开内容学习｜星座娱乐问答与沟通卡](skills/aihive-persona-taobaibai-entertainment/SKILL.md) | AI-HIVE | AI workflows |
+| [二手车AI接待｜购车需求与车源证据匹配](skills/aihive-persona-used-car-demand-intake/SKILL.md) | AI-HIVE | AI workflows |
+| [美食作家王刚公开内容学习｜食谱换算与厨房执行单](skills/aihive-persona-wanggang-recipe-scaling/SKILL.md) | AI-HIVE | AI workflows |
+| [小冰案例参考｜原创虚拟角色服务台](skills/aihive-persona-xiaobing-original-character/SKILL.md) | AI-HIVE | AI workflows |
+| [小高姐的魔法调料公开内容学习｜面点配方换算与失败复盘](skills/aihive-persona-xiaogao-baking-journal/SKILL.md) | AI-HIVE | AI workflows |
+| [英语兔公开内容学习｜英语错题诊断与跟读练习](skills/aihive-persona-yingyutu-mistake-coach/SKILL.md) | AI-HIVE | AI workflows |
+| [袁启聪公开内容学习｜用车账本与车型取舍](skills/aihive-persona-yuanqicong-ownership-cost/SKILL.md) | AI-HIVE | AI workflows |
+| [张踩铃公开内容学习｜家庭日常口播与原创段子](skills/aihive-persona-zhangcailing-family-stories/SKILL.md) | AI-HIVE | AI workflows |
+| [住范儿公开内容学习｜装修报价对项与内容问答](skills/aihive-persona-zhufaner-renovation-quote/SKILL.md) | AI-HIVE | AI workflows |

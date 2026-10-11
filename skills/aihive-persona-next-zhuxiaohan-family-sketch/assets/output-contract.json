@@ -1,0 +1,22 @@
+{
+  "title": "祝晓晗公开内容学习｜亲情短喜剧双人台词与节拍",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "节拍",
+    "人物A台词",
+    "人物B反应",
+    "动作",
+    "停顿",
+    "镜头",
+    "演绎标识",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "台词不会直接套原账号口头禅；角色与演员自己的授权一致。"
+}
