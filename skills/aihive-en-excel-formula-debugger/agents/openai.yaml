@@ -1,0 +1,6 @@
+interface:
+  display_name: "Excel Formula Debugger"
+  short_description: "Excel Formula Debugger with verified outputs"
+  default_prompt: "Use $aihive-en-excel-formula-debugger with my workbook. Produce corrected-workbook.xlsx, formula-diff.md, with the remaining review records. Verify this acceptance condition: The reported failure and regression cases pass with real calculations. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

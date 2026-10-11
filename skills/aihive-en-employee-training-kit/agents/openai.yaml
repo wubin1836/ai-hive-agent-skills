@@ -1,0 +1,6 @@
+interface:
+  display_name: "Employee Training Kit"
+  short_description: "Employee Training Kit with verified outputs"
+  default_prompt: "Use $aihive-en-employee-training-kit with my approved SOPs. Produce training-kit/, SOP-source-map.csv, with the remaining review records. Verify this acceptance condition: Training does not alter policy or invent authority. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

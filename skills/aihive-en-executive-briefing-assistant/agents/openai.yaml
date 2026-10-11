@@ -1,0 +1,6 @@
+interface:
+  display_name: "Executive Briefing Assistant"
+  short_description: "Executive Briefing Assistant"
+  default_prompt: "Use $aihive-en-executive-briefing-assistant with my authorized calendar or exports. Produce executive-brief.md, source-links.csv, with the remaining review records. Verify this acceptance condition: The briefing distinguishes facts, suggestions and unsent actions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

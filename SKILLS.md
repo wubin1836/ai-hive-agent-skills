@@ -7088,7 +7088,7 @@
 | [无声视频配环境声｜Pika Soundtrack平替](skills/aih-pika-soundtrack-cue/SKILL.md) | AI-HIVE | AI workflows |
 | [多格故事板转镜头｜PixVerse C1助手](skills/aih-pixverse-c1-storyboard/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7472,3 +7472,58 @@
 | [Budget Variance Checker](skills/aihive-en-budget-variance-checker/SKILL.md) | AI-HIVE | AI workflows |
 | [Business Card Designer](skills/aihive-en-business-card-designer/SKILL.md) | AI-HIVE | AI workflows |
 | [Business Dashboard Builder](skills/aihive-en-business-dashboard-builder/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [Business Idea Validation Kit](skills/aihive-en-business-idea-validation-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Business Plan Builder](skills/aihive-en-business-plan-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Business Website Design Kit](skills/aihive-en-business-website-design-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Calendar Conflict Checker](skills/aihive-en-calendar-conflict-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Campground Seasonal Campaign](skills/aihive-en-campground-seasonal-campaign/SKILL.md) | AI-HIVE | AI workflows |
+| [Car Dealership Listing Studio](skills/aihive-en-car-dealership-listing-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Cash Runway Scenario Planner](skills/aihive-en-cash-runway-scenario-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [Cleaning Service Quote Content Kit](skills/aihive-en-cleaning-service-quote-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Client AI Cost Attribution](skills/aihive-en-client-ai-cost-attribution/SKILL.md) | AI-HIVE | AI workflows |
+| [Client Delivery Pack Builder](skills/aihive-en-client-delivery-pack-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Coffee Shop Content Kit](skills/aihive-en-coffee-shop-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Company Profile Builder](skills/aihive-en-company-profile-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Competitor Research Brief Builder](skills/aihive-en-competitor-research-brief-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Consistent Character Studio](skills/aihive-en-consistent-character-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Contact List Cleanup & Migration](skills/aihive-en-contact-list-cleanup-migration/SKILL.md) | AI-HIVE | AI workflows |
+| [Content Calendar Builder](skills/aihive-en-content-calendar-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Content Performance Review](skills/aihive-en-content-performance-review/SKILL.md) | AI-HIVE | AI workflows |
+| [Content Publishing Preflight](skills/aihive-en-content-publishing-preflight/SKILL.md) | AI-HIVE | AI workflows |
+| [Content Repurposing Workflow](skills/aihive-en-content-repurposing-workflow/SKILL.md) | AI-HIVE | AI workflows |
+| [Cosmetic Shade Preview Studio](skills/aihive-en-cosmetic-shade-preview-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Course Workbook & Handout Builder](skills/aihive-en-course-workbook-handout-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Creative Asset Rights Tracker](skills/aihive-en-creative-asset-rights-tracker/SKILL.md) | AI-HIVE | AI workflows |
+| [CRM Record Enrichment Assistant](skills/aihive-en-crm-record-enrichment-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Custom Cake Portfolio Builder](skills/aihive-en-custom-cake-portfolio-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Customer Case Study Builder](skills/aihive-en-customer-case-study-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Customer Follow-Up Email Sequence](skills/aihive-en-customer-follow-up-email-sequence/SKILL.md) | AI-HIVE | AI workflows |
+| [Customer Interview Research Kit](skills/aihive-en-customer-interview-research-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Customer Persona Evidence Mapper](skills/aihive-en-customer-persona-evidence-mapper/SKILL.md) | AI-HIVE | AI workflows |
+| [Customer Support Reply Kit](skills/aihive-en-customer-support-reply-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Customer Testimonial Video Editor](skills/aihive-en-customer-testimonial-video-editor/SKILL.md) | AI-HIVE | AI workflows |
+| [Design Token Generator & Checker](skills/aihive-en-design-token-generator-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Digital Product Launch Kit](skills/aihive-en-digital-product-launch-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Document Illustration Placement Assistant](skills/aihive-en-document-illustration-placement-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Document OCR & Verification](skills/aihive-en-document-ocr-verification/SKILL.md) | AI-HIVE | AI workflows |
+| [Document Translation & Layout Check](skills/aihive-en-document-translation-layout-check/SKILL.md) | AI-HIVE | AI workflows |
+| [Drawing Party Game Builder](skills/aihive-en-drawing-party-game-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Ebook Creator & Export Assistant](skills/aihive-en-ebook-creator-export-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Email Attachment & Recipient Checker](skills/aihive-en-email-attachment-recipient-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Employee Training Kit](skills/aihive-en-employee-training-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Etsy Listing Photo Kit](skills/aihive-en-etsy-listing-photo-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Event Recap Video Editor](skills/aihive-en-event-recap-video-editor/SKILL.md) | AI-HIVE | AI workflows |
+| [Excel Formula Debugger](skills/aihive-en-excel-formula-debugger/SKILL.md) | AI-HIVE | AI workflows |
+| [Excel Workbook Builder](skills/aihive-en-excel-workbook-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Executive Briefing Assistant](skills/aihive-en-executive-briefing-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Executive Reporting Pack Builder](skills/aihive-en-executive-reporting-pack-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Existing Video Refresh Assistant](skills/aihive-en-existing-video-refresh-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Eyewear Frame Comparison Studio](skills/aihive-en-eyewear-frame-comparison-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Faceless Explainer Video Builder](skills/aihive-en-faceless-explainer-video-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Fashion Collection Campaign Builder](skills/aihive-en-fashion-collection-campaign-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [File Archive Organizer](skills/aihive-en-file-archive-organizer/SKILL.md) | AI-HIVE | AI workflows |

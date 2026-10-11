@@ -1,0 +1,6 @@
+interface:
+  display_name: "Excel Workbook Builder"
+  short_description: "Excel Workbook Builder with verified outputs"
+  default_prompt: "Use $aihive-en-excel-workbook-builder with my business question. Produce workbook.xlsx, formula-map.md, with the remaining review records. Verify this acceptance condition: Formulas recompute correctly and inputs are distinguishable from outputs. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

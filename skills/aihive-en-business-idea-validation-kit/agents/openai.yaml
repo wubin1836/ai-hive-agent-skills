@@ -1,0 +1,6 @@
+interface:
+  display_name: "Business Idea Validation Kit"
+  short_description: "Business Idea Validation Kit"
+  default_prompt: "Use $aihive-en-business-idea-validation-kit with my business hypothesis. Produce validation-plan.md, experiment-register.csv, with the remaining review records. Verify this acceptance condition: Tests could disprove the idea and distinguish observation from expectation. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Event Recap Video Editor"
+  short_description: "Event Recap Video Editor with verified outputs"
+  default_prompt: "Use $aihive-en-event-recap-video-editor with my authorized event footage. Produce footage-index.csv, highlight-edit.csv, with the remaining review records. Verify this acceptance condition: Highlights preserve context and no attendance or endorsement is invented. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

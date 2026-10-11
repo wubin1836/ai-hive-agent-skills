@@ -1,0 +1,6 @@
+interface:
+  display_name: "Cosmetic Shade Preview Studio"
+  short_description: "Cosmetic Shade Preview Studio"
+  default_prompt: "Use $aihive-en-cosmetic-shade-preview-studio with my authorized portrait. Produce shade-map.csv, comparison-previews/, with the remaining review records. Verify this acceptance condition: Every preview is linked to a real shade and labeled as simulated. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

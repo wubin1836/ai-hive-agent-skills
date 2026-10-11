@@ -1,0 +1,6 @@
+interface:
+  display_name: "Client Delivery Pack Builder"
+  short_description: "Client Delivery Pack Builder"
+  default_prompt: "Use $aihive-en-client-delivery-pack-builder with my agreed deliverables. Produce delivery-pack/, file-manifest.json, with the remaining review records. Verify this acceptance condition: Every promised file exists and the recipient can identify its purpose. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

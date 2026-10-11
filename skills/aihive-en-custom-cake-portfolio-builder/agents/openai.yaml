@@ -1,0 +1,6 @@
+interface:
+  display_name: "Custom Cake Portfolio Builder"
+  short_description: "Custom Cake Portfolio Builder"
+  default_prompt: "Use $aihive-en-custom-cake-portfolio-builder with my authorized completed cake photos. Produce cake-portfolio/, size-finish-matrix.csv, with the remaining review records. Verify this acceptance condition: Customers can distinguish real past work, options and conceptual ideas. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

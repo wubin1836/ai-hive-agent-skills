@@ -1,0 +1,6 @@
+interface:
+  display_name: "Competitor Research Brief Builder"
+  short_description: "Competitor Research Brief Builder"
+  default_prompt: "Use $aihive-en-competitor-research-brief-builder with my named competitors. Produce competitor-matrix.csv, source-index.md, with the remaining review records. Verify this acceptance condition: Every factual comparison has a source and comparable scope. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

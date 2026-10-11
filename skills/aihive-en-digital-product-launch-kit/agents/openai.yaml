@@ -1,0 +1,6 @@
+interface:
+  display_name: "Digital Product Launch Kit"
+  short_description: "Digital Product Launch Kit"
+  default_prompt: "Use $aihive-en-digital-product-launch-kit with my original product idea. Produce product-outline.md, delivery-package-plan.csv, with the remaining review records. Verify this acceptance condition: The sales promise matches the actual product and usage permissions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

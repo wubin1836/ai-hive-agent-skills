@@ -1,0 +1,6 @@
+interface:
+  display_name: "Eyewear Frame Comparison Studio"
+  short_description: "Eyewear Frame Comparison Studio"
+  default_prompt: "Use $aihive-en-eyewear-frame-comparison-studio with my frame measurements. Produce frame-comparison.csv, style-previews/, with the remaining review records. Verify this acceptance condition: Model identity is retained and approximate fit is disclosed. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

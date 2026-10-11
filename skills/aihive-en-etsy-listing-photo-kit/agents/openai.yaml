@@ -1,0 +1,6 @@
+interface:
+  display_name: "Etsy Listing Photo Kit"
+  short_description: "Etsy Listing Photo Kit with verified outputs"
+  default_prompt: "Use $aihive-en-etsy-listing-photo-kit with my actual handmade or vintage item. Produce listing-photo-plan.md, approved-photos/, with the remaining review records. Verify this acceptance condition: The images do not conceal relevant condition or invent craftsmanship. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

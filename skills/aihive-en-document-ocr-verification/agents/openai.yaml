@@ -1,0 +1,6 @@
+interface:
+  display_name: "Document OCR & Verification"
+  short_description: "Document OCR & Verification"
+  default_prompt: "Use $aihive-en-document-ocr-verification with my scanned documents. Produce ocr-text.md, page-index.csv, with the remaining review records. Verify this acceptance condition: Extracted statements can be located on the source page. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

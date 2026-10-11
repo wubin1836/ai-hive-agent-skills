@@ -1,0 +1,6 @@
+interface:
+  display_name: "Client AI Cost Attribution"
+  short_description: "Client AI Cost Attribution"
+  default_prompt: "Use $aihive-en-client-ai-cost-attribution with my authorized billing records. Produce client-cost-breakdown.csv, allocation-policy.md, with the remaining review records. Verify this acceptance condition: Allocated totals reconcile and assumptions are visible to reviewers. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

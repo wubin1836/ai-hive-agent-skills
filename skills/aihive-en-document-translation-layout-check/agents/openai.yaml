@@ -1,0 +1,6 @@
+interface:
+  display_name: "Document Translation & Layout Check"
+  short_description: "Document Translation & Layout Check"
+  default_prompt: "Use $aihive-en-document-translation-layout-check with my authorized document. Produce translated-document/, glossary.csv, with the remaining review records. Verify this acceptance condition: Facts and structure remain aligned across versions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

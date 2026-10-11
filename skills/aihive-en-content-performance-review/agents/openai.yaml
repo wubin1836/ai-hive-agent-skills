@@ -1,0 +1,6 @@
+interface:
+  display_name: "Content Performance Review"
+  short_description: "Content Performance Review"
+  default_prompt: "Use $aihive-en-content-performance-review with my asset registry. Produce performance-table.csv, interpretation.md, with the remaining review records. Verify this acceptance condition: Calculations are reproducible and observations are not mislabeled causal results. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

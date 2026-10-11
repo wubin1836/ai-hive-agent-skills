@@ -1,0 +1,6 @@
+interface:
+  display_name: "Coffee Shop Content Kit"
+  short_description: "Coffee Shop Content Kit with verified outputs"
+  default_prompt: "Use $aihive-en-coffee-shop-content-kit with my actual drinks. Produce cafe-story-map.csv, content-briefs/, with the remaining review records. Verify this acceptance condition: Published-ready copy uses confirmed store and drink information. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

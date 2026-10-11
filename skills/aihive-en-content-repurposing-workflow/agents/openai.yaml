@@ -1,0 +1,6 @@
+interface:
+  display_name: "Content Repurposing Workflow"
+  short_description: "Content Repurposing Workflow"
+  default_prompt: "Use $aihive-en-content-repurposing-workflow with my owned source content. Produce repurposing-plan.csv, channel-drafts/, with the remaining review records. Verify this acceptance condition: Derivatives preserve meaning while changing structure for their channel. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

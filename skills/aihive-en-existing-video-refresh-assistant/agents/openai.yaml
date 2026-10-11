@@ -1,0 +1,6 @@
+interface:
+  display_name: "Existing Video Refresh Assistant"
+  short_description: "Existing Video Refresh Assistant"
+  default_prompt: "Use $aihive-en-existing-video-refresh-assistant with my owned existing video. Produce refresh-diff.csv, replacement-brief.md, with the remaining review records. Verify this acceptance condition: Every substantive change has a reason and current evidence. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

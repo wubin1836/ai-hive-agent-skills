@@ -1,0 +1,6 @@
+interface:
+  display_name: "Design Token Generator & Checker"
+  short_description: "Design Token Generator & Checker"
+  default_prompt: "Use $aihive-en-design-token-generator-checker with my approved palette. Produce design-tokens.json, naming-guide.md, with the remaining review records. Verify this acceptance condition: Token references resolve and semantic choices match approved design. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

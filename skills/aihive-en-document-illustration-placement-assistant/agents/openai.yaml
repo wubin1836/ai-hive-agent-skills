@@ -1,0 +1,6 @@
+interface:
+  display_name: "Document Illustration Placement Assistant"
+  short_description: "Document Illustration Placement Assistant"
+  default_prompt: "Use $aihive-en-document-illustration-placement-assistant with my authorized document. Produce illustrated-document/, placement-map.csv, with the remaining review records. Verify this acceptance condition: Illustrations are relevant and real edits are distinguished from handoff notes. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

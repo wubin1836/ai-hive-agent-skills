@@ -1,0 +1,6 @@
+interface:
+  display_name: "CRM Record Enrichment Assistant"
+  short_description: "CRM Record Enrichment Assistant"
+  default_prompt: "Use $aihive-en-crm-record-enrichment-assistant with my authorized CRM export. Produce crm-update-candidates.csv, evidence-links.csv, with the remaining review records. Verify this acceptance condition: Each proposed value has a legitimate source and identity match. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

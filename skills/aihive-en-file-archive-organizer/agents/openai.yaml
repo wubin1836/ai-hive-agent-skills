@@ -1,0 +1,6 @@
+interface:
+  display_name: "File Archive Organizer"
+  short_description: "File Archive Organizer with verified outputs"
+  default_prompt: "Use $aihive-en-file-archive-organizer with my approved files. Produce archive-plan.csv, file-index.json, with the remaining review records. Verify this acceptance condition: Every movement has a traceable source and recovery path. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Faceless Explainer Video Builder"
+  short_description: "Faceless Explainer Video Builder"
+  default_prompt: "Use $aihive-en-faceless-explainer-video-builder with my source facts. Produce explainer-script.md, visual-map.csv, with the remaining review records. Verify this acceptance condition: Every illustration supports the explanation without pretending to be evidence. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Campground Seasonal Campaign"
+  short_description: "Campground Seasonal Campaign"
+  default_prompt: "Use $aihive-en-campground-seasonal-campaign with my actual pitches. Produce campground-offer.csv, visual-plan.md, with the remaining review records. Verify this acceptance condition: Facilities and seasonal conditions are accurately represented. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

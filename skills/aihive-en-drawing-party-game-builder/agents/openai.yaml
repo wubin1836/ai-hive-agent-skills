@@ -1,0 +1,6 @@
+interface:
+  display_name: "Drawing Party Game Builder"
+  short_description: "Drawing Party Game Builder"
+  default_prompt: "Use $aihive-en-drawing-party-game-builder with my local drawing-game rules. Produce drawing-game-source/, prompt-deck.json, with the remaining review records. Verify this acceptance condition: Actual local interactions work and unimplemented network features are not claimed. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

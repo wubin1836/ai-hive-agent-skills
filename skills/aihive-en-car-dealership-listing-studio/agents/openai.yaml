@@ -1,0 +1,6 @@
+interface:
+  display_name: "Car Dealership Listing Studio"
+  short_description: "Car Dealership Listing Studio"
+  default_prompt: "Use $aihive-en-car-dealership-listing-studio with my actual vehicle trim. Produce vehicle-feature-map.csv, listing-media-plan.md, with the remaining review records. Verify this acceptance condition: No unavailable trim feature or unsupported condition claim is advertised. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

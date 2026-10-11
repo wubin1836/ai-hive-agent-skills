@@ -1,0 +1,6 @@
+interface:
+  display_name: "Content Calendar Builder"
+  short_description: "Content Calendar Builder with verified outputs"
+  default_prompt: "Use $aihive-en-content-calendar-builder with my content objectives. Produce content-calendar.csv, asset-dependencies.md, with the remaining review records. Verify this acceptance condition: Dates, owners and required assets are consistent and achievable. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

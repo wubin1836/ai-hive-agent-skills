@@ -1,0 +1,6 @@
+interface:
+  display_name: "Company Profile Builder"
+  short_description: "Company Profile Builder with verified outputs"
+  default_prompt: "Use $aihive-en-company-profile-builder with my verified company history. Produce company-profile/, capability-evidence.csv, with the remaining review records. Verify this acceptance condition: No client, credential or performance figure is invented. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Fashion Collection Campaign Builder"
+  short_description: "Fashion Collection Campaign Builder"
+  default_prompt: "Use $aihive-en-fashion-collection-campaign-builder with my collection SKU sheet. Produce collection-campaign.md, outfit-SKU-map.csv, with the remaining review records. Verify this acceptance condition: All advertised garments and variants belong to the confirmed collection. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

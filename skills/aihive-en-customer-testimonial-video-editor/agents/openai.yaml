@@ -1,0 +1,6 @@
+interface:
+  display_name: "Customer Testimonial Video Editor"
+  short_description: "Customer Testimonial Video Editor"
+  default_prompt: "Use $aihive-en-customer-testimonial-video-editor with my approved customer interview. Produce quote-evidence.csv, testimonial-edit.csv, with the remaining review records. Verify this acceptance condition: No fabricated customer experience, metric or endorsement appears. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

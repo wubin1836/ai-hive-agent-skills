@@ -1,0 +1,6 @@
+interface:
+  display_name: "Executive Reporting Pack Builder"
+  short_description: "Executive Reporting Pack Builder"
+  default_prompt: "Use $aihive-en-executive-reporting-pack-builder with my approved business data. Produce executive-report/, evidence-index.csv, with the remaining review records. Verify this acceptance condition: Decision requests and metrics use the same period and definitions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

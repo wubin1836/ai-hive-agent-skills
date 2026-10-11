@@ -1,0 +1,6 @@
+interface:
+  display_name: "Consistent Character Studio"
+  short_description: "Consistent Character Studio"
+  default_prompt: "Use $aihive-en-consistent-character-studio with my original character reference. Produce character-bible.md, reference-sheet/, with the remaining review records. Verify this acceptance condition: Every approved frame matches the identity and wardrobe rules. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

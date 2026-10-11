@@ -1,0 +1,6 @@
+interface:
+  display_name: "Customer Persona Evidence Mapper"
+  short_description: "Customer Persona Evidence Mapper"
+  default_prompt: "Use $aihive-en-customer-persona-evidence-mapper with my authorized interviews. Produce persona-evidence.csv, audience-profiles.md, with the remaining review records. Verify this acceptance condition: Profiles distinguish observed behavior from untested assumptions. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true
