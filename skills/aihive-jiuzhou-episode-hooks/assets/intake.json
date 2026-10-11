@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-jiuzhou-episode-hooks",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创梗概",
+    "受众",
+    "拍摄资源与预算"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "分集冲突表、悬念接点、角色场景清单、制作排期草案",
+  "blocking_questions": []
+}

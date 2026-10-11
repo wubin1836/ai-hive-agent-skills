@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-laiye-worker-sop-pack",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "岗位说明",
+    "处理规则",
+    "正常与异常样本"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "任务包、输入表、异常分流规则、交接记录",
+  "blocking_questions": []
+}

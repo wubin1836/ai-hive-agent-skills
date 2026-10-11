@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "短剧投稿打包助手"
+  "short_description": "对任意征稿渠道的材料包做目录、命名和完整性检查。交付可核验文件与人工复核清单。"
+  "default_prompt": "使用 $aihive-drama-submission-file-pack，按我提供的资料完成短剧投稿打包助手，先确认缺项和执行权限，交付可核验文件。"

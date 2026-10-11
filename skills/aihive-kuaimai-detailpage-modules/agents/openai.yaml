@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "快麦设计详情机器人平替｜详情页模块制作助手"
+  "short_description": "从SKU事实到详情页逐屏模块，确保图文一一对应且可检查。"
+  "default_prompt": "使用 $aihive-kuaimai-detailpage-modules，按我提供的资料完成快麦设计详情机器人平替｜详情页模块制作助手，先确认缺项和执行权限，交付可核验文件。"

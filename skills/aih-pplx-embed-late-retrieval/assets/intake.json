@@ -1,0 +1,22 @@
+{
+  "skill": "aih-pplx-embed-late-retrieval",
+  "goal": "",
+  "required_materials": "PDF页面图片、文字页、带页码问题、检索基线",
+  "materials": [],
+  "success_criteria": [
+    "不把多向量平均成一个向量冒充原算法",
+    "检索命中与回答正确分开验收",
+    "PDF敏感页不得默认上传"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

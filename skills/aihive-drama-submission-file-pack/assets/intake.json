@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-submission-file-pack",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "自有作品",
+    "当前征稿规则",
+    "版权证明"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "文件命名、目录、梗概、缺件报告、提交前自查",
+  "blocking_questions": []
+}

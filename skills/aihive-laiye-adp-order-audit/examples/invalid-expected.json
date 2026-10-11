@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "business_status": "review_required",
+  "errors": [
+    {
+      "field": "order_id",
+      "code": "missing_source"
+    },
+    {
+      "field": "total",
+      "code": "missing_required_value"
+    }
+  ],
+  "scope": "仅检查字段存在与来源文本；不验证来源真实、OCR正确或财务法律结论"
+}

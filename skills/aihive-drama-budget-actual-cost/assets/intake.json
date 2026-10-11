@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-budget-actual-cost",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "镜头",
+    "时长",
+    "演员/模型成本",
+    "返工历史"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "分项预算、合格成片成本、敏感性分析",
+  "blocking_questions": []
+}

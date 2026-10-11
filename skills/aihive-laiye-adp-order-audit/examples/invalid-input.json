@@ -1,0 +1,18 @@
+{
+  "required": [
+    "order_id",
+    "total"
+  ],
+  "fields": [
+    {
+      "name": "order_id",
+      "value": "SAMPLE-001",
+      "source": ""
+    },
+    {
+      "name": "total",
+      "value": null,
+      "source": ""
+    }
+  ]
+}

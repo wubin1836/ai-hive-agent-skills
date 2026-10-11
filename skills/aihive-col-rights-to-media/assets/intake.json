@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-col-rights-to-media",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "有权利的文本",
+    "媒介目标",
+    "角色设定与语言需求"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "改编范围、角色资产任务、分镜制作单、跨媒介交付表",
+  "blocking_questions": []
+}

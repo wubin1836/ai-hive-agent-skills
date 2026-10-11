@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-ad-creative-variants",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "授权成片",
+    "投放渠道规格",
+    "真实卖点"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "开头测试方案、剪辑点表、字幕封面变体、版本追踪",
+  "blocking_questions": []
+}

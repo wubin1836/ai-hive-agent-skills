@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "短剧穿帮检查助手"
+  "short_description": "把可见穿帮证据定位到时间码，区分观察到的问题与不能判断。"
+  "default_prompt": "使用 $aihive-drama-visual-continuity-check，按我提供的资料完成短剧穿帮检查助手，先确认缺项和执行权限，交付可核验文件。"

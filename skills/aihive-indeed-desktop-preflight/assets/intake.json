@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-indeed-desktop-preflight",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "操作目标",
+    "允许目录和应用",
+    "预期输出"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "操作计划、前置检查、危险动作确认表、执行后核对单",
+  "blocking_questions": []
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "groups": [
+    {
+      "currency": "CNY",
+      "total_cost": "9",
+      "attempts": 3,
+      "accepted_outputs": 2,
+      "cost_per_accepted_output": "4.5"
+    }
+  ],
+  "combined_total": null,
+  "scope": "合格由人工输入；各币种独立，未知费用不得填写0，不证明哪个平台普遍便宜"
+}

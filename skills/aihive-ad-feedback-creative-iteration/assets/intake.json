@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-ad-feedback-creative-iteration",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "实际投放表",
+    "素材ID",
+    "人工审核记录"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "素材与结果匹配、假设更新、下一轮变量表",
+  "blocking_questions": []
+}

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "短剧招商方案助手"
+  "short_description": "用真实项目和可履行权益制作招商方案，明确价格和回报只是待谈方案。"
+  "default_prompt": "使用 $aihive-drama-sponsorship-proposal，按我提供的资料完成短剧招商方案助手，先确认缺项和执行权限，交付可核验文件。"

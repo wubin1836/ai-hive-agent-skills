@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-dianzhong-ip-filmability",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "已获改编授权文本",
+    "预算",
+    "集数与场景限制"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "改编权益检查、可拍性评分、改编取舍、试播集提案",
+  "blocking_questions": []
+}

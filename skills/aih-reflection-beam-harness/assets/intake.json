@@ -1,0 +1,22 @@
+{
+  "skill": "aih-reflection-beam-harness",
+  "goal": "",
+  "required_materials": "测试仓库、只读任务、原模型配置、测试命令",
+  "materials": [],
+  "success_criteria": [
+    "不能只改model字符串就称兼容",
+    "保留用户未提交修改",
+    "权重体量与资源要求需实查"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

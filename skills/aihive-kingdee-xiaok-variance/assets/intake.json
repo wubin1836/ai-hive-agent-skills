@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-kingdee-xiaok-variance",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "已授权导出报表",
+    "指标口径",
+    "期间数据"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "异常排行、证据单元格、原因假设、待核实问题",
+  "blocking_questions": []
+}

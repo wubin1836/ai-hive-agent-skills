@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-custom-brand-drama-blueprint",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "品牌卖点",
+    "客群",
+    "可表达边界"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "原创提案、植入节点、商单分镜、品牌审片清单",
+  "blocking_questions": []
+}

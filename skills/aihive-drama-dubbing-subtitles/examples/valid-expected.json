@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "cues": [
+    {
+      "number": 1,
+      "start_ms": 0,
+      "end_ms": 2000,
+      "characters": 7
+    },
+    {
+      "number": 2,
+      "start_ms": 2000,
+      "end_ms": 4000,
+      "characters": 9
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "scope": "只检测SRT格式与时间；阅读负荷为字符/秒提示，不证明翻译、配音、语言质量；阈值按项目调整"
+}

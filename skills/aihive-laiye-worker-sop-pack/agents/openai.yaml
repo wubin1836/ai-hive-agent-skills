@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "来也AI员工同类助手｜从SOP制作岗位任务包"
+  "short_description": "把SOP变成班次可交接的岗位任务包，重点是异常分流和恢复上下文。"
+  "default_prompt": "使用 $aihive-laiye-worker-sop-pack，按我提供的资料完成来也AI员工同类助手｜从SOP制作岗位任务包，先确认缺项和执行权限，交付可核验文件。"

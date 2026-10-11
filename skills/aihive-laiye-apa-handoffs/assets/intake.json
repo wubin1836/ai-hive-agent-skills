@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-laiye-apa-handoffs",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "现有流程图",
+    "字段字典",
+    "动作权限"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "依赖图、重试边界、人工确认点、执行回执规范",
+  "blocking_questions": []
+}

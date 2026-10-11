@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-jiawo-merchant-actions",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "有赞或其他后台授权导出",
+    "商品资料",
+    "近期活动"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "经营问题清单、优先动作、活动内容草案、复盘检查表",
+  "blocking_questions": []
+}

@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "asset_id": "sample-a",
+      "impressions": 1000,
+      "clicks": 50,
+      "conversions": 5,
+      "spend": "100",
+      "revenue": "250",
+      "currency": "CNY"
+    }
+  ]
+}

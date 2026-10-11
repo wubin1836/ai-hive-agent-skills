@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-laiye-acx-escalation",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "脱敏历史工单",
+    "审核过的知识库",
+    "升级规则"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "可追溯答复、未命中清单、工单摘要、转人工条件",
+  "blocking_questions": []
+}

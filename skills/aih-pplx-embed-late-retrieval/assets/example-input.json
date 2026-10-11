@@ -1,0 +1,21 @@
+[
+  {
+    "query_id": "demo-q1",
+    "relevant_ids": [
+      "asset-A",
+      "asset-B"
+    ],
+    "retrieved_ids": [
+      "asset-X",
+      "asset-A",
+      "asset-B"
+    ]
+  },
+  {
+    "query_id": "demo-q2",
+    "relevant_ids": [
+      "asset-C"
+    ],
+    "retrieved_ids": []
+  }
+]

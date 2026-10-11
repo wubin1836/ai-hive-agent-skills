@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-visual-continuity-check",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "镜头图/视频",
+    "角色状态",
+    "分集顺序"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "人物服饰道具场景差异、问题时间码、返修建议",
+  "blocking_questions": []
+}

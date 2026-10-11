@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-dubbing-subtitles",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "授权台本",
+    "目标语言",
+    "时长限制"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "术语与人名表、译制台本、字幕和配音质检",
+  "blocking_questions": []
+}

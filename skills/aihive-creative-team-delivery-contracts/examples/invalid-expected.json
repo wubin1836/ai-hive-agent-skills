@@ -1,0 +1,14 @@
+{
+  "passed": false,
+  "topological_order": [],
+  "errors": [
+    {
+      "code": "cycle_or_blocked_dependency",
+      "task_ids": [
+        "a",
+        "b"
+      ]
+    }
+  ],
+  "scope": "仅结构检查；不证明权限已授予、执行已发生或审批已通过"
+}

@@ -1,0 +1,22 @@
+{
+  "skill": "aih-together-link-harness-compare",
+  "goal": "",
+  "required_materials": "客户端类型、允许配置范围、脱敏参数、工具任务",
+  "materials": [],
+  "success_criteria": [
+    "不覆盖全局配置",
+    "不同平台余额不互通",
+    "不支持的能力明确列缺口"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

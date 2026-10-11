@@ -1,0 +1,22 @@
+{
+  "sample_only": true,
+  "skill": "aihive-isearch-flow-regression",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "人工步骤录像说明或操作记录",
+    "输入输出样本"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "结构化流程、变量定义、条件分支、回归测试用例",
+  "blocking_questions": []
+}

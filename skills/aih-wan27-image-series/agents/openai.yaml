@@ -1,0 +1,6 @@
+interface:
+  display_name: "万相2.7组图一致性制作助手"
+  short_description: "组图一致性与补图计划；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-wan27-image-series，根据我提供的材料完成组图一致性与补图计划。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

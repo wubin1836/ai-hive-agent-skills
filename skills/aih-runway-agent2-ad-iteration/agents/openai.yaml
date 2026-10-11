@@ -1,0 +1,6 @@
+interface:
+  display_name: "Runway Agent 2.0广告迭代平替"
+  short_description: "创意实验与归因说明；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-runway-agent2-ad-iteration，根据我提供的材料完成创意实验与归因说明。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

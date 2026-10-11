@@ -1,0 +1,12 @@
+{
+  "observations": [
+    {
+      "shot_id": "s01",
+      "entity": "C01",
+      "attribute": "coat",
+      "expected": "蓝色",
+      "observed": "蓝色",
+      "evidence": "虚构样例帧s01"
+    }
+  ]
+}

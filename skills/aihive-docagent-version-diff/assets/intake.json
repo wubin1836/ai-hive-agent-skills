@@ -1,0 +1,22 @@
+{
+  "sample_only": true,
+  "skill": "aihive-docagent-version-diff",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "合同/单据不同版本",
+    "字段与阈值规则"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "差异表、字段来源页、异常分类、复核队列",
+  "blocking_questions": []
+}

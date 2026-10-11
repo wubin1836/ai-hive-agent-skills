@@ -1,0 +1,22 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-media-buy-review",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "真实曝光点击转化消耗数据",
+    "素材ID"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "指标核算、素材分组、下一轮实验计划",
+  "blocking_questions": []
+}

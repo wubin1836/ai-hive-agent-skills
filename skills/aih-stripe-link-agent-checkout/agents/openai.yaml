@@ -1,0 +1,6 @@
+interface:
+  display_name: "Stripe Link采购Agent审批草案"
+  short_description: "采购审批与支付回执规则；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-stripe-link-agent-checkout，根据我提供的材料完成采购审批与支付回执规则。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

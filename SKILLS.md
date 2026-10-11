@@ -6707,7 +6707,7 @@
 | [金属商品拉丝质感修图助手](skills/imiva-metal-brush-workflow/SKILL.md) | IMIVA | 智能精修 |
 | [服装面料纹理保真修图助手](skills/imiva-fabric-weave-workflow/SKILL.md) | IMIVA | 智能精修 |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7087,3 +7087,58 @@
 | [照片视频重新布光｜Pika Relight平替](skills/aih-pika-relight-lock/SKILL.md) | AI-HIVE | AI workflows |
 | [无声视频配环境声｜Pika Soundtrack平替](skills/aih-pika-soundtrack-cue/SKILL.md) | AI-HIVE | AI workflows |
 | [多格故事板转镜头｜PixVerse C1助手](skills/aih-pixverse-c1-storyboard/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [pplx-embed-v2视觉文档检索助手](skills/aih-pplx-embed-late-retrieval/SKILL.md) | AI-HIVE | AI workflows |
+| [Qwen-AgentWorld智能体模拟验收](skills/aih-qwen-agentworld-sandbox/SKILL.md) | AI-HIVE | AI workflows |
+| [千问图像3.0多语包装排版助手](skills/aih-qwenimage3-layout/SKILL.md) | AI-HIVE | AI workflows |
+| [Reflection Beam仓库任务迁移验收](skills/aih-reflection-beam-harness/SKILL.md) | AI-HIVE | AI workflows |
+| [Runway Agent 2.0广告迭代平替](skills/aih-runway-agent2-ad-iteration/SKILL.md) | AI-HIVE | AI workflows |
+| [Runway Aleph 2.0局部改视频平替](skills/aih-runway-aleph2-protected-edit/SKILL.md) | AI-HIVE | AI workflows |
+| [Runway Ruby HDR交付验收平替](skills/aih-runway-ruby-hdr-review/SKILL.md) | AI-HIVE | AI workflows |
+| [Seedance2.5样片转正式片助手](skills/aih-seedance25-draft-to-final/SKILL.md) | AI-HIVE | AI workflows |
+| [Claude Sonnet 5.5缓存账单核对](skills/aih-sonnet55-cache-cost/SKILL.md) | AI-HIVE | AI workflows |
+| [Stripe Link采购Agent审批草案](skills/aih-stripe-link-agent-checkout/SKILL.md) | AI-HIVE | AI workflows |
+| [TapNow Astra 6 Studio三维预演平替](skills/aih-tapnow-astra-previs/SKILL.md) | AI-HIVE | AI workflows |
+| [TapNow深度影视动作重拍平替](skills/aih-tapnow-performance-retake/SKILL.md) | AI-HIVE | AI workflows |
+| [Together Link开放模型切换评估](skills/aih-together-link-harness-compare/SKILL.md) | AI-HIVE | AI workflows |
+| [多角色对话音画同出｜Vidu Q3助手](skills/aih-vidu-q3-dialogue-scene/SKILL.md) | AI-HIVE | AI workflows |
+| [万相2.7组图一致性制作助手](skills/aih-wan27-image-series/SKILL.md) | AI-HIVE | AI workflows |
+| [广告素材回流迭代助手](skills/aihive-ad-feedback-creative-iteration/SKILL.md) | AI-HIVE | AI workflows |
+| [AI员工岗位配置助手](skills/aihive-ai-employee-role-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Atypica同类研究｜AI消费者访谈预演助手](skills/aihive-atypica-persona-rehearsal/SKILL.md) | AI-HIVE | AI workflows |
+| [乐聊ChatPlusAI同类助手｜跨境客服多语种回复](skills/aihive-chatplus-crossborder-replies/SKILL.md) | AI-HIVE | AI workflows |
+| [中文在线AI短剧方向｜授权IP内容生产助手](skills/aihive-col-rights-to-media/SKILL.md) | AI-HIVE | AI workflows |
+| [营销素材合格成本助手](skills/aihive-creative-qualified-unit-cost/SKILL.md) | AI-HIVE | AI workflows |
+| [内容生产团队交接助手](skills/aihive-creative-team-delivery-contracts/SKILL.md) | AI-HIVE | AI workflows |
+| [品牌定制短剧助手](skills/aihive-custom-brand-drama-blueprint/SKILL.md) | AI-HIVE | AI workflows |
+| [点众短剧内容参考｜网文改编可拍性助手](skills/aihive-dianzhong-ip-filmability/SKILL.md) | AI-HIVE | AI workflows |
+| [艺赛旗DocAgent同类｜文档比对与字段质检助手](skills/aihive-docagent-version-diff/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧投流素材助手](skills/aihive-drama-ad-creative-variants/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧报价与成本核算助手](skills/aihive-drama-budget-actual-cost/SKILL.md) | AI-HIVE | AI workflows |
+| [AI短剧云创平台同类｜从创意到审片任务包](skills/aihive-drama-cloud-review-pack/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧封面与预告素材助手](skills/aihive-drama-cover-trailer-delivery/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧多集连续性助手](skills/aihive-drama-cross-episode-state/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧译制与出海助手](skills/aihive-drama-dubbing-subtitles/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧买量复盘助手](skills/aihive-drama-media-buy-review/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧分账测算助手](skills/aihive-drama-revenue-share/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧招商方案助手](skills/aihive-drama-sponsorship-proposal/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧投稿打包助手](skills/aihive-drama-submission-file-pack/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧穿帮检查助手](skills/aihive-drama-visual-continuity-check/SKILL.md) | AI-HIVE | AI workflows |
+| [好有本领短剧参考｜品牌定制剧提案助手](skills/aihive-haoyoubenling-brand-pitch/SKILL.md) | AI-HIVE | AI workflows |
+| [红果短剧创作者中心｜投稿材料准备助手](skills/aihive-hongguo-submission-readiness/SKILL.md) | AI-HIVE | AI workflows |
+| [华策有风国色同类｜影视IP评估与创作助手](skills/aihive-huace-ip-evidence-review/SKILL.md) | AI-HIVE | AI workflows |
+| [实在Agent同类任务｜桌面业务执行前检查助手](skills/aihive-indeed-desktop-preflight/SKILL.md) | AI-HIVE | AI workflows |
+| [艺赛旗自动化魔术师同类｜流程生成与测试助手](skills/aihive-isearch-flow-regression/SKILL.md) | AI-HIVE | AI workflows |
+| [有赞加我智能同类｜商家经营任务助手](skills/aihive-jiawo-merchant-actions/SKILL.md) | AI-HIVE | AI workflows |
+| [九州文化短剧制作参考｜分集钩子与制片助手](skills/aihive-jiuzhou-episode-hooks/SKILL.md) | AI-HIVE | AI workflows |
+| [金蝶小K同类分析｜经营报表异常解释助手](skills/aihive-kingdee-xiaok-variance/SKILL.md) | AI-HIVE | AI workflows |
+| [快麦设计详情机器人平替｜详情页模块制作助手](skills/aihive-kuaimai-detailpage-modules/SKILL.md) | AI-HIVE | AI workflows |
+| [筷子科技同类流程｜编拍剪投管素材交接助手](skills/aihive-kuaizi-content-ad-lifecycle/SKILL.md) | AI-HIVE | AI workflows |
+| [来也ACX同类客服｜知识问答与转人工助手](skills/aihive-laiye-acx-escalation/SKILL.md) | AI-HIVE | AI workflows |
+| [来也ADP同类处理｜订单单据抽取核对助手](skills/aihive-laiye-adp-order-audit/SKILL.md) | AI-HIVE | AI workflows |
+| [来也APA流程拆解｜跨系统任务交接助手](skills/aihive-laiye-apa-handoffs/SKILL.md) | AI-HIVE | AI workflows |
+| [来也AI员工同类助手｜从SOP制作岗位任务包](skills/aihive-laiye-worker-sop-pack/SKILL.md) | AI-HIVE | AI workflows |

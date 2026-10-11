@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "sample.txt",
+      "bytes": 55,
+      "sha256": "64243ff545bae4741f167c7b74a1f7eba07930506493e2e95e5da5069603c52c"
+    }
+  ],
+  "errors": [],
+  "duplicate_content": [],
+  "scope": "仅文件存在性和哈希，不读取回显正文，不确认版权有效、内容合规或渠道审核"
+}

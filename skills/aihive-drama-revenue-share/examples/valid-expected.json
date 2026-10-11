@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "currency": "CNY",
+  "minor_units": 2,
+  "values": {
+    "net": "900",
+    "deficit": "0",
+    "recoup_paid": "300",
+    "recoup_remaining": "0",
+    "distributable": "600",
+    "share": "240.00",
+    "remainder": "360.00"
+  },
+  "scope": "仅用户已确认的先扣除、再回本、再分成模型；回本收款人与分成收款人需单独确认；不适用阶梯、保底、税务、复杂合同"
+}

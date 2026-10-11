@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "红果短剧创作者中心｜投稿材料准备助手"
+  "short_description": "按用户提供的当期红果/抖音短剧提交要求核对材料和文件。"
+  "default_prompt": "使用 $aihive-hongguo-submission-readiness，按我提供的资料完成红果短剧创作者中心｜投稿材料准备助手，先确认缺项和执行权限，交付可核验文件。"

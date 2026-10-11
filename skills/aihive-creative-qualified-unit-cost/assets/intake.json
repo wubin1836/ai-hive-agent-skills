@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-creative-qualified-unit-cost",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "生成次数",
+    "重试成本",
+    "人工时长",
+    "审核结果"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "每个合格素材成本、失败分类、平台同题比较",
+  "blocking_questions": []
+}

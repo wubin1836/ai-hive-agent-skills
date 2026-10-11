@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "九州文化短剧制作参考｜分集钩子与制片助手"
+  "short_description": "同时管理短剧每集钩子、后续兑现和制片资源，避免只有悬念没有故事。"
+  "default_prompt": "使用 $aihive-jiuzhou-episode-hooks，按我提供的资料完成九州文化短剧制作参考｜分集钩子与制片助手，先确认缺项和执行权限，交付可核验文件。"

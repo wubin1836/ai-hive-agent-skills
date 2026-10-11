@@ -1,0 +1,22 @@
+{
+  "skill": "aih-tapnow-astra-previs",
+  "goal": "",
+  "required_materials": "原创剧本、场景草图、机位限制、镜头时长",
+  "materials": [],
+  "success_criteria": [
+    "预演图不能冒充3D工程",
+    "不能复制竞品私有模板",
+    "运镜方向与人物朝向需连贯"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

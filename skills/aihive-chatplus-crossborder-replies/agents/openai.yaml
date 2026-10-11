@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "乐聊ChatPlusAI同类助手｜跨境客服多语种回复"
+  "short_description": "多语客服回复保留原始承诺边界，尤其检查金额、日期和售后政策。"
+  "default_prompt": "使用 $aihive-chatplus-crossborder-replies，按我提供的资料完成乐聊ChatPlusAI同类助手｜跨境客服多语种回复，先确认缺项和执行权限，交付可核验文件。"

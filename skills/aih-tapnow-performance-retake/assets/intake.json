@@ -1,0 +1,22 @@
+{
+  "skill": "aih-tapnow-performance-retake",
+  "goal": "",
+  "required_materials": "授权动作源、角色参考、服装场景、允许改变项",
+  "materials": [],
+  "success_criteria": [
+    "不克隆未授权真实人物",
+    "不承诺专有深度动作资产可移植",
+    "动作与画面风格分开验收"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

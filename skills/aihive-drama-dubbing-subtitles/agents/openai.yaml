@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "短剧译制与出海助手"
+  "short_description": "在授权台本上做字幕译制和配音交接，明确时间码与术语的一致性。"
+  "default_prompt": "使用 $aihive-drama-dubbing-subtitles，按我提供的资料完成短剧译制与出海助手，先确认缺项和执行权限，交付可核验文件。"

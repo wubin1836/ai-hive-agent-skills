@@ -1,0 +1,8 @@
+{
+  "gross": "1000",
+  "deductions": "100",
+  "recoup_due": "300",
+  "share_rate": "0.4",
+  "currency": "CNY",
+  "minor_units": 2
+}

@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-hongguo-submission-readiness",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "自有版权证明",
+    "剧本梗概",
+    "样片",
+    "当前官方提交要求"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "材料目录、缺项表、片名简介、文件命名和提交前自查",
+  "blocking_questions": []
+}

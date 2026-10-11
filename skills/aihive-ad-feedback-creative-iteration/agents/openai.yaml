@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "广告素材回流迭代助手"
+  "short_description": "把真实投放反馈连回素材变量，形成下一轮创意假设。交付可核验文件与人工复核清单。"
+  "default_prompt": "使用 $aihive-ad-feedback-creative-iteration，按我提供的资料完成广告素材回流迭代助手，先确认缺项和执行权限，交付可核验文件。"

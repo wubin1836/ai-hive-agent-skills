@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "output_id": "sample-a",
+      "cost": "2",
+      "currency": "CNY",
+      "accepted": false
+    },
+    {
+      "output_id": "sample-a",
+      "cost": "3",
+      "currency": "CNY",
+      "accepted": true
+    },
+    {
+      "output_id": "sample-b",
+      "cost": "4",
+      "currency": "CNY",
+      "accepted": true
+    }
+  ]
+}

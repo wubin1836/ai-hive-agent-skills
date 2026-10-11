@@ -1,0 +1,22 @@
+{
+  "skill": "aih-runway-ruby-hdr-review",
+  "goal": "",
+  "required_materials": "源视频、色彩空间信息、目标显示设备、交付规格",
+  "materials": [],
+  "success_criteria": [
+    "更改标签不等于真HDR",
+    "不能无损恢复原本不存在的细节",
+    "需保留源片与普通屏版本"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

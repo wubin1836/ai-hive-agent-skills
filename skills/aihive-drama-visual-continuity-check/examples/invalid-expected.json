@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "issues": [
+    {
+      "shot_id": "s02",
+      "entity": "C01",
+      "attribute": "coat",
+      "code": "mismatch_needs_story_review"
+    }
+  ],
+  "observations_checked": 1,
+  "scope": "仅精确比较已输入的期望和观察值；视觉正确性、剧情时间跳跃与审美判断须人工核实"
+}

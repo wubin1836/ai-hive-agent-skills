@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-cross-episode-state",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "分集脚本",
+    "上一集结尾状态",
+    "资产编号"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "连续性台账、事件时间轴、改动影响、生成顺序",
+  "blocking_questions": []
+}

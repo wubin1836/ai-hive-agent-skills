@@ -1,0 +1,22 @@
+{
+  "skill": "aih-qwen-agentworld-sandbox",
+  "goal": "",
+  "required_materials": "授权工具schema、任务状态机、模拟故障、目标验收规则",
+  "materials": [],
+  "success_criteria": [
+    "模拟成功不等于实机成功",
+    "不接真实支付或政务表单",
+    "不以绕过权限作为任务完成奖励"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

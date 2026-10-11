@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "groups": [
+    {
+      "asset_id": "sample-a",
+      "currency": "CNY",
+      "impressions": "1000",
+      "clicks": "50",
+      "conversions": "5",
+      "spend": "100",
+      "revenue": "250",
+      "CTR": "0.05",
+      "CVR": "0.1",
+      "CPA": "20",
+      "ROAS": "2.5"
+    }
+  ],
+  "warnings": [],
+  "scope": "输入必须同周期同归因口径；不验证数据真实性，不做因果或统计显著性推断；CTR/CVR为小数比率"
+}

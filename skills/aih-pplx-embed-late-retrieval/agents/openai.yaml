@@ -1,0 +1,6 @@
+interface:
+  display_name: "pplx-embed-v2视觉文档检索助手"
+  short_description: "视觉页面检索与多向量适配说明；连接AI-HIVE前核验权限与真实能力"
+  default_prompt: "请使用 $aih-pplx-embed-late-retrieval，根据我提供的材料完成视觉页面检索与多向量适配说明。先确认范围，再核验AI-HIVE工具与费用，不直接发布。"
+policy:
+  allow_implicit_invocation: true

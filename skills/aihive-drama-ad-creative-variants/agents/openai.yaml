@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "短剧投流素材助手"
+  "short_description": "从授权成片制作单变量投流素材实验，而非泛泛推荐爆款。"
+  "default_prompt": "使用 $aihive-drama-ad-creative-variants，按我提供的资料完成短剧投流素材助手，先确认缺项和执行权限，交付可核验文件。"

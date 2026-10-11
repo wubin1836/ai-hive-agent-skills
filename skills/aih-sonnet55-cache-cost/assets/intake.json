@@ -1,0 +1,22 @@
+{
+  "skill": "aih-sonnet55-cache-cost",
+  "goal": "",
+  "required_materials": "脱敏用量记录、缓存命中字段、报价版本、币种",
+  "materials": [],
+  "success_criteria": [
+    "不同币种不相加",
+    "未知缓存命中不写0",
+    "缓存不能混存不同租户资料"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

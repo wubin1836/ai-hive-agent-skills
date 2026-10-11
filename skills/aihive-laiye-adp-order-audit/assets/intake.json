@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-laiye-adp-order-audit",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "PDF订单",
+    "字段定义",
+    "业务校验规则"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "逐页溯源字段表、金额勾稽、缺失与疑义清单",
+  "blocking_questions": []
+}

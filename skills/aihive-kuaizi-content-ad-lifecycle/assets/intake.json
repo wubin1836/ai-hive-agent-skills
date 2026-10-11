@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-kuaizi-content-ad-lifecycle",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "投放Brief",
+    "商品资产",
+    "渠道清单",
+    "真实投放回执"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "脚本—镜头—剪辑—投放规格映射、素材ID、效果回流表",
+  "blocking_questions": []
+}

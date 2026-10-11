@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-haoyoubenling-brand-pitch",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "品牌目标",
+    "原创故事",
+    "制作约束"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "主题与人物提案、商业露出分寸表、试播集、甲方审稿记录",
+  "blocking_questions": []
+}

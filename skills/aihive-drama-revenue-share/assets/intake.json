@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-revenue-share",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "当前平台合同规则",
+    "收入成本",
+    "分成比例"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "可追溯计算表、情景区间、结算差异单",
+  "blocking_questions": []
+}

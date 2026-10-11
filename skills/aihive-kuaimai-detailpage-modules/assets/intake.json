@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-kuaimai-detailpage-modules",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "SKU参数",
+    "商品图片",
+    "品牌规范",
+    "页面目标"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "详情页信息层级、逐屏文案、图像任务、真实性检查表",
+  "blocking_questions": []
+}

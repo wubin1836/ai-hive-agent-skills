@@ -1,0 +1,22 @@
+{
+  "skill": "aih-seedance25-draft-to-final",
+  "goal": "",
+  "required_materials": "素材、试片预算、成片规格、关键验收点",
+  "materials": [],
+  "success_criteria": [
+    "样片批准不等于成片通过",
+    "两阶段费用分别确认",
+    "失败先查任务状态不重复下单"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

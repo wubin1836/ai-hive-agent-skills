@@ -1,0 +1,22 @@
+{
+  "mode": "retrieval",
+  "k": 5,
+  "queries": [
+    {
+      "query_id": "demo-q1",
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.5,
+      "hit_at_k": 1
+    },
+    {
+      "query_id": "demo-q2",
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0,
+      "hit_at_k": 0
+    }
+  ],
+  "mean_recall_at_k": 0.5,
+  "mrr_at_k": 0.25,
+  "hit_rate_at_k": 0.5,
+  "note": "Metrics measure supplied evidence IDs, not answer correctness or production recall."
+}

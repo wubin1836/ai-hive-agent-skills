@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-cloud-review-pack",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创题材",
+    "剧本",
+    "合法素材",
+    "制作规范"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "创意案、资产清单、制作任务、审片问题表",
+  "blocking_questions": []
+}

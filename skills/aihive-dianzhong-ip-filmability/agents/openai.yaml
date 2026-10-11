@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "点众短剧内容参考｜网文改编可拍性助手"
+  "short_description": "在改编授权和资源限制下评价网文片段的可拍性，保留取舍依据。"
+  "default_prompt": "使用 $aihive-dianzhong-ip-filmability，按我提供的资料完成点众短剧内容参考｜网文改编可拍性助手，先确认缺项和执行权限，交付可核验文件。"

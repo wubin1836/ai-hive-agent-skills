@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "来也APA流程拆解｜跨系统任务交接助手"
+  "short_description": "为跨系统流程定义依赖、回执和补偿边界，减少半完成状态。"
+  "default_prompt": "使用 $aihive-laiye-apa-handoffs，按我提供的资料完成来也APA流程拆解｜跨系统任务交接助手，先确认缺项和执行权限，交付可核验文件。"

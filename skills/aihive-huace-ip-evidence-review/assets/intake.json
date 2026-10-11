@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-huace-ip-evidence-review",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "授权IP文本",
+    "目标类型",
+    "预算与评估维度"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "人物/情节可视化评估、证据章节、改编风险、试制方案",
+  "blocking_questions": []
+}

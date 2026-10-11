@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-atypica-persona-rehearsal",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "产品概念",
+    "已有用户研究",
+    "拟调查人群"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "研究问题、模拟访谈、假设分歧、真人验证计划",
+  "blocking_questions": []
+}

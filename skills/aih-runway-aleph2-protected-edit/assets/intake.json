@@ -1,0 +1,22 @@
+{
+  "skill": "aih-runway-aleph2-protected-edit",
+  "goal": "",
+  "required_materials": "授权源片、需改区域或时间段、保护对象、输出规格",
+  "materials": [],
+  "success_criteria": [
+    "不得去掉版权标记掩盖来源",
+    "不承诺逐像素保留",
+    "原片不覆盖"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-sponsorship-proposal",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创项目资料",
+    "真实受众与预算"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "招商PPT内容框架、权益清单、合作方案、ROI假设表",
+  "blocking_questions": []
+}

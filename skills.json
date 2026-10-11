@@ -58292,5 +58292,455 @@
     "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
     "path": "skills/aih-pixverse-c1-storyboard",
     "language": "zh-CN"
+  },
+  {
+    "name": "aih-pplx-embed-late-retrieval",
+    "display_name": "pplx-embed-v2视觉文档检索助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-pplx-embed-late-retrieval",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-qwen-agentworld-sandbox",
+    "display_name": "Qwen-AgentWorld智能体模拟验收",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-qwen-agentworld-sandbox",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-qwenimage3-layout",
+    "display_name": "千问图像3.0多语包装排版助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-qwenimage3-layout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-reflection-beam-harness",
+    "display_name": "Reflection Beam仓库任务迁移验收",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-reflection-beam-harness",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-runway-agent2-ad-iteration",
+    "display_name": "Runway Agent 2.0广告迭代平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-runway-agent2-ad-iteration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-runway-aleph2-protected-edit",
+    "display_name": "Runway Aleph 2.0局部改视频平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-runway-aleph2-protected-edit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-runway-ruby-hdr-review",
+    "display_name": "Runway Ruby HDR交付验收平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-runway-ruby-hdr-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-seedance25-draft-to-final",
+    "display_name": "Seedance2.5样片转正式片助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-seedance25-draft-to-final",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-sonnet55-cache-cost",
+    "display_name": "Claude Sonnet 5.5缓存账单核对",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-sonnet55-cache-cost",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-stripe-link-agent-checkout",
+    "display_name": "Stripe Link采购Agent审批草案",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-stripe-link-agent-checkout",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-tapnow-astra-previs",
+    "display_name": "TapNow Astra 6 Studio三维预演平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-tapnow-astra-previs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-tapnow-performance-retake",
+    "display_name": "TapNow深度影视动作重拍平替",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-tapnow-performance-retake",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-together-link-harness-compare",
+    "display_name": "Together Link开放模型切换评估",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-together-link-harness-compare",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-vidu-q3-dialogue-scene",
+    "display_name": "多角色对话音画同出｜Vidu Q3助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-vidu-q3-dialogue-scene",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aih-wan27-image-series",
+    "display_name": "万相2.7组图一致性制作助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-国内海外新品与模型热点补缺-20261010",
+    "path": "skills/aih-wan27-image-series",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ad-feedback-creative-iteration",
+    "display_name": "广告素材回流迭代助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-ad-feedback-creative-iteration",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-ai-employee-role-kit",
+    "display_name": "AI员工岗位配置助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-ai-employee-role-kit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-atypica-persona-rehearsal",
+    "display_name": "Atypica同类研究｜AI消费者访谈预演助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-atypica-persona-rehearsal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-chatplus-crossborder-replies",
+    "display_name": "乐聊ChatPlusAI同类助手｜跨境客服多语种回复",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-chatplus-crossborder-replies",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-col-rights-to-media",
+    "display_name": "中文在线AI短剧方向｜授权IP内容生产助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-col-rights-to-media",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-creative-qualified-unit-cost",
+    "display_name": "营销素材合格成本助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-creative-qualified-unit-cost",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-creative-team-delivery-contracts",
+    "display_name": "内容生产团队交接助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-creative-team-delivery-contracts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-custom-brand-drama-blueprint",
+    "display_name": "品牌定制短剧助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-custom-brand-drama-blueprint",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-dianzhong-ip-filmability",
+    "display_name": "点众短剧内容参考｜网文改编可拍性助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-dianzhong-ip-filmability",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-docagent-version-diff",
+    "display_name": "艺赛旗DocAgent同类｜文档比对与字段质检助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-docagent-version-diff",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-ad-creative-variants",
+    "display_name": "短剧投流素材助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-ad-creative-variants",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-budget-actual-cost",
+    "display_name": "短剧报价与成本核算助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-budget-actual-cost",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-cloud-review-pack",
+    "display_name": "AI短剧云创平台同类｜从创意到审片任务包",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-cloud-review-pack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-cover-trailer-delivery",
+    "display_name": "短剧封面与预告素材助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-cover-trailer-delivery",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-cross-episode-state",
+    "display_name": "短剧多集连续性助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-cross-episode-state",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-dubbing-subtitles",
+    "display_name": "短剧译制与出海助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-dubbing-subtitles",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-media-buy-review",
+    "display_name": "短剧买量复盘助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-media-buy-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-revenue-share",
+    "display_name": "短剧分账测算助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-revenue-share",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-sponsorship-proposal",
+    "display_name": "短剧招商方案助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-sponsorship-proposal",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-submission-file-pack",
+    "display_name": "短剧投稿打包助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-submission-file-pack",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-drama-visual-continuity-check",
+    "display_name": "短剧穿帮检查助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-drama-visual-continuity-check",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-haoyoubenling-brand-pitch",
+    "display_name": "好有本领短剧参考｜品牌定制剧提案助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-haoyoubenling-brand-pitch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-hongguo-submission-readiness",
+    "display_name": "红果短剧创作者中心｜投稿材料准备助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-hongguo-submission-readiness",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-huace-ip-evidence-review",
+    "display_name": "华策有风国色同类｜影视IP评估与创作助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-huace-ip-evidence-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-indeed-desktop-preflight",
+    "display_name": "实在Agent同类任务｜桌面业务执行前检查助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-indeed-desktop-preflight",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-isearch-flow-regression",
+    "display_name": "艺赛旗自动化魔术师同类｜流程生成与测试助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-isearch-flow-regression",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-jiawo-merchant-actions",
+    "display_name": "有赞加我智能同类｜商家经营任务助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-jiawo-merchant-actions",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-jiuzhou-episode-hooks",
+    "display_name": "九州文化短剧制作参考｜分集钩子与制片助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-jiuzhou-episode-hooks",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-kingdee-xiaok-variance",
+    "display_name": "金蝶小K同类分析｜经营报表异常解释助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-kingdee-xiaok-variance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-kuaimai-detailpage-modules",
+    "display_name": "快麦设计详情机器人平替｜详情页模块制作助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-kuaimai-detailpage-modules",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-kuaizi-content-ad-lifecycle",
+    "display_name": "筷子科技同类流程｜编拍剪投管素材交接助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-kuaizi-content-ad-lifecycle",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-laiye-acx-escalation",
+    "display_name": "来也ACX同类客服｜知识问答与转人工助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-laiye-acx-escalation",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-laiye-adp-order-audit",
+    "display_name": "来也ADP同类处理｜订单单据抽取核对助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-laiye-adp-order-audit",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-laiye-apa-handoffs",
+    "display_name": "来也APA流程拆解｜跨系统任务交接助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-laiye-apa-handoffs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-laiye-worker-sop-pack",
+    "display_name": "来也AI员工同类助手｜从SOP制作岗位任务包",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-laiye-worker-sop-pack",
+    "language": "zh-CN"
   }
 ]

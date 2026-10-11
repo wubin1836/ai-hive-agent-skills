@@ -1,0 +1,22 @@
+{
+  "skill": "aih-stripe-link-agent-checkout",
+  "goal": "",
+  "required_materials": "库存副本、SKU阈值、供应商白名单、预算与审批人",
+  "materials": [],
+  "success_criteria": [
+    "未确认不付款",
+    "超时先查单不再扣款",
+    "库存/支付权限分别确认"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

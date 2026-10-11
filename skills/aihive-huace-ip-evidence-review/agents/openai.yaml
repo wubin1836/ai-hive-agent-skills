@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "华策有风国色同类｜影视IP评估与创作助手"
+  "short_description": "以章节证据评估影视IP并设计有限试制，不把专有模型名当已接入能力。"
+  "default_prompt": "使用 $aihive-huace-ip-evidence-review，按我提供的资料完成华策有风国色同类｜影视IP评估与创作助手，先确认缺项和执行权限，交付可核验文件。"

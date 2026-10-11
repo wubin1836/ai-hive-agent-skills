@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "短剧封面与预告素材助手"
+  "short_description": "从已获授权的剧情资产制作封面与预告的统一宣传包。交付可核验文件与人工复核清单。"
+  "default_prompt": "使用 $aihive-drama-cover-trailer-delivery，按我提供的资料完成短剧封面与预告素材助手，先确认缺项和执行权限，交付可核验文件。"

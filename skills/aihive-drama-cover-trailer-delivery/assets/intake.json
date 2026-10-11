@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-drama-cover-trailer-delivery",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "合法角色图",
+    "剧情概要",
+    "渠道尺寸"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "封面文案、预告镜头表、宣发素材规格表",
+  "blocking_questions": []
+}

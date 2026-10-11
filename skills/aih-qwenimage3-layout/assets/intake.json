@@ -1,0 +1,22 @@
+{
+  "skill": "aih-qwenimage3-layout",
+  "goal": "",
+  "required_materials": "获授权包装、已审定文案、多语译文、尺寸与出血线",
+  "materials": [],
+  "success_criteria": [
+    "不得生成虚假认证标志",
+    "模型图不等于可直接印刷的源文件",
+    "精确小字错误需返工"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

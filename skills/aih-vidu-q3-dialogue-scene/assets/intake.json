@@ -1,0 +1,22 @@
+{
+  "skill": "aih-vidu-q3-dialogue-scene",
+  "goal": "",
+  "required_materials": "原创短场景、授权角色参考、逐句台词、切镜点",
+  "materials": [],
+  "success_criteria": [
+    "字幕正确不能替代口播正确",
+    "Q2结果不能叫Q3",
+    "真实人像需授权"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

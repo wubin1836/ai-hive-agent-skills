@@ -1,0 +1,22 @@
+{
+  "skill": "aih-wan27-image-series",
+  "goal": "",
+  "required_materials": "品牌素材、各张用途、共同视觉锚点、尺寸",
+  "materials": [],
+  "success_criteria": [
+    "张数必须对应请求槽位",
+    "各图承诺与原产品一致",
+    "模型限制按当前工具核验"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}

@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-creative-team-delivery-contracts",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "脚本",
+    "美术",
+    "视频",
+    "配音多岗位现有资料"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "输入输出契约、版本锁定、交接清单、异常返修路径",
+  "blocking_questions": []
+}

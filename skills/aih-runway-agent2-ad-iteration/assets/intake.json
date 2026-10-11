@@ -1,0 +1,22 @@
+{
+  "skill": "aih-runway-agent2-ad-iteration",
+  "goal": "",
+  "required_materials": "脱敏素材数据、受众、目标、品牌约束、合规卖点",
+  "materials": [],
+  "success_criteria": [
+    "相关不等于因果",
+    "不保证转化提升",
+    "缺少花费数据不能编造ROI"
+  ],
+  "allow_upload": false,
+  "allowed_tools": [],
+  "budget": {
+    "currency": "",
+    "max_amount": null,
+    "price_verified_at": null
+  },
+  "consent_reference": "",
+  "output_directory": "",
+  "status": "planned",
+  "note": "空值待填写；默认不上传、不付费、不发布。"
+}
