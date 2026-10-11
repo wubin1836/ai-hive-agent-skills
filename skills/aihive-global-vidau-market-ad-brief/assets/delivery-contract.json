@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-vidau-market-ad-brief",
+  "required_documents": [
+    "market-brief.json",
+    "ad-storyboards.csv",
+    "claims-evidence.md"
+  ],
+  "human_acceptance": [
+    "每个效果承诺有证据，文化适配不改变产品事实。",
+    "合规性需按当前投放地规则复核，不以模型判断替代平台审核。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不保证广告投放效果或平台审核通过。"
+}

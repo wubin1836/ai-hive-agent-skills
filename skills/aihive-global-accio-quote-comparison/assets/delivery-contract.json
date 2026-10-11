@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-accio-quote-comparison",
+  "required_documents": [
+    "quote-comparison.csv",
+    "rfq-drafts.md",
+    "missing-evidence.json"
+  ],
+  "human_acceptance": [
+    "每个报价数字能回溯到原表或显式公式，币种与单位不混用。",
+    "明确不可比项，不把推测的工厂资质、库存或成交价当事实。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不复制 Accio 的供应商数据库、认证能力、交易和物流履约；仅处理用户提供或合法授权获取的数据。"
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-voiceflow-dialogue-prototype",
+  "required_documents": [
+    "dialogue-state-machine.json",
+    "tool-contracts.md",
+    "conversation-tests.csv"
+  ],
+  "human_acceptance": [
+    "缺槽位、超时、无结果、转人工都能走通。",
+    "仿真通过不能声称生产电话系统已上线。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不复制Voiceflow可视化编辑器、托管电话或云端会话管理。"
+}

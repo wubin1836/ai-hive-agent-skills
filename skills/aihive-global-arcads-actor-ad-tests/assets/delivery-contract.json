@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-arcads-actor-ad-tests",
+  "required_documents": [
+    "experiment-cells.csv",
+    "actor-scripts.json",
+    "creative-review.md"
+  ],
+  "human_acceptance": [
+    "单变量比较可解释，不能把无关素材的差异当因果。",
+    "无真实数据时不写CTR、ROAS提升结论。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不复制Arcads演员库或为用户取得第三方肖像授权。"
+}

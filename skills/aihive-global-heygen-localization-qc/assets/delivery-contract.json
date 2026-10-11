@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-heygen-localization-qc",
+  "required_documents": [
+    "glossary.csv",
+    "localized-lines.json",
+    "lip-sync-review.csv"
+  ],
+  "human_acceptance": [
+    "产品名、金额和否定词无误译，所有段落有源时间码。",
+    "没有音视频预览或测量能力时把口型与听感标为待人工验收。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不默认复制声音或肖像，不把普通文生视频说成专用口型同步服务。"
+}

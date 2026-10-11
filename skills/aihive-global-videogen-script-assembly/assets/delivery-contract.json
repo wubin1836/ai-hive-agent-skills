@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-videogen-script-assembly",
+  "required_documents": [
+    "scene-timeline.json",
+    "asset-rights.csv",
+    "assembly-review.md"
+  ],
+  "human_acceptance": [
+    "每个镜头有合法来源和时长，不以虚构演示证明产品效果。",
+    "区分已渲染成片和待装配素材。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不复制VideoGen素材库或替代其全部发布服务。"
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-pippit-language-variants",
+  "required_documents": [
+    "variant-matrix.csv",
+    "localized-scripts.json",
+    "delivery-manifest.json"
+  ],
+  "human_acceptance": [
+    "同一SKU在不同语言中价格、单位和促销期限一致。",
+    "每个已完成视频都有真实文件、语言与尺寸记录；待剪辑不计成片。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不宣称自动继承 Pippit 的账号、排程发布、商业素材许可和分析数据。"
+}

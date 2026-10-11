@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-homestyler-room-merchandising",
+  "required_documents": [
+    "room-constraints.json",
+    "product-placement.csv",
+    "room-concept-review.md"
+  ],
+  "human_acceptance": [
+    "概念图不能用于承重、消防、施工或精确测量。",
+    "商品规格来自真实清单，不编造库存和装修报价。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代Homestyler精确3D场景、CAD和施工设计系统。"
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-hypeauditor-creator-shortlist",
+  "required_documents": [
+    "creator-scorecard.csv",
+    "campaign-briefs.md",
+    "data-limitations.json"
+  ],
+  "human_acceptance": [
+    "缺失数据不补成0；不同时间窗口的指标不能直接比较。",
+    "没有专有数据时不承诺实时账号画像或欺诈识别。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代HypeAuditor数据库和真实渠道授权。"
+}

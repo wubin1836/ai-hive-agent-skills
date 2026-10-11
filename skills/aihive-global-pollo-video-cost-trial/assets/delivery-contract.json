@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-pollo-video-cost-trial",
+  "required_documents": [
+    "trial-results.csv",
+    "prompt-parameter-map.json",
+    "cost-comparison.md"
+  ],
+  "human_acceptance": [
+    "成本分母只用合格输出，失败费用不能遗漏。",
+    "分辨率、音频、时长和授权范围必须可比，不能用不同规格证明更便宜。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "同名模型也可能有不同参数和权益；此项不保证 AI-HIVE 支持 Pollo 全部模型。"
+}

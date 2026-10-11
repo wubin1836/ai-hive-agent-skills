@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-vmake-apparel-detail-video",
+  "required_documents": [
+    "garment-locks.json",
+    "detail-shotlist.csv",
+    "sku-fidelity-review.md"
+  ],
+  "human_acceptance": [
+    "件数、结构和色号准确，不能制造不存在的面料性能。",
+    "生成画面不能冒充真人实穿测评。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不保证虚拟试穿尺寸准确性，不替代真实试穿和材质检测。"
+}

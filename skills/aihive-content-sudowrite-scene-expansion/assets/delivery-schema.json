@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-sudowrite-scene-expansion",
+  "documents": [
+    {
+      "path": "scene-constraints.json",
+      "required_fields": [
+        "goal",
+        "pov",
+        "fixed_events",
+        "allowed_expansion"
+      ]
+    },
+    {
+      "path": "revision-review.csv",
+      "required_fields": [
+        "paragraph_id",
+        "change",
+        "pov_check",
+        "plot_impact",
+        "decision"
+      ]
+    }
+  ],
+  "media_deliverables": "原创扩写版本、逐段差异表与视角检查。",
+  "human_acceptance": [
+    "扩写不改变场景结尾的既定事实。",
+    "不续写受版权保护作品的大段指定文本。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

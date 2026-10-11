@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-magnific-detail-preservation",
+  "required_documents": [
+    "detail-locks.json",
+    "upscale-comparison.csv",
+    "fidelity-report.md"
+  ],
+  "human_acceptance": [
+    "不改变Logo、文字、器件数量或商品材质事实。",
+    "不承诺数学意义无损，不把幻觉细节称真实还原。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不包含Magnific素材库许可；价格优势需同规格实测。"
+}

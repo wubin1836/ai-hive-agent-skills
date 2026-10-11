@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-gorgias-returns-policy-qc",
+  "required_documents": [
+    "case-policy-map.csv",
+    "support-drafts.md",
+    "escalation-log.json"
+  ],
+  "human_acceptance": [
+    "退款和订单变更只有真实授权工具回执才能称完成。",
+    "政策引用能复核，客户数据最小化处理。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代Gorgias工单后台、订单连接器和支付退款系统。"
+}

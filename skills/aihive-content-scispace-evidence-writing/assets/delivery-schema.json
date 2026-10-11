@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-scispace-evidence-writing",
+  "documents": [
+    {
+      "path": "evidence-matrix.csv",
+      "required_fields": [
+        "paper_id",
+        "question",
+        "method",
+        "finding",
+        "locator",
+        "limitation"
+      ]
+    },
+    {
+      "path": "citation-audit.json",
+      "required_fields": [
+        "claims",
+        "references",
+        "unverified"
+      ]
+    }
+  ],
+  "media_deliverables": "原创综述草稿、证据矩阵和未核验引用清单。",
+  "human_acceptance": [
+    "不得虚构论文、DOI、页码或实验结果。",
+    "只读摘要时不能声称已审全文。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

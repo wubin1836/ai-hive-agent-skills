@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-manychat-comment-dm-flow",
+  "required_documents": [
+    "trigger-rules.json",
+    "reply-library.csv",
+    "dm-flow-tests.md"
+  ],
+  "human_acceptance": [
+    "拒收与退出请求优先，不能因模型改写绕过拒收。",
+    "没有社媒连接权限不得声称消息已发送。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代Manychat消息通道、平台审批和订阅管理。"
+}

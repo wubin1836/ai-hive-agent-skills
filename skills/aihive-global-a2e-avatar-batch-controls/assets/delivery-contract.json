@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-a2e-avatar-batch-controls",
+  "required_documents": [
+    "consent-map.csv",
+    "batch-jobs.json",
+    "avatar-review.md"
+  ],
+  "human_acceptance": [
+    "所有任务有适用的授权引用，撤回授权后的任务不再扩量。",
+    "失败项与已验收项分开。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不等同A2E实时互动数字人和其专用模型。"
+}

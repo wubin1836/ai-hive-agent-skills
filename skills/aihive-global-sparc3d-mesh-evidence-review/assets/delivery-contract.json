@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-sparc3d-mesh-evidence-review",
+  "required_documents": [
+    "reconstruction-inputs.csv",
+    "mesh-findings.json",
+    "repair-handoff.md"
+  ],
+  "human_acceptance": [
+    "拓扑结论来自真实网格检查，不从二维效果图断言水密。",
+    "未经尺寸校核不称可直接制造或3D打印。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "这是研究相关工作流补充，不冒充Sparc3D官方产品或承诺AI-HIVE已有其模型。"
+}

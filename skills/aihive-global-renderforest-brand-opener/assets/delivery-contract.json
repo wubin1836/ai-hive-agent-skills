@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-renderforest-brand-opener",
+  "required_documents": [
+    "opener-storyboard.json",
+    "brand-locks.md",
+    "render-review.csv"
+  ],
+  "human_acceptance": [
+    "Logo形状、比例和标准色保持准确。",
+    "没有渲染文件只能称分镜或素材包，不称已成片。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不复用Renderforest付费模板或音乐许可。"
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-slidebean-pitch-evidence",
+  "required_documents": [
+    "pitch-evidence.csv",
+    "financial-assumptions.json",
+    "pitch-review.md"
+  ],
+  "human_acceptance": [
+    "历史数据和预测可见区分，所有金额有币种和期间。",
+    "不承诺融资成功，不把商业展示当投资建议。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代财务审计、估值与专业融资服务。"
+}

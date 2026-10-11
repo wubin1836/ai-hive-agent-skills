@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-rosebud-mini-game-assets",
+  "required_documents": [
+    "game-loop.json",
+    "asset-catalog.csv",
+    "playtest-report.md"
+  ],
+  "human_acceptance": [
+    "剧情、数值和资产ID一致，游戏素材有版权来源。",
+    "没有真实运行截图或测试记录，不写试玩通过。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不提供Rosebud的在线托管、社区和完整游戏引擎。"
+}

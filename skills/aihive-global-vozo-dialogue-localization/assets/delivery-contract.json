@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-vozo-dialogue-localization",
+  "required_documents": [
+    "speaker-lines.json",
+    "dubbing-script.csv",
+    "audio-video-qc.md"
+  ],
+  "human_acceptance": [
+    "同一角色语言与声线一致，否定和情绪强弱不被翻错。",
+    "配音、背景声和音效有独立来源记录。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不保证AI-HIVE具备Vozo全部翻译与口型功能，按实际音频接口分层执行。"
+}

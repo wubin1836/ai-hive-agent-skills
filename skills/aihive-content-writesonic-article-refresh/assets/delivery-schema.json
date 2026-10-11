@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-writesonic-article-refresh",
+  "documents": [
+    {
+      "path": "refresh-audit.csv",
+      "required_fields": [
+        "claim_id",
+        "old_claim",
+        "new_claim",
+        "source",
+        "status"
+      ]
+    },
+    {
+      "path": "intent-coverage.json",
+      "required_fields": [
+        "questions",
+        "sections",
+        "remaining_gaps"
+      ]
+    }
+  ],
+  "media_deliverables": "原创更新稿、变更清单与搜索问题覆盖表。",
+  "human_acceptance": [
+    "删除或降格无法验证的过时结论。",
+    "不承诺被搜索或AI答案收录。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

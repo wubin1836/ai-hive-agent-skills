@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-pitch-sales-deck-variants",
+  "required_documents": [
+    "deck-variant-map.csv",
+    "sales-narrative.md",
+    "brand-review.json"
+  ],
+  "human_acceptance": [
+    "不同客户版本不串用数据，价格与有效期匹配。",
+    "不把本地提案生成说成已同步Pitch云端协作。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "Pitch为品牌与普通单词同名，只有用户指产品或销售提案任务时使用本项。"
+}

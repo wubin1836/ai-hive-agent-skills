@@ -6978,7 +6978,7 @@
 | [Atlas、LettaBot与Limitless Rewind：旧Agent资料迁移](skills/aih-pa-legacy-agent-migration/SKILL.md) | AI-HIVE | Personal Agent |
 | [个人生活小面板生成助手](skills/aih-pa-life-mini-dashboard/SKILL.md) | AI-HIVE | Personal Agent |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7362,3 +7362,58 @@
 | [remove.bg平替｜透明底批量抠图与边缘检查](skills/aihive-content-removebg-alpha-qc/SKILL.md) | AI-HIVE | AI workflows |
 | [Reve平替｜参考图局部换物与版本对照](skills/aihive-content-reve-masked-variants/SKILL.md) | AI-HIVE | AI workflows |
 | [Robly平替｜邮件主题实验与分组复盘](skills/aihive-content-robly-email-experiment/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [SciSpace平替｜文献证据矩阵与综述草稿](skills/aihive-content-scispace-evidence-writing/SKILL.md) | AI-HIVE | AI workflows |
+| [ScreenPal平替｜反馈录屏整理与敏感画面遮盖](skills/aihive-content-screenpal-feedback-redaction/SKILL.md) | AI-HIVE | AI workflows |
+| [Sudowrite平替｜小说场景扩写与视角校对](skills/aihive-content-sudowrite-scene-expansion/SKILL.md) | AI-HIVE | AI workflows |
+| [Systeme.io平替｜获客漏斗页面与话术对齐](skills/aihive-content-systeme-funnel-message-map/SKILL.md) | AI-HIVE | AI workflows |
+| [Take App平替｜WhatsApp商品目录与下单说明](skills/aihive-content-takeapp-catalog-order-clarity/SKILL.md) | AI-HIVE | AI workflows |
+| [Talkie平替｜互动剧情分支与NPC对话](skills/aihive-content-talkie-branching-story/SKILL.md) | AI-HIVE | AI workflows |
+| [Tensor.Art平替｜参考图参数迁移与可复用配方](skills/aihive-content-tensorart-reference-recipes/SKILL.md) | AI-HIVE | AI workflows |
+| [Topaz Labs平替｜低清素材修复与分级验收](skills/aihive-content-topaz-batch-restoration/SKILL.md) | AI-HIVE | AI workflows |
+| [Viggle平替｜吉祥物动作参考与节拍表演](skills/aihive-content-viggle-mascot-motion/SKILL.md) | AI-HIVE | AI workflows |
+| [Vimeo平替｜视频库章节与检索标签整理](skills/aihive-content-vimeo-library-metadata/SKILL.md) | AI-HIVE | AI workflows |
+| [Writesonic平替｜旧文章更新与搜索意图补全](skills/aihive-content-writesonic-article-refresh/SKILL.md) | AI-HIVE | AI workflows |
+| [2short.ai平替方案｜课程长视频精华短片助手](skills/aihive-global-2short-lesson-excerpts/SKILL.md) | AI-HIVE | AI workflows |
+| [A2E平替方案｜授权数字人口播批次助手](skills/aihive-global-a2e-avatar-batch-controls/SKILL.md) | AI-HIVE | AI workflows |
+| [Accio平替方案｜供应商报价比选与询盘助手](skills/aihive-global-accio-quote-comparison/SKILL.md) | AI-HIVE | AI workflows |
+| [ACE Studio平替方案｜原创歌曲人声制作交接助手](skills/aihive-global-ace-studio-vocal-production/SKILL.md) | AI-HIVE | AI workflows |
+| [Arcads平替方案｜广告演员脚本对照助手](skills/aihive-global-arcads-actor-ad-tests/SKILL.md) | AI-HIVE | AI workflows |
+| [Auphonic平替方案｜播客响度与降噪质检助手](skills/aihive-global-auphonic-podcast-audio-qc/SKILL.md) | AI-HIVE | AI workflows |
+| [Choppity平替方案｜按主题找片段与精剪清单](skills/aihive-global-choppity-topic-search/SKILL.md) | AI-HIVE | AI workflows |
+| [Decagon平替方案｜客服知识库与工单回放助手](skills/aihive-global-decagon-support-replay/SKILL.md) | AI-HIVE | AI workflows |
+| [Eklipse平替方案｜游戏直播高光切片助手](skills/aihive-global-eklipse-game-highlight-review/SKILL.md) | AI-HIVE | AI workflows |
+| [Gorgias平替方案｜售后政策与客服草稿助手](skills/aihive-global-gorgias-returns-policy-qc/SKILL.md) | AI-HIVE | AI workflows |
+| [Guidde平替方案｜录屏转操作教程助手](skills/aihive-global-guidde-screen-sop/SKILL.md) | AI-HIVE | AI workflows |
+| [HeyGen平替方案｜视频翻译术语与口型验收](skills/aihive-global-heygen-localization-qc/SKILL.md) | AI-HIVE | AI workflows |
+| [Homestyler平替方案｜家居空间效果图与导购助手](skills/aihive-global-homestyler-room-merchandising/SKILL.md) | AI-HIVE | AI workflows |
+| [HypeAuditor平替方案｜达人筛选与投放简报助手](skills/aihive-global-hypeauditor-creator-shortlist/SKILL.md) | AI-HIVE | AI workflows |
+| [Idomoo平替方案｜个性化视频变量校验助手](skills/aihive-global-idomoo-personalization-proof/SKILL.md) | AI-HIVE | AI workflows |
+| [Intellemo平替方案｜品牌广告素材组合助手](skills/aihive-global-intellemo-brand-ad-pack/SKILL.md) | AI-HIVE | AI workflows |
+| [JoggAI平替方案｜商品数字人讲解助手](skills/aihive-global-jogg-product-presenter/SKILL.md) | AI-HIVE | AI workflows |
+| [Kittl平替方案｜T恤图案与印刷交付助手](skills/aihive-global-kittl-merch-print-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Magnific平替方案｜商品放大与细节保真助手](skills/aihive-global-magnific-detail-preservation/SKILL.md) | AI-HIVE | AI workflows |
+| [Manychat平替方案｜评论转私信话术与分流助手](skills/aihive-global-manychat-comment-dm-flow/SKILL.md) | AI-HIVE | AI workflows |
+| [Meshy平替方案｜三视图与材质交接助手](skills/aihive-global-meshy-modeling-reference/SKILL.md) | AI-HIVE | AI workflows |
+| [OpusClip平替方案｜播客长转短与竖屏切片](skills/aihive-global-opusclip-podcast-cutlist/SKILL.md) | AI-HIVE | AI workflows |
+| [PFPMaker平替方案｜商务头像风格统一助手](skills/aihive-global-pfpmaker-headshot-consistency/SKILL.md) | AI-HIVE | AI workflows |
+| [Pippit平替方案｜多语种商品广告版本助手](skills/aihive-global-pippit-language-variants/SKILL.md) | AI-HIVE | AI workflows |
+| [Pitch平替方案｜销售提案版本与品牌校验](skills/aihive-global-pitch-sales-deck-variants/SKILL.md) | AI-HIVE | AI workflows |
+| [Pollo AI平替方案｜多模型视频试片与成本对照](skills/aihive-global-pollo-video-cost-trial/SKILL.md) | AI-HIVE | AI workflows |
+| [Relevance AI平替方案｜营销Agent任务交接助手](skills/aihive-global-relevance-ai-task-contracts/SKILL.md) | AI-HIVE | AI workflows |
+| [Renderforest平替方案｜品牌片头与企业短片助手](skills/aihive-global-renderforest-brand-opener/SKILL.md) | AI-HIVE | AI workflows |
+| [Rosebud AI平替方案｜小游戏剧情与试玩资产助手](skills/aihive-global-rosebud-mini-game-assets/SKILL.md) | AI-HIVE | AI workflows |
+| [Slidebean平替方案｜创业路演证据与图表助手](skills/aihive-global-slidebean-pitch-evidence/SKILL.md) | AI-HIVE | AI workflows |
+| [SlideSpeak平替方案｜产品手册转演示文稿助手](skills/aihive-global-slidespeak-manual-to-deck/SKILL.md) | AI-HIVE | AI workflows |
+| [Sparc3D平替方案｜重建输入与网格验收助手](skills/aihive-global-sparc3d-mesh-evidence-review/SKILL.md) | AI-HIVE | AI workflows |
+| [SubEasy平替方案｜双语字幕与SRT校对助手](skills/aihive-global-subeasy-bilingual-subtitles/SKILL.md) | AI-HIVE | AI workflows |
+| [Tripo平替方案｜游戏道具规格与3D导入验收](skills/aihive-global-tripo-game-asset-handoff/SKILL.md) | AI-HIVE | AI workflows |
+| [VidAU平替方案｜跨境商品广告本地化助手](skills/aihive-global-vidau-market-ad-brief/SKILL.md) | AI-HIVE | AI workflows |
+| [VideoGen平替方案｜脚本成片与素材授权台账](skills/aihive-global-videogen-script-assembly/SKILL.md) | AI-HIVE | AI workflows |
+| [Vmake平替方案｜服装细节展示短视频助手](skills/aihive-global-vmake-apparel-detail-video/SKILL.md) | AI-HIVE | AI workflows |
+| [Voiceflow平替方案｜智能客服流程原型助手](skills/aihive-global-voiceflow-dialogue-prototype/SKILL.md) | AI-HIVE | AI workflows |
+| [Vozo平替方案｜多角色对白翻译配音助手](skills/aihive-global-vozo-dialogue-localization/SKILL.md) | AI-HIVE | AI workflows |

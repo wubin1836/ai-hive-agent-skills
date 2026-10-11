@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-subeasy-bilingual-subtitles",
+  "required_documents": [
+    "bilingual.srt",
+    "subtitle-glossary.csv",
+    "subtitle-qc.json"
+  ],
+  "human_acceptance": [
+    "时间码合法、起止递增，字幕内容不超出源材料。",
+    "没有ASR或可用字幕时明确缺项，不伪造精确秒数。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不承诺全部语言准确率，不把字幕校验等同听译质量保证。"
+}

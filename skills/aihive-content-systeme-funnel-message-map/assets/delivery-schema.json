@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-systeme-funnel-message-map",
+  "documents": [
+    {
+      "path": "funnel-map.json",
+      "required_fields": [
+        "steps",
+        "links",
+        "consent_points"
+      ]
+    },
+    {
+      "path": "promise-check.csv",
+      "required_fields": [
+        "claim_id",
+        "page",
+        "source",
+        "evidence",
+        "status"
+      ]
+    }
+  ],
+  "media_deliverables": "页面文案、可用时生成的本地预览和路径测试表。",
+  "human_acceptance": [
+    "广告入口承诺与最终报价相同。",
+    "不使用虚假倒计时或伪造客户评价。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

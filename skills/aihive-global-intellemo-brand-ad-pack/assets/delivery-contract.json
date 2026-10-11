@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-intellemo-brand-ad-pack",
+  "required_documents": [
+    "creative-components.json",
+    "ad-combinations.csv",
+    "launch-handoff.md"
+  ],
+  "human_acceptance": [
+    "组合中的卖点、画面和CTA一致，没有失效促销。",
+    "未经真实投放无法宣称提升转化。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代广告账户管理、投放优化与平台归因。"
+}

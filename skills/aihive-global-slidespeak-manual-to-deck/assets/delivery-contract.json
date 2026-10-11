@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-slidespeak-manual-to-deck",
+  "required_documents": [
+    "slide-source-map.csv",
+    "speaker-notes.md",
+    "deck-review.json"
+  ],
+  "human_acceptance": [
+    "关键数字和结论都有页码引用，不把效果示意当原产品图片。",
+    "PPTX需能打开，逐页无文字溢出；仅大纲不等于PPT文件。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不承诺仅靠语言模型保留复杂PDF原版式。"
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-decagon-support-replay",
+  "required_documents": [
+    "support-testcases.json",
+    "replay-results.csv",
+    "knowledge-gaps.md"
+  ],
+  "human_acceptance": [
+    "答案必须能引用政策，没权限的操作不能编造已执行。",
+    "测试数据脱敏，模型输出不能泄露其他客户资料。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代Decagon线上客服系统、电话渠道与企业SLA。"
+}

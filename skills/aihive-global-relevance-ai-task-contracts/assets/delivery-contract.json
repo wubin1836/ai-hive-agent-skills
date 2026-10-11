@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-relevance-ai-task-contracts",
+  "required_documents": [
+    "task-dag.json",
+    "handoff-contracts.csv",
+    "workflow-replay.md"
+  ],
+  "human_acceptance": [
+    "依赖无环、输入有来源，失败任务不会误触发后续发布。",
+    "未调用真实多Agent运行时只称编排设计与单任务验证。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代Relevance AI托管运行时、连接器库和企业权限体系。"
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-tripo-game-asset-handoff",
+  "required_documents": [
+    "asset-spec.json",
+    "material-map.csv",
+    "import-review.md"
+  ],
+  "human_acceptance": [
+    "面数和单位必须来自文件解析或实际检查，不能从渲染图猜测。",
+    "没有实际导入测试不能写引擎可用；不输出伪造的模型文件扩展名。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "模型生成、重拓扑、绑定和引擎部署均依赖真实工具，不能由文案替代。"
+}

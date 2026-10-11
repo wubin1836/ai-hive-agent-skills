@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-topaz-batch-restoration",
+  "documents": [
+    {
+      "path": "restoration-log.csv",
+      "required_fields": [
+        "asset_id",
+        "defect_type",
+        "tool",
+        "output_path",
+        "grade"
+      ]
+    },
+    {
+      "path": "evidence-limits.json",
+      "required_fields": [
+        "unrecoverable",
+        "review_notes"
+      ]
+    }
+  ],
+  "media_deliverables": "实际修复图、原图对照与分级报告。",
+  "human_acceptance": [
+    "新增细节明确标为推测。",
+    "不能称生成细节为真实证据恢复。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

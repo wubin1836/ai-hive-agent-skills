@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-idomoo-personalization-proof",
+  "required_documents": [
+    "variable-schema.json",
+    "render-map.csv",
+    "personalization-audit.md"
+  ],
+  "human_acceptance": [
+    "输出与接收者一一对应，不能串人、串单或泄露他人信息。",
+    "超长名字、缺失字段和特殊字符都有明确处理。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不宣称具有Idomoo的实时互动渲染、分发与企业接入能力。"
+}

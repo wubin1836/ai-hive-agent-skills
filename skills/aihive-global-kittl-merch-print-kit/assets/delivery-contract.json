@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-kittl-merch-print-kit",
+  "required_documents": [
+    "print-spec.json",
+    "font-rights.csv",
+    "print-handoff.md"
+  ],
+  "human_acceptance": [
+    "DPI与物理尺寸联算，不能只修改DPI标签假装提高清晰度。",
+    "矢量文件需真实路径结构，PNG不能改后缀当SVG。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不包含Kittl商业模板库和字体授权。"
+}

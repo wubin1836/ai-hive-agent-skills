@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-eklipse-game-highlight-review",
+  "required_documents": [
+    "highlight-events.csv",
+    "layout-spec.json",
+    "highlight-review.md"
+  ],
+  "human_acceptance": [
+    "事件结论有可定位证据，不能编造比赛战绩。",
+    "面摄和HUD不相互遮挡，版权音乐另行核验。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不承诺通用模型具备所有游戏专用事件识别；未确认事件要人工标注。"
+}

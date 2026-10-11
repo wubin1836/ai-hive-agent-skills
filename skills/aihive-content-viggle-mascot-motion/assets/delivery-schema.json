@@ -1,0 +1,28 @@
+{
+  "skill": "aihive-content-viggle-mascot-motion",
+  "documents": [
+    {
+      "path": "motion-beats.csv",
+      "required_fields": [
+        "beat_id",
+        "timecode",
+        "pose",
+        "contact_points"
+      ]
+    },
+    {
+      "path": "motion-review.json",
+      "required_fields": [
+        "clips",
+        "keypose_checks",
+        "failures"
+      ]
+    }
+  ],
+  "media_deliverables": "关键姿态图与实际动作短片；缺少动作工具时交接参考包。",
+  "human_acceptance": [
+    "不盗用真人声纹或未授权舞蹈录像。",
+    "动作结果不能只凭一张截图验收。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

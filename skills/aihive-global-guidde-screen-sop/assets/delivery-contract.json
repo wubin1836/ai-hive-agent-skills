@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-guidde-screen-sop",
+  "required_documents": [
+    "sop.md",
+    "step-timeline.csv",
+    "tutorial-assets.json"
+  ],
+  "human_acceptance": [
+    "步骤截图和说明对应，版本差异与前置权限写清。",
+    "未实测的操作标明未验证，不能称已自动上线培训系统。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代Guidde浏览器录制器与企业学习管理服务。"
+}

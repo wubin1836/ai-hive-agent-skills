@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-jogg-product-presenter",
+  "required_documents": [
+    "product-fact-cards.json",
+    "presenter-script.md",
+    "presenter-qc.csv"
+  ],
+  "human_acceptance": [
+    "出镜形象有授权，不伪造真人使用经历。",
+    "商品图片和口播型号一致。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不将普通图片动画宣称为完整数字人克隆。"
+}

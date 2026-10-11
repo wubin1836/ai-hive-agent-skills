@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-auphonic-podcast-audio-qc",
+  "required_documents": [
+    "audio-measurements.csv",
+    "processing-chain.json",
+    "listening-review.md"
+  ],
+  "human_acceptance": [
+    "所有LUFS和峰值来自真实测量，不能按文件名推测。",
+    "遵从目标平台实际规范，不把一个固定响度当所有平台通用标准。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "附件auohnic疑似拼写，未自动认定；本项按已核实Auphonic设计。不保证专有降噪算法等价。"
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-pfpmaker-headshot-consistency",
+  "required_documents": [
+    "portrait-roster.csv",
+    "style-spec.json",
+    "portrait-approval.md"
+  ],
+  "human_acceptance": [
+    "保持本人可识别特征，不进行未授权身份混合。",
+    "此交付是商务头像，不宣称符合证件照官方标准。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不进行人脸身份识别，不虚构职业身份或第三方认证。"
+}

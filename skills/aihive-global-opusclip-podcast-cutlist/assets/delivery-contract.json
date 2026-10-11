@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-opusclip-podcast-cutlist",
+  "required_documents": [
+    "clip-list.json",
+    "caption-timeline.srt",
+    "render-manifest.json"
+  ],
+  "human_acceptance": [
+    "起止秒数处于原片时长内且有序，不能生成不存在的精彩片段。",
+    "视频能正常打开、人物不被裁掉，播放量评分只能是主观建议。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "没有ASR或剪辑工具时只交时间码方案；AI-HIVE生成层不等同完整剪辑器和排程系统。"
+}

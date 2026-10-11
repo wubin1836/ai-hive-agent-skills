@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-ace-studio-vocal-production",
+  "required_documents": [
+    "lyric-alignment.csv",
+    "vocal-direction.md",
+    "stem-manifest.json"
+  ],
+  "human_acceptance": [
+    "不未经允许模仿真实歌手声纹。",
+    "普通TTS不能称为旋律可控歌声合成，未生成的stem不能标完成。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不替代ACE Studio专用歌声编辑、音色许可和DAW能力。"
+}

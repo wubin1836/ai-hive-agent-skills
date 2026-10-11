@@ -1,0 +1,30 @@
+{
+  "skill": "aihive-content-vimeo-library-metadata",
+  "documents": [
+    {
+      "path": "video-index.csv",
+      "required_fields": [
+        "video_id",
+        "file_ref",
+        "title",
+        "summary",
+        "tags",
+        "access_level"
+      ]
+    },
+    {
+      "path": "chapters.json",
+      "required_fields": [
+        "videos",
+        "chapters",
+        "source_refs"
+      ]
+    }
+  ],
+  "media_deliverables": "本地视频索引、章节表和重复候选报告。",
+  "human_acceptance": [
+    "章节起点不超过视频时长。",
+    "索引不泄露本来无权公开的内容。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}

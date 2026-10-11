@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-2short-lesson-excerpts",
+  "required_documents": [
+    "lesson-clips.csv",
+    "context-cards.md",
+    "export-review.json"
+  ],
+  "human_acceptance": [
+    "每条短片只承载可独立理解的知识点，不遗漏结论适用条件。",
+    "公式、板书和屏幕演示在目标画幅可读。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "只处理自有或获授权课程，不下载盗版付费课程。"
+}

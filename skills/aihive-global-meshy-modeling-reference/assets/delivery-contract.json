@@ -1,0 +1,14 @@
+{
+  "skill": "aihive-global-meshy-modeling-reference",
+  "required_documents": [
+    "view-specification.json",
+    "material-brief.md",
+    "reference-manifest.json"
+  ],
+  "human_acceptance": [
+    "各视图比例和部件对应，不能把三张互不一致的图片称为三视图。",
+    "图片和材质说明不冒充GLB、FBX或可打印模型。"
+  ],
+  "structural_check_scope": "仅文档结构；非模型、媒体、事实或版权质量证明",
+  "boundary": "不承诺仅靠图像模型完成拓扑、绑定、UV或实体可打印性。"
+}

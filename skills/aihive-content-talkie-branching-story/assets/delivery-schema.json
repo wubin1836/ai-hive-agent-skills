@@ -1,0 +1,29 @@
+{
+  "skill": "aihive-content-talkie-branching-story",
+  "documents": [
+    {
+      "path": "story-branches.json",
+      "required_fields": [
+        "states",
+        "choices",
+        "endings"
+      ]
+    },
+    {
+      "path": "npc-test-routes.csv",
+      "required_fields": [
+        "route_id",
+        "state",
+        "choice",
+        "next_state",
+        "issue"
+      ]
+    }
+  ],
+  "media_deliverables": "剧情分支文件、NPC对白与可回放的测试路线。",
+  "human_acceptance": [
+    "每个选项有明确后果或说明。",
+    "用户能随时退出剧情，不用情绪压力挽留。"
+  ],
+  "note": "仅校验文档结构；需要真实工具、人工核对及媒体验收。"
+}
