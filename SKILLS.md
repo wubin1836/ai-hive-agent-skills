@@ -6542,7 +6542,7 @@
 | [GPT-6 Luna批量表格处理助手](skills/aihive-gpt6-luna-batch/SKILL.md) | AI-HIVE | 模型批处理 |
 | [Claude Opus 5.5迁移验收助手](skills/aihive-claude-opus55-upgrade/SKILL.md) | AI-HIVE | 模型评测 |
 
-## 2026-10-11 最新成品技能
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -6597,7 +6597,7 @@
 | [旧梦留声机题材参考｜普通人故事原创短片](skills/aihive-case-old-dream-everyday/SKILL.md) | AI-HIVE | 案例创作 |
 | [旧梦留声机《宝贝回家》题材参考｜团圆信物短片](skills/aihive-case-reunion-object/SKILL.md) | AI-HIVE | 案例创作 |
 
-## 2026-10-11 最新成品技能
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -6652,7 +6652,7 @@
 | [特看 Tabcut 平替｜生活场景种草视频事实校验](skills/aihive-tabcut-scene-proof/SKILL.md) | AI-HIVE | 特看 Tabcut |
 | [Kickart 营销视频平替｜商品资料到卖点证明镜头](skills/aihive-kickart-product-facts/SKILL.md) | AI-HIVE | Kickart |
 
-## 2026-10-11 最新成品技能
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -6707,7 +6707,7 @@
 | [金属商品拉丝质感修图助手](skills/imiva-metal-brush-workflow/SKILL.md) | IMIVA | 智能精修 |
 | [服装面料纹理保真修图助手](skills/imiva-fabric-weave-workflow/SKILL.md) | IMIVA | 智能精修 |
 
-## 2026-10-11 最新成品技能
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -6762,7 +6762,7 @@
 | [参考海报信息层级重组助手](skills/imiva-layout-match-workflow/SKILL.md) | IMIVA | 爆款图复制 |
 | [旧商品图换视觉风格助手](skills/imiva-old-style-refresh-workflow/SKILL.md) | IMIVA | 爆款图复制 |
 
-## 2026-10-11 最新成品技能
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -6817,7 +6817,7 @@
 | [全国电商渠道内容路由助手](skills/imiva-platform-router-workflow/SKILL.md) | IMIVA | 制作交付与任务管理 |
 | [图片扩充与画面扩展分流助手](skills/imiva-image-expand-router-workflow/SKILL.md) | IMIVA | 制作交付与任务管理 |
 
-## 2026-10-11 最新成品技能
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -6872,7 +6872,7 @@
 | [微盟导购商品图卡助手](skills/imiva-channel-weimob-workflow/SKILL.md) | IMIVA | 私域电商 |
 | [微店预售商品展示与说明助手](skills/imiva-channel-weidian-workflow/SKILL.md) | IMIVA | 私域电商 |
 
-## 2026-10-11 最新成品技能
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7363,7 +7363,7 @@
 | [Reve平替｜参考图局部换物与版本对照](skills/aihive-content-reve-masked-variants/SKILL.md) | AI-HIVE | AI workflows |
 | [Robly平替｜邮件主题实验与分组复盘](skills/aihive-content-robly-email-experiment/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7418,7 +7418,7 @@
 | [Voiceflow平替方案｜智能客服流程原型助手](skills/aihive-global-voiceflow-dialogue-prototype/SKILL.md) | AI-HIVE | AI workflows |
 | [Vozo平替方案｜多角色对白翻译配音助手](skills/aihive-global-vozo-dialogue-localization/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7473,7 +7473,7 @@
 | [Business Card Designer](skills/aihive-en-business-card-designer/SKILL.md) | AI-HIVE | AI workflows |
 | [Business Dashboard Builder](skills/aihive-en-business-dashboard-builder/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7528,7 +7528,7 @@
 | [Fashion Collection Campaign Builder](skills/aihive-en-fashion-collection-campaign-builder/SKILL.md) | AI-HIVE | AI workflows |
 | [File Archive Organizer](skills/aihive-en-file-archive-organizer/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7583,7 +7583,7 @@
 | [Marketplace Product Image Checker](skills/aihive-en-marketplace-product-image-checker/SKILL.md) | AI-HIVE | AI workflows |
 | [Media Generation Job Tracker](skills/aihive-en-media-generation-job-tracker/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7638,7 +7638,7 @@
 | [Project Proposal & Scope Builder](skills/aihive-en-project-proposal-scope-builder/SKILL.md) | AI-HIVE | AI workflows |
 | [Project Timesheet Consolidator](skills/aihive-en-project-timesheet-consolidator/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7693,7 +7693,7 @@
 | [UTM Link Builder & Validator](skills/aihive-en-utm-link-builder-validator/SKILL.md) | AI-HIVE | AI workflows |
 | [Vacation Rental Guest Guide Builder](skills/aihive-en-vacation-rental-guest-guide-builder/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
