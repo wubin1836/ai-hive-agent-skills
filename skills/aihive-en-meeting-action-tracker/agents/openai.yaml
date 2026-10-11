@@ -1,0 +1,6 @@
+interface:
+  display_name: "Meeting Action Tracker"
+  short_description: "Meeting Action Tracker with verified outputs"
+  default_prompt: "Use $aihive-en-meeting-action-tracker with my confirmed meeting decisions. Produce action-register.csv, decision-links.md, with the remaining review records. Verify this acceptance condition: Every action is sourced and unresolved fields remain visible. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

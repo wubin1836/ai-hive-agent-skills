@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Plan & Risk Register"
+  short_description: "Project Plan & Risk Register"
+  default_prompt: "Use $aihive-en-project-plan-risk-register with my approved project scope. Produce project-plan.csv, dependency-map.md, with the remaining review records. Verify this acceptance condition: No task precedes its prerequisites and uncertain commitments are marked. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

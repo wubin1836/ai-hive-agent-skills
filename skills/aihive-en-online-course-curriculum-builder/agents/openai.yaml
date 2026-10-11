@@ -1,0 +1,6 @@
+interface:
+  display_name: "Online Course Curriculum Builder"
+  short_description: "Online Course Curriculum Builder"
+  default_prompt: "Use $aihive-en-online-course-curriculum-builder with my demonstrated expertise. Produce curriculum-map.csv, lesson-outlines.md, with the remaining review records. Verify this acceptance condition: Every learning goal has practice and a meaningful assessment. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Process Diagram Builder"
+  short_description: "Process Diagram Builder with verified outputs"
+  default_prompt: "Use $aihive-en-process-diagram-builder with my process description. Produce process-diagram-source/, rendered-diagram/, with the remaining review records. Verify this acceptance condition: The diagram syntax renders and all named branches are reachable. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

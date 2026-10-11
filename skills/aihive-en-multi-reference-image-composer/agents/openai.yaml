@@ -1,0 +1,6 @@
+interface:
+  display_name: "Multi-Reference Image Composer"
+  short_description: "Multi-Reference Image Composer"
+  default_prompt: "Use $aihive-en-multi-reference-image-composer with my authorized reference set. Produce reference-map.csv, composition-plan.md, with the remaining review records. Verify this acceptance condition: Each required element has a traceable source and conflicts are resolved. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "NPC Dialogue Asset Builder"
+  short_description: "NPC Dialogue Asset Builder"
+  default_prompt: "Use $aihive-en-npc-dialogue-asset-builder with my character bible. Produce dialogue-table.csv, state-map.json, with the remaining review records. Verify this acceptance condition: Dialogue records use stable IDs and do not contradict known quest state. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

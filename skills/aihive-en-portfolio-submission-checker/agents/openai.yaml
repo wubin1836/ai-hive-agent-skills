@@ -1,0 +1,6 @@
+interface:
+  display_name: "Portfolio Submission Checker"
+  short_description: "Portfolio Submission Checker"
+  default_prompt: "Use $aihive-en-portfolio-submission-checker with my portfolio files or links. Produce portfolio-check.csv, access-gaps.md, with the remaining review records. Verify this acceptance condition: Every finding refers to a tested link or actual file property. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

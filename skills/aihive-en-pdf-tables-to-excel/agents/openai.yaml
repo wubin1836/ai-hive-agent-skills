@@ -1,0 +1,6 @@
+interface:
+  display_name: "PDF Tables to Excel"
+  short_description: "PDF Tables to Excel with verified outputs"
+  default_prompt: "Use $aihive-en-pdf-tables-to-excel with my source PDF. Produce extracted-tables.xlsx, cell-provenance.csv, with the remaining review records. Verify this acceptance condition: Units, footnotes and page references survive extraction. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

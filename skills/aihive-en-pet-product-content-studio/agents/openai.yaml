@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pet Product Content Studio"
+  short_description: "Pet Product Content Studio"
+  default_prompt: "Use $aihive-en-pet-product-content-studio with my pet-item specifications. Produce suitability-sheet.csv, product-content-plan.md, with the remaining review records. Verify this acceptance condition: Claims and demonstrated uses stay within supplied product guidance. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

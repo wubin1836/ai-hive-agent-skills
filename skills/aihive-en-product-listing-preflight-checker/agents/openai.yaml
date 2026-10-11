@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Listing Preflight Checker"
+  short_description: "Product Listing Preflight Checker"
+  default_prompt: "Use $aihive-en-product-listing-preflight-checker with my listing copy. Produce listing-preflight.csv, asset-map.md, with the remaining review records. Verify this acceptance condition: Every blocking issue references a concrete listing field or asset. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

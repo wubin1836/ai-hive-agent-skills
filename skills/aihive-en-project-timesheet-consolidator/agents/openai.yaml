@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Timesheet Consolidator"
+  short_description: "Project Timesheet Consolidator"
+  default_prompt: "Use $aihive-en-project-timesheet-consolidator with my authorized timesheets. Produce timesheet-summary.csv, exceptions.csv, with the remaining review records. Verify this acceptance condition: Aggregated hours reconcile to eligible source entries. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

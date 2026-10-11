@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pixel Game Scene Concept Studio"
+  short_description: "Pixel Game Scene Concept Studio"
+  default_prompt: "Use $aihive-en-pixel-game-scene-concept-studio with my scene brief. Produce palette.json, scene-concepts/, with the remaining review records. Verify this acceptance condition: Scenes follow the palette and clearly distinguish concepts from tested tiles. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Pricing Scenario Builder"
+  short_description: "Product Pricing Scenario Builder"
+  default_prompt: "Use $aihive-en-product-pricing-scenario-builder with my unit costs. Produce pricing-scenarios.csv, margin-formulas.md, with the remaining review records. Verify this acceptance condition: Margins use consistent units and all material fees are included. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

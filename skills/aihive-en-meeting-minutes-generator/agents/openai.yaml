@@ -1,0 +1,6 @@
+interface:
+  display_name: "Meeting Minutes Generator"
+  short_description: "Meeting Minutes Generator"
+  default_prompt: "Use $aihive-en-meeting-minutes-generator with my authorized transcript. Produce minutes.md, decision-register.csv, with the remaining review records. Verify this acceptance condition: No proposal is recast as an agreed decision. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

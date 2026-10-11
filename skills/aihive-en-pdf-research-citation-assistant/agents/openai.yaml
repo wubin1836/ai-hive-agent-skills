@@ -1,0 +1,6 @@
+interface:
+  display_name: "PDF Research & Citation Assistant"
+  short_description: "PDF Research & Citation Assistant"
+  default_prompt: "Use $aihive-en-pdf-research-citation-assistant with my provided PDFs. Produce answers.md, citation-map.csv, with the remaining review records. Verify this acceptance condition: Each substantive answer has page-level support or a clear uncertainty label. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

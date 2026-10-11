@@ -1,0 +1,6 @@
+interface:
+  display_name: "Multi-Model Access Planner"
+  short_description: "Multi-Model Access Planner"
+  default_prompt: "Use $aihive-en-multi-model-access-planner with my intended workloads. Produce capability-map.csv, access-plan.md, with the remaining review records. Verify this acceptance condition: No model or feature is assumed available from marketing names alone. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

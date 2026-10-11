@@ -1,0 +1,6 @@
+interface:
+  display_name: "Photography Studio Booking Portfolio"
+  short_description: "Photography Studio Booking Portfolio"
+  default_prompt: "Use $aihive-en-photography-studio-booking-portfolio with my authorized original photography. Produce studio-portfolio/, usage-rights-index.csv, with the remaining review records. Verify this acceptance condition: The portfolio accurately represents completed work and license scope. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

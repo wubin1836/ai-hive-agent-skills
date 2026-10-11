@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Detail Page Content Builder"
+  short_description: "Product Detail Page Content Builder"
+  default_prompt: "Use $aihive-en-product-detail-page-content-builder with my product specifications. Produce pdp-modules.md, evidence-map.csv, with the remaining review records. Verify this acceptance condition: Every benefit traces to a fact and module order is coherent. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

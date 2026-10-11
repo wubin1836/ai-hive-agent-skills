@@ -1,0 +1,6 @@
+interface:
+  display_name: "Presentation Redesign Assistant"
+  short_description: "Presentation Redesign Assistant"
+  default_prompt: "Use $aihive-en-presentation-redesign-assistant with my existing editable deck. Produce revised-deck.pptx, slide-previews/, with the remaining review records. Verify this acceptance condition: All requested changes are visible and intended editable objects remain editable. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

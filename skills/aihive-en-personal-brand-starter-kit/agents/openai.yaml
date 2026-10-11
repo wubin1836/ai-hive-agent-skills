@@ -1,0 +1,6 @@
+interface:
+  display_name: "Personal Brand Starter Kit"
+  short_description: "Personal Brand Starter Kit"
+  default_prompt: "Use $aihive-en-personal-brand-starter-kit with my person's verified expertise. Produce personal-brand-kit/, content-pillars.md, with the remaining review records. Verify this acceptance condition: The person can substantiate professional and achievement claims. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

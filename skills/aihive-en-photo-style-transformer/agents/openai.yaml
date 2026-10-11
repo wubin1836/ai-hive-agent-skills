@@ -1,0 +1,6 @@
+interface:
+  display_name: "Photo Style Transformer"
+  short_description: "Photo Style Transformer with verified outputs"
+  default_prompt: "Use $aihive-en-photo-style-transformer with my authorized source photo. Produce restyled/, style-brief.md, with the remaining review records. Verify this acceptance condition: Chosen treatment is evident without unwanted identity or composition changes. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

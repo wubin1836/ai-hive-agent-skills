@@ -1,0 +1,6 @@
+interface:
+  display_name: "Payment Matching & Reconciliation"
+  short_description: "Payment Matching & Reconciliation"
+  default_prompt: "Use $aihive-en-payment-matching-reconciliation with my payment records. Produce payment-matches.csv, unmatched.csv, with the remaining review records. Verify this acceptance condition: No receipt is allocated twice and totals balance. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

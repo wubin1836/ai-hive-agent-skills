@@ -1,0 +1,6 @@
+interface:
+  display_name: "Packaged Food Product Content Kit"
+  short_description: "Packaged Food Product Content Kit"
+  default_prompt: "Use $aihive-en-packaged-food-product-content-kit with my actual food packaging. Produce label-claim-map.csv, preparation-storyboard.md, with the remaining review records. Verify this acceptance condition: Ingredient and portion descriptions agree with actual supplied evidence. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

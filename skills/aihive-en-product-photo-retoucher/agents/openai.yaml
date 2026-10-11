@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Photo Retoucher"
+  short_description: "Product Photo Retoucher with verified outputs"
+  default_prompt: "Use $aihive-en-product-photo-retoucher with my product originals. Produce retouched/, before-after/, with the remaining review records. Verify this acceptance condition: Each alteration corresponds to an approved cosmetic correction. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

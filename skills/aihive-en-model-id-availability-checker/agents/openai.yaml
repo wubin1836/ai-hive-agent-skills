@@ -1,0 +1,6 @@
+interface:
+  display_name: "Model ID & Availability Checker"
+  short_description: "Model ID & Availability Checker"
+  default_prompt: "Use $aihive-en-model-id-availability-checker with my configured model ID. Produce model-match.csv, capability-gap.md, with the remaining review records. Verify this acceptance condition: Suggested identifiers come from actual current account evidence. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

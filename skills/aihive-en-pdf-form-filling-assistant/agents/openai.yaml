@@ -1,0 +1,6 @@
+interface:
+  display_name: "PDF Form Filling Assistant"
+  short_description: "PDF Form Filling Assistant"
+  default_prompt: "Use $aihive-en-pdf-form-filling-assistant with my provided PDF form. Produce filled-form.pdf, field-map.csv, with the remaining review records. Verify this acceptance condition: All entered values match approved facts and the original is retained. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

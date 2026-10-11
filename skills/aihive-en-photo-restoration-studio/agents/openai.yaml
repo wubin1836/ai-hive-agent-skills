@@ -1,0 +1,6 @@
+interface:
+  display_name: "Photo Restoration Studio"
+  short_description: "Photo Restoration Studio with verified outputs"
+  default_prompt: "Use $aihive-en-photo-restoration-studio with my scanned original. Produce restored/, repair-map.md, with the remaining review records. Verify this acceptance condition: Faithful repairs and speculative reconstruction are distinguished. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

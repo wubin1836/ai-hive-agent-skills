@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Review Insights Analyzer"
+  short_description: "Product Review Insights Analyzer"
+  default_prompt: "Use $aihive-en-product-review-insights-analyzer with my authorized review export. Produce review-themes.csv, evidence-excerpts.md, with the remaining review records. Verify this acceptance condition: Themes link to original reviews and sample limits are explicit. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Packaging Mockup Concept Studio"
+  short_description: "Packaging Mockup Concept Studio"
+  default_prompt: "Use $aihive-en-packaging-mockup-concept-studio with my approved artwork. Produce panel-map.csv, concept-mockups/, with the remaining review records. Verify this acceptance condition: Mockups preserve actual panel relationships and are not mislabeled print-ready files. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

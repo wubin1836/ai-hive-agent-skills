@@ -1,0 +1,6 @@
+interface:
+  display_name: "Plant-Based Restaurant Story Kit"
+  short_description: "Plant-Based Restaurant Story Kit"
+  default_prompt: "Use $aihive-en-plant-based-restaurant-story-kit with my approved recipes. Produce ingredient-claim-map.csv, story-cards.md, with the remaining review records. Verify this acceptance condition: No allergen-free, vegan or certification status is inferred visually. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

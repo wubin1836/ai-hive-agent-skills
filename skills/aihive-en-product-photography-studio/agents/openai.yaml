@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Photography Studio"
+  short_description: "Product Photography Studio"
+  default_prompt: "Use $aihive-en-product-photography-studio for this task: AI product photography. Inspect my authorized materials and confirm the target output. Explain missing tools and approval requirements before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Launch Content Planner"
+  short_description: "Product Launch Content Planner"
+  default_prompt: "Use $aihive-en-product-launch-content-planner with my confirmed launch date. Produce launch-calendar.csv, asset-register.json, with the remaining review records. Verify this acceptance condition: Nothing is marked launch-ready without required assets and approvals. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

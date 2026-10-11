@@ -7198,7 +7198,7 @@
 | [课程问答可见范围与学员权限测试](skills/aihive-persona-next-course-access-tests/SKILL.md) | AI-HIVE | AI workflows |
 | [达人报价单权益口径对齐](skills/aihive-persona-next-creator-ratecard-alignment/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7582,3 +7582,58 @@
 | [Manufacturing Product Brochure Builder](skills/aihive-en-manufacturing-product-brochure-builder/SKILL.md) | AI-HIVE | AI workflows |
 | [Marketplace Product Image Checker](skills/aihive-en-marketplace-product-image-checker/SKILL.md) | AI-HIVE | AI workflows |
 | [Media Generation Job Tracker](skills/aihive-en-media-generation-job-tracker/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [Meeting Action Tracker](skills/aihive-en-meeting-action-tracker/SKILL.md) | AI-HIVE | AI workflows |
+| [Meeting Minutes Generator](skills/aihive-en-meeting-minutes-generator/SKILL.md) | AI-HIVE | AI workflows |
+| [Mocktail Menu Launch Kit](skills/aihive-en-mocktail-menu-launch-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Model ID & Availability Checker](skills/aihive-en-model-id-availability-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Multi-Character Voice Director](skills/aihive-en-multi-character-voice-director/SKILL.md) | AI-HIVE | AI workflows |
+| [Multi-Model Access Planner](skills/aihive-en-multi-model-access-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [Multi-Reference Image Composer](skills/aihive-en-multi-reference-image-composer/SKILL.md) | AI-HIVE | AI workflows |
+| [Multilingual Voiceover Studio](skills/aihive-en-multilingual-voiceover-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Nail Art Service Catalog Builder](skills/aihive-en-nail-art-service-catalog-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [NPC Dialogue Asset Builder](skills/aihive-en-npc-dialogue-asset-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Online Course Curriculum Builder](skills/aihive-en-online-course-curriculum-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Packaged Food Product Content Kit](skills/aihive-en-packaged-food-product-content-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Packaging Label Accuracy Checker](skills/aihive-en-packaging-label-accuracy-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Packaging Mockup Concept Studio](skills/aihive-en-packaging-mockup-concept-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Payment Matching & Reconciliation](skills/aihive-en-payment-matching-reconciliation/SKILL.md) | AI-HIVE | AI workflows |
+| [PDF Compression Assistant](skills/aihive-en-pdf-compression-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [PDF Form Filling Assistant](skills/aihive-en-pdf-form-filling-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [PDF Research & Citation Assistant](skills/aihive-en-pdf-research-citation-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [PDF Tables to Excel](skills/aihive-en-pdf-tables-to-excel/SKILL.md) | AI-HIVE | AI workflows |
+| [PDF to Editable Word](skills/aihive-en-pdf-to-editable-word/SKILL.md) | AI-HIVE | AI workflows |
+| [Personal Brand Starter Kit](skills/aihive-en-personal-brand-starter-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Pet Grooming Portfolio Builder](skills/aihive-en-pet-grooming-portfolio-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Pet Product Content Studio](skills/aihive-en-pet-product-content-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Photo Object Remover](skills/aihive-en-photo-object-remover/SKILL.md) | AI-HIVE | AI workflows |
+| [Photo Restoration Studio](skills/aihive-en-photo-restoration-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Photo Style Transformer](skills/aihive-en-photo-style-transformer/SKILL.md) | AI-HIVE | AI workflows |
+| [Photography Studio Booking Portfolio](skills/aihive-en-photography-studio-booking-portfolio/SKILL.md) | AI-HIVE | AI workflows |
+| [Pixel Game Scene Concept Studio](skills/aihive-en-pixel-game-scene-concept-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Plant-Based Restaurant Story Kit](skills/aihive-en-plant-based-restaurant-story-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Portfolio Submission Checker](skills/aihive-en-portfolio-submission-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [PowerPoint Presentation Builder](skills/aihive-en-powerpoint-presentation-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Presentation Redesign Assistant](skills/aihive-en-presentation-redesign-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Process Diagram Builder](skills/aihive-en-process-diagram-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Assortment Planning Assistant](skills/aihive-en-product-assortment-planning-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Background Changer](skills/aihive-en-product-background-changer/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Demo Video Builder](skills/aihive-en-product-demo-video-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Detail Page Content Builder](skills/aihive-en-product-detail-page-content-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Image File Naming Assistant](skills/aihive-en-product-image-file-naming-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Launch Content Planner](skills/aihive-en-product-launch-content-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Launch Teaser Maker](skills/aihive-en-product-launch-teaser-maker/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Listing Preflight Checker](skills/aihive-en-product-listing-preflight-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Photo Retoucher](skills/aihive-en-product-photo-retoucher/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Photography Studio](skills/aihive-en-product-photography-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Pricing Scenario Builder](skills/aihive-en-product-pricing-scenario-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Review Insights Analyzer](skills/aihive-en-product-review-insights-analyzer/SKILL.md) | AI-HIVE | AI workflows |
+| [Product Spin Preview Builder](skills/aihive-en-product-spin-preview-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Professional Headshot Studio](skills/aihive-en-professional-headshot-studio/SKILL.md) | AI-HIVE | AI workflows |
+| [Project Plan & Risk Register](skills/aihive-en-project-plan-risk-register/SKILL.md) | AI-HIVE | AI workflows |
+| [Project Proposal & Scope Builder](skills/aihive-en-project-proposal-scope-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Project Timesheet Consolidator](skills/aihive-en-project-timesheet-consolidator/SKILL.md) | AI-HIVE | AI workflows |

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Demo Video Builder"
+  short_description: "Product Demo Video Builder"
+  default_prompt: "Use $aihive-en-product-demo-video-builder with my verified product features. Produce demo-script.md, footage-map.csv, with the remaining review records. Verify this acceptance condition: The workflow shown is real and limitations remain visible. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

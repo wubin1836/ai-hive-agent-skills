@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nail Art Service Catalog Builder"
+  short_description: "Nail Art Service Catalog Builder"
+  default_prompt: "Use $aihive-en-nail-art-service-catalog-builder with my authorized nail designs. Produce nail-style-cards/, option-time-matrix.csv, with the remaining review records. Verify this acceptance condition: Designs offered as services are confirmed feasible by the technician. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

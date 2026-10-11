@@ -1,0 +1,6 @@
+interface:
+  display_name: "Packaging Label Accuracy Checker"
+  short_description: "Packaging Label Accuracy Checker"
+  default_prompt: "Use $aihive-en-packaging-label-accuracy-checker with my approved package copy. Produce panel-copy-diff.csv, logo-review.md, with the remaining review records. Verify this acceptance condition: Every claimed mismatch references approved copy or artwork. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

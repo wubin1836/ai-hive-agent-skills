@@ -1,0 +1,6 @@
+interface:
+  display_name: "PDF Compression Assistant"
+  short_description: "PDF Compression Assistant"
+  default_prompt: "Use $aihive-en-pdf-compression-assistant with my source PDF. Produce compressed.pdf, size-report.json, with the remaining review records. Verify this acceptance condition: The smaller file retains all required functionality. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

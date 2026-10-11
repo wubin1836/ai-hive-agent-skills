@@ -1,0 +1,6 @@
+interface:
+  display_name: "Photo Object Remover"
+  short_description: "Photo Object Remover with verified outputs"
+  default_prompt: "Use $aihive-en-photo-object-remover with my authorized photo. Produce cleaned-image/, mask-preview/, with the remaining review records. Verify this acceptance condition: The requested object is removed without collateral changes. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

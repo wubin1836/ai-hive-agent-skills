@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mocktail Menu Launch Kit"
+  short_description: "Mocktail Menu Launch Kit with verified outputs"
+  default_prompt: "Use $aihive-en-mocktail-menu-launch-kit with my approved mocktail recipes. Produce recipe-photo-map.csv, menu-launch-copy.md, with the remaining review records. Verify this acceptance condition: The content matches actual recipes without inferred medical suitability. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

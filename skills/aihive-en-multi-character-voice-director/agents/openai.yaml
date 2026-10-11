@@ -1,0 +1,6 @@
+interface:
+  display_name: "Multi-Character Voice Director"
+  short_description: "Multi-Character Voice Director"
+  default_prompt: "Use $aihive-en-multi-character-voice-director with my dialogue script. Produce casting-sheet.csv, dialogue-tracks/, with the remaining review records. Verify this acceptance condition: Every line maps to the correct speaker and permitted voice. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true
