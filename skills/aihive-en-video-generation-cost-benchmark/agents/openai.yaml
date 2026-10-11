@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Generation Cost Benchmark"
+  short_description: "Video Generation Cost Benchmark"
+  default_prompt: "Use $aihive-en-video-generation-cost-benchmark with my matched video brief. Produce video-benchmark.csv, attempt-ledger.json, with the remaining review records. Verify this acceptance condition: The comparison accounts for duration, resolution and accepted results. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

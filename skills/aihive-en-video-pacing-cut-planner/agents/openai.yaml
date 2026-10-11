@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Pacing & Cut Planner"
+  short_description: "Video Pacing & Cut Planner"
+  default_prompt: "Use $aihive-en-video-pacing-cut-planner with my source video. Produce pacing-map.csv, cut-proposals.csv, with the remaining review records. Verify this acceptance condition: Proposed cuts have real source boundaries and preserve necessary context. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

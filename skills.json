@@ -63242,5 +63242,158 @@
     "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
     "path": "skills/aihive-en-vacation-rental-guest-guide-builder",
     "language": "en"
+  },
+  {
+    "name": "aihive-en-video-ad-variation-tester",
+    "display_name": "Video Ad Variation Tester",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-ad-variation-tester",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-video-color-consistency-checker",
+    "display_name": "Video Color Consistency Checker",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-color-consistency-checker",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-video-generation-cost-benchmark",
+    "display_name": "Video Generation Cost Benchmark",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-generation-cost-benchmark",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-video-hook-testing-kit",
+    "display_name": "Video Hook Testing Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-hook-testing-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-video-pacing-cut-planner",
+    "display_name": "Video Pacing & Cut Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-pacing-cut-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-video-quality-repair-assistant",
+    "display_name": "Video Quality Repair Assistant",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-quality-repair-assistant",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-video-subtitle-extractor",
+    "display_name": "Video Subtitle Extractor",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-subtitle-extractor",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-video-to-audio-converter",
+    "display_name": "Video-to-Audio Converter",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-to-audio-converter",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-video-to-carousel-converter",
+    "display_name": "Video-to-Carousel Converter",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-to-carousel-converter",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-video-transition-planner",
+    "display_name": "Video Transition Planner",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-video-transition-planner",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-virtual-try-on-lookbook",
+    "display_name": "Virtual Try-On Lookbook",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-virtual-try-on-lookbook",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-website-accessibility-review",
+    "display_name": "Website Accessibility Review",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-website-accessibility-review",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-website-seo-audit-assistant",
+    "display_name": "Website SEO Audit Assistant",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-website-seo-audit-assistant",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-wedding-vendor-package-builder",
+    "display_name": "Wedding Vendor Package Builder",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-wedding-vendor-package-builder",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-word-document-creator-editor",
+    "display_name": "Word Document Creator & Editor",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-word-document-creator-editor",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-yoga-studio-class-launch-kit",
+    "display_name": "Yoga Studio Class Launch Kit",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-yoga-studio-class-launch-kit",
+    "language": "en"
+  },
+  {
+    "name": "aihive-en-youtube-thumbnail-studio",
+    "display_name": "YouTube Thumbnail Studio",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-English-266-Complete-Skills-20260924",
+    "path": "skills/aihive-en-youtube-thumbnail-studio",
+    "language": "en"
   }
 ]

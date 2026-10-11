@@ -1,0 +1,6 @@
+interface:
+  display_name: "Word Document Creator & Editor"
+  short_description: "Word Document Creator & Editor"
+  default_prompt: "Use $aihive-en-word-document-creator-editor with my source content or DOCX. Produce document.docx, preview/, with the remaining review records. Verify this acceptance condition: The document opens and styles, content and pagination were verified. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

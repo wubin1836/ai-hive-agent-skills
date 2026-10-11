@@ -1,0 +1,6 @@
+interface:
+  display_name: "Website Accessibility Review"
+  short_description: "Website Accessibility Review"
+  default_prompt: "Use $aihive-en-website-accessibility-review with my authorized pages. Produce accessibility-findings.csv, reproduction-steps.md, with the remaining review records. Verify this acceptance condition: Findings are observed and no certification is claimed. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

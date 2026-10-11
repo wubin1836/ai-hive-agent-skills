@@ -1,0 +1,6 @@
+interface:
+  display_name: "YouTube Thumbnail Studio"
+  short_description: "YouTube Thumbnail Studio with verified outputs"
+  default_prompt: "Use $aihive-en-youtube-thumbnail-studio with my video subject. Produce thumbnail-variants/, variant-matrix.csv, with the remaining review records. Verify this acceptance condition: Thumbnails remain understandable and do not imply absent content. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

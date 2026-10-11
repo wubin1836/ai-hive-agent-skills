@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Color Consistency Checker"
+  short_description: "Video Color Consistency Checker"
+  default_prompt: "Use $aihive-en-video-color-consistency-checker with my source shots. Produce grade-notes.csv, comparison-stills/, with the remaining review records. Verify this acceptance condition: Shot-to-shot continuity is checked and color-space assumptions are documented. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

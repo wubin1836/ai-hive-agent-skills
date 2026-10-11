@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Transition Planner"
+  short_description: "Video Transition Planner with verified outputs"
+  default_prompt: "Use $aihive-en-video-transition-planner with my adjacent shots. Produce transition-map.csv, handle-check.md, with the remaining review records. Verify this acceptance condition: Each proposed effect can be supported by the available shot material. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

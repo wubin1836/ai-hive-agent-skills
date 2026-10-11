@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Quality Repair Assistant"
+  short_description: "Video Quality Repair Assistant"
+  default_prompt: "Use $aihive-en-video-quality-repair-assistant with my source footage. Produce repair-test/, settings.json, with the remaining review records. Verify this acceptance condition: Improvement is demonstrated without hidden cropping or invented detail claims. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

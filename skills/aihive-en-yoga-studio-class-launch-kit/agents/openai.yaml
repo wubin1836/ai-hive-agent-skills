@@ -1,0 +1,6 @@
+interface:
+  display_name: "Yoga Studio Class Launch Kit"
+  short_description: "Yoga Studio Class Launch Kit"
+  default_prompt: "Use $aihive-en-yoga-studio-class-launch-kit with my instructor-approved classes. Produce class-level-map.csv, launch-assets-plan.md, with the remaining review records. Verify this acceptance condition: Class descriptions match instructor-approved information. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

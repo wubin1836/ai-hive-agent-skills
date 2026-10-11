@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video-to-Audio Converter"
+  short_description: "Video-to-Audio Converter with verified outputs"
+  default_prompt: "Use $aihive-en-video-to-audio-converter with my source video. Produce extracted-audio/, stream-selection.json, with the remaining review records. Verify this acceptance condition: The output contains the correct track with expected duration and channels. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

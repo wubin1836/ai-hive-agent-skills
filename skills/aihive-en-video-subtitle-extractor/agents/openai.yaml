@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Subtitle Extractor"
+  short_description: "Video Subtitle Extractor with verified outputs"
+  default_prompt: "Use $aihive-en-video-subtitle-extractor with my authorized video. Produce subtitles.srt, transcript.md, with the remaining review records. Verify this acceptance condition: Subtitle timestamps fit the actual media duration and text is reviewable. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Ad Variation Tester"
+  short_description: "Video Ad Variation Tester"
+  default_prompt: "Use $aihive-en-video-ad-variation-tester with my baseline ad. Produce variant-matrix.csv, naming-manifest.json, with the remaining review records. Verify this acceptance condition: Each variant's change is identifiable and other variables are held constant. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true

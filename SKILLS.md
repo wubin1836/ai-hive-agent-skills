@@ -7308,7 +7308,7 @@
 | [张踩铃公开内容学习｜家庭日常口播与原创段子](skills/aihive-persona-zhangcailing-family-stories/SKILL.md) | AI-HIVE | AI workflows |
 | [住范儿公开内容学习｜装修报价对项与内容问答](skills/aihive-persona-zhufaner-renovation-quote/SKILL.md) | AI-HIVE | AI workflows |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7692,3 +7692,25 @@
 | [UGC Ad Video Creator](skills/aihive-en-ugc-ad-video-creator/SKILL.md) | AI-HIVE | AI workflows |
 | [UTM Link Builder & Validator](skills/aihive-en-utm-link-builder-validator/SKILL.md) | AI-HIVE | AI workflows |
 | [Vacation Rental Guest Guide Builder](skills/aihive-en-vacation-rental-guest-guide-builder/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [Video Ad Variation Tester](skills/aihive-en-video-ad-variation-tester/SKILL.md) | AI-HIVE | AI workflows |
+| [Video Color Consistency Checker](skills/aihive-en-video-color-consistency-checker/SKILL.md) | AI-HIVE | AI workflows |
+| [Video Generation Cost Benchmark](skills/aihive-en-video-generation-cost-benchmark/SKILL.md) | AI-HIVE | AI workflows |
+| [Video Hook Testing Kit](skills/aihive-en-video-hook-testing-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [Video Pacing & Cut Planner](skills/aihive-en-video-pacing-cut-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [Video Quality Repair Assistant](skills/aihive-en-video-quality-repair-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Video Subtitle Extractor](skills/aihive-en-video-subtitle-extractor/SKILL.md) | AI-HIVE | AI workflows |
+| [Video-to-Audio Converter](skills/aihive-en-video-to-audio-converter/SKILL.md) | AI-HIVE | AI workflows |
+| [Video-to-Carousel Converter](skills/aihive-en-video-to-carousel-converter/SKILL.md) | AI-HIVE | AI workflows |
+| [Video Transition Planner](skills/aihive-en-video-transition-planner/SKILL.md) | AI-HIVE | AI workflows |
+| [Virtual Try-On Lookbook](skills/aihive-en-virtual-try-on-lookbook/SKILL.md) | AI-HIVE | AI workflows |
+| [Website Accessibility Review](skills/aihive-en-website-accessibility-review/SKILL.md) | AI-HIVE | AI workflows |
+| [Website SEO Audit Assistant](skills/aihive-en-website-seo-audit-assistant/SKILL.md) | AI-HIVE | AI workflows |
+| [Wedding Vendor Package Builder](skills/aihive-en-wedding-vendor-package-builder/SKILL.md) | AI-HIVE | AI workflows |
+| [Word Document Creator & Editor](skills/aihive-en-word-document-creator-editor/SKILL.md) | AI-HIVE | AI workflows |
+| [Yoga Studio Class Launch Kit](skills/aihive-en-yoga-studio-class-launch-kit/SKILL.md) | AI-HIVE | AI workflows |
+| [YouTube Thumbnail Studio](skills/aihive-en-youtube-thumbnail-studio/SKILL.md) | AI-HIVE | AI workflows |

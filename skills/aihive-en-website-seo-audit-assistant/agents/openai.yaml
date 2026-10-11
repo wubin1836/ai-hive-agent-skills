@@ -1,0 +1,6 @@
+interface:
+  display_name: "Website SEO Audit Assistant"
+  short_description: "Website SEO Audit Assistant"
+  default_prompt: "Use $aihive-en-website-seo-audit-assistant with my authorized site URLs. Produce seo-findings.csv, page-evidence.md, with the remaining review records. Verify this acceptance condition: Findings contain URLs and reproducible observations rather than invented ranking metrics. Tell me what is missing before uploads, paid generation or external changes."
+policy:
+  allow_implicit_invocation: true
