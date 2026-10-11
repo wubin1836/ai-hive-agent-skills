@@ -1,0 +1,21 @@
+{
+  "sample_only": true,
+  "skill": "aihive-short-drama-mcn-operations",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创账号与业务目标"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "内容定位、角色设定、生产职责、商单验收",
+  "blocking_questions": []
+}

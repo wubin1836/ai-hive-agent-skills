@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-workflow-migration-ab-test",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "用户主动选择的迁移目标",
+    "授权导出",
+    "预算"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "能力映射、缺失能力、样片A/B、迁移决定清单",
+  "blocking_questions": []
+}

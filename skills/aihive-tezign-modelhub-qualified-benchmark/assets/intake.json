@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-tezign-modelhub-qualified-benchmark",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "真实任务样本",
+    "质量维度",
+    "时延预算",
+    "当日价格"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "同题评测表、每个合格结果成本、模型切换条件",
+  "blocking_questions": []
+}

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "影刀 AI WorkOS 同类搭建｜AI员工岗位与验收助手"
+  "short_description": "用成功/失败样例定义岗位验收，先划分可自动执行与必须审批的责任。"
+  "default_prompt": "使用 $aihive-workos-role-acceptance，按我提供的资料完成影刀 AI WorkOS 同类搭建｜AI员工岗位与验收助手，先确认缺项和执行权限，交付可核验文件。"

@@ -58742,5 +58742,455 @@
     "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
     "path": "skills/aihive-laiye-worker-sop-pack",
     "language": "zh-CN"
+  },
+  {
+    "name": "aihive-leyan-listing-localization",
+    "display_name": "乐言内容智造机同类｜跨境Listing本地化助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-leyan-listing-localization",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-lingee-employee-access",
+    "display_name": "金蝶灵基同类方案｜企业AI员工权限与交接助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-lingee-employee-access",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-lizhen-product-video-pilot",
+    "display_name": "丽帧引擎平替评估｜商品广告视频制作助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-lizhen-product-video-pilot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-luobota-shop-qa",
+    "display_name": "快麦小智萝卜塔同类客服｜商品知识库与售后分流助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-luobota-shop-qa",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-maiya-brand-story-placement",
+    "display_name": "麦芽传媒品牌短剧参考｜植入剧情策划助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-maiya-brand-story-placement",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-manhua-character-asset-registry",
+    "display_name": "漫剧角色资产库助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-manhua-character-asset-registry",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-manhua-rework-triage",
+    "display_name": "AI漫剧返工定位助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-manhua-rework-triage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-overseas-drama-local-culture",
+    "display_name": "海外短剧本土化助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-overseas-drama-local-culture",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-qimao-original-script-pitch",
+    "display_name": "七猫短剧投稿｜原创剧本提案整理助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-qimao-original-script-pitch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-reelbot-multimedia-taskboard",
+    "display_name": "万兴超媒Agent同类｜多媒体短片任务编排助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-reelbot-multimedia-taskboard",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-rongliang-script-to-pilot",
+    "display_name": "容量短剧制作参考｜剧本到样片交接助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-rongliang-script-to-pilot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-rpa-llm-response-contract",
+    "display_name": "RPA大模型接入助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-rpa-llm-response-contract",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shanhai-lean-shoot-plan",
+    "display_name": "山海短剧内容参考｜小成本竖屏剧制片助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-shanhai-lean-shoot-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-shareai-lead-handover",
+    "display_name": "纷享销客ShareAI同类｜销售线索与跟进助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-shareai-lead-handover",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-short-drama-mcn-operations",
+    "display_name": "短剧MCN助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-short-drama-mcn-operations",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-short-drama-production-scope",
+    "display_name": "短剧承制方案助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-short-drama-production-scope",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-stardust-market-pitch",
+    "display_name": "Stardust TV短剧出海｜本地化提案助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-stardust-market-pitch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-storyboard-shooting-checklist",
+    "display_name": "短剧分镜转拍摄清单助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-storyboard-shooting-checklist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-support-kb-acceptance-suite",
+    "display_name": "客服机器人知识库验收助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-support-kb-acceptance-suite",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-tezign-gea-content-handoffs",
+    "display_name": "特赞GEA同类工作流｜企业内容任务编排助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-tezign-gea-content-handoffs",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-tezign-modelhub-qualified-benchmark",
+    "display_name": "特赞Model Hub同类选型｜多模型任务评测助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-tezign-modelhub-qualified-benchmark",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-tinghuadao-character-motives",
+    "display_name": "听花岛短剧创作参考｜现实题材人物关系助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-tinghuadao-character-motives",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-wai-pro-brand-pilot",
+    "display_name": "微盟WAI Pro同类搭建｜品牌知识与营销流程助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-wai-pro-brand-pilot",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-workflow-migration-ab-test",
+    "display_name": "竞品工作流迁移评测助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-workflow-migration-ab-test",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-workos-role-acceptance",
+    "display_name": "影刀 AI WorkOS 同类搭建｜AI员工岗位与验收助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-workos-role-acceptance",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-xingya-vertical-pitch",
+    "display_name": "九州剧场与星芽短剧参考｜竖屏内容提案助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-xingya-vertical-pitch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-yingdao-document-return",
+    "display_name": "影刀RPA接入AI-HIVE｜单据理解与结构化回传",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-yingdao-document-return",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-yongpt-metric-dictionary",
+    "display_name": "用友YonGPT同类问数｜业务报表口径助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-yongpt-metric-dictionary",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-youxi-writer-director-bridge",
+    "display_name": "有戏AI同类流程｜短剧编剧导演交接助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品新品与短剧业务-64个Skill-20261009",
+    "path": "skills/aihive-youxi-writer-director-bridge",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-agri-opportunities",
+    "display_name": "智慧农业项目机会追踪助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-agri-opportunities",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-award-review",
+    "display_name": "中标结果复盘分析助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-award-review",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-bid-competitors",
+    "display_name": "竞争对手中标情报助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-bid-competitors",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-bilibili-submission",
+    "display_name": "B站投稿文案与章节助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-bilibili-submission",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-channels-cart-script",
+    "display_name": "视频号挂车口播脚本助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-channels-cart-script",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-purchase-intent",
+    "display_name": "采购意向商机追踪助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-purchase-intent",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-tender-discovery",
+    "display_name": "招标查询与标讯去重助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-tender-discovery",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-tender-market",
+    "display_name": "招投标行业情报分析助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-tender-market",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-tender-shortlist",
+    "display_name": "招投标项目匹配筛选助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-tender-shortlist",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-tender-watch",
+    "display_name": "标讯订阅与变更提醒助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-tender-watch",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-unity-development",
+    "display_name": "Unity游戏开发与性能排查助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-unity-development",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-gap-voice-pickups",
+    "display_name": "短视频逐句配音与补录助手",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-竞品截图查漏补缺-20260929",
+    "path": "skills/aihive-gap-voice-pickups",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-amu-joinery-explainer",
+    "display_name": "阿木爷爷公开内容学习｜榫卯结构学习卡与低风险演示",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-amu-joinery-explainer",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-article-archive-clean",
+    "display_name": "公众号历史归档清洗与原链接保留",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-article-archive-clean",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-branch-service-boundaries",
+    "display_name": "多门店客服营业时间与服务范围核对",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-branch-service-boundaries",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-brief-persona-conflicts",
+    "display_name": "商单Brief与自有人设事实冲突检查",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-brief-persona-conflicts",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-catlive-pet-footage",
+    "display_name": "花花与三猫CatLive公开内容学习｜萌宠素材行为标注与连续日记",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-catlive-pet-footage",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-chen-ensemble-beats",
+    "display_name": "陈翔六点半公开内容学习｜原创群像短喜剧与道具连续性",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-chen-ensemble-beats",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-comment-to-shoot-plan",
+    "display_name": "评论区需求聚类转下周拍摄清单",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-comment-to-shoot-plan",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-course-access-tests",
+    "display_name": "课程问答可见范围与学员权限测试",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-course-access-tests",
+    "language": "zh-CN"
+  },
+  {
+    "name": "aihive-persona-next-creator-ratecard-alignment",
+    "display_name": "达人报价单权益口径对齐",
+    "category": "AI workflows",
+    "brand": "AI-HIVE",
+    "batch": "AI-HIVE-行业博主与知识分身-扩展60个Skill-20260928",
+    "path": "skills/aihive-persona-next-creator-ratecard-alignment",
+    "language": "zh-CN"
   }
 ]

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "短剧承制方案助手"
+  "short_description": "把承制需求写成可报价、可验收和可管理变更的工作范围。"
+  "default_prompt": "使用 $aihive-short-drama-production-scope，按我提供的资料完成短剧承制方案助手，先确认缺项和执行权限，交付可核验文件。"

@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-workos-role-acceptance",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "岗位SOP",
+    "允许使用的系统",
+    "成功与失败样例"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "岗位卡、任务分解、工具权限表、人工审批点、验收用例",
+  "blocking_questions": []
+}

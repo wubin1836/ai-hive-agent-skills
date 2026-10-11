@@ -1,0 +1,16 @@
+{
+  "passed": false,
+  "files": [],
+  "errors": [
+    {
+      "path": "../outside.txt",
+      "code": "unsafe_path"
+    },
+    {
+      "path": "missing.txt",
+      "code": "missing_or_nonfile"
+    }
+  ],
+  "duplicate_content": [],
+  "scope": "仅文件存在性和哈希，不读取回显正文，不确认版权有效、内容合规或渠道审核"
+}

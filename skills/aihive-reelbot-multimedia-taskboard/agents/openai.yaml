@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "万兴超媒Agent同类｜多媒体短片任务编排助手"
+  "short_description": "把短片画面、旁白、配乐与剪辑依赖组织为一套可回收的任务板。"
+  "default_prompt": "使用 $aihive-reelbot-multimedia-taskboard，按我提供的资料完成万兴超媒Agent同类｜多媒体短片任务编排助手，先确认缺项和执行权限，交付可核验文件。"

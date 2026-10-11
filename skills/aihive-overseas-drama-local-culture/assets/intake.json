@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-overseas-drama-local-culture",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创剧本",
+    "受众地区",
+    "文化限制"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "文化冲突清单、自然化对白、情节调整说明",
+  "blocking_questions": []
+}

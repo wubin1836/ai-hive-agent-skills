@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-stardust-market-pitch",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "自有短剧梗概",
+    "目标市场",
+    "禁忌与译配要求"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "本地化改写建议、角色名称表、预告文案、多语素材清单",
+  "blocking_questions": []
+}

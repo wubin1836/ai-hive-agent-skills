@@ -1,0 +1,14 @@
+[
+  {
+    "id": "demo-1",
+    "start_s": 0,
+    "end_s": 3,
+    "source_ref": "fixture:人工例子，非真实媒体"
+  },
+  {
+    "id": "demo-2",
+    "start_s": 3,
+    "end_s": 8,
+    "source_ref": "fixture:人工例子，非真实媒体"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "sample_only": true,
+  "skill": "aihive-rpa-llm-response-contract",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "既有自动化流程与接口schema"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "模型请求/响应映射、失败处理、低风险测试",
+  "blocking_questions": []
+}

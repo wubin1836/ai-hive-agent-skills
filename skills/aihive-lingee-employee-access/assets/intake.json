@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-lingee-employee-access",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "部门目标",
+    "数据权限",
+    "现有系统和审批矩阵"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "岗位权限表、可执行与不可执行动作、输出验收、审计字段",
+  "blocking_questions": []
+}

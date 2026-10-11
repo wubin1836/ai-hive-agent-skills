@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-short-drama-production-scope",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "甲方Brief",
+    "时长",
+    "预算",
+    "资源"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "制作范围、交付里程碑、报价拆项与变更单",
+  "blocking_questions": []
+}

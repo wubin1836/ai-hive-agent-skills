@@ -1,0 +1,24 @@
+{
+  "title": "达人报价单权益口径对齐",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "方案ID",
+    "币种",
+    "含税状态",
+    "内容数量",
+    "授权期限",
+    "改稿次数",
+    "买量权限",
+    "缺失费用",
+    "可比范围",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "币种不同不直接排序；授权与制作费分开；不把未含税价伪装总价。"
+}

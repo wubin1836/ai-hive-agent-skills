@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-tezign-gea-content-handoffs",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "品牌手册",
+    "项目目标",
+    "角色职责",
+    "审核顺序"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "上下文资料包、角色任务单、依赖关系、审批与复盘表",
+  "blocking_questions": []
+}

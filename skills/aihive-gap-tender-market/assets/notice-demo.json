@@ -1,0 +1,21 @@
+[
+  {
+    "source_id": "DEMO",
+    "notice_id": "demo-n1",
+    "title": "虚构测试：校园网络设备采购",
+    "buyer": "虚构采购单位",
+    "project_id": "DEMO-P1",
+    "package_id": "1",
+    "notice_type": "tender",
+    "published_at": "2026-09-29",
+    "deadline": "2026-10-10T17:00:00+08:00",
+    "amount": "100",
+    "amount_unit": "万元",
+    "amount_type": "budget",
+    "currency": "CNY",
+    "region": "示例地区",
+    "category": "示例IT设备",
+    "source_ref": "fixture:demo-n1",
+    "observed_at": "2026-09-29T10:00:00+08:00"
+  }
+]

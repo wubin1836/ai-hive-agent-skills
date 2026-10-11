@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-maiya-brand-story-placement",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "品牌Brief",
+    "目标客群",
+    "真实卖点",
+    "授权素材"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "原创故事线、产品植入节点、分集脚本、拍摄清单",
+  "blocking_questions": []
+}

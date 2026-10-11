@@ -6762,7 +6762,7 @@
 | [参考海报信息层级重组助手](skills/imiva-layout-match-workflow/SKILL.md) | IMIVA | 爆款图复制 |
 | [旧商品图换视觉风格助手](skills/imiva-old-style-refresh-workflow/SKILL.md) | IMIVA | 爆款图复制 |
 
-## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+## 2026-10-11 最新成品技能
 
 | Skill | 品牌 | 分类 |
 |---|---|---|
@@ -7142,3 +7142,58 @@
 | [来也ADP同类处理｜订单单据抽取核对助手](skills/aihive-laiye-adp-order-audit/SKILL.md) | AI-HIVE | AI workflows |
 | [来也APA流程拆解｜跨系统任务交接助手](skills/aihive-laiye-apa-handoffs/SKILL.md) | AI-HIVE | AI workflows |
 | [来也AI员工同类助手｜从SOP制作岗位任务包](skills/aihive-laiye-worker-sop-pack/SKILL.md) | AI-HIVE | AI workflows |
+
+## 2026-09-26 新增 AI-HIVE 与 IMIVA 技能
+
+| Skill | 品牌 | 分类 |
+|---|---|---|
+| [乐言内容智造机同类｜跨境Listing本地化助手](skills/aihive-leyan-listing-localization/SKILL.md) | AI-HIVE | AI workflows |
+| [金蝶灵基同类方案｜企业AI员工权限与交接助手](skills/aihive-lingee-employee-access/SKILL.md) | AI-HIVE | AI workflows |
+| [丽帧引擎平替评估｜商品广告视频制作助手](skills/aihive-lizhen-product-video-pilot/SKILL.md) | AI-HIVE | AI workflows |
+| [快麦小智萝卜塔同类客服｜商品知识库与售后分流助手](skills/aihive-luobota-shop-qa/SKILL.md) | AI-HIVE | AI workflows |
+| [麦芽传媒品牌短剧参考｜植入剧情策划助手](skills/aihive-maiya-brand-story-placement/SKILL.md) | AI-HIVE | AI workflows |
+| [漫剧角色资产库助手](skills/aihive-manhua-character-asset-registry/SKILL.md) | AI-HIVE | AI workflows |
+| [AI漫剧返工定位助手](skills/aihive-manhua-rework-triage/SKILL.md) | AI-HIVE | AI workflows |
+| [海外短剧本土化助手](skills/aihive-overseas-drama-local-culture/SKILL.md) | AI-HIVE | AI workflows |
+| [七猫短剧投稿｜原创剧本提案整理助手](skills/aihive-qimao-original-script-pitch/SKILL.md) | AI-HIVE | AI workflows |
+| [万兴超媒Agent同类｜多媒体短片任务编排助手](skills/aihive-reelbot-multimedia-taskboard/SKILL.md) | AI-HIVE | AI workflows |
+| [容量短剧制作参考｜剧本到样片交接助手](skills/aihive-rongliang-script-to-pilot/SKILL.md) | AI-HIVE | AI workflows |
+| [RPA大模型接入助手](skills/aihive-rpa-llm-response-contract/SKILL.md) | AI-HIVE | AI workflows |
+| [山海短剧内容参考｜小成本竖屏剧制片助手](skills/aihive-shanhai-lean-shoot-plan/SKILL.md) | AI-HIVE | AI workflows |
+| [纷享销客ShareAI同类｜销售线索与跟进助手](skills/aihive-shareai-lead-handover/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧MCN助手](skills/aihive-short-drama-mcn-operations/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧承制方案助手](skills/aihive-short-drama-production-scope/SKILL.md) | AI-HIVE | AI workflows |
+| [Stardust TV短剧出海｜本地化提案助手](skills/aihive-stardust-market-pitch/SKILL.md) | AI-HIVE | AI workflows |
+| [短剧分镜转拍摄清单助手](skills/aihive-storyboard-shooting-checklist/SKILL.md) | AI-HIVE | AI workflows |
+| [客服机器人知识库验收助手](skills/aihive-support-kb-acceptance-suite/SKILL.md) | AI-HIVE | AI workflows |
+| [特赞GEA同类工作流｜企业内容任务编排助手](skills/aihive-tezign-gea-content-handoffs/SKILL.md) | AI-HIVE | AI workflows |
+| [特赞Model Hub同类选型｜多模型任务评测助手](skills/aihive-tezign-modelhub-qualified-benchmark/SKILL.md) | AI-HIVE | AI workflows |
+| [听花岛短剧创作参考｜现实题材人物关系助手](skills/aihive-tinghuadao-character-motives/SKILL.md) | AI-HIVE | AI workflows |
+| [微盟WAI Pro同类搭建｜品牌知识与营销流程助手](skills/aihive-wai-pro-brand-pilot/SKILL.md) | AI-HIVE | AI workflows |
+| [竞品工作流迁移评测助手](skills/aihive-workflow-migration-ab-test/SKILL.md) | AI-HIVE | AI workflows |
+| [影刀 AI WorkOS 同类搭建｜AI员工岗位与验收助手](skills/aihive-workos-role-acceptance/SKILL.md) | AI-HIVE | AI workflows |
+| [九州剧场与星芽短剧参考｜竖屏内容提案助手](skills/aihive-xingya-vertical-pitch/SKILL.md) | AI-HIVE | AI workflows |
+| [影刀RPA接入AI-HIVE｜单据理解与结构化回传](skills/aihive-yingdao-document-return/SKILL.md) | AI-HIVE | AI workflows |
+| [用友YonGPT同类问数｜业务报表口径助手](skills/aihive-yongpt-metric-dictionary/SKILL.md) | AI-HIVE | AI workflows |
+| [有戏AI同类流程｜短剧编剧导演交接助手](skills/aihive-youxi-writer-director-bridge/SKILL.md) | AI-HIVE | AI workflows |
+| [智慧农业项目机会追踪助手](skills/aihive-gap-agri-opportunities/SKILL.md) | AI-HIVE | AI workflows |
+| [中标结果复盘分析助手](skills/aihive-gap-award-review/SKILL.md) | AI-HIVE | AI workflows |
+| [竞争对手中标情报助手](skills/aihive-gap-bid-competitors/SKILL.md) | AI-HIVE | AI workflows |
+| [B站投稿文案与章节助手](skills/aihive-gap-bilibili-submission/SKILL.md) | AI-HIVE | AI workflows |
+| [视频号挂车口播脚本助手](skills/aihive-gap-channels-cart-script/SKILL.md) | AI-HIVE | AI workflows |
+| [采购意向商机追踪助手](skills/aihive-gap-purchase-intent/SKILL.md) | AI-HIVE | AI workflows |
+| [招标查询与标讯去重助手](skills/aihive-gap-tender-discovery/SKILL.md) | AI-HIVE | AI workflows |
+| [招投标行业情报分析助手](skills/aihive-gap-tender-market/SKILL.md) | AI-HIVE | AI workflows |
+| [招投标项目匹配筛选助手](skills/aihive-gap-tender-shortlist/SKILL.md) | AI-HIVE | AI workflows |
+| [标讯订阅与变更提醒助手](skills/aihive-gap-tender-watch/SKILL.md) | AI-HIVE | AI workflows |
+| [Unity游戏开发与性能排查助手](skills/aihive-gap-unity-development/SKILL.md) | AI-HIVE | AI workflows |
+| [短视频逐句配音与补录助手](skills/aihive-gap-voice-pickups/SKILL.md) | AI-HIVE | AI workflows |
+| [阿木爷爷公开内容学习｜榫卯结构学习卡与低风险演示](skills/aihive-persona-next-amu-joinery-explainer/SKILL.md) | AI-HIVE | AI workflows |
+| [公众号历史归档清洗与原链接保留](skills/aihive-persona-next-article-archive-clean/SKILL.md) | AI-HIVE | AI workflows |
+| [多门店客服营业时间与服务范围核对](skills/aihive-persona-next-branch-service-boundaries/SKILL.md) | AI-HIVE | AI workflows |
+| [商单Brief与自有人设事实冲突检查](skills/aihive-persona-next-brief-persona-conflicts/SKILL.md) | AI-HIVE | AI workflows |
+| [花花与三猫CatLive公开内容学习｜萌宠素材行为标注与连续日记](skills/aihive-persona-next-catlive-pet-footage/SKILL.md) | AI-HIVE | AI workflows |
+| [陈翔六点半公开内容学习｜原创群像短喜剧与道具连续性](skills/aihive-persona-next-chen-ensemble-beats/SKILL.md) | AI-HIVE | AI workflows |
+| [评论区需求聚类转下周拍摄清单](skills/aihive-persona-next-comment-to-shoot-plan/SKILL.md) | AI-HIVE | AI workflows |
+| [课程问答可见范围与学员权限测试](skills/aihive-persona-next-course-access-tests/SKILL.md) | AI-HIVE | AI workflows |
+| [达人报价单权益口径对齐](skills/aihive-persona-next-creator-ratecard-alignment/SKILL.md) | AI-HIVE | AI workflows |

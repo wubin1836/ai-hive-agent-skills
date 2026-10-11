@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "快麦小智萝卜塔同类客服｜商品知识库与售后分流助手"
+  "short_description": "把商品知识、适用SKU和售后政策组织成可验收的客服问答。"
+  "default_prompt": "使用 $aihive-luobota-shop-qa，按我提供的资料完成快麦小智萝卜塔同类客服｜商品知识库与售后分流助手，先确认缺项和执行权限，交付可核验文件。"

@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-lizhen-product-video-pilot",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "商品图",
+    "真实卖点",
+    "目标渠道",
+    "授权清单"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "广告分镜、生成任务、素材版本、抽检记录、同题费用对照",
+  "blocking_questions": []
+}

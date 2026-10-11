@@ -1,0 +1,21 @@
+{
+  "title": "花花与三猫CatLive公开内容学习｜萌宠素材行为标注与连续日记",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "素材ID",
+    "时间码",
+    "可见动作",
+    "拟人化台词",
+    "前后衔接",
+    "拍摄备注",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每个镜头可回到原素材；不套用博主猫咪身份或名字；不能伪造宠物治疗效果。"
+}

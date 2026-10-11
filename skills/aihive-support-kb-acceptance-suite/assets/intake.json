@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-support-kb-acceptance-suite",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "审核知识",
+    "测试问题",
+    "禁答规则"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "测试集、证据引用、错答统计、转人工覆盖率",
+  "blocking_questions": []
+}

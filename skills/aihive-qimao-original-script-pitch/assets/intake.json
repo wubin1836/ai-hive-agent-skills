@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-qimao-original-script-pitch",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "自有原创大纲",
+    "角色",
+    "指定征稿规则"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "投稿梗概、人物小传、分集提案、权利材料清单",
+  "blocking_questions": []
+}

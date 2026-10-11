@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-shareai-lead-handover",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "脱敏CRM导出",
+    "客户需求",
+    "评分规则"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "线索分级、证据字段、跟进草稿、销售交接卡",
+  "blocking_questions": []
+}

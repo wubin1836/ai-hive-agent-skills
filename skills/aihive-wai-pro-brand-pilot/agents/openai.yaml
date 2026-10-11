@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "微盟WAI Pro同类搭建｜品牌知识与营销流程助手"
+  "short_description": "把品牌知识治理与一条营销试点流程合在一起验收。交付可核验文件与人工复核清单。"
+  "default_prompt": "使用 $aihive-wai-pro-brand-pilot，按我提供的资料完成微盟WAI Pro同类搭建｜品牌知识与营销流程助手，先确认缺项和执行权限，交付可核验文件。"

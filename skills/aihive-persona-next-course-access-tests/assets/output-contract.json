@@ -1,0 +1,23 @@
+{
+  "title": "课程问答可见范围与学员权限测试",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "用例ID",
+    "模拟角色",
+    "问题",
+    "允许模块",
+    "实际引用模块",
+    "期望行为",
+    "测试状态",
+    "修复建议",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "未执行测试写待执行；不得把不可读课程片段放进普通角色提示词。"
+}

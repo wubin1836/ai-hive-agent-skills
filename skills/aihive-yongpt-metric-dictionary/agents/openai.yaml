@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "用友YonGPT同类问数｜业务报表口径助手"
+  "short_description": "把业务问数转成口径明确、可复算的指标与证据表。交付可核验文件与人工复核清单。"
+  "default_prompt": "使用 $aihive-yongpt-metric-dictionary，按我提供的资料完成用友YonGPT同类问数｜业务报表口径助手，先确认缺项和执行权限，交付可核验文件。"

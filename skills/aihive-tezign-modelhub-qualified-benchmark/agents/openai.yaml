@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "特赞Model Hub同类选型｜多模型任务评测助手"
+  "short_description": "在同样输入与验收标准下比较模型，按合格结果成本而非标价决策。"
+  "default_prompt": "使用 $aihive-tezign-modelhub-qualified-benchmark，按我提供的资料完成特赞Model\
+    \ Hub同类选型｜多模型任务评测助手，先确认缺项和执行权限，交付可核验文件。"

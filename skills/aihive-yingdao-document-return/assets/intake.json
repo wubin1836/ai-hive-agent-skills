@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-yingdao-document-return",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "现有RPA步骤",
+    "单据样本",
+    "字段schema"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "字段抽取JSON、置信/缺失项、RPA输入输出映射、失败转人工清单",
+  "blocking_questions": []
+}

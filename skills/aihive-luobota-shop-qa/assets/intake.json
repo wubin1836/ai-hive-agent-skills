@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-luobota-shop-qa",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "商品资料",
+    "店铺售后政策",
+    "脱敏咨询样本"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "FAQ证据库、问答测试集、售前售后分类、拒答与转人工规则",
+  "blocking_questions": []
+}

@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": "brief",
+      "depends_on": []
+    },
+    {
+      "id": "review",
+      "depends_on": [
+        "brief"
+      ],
+      "approval_required": true,
+      "approver": "项目负责人"
+    }
+  ]
+}

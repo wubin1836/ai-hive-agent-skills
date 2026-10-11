@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-yongpt-metric-dictionary",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "导出报表",
+    "数据字典",
+    "明确业务问题"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "口径确认、可复算指标、证据表、答复说明",
+  "blocking_questions": []
+}

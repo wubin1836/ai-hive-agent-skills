@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "麦芽传媒品牌短剧参考｜植入剧情策划助手"
+  "short_description": "为品牌短剧设计自然植入与剧情价值，不复用MCN的作品或达人。"
+  "default_prompt": "使用 $aihive-maiya-brand-story-placement，按我提供的资料完成麦芽传媒品牌短剧参考｜植入剧情策划助手，先确认缺项和执行权限，交付可核验文件。"

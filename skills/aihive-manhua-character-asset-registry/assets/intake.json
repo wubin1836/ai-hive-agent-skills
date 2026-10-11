@@ -1,0 +1,21 @@
+{
+  "sample_only": true,
+  "skill": "aihive-manhua-character-asset-registry",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创设定和合法参考图"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "角色卡、服装/道具版本、镜头绑定、复用索引",
+  "blocking_questions": []
+}

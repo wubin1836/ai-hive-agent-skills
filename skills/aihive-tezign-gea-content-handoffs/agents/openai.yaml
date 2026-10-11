@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "特赞GEA同类工作流｜企业内容任务编排助手"
+  "short_description": "把企业内容项目拆成带上下文版本和审批责任的生产任务。"
+  "default_prompt": "使用 $aihive-tezign-gea-content-handoffs，按我提供的资料完成特赞GEA同类工作流｜企业内容任务编排助手，先确认缺项和执行权限，交付可核验文件。"

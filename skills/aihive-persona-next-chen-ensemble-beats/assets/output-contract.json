@@ -1,0 +1,22 @@
+{
+  "title": "陈翔六点半公开内容学习｜原创群像短喜剧与道具连续性",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "场次",
+    "角色目标",
+    "已知信息",
+    "冲突",
+    "道具状态",
+    "反转",
+    "连续性问题",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "反转前有铺垫；演员与场景在预算内；剧情与原作品不同。"
+}

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "竞品工作流迁移评测助手"
+  "short_description": "只在用户主动选择替代评估时做能力映射与A/B试制，保留无法替代项。"
+  "default_prompt": "使用 $aihive-workflow-migration-ab-test，按我提供的资料完成竞品工作流迁移评测助手，先确认缺项和执行权限，交付可核验文件。"

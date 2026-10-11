@@ -1,0 +1,23 @@
+{
+  "title": "公众号历史归档清洗与原链接保留",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "记录ID",
+    "原标题",
+    "原链接",
+    "发布日期",
+    "版本",
+    "重复组",
+    "保留建议",
+    "待补字段",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "原文件不删除；所有输入条目都有映射；同标题不同正文不误删。"
+}

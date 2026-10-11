@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "七猫短剧投稿｜原创剧本提案整理助手"
+  "short_description": "将原创剧本压缩为征稿方能评估的提案，保留权利与结构证据。"
+  "default_prompt": "使用 $aihive-qimao-original-script-pitch，按我提供的资料完成七猫短剧投稿｜原创剧本提案整理助手，先确认缺项和执行权限，交付可核验文件。"

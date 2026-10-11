@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-youxi-writer-director-bridge",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创剧情梗概",
+    "角色关系",
+    "时长与预算"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "剧情节点、导演意图、镜头表、阶段审批清单",
+  "blocking_questions": []
+}

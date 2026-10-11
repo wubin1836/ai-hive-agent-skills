@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-xingya-vertical-pitch",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创题材",
+    "目标观众",
+    "计划集数",
+    "样片"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "受众假设、分集简介、封面提案、宣发文案",
+  "blocking_questions": []
+}

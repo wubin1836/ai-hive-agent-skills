@@ -1,0 +1,18 @@
+{
+  "required": [
+    "order_id",
+    "total"
+  ],
+  "fields": [
+    {
+      "name": "order_id",
+      "value": "SAMPLE-001",
+      "source": "虚构样例第1页"
+    },
+    {
+      "name": "total",
+      "value": "100.00 CNY",
+      "source": "虚构样例第1页合计"
+    }
+  ]
+}

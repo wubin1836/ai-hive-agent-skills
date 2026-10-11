@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "容量短剧制作参考｜剧本到样片交接助手"
+  "short_description": "把锁定剧本转成样片拍摄资源与可审阅交接。交付可核验文件与人工复核清单。"
+  "default_prompt": "使用 $aihive-rongliang-script-to-pilot，按我提供的资料完成容量短剧制作参考｜剧本到样片交接助手，先确认缺项和执行权限，交付可核验文件。"

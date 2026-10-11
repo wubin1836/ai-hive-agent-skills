@@ -1,0 +1,10 @@
+{
+  "records": [
+    {
+      "output_id": "sample-a",
+      "cost": "NaN",
+      "currency": "CNY",
+      "accepted": true
+    }
+  ]
+}

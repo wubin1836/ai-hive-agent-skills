@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-storyboard-shooting-checklist",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "已确认分镜",
+    "拍摄场地",
+    "道具和档期"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "场景合并拍摄顺序、机位表、道具表、日拍摄单",
+  "blocking_questions": []
+}

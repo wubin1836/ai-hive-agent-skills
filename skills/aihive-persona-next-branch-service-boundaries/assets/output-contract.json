@@ -1,0 +1,23 @@
+{
+  "title": "多门店客服营业时间与服务范围核对",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "咨询ID",
+    "门店ID",
+    "询问日期",
+    "营业时段依据",
+    "服务范围依据",
+    "冲突",
+    "回复草稿",
+    "人工确认",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "门店和日期同时匹配；没有实时排班不承诺可预约。"
+}

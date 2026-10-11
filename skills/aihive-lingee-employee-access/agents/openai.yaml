@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "金蝶灵基同类方案｜企业AI员工权限与交接助手"
+  "short_description": "用部门职责与数据权限矩阵制定企业AI岗位的最小授权和交接规范。"
+  "default_prompt": "使用 $aihive-lingee-employee-access，按我提供的资料完成金蝶灵基同类方案｜企业AI员工权限与交接助手，先确认缺项和执行权限，交付可核验文件。"

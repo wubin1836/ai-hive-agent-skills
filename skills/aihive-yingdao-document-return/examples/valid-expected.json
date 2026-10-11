@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "business_status": "ready_for_review",
+  "errors": [],
+  "scope": "仅检查字段存在与来源文本；不验证来源真实、OCR正确或财务法律结论"
+}

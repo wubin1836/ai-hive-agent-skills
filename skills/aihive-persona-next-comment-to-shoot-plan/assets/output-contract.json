@@ -1,0 +1,23 @@
+{
+  "title": "评论区需求聚类转下周拍摄清单",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "需求ID",
+    "需求类别",
+    "独立评论数",
+    "用户问题摘要",
+    "拍摄题目",
+    "资料缺口",
+    "道具",
+    "优先原因",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "计数能回查；不将评论样本外推全体粉丝；拍摄数不超资源上限。"
+}

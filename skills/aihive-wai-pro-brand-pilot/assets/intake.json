@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-wai-pro-brand-pilot",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "企业知识",
+    "场景清单",
+    "现有接口",
+    "权限范围"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "知识治理清单、场景流程设计、试点验收与成本表",
+  "blocking_questions": []
+}

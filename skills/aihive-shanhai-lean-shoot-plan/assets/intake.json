@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-shanhai-lean-shoot-plan",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创故事",
+    "场景与演员资源",
+    "拍摄天数"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "合并场次方案、道具复用表、分集拍摄清单、风险清单",
+  "blocking_questions": []
+}

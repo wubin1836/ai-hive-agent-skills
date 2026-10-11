@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "AI漫剧返工定位助手"
+  "short_description": "按根因和依赖定位最小返工范围，控制重生成成本。交付可核验文件与人工复核清单。"
+  "default_prompt": "使用 $aihive-manhua-rework-triage，按我提供的资料完成AI漫剧返工定位助手，先确认缺项和执行权限，交付可核验文件。"

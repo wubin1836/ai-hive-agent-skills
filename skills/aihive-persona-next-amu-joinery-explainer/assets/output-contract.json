@@ -1,0 +1,21 @@
+{
+  "title": "阿木爷爷公开内容学习｜榫卯结构学习卡与低风险演示",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "构件",
+    "连接关系",
+    "运动约束",
+    "尺寸依据",
+    "纸板演示",
+    "未知项",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "模型只用于概念；不把猜测尺寸给施工；不提供危险机床操作。"
+}

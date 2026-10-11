@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-reelbot-multimedia-taskboard",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "短片Brief",
+    "素材",
+    "旁白",
+    "交付规格"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "分镜计划、画面/声音任务、素材索引、剪辑交接包",
+  "blocking_questions": []
+}

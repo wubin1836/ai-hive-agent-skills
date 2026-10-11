@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "山海短剧内容参考｜小成本竖屏剧制片助手"
+  "short_description": "在有限场景、演员和拍摄天数下优化竖屏剧拍摄顺序。交付可核验文件与人工复核清单。"
+  "default_prompt": "使用 $aihive-shanhai-lean-shoot-plan，按我提供的资料完成山海短剧内容参考｜小成本竖屏剧制片助手，先确认缺项和执行权限，交付可核验文件。"

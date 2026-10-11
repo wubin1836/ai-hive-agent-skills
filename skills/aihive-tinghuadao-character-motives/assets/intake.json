@@ -1,0 +1,23 @@
+{
+  "sample_only": true,
+  "skill": "aihive-tinghuadao-character-motives",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创人物设定",
+    "生活素材",
+    "目标观众"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "关系图、主线冲突、人物动机检查、分集修改建议",
+  "blocking_questions": []
+}

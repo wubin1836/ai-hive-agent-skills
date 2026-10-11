@@ -1,0 +1,22 @@
+{
+  "title": "商单Brief与自有人设事实冲突检查",
+  "output_file": "工作表.csv",
+  "encoding": "utf-8-sig",
+  "required_columns": [
+    "row_id",
+    "要求ID",
+    "brief要求",
+    "本人事实",
+    "冲突类型",
+    "风险说明",
+    "事实一致改写",
+    "待确认方",
+    "source_id"
+  ],
+  "source_id_separator": ";",
+  "non_factual_markers": [
+    "INFERENCE",
+    "UNKNOWN"
+  ],
+  "acceptance": "每个第一人称体验有输入支持；不存在无法证明的功效和使用时长。"
+}

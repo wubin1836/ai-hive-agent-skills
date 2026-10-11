@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-rongliang-script-to-pilot",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "原创剧本",
+    "可用场地",
+    "演员/数字角色",
+    "预算"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "场次拆分、演员与道具表、拍摄优先级、样片评审表",
+  "blocking_questions": []
+}

@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "skill": "aihive-manhua-rework-triage",
+  "objective": "请填写实际业务目标",
+  "materials_required": [
+    "样片",
+    "验收标准",
+    "素材版本",
+    "反馈"
+  ],
+  "material_references": [],
+  "rights_confirmed": false,
+  "sensitive_data_removed": false,
+  "allowed_actions": [
+    "draft_only"
+  ],
+  "budget": {
+    "currency": "CNY",
+    "cap": null,
+    "approved": false
+  },
+  "requested_outputs": "问题归因、最小重生成范围、任务依赖、返工预算",
+  "blocking_questions": []
+}

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "海外短剧本土化助手"
+  "short_description": "把文化障碍转成可审阅改编选项，保持人物动机和故事功能。"
+  "default_prompt": "使用 $aihive-overseas-drama-local-culture，按我提供的资料完成海外短剧本土化助手，先确认缺项和执行权限，交付可核验文件。"
